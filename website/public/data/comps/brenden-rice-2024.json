@@ -1,0 +1,89 @@
+{
+  "prospectId": "brenden-rice-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Antoine Green",
+      "college": "North Carolina",
+      "year": 2023,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.441
+    },
+    {
+      "rank": 2,
+      "name": "Toney Clemons",
+      "college": "Colorado",
+      "year": 2012,
+      "round": 7,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.432
+    },
+    {
+      "rank": 3,
+      "name": "Braxton Berrios",
+      "college": "Miami (FL)",
+      "year": 2018,
+      "round": 6,
+      "pick": 210,
+      "ppg": 3.9319,
+      "rawPpg": 2.9156,
+      "madeIt": false,
+      "similarity": 0.414
+    },
+    {
+      "rank": 4,
+      "name": "Kenny Lawler",
+      "college": "California",
+      "year": 2016,
+      "round": 7,
+      "pick": 243,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.41
+    },
+    {
+      "rank": 5,
+      "name": "Jeremy Ebert",
+      "college": "Northwestern",
+      "year": 2012,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.401
+    },
+    {
+      "rank": 6,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.399
+    },
+    {
+      "rank": 7,
+      "name": "Freddie Swain",
+      "college": "Florida",
+      "year": 2020,
+      "round": 6,
+      "pick": 214,
+      "ppg": 4.4311,
+      "rawPpg": 3.4995,
+      "madeIt": false,
+      "similarity": 0.398
+    }
+  ]
+}

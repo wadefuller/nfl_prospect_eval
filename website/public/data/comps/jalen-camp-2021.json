@@ -1,0 +1,89 @@
+{
+  "prospectId": "jalen-camp-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Joe Webb",
+      "college": "Ala-Birmingham",
+      "year": 2010,
+      "round": 6,
+      "pick": 199,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.65
+    },
+    {
+      "rank": 2,
+      "name": "Russell Gage",
+      "college": "LSU",
+      "year": 2018,
+      "round": 6,
+      "pick": 194,
+      "ppg": 6.8868,
+      "rawPpg": 7.2581,
+      "madeIt": true,
+      "similarity": 0.555
+    },
+    {
+      "rank": 3,
+      "name": "Brice Butler",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 7,
+      "pick": 209,
+      "ppg": 4.3877,
+      "rawPpg": 2.9429,
+      "madeIt": false,
+      "similarity": 0.5
+    },
+    {
+      "rank": 4,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.494
+    },
+    {
+      "rank": 5,
+      "name": "Michael Woods II",
+      "college": "Oklahoma",
+      "year": 2022,
+      "round": 6,
+      "pick": 202,
+      "ppg": 4.4318,
+      "rawPpg": 0.9286,
+      "madeIt": false,
+      "similarity": 0.492
+    },
+    {
+      "rank": 6,
+      "name": "Charone Peake",
+      "college": "Clemson",
+      "year": 2016,
+      "round": 7,
+      "pick": 241,
+      "ppg": 3.7362,
+      "rawPpg": 1.4625,
+      "madeIt": false,
+      "similarity": 0.487
+    },
+    {
+      "rank": 7,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
+      "madeIt": false,
+      "similarity": 0.426
+    }
+  ]
+}

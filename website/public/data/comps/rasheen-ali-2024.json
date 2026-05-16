@@ -1,0 +1,89 @@
+{
+  "prospectId": "rasheen-ali-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tyler Gaffney",
+      "college": "Stanford",
+      "year": 2014,
+      "round": 6,
+      "pick": 204,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.36
+    },
+    {
+      "rank": 2,
+      "name": "James Starks",
+      "college": "Buffalo",
+      "year": 2010,
+      "round": 6,
+      "pick": 193,
+      "ppg": 7.3894,
+      "rawPpg": 6.8154,
+      "madeIt": true,
+      "similarity": 0.256
+    },
+    {
+      "rank": 3,
+      "name": "Ryquell Armstead",
+      "college": "Temple",
+      "year": 2019,
+      "round": 5,
+      "pick": 140,
+      "ppg": 5.6109,
+      "rawPpg": 3.1571,
+      "madeIt": true,
+      "similarity": 0.249
+    },
+    {
+      "rank": 4,
+      "name": "Jamaal Williams",
+      "college": "BYU",
+      "year": 2017,
+      "round": 4,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
+      "madeIt": true,
+      "similarity": 0.247
+    },
+    {
+      "rank": 5,
+      "name": "Mike Gillislee",
+      "college": "Florida",
+      "year": 2013,
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.184
+    },
+    {
+      "rank": 6,
+      "name": "Terrance Ganaway",
+      "college": "Baylor",
+      "year": 2012,
+      "round": 6,
+      "pick": 202,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.181
+    },
+    {
+      "rank": 7,
+      "name": "Jordan Scarlett",
+      "college": "Florida",
+      "year": 2019,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.18
+    }
+  ]
+}

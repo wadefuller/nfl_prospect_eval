@@ -1,0 +1,89 @@
+{
+  "prospectId": "kyle-williams-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "JJ Arcega-Whiteside",
+      "college": "Stanford",
+      "year": 2019,
+      "round": 2,
+      "pick": 57,
+      "ppg": 3.9979,
+      "rawPpg": 1.8786,
+      "madeIt": false,
+      "similarity": 0.521
+    },
+    {
+      "rank": 2,
+      "name": "Tre'Quan Smith",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 91,
+      "ppg": 6.3865,
+      "rawPpg": 6.6462,
+      "madeIt": true,
+      "similarity": 0.463
+    },
+    {
+      "rank": 3,
+      "name": "Leonard Hankerson",
+      "college": "Miami (FL)",
+      "year": 2011,
+      "round": 3,
+      "pick": 79,
+      "ppg": 6.2861,
+      "rawPpg": 6.585,
+      "madeIt": true,
+      "similarity": 0.441
+    },
+    {
+      "rank": 4,
+      "name": "Torrey Smith",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 2,
+      "pick": 58,
+      "ppg": 8.973,
+      "rawPpg": 10.5198,
+      "madeIt": true,
+      "similarity": 0.436
+    },
+    {
+      "rank": 5,
+      "name": "Dante Pettis",
+      "college": "Washington",
+      "year": 2018,
+      "round": 2,
+      "pick": 44,
+      "ppg": 5.7965,
+      "rawPpg": 5.3633,
+      "madeIt": true,
+      "similarity": 0.422
+    },
+    {
+      "rank": 6,
+      "name": "Tee Higgins",
+      "college": "Clemson",
+      "year": 2020,
+      "round": 2,
+      "pick": 33,
+      "ppg": 10.4871,
+      "rawPpg": 13.0714,
+      "madeIt": true,
+      "similarity": 0.407
+    },
+    {
+      "rank": 7,
+      "name": "Stedman Bailey",
+      "college": "West Virginia",
+      "year": 2013,
+      "round": 3,
+      "pick": 92,
+      "ppg": 5.336,
+      "rawPpg": 4.649,
+      "madeIt": true,
+      "similarity": 0.395
+    }
+  ]
+}

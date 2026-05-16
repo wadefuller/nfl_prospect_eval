@@ -1,0 +1,89 @@
+{
+  "prospectId": "braelon-allen-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Maurice Clarett",
+      "college": "Ohio St.",
+      "year": 2005,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.245
+    },
+    {
+      "rank": 2,
+      "name": "Dennis Morris",
+      "college": "Louisiana Tech",
+      "year": 2010,
+      "round": 6,
+      "pick": 174,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.234
+    },
+    {
+      "rank": 3,
+      "name": "Jordan Howard",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 5,
+      "pick": 150,
+      "ppg": 11.2325,
+      "rawPpg": 13.0679,
+      "madeIt": true,
+      "similarity": 0.229
+    },
+    {
+      "rank": 4,
+      "name": "Manuel White",
+      "college": "UCLA",
+      "year": 2005,
+      "round": 4,
+      "pick": 120,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.218
+    },
+    {
+      "rank": 5,
+      "name": "Isaiah Spiller",
+      "college": "Texas A&M",
+      "year": 2022,
+      "round": 4,
+      "pick": 123,
+      "ppg": 5.6051,
+      "rawPpg": 1.7778,
+      "madeIt": true,
+      "similarity": 0.214
+    },
+    {
+      "rank": 6,
+      "name": "DeeJay Dallas",
+      "college": "Miami (FL)",
+      "year": 2020,
+      "round": 4,
+      "pick": 144,
+      "ppg": 5.2888,
+      "rawPpg": 4.1477,
+      "madeIt": true,
+      "similarity": 0.197
+    },
+    {
+      "rank": 7,
+      "name": "Wayne Gallman",
+      "college": "Clemson",
+      "year": 2017,
+      "round": 4,
+      "pick": 140,
+      "ppg": 6.7034,
+      "rawPpg": 5.753,
+      "madeIt": true,
+      "similarity": 0.19
+    }
+  ]
+}

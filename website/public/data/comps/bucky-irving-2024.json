@@ -1,0 +1,89 @@
+{
+  "prospectId": "bucky-irving-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "James White",
+      "college": "Wisconsin",
+      "year": 2014,
+      "round": 4,
+      "pick": 130,
+      "ppg": 8.1461,
+      "rawPpg": 8.3906,
+      "madeIt": true,
+      "similarity": 0.24
+    },
+    {
+      "rank": 2,
+      "name": "Ito Smith",
+      "college": "Southern Miss",
+      "year": 2018,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.6424,
+      "rawPpg": 5.4385,
+      "madeIt": true,
+      "similarity": 0.204
+    },
+    {
+      "rank": 3,
+      "name": "Zack Moss",
+      "college": "Utah",
+      "year": 2020,
+      "round": 3,
+      "pick": 86,
+      "ppg": 7.4388,
+      "rawPpg": 7.2423,
+      "madeIt": true,
+      "similarity": 0.189
+    },
+    {
+      "rank": 4,
+      "name": "Paul Perkins",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 149,
+      "ppg": 5.5534,
+      "rawPpg": 3.575,
+      "madeIt": true,
+      "similarity": 0.187
+    },
+    {
+      "rank": 5,
+      "name": "Devonta Freeman",
+      "college": "Florida St.",
+      "year": 2014,
+      "round": 4,
+      "pick": 103,
+      "ppg": 14.0665,
+      "rawPpg": 17.3644,
+      "madeIt": true,
+      "similarity": 0.155
+    },
+    {
+      "rank": 6,
+      "name": "Tyler Ervin",
+      "college": "San Jose St.",
+      "year": 2016,
+      "round": 4,
+      "pick": 119,
+      "ppg": 3.5872,
+      "rawPpg": 0.4278,
+      "madeIt": false,
+      "similarity": 0.144
+    },
+    {
+      "rank": 7,
+      "name": "Michael Carter",
+      "college": "North Carolina",
+      "year": 2021,
+      "round": 4,
+      "pick": 107,
+      "ppg": 7.9571,
+      "rawPpg": 8.1683,
+      "madeIt": true,
+      "similarity": 0.143
+    }
+  ]
+}

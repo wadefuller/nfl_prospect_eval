@@ -1,0 +1,89 @@
+{
+  "prospectId": "adam-randall-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Spencer Ware",
+      "college": "LSU",
+      "year": 2013,
+      "round": 6,
+      "pick": 194,
+      "ppg": 8.1571,
+      "rawPpg": 8.8667,
+      "madeIt": true,
+      "similarity": 0.216
+    },
+    {
+      "rank": 2,
+      "name": "Latavius Murray",
+      "college": "Central Florida",
+      "year": 2013,
+      "round": 6,
+      "pick": 181,
+      "ppg": 8.5695,
+      "rawPpg": 8.7286,
+      "madeIt": true,
+      "similarity": 0.184
+    },
+    {
+      "rank": 3,
+      "name": "Rodney Anderson",
+      "college": "Oklahoma",
+      "year": 2019,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.169
+    },
+    {
+      "rank": 4,
+      "name": "Luke Staley",
+      "college": "BYU",
+      "year": 2002,
+      "round": 7,
+      "pick": 214,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.167
+    },
+    {
+      "rank": 5,
+      "name": "Jamaal Williams",
+      "college": "BYU",
+      "year": 2017,
+      "round": 4,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
+      "madeIt": true,
+      "similarity": 0.161
+    },
+    {
+      "rank": 6,
+      "name": "Mike James",
+      "college": "Miami (FL)",
+      "year": 2013,
+      "round": 6,
+      "pick": 189,
+      "ppg": 7.2612,
+      "rawPpg": 6.1257,
+      "madeIt": true,
+      "similarity": 0.161
+    },
+    {
+      "rank": 7,
+      "name": "Boston Scott",
+      "college": "Louisiana Tech",
+      "year": 2018,
+      "round": 6,
+      "pick": 201,
+      "ppg": 7.1738,
+      "rawPpg": 7.4247,
+      "madeIt": true,
+      "similarity": 0.161
+    }
+  ]
+}

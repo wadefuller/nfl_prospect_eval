@@ -1,0 +1,89 @@
+{
+  "prospectId": "tory-horton-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marquez Stevenson",
+      "college": "Houston",
+      "year": 2021,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.282
+    },
+    {
+      "rank": 2,
+      "name": "Collin Johnson",
+      "college": "Texas",
+      "year": 2020,
+      "round": 5,
+      "pick": 165,
+      "ppg": 4.6181,
+      "rawPpg": 3.2818,
+      "madeIt": false,
+      "similarity": 0.246
+    },
+    {
+      "rank": 3,
+      "name": "Geremy Davis",
+      "college": "Connecticut",
+      "year": 2015,
+      "round": 6,
+      "pick": 186,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.238
+    },
+    {
+      "rank": 4,
+      "name": "JJ Nelson",
+      "college": "Ala-Birmingham",
+      "year": 2015,
+      "round": 5,
+      "pick": 159,
+      "ppg": 6.4463,
+      "rawPpg": 6.8295,
+      "madeIt": true,
+      "similarity": 0.231
+    },
+    {
+      "rank": 5,
+      "name": "Ryan Whalen",
+      "college": "Stanford",
+      "year": 2011,
+      "round": 6,
+      "pick": 167,
+      "ppg": 4.5318,
+      "rawPpg": 1.2571,
+      "madeIt": false,
+      "similarity": 0.226
+    },
+    {
+      "rank": 6,
+      "name": "Ryan Grant",
+      "college": "Tulane",
+      "year": 2014,
+      "round": 5,
+      "pick": 142,
+      "ppg": 4.3342,
+      "rawPpg": 2.6548,
+      "madeIt": false,
+      "similarity": 0.203
+    },
+    {
+      "rank": 7,
+      "name": "Rashard Higgins",
+      "college": "Colorado St.",
+      "year": 2016,
+      "round": 5,
+      "pick": 172,
+      "ppg": 5.7961,
+      "rawPpg": 5.764,
+      "madeIt": true,
+      "similarity": 0.2
+    }
+  ]
+}

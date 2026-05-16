@@ -1,0 +1,89 @@
+{
+  "prospectId": "justin-shorter-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Niles Paul",
+      "college": "Nebraska",
+      "year": 2011,
+      "round": 5,
+      "pick": 155,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.429
+    },
+    {
+      "rank": 2,
+      "name": "Carlton Mitchell",
+      "college": "South Florida",
+      "year": 2010,
+      "round": 6,
+      "pick": 177,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.417
+    },
+    {
+      "rank": 3,
+      "name": "Trevor Davis",
+      "college": "California",
+      "year": 2016,
+      "round": 5,
+      "pick": 163,
+      "ppg": 2.9777,
+      "rawPpg": 0.9788,
+      "madeIt": false,
+      "similarity": 0.402
+    },
+    {
+      "rank": 4,
+      "name": "Chris Harper",
+      "college": "Kansas St.",
+      "year": 2013,
+      "round": 4,
+      "pick": 123,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.399
+    },
+    {
+      "rank": 5,
+      "name": "Martavis Bryant",
+      "college": "Clemson",
+      "year": 2014,
+      "round": 4,
+      "pick": 118,
+      "ppg": 9.6684,
+      "rawPpg": 12.455,
+      "madeIt": true,
+      "similarity": 0.395
+    },
+    {
+      "rank": 6,
+      "name": "Shelton Gibson",
+      "college": "West Virginia",
+      "year": 2017,
+      "round": 5,
+      "pick": 166,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.342
+    },
+    {
+      "rank": 7,
+      "name": "Darius Slayton",
+      "college": "Auburn",
+      "year": 2019,
+      "round": 5,
+      "pick": 171,
+      "ppg": 7.7703,
+      "rawPpg": 8.8393,
+      "madeIt": true,
+      "similarity": 0.335
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "isiah-pacheco-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kylin Hill",
+      "college": "Mississippi St.",
+      "year": 2021,
+      "round": 7,
+      "pick": 256,
+      "ppg": 5.3137,
+      "rawPpg": 0.425,
+      "madeIt": true,
+      "similarity": 0.169
+    },
+    {
+      "rank": 2,
+      "name": "Khalil Herbert",
+      "college": "Virginia Tech",
+      "year": 2021,
+      "round": 6,
+      "pick": 217,
+      "ppg": 8.2909,
+      "rawPpg": 8.6285,
+      "madeIt": true,
+      "similarity": 0.166
+    },
+    {
+      "rank": 3,
+      "name": "Jay Finley",
+      "college": "Baylor",
+      "year": 2011,
+      "round": 7,
+      "pick": 246,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.146
+    },
+    {
+      "rank": 4,
+      "name": "David Williams",
+      "college": "Arkansas",
+      "year": 2018,
+      "round": 7,
+      "pick": 226,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.14
+    },
+    {
+      "rank": 5,
+      "name": "Da'Rel Scott",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 7,
+      "pick": 221,
+      "ppg": 5.4795,
+      "rawPpg": 0.2714,
+      "madeIt": true,
+      "similarity": 0.13
+    },
+    {
+      "rank": 6,
+      "name": "Rodney Anderson",
+      "college": "Oklahoma",
+      "year": 2019,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.129
+    },
+    {
+      "rank": 7,
+      "name": "Ahmaad Galloway",
+      "college": "Alabama",
+      "year": 2003,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.124
+    }
+  ]
+}

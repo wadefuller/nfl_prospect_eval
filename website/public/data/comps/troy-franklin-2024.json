@@ -1,0 +1,89 @@
+{
+  "prospectId": "troy-franklin-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Dede Westbrook",
+      "college": "Oklahoma",
+      "year": 2017,
+      "round": 4,
+      "pick": 110,
+      "ppg": 7.822,
+      "rawPpg": 8.764,
+      "madeIt": true,
+      "similarity": 0.447
+    },
+    {
+      "rank": 2,
+      "name": "Tank Dell",
+      "college": "Houston",
+      "year": 2023,
+      "round": 3,
+      "pick": 69,
+      "ppg": 8.7858,
+      "rawPpg": 11.1643,
+      "madeIt": true,
+      "similarity": 0.424
+    },
+    {
+      "rank": 3,
+      "name": "Keke Coutee",
+      "college": "Texas Tech",
+      "year": 2018,
+      "round": 4,
+      "pick": 103,
+      "ppg": 7.2211,
+      "rawPpg": 8.5896,
+      "madeIt": true,
+      "similarity": 0.403
+    },
+    {
+      "rank": 4,
+      "name": "Markus Wheaton",
+      "college": "Oregon St.",
+      "year": 2013,
+      "round": 3,
+      "pick": 79,
+      "ppg": 6.8569,
+      "rawPpg": 7.3031,
+      "madeIt": true,
+      "similarity": 0.385
+    },
+    {
+      "rank": 5,
+      "name": "Mardy Gilyard",
+      "college": "Cincinnati",
+      "year": 2010,
+      "round": 4,
+      "pick": 99,
+      "ppg": 3.5744,
+      "rawPpg": 0.8429,
+      "madeIt": false,
+      "similarity": 0.382
+    },
+    {
+      "rank": 6,
+      "name": "Kealoha Pilares",
+      "college": "Hawaii",
+      "year": 2011,
+      "round": 5,
+      "pick": 132,
+      "ppg": 3.2666,
+      "rawPpg": 1.079,
+      "madeIt": false,
+      "similarity": 0.377
+    },
+    {
+      "rank": 7,
+      "name": "Tre'Quan Smith",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 91,
+      "ppg": 6.3865,
+      "rawPpg": 6.6462,
+      "madeIt": true,
+      "similarity": 0.377
+    }
+  ]
+}

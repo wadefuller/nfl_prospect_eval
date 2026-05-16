@@ -1,0 +1,89 @@
+{
+  "prospectId": "kevin-harris-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jonathan Williams",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 5,
+      "pick": 156,
+      "ppg": 5.6678,
+      "rawPpg": 1.4875,
+      "madeIt": true,
+      "similarity": 0.246
+    },
+    {
+      "rank": 2,
+      "name": "Rodney Anderson",
+      "college": "Oklahoma",
+      "year": 2019,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.212
+    },
+    {
+      "rank": 3,
+      "name": "Jordan Howard",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 5,
+      "pick": 150,
+      "ppg": 11.2325,
+      "rawPpg": 13.0679,
+      "madeIt": true,
+      "similarity": 0.17
+    },
+    {
+      "rank": 4,
+      "name": "Zac Stacy",
+      "college": "Vanderbilt",
+      "year": 2013,
+      "round": 5,
+      "pick": 160,
+      "ppg": 9.2113,
+      "rawPpg": 9.6372,
+      "madeIt": true,
+      "similarity": 0.165
+    },
+    {
+      "rank": 5,
+      "name": "Kenneth Gainwell",
+      "college": "Memphis",
+      "year": 2021,
+      "round": 5,
+      "pick": 150,
+      "ppg": 6.5293,
+      "rawPpg": 5.915,
+      "madeIt": true,
+      "similarity": 0.155
+    },
+    {
+      "rank": 6,
+      "name": "Ty Johnson",
+      "college": "Maryland",
+      "year": 2019,
+      "round": 6,
+      "pick": 186,
+      "ppg": 6.653,
+      "rawPpg": 5.847,
+      "madeIt": true,
+      "similarity": 0.147
+    },
+    {
+      "rank": 7,
+      "name": "Rex Burkhead",
+      "college": "Nebraska",
+      "year": 2013,
+      "round": 6,
+      "pick": 190,
+      "ppg": 4.2113,
+      "rawPpg": 1.8481,
+      "madeIt": false,
+      "similarity": 0.145
+    }
+  ]
+}

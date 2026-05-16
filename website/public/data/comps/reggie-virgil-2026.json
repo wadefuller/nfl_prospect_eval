@@ -1,0 +1,89 @@
+{
+  "prospectId": "reggie-virgil-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Puka Nacua",
+      "college": "BYU",
+      "year": 2023,
+      "round": 5,
+      "pick": 177,
+      "ppg": 13.3263,
+      "rawPpg": 17.2986,
+      "madeIt": true,
+      "similarity": 0.534
+    },
+    {
+      "rank": 2,
+      "name": "Demarcus Robinson",
+      "college": "Florida",
+      "year": 2016,
+      "round": 4,
+      "pick": 126,
+      "ppg": 4.7733,
+      "rawPpg": 3.8636,
+      "madeIt": false,
+      "similarity": 0.481
+    },
+    {
+      "rank": 3,
+      "name": "J'Mon Moore",
+      "college": "Missouri",
+      "year": 2018,
+      "round": 4,
+      "pick": 133,
+      "ppg": 4.2579,
+      "rawPpg": 0.3571,
+      "madeIt": false,
+      "similarity": 0.465
+    },
+    {
+      "rank": 4,
+      "name": "DeAngelo Yancey",
+      "college": "Purdue",
+      "year": 2017,
+      "round": 5,
+      "pick": 175,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.439
+    },
+    {
+      "rank": 5,
+      "name": "Josh Reynolds",
+      "college": "Texas A&M",
+      "year": 2017,
+      "round": 4,
+      "pick": 117,
+      "ppg": 5.2803,
+      "rawPpg": 5.1688,
+      "madeIt": true,
+      "similarity": 0.436
+    },
+    {
+      "rank": 6,
+      "name": "Fred Gibson",
+      "college": "Georgia",
+      "year": 2005,
+      "round": 4,
+      "pick": 131,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.428
+    },
+    {
+      "rank": 7,
+      "name": "Jon Olinger",
+      "college": "Cincinnati",
+      "year": 2003,
+      "round": 5,
+      "pick": 159,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.426
+    }
+  ]
+}

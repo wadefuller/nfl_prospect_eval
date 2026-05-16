@@ -1,0 +1,89 @@
+{
+  "prospectId": "kenny-mcintosh-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marion Grice",
+      "college": "Arizona St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 201,
+      "ppg": 6.3922,
+      "rawPpg": 2.75,
+      "madeIt": true,
+      "similarity": 0.152
+    },
+    {
+      "rank": 2,
+      "name": "David Williams",
+      "college": "Arkansas",
+      "year": 2018,
+      "round": 7,
+      "pick": 226,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.143
+    },
+    {
+      "rank": 3,
+      "name": "Dwayne Washington",
+      "college": "Washington",
+      "year": 2016,
+      "round": 7,
+      "pick": 236,
+      "ppg": 5.389,
+      "rawPpg": 3.0864,
+      "madeIt": true,
+      "similarity": 0.138
+    },
+    {
+      "rank": 4,
+      "name": "Marcus Murphy",
+      "college": "Missouri",
+      "year": 2015,
+      "round": 7,
+      "pick": 230,
+      "ppg": 4.4872,
+      "rawPpg": 0.4615,
+      "madeIt": false,
+      "similarity": 0.117
+    },
+    {
+      "rank": 5,
+      "name": "Theo Riddick",
+      "college": "Notre Dame",
+      "year": 2013,
+      "round": 6,
+      "pick": 199,
+      "ppg": 7.5739,
+      "rawPpg": 7.3322,
+      "madeIt": true,
+      "similarity": 0.103
+    },
+    {
+      "rank": 6,
+      "name": "Gerrid Doaks",
+      "college": "Cincinnati",
+      "year": 2021,
+      "round": 7,
+      "pick": 244,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.1
+    },
+    {
+      "rank": 7,
+      "name": "Zac Brooks",
+      "college": "Clemson",
+      "year": 2016,
+      "round": 7,
+      "pick": 247,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.099
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "keandre-lambert-smith-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Denarius Moore",
+      "college": "Tennessee",
+      "year": 2011,
+      "round": 5,
+      "pick": 148,
+      "ppg": 8.1598,
+      "rawPpg": 9.4149,
+      "madeIt": true,
+      "similarity": 0.609
+    },
+    {
+      "rank": 2,
+      "name": "John Hightower",
+      "college": "Boise St.",
+      "year": 2020,
+      "round": 5,
+      "pick": 168,
+      "ppg": 4.5858,
+      "rawPpg": 2.38,
+      "madeIt": false,
+      "similarity": 0.536
+    },
+    {
+      "rank": 3,
+      "name": "T.J. Jones",
+      "college": "Notre Dame",
+      "year": 2014,
+      "round": 6,
+      "pick": 189,
+      "ppg": 4.5897,
+      "rawPpg": 2.39,
+      "madeIt": false,
+      "similarity": 0.485
+    },
+    {
+      "rank": 4,
+      "name": "Jordan Lasley",
+      "college": "UCLA",
+      "year": 2018,
+      "round": 5,
+      "pick": 162,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.48
+    },
+    {
+      "rank": 5,
+      "name": "Riley Cooper",
+      "college": "Florida",
+      "year": 2010,
+      "round": 5,
+      "pick": 159,
+      "ppg": 4.8808,
+      "rawPpg": 4.2182,
+      "madeIt": false,
+      "similarity": 0.461
+    },
+    {
+      "rank": 6,
+      "name": "B.J. Cunningham",
+      "college": "Michigan St.",
+      "year": 2012,
+      "round": 6,
+      "pick": 183,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.456
+    },
+    {
+      "rank": 7,
+      "name": "Aldrick Robinson",
+      "college": "SMU",
+      "year": 2011,
+      "round": 6,
+      "pick": 178,
+      "ppg": 5.2929,
+      "rawPpg": 4.8962,
+      "madeIt": true,
+      "similarity": 0.452
+    }
+  ]
+}

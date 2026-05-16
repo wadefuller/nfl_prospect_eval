@@ -1,0 +1,89 @@
+{
+  "prospectId": "omarion-hampton-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Bijan Robinson",
+      "college": "Texas",
+      "year": 2023,
+      "round": 1,
+      "pick": 8,
+      "ppg": 15.3326,
+      "rawPpg": 18.8971,
+      "madeIt": true,
+      "similarity": 0.192
+    },
+    {
+      "rank": 2,
+      "name": "Breece Hall",
+      "college": "Iowa St.",
+      "year": 2022,
+      "round": 2,
+      "pick": 36,
+      "ppg": 12.0557,
+      "rawPpg": 14.9693,
+      "madeIt": true,
+      "similarity": 0.176
+    },
+    {
+      "rank": 3,
+      "name": "Ameer Abdullah",
+      "college": "Nebraska",
+      "year": 2015,
+      "round": 2,
+      "pick": 54,
+      "ppg": 7.4028,
+      "rawPpg": 7.2621,
+      "madeIt": true,
+      "similarity": 0.159
+    },
+    {
+      "rank": 4,
+      "name": "Montario Hardesty",
+      "college": "Tennessee",
+      "year": 2010,
+      "round": 2,
+      "pick": 59,
+      "ppg": 5.8751,
+      "rawPpg": 4.3294,
+      "madeIt": true,
+      "similarity": 0.155
+    },
+    {
+      "rank": 5,
+      "name": "Christian McCaffrey",
+      "college": "Stanford",
+      "year": 2017,
+      "round": 1,
+      "pick": 8,
+      "ppg": 18.111,
+      "rawPpg": 23.2875,
+      "madeIt": true,
+      "similarity": 0.155
+    },
+    {
+      "rank": 6,
+      "name": "Joe Mixon",
+      "college": "Oklahoma",
+      "year": 2017,
+      "round": 2,
+      "pick": 48,
+      "ppg": 12.0419,
+      "rawPpg": 14.4219,
+      "madeIt": true,
+      "similarity": 0.152
+    },
+    {
+      "rank": 7,
+      "name": "Mikel Leshoure",
+      "college": "Illinois",
+      "year": 2011,
+      "round": 2,
+      "pick": 57,
+      "ppg": 9.6776,
+      "rawPpg": 11.8714,
+      "madeIt": true,
+      "similarity": 0.151
+    }
+  ]
+}

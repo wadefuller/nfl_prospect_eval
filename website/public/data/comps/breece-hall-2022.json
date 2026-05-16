@@ -1,0 +1,89 @@
+{
+  "prospectId": "breece-hall-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ezekiel Elliott",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 1,
+      "pick": 4,
+      "ppg": 15.7419,
+      "rawPpg": 20,
+      "madeIt": true,
+      "similarity": 0.227
+    },
+    {
+      "rank": 2,
+      "name": "Ronnie Hillman",
+      "college": "San Diego St.",
+      "year": 2012,
+      "round": 3,
+      "pick": 67,
+      "ppg": 7.8675,
+      "rawPpg": 8.1653,
+      "madeIt": true,
+      "similarity": 0.203
+    },
+    {
+      "rank": 3,
+      "name": "Zach Charbonnet",
+      "college": "UCLA",
+      "year": 2023,
+      "round": 2,
+      "pick": 52,
+      "ppg": 9.4169,
+      "rawPpg": 10.2357,
+      "madeIt": true,
+      "similarity": 0.184
+    },
+    {
+      "rank": 4,
+      "name": "Bijan Robinson",
+      "college": "Texas",
+      "year": 2023,
+      "round": 1,
+      "pick": 8,
+      "ppg": 15.3326,
+      "rawPpg": 18.8971,
+      "madeIt": true,
+      "similarity": 0.178
+    },
+    {
+      "rank": 5,
+      "name": "Jonathan Taylor",
+      "college": "Wisconsin",
+      "year": 2020,
+      "round": 2,
+      "pick": 41,
+      "ppg": 14.8339,
+      "rawPpg": 18.212,
+      "madeIt": true,
+      "similarity": 0.173
+    },
+    {
+      "rank": 6,
+      "name": "Mikel Leshoure",
+      "college": "Illinois",
+      "year": 2011,
+      "round": 2,
+      "pick": 57,
+      "ppg": 9.6776,
+      "rawPpg": 11.8714,
+      "madeIt": true,
+      "similarity": 0.149
+    },
+    {
+      "rank": 7,
+      "name": "T.J. Yeldon",
+      "college": "Alabama",
+      "year": 2015,
+      "round": 2,
+      "pick": 36,
+      "ppg": 8.7146,
+      "rawPpg": 9.5025,
+      "madeIt": true,
+      "similarity": 0.145
+    }
+  ]
+}

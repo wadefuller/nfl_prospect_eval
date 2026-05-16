@@ -1,0 +1,89 @@
+{
+  "prospectId": "devontez-walker-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jehu Chesson",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 4,
+      "pick": 139,
+      "ppg": 3.5369,
+      "rawPpg": 0.3,
+      "madeIt": false,
+      "similarity": 0.552
+    },
+    {
+      "rank": 2,
+      "name": "J'Mon Moore",
+      "college": "Missouri",
+      "year": 2018,
+      "round": 4,
+      "pick": 133,
+      "ppg": 4.2579,
+      "rawPpg": 0.3571,
+      "madeIt": false,
+      "similarity": 0.517
+    },
+    {
+      "rank": 3,
+      "name": "Damian Williams",
+      "college": "USC",
+      "year": 2010,
+      "round": 3,
+      "pick": 77,
+      "ppg": 5.7848,
+      "rawPpg": 5.5464,
+      "madeIt": true,
+      "similarity": 0.515
+    },
+    {
+      "rank": 4,
+      "name": "Marquis Walker",
+      "college": "Michigan",
+      "year": 2002,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.508
+    },
+    {
+      "rank": 5,
+      "name": "Brandon LaFell",
+      "college": "LSU",
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
+      "madeIt": true,
+      "similarity": 0.507
+    },
+    {
+      "rank": 6,
+      "name": "Chase Lyman",
+      "college": "California",
+      "year": 2005,
+      "round": 4,
+      "pick": 118,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.496
+    },
+    {
+      "rank": 7,
+      "name": "Terry Charles",
+      "college": "Portland St.",
+      "year": 2002,
+      "round": 5,
+      "pick": 142,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.487
+    }
+  ]
+}

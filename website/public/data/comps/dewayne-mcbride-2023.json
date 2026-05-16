@@ -1,0 +1,89 @@
+{
+  "prospectId": "dewayne-mcbride-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Lache Seastrunk",
+      "college": "Baylor",
+      "year": 2014,
+      "round": 6,
+      "pick": 186,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.213
+    },
+    {
+      "rank": 2,
+      "name": "Jonathan Dwyer",
+      "college": "Georgia Tech",
+      "year": 2010,
+      "round": 6,
+      "pick": 188,
+      "ppg": 7.3803,
+      "rawPpg": 6.9154,
+      "madeIt": true,
+      "similarity": 0.139
+    },
+    {
+      "rank": 3,
+      "name": "Zach Evans",
+      "college": "Mississippi",
+      "year": 2023,
+      "round": 6,
+      "pick": 215,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.132
+    },
+    {
+      "rank": 4,
+      "name": "Jay Finley",
+      "college": "Baylor",
+      "year": 2011,
+      "round": 7,
+      "pick": 246,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.115
+    },
+    {
+      "rank": 5,
+      "name": "Raymond Calais",
+      "college": "Louisiana",
+      "year": 2020,
+      "round": 7,
+      "pick": 245,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.106
+    },
+    {
+      "rank": 6,
+      "name": "Kerrith Whyte Jr",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.2603,
+      "rawPpg": 2.2667,
+      "madeIt": true,
+      "similarity": 0.098
+    },
+    {
+      "rank": 7,
+      "name": "Kevin Harris",
+      "college": "South Carolina",
+      "year": 2022,
+      "round": 6,
+      "pick": 183,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.092
+    }
+  ]
+}

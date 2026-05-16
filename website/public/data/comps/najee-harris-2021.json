@@ -1,0 +1,89 @@
+{
+  "prospectId": "najee-harris-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Toby Gerhart",
+      "college": "Stanford",
+      "year": 2010,
+      "round": 2,
+      "pick": 51,
+      "ppg": 6.3289,
+      "rawPpg": 5.5667,
+      "madeIt": true,
+      "similarity": 0.204
+    },
+    {
+      "rank": 2,
+      "name": "Kerryon Johnson",
+      "college": "Auburn",
+      "year": 2018,
+      "round": 2,
+      "pick": 43,
+      "ppg": 9.6332,
+      "rawPpg": 11.17,
+      "madeIt": true,
+      "similarity": 0.146
+    },
+    {
+      "rank": 3,
+      "name": "Trent Richardson",
+      "college": "Alabama",
+      "year": 2012,
+      "round": 1,
+      "pick": 3,
+      "ppg": 10.2282,
+      "rawPpg": 11.6212,
+      "madeIt": true,
+      "similarity": 0.135
+    },
+    {
+      "rank": 4,
+      "name": "Daniel Thomas",
+      "college": "Kansas St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 62,
+      "ppg": 6.7472,
+      "rawPpg": 6.1633,
+      "madeIt": true,
+      "similarity": 0.135
+    },
+    {
+      "rank": 5,
+      "name": "Ronald Jones II",
+      "college": "USC",
+      "year": 2018,
+      "round": 2,
+      "pick": 38,
+      "ppg": 9.7223,
+      "rawPpg": 10.8661,
+      "madeIt": true,
+      "similarity": 0.122
+    },
+    {
+      "rank": 6,
+      "name": "Javonte Williams",
+      "college": "North Carolina",
+      "year": 2021,
+      "round": 2,
+      "pick": 35,
+      "ppg": 9.4536,
+      "rawPpg": 10.2597,
+      "madeIt": true,
+      "similarity": 0.121
+    },
+    {
+      "rank": 7,
+      "name": "Eddie Lacy",
+      "college": "Alabama",
+      "year": 2013,
+      "round": 2,
+      "pick": 61,
+      "ppg": 12.7814,
+      "rawPpg": 15.3625,
+      "madeIt": true,
+      "similarity": 0.118
+    }
+  ]
+}

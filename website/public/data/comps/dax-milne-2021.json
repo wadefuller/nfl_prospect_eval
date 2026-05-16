@@ -1,0 +1,89 @@
+{
+  "prospectId": "dax-milne-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devin Lucien",
+      "college": "Arizona St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 225,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.377
+    },
+    {
+      "rank": 2,
+      "name": "Marcell Ateman",
+      "college": "Oklahoma St.",
+      "year": 2018,
+      "round": 7,
+      "pick": 228,
+      "ppg": 5.4057,
+      "rawPpg": 4.1286,
+      "madeIt": true,
+      "similarity": 0.367
+    },
+    {
+      "rank": 3,
+      "name": "Demarcus Ayers",
+      "college": "Houston",
+      "year": 2016,
+      "round": 7,
+      "pick": 229,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.359
+    },
+    {
+      "rank": 4,
+      "name": "Dillon Mitchell",
+      "college": "Oregon",
+      "year": 2019,
+      "round": 7,
+      "pick": 239,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.349
+    },
+    {
+      "rank": 5,
+      "name": "Ronnie Bell",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 7,
+      "pick": 253,
+      "ppg": 4.2494,
+      "rawPpg": 2.1385,
+      "madeIt": false,
+      "similarity": 0.34
+    },
+    {
+      "rank": 6,
+      "name": "Samori Toure",
+      "college": "Nebraska",
+      "year": 2022,
+      "round": 7,
+      "pick": 258,
+      "ppg": 4.5513,
+      "rawPpg": 1.725,
+      "madeIt": false,
+      "similarity": 0.322
+    },
+    {
+      "rank": 7,
+      "name": "Colton Dowell",
+      "college": "UT Martin",
+      "year": 2023,
+      "round": 7,
+      "pick": 228,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.319
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "d-wayne-eskridge-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Josh Huff",
+      "college": "Oregon",
+      "year": 2014,
+      "round": 3,
+      "pick": 86,
+      "ppg": 4.6569,
+      "rawPpg": 3.73,
+      "madeIt": false,
+      "similarity": 0.358
+    },
+    {
+      "rank": 2,
+      "name": "Cordarrelle Patterson",
+      "college": "Tennessee",
+      "year": 2013,
+      "round": 1,
+      "pick": 29,
+      "ppg": 6.5257,
+      "rawPpg": 6.8062,
+      "madeIt": true,
+      "similarity": 0.321
+    },
+    {
+      "rank": 3,
+      "name": "Will Fuller",
+      "college": "Notre Dame",
+      "year": 2016,
+      "round": 1,
+      "pick": 21,
+      "ppg": 8.6343,
+      "rawPpg": 11.41,
+      "madeIt": true,
+      "similarity": 0.318
+    },
+    {
+      "rank": 4,
+      "name": "Chris Givens",
+      "college": "Wake Forest",
+      "year": 2012,
+      "round": 4,
+      "pick": 96,
+      "ppg": 5.9603,
+      "rawPpg": 6.0052,
+      "madeIt": true,
+      "similarity": 0.311
+    },
+    {
+      "rank": 5,
+      "name": "Brandon Aiyuk",
+      "college": "Arizona St.",
+      "year": 2020,
+      "round": 1,
+      "pick": 25,
+      "ppg": 9.7496,
+      "rawPpg": 11.9904,
+      "madeIt": true,
+      "similarity": 0.297
+    },
+    {
+      "rank": 6,
+      "name": "Jonathan Mingo",
+      "college": "Mississippi",
+      "year": 2023,
+      "round": 2,
+      "pick": 39,
+      "ppg": 4.054,
+      "rawPpg": 2.9564,
+      "madeIt": false,
+      "similarity": 0.296
+    },
+    {
+      "rank": 7,
+      "name": "Demaryius Thomas",
+      "college": "Georgia Tech",
+      "year": 2010,
+      "round": 1,
+      "pick": 22,
+      "ppg": 10.415,
+      "rawPpg": 12.48,
+      "madeIt": true,
+      "similarity": 0.281
+    }
+  ]
+}

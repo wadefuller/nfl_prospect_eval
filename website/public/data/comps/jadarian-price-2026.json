@@ -1,0 +1,89 @@
+{
+  "prospectId": "jadarian-price-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Todd Gurley",
+      "college": "Georgia",
+      "year": 2015,
+      "round": 1,
+      "pick": 10,
+      "ppg": 15.3029,
+      "rawPpg": 19.3215,
+      "madeIt": true,
+      "similarity": 0.308
+    },
+    {
+      "rank": 2,
+      "name": "Kendre Miller",
+      "college": "TCU",
+      "year": 2023,
+      "round": 3,
+      "pick": 71,
+      "ppg": 6.5182,
+      "rawPpg": 4.9524,
+      "madeIt": true,
+      "similarity": 0.171
+    },
+    {
+      "rank": 3,
+      "name": "Josh Jacobs",
+      "college": "Alabama",
+      "year": 2019,
+      "round": 1,
+      "pick": 24,
+      "ppg": 11.8302,
+      "rawPpg": 14.1446,
+      "madeIt": true,
+      "similarity": 0.146
+    },
+    {
+      "rank": 4,
+      "name": "Jeremy Hill",
+      "college": "LSU",
+      "year": 2014,
+      "round": 2,
+      "pick": 55,
+      "ppg": 10.3687,
+      "rawPpg": 11.6954,
+      "madeIt": true,
+      "similarity": 0.143
+    },
+    {
+      "rank": 5,
+      "name": "Ronald Jones II",
+      "college": "USC",
+      "year": 2018,
+      "round": 2,
+      "pick": 38,
+      "ppg": 9.7223,
+      "rawPpg": 10.8661,
+      "madeIt": true,
+      "similarity": 0.142
+    },
+    {
+      "rank": 6,
+      "name": "Eddie Lacy",
+      "college": "Alabama",
+      "year": 2013,
+      "round": 2,
+      "pick": 61,
+      "ppg": 12.7814,
+      "rawPpg": 15.3625,
+      "madeIt": true,
+      "similarity": 0.139
+    },
+    {
+      "rank": 7,
+      "name": "Nick Chubb",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 2,
+      "pick": 35,
+      "ppg": 12.7506,
+      "rawPpg": 15.7333,
+      "madeIt": true,
+      "similarity": 0.137
+    }
+  ]
+}

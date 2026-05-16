@@ -1,0 +1,89 @@
+{
+  "prospectId": "brian-robinson-jr-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Montario Hardesty",
+      "college": "Tennessee",
+      "year": 2010,
+      "round": 2,
+      "pick": 59,
+      "ppg": 5.8751,
+      "rawPpg": 4.3294,
+      "madeIt": true,
+      "similarity": 0.306
+    },
+    {
+      "rank": 2,
+      "name": "Javorius Allen",
+      "college": "USC",
+      "year": 2015,
+      "round": 4,
+      "pick": 125,
+      "ppg": 8.1339,
+      "rawPpg": 8.3219,
+      "madeIt": true,
+      "similarity": 0.18
+    },
+    {
+      "rank": 3,
+      "name": "Ke'Shawn Vaughn",
+      "college": "Illinois",
+      "year": 2020,
+      "round": 3,
+      "pick": 76,
+      "ppg": 6.4117,
+      "rawPpg": 4.6167,
+      "madeIt": true,
+      "similarity": 0.177
+    },
+    {
+      "rank": 4,
+      "name": "Zack Moss",
+      "college": "Utah",
+      "year": 2020,
+      "round": 3,
+      "pick": 86,
+      "ppg": 7.4388,
+      "rawPpg": 7.2423,
+      "madeIt": true,
+      "similarity": 0.176
+    },
+    {
+      "rank": 5,
+      "name": "Darrynton Evans",
+      "college": "Appalachian St.",
+      "year": 2020,
+      "round": 3,
+      "pick": 93,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.175
+    },
+    {
+      "rank": 6,
+      "name": "Hassan Haskins",
+      "college": "Michigan",
+      "year": 2022,
+      "round": 4,
+      "pick": 131,
+      "ppg": 4.1888,
+      "rawPpg": 2.0363,
+      "madeIt": false,
+      "similarity": 0.161
+    },
+    {
+      "rank": 7,
+      "name": "Devonta Freeman",
+      "college": "Florida St.",
+      "year": 2014,
+      "round": 4,
+      "pick": 103,
+      "ppg": 14.0665,
+      "rawPpg": 17.3644,
+      "madeIt": true,
+      "similarity": 0.157
+    }
+  ]
+}

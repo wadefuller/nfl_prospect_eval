@@ -1,0 +1,89 @@
+{
+  "prospectId": "kawaan-baker-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Stacy Coley",
+      "college": "Miami (FL)",
+      "year": 2017,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.499
+    },
+    {
+      "rank": 2,
+      "name": "Jeremy Ebert",
+      "college": "Northwestern",
+      "year": 2012,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.443
+    },
+    {
+      "rank": 3,
+      "name": "Charone Peake",
+      "college": "Clemson",
+      "year": 2016,
+      "round": 7,
+      "pick": 241,
+      "ppg": 3.7362,
+      "rawPpg": 1.4625,
+      "madeIt": false,
+      "similarity": 0.436
+    },
+    {
+      "rank": 4,
+      "name": "Seth Williams",
+      "college": "Auburn",
+      "year": 2021,
+      "round": 6,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.429
+    },
+    {
+      "rank": 5,
+      "name": "Mario Alford",
+      "college": "West Virginia",
+      "year": 2015,
+      "round": 7,
+      "pick": 238,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.405
+    },
+    {
+      "rank": 6,
+      "name": "Demetrius Byrd",
+      "college": "LSU",
+      "year": 2009,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.386
+    },
+    {
+      "rank": 7,
+      "name": "Grant Dubose",
+      "college": "Charlotte",
+      "year": 2023,
+      "round": 7,
+      "pick": 256,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.377
+    }
+  ]
+}

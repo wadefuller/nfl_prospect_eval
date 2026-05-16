@@ -1,0 +1,89 @@
+{
+  "prospectId": "dylan-laube-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Demetric Felton",
+      "college": "UCLA",
+      "year": 2021,
+      "round": 6,
+      "pick": 211,
+      "ppg": 4.5143,
+      "rawPpg": 1.5,
+      "madeIt": false,
+      "similarity": 0.06
+    },
+    {
+      "rank": 2,
+      "name": "Gerrid Doaks",
+      "college": "Cincinnati",
+      "year": 2021,
+      "round": 7,
+      "pick": 244,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.047
+    },
+    {
+      "rank": 3,
+      "name": "Marion Grice",
+      "college": "Arizona St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 201,
+      "ppg": 6.3922,
+      "rawPpg": 2.75,
+      "madeIt": true,
+      "similarity": 0.042
+    },
+    {
+      "rank": 4,
+      "name": "Storm Johnson",
+      "college": "Central Florida",
+      "year": 2014,
+      "round": 7,
+      "pick": 222,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.031
+    },
+    {
+      "rank": 5,
+      "name": "Evan Hull",
+      "college": "Northwestern",
+      "year": 2023,
+      "round": 5,
+      "pick": 176,
+      "ppg": 5.9103,
+      "rawPpg": 0.9833,
+      "madeIt": true,
+      "similarity": 0.031
+    },
+    {
+      "rank": 6,
+      "name": "Eno Benjamin",
+      "college": "Arizona St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.1143,
+      "rawPpg": 4.5279,
+      "madeIt": true,
+      "similarity": 0.029
+    },
+    {
+      "rank": 7,
+      "name": "Mike James",
+      "college": "Miami (FL)",
+      "year": 2013,
+      "round": 6,
+      "pick": 189,
+      "ppg": 7.2612,
+      "rawPpg": 6.1257,
+      "madeIt": true,
+      "similarity": 0.028
+    }
+  ]
+}

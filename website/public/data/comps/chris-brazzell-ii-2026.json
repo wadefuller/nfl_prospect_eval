@@ -1,0 +1,89 @@
+{
+  "prospectId": "chris-brazzell-ii-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Chase Claypool",
+      "college": "Notre Dame",
+      "year": 2020,
+      "round": 2,
+      "pick": 49,
+      "ppg": 8.8603,
+      "rawPpg": 10.3169,
+      "madeIt": true,
+      "similarity": 0.544
+    },
+    {
+      "rank": 2,
+      "name": "Leonard Hankerson",
+      "college": "Miami (FL)",
+      "year": 2011,
+      "round": 3,
+      "pick": 79,
+      "ppg": 6.2861,
+      "rawPpg": 6.585,
+      "madeIt": true,
+      "similarity": 0.516
+    },
+    {
+      "rank": 3,
+      "name": "Josh Huff",
+      "college": "Oregon",
+      "year": 2014,
+      "round": 3,
+      "pick": 86,
+      "ppg": 4.6569,
+      "rawPpg": 3.73,
+      "madeIt": false,
+      "similarity": 0.515
+    },
+    {
+      "rank": 4,
+      "name": "Jarius Wright",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 118,
+      "ppg": 6.564,
+      "rawPpg": 7.2324,
+      "madeIt": true,
+      "similarity": 0.505
+    },
+    {
+      "rank": 5,
+      "name": "Nick Toon",
+      "college": "Wisconsin",
+      "year": 2012,
+      "round": 4,
+      "pick": 122,
+      "ppg": 5.9014,
+      "rawPpg": 5.7333,
+      "madeIt": true,
+      "similarity": 0.487
+    },
+    {
+      "rank": 6,
+      "name": "Tre'Quan Smith",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 91,
+      "ppg": 6.3865,
+      "rawPpg": 6.6462,
+      "madeIt": true,
+      "similarity": 0.477
+    },
+    {
+      "rank": 7,
+      "name": "Torrey Smith",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 2,
+      "pick": 58,
+      "ppg": 8.973,
+      "rawPpg": 10.5198,
+      "madeIt": true,
+      "similarity": 0.473
+    }
+  ]
+}

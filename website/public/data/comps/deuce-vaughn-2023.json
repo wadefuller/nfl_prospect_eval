@@ -1,0 +1,89 @@
+{
+  "prospectId": "deuce-vaughn-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jawan Jamison",
+      "college": "Rutgers",
+      "year": 2013,
+      "round": 7,
+      "pick": 228,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.17
+    },
+    {
+      "rank": 2,
+      "name": "Evan Hull",
+      "college": "Northwestern",
+      "year": 2023,
+      "round": 5,
+      "pick": 176,
+      "ppg": 5.9103,
+      "rawPpg": 0.9833,
+      "madeIt": true,
+      "similarity": 0.149
+    },
+    {
+      "rank": 3,
+      "name": "Myles Gaskin",
+      "college": "Washington",
+      "year": 2019,
+      "round": 7,
+      "pick": 234,
+      "ppg": 9.696,
+      "rawPpg": 11.5703,
+      "madeIt": true,
+      "similarity": 0.134
+    },
+    {
+      "rank": 4,
+      "name": "Eno Benjamin",
+      "college": "Arizona St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.1143,
+      "rawPpg": 4.5279,
+      "madeIt": true,
+      "similarity": 0.101
+    },
+    {
+      "rank": 5,
+      "name": "Tyler Badie",
+      "college": "Missouri",
+      "year": 2022,
+      "round": 6,
+      "pick": 196,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.101
+    },
+    {
+      "rank": 6,
+      "name": "Khalfani Muhammad",
+      "college": "California",
+      "year": 2017,
+      "round": 7,
+      "pick": 241,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.1
+    },
+    {
+      "rank": 7,
+      "name": "Baron Batch",
+      "college": "Texas Tech",
+      "year": 2011,
+      "round": 7,
+      "pick": 232,
+      "ppg": 5.6051,
+      "rawPpg": 1.7778,
+      "madeIt": true,
+      "similarity": 0.09
+    }
+  ]
+}

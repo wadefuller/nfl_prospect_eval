@@ -1,0 +1,89 @@
+{
+  "prospectId": "emeka-egbuka-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Van Jefferson",
+      "college": "Florida",
+      "year": 2020,
+      "round": 2,
+      "pick": 57,
+      "ppg": 7.1054,
+      "rawPpg": 7.5568,
+      "madeIt": true,
+      "similarity": 0.647
+    },
+    {
+      "rank": 2,
+      "name": "Mecole Hardman",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 2,
+      "pick": 56,
+      "ppg": 6.5736,
+      "rawPpg": 6.8781,
+      "madeIt": true,
+      "similarity": 0.567
+    },
+    {
+      "rank": 3,
+      "name": "Curtis Samuel",
+      "college": "Ohio St.",
+      "year": 2017,
+      "round": 2,
+      "pick": 40,
+      "ppg": 7.9874,
+      "rawPpg": 9.1103,
+      "madeIt": true,
+      "similarity": 0.498
+    },
+    {
+      "rank": 4,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.473
+    },
+    {
+      "rank": 5,
+      "name": "Drake London",
+      "college": "USC",
+      "year": 2022,
+      "round": 1,
+      "pick": 8,
+      "ppg": 9.5125,
+      "rawPpg": 11.1595,
+      "madeIt": true,
+      "similarity": 0.464
+    },
+    {
+      "rank": 6,
+      "name": "Aaron Dobson",
+      "college": "Marshall",
+      "year": 2013,
+      "round": 2,
+      "pick": 59,
+      "ppg": 6.3767,
+      "rawPpg": 6.0076,
+      "madeIt": true,
+      "similarity": 0.464
+    },
+    {
+      "rank": 7,
+      "name": "Devin Funchess",
+      "college": "Michigan",
+      "year": 2015,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.2861,
+      "rawPpg": 7.9469,
+      "madeIt": true,
+      "similarity": 0.454
+    }
+  ]
+}

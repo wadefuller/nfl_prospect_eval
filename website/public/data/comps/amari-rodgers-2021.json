@@ -1,0 +1,89 @@
+{
+  "prospectId": "amari-rodgers-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Skyy Moore",
+      "college": "Western Michigan",
+      "year": 2022,
+      "round": 2,
+      "pick": 54,
+      "ppg": 3.934,
+      "rawPpg": 2.8615,
+      "madeIt": false,
+      "similarity": 0.442
+    },
+    {
+      "rank": 2,
+      "name": "Randall Cobb",
+      "college": "Kentucky",
+      "year": 2011,
+      "round": 2,
+      "pick": 64,
+      "ppg": 10.5036,
+      "rawPpg": 14.3033,
+      "madeIt": true,
+      "similarity": 0.42
+    },
+    {
+      "rank": 3,
+      "name": "ArDarius Stewart",
+      "college": "Alabama",
+      "year": 2017,
+      "round": 3,
+      "pick": 79,
+      "ppg": 3.9047,
+      "rawPpg": 1.1583,
+      "madeIt": false,
+      "similarity": 0.395
+    },
+    {
+      "rank": 4,
+      "name": "Malcolm Mitchell",
+      "college": "Georgia",
+      "year": 2016,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.269,
+      "rawPpg": 6.675,
+      "madeIt": true,
+      "similarity": 0.388
+    },
+    {
+      "rank": 5,
+      "name": "Marquis Walker",
+      "college": "Michigan",
+      "year": 2002,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.38
+    },
+    {
+      "rank": 6,
+      "name": "Jarvis Landry",
+      "college": "LSU",
+      "year": 2014,
+      "round": 2,
+      "pick": 63,
+      "ppg": 10.4602,
+      "rawPpg": 12.7081,
+      "madeIt": true,
+      "similarity": 0.38
+    },
+    {
+      "rank": 7,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.377
+    }
+  ]
+}

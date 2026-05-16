@@ -1,0 +1,89 @@
+{
+  "prospectId": "phil-mafah-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Khalfani Muhammad",
+      "college": "California",
+      "year": 2017,
+      "round": 7,
+      "pick": 241,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.431
+    },
+    {
+      "rank": 2,
+      "name": "Mike Weber",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.278
+    },
+    {
+      "rank": 3,
+      "name": "Baron Batch",
+      "college": "Texas Tech",
+      "year": 2011,
+      "round": 7,
+      "pick": 232,
+      "ppg": 5.6051,
+      "rawPpg": 1.7778,
+      "madeIt": true,
+      "similarity": 0.252
+    },
+    {
+      "rank": 4,
+      "name": "Keaontay Ingram",
+      "college": "USC",
+      "year": 2022,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.4773,
+      "rawPpg": 1.589,
+      "madeIt": false,
+      "similarity": 0.249
+    },
+    {
+      "rank": 5,
+      "name": "Da'Rel Scott",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 7,
+      "pick": 221,
+      "ppg": 5.4795,
+      "rawPpg": 0.2714,
+      "madeIt": true,
+      "similarity": 0.235
+    },
+    {
+      "rank": 6,
+      "name": "Myles Gaskin",
+      "college": "Washington",
+      "year": 2019,
+      "round": 7,
+      "pick": 234,
+      "ppg": 9.696,
+      "rawPpg": 11.5703,
+      "madeIt": true,
+      "similarity": 0.232
+    },
+    {
+      "rank": 7,
+      "name": "Marcus Murphy",
+      "college": "Missouri",
+      "year": 2015,
+      "round": 7,
+      "pick": 230,
+      "ppg": 4.4872,
+      "rawPpg": 0.4615,
+      "madeIt": false,
+      "similarity": 0.219
+    }
+  ]
+}

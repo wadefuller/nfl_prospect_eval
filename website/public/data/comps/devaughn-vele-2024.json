@@ -1,0 +1,89 @@
+{
+  "prospectId": "devaughn-vele-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Stacy Coley",
+      "college": "Miami (FL)",
+      "year": 2017,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.5
+    },
+    {
+      "rank": 2,
+      "name": "Kawaan Baker",
+      "college": "South Alabama",
+      "year": 2021,
+      "round": 7,
+      "pick": 255,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.438
+    },
+    {
+      "rank": 3,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
+      "round": 7,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.421
+    },
+    {
+      "rank": 4,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.41
+    },
+    {
+      "rank": 5,
+      "name": "Devin Fuller",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 7,
+      "pick": 238,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.4
+    },
+    {
+      "rank": 6,
+      "name": "Dezmon Patmon",
+      "college": "Washington St.",
+      "year": 2020,
+      "round": 6,
+      "pick": 212,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.381
+    },
+    {
+      "rank": 7,
+      "name": "Kenny Lawler",
+      "college": "California",
+      "year": 2016,
+      "round": 7,
+      "pick": 243,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.378
+    }
+  ]
+}

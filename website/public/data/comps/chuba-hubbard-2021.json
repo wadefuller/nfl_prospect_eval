@@ -1,0 +1,89 @@
+{
+  "prospectId": "chuba-hubbard-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Justice Hill",
+      "college": "Oklahoma St.",
+      "year": 2019,
+      "round": 4,
+      "pick": 113,
+      "ppg": 4.189,
+      "rawPpg": 1.8991,
+      "madeIt": false,
+      "similarity": 0.134
+    },
+    {
+      "rank": 2,
+      "name": "Kenneth Gainwell",
+      "college": "Memphis",
+      "year": 2021,
+      "round": 5,
+      "pick": 150,
+      "ppg": 6.5293,
+      "rawPpg": 5.915,
+      "madeIt": true,
+      "similarity": 0.133
+    },
+    {
+      "rank": 3,
+      "name": "Joshua Kelley",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.1373,
+      "rawPpg": 5.0891,
+      "madeIt": true,
+      "similarity": 0.115
+    },
+    {
+      "rank": 4,
+      "name": "Ka'Deem Carey",
+      "college": "Arizona",
+      "year": 2014,
+      "round": 4,
+      "pick": 117,
+      "ppg": 5.0952,
+      "rawPpg": 3.052,
+      "madeIt": true,
+      "similarity": 0.113
+    },
+    {
+      "rank": 5,
+      "name": "Dion Lewis",
+      "college": "Pittsburgh",
+      "year": 2011,
+      "round": 5,
+      "pick": 149,
+      "ppg": 4.4808,
+      "rawPpg": 1.9891,
+      "madeIt": false,
+      "similarity": 0.105
+    },
+    {
+      "rank": 6,
+      "name": "Jeremy Langford",
+      "college": "Michigan St.",
+      "year": 2015,
+      "round": 4,
+      "pick": 106,
+      "ppg": 7.5448,
+      "rawPpg": 7.2075,
+      "madeIt": true,
+      "similarity": 0.1
+    },
+    {
+      "rank": 7,
+      "name": "Robert Turbin",
+      "college": "Utah St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 106,
+      "ppg": 5.4197,
+      "rawPpg": 4.2125,
+      "madeIt": true,
+      "similarity": 0.098
+    }
+  ]
+}

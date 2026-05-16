@@ -1,0 +1,89 @@
+{
+  "prospectId": "malachi-corley-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jamison Crowder",
+      "college": "Duke",
+      "year": 2015,
+      "round": 4,
+      "pick": 105,
+      "ppg": 8.356,
+      "rawPpg": 9.5683,
+      "madeIt": true,
+      "similarity": 0.577
+    },
+    {
+      "rank": 2,
+      "name": "Eric Decker",
+      "college": "Minnesota",
+      "year": 2010,
+      "round": 3,
+      "pick": 87,
+      "ppg": 9.534,
+      "rawPpg": 11.3187,
+      "madeIt": true,
+      "similarity": 0.551
+    },
+    {
+      "rank": 3,
+      "name": "Ryan Broyles",
+      "college": "Oklahoma",
+      "year": 2012,
+      "round": 2,
+      "pick": 54,
+      "ppg": 5.3977,
+      "rawPpg": 4.4167,
+      "madeIt": true,
+      "similarity": 0.495
+    },
+    {
+      "rank": 4,
+      "name": "N'Keal Harry",
+      "college": "Arizona St.",
+      "year": 2019,
+      "round": 1,
+      "pick": 32,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.49
+    },
+    {
+      "rank": 5,
+      "name": "Markus Wheaton",
+      "college": "Oregon St.",
+      "year": 2013,
+      "round": 3,
+      "pick": 79,
+      "ppg": 6.8569,
+      "rawPpg": 7.3031,
+      "madeIt": true,
+      "similarity": 0.478
+    },
+    {
+      "rank": 6,
+      "name": "Mardy Gilyard",
+      "college": "Cincinnati",
+      "year": 2010,
+      "round": 4,
+      "pick": 99,
+      "ppg": 3.5744,
+      "rawPpg": 0.8429,
+      "madeIt": false,
+      "similarity": 0.466
+    },
+    {
+      "rank": 7,
+      "name": "Christian Kirk",
+      "college": "Texas A&M",
+      "year": 2018,
+      "round": 2,
+      "pick": 47,
+      "ppg": 8.1868,
+      "rawPpg": 9.533,
+      "madeIt": true,
+      "similarity": 0.461
+    }
+  ]
+}

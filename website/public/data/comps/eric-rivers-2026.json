@@ -1,0 +1,89 @@
+{
+  "prospectId": "eric-rivers-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Rashard Higgins",
+      "college": "Colorado St.",
+      "year": 2016,
+      "round": 5,
+      "pick": 172,
+      "ppg": 5.7961,
+      "rawPpg": 5.764,
+      "madeIt": true,
+      "similarity": 0.467
+    },
+    {
+      "rank": 2,
+      "name": "Equanimeous St. Brown",
+      "college": "Notre Dame",
+      "year": 2018,
+      "round": 6,
+      "pick": 207,
+      "ppg": 4.6038,
+      "rawPpg": 3.3597,
+      "madeIt": false,
+      "similarity": 0.33
+    },
+    {
+      "rank": 3,
+      "name": "JJ Nelson",
+      "college": "Ala-Birmingham",
+      "year": 2015,
+      "round": 5,
+      "pick": 159,
+      "ppg": 6.4463,
+      "rawPpg": 6.8295,
+      "madeIt": true,
+      "similarity": 0.319
+    },
+    {
+      "rank": 4,
+      "name": "Marquez Stevenson",
+      "college": "Houston",
+      "year": 2021,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.295
+    },
+    {
+      "rank": 5,
+      "name": "Dontayvion Wicks",
+      "college": "Virginia",
+      "year": 2023,
+      "round": 5,
+      "pick": 159,
+      "ppg": 5.9727,
+      "rawPpg": 6.0185,
+      "madeIt": true,
+      "similarity": 0.292
+    },
+    {
+      "rank": 6,
+      "name": "Darnell Mooney",
+      "college": "Tulane",
+      "year": 2020,
+      "round": 5,
+      "pick": 173,
+      "ppg": 8.0864,
+      "rawPpg": 9.0706,
+      "madeIt": true,
+      "similarity": 0.266
+    },
+    {
+      "rank": 7,
+      "name": "Tylan Wallace",
+      "college": "Oklahoma St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 131,
+      "ppg": 3.3229,
+      "rawPpg": 0.7983,
+      "madeIt": false,
+      "similarity": 0.266
+    }
+  ]
+}

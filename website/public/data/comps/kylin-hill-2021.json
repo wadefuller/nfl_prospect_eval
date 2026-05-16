@@ -1,0 +1,89 @@
+{
+  "prospectId": "kylin-hill-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Eno Benjamin",
+      "college": "Arizona St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.1143,
+      "rawPpg": 4.5279,
+      "madeIt": true,
+      "similarity": 0.146
+    },
+    {
+      "rank": 2,
+      "name": "Da'Rel Scott",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 7,
+      "pick": 221,
+      "ppg": 5.4795,
+      "rawPpg": 0.2714,
+      "madeIt": true,
+      "similarity": 0.107
+    },
+    {
+      "rank": 3,
+      "name": "Baron Batch",
+      "college": "Texas Tech",
+      "year": 2011,
+      "round": 7,
+      "pick": 232,
+      "ppg": 5.6051,
+      "rawPpg": 1.7778,
+      "madeIt": true,
+      "similarity": 0.103
+    },
+    {
+      "rank": 4,
+      "name": "Daniel Lasco",
+      "college": "California",
+      "year": 2016,
+      "round": 7,
+      "pick": 237,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.091
+    },
+    {
+      "rank": 5,
+      "name": "Myles Gaskin",
+      "college": "Washington",
+      "year": 2019,
+      "round": 7,
+      "pick": 234,
+      "ppg": 9.696,
+      "rawPpg": 11.5703,
+      "madeIt": true,
+      "similarity": 0.089
+    },
+    {
+      "rank": 6,
+      "name": "Michael Cox",
+      "college": "Massachusetts",
+      "year": 2013,
+      "round": 7,
+      "pick": 253,
+      "ppg": 4.8566,
+      "rawPpg": 0.6364,
+      "madeIt": false,
+      "similarity": 0.075
+    },
+    {
+      "rank": 7,
+      "name": "Jawan Jamison",
+      "college": "Rutgers",
+      "year": 2013,
+      "round": 7,
+      "pick": 228,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.066
+    }
+  ]
+}

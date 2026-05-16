@@ -1,0 +1,89 @@
+{
+  "prospectId": "jaelon-darden-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Stedman Bailey",
+      "college": "West Virginia",
+      "year": 2013,
+      "round": 3,
+      "pick": 92,
+      "ppg": 5.336,
+      "rawPpg": 4.649,
+      "madeIt": true,
+      "similarity": 0.484
+    },
+    {
+      "rank": 2,
+      "name": "Kealoha Pilares",
+      "college": "Hawaii",
+      "year": 2011,
+      "round": 5,
+      "pick": 132,
+      "ppg": 3.2666,
+      "rawPpg": 1.079,
+      "madeIt": false,
+      "similarity": 0.442
+    },
+    {
+      "rank": 3,
+      "name": "Dede Westbrook",
+      "college": "Oklahoma",
+      "year": 2017,
+      "round": 4,
+      "pick": 110,
+      "ppg": 7.822,
+      "rawPpg": 8.764,
+      "madeIt": true,
+      "similarity": 0.28
+    },
+    {
+      "rank": 4,
+      "name": "Charlie Jones",
+      "college": "Purdue",
+      "year": 2023,
+      "round": 4,
+      "pick": 131,
+      "ppg": 3.5186,
+      "rawPpg": 1.2818,
+      "madeIt": false,
+      "similarity": 0.274
+    },
+    {
+      "rank": 5,
+      "name": "Gabriel Davis",
+      "college": "Central Florida",
+      "year": 2020,
+      "round": 4,
+      "pick": 128,
+      "ppg": 7.7113,
+      "rawPpg": 8.6513,
+      "madeIt": true,
+      "similarity": 0.269
+    },
+    {
+      "rank": 6,
+      "name": "Kyle Philips",
+      "college": "UCLA",
+      "year": 2022,
+      "round": 5,
+      "pick": 163,
+      "ppg": 5.043,
+      "rawPpg": 3.2,
+      "madeIt": true,
+      "similarity": 0.263
+    },
+    {
+      "rank": 7,
+      "name": "Tony Lippett",
+      "college": "Michigan St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 156,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.262
+    }
+  ]
+}

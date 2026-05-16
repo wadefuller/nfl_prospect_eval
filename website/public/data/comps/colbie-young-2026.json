@@ -1,0 +1,89 @@
+{
+  "prospectId": "colbie-young-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Danny Coale",
+      "college": "Virginia Tech",
+      "year": 2012,
+      "round": 5,
+      "pick": 152,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.493
+    },
+    {
+      "rank": 2,
+      "name": "Trevor Davis",
+      "college": "California",
+      "year": 2016,
+      "round": 5,
+      "pick": 163,
+      "ppg": 2.9777,
+      "rawPpg": 0.9788,
+      "madeIt": false,
+      "similarity": 0.475
+    },
+    {
+      "rank": 3,
+      "name": "Ricardo Louis",
+      "college": "Auburn",
+      "year": 2016,
+      "round": 4,
+      "pick": 114,
+      "ppg": 3.9575,
+      "rawPpg": 2.8107,
+      "madeIt": false,
+      "similarity": 0.474
+    },
+    {
+      "rank": 4,
+      "name": "Chris Harper",
+      "college": "Kansas St.",
+      "year": 2013,
+      "round": 4,
+      "pick": 123,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.434
+    },
+    {
+      "rank": 5,
+      "name": "Malcolm Mitchell",
+      "college": "Georgia",
+      "year": 2016,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.269,
+      "rawPpg": 6.675,
+      "madeIt": true,
+      "similarity": 0.426
+    },
+    {
+      "rank": 6,
+      "name": "Carlton Mitchell",
+      "college": "South Florida",
+      "year": 2010,
+      "round": 6,
+      "pick": 177,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.416
+    },
+    {
+      "rank": 7,
+      "name": "Marquez Valdes-Scantling",
+      "college": "South Florida",
+      "year": 2018,
+      "round": 5,
+      "pick": 174,
+      "ppg": 6.7007,
+      "rawPpg": 7.1893,
+      "madeIt": true,
+      "similarity": 0.406
+    }
+  ]
+}

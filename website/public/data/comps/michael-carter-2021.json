@@ -1,0 +1,89 @@
+{
+  "prospectId": "michael-carter-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "James White",
+      "college": "Wisconsin",
+      "year": 2014,
+      "round": 4,
+      "pick": 130,
+      "ppg": 8.1461,
+      "rawPpg": 8.3906,
+      "madeIt": true,
+      "similarity": 0.257
+    },
+    {
+      "rank": 2,
+      "name": "DeAndre Washington",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 5,
+      "pick": 143,
+      "ppg": 6.1097,
+      "rawPpg": 5.2167,
+      "madeIt": true,
+      "similarity": 0.24
+    },
+    {
+      "rank": 3,
+      "name": "Duke Johnson",
+      "college": "Miami (FL)",
+      "year": 2015,
+      "round": 3,
+      "pick": 77,
+      "ppg": 9.1047,
+      "rawPpg": 9.7781,
+      "madeIt": true,
+      "similarity": 0.222
+    },
+    {
+      "rank": 4,
+      "name": "Tyjae Spears",
+      "college": "Tulane",
+      "year": 2023,
+      "round": 3,
+      "pick": 81,
+      "ppg": 7.7895,
+      "rawPpg": 7.8672,
+      "madeIt": true,
+      "similarity": 0.218
+    },
+    {
+      "rank": 5,
+      "name": "Johnathan Franklin",
+      "college": "UCLA",
+      "year": 2013,
+      "round": 4,
+      "pick": 125,
+      "ppg": 6.2534,
+      "rawPpg": 2.8143,
+      "madeIt": true,
+      "similarity": 0.209
+    },
+    {
+      "rank": 6,
+      "name": "Bilal Powell",
+      "college": "Louisville",
+      "year": 2011,
+      "round": 4,
+      "pick": 126,
+      "ppg": 7.3136,
+      "rawPpg": 7.0371,
+      "madeIt": true,
+      "similarity": 0.208
+    },
+    {
+      "rank": 7,
+      "name": "Damien Harris",
+      "college": "Alabama",
+      "year": 2019,
+      "round": 3,
+      "pick": 87,
+      "ppg": 10.0982,
+      "rawPpg": 11.1433,
+      "madeIt": true,
+      "similarity": 0.192
+    }
+  ]
+}

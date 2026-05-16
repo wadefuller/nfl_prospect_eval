@@ -1,0 +1,89 @@
+{
+  "prospectId": "kadarius-toney-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Parris Campbell",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 2,
+      "pick": 59,
+      "ppg": 5.2321,
+      "rawPpg": 4.3452,
+      "madeIt": true,
+      "similarity": 0.412
+    },
+    {
+      "rank": 2,
+      "name": "Skyy Moore",
+      "college": "Western Michigan",
+      "year": 2022,
+      "round": 2,
+      "pick": 54,
+      "ppg": 3.934,
+      "rawPpg": 2.8615,
+      "madeIt": false,
+      "similarity": 0.389
+    },
+    {
+      "rank": 3,
+      "name": "Drake London",
+      "college": "USC",
+      "year": 2022,
+      "round": 1,
+      "pick": 8,
+      "ppg": 9.5125,
+      "rawPpg": 11.1595,
+      "madeIt": true,
+      "similarity": 0.381
+    },
+    {
+      "rank": 4,
+      "name": "Deebo Samuel",
+      "college": "South Carolina",
+      "year": 2019,
+      "round": 2,
+      "pick": 36,
+      "ppg": 11.8403,
+      "rawPpg": 14.7427,
+      "madeIt": true,
+      "similarity": 0.38
+    },
+    {
+      "rank": 5,
+      "name": "Mike Williams",
+      "college": "Clemson",
+      "year": 2017,
+      "round": 1,
+      "pick": 7,
+      "ppg": 8.3177,
+      "rawPpg": 9.5194,
+      "madeIt": true,
+      "similarity": 0.373
+    },
+    {
+      "rank": 6,
+      "name": "Tyquan Thornton",
+      "college": "Baylor",
+      "year": 2022,
+      "round": 2,
+      "pick": 50,
+      "ppg": 4.6333,
+      "rawPpg": 3.4542,
+      "madeIt": false,
+      "similarity": 0.358
+    },
+    {
+      "rank": 7,
+      "name": "Justin Jefferson",
+      "college": "LSU",
+      "year": 2020,
+      "round": 1,
+      "pick": 22,
+      "ppg": 13.5298,
+      "rawPpg": 17.09,
+      "madeIt": true,
+      "similarity": 0.356
+    }
+  ]
+}

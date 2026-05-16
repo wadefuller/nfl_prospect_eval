@@ -1,0 +1,89 @@
+{
+  "prospectId": "chase-brown-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devontae Booker",
+      "college": "Utah",
+      "year": 2016,
+      "round": 4,
+      "pick": 136,
+      "ppg": 7.2828,
+      "rawPpg": 6.9135,
+      "madeIt": true,
+      "similarity": 0.168
+    },
+    {
+      "rank": 2,
+      "name": "Alfred Morris",
+      "college": "Florida Atlantic",
+      "year": 2012,
+      "round": 6,
+      "pick": 173,
+      "ppg": 11.4589,
+      "rawPpg": 13.3094,
+      "madeIt": true,
+      "similarity": 0.121
+    },
+    {
+      "rank": 3,
+      "name": "Javorius Allen",
+      "college": "USC",
+      "year": 2015,
+      "round": 4,
+      "pick": 125,
+      "ppg": 8.1339,
+      "rawPpg": 8.3219,
+      "madeIt": true,
+      "similarity": 0.117
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Badie",
+      "college": "Missouri",
+      "year": 2022,
+      "round": 6,
+      "pick": 196,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.113
+    },
+    {
+      "rank": 5,
+      "name": "Stepfan Taylor",
+      "college": "Stanford",
+      "year": 2013,
+      "round": 5,
+      "pick": 140,
+      "ppg": 5.1732,
+      "rawPpg": 3.45,
+      "madeIt": true,
+      "similarity": 0.111
+    },
+    {
+      "rank": 6,
+      "name": "Brian Hill",
+      "college": "Wyoming",
+      "year": 2017,
+      "round": 5,
+      "pick": 156,
+      "ppg": 7.1664,
+      "rawPpg": 6.22,
+      "madeIt": true,
+      "similarity": 0.104
+    },
+    {
+      "rank": 7,
+      "name": "David Cobb",
+      "college": "Minnesota",
+      "year": 2015,
+      "round": 5,
+      "pick": 138,
+      "ppg": 6.3055,
+      "rawPpg": 2.9857,
+      "madeIt": true,
+      "similarity": 0.104
+    }
+  ]
+}

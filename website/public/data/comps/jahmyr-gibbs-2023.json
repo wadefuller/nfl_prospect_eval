@@ -1,0 +1,89 @@
+{
+  "prospectId": "jahmyr-gibbs-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Joe Mixon",
+      "college": "Oklahoma",
+      "year": 2017,
+      "round": 2,
+      "pick": 48,
+      "ppg": 12.0419,
+      "rawPpg": 14.4219,
+      "madeIt": true,
+      "similarity": 0.272
+    },
+    {
+      "rank": 2,
+      "name": "D'Andre Swift",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 2,
+      "pick": 35,
+      "ppg": 11.1626,
+      "rawPpg": 13.2577,
+      "madeIt": true,
+      "similarity": 0.181
+    },
+    {
+      "rank": 3,
+      "name": "Kenny Irons",
+      "college": "Auburn",
+      "year": 2007,
+      "round": 2,
+      "pick": 49,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.153
+    },
+    {
+      "rank": 4,
+      "name": "Josh Jacobs",
+      "college": "Alabama",
+      "year": 2019,
+      "round": 1,
+      "pick": 24,
+      "ppg": 11.8302,
+      "rawPpg": 14.1446,
+      "madeIt": true,
+      "similarity": 0.153
+    },
+    {
+      "rank": 5,
+      "name": "Isaiah Pead",
+      "college": "Cincinnati",
+      "year": 2012,
+      "round": 2,
+      "pick": 50,
+      "ppg": 4.2865,
+      "rawPpg": 1.3917,
+      "madeIt": false,
+      "similarity": 0.147
+    },
+    {
+      "rank": 6,
+      "name": "Todd Gurley",
+      "college": "Georgia",
+      "year": 2015,
+      "round": 1,
+      "pick": 10,
+      "ppg": 15.3029,
+      "rawPpg": 19.3215,
+      "madeIt": true,
+      "similarity": 0.138
+    },
+    {
+      "rank": 7,
+      "name": "T.J. Yeldon",
+      "college": "Alabama",
+      "year": 2015,
+      "round": 2,
+      "pick": 36,
+      "ppg": 8.7146,
+      "rawPpg": 9.5025,
+      "madeIt": true,
+      "similarity": 0.137
+    }
+  ]
+}

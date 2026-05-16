@@ -1,0 +1,89 @@
+{
+  "prospectId": "ted-hurst-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Alshon Jeffery",
+      "college": "South Carolina",
+      "year": 2012,
+      "round": 2,
+      "pick": 45,
+      "ppg": 11.534,
+      "rawPpg": 14.3187,
+      "madeIt": true,
+      "similarity": 0.429
+    },
+    {
+      "rank": 2,
+      "name": "Cedric Tillman",
+      "college": "Tennessee",
+      "year": 2023,
+      "round": 3,
+      "pick": 74,
+      "ppg": 5.6982,
+      "rawPpg": 5.7236,
+      "madeIt": true,
+      "similarity": 0.397
+    },
+    {
+      "rank": 3,
+      "name": "Tyler Boyd",
+      "college": "Pittsburgh",
+      "year": 2016,
+      "round": 2,
+      "pick": 55,
+      "ppg": 8.1659,
+      "rawPpg": 9.5737,
+      "madeIt": true,
+      "similarity": 0.357
+    },
+    {
+      "rank": 4,
+      "name": "Leonte Carroo",
+      "college": "Rutgers",
+      "year": 2016,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.356
+    },
+    {
+      "rank": 5,
+      "name": "Keenan Allen",
+      "college": "California",
+      "year": 2013,
+      "round": 3,
+      "pick": 76,
+      "ppg": 10.5521,
+      "rawPpg": 14.3283,
+      "madeIt": true,
+      "similarity": 0.34
+    },
+    {
+      "rank": 6,
+      "name": "Titus Young",
+      "college": "Boise St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 44,
+      "ppg": 7.1889,
+      "rawPpg": 7.9606,
+      "madeIt": true,
+      "similarity": 0.338
+    },
+    {
+      "rank": 7,
+      "name": "Brandon LaFell",
+      "college": "LSU",
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
+      "madeIt": true,
+      "similarity": 0.335
+    }
+  ]
+}

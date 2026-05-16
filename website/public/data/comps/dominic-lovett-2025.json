@@ -1,0 +1,89 @@
+{
+  "prospectId": "dominic-lovett-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Stacy Coley",
+      "college": "Miami (FL)",
+      "year": 2017,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.574
+    },
+    {
+      "rank": 2,
+      "name": "Kawaan Baker",
+      "college": "South Alabama",
+      "year": 2021,
+      "round": 7,
+      "pick": 255,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.566
+    },
+    {
+      "rank": 3,
+      "name": "Braxton Berrios",
+      "college": "Miami (FL)",
+      "year": 2018,
+      "round": 6,
+      "pick": 210,
+      "ppg": 3.9319,
+      "rawPpg": 2.9156,
+      "madeIt": false,
+      "similarity": 0.458
+    },
+    {
+      "rank": 4,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
+      "round": 7,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.452
+    },
+    {
+      "rank": 5,
+      "name": "Kenny Lawler",
+      "college": "California",
+      "year": 2016,
+      "round": 7,
+      "pick": 243,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.443
+    },
+    {
+      "rank": 6,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.425
+    },
+    {
+      "rank": 7,
+      "name": "Mario Alford",
+      "college": "West Virginia",
+      "year": 2015,
+      "round": 7,
+      "pick": 238,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.415
+    }
+  ]
+}

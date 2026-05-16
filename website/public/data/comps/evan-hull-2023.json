@@ -1,0 +1,89 @@
+{
+  "prospectId": "evan-hull-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devontae Booker",
+      "college": "Utah",
+      "year": 2016,
+      "round": 4,
+      "pick": 136,
+      "ppg": 7.2828,
+      "rawPpg": 6.9135,
+      "madeIt": true,
+      "similarity": 0.156
+    },
+    {
+      "rank": 2,
+      "name": "Paul Perkins",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 149,
+      "ppg": 5.5534,
+      "rawPpg": 3.575,
+      "madeIt": true,
+      "similarity": 0.139
+    },
+    {
+      "rank": 3,
+      "name": "Marlon Mack",
+      "college": "South Florida",
+      "year": 2017,
+      "round": 4,
+      "pick": 143,
+      "ppg": 11.1435,
+      "rawPpg": 13.2917,
+      "madeIt": true,
+      "similarity": 0.126
+    },
+    {
+      "rank": 4,
+      "name": "Deuce Vaughn",
+      "college": "Kansas St.",
+      "year": 2023,
+      "round": 6,
+      "pick": 212,
+      "ppg": 6.1649,
+      "rawPpg": 1.9167,
+      "madeIt": true,
+      "similarity": 0.118
+    },
+    {
+      "rank": 5,
+      "name": "Cyrus Gray",
+      "college": "Texas A&M",
+      "year": 2012,
+      "round": 6,
+      "pick": 182,
+      "ppg": 4.1065,
+      "rawPpg": 1.0875,
+      "madeIt": false,
+      "similarity": 0.117
+    },
+    {
+      "rank": 6,
+      "name": "Vick Ballard",
+      "college": "Mississippi St.",
+      "year": 2012,
+      "round": 5,
+      "pick": 170,
+      "ppg": 7.7259,
+      "rawPpg": 7.6937,
+      "madeIt": true,
+      "similarity": 0.109
+    },
+    {
+      "rank": 7,
+      "name": "Travis Homer",
+      "college": "Miami (FL)",
+      "year": 2019,
+      "round": 6,
+      "pick": 204,
+      "ppg": 5.417,
+      "rawPpg": 3.5286,
+      "madeIt": true,
+      "similarity": 0.109
+    }
+  ]
+}

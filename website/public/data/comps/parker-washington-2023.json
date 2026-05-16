@@ -1,0 +1,89 @@
+{
+  "prospectId": "parker-washington-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.577
+    },
+    {
+      "rank": 2,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
+      "round": 7,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.575
+    },
+    {
+      "rank": 3,
+      "name": "Deon Cain",
+      "college": "Clemson",
+      "year": 2018,
+      "round": 6,
+      "pick": 185,
+      "ppg": 4.1604,
+      "rawPpg": 1.5364,
+      "madeIt": false,
+      "similarity": 0.573
+    },
+    {
+      "rank": 4,
+      "name": "Dezmon Patmon",
+      "college": "Washington St.",
+      "year": 2020,
+      "round": 6,
+      "pick": 212,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.571
+    },
+    {
+      "rank": 5,
+      "name": "Kayshon Boutte",
+      "college": "LSU",
+      "year": 2023,
+      "round": 6,
+      "pick": 187,
+      "ppg": 6.7429,
+      "rawPpg": 7.1895,
+      "madeIt": true,
+      "similarity": 0.556
+    },
+    {
+      "rank": 6,
+      "name": "Dylan Cantrell",
+      "college": "Texas Tech",
+      "year": 2018,
+      "round": 6,
+      "pick": 191,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.541
+    },
+    {
+      "rank": 7,
+      "name": "Seth Williams",
+      "college": "Auburn",
+      "year": 2021,
+      "round": 6,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.537
+    }
+  ]
+}

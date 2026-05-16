@@ -1,0 +1,89 @@
+{
+  "prospectId": "jayden-reed-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Brandon LaFell",
+      "college": "LSU",
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
+      "madeIt": true,
+      "similarity": 0.539
+    },
+    {
+      "rank": 2,
+      "name": "Leonte Carroo",
+      "college": "Rutgers",
+      "year": 2016,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.512
+    },
+    {
+      "rank": 3,
+      "name": "Breshad Perriman",
+      "college": "Central Florida",
+      "year": 2015,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5889,
+      "rawPpg": 3.3973,
+      "madeIt": false,
+      "similarity": 0.508
+    },
+    {
+      "rank": 4,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.487
+    },
+    {
+      "rank": 5,
+      "name": "Marquis Walker",
+      "college": "Michigan",
+      "year": 2002,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.483
+    },
+    {
+      "rank": 6,
+      "name": "Jerry Jeudy",
+      "college": "Alabama",
+      "year": 2020,
+      "round": 1,
+      "pick": 15,
+      "ppg": 8.4624,
+      "rawPpg": 9.8025,
+      "madeIt": true,
+      "similarity": 0.478
+    },
+    {
+      "rank": 7,
+      "name": "Cedric Tillman",
+      "college": "Tennessee",
+      "year": 2023,
+      "round": 3,
+      "pick": 74,
+      "ppg": 5.6982,
+      "rawPpg": 5.7236,
+      "madeIt": true,
+      "similarity": 0.478
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "larry-rountree-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Luke Staley",
+      "college": "BYU",
+      "year": 2002,
+      "round": 7,
+      "pick": 214,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 1
+    },
+    {
+      "rank": 2,
+      "name": "Antwoine Womack",
+      "college": "Virginia",
+      "year": 2002,
+      "round": 7,
+      "pick": 237,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 1
+    },
+    {
+      "rank": 3,
+      "name": "Ahmaad Galloway",
+      "college": "Alabama",
+      "year": 2003,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 1
+    },
+    {
+      "rank": 4,
+      "name": "Brandon Drumm",
+      "college": "Colorado",
+      "year": 2003,
+      "round": 7,
+      "pick": 236,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 1
+    },
+    {
+      "rank": 5,
+      "name": "Rick Razzano",
+      "college": "Mississippi",
+      "year": 2005,
+      "round": 7,
+      "pick": 221,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 1
+    },
+    {
+      "rank": 6,
+      "name": "Justise Hairston",
+      "college": "Central Connecticut St.",
+      "year": 2007,
+      "round": 6,
+      "pick": 208,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 1
+    },
+    {
+      "rank": 7,
+      "name": "Nate Ilaoa",
+      "college": "Hawaii",
+      "year": 2007,
+      "round": 7,
+      "pick": 236,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.651
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "chris-rodriguez-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jonathan Williams",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 5,
+      "pick": 156,
+      "ppg": 5.6678,
+      "rawPpg": 1.4875,
+      "madeIt": true,
+      "similarity": 0.341
+    },
+    {
+      "rank": 2,
+      "name": "Kerrith Whyte Jr",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.2603,
+      "rawPpg": 2.2667,
+      "madeIt": true,
+      "similarity": 0.339
+    },
+    {
+      "rank": 3,
+      "name": "Zach Evans",
+      "college": "Mississippi",
+      "year": 2023,
+      "round": 6,
+      "pick": 215,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.335
+    },
+    {
+      "rank": 4,
+      "name": "Keaontay Ingram",
+      "college": "USC",
+      "year": 2022,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.4773,
+      "rawPpg": 1.589,
+      "madeIt": false,
+      "similarity": 0.246
+    },
+    {
+      "rank": 5,
+      "name": "Chris Thompson",
+      "college": "Florida St.",
+      "year": 2013,
+      "round": 5,
+      "pick": 154,
+      "ppg": 6.8699,
+      "rawPpg": 5.7769,
+      "madeIt": true,
+      "similarity": 0.235
+    },
+    {
+      "rank": 6,
+      "name": "Dexter Williams",
+      "college": "Notre Dame",
+      "year": 2019,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.225
+    },
+    {
+      "rank": 7,
+      "name": "Alfred Blue",
+      "college": "LSU",
+      "year": 2014,
+      "round": 6,
+      "pick": 181,
+      "ppg": 7.0419,
+      "rawPpg": 6.7089,
+      "madeIt": true,
+      "similarity": 0.21
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "jalen-brooks-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "James Wright",
+      "college": "LSU",
+      "year": 2014,
+      "round": 7,
+      "pick": 239,
+      "ppg": 3.2444,
+      "rawPpg": 1.3511,
+      "madeIt": false,
+      "similarity": 0.461
+    },
+    {
+      "rank": 2,
+      "name": "Olabisi Johnson",
+      "college": "Colorado St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 247,
+      "ppg": 4.9166,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.382
+    },
+    {
+      "rank": 3,
+      "name": "Austin Proehl",
+      "college": "North Carolina",
+      "year": 2018,
+      "round": 7,
+      "pick": 255,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.361
+    },
+    {
+      "rank": 4,
+      "name": "Junior Hemingway",
+      "college": "Michigan",
+      "year": 2012,
+      "round": 7,
+      "pick": 238,
+      "ppg": 3.6726,
+      "rawPpg": 2.0553,
+      "madeIt": false,
+      "similarity": 0.333
+    },
+    {
+      "rank": 5,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.328
+    },
+    {
+      "rank": 6,
+      "name": "Jalen Camp",
+      "college": "Georgia Tech",
+      "year": 2021,
+      "round": 6,
+      "pick": 209,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.325
+    },
+    {
+      "rank": 7,
+      "name": "Isaiah Ford",
+      "college": "Virginia Tech",
+      "year": 2017,
+      "round": 7,
+      "pick": 237,
+      "ppg": 5.518,
+      "rawPpg": 4.625,
+      "madeIt": true,
+      "similarity": 0.301
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "jordan-james-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Manuel White",
+      "college": "UCLA",
+      "year": 2005,
+      "round": 4,
+      "pick": 120,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.356
+    },
+    {
+      "rank": 2,
+      "name": "Jamaal Williams",
+      "college": "BYU",
+      "year": 2017,
+      "round": 4,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
+      "madeIt": true,
+      "similarity": 0.237
+    },
+    {
+      "rank": 3,
+      "name": "James White",
+      "college": "Wisconsin",
+      "year": 2014,
+      "round": 4,
+      "pick": 130,
+      "ppg": 8.1461,
+      "rawPpg": 8.3906,
+      "madeIt": true,
+      "similarity": 0.234
+    },
+    {
+      "rank": 4,
+      "name": "Paul Perkins",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 149,
+      "ppg": 5.5534,
+      "rawPpg": 3.575,
+      "madeIt": true,
+      "similarity": 0.226
+    },
+    {
+      "rank": 5,
+      "name": "Vick Ballard",
+      "college": "Mississippi St.",
+      "year": 2012,
+      "round": 5,
+      "pick": 170,
+      "ppg": 7.7259,
+      "rawPpg": 7.6937,
+      "madeIt": true,
+      "similarity": 0.225
+    },
+    {
+      "rank": 6,
+      "name": "Qadree Ollison",
+      "college": "Pittsburgh",
+      "year": 2019,
+      "round": 5,
+      "pick": 152,
+      "ppg": 6.1438,
+      "rawPpg": 3.9917,
+      "madeIt": true,
+      "similarity": 0.221
+    },
+    {
+      "rank": 7,
+      "name": "Mike Gillislee",
+      "college": "Florida",
+      "year": 2013,
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.22
+    }
+  ]
+}

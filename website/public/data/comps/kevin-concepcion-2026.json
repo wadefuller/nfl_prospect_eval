@@ -1,0 +1,89 @@
+{
+  "prospectId": "kevin-concepcion-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Parris Campbell",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 2,
+      "pick": 59,
+      "ppg": 5.2321,
+      "rawPpg": 4.3452,
+      "madeIt": true,
+      "similarity": 0.511
+    },
+    {
+      "rank": 2,
+      "name": "Michael Floyd",
+      "college": "Notre Dame",
+      "year": 2012,
+      "round": 1,
+      "pick": 13,
+      "ppg": 8.4132,
+      "rawPpg": 9.6375,
+      "madeIt": true,
+      "similarity": 0.389
+    },
+    {
+      "rank": 3,
+      "name": "Randall Cobb",
+      "college": "Kentucky",
+      "year": 2011,
+      "round": 2,
+      "pick": 64,
+      "ppg": 10.5036,
+      "rawPpg": 14.3033,
+      "madeIt": true,
+      "similarity": 0.376
+    },
+    {
+      "rank": 4,
+      "name": "Lynn Bowden Jr.",
+      "college": "Kentucky",
+      "year": 2020,
+      "round": 3,
+      "pick": 80,
+      "ppg": 5.4005,
+      "rawPpg": 4.3978,
+      "madeIt": true,
+      "similarity": 0.374
+    },
+    {
+      "rank": 5,
+      "name": "Jahan Dotson",
+      "college": "Penn St.",
+      "year": 2022,
+      "round": 1,
+      "pick": 16,
+      "ppg": 6.8629,
+      "rawPpg": 7.6625,
+      "madeIt": true,
+      "similarity": 0.361
+    },
+    {
+      "rank": 6,
+      "name": "Zay Flowers",
+      "college": "Boston Col.",
+      "year": 2023,
+      "round": 1,
+      "pick": 22,
+      "ppg": 9.4619,
+      "rawPpg": 11.1381,
+      "madeIt": true,
+      "similarity": 0.345
+    },
+    {
+      "rank": 7,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
+      "madeIt": true,
+      "similarity": 0.34
+    }
+  ]
+}

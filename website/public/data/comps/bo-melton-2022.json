@@ -1,0 +1,89 @@
+{
+  "prospectId": "bo-melton-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.573
+    },
+    {
+      "rank": 2,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
+      "round": 7,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.556
+    },
+    {
+      "rank": 3,
+      "name": "Austin Proehl",
+      "college": "North Carolina",
+      "year": 2018,
+      "round": 7,
+      "pick": 255,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.537
+    },
+    {
+      "rank": 4,
+      "name": "Grant Dubose",
+      "college": "Charlotte",
+      "year": 2023,
+      "round": 7,
+      "pick": 256,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.445
+    },
+    {
+      "rank": 5,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.417
+    },
+    {
+      "rank": 6,
+      "name": "Olabisi Johnson",
+      "college": "Colorado St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 247,
+      "ppg": 4.9166,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.403
+    },
+    {
+      "rank": 7,
+      "name": "Devin Fuller",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 7,
+      "pick": 238,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.386
+    }
+  ]
+}

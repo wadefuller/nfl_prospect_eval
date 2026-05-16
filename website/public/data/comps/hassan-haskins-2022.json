@@ -1,0 +1,89 @@
+{
+  "prospectId": "hassan-haskins-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ryquell Armstead",
+      "college": "Temple",
+      "year": 2019,
+      "round": 5,
+      "pick": 140,
+      "ppg": 5.6109,
+      "rawPpg": 3.1571,
+      "madeIt": true,
+      "similarity": 0.22
+    },
+    {
+      "rank": 2,
+      "name": "Darrynton Evans",
+      "college": "Appalachian St.",
+      "year": 2020,
+      "round": 3,
+      "pick": 93,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.2
+    },
+    {
+      "rank": 3,
+      "name": "Jamaal Williams",
+      "college": "BYU",
+      "year": 2017,
+      "round": 4,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
+      "madeIt": true,
+      "similarity": 0.19
+    },
+    {
+      "rank": 4,
+      "name": "Brian Robinson Jr.",
+      "college": "Alabama",
+      "year": 2022,
+      "round": 3,
+      "pick": 98,
+      "ppg": 10.0895,
+      "rawPpg": 11.3533,
+      "madeIt": true,
+      "similarity": 0.176
+    },
+    {
+      "rank": 5,
+      "name": "David Cobb",
+      "college": "Minnesota",
+      "year": 2015,
+      "round": 5,
+      "pick": 138,
+      "ppg": 6.3055,
+      "rawPpg": 2.9857,
+      "madeIt": true,
+      "similarity": 0.171
+    },
+    {
+      "rank": 6,
+      "name": "Mike Gillislee",
+      "college": "Florida",
+      "year": 2013,
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.17
+    },
+    {
+      "rank": 7,
+      "name": "Jeremy Langford",
+      "college": "Michigan St.",
+      "year": 2015,
+      "round": 4,
+      "pick": 106,
+      "ppg": 7.5448,
+      "rawPpg": 7.2075,
+      "madeIt": true,
+      "similarity": 0.163
+    }
+  ]
+}

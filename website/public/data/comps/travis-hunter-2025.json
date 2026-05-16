@@ -1,0 +1,89 @@
+{
+  "prospectId": "travis-hunter-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Justin Jefferson",
+      "college": "LSU",
+      "year": 2020,
+      "round": 1,
+      "pick": 22,
+      "ppg": 13.5298,
+      "rawPpg": 17.09,
+      "madeIt": true,
+      "similarity": 0.46
+    },
+    {
+      "rank": 2,
+      "name": "Nelson Agholor",
+      "college": "USC",
+      "year": 2015,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.8475,
+      "rawPpg": 7.2206,
+      "madeIt": true,
+      "similarity": 0.364
+    },
+    {
+      "rank": 3,
+      "name": "Zay Flowers",
+      "college": "Boston Col.",
+      "year": 2023,
+      "round": 1,
+      "pick": 22,
+      "ppg": 9.4619,
+      "rawPpg": 11.1381,
+      "madeIt": true,
+      "similarity": 0.349
+    },
+    {
+      "rank": 4,
+      "name": "Deebo Samuel",
+      "college": "South Carolina",
+      "year": 2019,
+      "round": 2,
+      "pick": 36,
+      "ppg": 11.8403,
+      "rawPpg": 14.7427,
+      "madeIt": true,
+      "similarity": 0.329
+    },
+    {
+      "rank": 5,
+      "name": "Michael Pittman Jr.",
+      "college": "USC",
+      "year": 2020,
+      "round": 2,
+      "pick": 34,
+      "ppg": 9.3272,
+      "rawPpg": 10.9423,
+      "madeIt": true,
+      "similarity": 0.289
+    },
+    {
+      "rank": 6,
+      "name": "John Ross",
+      "college": "Washington",
+      "year": 2017,
+      "round": 1,
+      "pick": 9,
+      "ppg": 6.7792,
+      "rawPpg": 7.924,
+      "madeIt": true,
+      "similarity": 0.285
+    },
+    {
+      "rank": 7,
+      "name": "Corey Coleman",
+      "college": "Baylor",
+      "year": 2016,
+      "round": 1,
+      "pick": 15,
+      "ppg": 6.4638,
+      "rawPpg": 6.84,
+      "madeIt": true,
+      "similarity": 0.275
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "denzel-boston-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Robert Woods",
+      "college": "USC",
+      "year": 2013,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.1333,
+      "rawPpg": 7.7196,
+      "madeIt": true,
+      "similarity": 0.513
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Broyles",
+      "college": "Oklahoma",
+      "year": 2012,
+      "round": 2,
+      "pick": 54,
+      "ppg": 5.3977,
+      "rawPpg": 4.4167,
+      "madeIt": true,
+      "similarity": 0.447
+    },
+    {
+      "rank": 3,
+      "name": "Tank Dell",
+      "college": "Houston",
+      "year": 2023,
+      "round": 3,
+      "pick": 69,
+      "ppg": 8.7858,
+      "rawPpg": 11.1643,
+      "madeIt": true,
+      "similarity": 0.439
+    },
+    {
+      "rank": 4,
+      "name": "Nelson Agholor",
+      "college": "USC",
+      "year": 2015,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.8475,
+      "rawPpg": 7.2206,
+      "madeIt": true,
+      "similarity": 0.43
+    },
+    {
+      "rank": 5,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.423
+    },
+    {
+      "rank": 6,
+      "name": "Cedric Tillman",
+      "college": "Tennessee",
+      "year": 2023,
+      "round": 3,
+      "pick": 74,
+      "ppg": 5.6982,
+      "rawPpg": 5.7236,
+      "madeIt": true,
+      "similarity": 0.412
+    },
+    {
+      "rank": 7,
+      "name": "Garrett Wilson",
+      "college": "Ohio St.",
+      "year": 2022,
+      "round": 1,
+      "pick": 10,
+      "ppg": 9.4206,
+      "rawPpg": 11.0471,
+      "madeIt": true,
+      "similarity": 0.405
+    }
+  ]
+}

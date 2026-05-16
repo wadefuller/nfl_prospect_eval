@@ -1,0 +1,89 @@
+{
+  "prospectId": "kevin-coleman-jr-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tajae Sharpe",
+      "college": "Massachusetts",
+      "year": 2016,
+      "round": 5,
+      "pick": 140,
+      "ppg": 5.073,
+      "rawPpg": 4.59,
+      "madeIt": true,
+      "similarity": 0.429
+    },
+    {
+      "rank": 2,
+      "name": "Xavier Hutchinson",
+      "college": "Iowa St.",
+      "year": 2023,
+      "round": 6,
+      "pick": 205,
+      "ppg": 4.4053,
+      "rawPpg": 3.2615,
+      "madeIt": false,
+      "similarity": 0.371
+    },
+    {
+      "rank": 3,
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
+      "madeIt": false,
+      "similarity": 0.335
+    },
+    {
+      "rank": 4,
+      "name": "Kerry Meier",
+      "college": "Kansas",
+      "year": 2010,
+      "round": 5,
+      "pick": 165,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.334
+    },
+    {
+      "rank": 5,
+      "name": "Kelvin Harmon",
+      "college": "North Carolina St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 206,
+      "ppg": 4.7539,
+      "rawPpg": 3.4627,
+      "madeIt": false,
+      "similarity": 0.316
+    },
+    {
+      "rank": 6,
+      "name": "KeeSean Johnson",
+      "college": "Fresno St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 174,
+      "ppg": 4.5803,
+      "rawPpg": 3.325,
+      "madeIt": false,
+      "similarity": 0.314
+    },
+    {
+      "rank": 7,
+      "name": "Antonio Brown",
+      "college": "Central Michigan",
+      "year": 2010,
+      "round": 6,
+      "pick": 195,
+      "ppg": 8.954,
+      "rawPpg": 10.6197,
+      "madeIt": true,
+      "similarity": 0.303
+    }
+  ]
+}

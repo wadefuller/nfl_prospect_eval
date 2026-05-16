@@ -1,0 +1,89 @@
+{
+  "prospectId": "jamari-thrash-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ryan Grant",
+      "college": "Tulane",
+      "year": 2014,
+      "round": 5,
+      "pick": 142,
+      "ppg": 4.3342,
+      "rawPpg": 2.6548,
+      "madeIt": false,
+      "similarity": 0.464
+    },
+    {
+      "rank": 2,
+      "name": "Darnell Mooney",
+      "college": "Tulane",
+      "year": 2020,
+      "round": 5,
+      "pick": 173,
+      "ppg": 8.0864,
+      "rawPpg": 9.0706,
+      "madeIt": true,
+      "similarity": 0.456
+    },
+    {
+      "rank": 3,
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
+      "year": 2022,
+      "round": 4,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.432
+    },
+    {
+      "rank": 4,
+      "name": "Khalil Shakir",
+      "college": "Boise St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 148,
+      "ppg": 7.0964,
+      "rawPpg": 7.7417,
+      "madeIt": true,
+      "similarity": 0.428
+    },
+    {
+      "rank": 5,
+      "name": "Puka Nacua",
+      "college": "BYU",
+      "year": 2023,
+      "round": 5,
+      "pick": 177,
+      "ppg": 13.3263,
+      "rawPpg": 17.2986,
+      "madeIt": true,
+      "similarity": 0.408
+    },
+    {
+      "rank": 6,
+      "name": "Geremy Davis",
+      "college": "Connecticut",
+      "year": 2015,
+      "round": 6,
+      "pick": 186,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.399
+    },
+    {
+      "rank": 7,
+      "name": "Ryan Whalen",
+      "college": "Stanford",
+      "year": 2011,
+      "round": 6,
+      "pick": 167,
+      "ppg": 4.5318,
+      "rawPpg": 1.2571,
+      "madeIt": false,
+      "similarity": 0.39
+    }
+  ]
+}

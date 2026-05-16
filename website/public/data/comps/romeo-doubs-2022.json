@@ -1,0 +1,89 @@
+{
+  "prospectId": "romeo-doubs-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
+      "round": 5,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
+      "madeIt": false,
+      "similarity": 0.666
+    },
+    {
+      "rank": 2,
+      "name": "Pharoh Cooper",
+      "college": "South Carolina",
+      "year": 2016,
+      "round": 4,
+      "pick": 117,
+      "ppg": 3.2081,
+      "rawPpg": 1.5073,
+      "madeIt": false,
+      "similarity": 0.605
+    },
+    {
+      "rank": 3,
+      "name": "Mardy Gilyard",
+      "college": "Cincinnati",
+      "year": 2010,
+      "round": 4,
+      "pick": 99,
+      "ppg": 3.5744,
+      "rawPpg": 0.8429,
+      "madeIt": false,
+      "similarity": 0.601
+    },
+    {
+      "rank": 4,
+      "name": "J'Mon Moore",
+      "college": "Missouri",
+      "year": 2018,
+      "round": 4,
+      "pick": 133,
+      "ppg": 4.2579,
+      "rawPpg": 0.3571,
+      "madeIt": false,
+      "similarity": 0.552
+    },
+    {
+      "rank": 5,
+      "name": "Khalil Shakir",
+      "college": "Boise St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 148,
+      "ppg": 7.0964,
+      "rawPpg": 7.7417,
+      "madeIt": true,
+      "similarity": 0.552
+    },
+    {
+      "rank": 6,
+      "name": "Kenny Golladay",
+      "college": "Northern Illinois",
+      "year": 2017,
+      "round": 3,
+      "pick": 96,
+      "ppg": 10.2773,
+      "rawPpg": 12.471,
+      "madeIt": true,
+      "similarity": 0.534
+    },
+    {
+      "rank": 7,
+      "name": "Calvin Austin III",
+      "college": "Memphis",
+      "year": 2022,
+      "round": 4,
+      "pick": 138,
+      "ppg": 4.9476,
+      "rawPpg": 4.4048,
+      "madeIt": false,
+      "similarity": 0.531
+    }
+  ]
+}

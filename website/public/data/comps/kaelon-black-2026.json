@@ -1,0 +1,89 @@
+{
+  "prospectId": "kaelon-black-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Anthony McFarland Jr.",
+      "college": "Maryland",
+      "year": 2020,
+      "round": 4,
+      "pick": 124,
+      "ppg": 5.3269,
+      "rawPpg": 1.7909,
+      "madeIt": true,
+      "similarity": 0.194
+    },
+    {
+      "rank": 2,
+      "name": "Kene Nwangwu",
+      "college": "Iowa St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 119,
+      "ppg": 3.9905,
+      "rawPpg": 1.5417,
+      "madeIt": false,
+      "similarity": 0.157
+    },
+    {
+      "rank": 3,
+      "name": "Matt Jones",
+      "college": "Florida",
+      "year": 2015,
+      "round": 3,
+      "pick": 95,
+      "ppg": 8.3424,
+      "rawPpg": 9.1275,
+      "madeIt": true,
+      "similarity": 0.122
+    },
+    {
+      "rank": 4,
+      "name": "Nyheim Hines",
+      "college": "North Carolina St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 104,
+      "ppg": 8.6506,
+      "rawPpg": 9.0969,
+      "madeIt": true,
+      "similarity": 0.119
+    },
+    {
+      "rank": 5,
+      "name": "Trey Sermon",
+      "college": "Ohio St.",
+      "year": 2021,
+      "round": 3,
+      "pick": 88,
+      "ppg": 5.6576,
+      "rawPpg": 3.4083,
+      "madeIt": true,
+      "similarity": 0.114
+    },
+    {
+      "rank": 6,
+      "name": "Joe Williams",
+      "college": "Utah",
+      "year": 2017,
+      "round": 4,
+      "pick": 121,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.109
+    },
+    {
+      "rank": 7,
+      "name": "Roschon Johnson",
+      "college": "Texas",
+      "year": 2023,
+      "round": 4,
+      "pick": 115,
+      "ppg": 6.3324,
+      "rawPpg": 5.5059,
+      "madeIt": true,
+      "similarity": 0.106
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "josh-downs-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jamison Crowder",
+      "college": "Duke",
+      "year": 2015,
+      "round": 4,
+      "pick": 105,
+      "ppg": 8.356,
+      "rawPpg": 9.5683,
+      "madeIt": true,
+      "similarity": 0.494
+    },
+    {
+      "rank": 2,
+      "name": "Amon-Ra St. Brown",
+      "college": "USC",
+      "year": 2021,
+      "round": 4,
+      "pick": 112,
+      "ppg": 12.1132,
+      "rawPpg": 15.1875,
+      "madeIt": true,
+      "similarity": 0.451
+    },
+    {
+      "rank": 3,
+      "name": "Tyler Lockett",
+      "college": "Kansas St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 69,
+      "ppg": 7.2539,
+      "rawPpg": 7.8877,
+      "madeIt": true,
+      "similarity": 0.442
+    },
+    {
+      "rank": 4,
+      "name": "Justin Hardy",
+      "college": "East Carolina",
+      "year": 2015,
+      "round": 4,
+      "pick": 107,
+      "ppg": 5.1367,
+      "rawPpg": 4.6127,
+      "madeIt": true,
+      "similarity": 0.441
+    },
+    {
+      "rank": 5,
+      "name": "Jordan Shipley",
+      "college": "Texas",
+      "year": 2010,
+      "round": 3,
+      "pick": 84,
+      "ppg": 6.3508,
+      "rawPpg": 6.4595,
+      "madeIt": true,
+      "similarity": 0.44
+    },
+    {
+      "rank": 6,
+      "name": "Ryan Broyles",
+      "college": "Oklahoma",
+      "year": 2012,
+      "round": 2,
+      "pick": 54,
+      "ppg": 5.3977,
+      "rawPpg": 4.4167,
+      "madeIt": true,
+      "similarity": 0.433
+    },
+    {
+      "rank": 7,
+      "name": "Eric Decker",
+      "college": "Minnesota",
+      "year": 2010,
+      "round": 3,
+      "pick": 87,
+      "ppg": 9.534,
+      "rawPpg": 11.3187,
+      "madeIt": true,
+      "similarity": 0.415
+    }
+  ]
+}

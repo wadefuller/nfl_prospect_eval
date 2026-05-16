@@ -1,0 +1,89 @@
+{
+  "prospectId": "garrett-wilson-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.57
+    },
+    {
+      "rank": 2,
+      "name": "Chris Olave",
+      "college": "Ohio St.",
+      "year": 2022,
+      "round": 1,
+      "pick": 11,
+      "ppg": 9.4773,
+      "rawPpg": 11.2754,
+      "madeIt": true,
+      "similarity": 0.535
+    },
+    {
+      "rank": 3,
+      "name": "Jaylen Waddle",
+      "college": "Alabama",
+      "year": 2021,
+      "round": 1,
+      "pick": 6,
+      "ppg": 10.468,
+      "rawPpg": 12.6393,
+      "madeIt": true,
+      "similarity": 0.521
+    },
+    {
+      "rank": 4,
+      "name": "Sterling Shepard",
+      "college": "Oklahoma",
+      "year": 2016,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.4263,
+      "rawPpg": 9.9741,
+      "madeIt": true,
+      "similarity": 0.516
+    },
+    {
+      "rank": 5,
+      "name": "Jayden Reed",
+      "college": "Michigan St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 50,
+      "ppg": 9.1864,
+      "rawPpg": 10.7728,
+      "madeIt": true,
+      "similarity": 0.492
+    },
+    {
+      "rank": 6,
+      "name": "Josh Doctson",
+      "college": "TCU",
+      "year": 2016,
+      "round": 1,
+      "pick": 22,
+      "ppg": 6.1942,
+      "rawPpg": 6.3167,
+      "madeIt": true,
+      "similarity": 0.488
+    },
+    {
+      "rank": 7,
+      "name": "Zay Flowers",
+      "college": "Boston Col.",
+      "year": 2023,
+      "round": 1,
+      "pick": 22,
+      "ppg": 9.4619,
+      "rawPpg": 11.1381,
+      "madeIt": true,
+      "similarity": 0.48
+    }
+  ]
+}

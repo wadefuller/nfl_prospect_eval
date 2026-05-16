@@ -1,0 +1,89 @@
+{
+  "prospectId": "antonio-williams-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Robert Woods",
+      "college": "USC",
+      "year": 2013,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.1333,
+      "rawPpg": 7.7196,
+      "madeIt": true,
+      "similarity": 0.409
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Broyles",
+      "college": "Oklahoma",
+      "year": 2012,
+      "round": 2,
+      "pick": 54,
+      "ppg": 5.3977,
+      "rawPpg": 4.4167,
+      "madeIt": true,
+      "similarity": 0.288
+    },
+    {
+      "rank": 3,
+      "name": "Rondale Moore",
+      "college": "Purdue",
+      "year": 2021,
+      "round": 2,
+      "pick": 49,
+      "ppg": 6.4982,
+      "rawPpg": 7.2161,
+      "madeIt": true,
+      "similarity": 0.273
+    },
+    {
+      "rank": 4,
+      "name": "Marqise Lee",
+      "college": "USC",
+      "year": 2014,
+      "round": 2,
+      "pick": 39,
+      "ppg": 7.0894,
+      "rawPpg": 7.4698,
+      "madeIt": true,
+      "similarity": 0.253
+    },
+    {
+      "rank": 5,
+      "name": "Diontae Johnson",
+      "college": "Toledo",
+      "year": 2019,
+      "round": 3,
+      "pick": 66,
+      "ppg": 10.556,
+      "rawPpg": 12.8965,
+      "madeIt": true,
+      "similarity": 0.226
+    },
+    {
+      "rank": 6,
+      "name": "Ty Montgomery",
+      "college": "Stanford",
+      "year": 2015,
+      "round": 3,
+      "pick": 94,
+      "ppg": 7.5393,
+      "rawPpg": 8.9563,
+      "madeIt": true,
+      "similarity": 0.226
+    },
+    {
+      "rank": 7,
+      "name": "Dorial Green-Beckham",
+      "college": "Oklahoma",
+      "year": 2015,
+      "round": 2,
+      "pick": 40,
+      "ppg": 5.9439,
+      "rawPpg": 5.9321,
+      "madeIt": true,
+      "similarity": 0.222
+    }
+  ]
+}

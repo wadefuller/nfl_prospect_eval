@@ -1,0 +1,89 @@
+{
+  "prospectId": "kene-nwangwu-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kalen Ballage",
+      "college": "Arizona St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 131,
+      "ppg": 6.3674,
+      "rawPpg": 5.4758,
+      "madeIt": true,
+      "similarity": 0.227
+    },
+    {
+      "rank": 2,
+      "name": "Snoop Conner",
+      "college": "Mississippi",
+      "year": 2022,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.192
+    },
+    {
+      "rank": 3,
+      "name": "Anthony McFarland Jr.",
+      "college": "Maryland",
+      "year": 2020,
+      "round": 4,
+      "pick": 124,
+      "ppg": 5.3269,
+      "rawPpg": 1.7909,
+      "madeIt": true,
+      "similarity": 0.192
+    },
+    {
+      "rank": 4,
+      "name": "Jonathan Williams",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 5,
+      "pick": 156,
+      "ppg": 5.6678,
+      "rawPpg": 1.4875,
+      "madeIt": true,
+      "similarity": 0.185
+    },
+    {
+      "rank": 5,
+      "name": "Jamaal Williams",
+      "college": "BYU",
+      "year": 2017,
+      "round": 4,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
+      "madeIt": true,
+      "similarity": 0.184
+    },
+    {
+      "rank": 6,
+      "name": "Jordan Scarlett",
+      "college": "Florida",
+      "year": 2019,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.172
+    },
+    {
+      "rank": 7,
+      "name": "Joe Williams",
+      "college": "Utah",
+      "year": 2017,
+      "round": 4,
+      "pick": 121,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.17
+    }
+  ]
+}

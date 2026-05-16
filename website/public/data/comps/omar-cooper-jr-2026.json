@@ -1,0 +1,89 @@
+{
+  "prospectId": "omar-cooper-jr-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Breshad Perriman",
+      "college": "Central Florida",
+      "year": 2015,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5889,
+      "rawPpg": 3.3973,
+      "madeIt": false,
+      "similarity": 0.639
+    },
+    {
+      "rank": 2,
+      "name": "Henry Ruggs III",
+      "college": "Alabama",
+      "year": 2020,
+      "round": 1,
+      "pick": 12,
+      "ppg": 6.6398,
+      "rawPpg": 7.9132,
+      "madeIt": true,
+      "similarity": 0.536
+    },
+    {
+      "rank": 3,
+      "name": "Mike Evans",
+      "college": "Texas A&M",
+      "year": 2014,
+      "round": 1,
+      "pick": 7,
+      "ppg": 11.9709,
+      "rawPpg": 15.0398,
+      "madeIt": true,
+      "similarity": 0.486
+    },
+    {
+      "rank": 4,
+      "name": "Tee Higgins",
+      "college": "Clemson",
+      "year": 2020,
+      "round": 2,
+      "pick": 33,
+      "ppg": 10.4871,
+      "rawPpg": 13.0714,
+      "madeIt": true,
+      "similarity": 0.481
+    },
+    {
+      "rank": 5,
+      "name": "Rueben Randle",
+      "college": "LSU",
+      "year": 2012,
+      "round": 2,
+      "pick": 63,
+      "ppg": 7.5069,
+      "rawPpg": 8.2781,
+      "madeIt": true,
+      "similarity": 0.466
+    },
+    {
+      "rank": 6,
+      "name": "Odell Beckham Jr.",
+      "college": "LSU",
+      "year": 2014,
+      "round": 1,
+      "pick": 12,
+      "ppg": 14.3775,
+      "rawPpg": 19.5225,
+      "madeIt": true,
+      "similarity": 0.441
+    },
+    {
+      "rank": 7,
+      "name": "Marvin Mims",
+      "college": "Oklahoma",
+      "year": 2023,
+      "round": 2,
+      "pick": 63,
+      "ppg": 5.8736,
+      "rawPpg": 5.7853,
+      "madeIt": true,
+      "similarity": 0.44
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "khalil-shakir-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jordan Payton",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.6
+    },
+    {
+      "rank": 2,
+      "name": "Jared Abbrederis",
+      "college": "Wisconsin",
+      "year": 2014,
+      "round": 5,
+      "pick": 176,
+      "ppg": 4.6263,
+      "rawPpg": 1.95,
+      "madeIt": false,
+      "similarity": 0.583
+    },
+    {
+      "rank": 3,
+      "name": "Pharoh Cooper",
+      "college": "South Carolina",
+      "year": 2016,
+      "round": 4,
+      "pick": 117,
+      "ppg": 3.2081,
+      "rawPpg": 1.5073,
+      "madeIt": false,
+      "similarity": 0.561
+    },
+    {
+      "rank": 4,
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
+      "madeIt": false,
+      "similarity": 0.554
+    },
+    {
+      "rank": 5,
+      "name": "Romeo Doubs",
+      "college": "Nevada",
+      "year": 2022,
+      "round": 4,
+      "pick": 132,
+      "ppg": 7.5963,
+      "rawPpg": 8.4579,
+      "madeIt": true,
+      "similarity": 0.538
+    },
+    {
+      "rank": 6,
+      "name": "Ryan Swope",
+      "college": "Texas A&M",
+      "year": 2013,
+      "round": 6,
+      "pick": 174,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.538
+    },
+    {
+      "rank": 7,
+      "name": "Jon Olinger",
+      "college": "Cincinnati",
+      "year": 2003,
+      "round": 5,
+      "pick": 159,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.516
+    }
+  ]
+}

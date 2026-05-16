@@ -1,0 +1,89 @@
+{
+  "prospectId": "bub-means-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Joe Webb",
+      "college": "Ala-Birmingham",
+      "year": 2010,
+      "round": 6,
+      "pick": 199,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.667
+    },
+    {
+      "rank": 2,
+      "name": "Jalen Camp",
+      "college": "Georgia Tech",
+      "year": 2021,
+      "round": 6,
+      "pick": 209,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.554
+    },
+    {
+      "rank": 3,
+      "name": "DeAndre Smelter",
+      "college": "Georgia Tech",
+      "year": 2015,
+      "round": 4,
+      "pick": 132,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.55
+    },
+    {
+      "rank": 4,
+      "name": "Joel Filani",
+      "college": "Texas Tech",
+      "year": 2007,
+      "round": 6,
+      "pick": 188,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.526
+    },
+    {
+      "rank": 5,
+      "name": "DeVeren Johnson",
+      "college": "Sacred Heart",
+      "year": 2002,
+      "round": 6,
+      "pick": 208,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.518
+    },
+    {
+      "rank": 6,
+      "name": "Jon Olinger",
+      "college": "Cincinnati",
+      "year": 2003,
+      "round": 5,
+      "pick": 159,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.518
+    },
+    {
+      "rank": 7,
+      "name": "Larry Brackins",
+      "college": "Pearl River CC",
+      "year": 2005,
+      "round": 5,
+      "pick": 155,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.518
+    }
+  ]
+}

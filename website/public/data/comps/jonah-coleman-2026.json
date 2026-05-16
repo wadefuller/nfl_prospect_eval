@@ -1,0 +1,89 @@
+{
+  "prospectId": "jonah-coleman-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ito Smith",
+      "college": "Southern Miss",
+      "year": 2018,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.6424,
+      "rawPpg": 5.4385,
+      "madeIt": true,
+      "similarity": 0.201
+    },
+    {
+      "rank": 2,
+      "name": "Mike Davis",
+      "college": "South Carolina",
+      "year": 2015,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.2665,
+      "rawPpg": 4.6452,
+      "madeIt": true,
+      "similarity": 0.169
+    },
+    {
+      "rank": 3,
+      "name": "Zack Moss",
+      "college": "Utah",
+      "year": 2020,
+      "round": 3,
+      "pick": 86,
+      "ppg": 7.4388,
+      "rawPpg": 7.2423,
+      "madeIt": true,
+      "similarity": 0.16
+    },
+    {
+      "rank": 4,
+      "name": "DeAndre Washington",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 5,
+      "pick": 143,
+      "ppg": 6.1097,
+      "rawPpg": 5.2167,
+      "madeIt": true,
+      "similarity": 0.157
+    },
+    {
+      "rank": 5,
+      "name": "Devontae Booker",
+      "college": "Utah",
+      "year": 2016,
+      "round": 4,
+      "pick": 136,
+      "ppg": 7.2828,
+      "rawPpg": 6.9135,
+      "madeIt": true,
+      "similarity": 0.149
+    },
+    {
+      "rank": 6,
+      "name": "Javorius Allen",
+      "college": "USC",
+      "year": 2015,
+      "round": 4,
+      "pick": 125,
+      "ppg": 8.1339,
+      "rawPpg": 8.3219,
+      "madeIt": true,
+      "similarity": 0.139
+    },
+    {
+      "rank": 7,
+      "name": "Ka'Deem Carey",
+      "college": "Arizona",
+      "year": 2014,
+      "round": 4,
+      "pick": 117,
+      "ppg": 5.0952,
+      "rawPpg": 3.052,
+      "madeIt": true,
+      "similarity": 0.133
+    }
+  ]
+}

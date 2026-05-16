@@ -1,0 +1,89 @@
+{
+  "prospectId": "jordan-watkins-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "DeAngelo Yancey",
+      "college": "Purdue",
+      "year": 2017,
+      "round": 5,
+      "pick": 175,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.598
+    },
+    {
+      "rank": 2,
+      "name": "DaeSean Hamilton",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 113,
+      "ppg": 5.0649,
+      "rawPpg": 4.4485,
+      "madeIt": true,
+      "similarity": 0.582
+    },
+    {
+      "rank": 3,
+      "name": "Jarius Wright",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 118,
+      "ppg": 6.564,
+      "rawPpg": 7.2324,
+      "madeIt": true,
+      "similarity": 0.56
+    },
+    {
+      "rank": 4,
+      "name": "Bruce Ellington",
+      "college": "South Carolina",
+      "year": 2014,
+      "round": 4,
+      "pick": 106,
+      "ppg": 3.5222,
+      "rawPpg": 2.0192,
+      "madeIt": false,
+      "similarity": 0.526
+    },
+    {
+      "rank": 5,
+      "name": "Danny Gray",
+      "college": "SMU",
+      "year": 2022,
+      "round": 3,
+      "pick": 105,
+      "ppg": 4.2536,
+      "rawPpg": 0.3429,
+      "madeIt": false,
+      "similarity": 0.522
+    },
+    {
+      "rank": 6,
+      "name": "Denarius Moore",
+      "college": "Tennessee",
+      "year": 2011,
+      "round": 5,
+      "pick": 148,
+      "ppg": 8.1598,
+      "rawPpg": 9.4149,
+      "madeIt": true,
+      "similarity": 0.513
+    },
+    {
+      "rank": 7,
+      "name": "Puka Nacua",
+      "college": "BYU",
+      "year": 2023,
+      "round": 5,
+      "pick": 177,
+      "ppg": 13.3263,
+      "rawPpg": 17.2986,
+      "madeIt": true,
+      "similarity": 0.509
+    }
+  ]
+}

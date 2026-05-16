@@ -1,0 +1,89 @@
+{
+  "prospectId": "jaylin-noel-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Emmanuel Sanders",
+      "college": "SMU",
+      "year": 2010,
+      "round": 3,
+      "pick": 82,
+      "ppg": 5.5118,
+      "rawPpg": 5.2274,
+      "madeIt": true,
+      "similarity": 0.485
+    },
+    {
+      "rank": 2,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.485
+    },
+    {
+      "rank": 3,
+      "name": "Skyy Moore",
+      "college": "Western Michigan",
+      "year": 2022,
+      "round": 2,
+      "pick": 54,
+      "ppg": 3.934,
+      "rawPpg": 2.8615,
+      "madeIt": false,
+      "similarity": 0.479
+    },
+    {
+      "rank": 4,
+      "name": "Denzel Mims",
+      "college": "Baylor",
+      "year": 2020,
+      "round": 2,
+      "pick": 59,
+      "ppg": 4.9627,
+      "rawPpg": 4.0722,
+      "madeIt": false,
+      "similarity": 0.469
+    },
+    {
+      "rank": 5,
+      "name": "Marquis Walker",
+      "college": "Michigan",
+      "year": 2002,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.461
+    },
+    {
+      "rank": 6,
+      "name": "Chase Lyman",
+      "college": "California",
+      "year": 2005,
+      "round": 4,
+      "pick": 118,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.449
+    },
+    {
+      "rank": 7,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.447
+    }
+  ]
+}

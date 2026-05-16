@@ -1,0 +1,89 @@
+{
+  "prospectId": "antoine-green-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.52
+    },
+    {
+      "rank": 2,
+      "name": "Simi Fehoko",
+      "college": "Stanford",
+      "year": 2021,
+      "round": 5,
+      "pick": 179,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.49
+    },
+    {
+      "rank": 3,
+      "name": "T.J. Jones",
+      "college": "Notre Dame",
+      "year": 2014,
+      "round": 6,
+      "pick": 189,
+      "ppg": 4.5897,
+      "rawPpg": 2.39,
+      "madeIt": false,
+      "similarity": 0.468
+    },
+    {
+      "rank": 4,
+      "name": "Craig Bragg",
+      "college": "UCLA",
+      "year": 2005,
+      "round": 6,
+      "pick": 195,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.451
+    },
+    {
+      "rank": 5,
+      "name": "Cody Core",
+      "college": "Mississippi",
+      "year": 2016,
+      "round": 6,
+      "pick": 199,
+      "ppg": 4.6798,
+      "rawPpg": 3.5607,
+      "madeIt": false,
+      "similarity": 0.437
+    },
+    {
+      "rank": 6,
+      "name": "DeVeren Johnson",
+      "college": "Sacred Heart",
+      "year": 2002,
+      "round": 6,
+      "pick": 208,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.433
+    },
+    {
+      "rank": 7,
+      "name": "Michael Coleman",
+      "college": "Widener",
+      "year": 2002,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.433
+    }
+  ]
+}

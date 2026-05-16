@@ -1,0 +1,89 @@
+{
+  "prospectId": "tetairoa-mcmillan-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marquise Brown",
+      "college": "Oklahoma",
+      "year": 2019,
+      "round": 1,
+      "pick": 25,
+      "ppg": 9.0048,
+      "rawPpg": 10.525,
+      "madeIt": true,
+      "similarity": 0.443
+    },
+    {
+      "rank": 2,
+      "name": "Titus Young",
+      "college": "Boise St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 44,
+      "ppg": 7.1889,
+      "rawPpg": 7.9606,
+      "madeIt": true,
+      "similarity": 0.441
+    },
+    {
+      "rank": 3,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.436
+    },
+    {
+      "rank": 4,
+      "name": "N'Keal Harry",
+      "college": "Arizona St.",
+      "year": 2019,
+      "round": 1,
+      "pick": 32,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.385
+    },
+    {
+      "rank": 5,
+      "name": "A.J. Jenkins",
+      "college": "Illinois",
+      "year": 2012,
+      "round": 1,
+      "pick": 30,
+      "ppg": 4.2211,
+      "rawPpg": 2.2286,
+      "madeIt": false,
+      "similarity": 0.358
+    },
+    {
+      "rank": 6,
+      "name": "Calvin Ridley",
+      "college": "Alabama",
+      "year": 2018,
+      "round": 1,
+      "pick": 26,
+      "ppg": 11.3053,
+      "rawPpg": 14.2487,
+      "madeIt": true,
+      "similarity": 0.351
+    },
+    {
+      "rank": 7,
+      "name": "Sterling Shepard",
+      "college": "Oklahoma",
+      "year": 2016,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.4263,
+      "rawPpg": 9.9741,
+      "madeIt": true,
+      "similarity": 0.346
+    }
+  ]
+}

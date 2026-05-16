@@ -1,0 +1,89 @@
+{
+  "prospectId": "tutu-atwell-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Rashod Bateman",
+      "college": "Minnesota",
+      "year": 2021,
+      "round": 1,
+      "pick": 27,
+      "ppg": 6.5274,
+      "rawPpg": 7.1875,
+      "madeIt": true,
+      "similarity": 0.41
+    },
+    {
+      "rank": 2,
+      "name": "Diontae Johnson",
+      "college": "Toledo",
+      "year": 2019,
+      "round": 3,
+      "pick": 66,
+      "ppg": 10.556,
+      "rawPpg": 12.8965,
+      "madeIt": true,
+      "similarity": 0.359
+    },
+    {
+      "rank": 3,
+      "name": "Jayden Reed",
+      "college": "Michigan St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 50,
+      "ppg": 9.1864,
+      "rawPpg": 10.7728,
+      "madeIt": true,
+      "similarity": 0.351
+    },
+    {
+      "rank": 4,
+      "name": "Brandon LaFell",
+      "college": "LSU",
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
+      "madeIt": true,
+      "similarity": 0.327
+    },
+    {
+      "rank": 5,
+      "name": "JuJu Smith-Schuster",
+      "college": "USC",
+      "year": 2017,
+      "round": 2,
+      "pick": 62,
+      "ppg": 10.9898,
+      "rawPpg": 13.5687,
+      "madeIt": true,
+      "similarity": 0.322
+    },
+    {
+      "rank": 6,
+      "name": "Marquise Brown",
+      "college": "Oklahoma",
+      "year": 2019,
+      "round": 1,
+      "pick": 25,
+      "ppg": 9.0048,
+      "rawPpg": 10.525,
+      "madeIt": true,
+      "similarity": 0.316
+    },
+    {
+      "rank": 7,
+      "name": "Jonathan Baldwin",
+      "college": "Pittsburgh",
+      "year": 2011,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5325,
+      "rawPpg": 3.6367,
+      "madeIt": false,
+      "similarity": 0.313
+    }
+  ]
+}

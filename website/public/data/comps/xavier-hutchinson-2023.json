@@ -1,0 +1,89 @@
+{
+  "prospectId": "xavier-hutchinson-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kerry Meier",
+      "college": "Kansas",
+      "year": 2010,
+      "round": 5,
+      "pick": 165,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.416
+    },
+    {
+      "rank": 2,
+      "name": "Antonio Brown",
+      "college": "Central Michigan",
+      "year": 2010,
+      "round": 6,
+      "pick": 195,
+      "ppg": 8.954,
+      "rawPpg": 10.6197,
+      "madeIt": true,
+      "similarity": 0.406
+    },
+    {
+      "rank": 3,
+      "name": "Dwayne Harris",
+      "college": "East Carolina",
+      "year": 2011,
+      "round": 6,
+      "pick": 176,
+      "ppg": 3.8916,
+      "rawPpg": 2.6862,
+      "madeIt": false,
+      "similarity": 0.393
+    },
+    {
+      "rank": 4,
+      "name": "Daniel Braverman",
+      "college": "Western Michigan",
+      "year": 2016,
+      "round": 7,
+      "pick": 230,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.379
+    },
+    {
+      "rank": 5,
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
+      "madeIt": false,
+      "similarity": 0.342
+    },
+    {
+      "rank": 6,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.326
+    },
+    {
+      "rank": 7,
+      "name": "KeeSean Johnson",
+      "college": "Fresno St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 174,
+      "ppg": 4.5803,
+      "rawPpg": 3.325,
+      "madeIt": false,
+      "similarity": 0.319
+    }
+  ]
+}

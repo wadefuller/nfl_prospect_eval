@@ -1,0 +1,89 @@
+{
+  "prospectId": "brashard-smith-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Darius Jackson",
+      "college": "Eastern Michigan",
+      "year": 2016,
+      "round": 6,
+      "pick": 216,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.263
+    },
+    {
+      "rank": 2,
+      "name": "Boston Scott",
+      "college": "Louisiana Tech",
+      "year": 2018,
+      "round": 6,
+      "pick": 201,
+      "ppg": 7.1738,
+      "rawPpg": 7.4247,
+      "madeIt": true,
+      "similarity": 0.229
+    },
+    {
+      "rank": 3,
+      "name": "Theo Riddick",
+      "college": "Notre Dame",
+      "year": 2013,
+      "round": 6,
+      "pick": 199,
+      "ppg": 7.5739,
+      "rawPpg": 7.3322,
+      "madeIt": true,
+      "similarity": 0.202
+    },
+    {
+      "rank": 4,
+      "name": "Marcus Murphy",
+      "college": "Missouri",
+      "year": 2015,
+      "round": 7,
+      "pick": 230,
+      "ppg": 4.4872,
+      "rawPpg": 0.4615,
+      "madeIt": false,
+      "similarity": 0.185
+    },
+    {
+      "rank": 5,
+      "name": "Storm Johnson",
+      "college": "Central Florida",
+      "year": 2014,
+      "round": 7,
+      "pick": 222,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.17
+    },
+    {
+      "rank": 6,
+      "name": "Mike Weber",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.16
+    },
+    {
+      "rank": 7,
+      "name": "Josh Robinson",
+      "college": "Mississippi St.",
+      "year": 2015,
+      "round": 6,
+      "pick": 205,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.154
+    }
+  ]
+}

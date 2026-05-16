@@ -1,0 +1,89 @@
+{
+  "prospectId": "tai-felton-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jordan Shipley",
+      "college": "Texas",
+      "year": 2010,
+      "round": 3,
+      "pick": 84,
+      "ppg": 6.3508,
+      "rawPpg": 6.4595,
+      "madeIt": true,
+      "similarity": 0.446
+    },
+    {
+      "rank": 2,
+      "name": "Randall Cobb",
+      "college": "Kentucky",
+      "year": 2011,
+      "round": 2,
+      "pick": 64,
+      "ppg": 10.5036,
+      "rawPpg": 14.3033,
+      "madeIt": true,
+      "similarity": 0.423
+    },
+    {
+      "rank": 3,
+      "name": "Markus Wheaton",
+      "college": "Oregon St.",
+      "year": 2013,
+      "round": 3,
+      "pick": 79,
+      "ppg": 6.8569,
+      "rawPpg": 7.3031,
+      "madeIt": true,
+      "similarity": 0.41
+    },
+    {
+      "rank": 4,
+      "name": "Quinton Patton",
+      "college": "Louisiana Tech",
+      "year": 2013,
+      "round": 4,
+      "pick": 128,
+      "ppg": 4.8854,
+      "rawPpg": 3.8062,
+      "madeIt": false,
+      "similarity": 0.407
+    },
+    {
+      "rank": 5,
+      "name": "Charlie Jones",
+      "college": "Purdue",
+      "year": 2023,
+      "round": 4,
+      "pick": 131,
+      "ppg": 3.5186,
+      "rawPpg": 1.2818,
+      "madeIt": false,
+      "similarity": 0.406
+    },
+    {
+      "rank": 6,
+      "name": "Keke Coutee",
+      "college": "Texas Tech",
+      "year": 2018,
+      "round": 4,
+      "pick": 103,
+      "ppg": 7.2211,
+      "rawPpg": 8.5896,
+      "madeIt": true,
+      "similarity": 0.402
+    },
+    {
+      "rank": 7,
+      "name": "Jaleel Scott",
+      "college": "New Mexico St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 132,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.399
+    }
+  ]
+}

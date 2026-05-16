@@ -1,0 +1,89 @@
+{
+  "prospectId": "tyler-badie-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Trayveon Williams",
+      "college": "Texas A&M",
+      "year": 2019,
+      "round": 6,
+      "pick": 182,
+      "ppg": 6.5149,
+      "rawPpg": 3.2,
+      "madeIt": true,
+      "similarity": 0.238
+    },
+    {
+      "rank": 2,
+      "name": "Storm Johnson",
+      "college": "Central Florida",
+      "year": 2014,
+      "round": 7,
+      "pick": 222,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.143
+    },
+    {
+      "rank": 3,
+      "name": "Aaron Jones",
+      "college": "Texas-El Paso",
+      "year": 2017,
+      "round": 5,
+      "pick": 182,
+      "ppg": 13.0188,
+      "rawPpg": 15.6719,
+      "madeIt": true,
+      "similarity": 0.143
+    },
+    {
+      "rank": 4,
+      "name": "Theo Riddick",
+      "college": "Notre Dame",
+      "year": 2013,
+      "round": 6,
+      "pick": 199,
+      "ppg": 7.5739,
+      "rawPpg": 7.3322,
+      "madeIt": true,
+      "similarity": 0.136
+    },
+    {
+      "rank": 5,
+      "name": "Jawan Jamison",
+      "college": "Rutgers",
+      "year": 2013,
+      "round": 7,
+      "pick": 228,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.127
+    },
+    {
+      "rank": 6,
+      "name": "Josh Robinson",
+      "college": "Mississippi St.",
+      "year": 2015,
+      "round": 6,
+      "pick": 205,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.123
+    },
+    {
+      "rank": 7,
+      "name": "Jason Huntley",
+      "college": "New Mexico St.",
+      "year": 2020,
+      "round": 5,
+      "pick": 172,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.121
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "zachariah-branch-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
+      "madeIt": true,
+      "similarity": 0.553
+    },
+    {
+      "rank": 2,
+      "name": "Christian Kirk",
+      "college": "Texas A&M",
+      "year": 2018,
+      "round": 2,
+      "pick": 47,
+      "ppg": 8.1868,
+      "rawPpg": 9.533,
+      "madeIt": true,
+      "similarity": 0.516
+    },
+    {
+      "rank": 3,
+      "name": "Wan'Dale Robinson",
+      "college": "Kentucky",
+      "year": 2022,
+      "round": 2,
+      "pick": 43,
+      "ppg": 6.9757,
+      "rawPpg": 7.4459,
+      "madeIt": true,
+      "similarity": 0.448
+    },
+    {
+      "rank": 4,
+      "name": "Anthony Schwartz",
+      "college": "Auburn",
+      "year": 2021,
+      "round": 3,
+      "pick": 91,
+      "ppg": 3.9064,
+      "rawPpg": 2.2923,
+      "madeIt": false,
+      "similarity": 0.447
+    },
+    {
+      "rank": 5,
+      "name": "T.Y. Hilton",
+      "college": "Florida International",
+      "year": 2012,
+      "round": 3,
+      "pick": 92,
+      "ppg": 10.4858,
+      "rawPpg": 12.8719,
+      "madeIt": true,
+      "similarity": 0.444
+    },
+    {
+      "rank": 6,
+      "name": "Tre Tucker",
+      "college": "Cincinnati",
+      "year": 2023,
+      "round": 3,
+      "pick": 100,
+      "ppg": 6.6886,
+      "rawPpg": 7.0294,
+      "madeIt": true,
+      "similarity": 0.44
+    },
+    {
+      "rank": 7,
+      "name": "Jerrel Jernigan",
+      "college": "Troy",
+      "year": 2011,
+      "round": 3,
+      "pick": 83,
+      "ppg": 4.7453,
+      "rawPpg": 3.0418,
+      "madeIt": false,
+      "similarity": 0.437
+    }
+  ]
+}

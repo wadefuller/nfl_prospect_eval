@@ -1,0 +1,89 @@
+{
+  "prospectId": "arian-smith-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Malcolm Mitchell",
+      "college": "Georgia",
+      "year": 2016,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.269,
+      "rawPpg": 6.675,
+      "madeIt": true,
+      "similarity": 0.518
+    },
+    {
+      "rank": 2,
+      "name": "Ricardo Louis",
+      "college": "Auburn",
+      "year": 2016,
+      "round": 4,
+      "pick": 114,
+      "ppg": 3.9575,
+      "rawPpg": 2.8107,
+      "madeIt": false,
+      "similarity": 0.451
+    },
+    {
+      "rank": 3,
+      "name": "Kris Durham",
+      "college": "Georgia",
+      "year": 2011,
+      "round": 4,
+      "pick": 107,
+      "ppg": 5.4197,
+      "rawPpg": 4.875,
+      "madeIt": true,
+      "similarity": 0.411
+    },
+    {
+      "rank": 4,
+      "name": "Miles Boykin",
+      "college": "Notre Dame",
+      "year": 2019,
+      "round": 3,
+      "pick": 93,
+      "ppg": 4.7579,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.409
+    },
+    {
+      "rank": 5,
+      "name": "Chris Conley",
+      "college": "Georgia",
+      "year": 2015,
+      "round": 3,
+      "pick": 76,
+      "ppg": 4.6553,
+      "rawPpg": 3.7771,
+      "madeIt": false,
+      "similarity": 0.408
+    },
+    {
+      "rank": 6,
+      "name": "DaeSean Hamilton",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 113,
+      "ppg": 5.0649,
+      "rawPpg": 4.4485,
+      "madeIt": true,
+      "similarity": 0.392
+    },
+    {
+      "rank": 7,
+      "name": "Jaleel Scott",
+      "college": "New Mexico St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 132,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.391
+    }
+  ]
+}

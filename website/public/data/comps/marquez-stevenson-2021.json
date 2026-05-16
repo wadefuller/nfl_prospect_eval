@@ -1,0 +1,89 @@
+{
+  "prospectId": "marquez-stevenson-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tre Nixon",
+      "college": "Central Florida",
+      "year": 2021,
+      "round": 7,
+      "pick": 242,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.444
+    },
+    {
+      "rank": 2,
+      "name": "Marquess Wilson",
+      "college": "Washington St.",
+      "year": 2013,
+      "round": 7,
+      "pick": 236,
+      "ppg": 5.598,
+      "rawPpg": 5.0539,
+      "madeIt": true,
+      "similarity": 0.443
+    },
+    {
+      "rank": 3,
+      "name": "Equanimeous St. Brown",
+      "college": "Notre Dame",
+      "year": 2018,
+      "round": 6,
+      "pick": 207,
+      "ppg": 4.6038,
+      "rawPpg": 3.3597,
+      "madeIt": false,
+      "similarity": 0.432
+    },
+    {
+      "rank": 4,
+      "name": "Dazz Newsome",
+      "college": "North Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 221,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.407
+    },
+    {
+      "rank": 5,
+      "name": "Collin Johnson",
+      "college": "Texas",
+      "year": 2020,
+      "round": 5,
+      "pick": 165,
+      "ppg": 4.6181,
+      "rawPpg": 3.2818,
+      "madeIt": false,
+      "similarity": 0.377
+    },
+    {
+      "rank": 6,
+      "name": "Chandler Williams",
+      "college": "Florida International",
+      "year": 2007,
+      "round": 7,
+      "pick": 233,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.374
+    },
+    {
+      "rank": 7,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.371
+    }
+  ]
+}

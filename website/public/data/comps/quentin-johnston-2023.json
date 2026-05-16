@@ -1,0 +1,89 @@
+{
+  "prospectId": "quentin-johnston-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jaylen Waddle",
+      "college": "Alabama",
+      "year": 2021,
+      "round": 1,
+      "pick": 6,
+      "ppg": 10.468,
+      "rawPpg": 12.6393,
+      "madeIt": true,
+      "similarity": 0.606
+    },
+    {
+      "rank": 2,
+      "name": "Denzel Mims",
+      "college": "Baylor",
+      "year": 2020,
+      "round": 2,
+      "pick": 59,
+      "ppg": 4.9627,
+      "rawPpg": 4.0722,
+      "madeIt": false,
+      "similarity": 0.586
+    },
+    {
+      "rank": 3,
+      "name": "Jonathan Mingo",
+      "college": "Mississippi",
+      "year": 2023,
+      "round": 2,
+      "pick": 39,
+      "ppg": 4.054,
+      "rawPpg": 2.9564,
+      "madeIt": false,
+      "similarity": 0.561
+    },
+    {
+      "rank": 4,
+      "name": "Aaron Dobson",
+      "college": "Marshall",
+      "year": 2013,
+      "round": 2,
+      "pick": 59,
+      "ppg": 6.3767,
+      "rawPpg": 6.0076,
+      "madeIt": true,
+      "similarity": 0.55
+    },
+    {
+      "rank": 5,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.534
+    },
+    {
+      "rank": 6,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.532
+    },
+    {
+      "rank": 7,
+      "name": "Titus Young",
+      "college": "Boise St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 44,
+      "ppg": 7.1889,
+      "rawPpg": 7.9606,
+      "madeIt": true,
+      "similarity": 0.468
+    }
+  ]
+}

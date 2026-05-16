@@ -1,0 +1,89 @@
+{
+  "prospectId": "jaylen-wright-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Wendell Smallwood",
+      "college": "West Virginia",
+      "year": 2016,
+      "round": 5,
+      "pick": 153,
+      "ppg": 6.9161,
+      "rawPpg": 6.0258,
+      "madeIt": true,
+      "similarity": 0.175
+    },
+    {
+      "rank": 2,
+      "name": "Marlon Mack",
+      "college": "South Florida",
+      "year": 2017,
+      "round": 4,
+      "pick": 143,
+      "ppg": 11.1435,
+      "rawPpg": 13.2917,
+      "madeIt": true,
+      "similarity": 0.17
+    },
+    {
+      "rank": 3,
+      "name": "Jordan Howard",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 5,
+      "pick": 150,
+      "ppg": 11.2325,
+      "rawPpg": 13.0679,
+      "madeIt": true,
+      "similarity": 0.16
+    },
+    {
+      "rank": 4,
+      "name": "Damien Harris",
+      "college": "Alabama",
+      "year": 2019,
+      "round": 3,
+      "pick": 87,
+      "ppg": 10.0982,
+      "rawPpg": 11.1433,
+      "madeIt": true,
+      "similarity": 0.151
+    },
+    {
+      "rank": 5,
+      "name": "Bilal Powell",
+      "college": "Louisville",
+      "year": 2011,
+      "round": 4,
+      "pick": 126,
+      "ppg": 7.3136,
+      "rawPpg": 7.0371,
+      "madeIt": true,
+      "similarity": 0.134
+    },
+    {
+      "rank": 6,
+      "name": "Brian Hill",
+      "college": "Wyoming",
+      "year": 2017,
+      "round": 5,
+      "pick": 156,
+      "ppg": 7.1664,
+      "rawPpg": 6.22,
+      "madeIt": true,
+      "similarity": 0.125
+    },
+    {
+      "rank": 7,
+      "name": "Tyjae Spears",
+      "college": "Tulane",
+      "year": 2023,
+      "round": 3,
+      "pick": 81,
+      "ppg": 7.7895,
+      "rawPpg": 7.8672,
+      "madeIt": true,
+      "similarity": 0.116
+    }
+  ]
+}

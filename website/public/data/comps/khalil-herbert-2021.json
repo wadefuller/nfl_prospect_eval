@@ -1,0 +1,89 @@
+{
+  "prospectId": "khalil-herbert-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Boston Scott",
+      "college": "Louisiana Tech",
+      "year": 2018,
+      "round": 6,
+      "pick": 201,
+      "ppg": 7.1738,
+      "rawPpg": 7.4247,
+      "madeIt": true,
+      "similarity": 0.231
+    },
+    {
+      "rank": 2,
+      "name": "Jay Finley",
+      "college": "Baylor",
+      "year": 2011,
+      "round": 7,
+      "pick": 246,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.225
+    },
+    {
+      "rank": 3,
+      "name": "Kerrith Whyte Jr",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.2603,
+      "rawPpg": 2.2667,
+      "madeIt": true,
+      "similarity": 0.159
+    },
+    {
+      "rank": 4,
+      "name": "Trestan Ebner",
+      "college": "Baylor",
+      "year": 2022,
+      "round": 6,
+      "pick": 203,
+      "ppg": 4.7899,
+      "rawPpg": 0.4727,
+      "madeIt": false,
+      "similarity": 0.155
+    },
+    {
+      "rank": 5,
+      "name": "Latavius Murray",
+      "college": "Central Florida",
+      "year": 2013,
+      "round": 6,
+      "pick": 181,
+      "ppg": 8.5695,
+      "rawPpg": 8.7286,
+      "madeIt": true,
+      "similarity": 0.141
+    },
+    {
+      "rank": 6,
+      "name": "Keaontay Ingram",
+      "college": "USC",
+      "year": 2022,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.4773,
+      "rawPpg": 1.589,
+      "madeIt": false,
+      "similarity": 0.13
+    },
+    {
+      "rank": 7,
+      "name": "Josh Robinson",
+      "college": "Mississippi St.",
+      "year": 2015,
+      "round": 6,
+      "pick": 205,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.13
+    }
+  ]
+}

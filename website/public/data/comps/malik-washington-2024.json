@@ -1,0 +1,89 @@
+{
+  "prospectId": "malik-washington-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Xavier Hutchinson",
+      "college": "Iowa St.",
+      "year": 2023,
+      "round": 6,
+      "pick": 205,
+      "ppg": 4.4053,
+      "rawPpg": 3.2615,
+      "madeIt": false,
+      "similarity": 0.332
+    },
+    {
+      "rank": 2,
+      "name": "KeeSean Johnson",
+      "college": "Fresno St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 174,
+      "ppg": 4.5803,
+      "rawPpg": 3.325,
+      "madeIt": false,
+      "similarity": 0.22
+    },
+    {
+      "rank": 3,
+      "name": "Kerry Meier",
+      "college": "Kansas",
+      "year": 2010,
+      "round": 5,
+      "pick": 165,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.215
+    },
+    {
+      "rank": 4,
+      "name": "David Reed",
+      "college": "Utah",
+      "year": 2010,
+      "round": 5,
+      "pick": 156,
+      "ppg": 2.9866,
+      "rawPpg": 0.4639,
+      "madeIt": false,
+      "similarity": 0.214
+    },
+    {
+      "rank": 5,
+      "name": "Dwayne Harris",
+      "college": "East Carolina",
+      "year": 2011,
+      "round": 6,
+      "pick": 176,
+      "ppg": 3.8916,
+      "rawPpg": 2.6862,
+      "madeIt": false,
+      "similarity": 0.214
+    },
+    {
+      "rank": 6,
+      "name": "Aaron Burbridge",
+      "college": "Michigan St.",
+      "year": 2016,
+      "round": 6,
+      "pick": 213,
+      "ppg": 3.4752,
+      "rawPpg": 0.82,
+      "madeIt": false,
+      "similarity": 0.199
+    },
+    {
+      "rank": 7,
+      "name": "Trent Taylor",
+      "college": "Louisiana Tech",
+      "year": 2017,
+      "round": 5,
+      "pick": 177,
+      "ppg": 4.8735,
+      "rawPpg": 4.1846,
+      "madeIt": false,
+      "similarity": 0.199
+    }
+  ]
+}

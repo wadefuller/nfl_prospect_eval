@@ -1,0 +1,89 @@
+{
+  "prospectId": "racey-mcmath-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Russell Gage",
+      "college": "LSU",
+      "year": 2018,
+      "round": 6,
+      "pick": 194,
+      "ppg": 6.8868,
+      "rawPpg": 7.2581,
+      "madeIt": true,
+      "similarity": 0.637
+    },
+    {
+      "rank": 2,
+      "name": "Brice Butler",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 7,
+      "pick": 209,
+      "ppg": 4.3877,
+      "rawPpg": 2.9429,
+      "madeIt": false,
+      "similarity": 0.61
+    },
+    {
+      "rank": 3,
+      "name": "Jalen Camp",
+      "college": "Georgia Tech",
+      "year": 2021,
+      "round": 6,
+      "pick": 209,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.557
+    },
+    {
+      "rank": 4,
+      "name": "Juwann Winfree",
+      "college": "Colorado",
+      "year": 2019,
+      "round": 6,
+      "pick": 187,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.457
+    },
+    {
+      "rank": 5,
+      "name": "Toney Clemons",
+      "college": "Colorado",
+      "year": 2012,
+      "round": 7,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.451
+    },
+    {
+      "rank": 6,
+      "name": "Charone Peake",
+      "college": "Clemson",
+      "year": 2016,
+      "round": 7,
+      "pick": 241,
+      "ppg": 3.7362,
+      "rawPpg": 1.4625,
+      "madeIt": false,
+      "similarity": 0.449
+    },
+    {
+      "rank": 7,
+      "name": "Darren Waller",
+      "college": "Georgia Tech",
+      "year": 2015,
+      "round": 6,
+      "pick": 204,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.435
+    }
+  ]
+}

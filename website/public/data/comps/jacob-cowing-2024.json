@@ -1,0 +1,89 @@
+{
+  "prospectId": "jacob-cowing-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jamison Crowder",
+      "college": "Duke",
+      "year": 2015,
+      "round": 4,
+      "pick": 105,
+      "ppg": 8.356,
+      "rawPpg": 9.5683,
+      "madeIt": true,
+      "similarity": 0.444
+    },
+    {
+      "rank": 2,
+      "name": "Tandon Doss",
+      "college": "Indiana",
+      "year": 2011,
+      "round": 4,
+      "pick": 123,
+      "ppg": 4.2956,
+      "rawPpg": 3.0067,
+      "madeIt": false,
+      "similarity": 0.421
+    },
+    {
+      "rank": 3,
+      "name": "Justin Hardy",
+      "college": "East Carolina",
+      "year": 2015,
+      "round": 4,
+      "pick": 107,
+      "ppg": 5.1367,
+      "rawPpg": 4.6127,
+      "madeIt": true,
+      "similarity": 0.374
+    },
+    {
+      "rank": 4,
+      "name": "Kerry Meier",
+      "college": "Kansas",
+      "year": 2010,
+      "round": 5,
+      "pick": 165,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.356
+    },
+    {
+      "rank": 5,
+      "name": "Romeo Doubs",
+      "college": "Nevada",
+      "year": 2022,
+      "round": 4,
+      "pick": 132,
+      "ppg": 7.5963,
+      "rawPpg": 8.4579,
+      "madeIt": true,
+      "similarity": 0.321
+    },
+    {
+      "rank": 6,
+      "name": "Amon-Ra St. Brown",
+      "college": "USC",
+      "year": 2021,
+      "round": 4,
+      "pick": 112,
+      "ppg": 12.1132,
+      "rawPpg": 15.1875,
+      "madeIt": true,
+      "similarity": 0.314
+    },
+    {
+      "rank": 7,
+      "name": "Ryan Grant",
+      "college": "Tulane",
+      "year": 2014,
+      "round": 5,
+      "pick": 142,
+      "ppg": 4.3342,
+      "rawPpg": 2.6548,
+      "madeIt": false,
+      "similarity": 0.308
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "michael-wilson-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Braxton Miller",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 3,
+      "pick": 85,
+      "ppg": 4.1842,
+      "rawPpg": 2.76,
+      "madeIt": false,
+      "similarity": 0.535
+    },
+    {
+      "rank": 2,
+      "name": "Nick Toon",
+      "college": "Wisconsin",
+      "year": 2012,
+      "round": 4,
+      "pick": 122,
+      "ppg": 5.9014,
+      "rawPpg": 5.7333,
+      "madeIt": true,
+      "similarity": 0.526
+    },
+    {
+      "rank": 3,
+      "name": "Kevin Norwood",
+      "college": "Alabama",
+      "year": 2014,
+      "round": 4,
+      "pick": 123,
+      "ppg": 5.006,
+      "rawPpg": 2.45,
+      "madeIt": true,
+      "similarity": 0.486
+    },
+    {
+      "rank": 4,
+      "name": "Van Jefferson",
+      "college": "Florida",
+      "year": 2020,
+      "round": 2,
+      "pick": 57,
+      "ppg": 7.1054,
+      "rawPpg": 7.5568,
+      "madeIt": true,
+      "similarity": 0.467
+    },
+    {
+      "rank": 5,
+      "name": "Bruce Ellington",
+      "college": "South Carolina",
+      "year": 2014,
+      "round": 4,
+      "pick": 106,
+      "ppg": 3.5222,
+      "rawPpg": 2.0192,
+      "madeIt": false,
+      "similarity": 0.444
+    },
+    {
+      "rank": 6,
+      "name": "Mecole Hardman",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 2,
+      "pick": 56,
+      "ppg": 6.5736,
+      "rawPpg": 6.8781,
+      "madeIt": true,
+      "similarity": 0.44
+    },
+    {
+      "rank": 7,
+      "name": "DaeSean Hamilton",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 113,
+      "ppg": 5.0649,
+      "rawPpg": 4.4485,
+      "madeIt": true,
+      "similarity": 0.429
+    }
+  ]
+}

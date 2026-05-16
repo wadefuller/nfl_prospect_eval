@@ -1,0 +1,89 @@
+{
+  "prospectId": "george-pickens-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Van Jefferson",
+      "college": "Florida",
+      "year": 2020,
+      "round": 2,
+      "pick": 57,
+      "ppg": 7.1054,
+      "rawPpg": 7.5568,
+      "madeIt": true,
+      "similarity": 0.339
+    },
+    {
+      "rank": 2,
+      "name": "DeVier Posey",
+      "college": "Ohio St.",
+      "year": 2012,
+      "round": 3,
+      "pick": 68,
+      "ppg": 4.1161,
+      "rawPpg": 2.3653,
+      "madeIt": false,
+      "similarity": 0.335
+    },
+    {
+      "rank": 3,
+      "name": "Braxton Miller",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 3,
+      "pick": 85,
+      "ppg": 4.1842,
+      "rawPpg": 2.76,
+      "madeIt": false,
+      "similarity": 0.334
+    },
+    {
+      "rank": 4,
+      "name": "Mecole Hardman",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 2,
+      "pick": 56,
+      "ppg": 6.5736,
+      "rawPpg": 6.8781,
+      "madeIt": true,
+      "similarity": 0.326
+    },
+    {
+      "rank": 5,
+      "name": "Nico Collins",
+      "college": "Michigan",
+      "year": 2021,
+      "round": 3,
+      "pick": 89,
+      "ppg": 9.6203,
+      "rawPpg": 11.2767,
+      "madeIt": true,
+      "similarity": 0.299
+    },
+    {
+      "rank": 6,
+      "name": "D.K. Metcalf",
+      "college": "Mississippi",
+      "year": 2019,
+      "round": 2,
+      "pick": 64,
+      "ppg": 10.8578,
+      "rawPpg": 13.2636,
+      "madeIt": true,
+      "similarity": 0.295
+    },
+    {
+      "rank": 7,
+      "name": "DeVante Parker",
+      "college": "Louisville",
+      "year": 2015,
+      "round": 1,
+      "pick": 14,
+      "ppg": 7.3715,
+      "rawPpg": 8.2333,
+      "madeIt": true,
+      "similarity": 0.286
+    }
+  ]
+}

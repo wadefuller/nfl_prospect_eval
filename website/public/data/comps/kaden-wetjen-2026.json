@@ -1,0 +1,89 @@
+{
+  "prospectId": "kaden-wetjen-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Braxton Miller",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 3,
+      "pick": 85,
+      "ppg": 4.1842,
+      "rawPpg": 2.76,
+      "madeIt": false,
+      "similarity": 0.277
+    },
+    {
+      "rank": 2,
+      "name": "Riley Ridley",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 4,
+      "pick": 126,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.261
+    },
+    {
+      "rank": 3,
+      "name": "Tre Tucker",
+      "college": "Cincinnati",
+      "year": 2023,
+      "round": 3,
+      "pick": 100,
+      "ppg": 6.6886,
+      "rawPpg": 7.0294,
+      "madeIt": true,
+      "similarity": 0.247
+    },
+    {
+      "rank": 4,
+      "name": "Denard Robinson",
+      "college": "Michigan",
+      "year": 2013,
+      "round": 5,
+      "pick": 135,
+      "ppg": 6.2203,
+      "rawPpg": 6.3228,
+      "madeIt": true,
+      "similarity": 0.242
+    },
+    {
+      "rank": 5,
+      "name": "Ace Sanders",
+      "college": "South Carolina",
+      "year": 2013,
+      "round": 4,
+      "pick": 101,
+      "ppg": 4.397,
+      "rawPpg": 3.1922,
+      "madeIt": false,
+      "similarity": 0.236
+    },
+    {
+      "rank": 6,
+      "name": "Hunter Renfrow",
+      "college": "Clemson",
+      "year": 2019,
+      "round": 5,
+      "pick": 149,
+      "ppg": 8.9572,
+      "rawPpg": 10.2982,
+      "madeIt": true,
+      "similarity": 0.224
+    },
+    {
+      "rank": 7,
+      "name": "Bruce Ellington",
+      "college": "South Carolina",
+      "year": 2014,
+      "round": 4,
+      "pick": 106,
+      "ppg": 3.5222,
+      "rawPpg": 2.0192,
+      "madeIt": false,
+      "similarity": 0.21
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "junior-bergen-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
+      "round": 7,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.609
+    },
+    {
+      "rank": 2,
+      "name": "Bo Melton",
+      "college": "Rutgers",
+      "year": 2022,
+      "round": 7,
+      "pick": 229,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.584
+    },
+    {
+      "rank": 3,
+      "name": "Austin Proehl",
+      "college": "North Carolina",
+      "year": 2018,
+      "round": 7,
+      "pick": 255,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.562
+    },
+    {
+      "rank": 4,
+      "name": "Dezmon Patmon",
+      "college": "Washington St.",
+      "year": 2020,
+      "round": 6,
+      "pick": 212,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.533
+    },
+    {
+      "rank": 5,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.503
+    },
+    {
+      "rank": 6,
+      "name": "Olabisi Johnson",
+      "college": "Colorado St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 247,
+      "ppg": 4.9166,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.466
+    },
+    {
+      "rank": 7,
+      "name": "K.J. Hill",
+      "college": "Ohio St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 220,
+      "ppg": 3.2568,
+      "rawPpg": 0.825,
+      "madeIt": false,
+      "similarity": 0.453
+    }
+  ]
+}

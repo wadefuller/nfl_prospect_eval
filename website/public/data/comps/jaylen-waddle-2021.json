@@ -1,0 +1,89 @@
+{
+  "prospectId": "jaylen-waddle-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Odell Beckham Jr.",
+      "college": "LSU",
+      "year": 2014,
+      "round": 1,
+      "pick": 12,
+      "ppg": 14.3775,
+      "rawPpg": 19.5225,
+      "madeIt": true,
+      "similarity": 0.486
+    },
+    {
+      "rank": 2,
+      "name": "Quentin Johnston",
+      "college": "TCU",
+      "year": 2023,
+      "round": 1,
+      "pick": 21,
+      "ppg": 8.8257,
+      "rawPpg": 10.5105,
+      "madeIt": true,
+      "similarity": 0.448
+    },
+    {
+      "rank": 3,
+      "name": "Henry Ruggs III",
+      "college": "Alabama",
+      "year": 2020,
+      "round": 1,
+      "pick": 12,
+      "ppg": 6.6398,
+      "rawPpg": 7.9132,
+      "madeIt": true,
+      "similarity": 0.445
+    },
+    {
+      "rank": 4,
+      "name": "Jonathan Mingo",
+      "college": "Mississippi",
+      "year": 2023,
+      "round": 2,
+      "pick": 39,
+      "ppg": 4.054,
+      "rawPpg": 2.9564,
+      "madeIt": false,
+      "similarity": 0.405
+    },
+    {
+      "rank": 5,
+      "name": "Breshad Perriman",
+      "college": "Central Florida",
+      "year": 2015,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5889,
+      "rawPpg": 3.3973,
+      "madeIt": false,
+      "similarity": 0.391
+    },
+    {
+      "rank": 6,
+      "name": "Mike Evans",
+      "college": "Texas A&M",
+      "year": 2014,
+      "round": 1,
+      "pick": 7,
+      "ppg": 11.9709,
+      "rawPpg": 15.0398,
+      "madeIt": true,
+      "similarity": 0.376
+    },
+    {
+      "rank": 7,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.366
+    }
+  ]
+}

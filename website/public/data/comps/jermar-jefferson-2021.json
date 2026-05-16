@@ -1,0 +1,89 @@
+{
+  "prospectId": "jermar-jefferson-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kerrith Whyte Jr",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.2603,
+      "rawPpg": 2.2667,
+      "madeIt": true,
+      "similarity": 0.231
+    },
+    {
+      "rank": 2,
+      "name": "Jay Finley",
+      "college": "Baylor",
+      "year": 2011,
+      "round": 7,
+      "pick": 246,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.132
+    },
+    {
+      "rank": 3,
+      "name": "Mike Weber",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.13
+    },
+    {
+      "rank": 4,
+      "name": "Ahmaad Galloway",
+      "college": "Alabama",
+      "year": 2003,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.129
+    },
+    {
+      "rank": 5,
+      "name": "Antwoine Womack",
+      "college": "Virginia",
+      "year": 2002,
+      "round": 7,
+      "pick": 237,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.124
+    },
+    {
+      "rank": 6,
+      "name": "Jarrett Ferguson",
+      "college": "Virginia Tech",
+      "year": 2002,
+      "round": 7,
+      "pick": 251,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.124
+    },
+    {
+      "rank": 7,
+      "name": "Brandon Drumm",
+      "college": "Colorado",
+      "year": 2003,
+      "round": 7,
+      "pick": 236,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.124
+    }
+  ]
+}

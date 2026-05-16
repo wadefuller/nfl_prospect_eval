@@ -1,0 +1,89 @@
+{
+  "prospectId": "jordyn-tyson-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.469
+    },
+    {
+      "rank": 2,
+      "name": "Jalen Reagor",
+      "college": "TCU",
+      "year": 2020,
+      "round": 1,
+      "pick": 21,
+      "ppg": 5.1985,
+      "rawPpg": 5.0709,
+      "madeIt": true,
+      "similarity": 0.404
+    },
+    {
+      "rank": 3,
+      "name": "Robert Woods",
+      "college": "USC",
+      "year": 2013,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.1333,
+      "rawPpg": 7.7196,
+      "madeIt": true,
+      "similarity": 0.399
+    },
+    {
+      "rank": 4,
+      "name": "Sterling Shepard",
+      "college": "Oklahoma",
+      "year": 2016,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.4263,
+      "rawPpg": 9.9741,
+      "madeIt": true,
+      "similarity": 0.366
+    },
+    {
+      "rank": 5,
+      "name": "N'Keal Harry",
+      "college": "Arizona St.",
+      "year": 2019,
+      "round": 1,
+      "pick": 32,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.339
+    },
+    {
+      "rank": 6,
+      "name": "Christian Kirk",
+      "college": "Texas A&M",
+      "year": 2018,
+      "round": 2,
+      "pick": 47,
+      "ppg": 8.1868,
+      "rawPpg": 9.533,
+      "madeIt": true,
+      "similarity": 0.334
+    },
+    {
+      "rank": 7,
+      "name": "Josh Doctson",
+      "college": "TCU",
+      "year": 2016,
+      "round": 1,
+      "pick": 22,
+      "ppg": 6.1942,
+      "rawPpg": 6.3167,
+      "madeIt": true,
+      "similarity": 0.327
+    }
+  ]
+}

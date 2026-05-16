@@ -1,0 +1,89 @@
+{
+  "prospectId": "josh-cameron-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kyle Philips",
+      "college": "UCLA",
+      "year": 2022,
+      "round": 5,
+      "pick": 163,
+      "ppg": 5.043,
+      "rawPpg": 3.2,
+      "madeIt": true,
+      "similarity": 0.476
+    },
+    {
+      "rank": 2,
+      "name": "Kenny Bell",
+      "college": "Nebraska",
+      "year": 2015,
+      "round": 5,
+      "pick": 162,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.45
+    },
+    {
+      "rank": 3,
+      "name": "Marvin McNutt",
+      "college": "Iowa",
+      "year": 2012,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.431
+    },
+    {
+      "rank": 4,
+      "name": "Juron Criner",
+      "college": "Arizona",
+      "year": 2012,
+      "round": 5,
+      "pick": 168,
+      "ppg": 5.0613,
+      "rawPpg": 3.4556,
+      "madeIt": true,
+      "similarity": 0.431
+    },
+    {
+      "rank": 5,
+      "name": "Joel Filani",
+      "college": "Texas Tech",
+      "year": 2007,
+      "round": 6,
+      "pick": 188,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.421
+    },
+    {
+      "rank": 6,
+      "name": "Demetrius Byrd",
+      "college": "LSU",
+      "year": 2009,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.415
+    },
+    {
+      "rank": 7,
+      "name": "Jeris McIntyre",
+      "college": "Auburn",
+      "year": 2004,
+      "round": 6,
+      "pick": 195,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.415
+    }
+  ]
+}

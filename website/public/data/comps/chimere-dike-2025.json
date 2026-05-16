@@ -1,0 +1,89 @@
+{
+  "prospectId": "chimere-dike-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kris Durham",
+      "college": "Georgia",
+      "year": 2011,
+      "round": 4,
+      "pick": 107,
+      "ppg": 5.4197,
+      "rawPpg": 4.875,
+      "madeIt": true,
+      "similarity": 0.504
+    },
+    {
+      "rank": 2,
+      "name": "Dez Fitzpatrick",
+      "college": "Louisville",
+      "year": 2021,
+      "round": 4,
+      "pick": 109,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.499
+    },
+    {
+      "rank": 3,
+      "name": "Josh Palmer",
+      "college": "Tennessee",
+      "year": 2021,
+      "round": 3,
+      "pick": 77,
+      "ppg": 7.5341,
+      "rawPpg": 8.5506,
+      "madeIt": true,
+      "similarity": 0.471
+    },
+    {
+      "rank": 4,
+      "name": "Ricardo Louis",
+      "college": "Auburn",
+      "year": 2016,
+      "round": 4,
+      "pick": 114,
+      "ppg": 3.9575,
+      "rawPpg": 2.8107,
+      "madeIt": false,
+      "similarity": 0.47
+    },
+    {
+      "rank": 5,
+      "name": "Chris Harper",
+      "college": "Kansas St.",
+      "year": 2013,
+      "round": 4,
+      "pick": 123,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.393
+    },
+    {
+      "rank": 6,
+      "name": "Martavis Bryant",
+      "college": "Clemson",
+      "year": 2014,
+      "round": 4,
+      "pick": 118,
+      "ppg": 9.6684,
+      "rawPpg": 12.455,
+      "madeIt": true,
+      "similarity": 0.386
+    },
+    {
+      "rank": 7,
+      "name": "Malcolm Mitchell",
+      "college": "Georgia",
+      "year": 2016,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.269,
+      "rawPpg": 6.675,
+      "madeIt": true,
+      "similarity": 0.337
+    }
+  ]
+}

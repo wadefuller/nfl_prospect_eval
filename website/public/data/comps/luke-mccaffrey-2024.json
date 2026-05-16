@@ -1,0 +1,89 @@
+{
+  "prospectId": "luke-mccaffrey-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Leonard Hankerson",
+      "college": "Miami (FL)",
+      "year": 2011,
+      "round": 3,
+      "pick": 79,
+      "ppg": 6.2861,
+      "rawPpg": 6.585,
+      "madeIt": true,
+      "similarity": 0.459
+    },
+    {
+      "rank": 2,
+      "name": "Austin Pettis",
+      "college": "Boise St.",
+      "year": 2011,
+      "round": 3,
+      "pick": 78,
+      "ppg": 5.6612,
+      "rawPpg": 5.4646,
+      "madeIt": true,
+      "similarity": 0.451
+    },
+    {
+      "rank": 3,
+      "name": "Jarius Wright",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 118,
+      "ppg": 6.564,
+      "rawPpg": 7.2324,
+      "madeIt": true,
+      "similarity": 0.444
+    },
+    {
+      "rank": 4,
+      "name": "Nick Toon",
+      "college": "Wisconsin",
+      "year": 2012,
+      "round": 4,
+      "pick": 122,
+      "ppg": 5.9014,
+      "rawPpg": 5.7333,
+      "madeIt": true,
+      "similarity": 0.43
+    },
+    {
+      "rank": 5,
+      "name": "Kealoha Pilares",
+      "college": "Hawaii",
+      "year": 2011,
+      "round": 5,
+      "pick": 132,
+      "ppg": 3.2666,
+      "rawPpg": 1.079,
+      "madeIt": false,
+      "similarity": 0.42
+    },
+    {
+      "rank": 6,
+      "name": "Stedman Bailey",
+      "college": "West Virginia",
+      "year": 2013,
+      "round": 3,
+      "pick": 92,
+      "ppg": 5.336,
+      "rawPpg": 4.649,
+      "madeIt": true,
+      "similarity": 0.41
+    },
+    {
+      "rank": 7,
+      "name": "Cory Rodgers",
+      "college": "TCU",
+      "year": 2006,
+      "round": 4,
+      "pick": 104,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.407
+    }
+  ]
+}

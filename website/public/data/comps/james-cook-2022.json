@@ -1,0 +1,89 @@
+{
+  "prospectId": "james-cook-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Alvin Kamara",
+      "college": "Tennessee",
+      "year": 2017,
+      "round": 3,
+      "pick": 67,
+      "ppg": 15.2708,
+      "rawPpg": 19.2035,
+      "madeIt": true,
+      "similarity": 0.147
+    },
+    {
+      "rank": 2,
+      "name": "Kenyan Drake",
+      "college": "Alabama",
+      "year": 2016,
+      "round": 3,
+      "pick": 73,
+      "ppg": 8.961,
+      "rawPpg": 9.5625,
+      "madeIt": true,
+      "similarity": 0.144
+    },
+    {
+      "rank": 3,
+      "name": "De'Von Achane",
+      "college": "Texas A&M",
+      "year": 2023,
+      "round": 3,
+      "pick": 84,
+      "ppg": 13.7355,
+      "rawPpg": 17.0952,
+      "madeIt": true,
+      "similarity": 0.129
+    },
+    {
+      "rank": 4,
+      "name": "Eddie Lacy",
+      "college": "Alabama",
+      "year": 2013,
+      "round": 2,
+      "pick": 61,
+      "ppg": 12.7814,
+      "rawPpg": 15.3625,
+      "madeIt": true,
+      "similarity": 0.122
+    },
+    {
+      "rank": 5,
+      "name": "Kenny Irons",
+      "college": "Auburn",
+      "year": 2007,
+      "round": 2,
+      "pick": 49,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.11
+    },
+    {
+      "rank": 6,
+      "name": "Devonta Freeman",
+      "college": "Florida St.",
+      "year": 2014,
+      "round": 4,
+      "pick": 103,
+      "ppg": 14.0665,
+      "rawPpg": 17.3644,
+      "madeIt": true,
+      "similarity": 0.109
+    },
+    {
+      "rank": 7,
+      "name": "C.J. Prosise",
+      "college": "Notre Dame",
+      "year": 2016,
+      "round": 3,
+      "pick": 90,
+      "ppg": 8.0285,
+      "rawPpg": 8.75,
+      "madeIt": true,
+      "similarity": 0.101
+    }
+  ]
+}

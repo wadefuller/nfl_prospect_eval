@@ -1,0 +1,89 @@
+{
+  "prospectId": "drake-london-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Curtis Samuel",
+      "college": "Ohio St.",
+      "year": 2017,
+      "round": 2,
+      "pick": 40,
+      "ppg": 7.9874,
+      "rawPpg": 9.1103,
+      "madeIt": true,
+      "similarity": 0.574
+    },
+    {
+      "rank": 2,
+      "name": "Laquon Treadwell",
+      "college": "Mississippi",
+      "year": 2016,
+      "round": 1,
+      "pick": 23,
+      "ppg": 4.0712,
+      "rawPpg": 2.9438,
+      "madeIt": false,
+      "similarity": 0.573
+    },
+    {
+      "rank": 3,
+      "name": "Devin Funchess",
+      "college": "Michigan",
+      "year": 2015,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.2861,
+      "rawPpg": 7.9469,
+      "madeIt": true,
+      "similarity": 0.568
+    },
+    {
+      "rank": 4,
+      "name": "Michael Floyd",
+      "college": "Notre Dame",
+      "year": 2012,
+      "round": 1,
+      "pick": 13,
+      "ppg": 8.4132,
+      "rawPpg": 9.6375,
+      "madeIt": true,
+      "similarity": 0.542
+    },
+    {
+      "rank": 5,
+      "name": "Sammy Watkins",
+      "college": "Clemson",
+      "year": 2014,
+      "round": 1,
+      "pick": 4,
+      "ppg": 9.994,
+      "rawPpg": 12.4334,
+      "madeIt": true,
+      "similarity": 0.52
+    },
+    {
+      "rank": 6,
+      "name": "Christian Kirk",
+      "college": "Texas A&M",
+      "year": 2018,
+      "round": 2,
+      "pick": 47,
+      "ppg": 8.1868,
+      "rawPpg": 9.533,
+      "madeIt": true,
+      "similarity": 0.517
+    },
+    {
+      "rank": 7,
+      "name": "Julio Jones",
+      "college": "Alabama",
+      "year": 2011,
+      "round": 1,
+      "pick": 6,
+      "ppg": 10.9385,
+      "rawPpg": 13.6584,
+      "madeIt": true,
+      "similarity": 0.487
+    }
+  ]
+}

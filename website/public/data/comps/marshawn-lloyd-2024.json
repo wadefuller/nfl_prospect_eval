@@ -1,0 +1,89 @@
+{
+  "prospectId": "marshawn-lloyd-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Carlos Hyde",
+      "college": "Ohio St.",
+      "year": 2014,
+      "round": 2,
+      "pick": 57,
+      "ppg": 10.5147,
+      "rawPpg": 12.2835,
+      "madeIt": true,
+      "similarity": 0.207
+    },
+    {
+      "rank": 2,
+      "name": "Tyjae Spears",
+      "college": "Tulane",
+      "year": 2023,
+      "round": 3,
+      "pick": 81,
+      "ppg": 7.7895,
+      "rawPpg": 7.8672,
+      "madeIt": true,
+      "similarity": 0.172
+    },
+    {
+      "rank": 3,
+      "name": "Devonta Freeman",
+      "college": "Florida St.",
+      "year": 2014,
+      "round": 4,
+      "pick": 103,
+      "ppg": 14.0665,
+      "rawPpg": 17.3644,
+      "madeIt": true,
+      "similarity": 0.165
+    },
+    {
+      "rank": 4,
+      "name": "Royce Freeman",
+      "college": "Oregon",
+      "year": 2018,
+      "round": 3,
+      "pick": 71,
+      "ppg": 7.3723,
+      "rawPpg": 7.1397,
+      "madeIt": true,
+      "similarity": 0.157
+    },
+    {
+      "rank": 5,
+      "name": "C.J. Prosise",
+      "college": "Notre Dame",
+      "year": 2016,
+      "round": 3,
+      "pick": 90,
+      "ppg": 8.0285,
+      "rawPpg": 8.75,
+      "madeIt": true,
+      "similarity": 0.15
+    },
+    {
+      "rank": 6,
+      "name": "Eddie Lacy",
+      "college": "Alabama",
+      "year": 2013,
+      "round": 2,
+      "pick": 61,
+      "ppg": 12.7814,
+      "rawPpg": 15.3625,
+      "madeIt": true,
+      "similarity": 0.146
+    },
+    {
+      "rank": 7,
+      "name": "Ke'Shawn Vaughn",
+      "college": "Illinois",
+      "year": 2020,
+      "round": 3,
+      "pick": 76,
+      "ppg": 6.4117,
+      "rawPpg": 4.6167,
+      "madeIt": true,
+      "similarity": 0.136
+    }
+  ]
+}

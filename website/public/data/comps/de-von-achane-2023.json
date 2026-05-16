@@ -1,0 +1,89 @@
+{
+  "prospectId": "de-von-achane-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Isaiah Spiller",
+      "college": "Texas A&M",
+      "year": 2022,
+      "round": 4,
+      "pick": 123,
+      "ppg": 5.6051,
+      "rawPpg": 1.7778,
+      "madeIt": true,
+      "similarity": 0.224
+    },
+    {
+      "rank": 2,
+      "name": "Lamar Miller",
+      "college": "Miami (FL)",
+      "year": 2012,
+      "round": 4,
+      "pick": 97,
+      "ppg": 9.1964,
+      "rawPpg": 9.9156,
+      "madeIt": true,
+      "similarity": 0.205
+    },
+    {
+      "rank": 3,
+      "name": "Duke Johnson",
+      "college": "Miami (FL)",
+      "year": 2015,
+      "round": 3,
+      "pick": 77,
+      "ppg": 9.1047,
+      "rawPpg": 9.7781,
+      "madeIt": true,
+      "similarity": 0.187
+    },
+    {
+      "rank": 4,
+      "name": "Manuel White",
+      "college": "UCLA",
+      "year": 2005,
+      "round": 4,
+      "pick": 120,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.176
+    },
+    {
+      "rank": 5,
+      "name": "Ben Tate",
+      "college": "Auburn",
+      "year": 2010,
+      "round": 2,
+      "pick": 58,
+      "ppg": 7.1649,
+      "rawPpg": 6.4788,
+      "madeIt": true,
+      "similarity": 0.162
+    },
+    {
+      "rank": 6,
+      "name": "David Montgomery",
+      "college": "Iowa St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 73,
+      "ppg": 12.1802,
+      "rawPpg": 14.619,
+      "madeIt": true,
+      "similarity": 0.145
+    },
+    {
+      "rank": 7,
+      "name": "Kenny Irons",
+      "college": "Auburn",
+      "year": 2007,
+      "round": 2,
+      "pick": 49,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.143
+    }
+  ]
+}

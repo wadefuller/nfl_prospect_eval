@@ -1,0 +1,89 @@
+{
+  "prospectId": "ronnie-bell-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devin Lucien",
+      "college": "Arizona St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 225,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.541
+    },
+    {
+      "rank": 2,
+      "name": "Colton Dowell",
+      "college": "UT Martin",
+      "year": 2023,
+      "round": 7,
+      "pick": 228,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.473
+    },
+    {
+      "rank": 3,
+      "name": "Michael Campanaro",
+      "college": "Wake Forest",
+      "year": 2014,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.461
+    },
+    {
+      "rank": 4,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.445
+    },
+    {
+      "rank": 5,
+      "name": "Olabisi Johnson",
+      "college": "Colorado St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 247,
+      "ppg": 4.9166,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.439
+    },
+    {
+      "rank": 6,
+      "name": "Dillon Mitchell",
+      "college": "Oregon",
+      "year": 2019,
+      "round": 7,
+      "pick": 239,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.431
+    },
+    {
+      "rank": 7,
+      "name": "Charone Peake",
+      "college": "Clemson",
+      "year": 2016,
+      "round": 7,
+      "pick": 241,
+      "ppg": 3.7362,
+      "rawPpg": 1.4625,
+      "madeIt": false,
+      "similarity": 0.397
+    }
+  ]
+}

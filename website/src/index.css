@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* Backgrounds */
+  --color-bg-page:       #0B0E13;
+  --color-bg-surface:    #111620;
+  --color-bg-card:       #181E2B;
+  --color-bg-card-hover: #1E2535;
+  --color-bg-detail:     #181E2B;
+  --color-bg-hover:      #1E2535;
+  --color-bg-active:     #242C3D;
+
+  /* Borders */
+  --color-border:        color-mix(in srgb, white 12%, transparent);
+  --color-border-light:  color-mix(in srgb, white 7%, transparent);
+  --color-border-strong: color-mix(in srgb, white 22%, transparent);
+  --color-border-accent: #3E8EF7;
+
+  /* Text */
+  --color-text-primary:   #F0F4FF;
+  --color-text-secondary: #8A9AC0;
+  --color-text-muted:     #4A5578;
+
+  /* Accents */
+  --color-accent: #3E8EF7;
+  --color-win:    #2DD4A0;
+  --color-loss:   #F75757;
+  --color-gold:   #F5A623;
+  --color-neutral: #8A9AC0;
+
+  /* Position badge colors */
+  --color-pos-wr: #FFBF4D;
+  --color-pos-rb: #5EEBC0;
+
+  /* Tier colors */
+  --color-tier-p4:    #3E8EF7;
+  --color-tier-g5:    #A78BFA;
+  --color-tier-other: #4A5578;
+
+  /* Typography */
+  --font-display: 'Red Hat Display', system-ui, sans-serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    'DM Mono', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root { min-height: 100vh; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+
+.inspector-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 300px) minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.inspector-picker {
+  max-height: calc(100vh - 200px);
+  position: sticky;
+  top: calc(var(--header-h, 100px) + 16px);
+}
+
+.inspector-detail {
+  min-width: 0;
+}
+
+.inspector-tabs {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.inspector-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.percentile-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.percentile-label {
+  flex: 0 0 240px;
+}
+
+@media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .inspector-page {
+    padding-inline: 20px !important;
+  }
+
+  .inspector-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inspector-picker {
+    position: static;
+    width: 100%;
+    max-height: 520px;
+  }
+
+  .inspector-detail {
+    width: 100%;
+  }
+
+  .inspector-tabs {
+    margin-inline: -4px;
+    padding-inline: 4px;
+  }
+
+  .percentile-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 6px 12px;
+  }
+
+  .percentile-label {
+    flex: unset;
+    min-width: 0;
+  }
+
+  .percentile-value {
+    text-align: right;
+  }
+
+  .percentile-bar {
+    grid-column: 1 / 2;
+  }
+
+  .percentile-pct {
+    grid-column: 2 / 3;
+  }
+}

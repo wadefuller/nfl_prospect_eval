@@ -1,0 +1,89 @@
+{
+  "prospectId": "kayshon-boutte-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
+      "round": 7,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.602
+    },
+    {
+      "rank": 2,
+      "name": "Parker Washington",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 6,
+      "pick": 185,
+      "ppg": 7.2203,
+      "rawPpg": 7.7585,
+      "madeIt": true,
+      "similarity": 0.536
+    },
+    {
+      "rank": 3,
+      "name": "Tyreek Hill",
+      "college": "West Alabama",
+      "year": 2016,
+      "round": 5,
+      "pick": 165,
+      "ppg": 12.6305,
+      "rawPpg": 16.0015,
+      "madeIt": true,
+      "similarity": 0.467
+    },
+    {
+      "rank": 4,
+      "name": "Ray-Ray McCloud",
+      "college": "Clemson",
+      "year": 2018,
+      "round": 6,
+      "pick": 187,
+      "ppg": 3.1533,
+      "rawPpg": 1.1625,
+      "madeIt": false,
+      "similarity": 0.466
+    },
+    {
+      "rank": 5,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
+      "madeIt": false,
+      "similarity": 0.451
+    },
+    {
+      "rank": 6,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.432
+    },
+    {
+      "rank": 7,
+      "name": "Deon Cain",
+      "college": "Clemson",
+      "year": 2018,
+      "round": 6,
+      "pick": 185,
+      "ppg": 4.1604,
+      "rawPpg": 1.5364,
+      "madeIt": false,
+      "similarity": 0.432
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "danny-gray-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tyler Scott",
+      "college": "Cincinnati",
+      "year": 2023,
+      "round": 4,
+      "pick": 133,
+      "ppg": 4.2356,
+      "rawPpg": 2.1077,
+      "madeIt": false,
+      "similarity": 0.515
+    },
+    {
+      "rank": 2,
+      "name": "Jacob Harris",
+      "college": "Central Florida",
+      "year": 2021,
+      "round": 4,
+      "pick": 141,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.506
+    },
+    {
+      "rank": 3,
+      "name": "Kevin Norwood",
+      "college": "Alabama",
+      "year": 2014,
+      "round": 4,
+      "pick": 123,
+      "ppg": 5.006,
+      "rawPpg": 2.45,
+      "madeIt": true,
+      "similarity": 0.492
+    },
+    {
+      "rank": 4,
+      "name": "Josh Malone",
+      "college": "Tennessee",
+      "year": 2017,
+      "round": 4,
+      "pick": 128,
+      "ppg": 4.4373,
+      "rawPpg": 1.7222,
+      "madeIt": false,
+      "similarity": 0.48
+    },
+    {
+      "rank": 5,
+      "name": "Jarius Wright",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 118,
+      "ppg": 6.564,
+      "rawPpg": 7.2324,
+      "madeIt": true,
+      "similarity": 0.476
+    },
+    {
+      "rank": 6,
+      "name": "Nick Toon",
+      "college": "Wisconsin",
+      "year": 2012,
+      "round": 4,
+      "pick": 122,
+      "ppg": 5.9014,
+      "rawPpg": 5.7333,
+      "madeIt": true,
+      "similarity": 0.469
+    },
+    {
+      "rank": 7,
+      "name": "Josh Boyce",
+      "college": "TCU",
+      "year": 2013,
+      "round": 4,
+      "pick": 102,
+      "ppg": 5.0924,
+      "rawPpg": 2.7667,
+      "madeIt": true,
+      "similarity": 0.465
+    }
+  ]
+}

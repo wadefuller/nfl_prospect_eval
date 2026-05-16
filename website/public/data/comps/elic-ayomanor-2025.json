@@ -1,0 +1,89 @@
+{
+  "prospectId": "elic-ayomanor-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Khalil Shakir",
+      "college": "Boise St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 148,
+      "ppg": 7.0964,
+      "rawPpg": 7.7417,
+      "madeIt": true,
+      "similarity": 0.597
+    },
+    {
+      "rank": 2,
+      "name": "Amara Darboh",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 3,
+      "pick": 106,
+      "ppg": 4.4388,
+      "rawPpg": 1.3875,
+      "madeIt": false,
+      "similarity": 0.554
+    },
+    {
+      "rank": 3,
+      "name": "Ryan Swope",
+      "college": "Texas A&M",
+      "year": 2013,
+      "round": 6,
+      "pick": 174,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.532
+    },
+    {
+      "rank": 4,
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
+      "year": 2022,
+      "round": 4,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.52
+    },
+    {
+      "rank": 5,
+      "name": "Ihmir Smith-Marsette",
+      "college": "Iowa",
+      "year": 2021,
+      "round": 5,
+      "pick": 157,
+      "ppg": 3.847,
+      "rawPpg": 3.0132,
+      "madeIt": false,
+      "similarity": 0.518
+    },
+    {
+      "rank": 6,
+      "name": "Jordan Payton",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.512
+    },
+    {
+      "rank": 7,
+      "name": "Devin Street",
+      "college": "Pittsburgh",
+      "year": 2014,
+      "round": 5,
+      "pick": 146,
+      "ppg": 4.2345,
+      "rawPpg": 1.7182,
+      "madeIt": false,
+      "similarity": 0.501
+    }
+  ]
+}

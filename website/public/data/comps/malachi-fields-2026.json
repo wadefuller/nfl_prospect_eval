@@ -1,0 +1,89 @@
+{
+  "prospectId": "malachi-fields-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Keenan Allen",
+      "college": "California",
+      "year": 2013,
+      "round": 3,
+      "pick": 76,
+      "ppg": 10.5521,
+      "rawPpg": 14.3283,
+      "madeIt": true,
+      "similarity": 0.476
+    },
+    {
+      "rank": 2,
+      "name": "Alshon Jeffery",
+      "college": "South Carolina",
+      "year": 2012,
+      "round": 2,
+      "pick": 45,
+      "ppg": 11.534,
+      "rawPpg": 14.3187,
+      "madeIt": true,
+      "similarity": 0.425
+    },
+    {
+      "rank": 3,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.416
+    },
+    {
+      "rank": 4,
+      "name": "Eric Decker",
+      "college": "Minnesota",
+      "year": 2010,
+      "round": 3,
+      "pick": 87,
+      "ppg": 9.534,
+      "rawPpg": 11.3187,
+      "madeIt": true,
+      "similarity": 0.408
+    },
+    {
+      "rank": 5,
+      "name": "Brandon LaFell",
+      "college": "LSU",
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
+      "madeIt": true,
+      "similarity": 0.383
+    },
+    {
+      "rank": 6,
+      "name": "Arrelious Benn",
+      "college": "Illinois",
+      "year": 2010,
+      "round": 2,
+      "pick": 39,
+      "ppg": 5.4394,
+      "rawPpg": 5.1393,
+      "madeIt": true,
+      "similarity": 0.378
+    },
+    {
+      "rank": 7,
+      "name": "Tyler Boyd",
+      "college": "Pittsburgh",
+      "year": 2016,
+      "round": 2,
+      "pick": 55,
+      "ppg": 8.1659,
+      "rawPpg": 9.5737,
+      "madeIt": true,
+      "similarity": 0.369
+    }
+  ]
+}

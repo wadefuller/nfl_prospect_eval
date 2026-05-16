@@ -1,0 +1,89 @@
+{
+  "prospectId": "isaac-guerendo-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ty Chandler",
+      "college": "North Carolina",
+      "year": 2022,
+      "round": 5,
+      "pick": 169,
+      "ppg": 5.218,
+      "rawPpg": 3.7353,
+      "madeIt": true,
+      "similarity": 0.246
+    },
+    {
+      "rank": 2,
+      "name": "Manuel White",
+      "college": "UCLA",
+      "year": 2005,
+      "round": 4,
+      "pick": 120,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.228
+    },
+    {
+      "rank": 3,
+      "name": "Joe Williams",
+      "college": "Utah",
+      "year": 2017,
+      "round": 4,
+      "pick": 121,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.225
+    },
+    {
+      "rank": 4,
+      "name": "Jordan Wilkins",
+      "college": "Mississippi",
+      "year": 2018,
+      "round": 5,
+      "pick": 169,
+      "ppg": 5.5126,
+      "rawPpg": 4.1308,
+      "madeIt": true,
+      "similarity": 0.188
+    },
+    {
+      "rank": 5,
+      "name": "Kene Nwangwu",
+      "college": "Iowa St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 119,
+      "ppg": 3.9905,
+      "rawPpg": 1.5417,
+      "madeIt": false,
+      "similarity": 0.171
+    },
+    {
+      "rank": 6,
+      "name": "John Conner",
+      "college": "Kentucky",
+      "year": 2010,
+      "round": 5,
+      "pick": 139,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.167
+    },
+    {
+      "rank": 7,
+      "name": "Chris Thompson",
+      "college": "Florida St.",
+      "year": 2013,
+      "round": 5,
+      "pick": 154,
+      "ppg": 6.8699,
+      "rawPpg": 5.7769,
+      "madeIt": true,
+      "similarity": 0.138
+    }
+  ]
+}

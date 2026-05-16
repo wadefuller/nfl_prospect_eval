@@ -1,0 +1,89 @@
+{
+  "prospectId": "luther-burden-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jalen Reagor",
+      "college": "TCU",
+      "year": 2020,
+      "round": 1,
+      "pick": 21,
+      "ppg": 5.1985,
+      "rawPpg": 5.0709,
+      "madeIt": true,
+      "similarity": 0.67
+    },
+    {
+      "rank": 2,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.533
+    },
+    {
+      "rank": 3,
+      "name": "Keenan Allen",
+      "college": "California",
+      "year": 2013,
+      "round": 3,
+      "pick": 76,
+      "ppg": 10.5521,
+      "rawPpg": 14.3283,
+      "madeIt": true,
+      "similarity": 0.516
+    },
+    {
+      "rank": 4,
+      "name": "Alshon Jeffery",
+      "college": "South Carolina",
+      "year": 2012,
+      "round": 2,
+      "pick": 45,
+      "ppg": 11.534,
+      "rawPpg": 14.3187,
+      "madeIt": true,
+      "similarity": 0.502
+    },
+    {
+      "rank": 5,
+      "name": "JuJu Smith-Schuster",
+      "college": "USC",
+      "year": 2017,
+      "round": 2,
+      "pick": 62,
+      "ppg": 10.9898,
+      "rawPpg": 13.5687,
+      "madeIt": true,
+      "similarity": 0.464
+    },
+    {
+      "rank": 6,
+      "name": "Rashod Bateman",
+      "college": "Minnesota",
+      "year": 2021,
+      "round": 1,
+      "pick": 27,
+      "ppg": 6.5274,
+      "rawPpg": 7.1875,
+      "madeIt": true,
+      "similarity": 0.46
+    },
+    {
+      "rank": 7,
+      "name": "Jaelen Strong",
+      "college": "Arizona St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 70,
+      "ppg": 4.8947,
+      "rawPpg": 3.73,
+      "madeIt": false,
+      "similarity": 0.432
+    }
+  ]
+}

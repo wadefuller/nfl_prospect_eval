@@ -1,0 +1,89 @@
+{
+  "prospectId": "quinshon-judkins-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Cam Akers",
+      "college": "Florida St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 52,
+      "ppg": 8.4578,
+      "rawPpg": 8.8706,
+      "madeIt": true,
+      "similarity": 0.174
+    },
+    {
+      "rank": 2,
+      "name": "Kerryon Johnson",
+      "college": "Auburn",
+      "year": 2018,
+      "round": 2,
+      "pick": 43,
+      "ppg": 9.6332,
+      "rawPpg": 11.17,
+      "madeIt": true,
+      "similarity": 0.167
+    },
+    {
+      "rank": 3,
+      "name": "T.J. Yeldon",
+      "college": "Alabama",
+      "year": 2015,
+      "round": 2,
+      "pick": 36,
+      "ppg": 8.7146,
+      "rawPpg": 9.5025,
+      "madeIt": true,
+      "similarity": 0.156
+    },
+    {
+      "rank": 4,
+      "name": "David Montgomery",
+      "college": "Iowa St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 73,
+      "ppg": 12.1802,
+      "rawPpg": 14.619,
+      "madeIt": true,
+      "similarity": 0.141
+    },
+    {
+      "rank": 5,
+      "name": "Josh Jacobs",
+      "college": "Alabama",
+      "year": 2019,
+      "round": 1,
+      "pick": 24,
+      "ppg": 11.8302,
+      "rawPpg": 14.1446,
+      "madeIt": true,
+      "similarity": 0.127
+    },
+    {
+      "rank": 6,
+      "name": "Tre Mason",
+      "college": "Auburn",
+      "year": 2014,
+      "round": 3,
+      "pick": 75,
+      "ppg": 7.169,
+      "rawPpg": 6.9388,
+      "madeIt": true,
+      "similarity": 0.118
+    },
+    {
+      "rank": 7,
+      "name": "Stevan Ridley",
+      "college": "LSU",
+      "year": 2011,
+      "round": 3,
+      "pick": 73,
+      "ppg": 9.7615,
+      "rawPpg": 10.7,
+      "madeIt": true,
+      "similarity": 0.115
+    }
+  ]
+}

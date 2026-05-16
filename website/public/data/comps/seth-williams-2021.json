@@ -1,0 +1,89 @@
+{
+  "prospectId": "seth-williams-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Grant Dubose",
+      "college": "Charlotte",
+      "year": 2023,
+      "round": 7,
+      "pick": 256,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.634
+    },
+    {
+      "rank": 2,
+      "name": "Joel Filani",
+      "college": "Texas Tech",
+      "year": 2007,
+      "round": 6,
+      "pick": 188,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.557
+    },
+    {
+      "rank": 3,
+      "name": "Deon Cain",
+      "college": "Clemson",
+      "year": 2018,
+      "round": 6,
+      "pick": 185,
+      "ppg": 4.1604,
+      "rawPpg": 1.5364,
+      "madeIt": false,
+      "similarity": 0.553
+    },
+    {
+      "rank": 4,
+      "name": "DeVeren Johnson",
+      "college": "Sacred Heart",
+      "year": 2002,
+      "round": 6,
+      "pick": 208,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.541
+    },
+    {
+      "rank": 5,
+      "name": "Michael Coleman",
+      "college": "Widener",
+      "year": 2002,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.541
+    },
+    {
+      "rank": 6,
+      "name": "Rodney Wright",
+      "college": "Fresno St.",
+      "year": 2002,
+      "round": 7,
+      "pick": 249,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.541
+    },
+    {
+      "rank": 7,
+      "name": "DeAndrew Rubin",
+      "college": "South Florida",
+      "year": 2003,
+      "round": 7,
+      "pick": 253,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.541
+    }
+  ]
+}

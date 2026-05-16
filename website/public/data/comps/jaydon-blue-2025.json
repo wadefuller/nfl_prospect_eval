@@ -1,0 +1,89 @@
+{
+  "prospectId": "jaydon-blue-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "T.J. Logan",
+      "college": "North Carolina",
+      "year": 2017,
+      "round": 5,
+      "pick": 179,
+      "ppg": 4.3493,
+      "rawPpg": 0.8,
+      "madeIt": false,
+      "similarity": 0.157
+    },
+    {
+      "rank": 2,
+      "name": "Owen Marecic",
+      "college": "Stanford",
+      "year": 2011,
+      "round": 4,
+      "pick": 124,
+      "ppg": 5.4387,
+      "rawPpg": 0.8,
+      "madeIt": true,
+      "similarity": 0.15
+    },
+    {
+      "rank": 3,
+      "name": "John Kelly",
+      "college": "Tennessee",
+      "year": 2018,
+      "round": 6,
+      "pick": 176,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.125
+    },
+    {
+      "rank": 4,
+      "name": "John Conner",
+      "college": "Kentucky",
+      "year": 2010,
+      "round": 5,
+      "pick": 139,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.11
+    },
+    {
+      "rank": 5,
+      "name": "Mike James",
+      "college": "Miami (FL)",
+      "year": 2013,
+      "round": 6,
+      "pick": 189,
+      "ppg": 7.2612,
+      "rawPpg": 6.1257,
+      "madeIt": true,
+      "similarity": 0.088
+    },
+    {
+      "rank": 6,
+      "name": "Anthony McFarland Jr.",
+      "college": "Maryland",
+      "year": 2020,
+      "round": 4,
+      "pick": 124,
+      "ppg": 5.3269,
+      "rawPpg": 1.7909,
+      "madeIt": true,
+      "similarity": 0.082
+    },
+    {
+      "rank": 7,
+      "name": "Kalen Ballage",
+      "college": "Arizona St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 131,
+      "ppg": 6.3674,
+      "rawPpg": 5.4758,
+      "madeIt": true,
+      "similarity": 0.076
+    }
+  ]
+}

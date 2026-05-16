@@ -1,0 +1,89 @@
+{
+  "prospectId": "blake-corum-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devin Singletary",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 3,
+      "pick": 74,
+      "ppg": 9.6739,
+      "rawPpg": 10.7877,
+      "madeIt": true,
+      "similarity": 0.154
+    },
+    {
+      "rank": 2,
+      "name": "Daniel Thomas",
+      "college": "Kansas St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 62,
+      "ppg": 6.7472,
+      "rawPpg": 6.1633,
+      "madeIt": true,
+      "similarity": 0.141
+    },
+    {
+      "rank": 3,
+      "name": "Ka'Deem Carey",
+      "college": "Arizona",
+      "year": 2014,
+      "round": 4,
+      "pick": 117,
+      "ppg": 5.0952,
+      "rawPpg": 3.052,
+      "madeIt": true,
+      "similarity": 0.141
+    },
+    {
+      "rank": 4,
+      "name": "Joshua Kelley",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.1373,
+      "rawPpg": 5.0891,
+      "madeIt": true,
+      "similarity": 0.132
+    },
+    {
+      "rank": 5,
+      "name": "Samaje Perine",
+      "college": "Oklahoma",
+      "year": 2017,
+      "round": 4,
+      "pick": 114,
+      "ppg": 7.6423,
+      "rawPpg": 7.5,
+      "madeIt": true,
+      "similarity": 0.127
+    },
+    {
+      "rank": 6,
+      "name": "Mark Walton",
+      "college": "Miami (FL)",
+      "year": 2018,
+      "round": 4,
+      "pick": 112,
+      "ppg": 5.1099,
+      "rawPpg": 2.9643,
+      "madeIt": true,
+      "similarity": 0.126
+    },
+    {
+      "rank": 7,
+      "name": "Montee Ball",
+      "college": "Wisconsin",
+      "year": 2013,
+      "round": 2,
+      "pick": 58,
+      "ppg": 6.954,
+      "rawPpg": 6.15,
+      "madeIt": true,
+      "similarity": 0.12
+    }
+  ]
+}

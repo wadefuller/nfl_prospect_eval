@@ -1,0 +1,28 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# Local editor / agent state
+.claude/
+.vscode/
+
+# Generated model artifacts and raw/intermediate data
+/data/
+/models/
+/output/
+*.rds
+*.RDS
+*.bak
+*.bak2
+*.bak3
+
+# Website dependencies and build output
+website/node_modules/
+website/dist/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/

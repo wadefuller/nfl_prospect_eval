@@ -1,0 +1,89 @@
+{
+  "prospectId": "rondale-moore-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marquise Goodwin",
+      "college": "Texas",
+      "year": 2013,
+      "round": 3,
+      "pick": 78,
+      "ppg": 4.3064,
+      "rawPpg": 2.5979,
+      "madeIt": false,
+      "similarity": 0.524
+    },
+    {
+      "rank": 2,
+      "name": "Greg Little",
+      "college": "North Carolina",
+      "year": 2011,
+      "round": 2,
+      "pick": 59,
+      "ppg": 6.8132,
+      "rawPpg": 7.2375,
+      "madeIt": true,
+      "similarity": 0.366
+    },
+    {
+      "rank": 3,
+      "name": "Dexter McCluster",
+      "college": "Mississippi",
+      "year": 2010,
+      "round": 2,
+      "pick": 36,
+      "ppg": 6.1048,
+      "rawPpg": 6.175,
+      "madeIt": true,
+      "similarity": 0.362
+    },
+    {
+      "rank": 4,
+      "name": "Curtis Samuel",
+      "college": "Ohio St.",
+      "year": 2017,
+      "round": 2,
+      "pick": 40,
+      "ppg": 7.9874,
+      "rawPpg": 9.1103,
+      "madeIt": true,
+      "similarity": 0.349
+    },
+    {
+      "rank": 5,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.344
+    },
+    {
+      "rank": 6,
+      "name": "Marquis Walker",
+      "college": "Michigan",
+      "year": 2002,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.337
+    },
+    {
+      "rank": 7,
+      "name": "Damian Williams",
+      "college": "USC",
+      "year": 2010,
+      "round": 3,
+      "pick": 77,
+      "ppg": 5.7848,
+      "rawPpg": 5.5464,
+      "madeIt": true,
+      "similarity": 0.336
+    }
+  ]
+}

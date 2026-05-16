@@ -1,0 +1,65 @@
+{
+  "prospectId": "nick-singleton-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "DeeJay Dallas",
+      "college": "Miami (FL)",
+      "year": 2020,
+      "round": 4,
+      "pick": 144,
+      "ppg": 5.2888,
+      "rawPpg": 4.1477,
+      "madeIt": true,
+      "similarity": 0.723
+    },
+    {
+      "rank": 2,
+      "name": "Owen Marecic",
+      "college": "Stanford",
+      "year": 2011,
+      "round": 4,
+      "pick": 124,
+      "ppg": 5.4387,
+      "rawPpg": 0.8,
+      "madeIt": true,
+      "similarity": 0.639
+    },
+    {
+      "rank": 3,
+      "name": "John Conner",
+      "college": "Kentucky",
+      "year": 2010,
+      "round": 5,
+      "pick": 139,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.599
+    },
+    {
+      "rank": 4,
+      "name": "Roschon Johnson",
+      "college": "Texas",
+      "year": 2023,
+      "round": 4,
+      "pick": 115,
+      "ppg": 6.3324,
+      "rawPpg": 5.5059,
+      "madeIt": true,
+      "similarity": 0.575
+    },
+    {
+      "rank": 5,
+      "name": "Anthony Sherman",
+      "college": "Connecticut",
+      "year": 2011,
+      "round": 5,
+      "pick": 136,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.55
+    }
+  ]
+}

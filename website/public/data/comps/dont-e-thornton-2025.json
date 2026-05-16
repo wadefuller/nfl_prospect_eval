@@ -1,0 +1,89 @@
+{
+  "prospectId": "dont-e-thornton-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marcus Easley",
+      "college": "Connecticut",
+      "year": 2010,
+      "round": 4,
+      "pick": 107,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.287
+    },
+    {
+      "rank": 2,
+      "name": "Denarius Moore",
+      "college": "Tennessee",
+      "year": 2011,
+      "round": 5,
+      "pick": 148,
+      "ppg": 8.1598,
+      "rawPpg": 9.4149,
+      "madeIt": true,
+      "similarity": 0.265
+    },
+    {
+      "rank": 3,
+      "name": "Josh Malone",
+      "college": "Tennessee",
+      "year": 2017,
+      "round": 4,
+      "pick": 128,
+      "ppg": 4.4373,
+      "rawPpg": 1.7222,
+      "madeIt": false,
+      "similarity": 0.262
+    },
+    {
+      "rank": 4,
+      "name": "Martavis Bryant",
+      "college": "Clemson",
+      "year": 2014,
+      "round": 4,
+      "pick": 118,
+      "ppg": 9.6684,
+      "rawPpg": 12.455,
+      "madeIt": true,
+      "similarity": 0.253
+    },
+    {
+      "rank": 5,
+      "name": "DeAndre Smelter",
+      "college": "Georgia Tech",
+      "year": 2015,
+      "round": 4,
+      "pick": 132,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.246
+    },
+    {
+      "rank": 6,
+      "name": "Terry McLaurin",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 76,
+      "ppg": 9.7474,
+      "rawPpg": 11.8279,
+      "madeIt": true,
+      "similarity": 0.246
+    },
+    {
+      "rank": 7,
+      "name": "Mack Hollins",
+      "college": "North Carolina",
+      "year": 2017,
+      "round": 4,
+      "pick": 118,
+      "ppg": 3.7383,
+      "rawPpg": 2.2542,
+      "madeIt": false,
+      "similarity": 0.241
+    }
+  ]
+}

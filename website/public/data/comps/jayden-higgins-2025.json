@@ -1,0 +1,89 @@
+{
+  "prospectId": "jayden-higgins-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Rashee Rice",
+      "college": "SMU",
+      "year": 2023,
+      "round": 2,
+      "pick": 55,
+      "ppg": 9.8008,
+      "rawPpg": 13.1312,
+      "madeIt": true,
+      "similarity": 0.589
+    },
+    {
+      "rank": 2,
+      "name": "Michael Pittman Jr.",
+      "college": "USC",
+      "year": 2020,
+      "round": 2,
+      "pick": 34,
+      "ppg": 9.3272,
+      "rawPpg": 10.9423,
+      "madeIt": true,
+      "similarity": 0.561
+    },
+    {
+      "rank": 3,
+      "name": "Nelson Agholor",
+      "college": "USC",
+      "year": 2015,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.8475,
+      "rawPpg": 7.2206,
+      "madeIt": true,
+      "similarity": 0.544
+    },
+    {
+      "rank": 4,
+      "name": "Laquon Treadwell",
+      "college": "Mississippi",
+      "year": 2016,
+      "round": 1,
+      "pick": 23,
+      "ppg": 4.0712,
+      "rawPpg": 2.9438,
+      "madeIt": false,
+      "similarity": 0.527
+    },
+    {
+      "rank": 5,
+      "name": "Drake London",
+      "college": "USC",
+      "year": 2022,
+      "round": 1,
+      "pick": 8,
+      "ppg": 9.5125,
+      "rawPpg": 11.1595,
+      "madeIt": true,
+      "similarity": 0.521
+    },
+    {
+      "rank": 6,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.519
+    },
+    {
+      "rank": 7,
+      "name": "Skyy Moore",
+      "college": "Western Michigan",
+      "year": 2022,
+      "round": 2,
+      "pick": 54,
+      "ppg": 3.934,
+      "rawPpg": 2.8615,
+      "madeIt": false,
+      "similarity": 0.499
+    }
+  ]
+}

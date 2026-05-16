@@ -1,0 +1,89 @@
+{
+  "prospectId": "de-zhaun-stribling-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Alshon Jeffery",
+      "college": "South Carolina",
+      "year": 2012,
+      "round": 2,
+      "pick": 45,
+      "ppg": 11.534,
+      "rawPpg": 14.3187,
+      "madeIt": true,
+      "similarity": 0.499
+    },
+    {
+      "rank": 2,
+      "name": "Rashod Bateman",
+      "college": "Minnesota",
+      "year": 2021,
+      "round": 1,
+      "pick": 27,
+      "ppg": 6.5274,
+      "rawPpg": 7.1875,
+      "madeIt": true,
+      "similarity": 0.419
+    },
+    {
+      "rank": 3,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.393
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Boyd",
+      "college": "Pittsburgh",
+      "year": 2016,
+      "round": 2,
+      "pick": 55,
+      "ppg": 8.1659,
+      "rawPpg": 9.5737,
+      "madeIt": true,
+      "similarity": 0.386
+    },
+    {
+      "rank": 5,
+      "name": "Jaxon Smith-Njigba",
+      "college": "Ohio St.",
+      "year": 2023,
+      "round": 1,
+      "pick": 20,
+      "ppg": 11.9766,
+      "rawPpg": 14.8059,
+      "madeIt": true,
+      "similarity": 0.385
+    },
+    {
+      "rank": 6,
+      "name": "Jalen Reagor",
+      "college": "TCU",
+      "year": 2020,
+      "round": 1,
+      "pick": 21,
+      "ppg": 5.1985,
+      "rawPpg": 5.0709,
+      "madeIt": true,
+      "similarity": 0.376
+    },
+    {
+      "rank": 7,
+      "name": "Jonathan Baldwin",
+      "college": "Pittsburgh",
+      "year": 2011,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5325,
+      "rawPpg": 3.6367,
+      "madeIt": false,
+      "similarity": 0.37
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "gerrid-doaks-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Darius Jackson",
+      "college": "Eastern Michigan",
+      "year": 2016,
+      "round": 6,
+      "pick": 216,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.273
+    },
+    {
+      "rank": 2,
+      "name": "Baron Batch",
+      "college": "Texas Tech",
+      "year": 2011,
+      "round": 7,
+      "pick": 232,
+      "ppg": 5.6051,
+      "rawPpg": 1.7778,
+      "madeIt": true,
+      "similarity": 0.232
+    },
+    {
+      "rank": 3,
+      "name": "Storm Johnson",
+      "college": "Central Florida",
+      "year": 2014,
+      "round": 7,
+      "pick": 222,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.223
+    },
+    {
+      "rank": 4,
+      "name": "Ahmaad Galloway",
+      "college": "Alabama",
+      "year": 2003,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.206
+    },
+    {
+      "rank": 5,
+      "name": "Luke Staley",
+      "college": "BYU",
+      "year": 2002,
+      "round": 7,
+      "pick": 214,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.195
+    },
+    {
+      "rank": 6,
+      "name": "Khalfani Muhammad",
+      "college": "California",
+      "year": 2017,
+      "round": 7,
+      "pick": 241,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.191
+    },
+    {
+      "rank": 7,
+      "name": "Antwoine Womack",
+      "college": "Virginia",
+      "year": 2002,
+      "round": 7,
+      "pick": 237,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.187
+    }
+  ]
+}

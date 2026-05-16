@@ -1,0 +1,89 @@
+{
+  "prospectId": "ihmir-smith-marsette-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devin Street",
+      "college": "Pittsburgh",
+      "year": 2014,
+      "round": 5,
+      "pick": 146,
+      "ppg": 4.2345,
+      "rawPpg": 1.7182,
+      "madeIt": false,
+      "similarity": 0.552
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Whalen",
+      "college": "Stanford",
+      "year": 2011,
+      "round": 6,
+      "pick": 167,
+      "ppg": 4.5318,
+      "rawPpg": 1.2571,
+      "madeIt": false,
+      "similarity": 0.534
+    },
+    {
+      "rank": 3,
+      "name": "Ryan Grant",
+      "college": "Tulane",
+      "year": 2014,
+      "round": 5,
+      "pick": 142,
+      "ppg": 4.3342,
+      "rawPpg": 2.6548,
+      "madeIt": false,
+      "similarity": 0.502
+    },
+    {
+      "rank": 4,
+      "name": "Jon Olinger",
+      "college": "Cincinnati",
+      "year": 2003,
+      "round": 5,
+      "pick": 159,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.494
+    },
+    {
+      "rank": 5,
+      "name": "Larry Brackins",
+      "college": "Pearl River CC",
+      "year": 2005,
+      "round": 5,
+      "pick": 155,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.494
+    },
+    {
+      "rank": 6,
+      "name": "Khalil Shakir",
+      "college": "Boise St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 148,
+      "ppg": 7.0964,
+      "rawPpg": 7.7417,
+      "madeIt": true,
+      "similarity": 0.487
+    },
+    {
+      "rank": 7,
+      "name": "Collin Johnson",
+      "college": "Texas",
+      "year": 2020,
+      "round": 5,
+      "pick": 165,
+      "ppg": 4.6181,
+      "rawPpg": 3.2818,
+      "madeIt": false,
+      "similarity": 0.476
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "cam-skattebo-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Rachaad White",
+      "college": "Arizona St.",
+      "year": 2022,
+      "round": 3,
+      "pick": 91,
+      "ppg": 11.1277,
+      "rawPpg": 12.7416,
+      "madeIt": true,
+      "similarity": 0.256
+    },
+    {
+      "rank": 2,
+      "name": "Ito Smith",
+      "college": "Southern Miss",
+      "year": 2018,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.6424,
+      "rawPpg": 5.4385,
+      "madeIt": true,
+      "similarity": 0.242
+    },
+    {
+      "rank": 3,
+      "name": "DeAndre Washington",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 5,
+      "pick": 143,
+      "ppg": 6.1097,
+      "rawPpg": 5.2167,
+      "madeIt": true,
+      "similarity": 0.232
+    },
+    {
+      "rank": 4,
+      "name": "C.J. Prosise",
+      "college": "Notre Dame",
+      "year": 2016,
+      "round": 3,
+      "pick": 90,
+      "ppg": 8.0285,
+      "rawPpg": 8.75,
+      "madeIt": true,
+      "similarity": 0.213
+    },
+    {
+      "rank": 5,
+      "name": "Kareem Hunt",
+      "college": "Toledo",
+      "year": 2017,
+      "round": 3,
+      "pick": 86,
+      "ppg": 14.1867,
+      "rawPpg": 18.2696,
+      "madeIt": true,
+      "similarity": 0.183
+    },
+    {
+      "rank": 6,
+      "name": "Zack Moss",
+      "college": "Utah",
+      "year": 2020,
+      "round": 3,
+      "pick": 86,
+      "ppg": 7.4388,
+      "rawPpg": 7.2423,
+      "madeIt": true,
+      "similarity": 0.172
+    },
+    {
+      "rank": 7,
+      "name": "Mike Davis",
+      "college": "South Carolina",
+      "year": 2015,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.2665,
+      "rawPpg": 4.6452,
+      "madeIt": true,
+      "similarity": 0.17
+    }
+  ]
+}

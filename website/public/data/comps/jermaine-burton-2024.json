@@ -1,0 +1,89 @@
+{
+  "prospectId": "jermaine-burton-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Chris Moore",
+      "college": "Cincinnati",
+      "year": 2016,
+      "round": 4,
+      "pick": 107,
+      "ppg": 4.1621,
+      "rawPpg": 3.1844,
+      "madeIt": false,
+      "similarity": 0.656
+    },
+    {
+      "rank": 2,
+      "name": "Sammie Coates",
+      "college": "Auburn",
+      "year": 2015,
+      "round": 3,
+      "pick": 87,
+      "ppg": 4.6711,
+      "rawPpg": 3.1214,
+      "madeIt": false,
+      "similarity": 0.47
+    },
+    {
+      "rank": 3,
+      "name": "Marvin Mims",
+      "college": "Oklahoma",
+      "year": 2023,
+      "round": 2,
+      "pick": 63,
+      "ppg": 5.8736,
+      "rawPpg": 5.7853,
+      "madeIt": true,
+      "similarity": 0.432
+    },
+    {
+      "rank": 4,
+      "name": "Danny Gray",
+      "college": "SMU",
+      "year": 2022,
+      "round": 3,
+      "pick": 105,
+      "ppg": 4.2536,
+      "rawPpg": 0.3429,
+      "madeIt": false,
+      "similarity": 0.392
+    },
+    {
+      "rank": 5,
+      "name": "Nico Collins",
+      "college": "Michigan",
+      "year": 2021,
+      "round": 3,
+      "pick": 89,
+      "ppg": 9.6203,
+      "rawPpg": 11.2767,
+      "madeIt": true,
+      "similarity": 0.379
+    },
+    {
+      "rank": 6,
+      "name": "Josh Huff",
+      "college": "Oregon",
+      "year": 2014,
+      "round": 3,
+      "pick": 86,
+      "ppg": 4.6569,
+      "rawPpg": 3.73,
+      "madeIt": false,
+      "similarity": 0.369
+    },
+    {
+      "rank": 7,
+      "name": "Josh Boyce",
+      "college": "TCU",
+      "year": 2013,
+      "round": 4,
+      "pick": 102,
+      "ppg": 5.0924,
+      "rawPpg": 2.7667,
+      "madeIt": true,
+      "similarity": 0.363
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "emmanuel-henderson-jr-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marcell Ateman",
+      "college": "Oklahoma St.",
+      "year": 2018,
+      "round": 7,
+      "pick": 228,
+      "ppg": 5.4057,
+      "rawPpg": 4.1286,
+      "madeIt": true,
+      "similarity": 0.56
+    },
+    {
+      "rank": 2,
+      "name": "Devin Lucien",
+      "college": "Arizona St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 225,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.532
+    },
+    {
+      "rank": 3,
+      "name": "Jauan Jennings",
+      "college": "Tennessee",
+      "year": 2020,
+      "round": 7,
+      "pick": 217,
+      "ppg": 5.1274,
+      "rawPpg": 4.7344,
+      "madeIt": true,
+      "similarity": 0.517
+    },
+    {
+      "rank": 4,
+      "name": "Travis Fulgham",
+      "college": "Old Dominion",
+      "year": 2019,
+      "round": 6,
+      "pick": 184,
+      "ppg": 6.869,
+      "rawPpg": 8.075,
+      "madeIt": true,
+      "similarity": 0.483
+    },
+    {
+      "rank": 5,
+      "name": "Cornell Powell",
+      "college": "Clemson",
+      "year": 2021,
+      "round": 5,
+      "pick": 181,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.483
+    },
+    {
+      "rank": 6,
+      "name": "John Hightower",
+      "college": "Boise St.",
+      "year": 2020,
+      "round": 5,
+      "pick": 168,
+      "ppg": 4.5858,
+      "rawPpg": 2.38,
+      "madeIt": false,
+      "similarity": 0.458
+    },
+    {
+      "rank": 7,
+      "name": "Joe Webb",
+      "college": "Ala-Birmingham",
+      "year": 2010,
+      "round": 6,
+      "pick": 199,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.449
+    }
+  ]
+}

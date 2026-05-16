@@ -1,0 +1,89 @@
+{
+  "prospectId": "anthony-schwartz-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
+      "madeIt": true,
+      "similarity": 0.479
+    },
+    {
+      "rank": 2,
+      "name": "Jacoby Ford",
+      "college": "Clemson",
+      "year": 2010,
+      "round": 4,
+      "pick": 108,
+      "ppg": 6.7418,
+      "rawPpg": 7.0562,
+      "madeIt": true,
+      "similarity": 0.399
+    },
+    {
+      "rank": 3,
+      "name": "Tre Tucker",
+      "college": "Cincinnati",
+      "year": 2023,
+      "round": 3,
+      "pick": 100,
+      "ppg": 6.6886,
+      "rawPpg": 7.0294,
+      "madeIt": true,
+      "similarity": 0.393
+    },
+    {
+      "rank": 4,
+      "name": "Keshawn Martin",
+      "college": "Michigan St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 121,
+      "ppg": 3.6361,
+      "rawPpg": 2.4719,
+      "madeIt": false,
+      "similarity": 0.387
+    },
+    {
+      "rank": 5,
+      "name": "Malcolm Mitchell",
+      "college": "Georgia",
+      "year": 2016,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.269,
+      "rawPpg": 6.675,
+      "madeIt": true,
+      "similarity": 0.386
+    },
+    {
+      "rank": 6,
+      "name": "Antonio Callaway",
+      "college": "Florida",
+      "year": 2018,
+      "round": 4,
+      "pick": 105,
+      "ppg": 6.4447,
+      "rawPpg": 6.925,
+      "madeIt": true,
+      "similarity": 0.371
+    },
+    {
+      "rank": 7,
+      "name": "Randall Cobb",
+      "college": "Kentucky",
+      "year": 2011,
+      "round": 2,
+      "pick": 64,
+      "ppg": 10.5036,
+      "rawPpg": 14.3033,
+      "madeIt": true,
+      "similarity": 0.366
+    }
+  ]
+}

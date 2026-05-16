@@ -1,0 +1,89 @@
+{
+  "prospectId": "jalen-tolbert-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kenny Golladay",
+      "college": "Northern Illinois",
+      "year": 2017,
+      "round": 3,
+      "pick": 96,
+      "ppg": 10.2773,
+      "rawPpg": 12.471,
+      "madeIt": true,
+      "similarity": 0.431
+    },
+    {
+      "rank": 2,
+      "name": "Dyami Brown",
+      "college": "North Carolina",
+      "year": 2021,
+      "round": 3,
+      "pick": 82,
+      "ppg": 4.2238,
+      "rawPpg": 2.7883,
+      "madeIt": false,
+      "similarity": 0.425
+    },
+    {
+      "rank": 3,
+      "name": "Jaelen Strong",
+      "college": "Arizona St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 70,
+      "ppg": 4.8947,
+      "rawPpg": 3.73,
+      "madeIt": false,
+      "similarity": 0.414
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Lockett",
+      "college": "Kansas St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 69,
+      "ppg": 7.2539,
+      "rawPpg": 7.8877,
+      "madeIt": true,
+      "similarity": 0.406
+    },
+    {
+      "rank": 5,
+      "name": "James Washington",
+      "college": "Oklahoma St.",
+      "year": 2018,
+      "round": 2,
+      "pick": 60,
+      "ppg": 6.1943,
+      "rawPpg": 6.3479,
+      "madeIt": true,
+      "similarity": 0.399
+    },
+    {
+      "rank": 6,
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
+      "year": 2022,
+      "round": 4,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.394
+    },
+    {
+      "rank": 7,
+      "name": "Brandon LaFell",
+      "college": "LSU",
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
+      "madeIt": true,
+      "similarity": 0.38
+    }
+  ]
+}

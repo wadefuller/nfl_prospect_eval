@@ -1,0 +1,89 @@
+{
+  "prospectId": "lajohntay-wester-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Scotty McKnight",
+      "college": "Colorado",
+      "year": 2011,
+      "round": 7,
+      "pick": 227,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.481
+    },
+    {
+      "rank": 2,
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
+      "madeIt": false,
+      "similarity": 0.407
+    },
+    {
+      "rank": 3,
+      "name": "KeeSean Johnson",
+      "college": "Fresno St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 174,
+      "ppg": 4.5803,
+      "rawPpg": 3.325,
+      "madeIt": false,
+      "similarity": 0.353
+    },
+    {
+      "rank": 4,
+      "name": "Marquez Stevenson",
+      "college": "Houston",
+      "year": 2021,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.341
+    },
+    {
+      "rank": 5,
+      "name": "James Proche",
+      "college": "SMU",
+      "year": 2020,
+      "round": 6,
+      "pick": 201,
+      "ppg": 3.8774,
+      "rawPpg": 2.387,
+      "madeIt": false,
+      "similarity": 0.34
+    },
+    {
+      "rank": 6,
+      "name": "Daniel Braverman",
+      "college": "Western Michigan",
+      "year": 2016,
+      "round": 7,
+      "pick": 230,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.329
+    },
+    {
+      "rank": 7,
+      "name": "Antonio Brown",
+      "college": "Central Michigan",
+      "year": 2010,
+      "round": 6,
+      "pick": 195,
+      "ppg": 8.954,
+      "rawPpg": 10.6197,
+      "madeIt": true,
+      "similarity": 0.323
+    }
+  ]
+}

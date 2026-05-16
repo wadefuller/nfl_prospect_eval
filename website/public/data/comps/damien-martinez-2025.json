@@ -1,0 +1,89 @@
+{
+  "prospectId": "damien-martinez-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ty Johnson",
+      "college": "Maryland",
+      "year": 2019,
+      "round": 6,
+      "pick": 186,
+      "ppg": 6.653,
+      "rawPpg": 5.847,
+      "madeIt": true,
+      "similarity": 0.301
+    },
+    {
+      "rank": 2,
+      "name": "Travis Homer",
+      "college": "Miami (FL)",
+      "year": 2019,
+      "round": 6,
+      "pick": 204,
+      "ppg": 5.417,
+      "rawPpg": 3.5286,
+      "madeIt": true,
+      "similarity": 0.227
+    },
+    {
+      "rank": 3,
+      "name": "Ahmaad Galloway",
+      "college": "Alabama",
+      "year": 2003,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.206
+    },
+    {
+      "rank": 4,
+      "name": "Luke Staley",
+      "college": "BYU",
+      "year": 2002,
+      "round": 7,
+      "pick": 214,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.202
+    },
+    {
+      "rank": 5,
+      "name": "Cedric Humes",
+      "college": "Virginia Tech",
+      "year": 2006,
+      "round": 7,
+      "pick": 240,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.195
+    },
+    {
+      "rank": 6,
+      "name": "Jonathan Dwyer",
+      "college": "Georgia Tech",
+      "year": 2010,
+      "round": 6,
+      "pick": 188,
+      "ppg": 7.3803,
+      "rawPpg": 6.9154,
+      "madeIt": true,
+      "similarity": 0.187
+    },
+    {
+      "rank": 7,
+      "name": "Keaontay Ingram",
+      "college": "USC",
+      "year": 2022,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.4773,
+      "rawPpg": 1.589,
+      "madeIt": false,
+      "similarity": 0.174
+    }
+  ]
+}

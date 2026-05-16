@@ -1,0 +1,89 @@
+{
+  "prospectId": "jerome-ford-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Latavius Murray",
+      "college": "Central Florida",
+      "year": 2013,
+      "round": 6,
+      "pick": 181,
+      "ppg": 8.5695,
+      "rawPpg": 8.7286,
+      "madeIt": true,
+      "similarity": 0.252
+    },
+    {
+      "rank": 2,
+      "name": "Bilal Powell",
+      "college": "Louisville",
+      "year": 2011,
+      "round": 4,
+      "pick": 126,
+      "ppg": 7.3136,
+      "rawPpg": 7.0371,
+      "madeIt": true,
+      "similarity": 0.219
+    },
+    {
+      "rank": 3,
+      "name": "Qadree Ollison",
+      "college": "Pittsburgh",
+      "year": 2019,
+      "round": 5,
+      "pick": 152,
+      "ppg": 6.1438,
+      "rawPpg": 3.9917,
+      "madeIt": true,
+      "similarity": 0.214
+    },
+    {
+      "rank": 4,
+      "name": "Dexter Williams",
+      "college": "Notre Dame",
+      "year": 2019,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.192
+    },
+    {
+      "rank": 5,
+      "name": "Elijah McGuire",
+      "college": "Louisiana",
+      "year": 2017,
+      "round": 6,
+      "pick": 188,
+      "ppg": 6.9289,
+      "rawPpg": 7.0983,
+      "madeIt": true,
+      "similarity": 0.179
+    },
+    {
+      "rank": 6,
+      "name": "Ty Chandler",
+      "college": "North Carolina",
+      "year": 2022,
+      "round": 5,
+      "pick": 169,
+      "ppg": 5.218,
+      "rawPpg": 3.7353,
+      "madeIt": true,
+      "similarity": 0.167
+    },
+    {
+      "rank": 7,
+      "name": "Alex Collins",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 5,
+      "pick": 171,
+      "ppg": 9.3836,
+      "rawPpg": 10.3717,
+      "madeIt": true,
+      "similarity": 0.166
+    }
+  ]
+}

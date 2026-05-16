@@ -1,0 +1,89 @@
+{
+  "prospectId": "cyrus-allen-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Quincy Enunwa",
+      "college": "Nebraska",
+      "year": 2014,
+      "round": 6,
+      "pick": 209,
+      "ppg": 6.4612,
+      "rawPpg": 6.3037,
+      "madeIt": true,
+      "similarity": 0.621
+    },
+    {
+      "rank": 2,
+      "name": "Jeremy Kerley",
+      "college": "TCU",
+      "year": 2011,
+      "round": 5,
+      "pick": 153,
+      "ppg": 7.2162,
+      "rawPpg": 7.9077,
+      "madeIt": true,
+      "similarity": 0.518
+    },
+    {
+      "rank": 3,
+      "name": "Braxton Berrios",
+      "college": "Miami (FL)",
+      "year": 2018,
+      "round": 6,
+      "pick": 210,
+      "ppg": 3.9319,
+      "rawPpg": 2.9156,
+      "madeIt": false,
+      "similarity": 0.511
+    },
+    {
+      "rank": 4,
+      "name": "Freddie Swain",
+      "college": "Florida",
+      "year": 2020,
+      "round": 6,
+      "pick": 214,
+      "ppg": 4.4311,
+      "rawPpg": 3.4995,
+      "madeIt": false,
+      "similarity": 0.437
+    },
+    {
+      "rank": 5,
+      "name": "Kyle Philips",
+      "college": "UCLA",
+      "year": 2022,
+      "round": 5,
+      "pick": 163,
+      "ppg": 5.043,
+      "rawPpg": 3.2,
+      "madeIt": true,
+      "similarity": 0.403
+    },
+    {
+      "rank": 6,
+      "name": "Isaiah McKenzie",
+      "college": "Georgia",
+      "year": 2017,
+      "round": 5,
+      "pick": 172,
+      "ppg": 5.2981,
+      "rawPpg": 4.9188,
+      "madeIt": true,
+      "similarity": 0.394
+    },
+    {
+      "rank": 7,
+      "name": "Kenny Stills",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 5,
+      "pick": 144,
+      "ppg": 7.4241,
+      "rawPpg": 8.2185,
+      "madeIt": true,
+      "similarity": 0.363
+    }
+  ]
+}

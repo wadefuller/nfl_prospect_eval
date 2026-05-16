@@ -1,0 +1,89 @@
+{
+  "prospectId": "kalel-mullings-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jonathan Williams",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 5,
+      "pick": 156,
+      "ppg": 5.6678,
+      "rawPpg": 1.4875,
+      "madeIt": true,
+      "similarity": 0.3
+    },
+    {
+      "rank": 2,
+      "name": "Mike Gillislee",
+      "college": "Florida",
+      "year": 2013,
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.22
+    },
+    {
+      "rank": 3,
+      "name": "Jordan Scarlett",
+      "college": "Florida",
+      "year": 2019,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.219
+    },
+    {
+      "rank": 4,
+      "name": "Dexter Williams",
+      "college": "Notre Dame",
+      "year": 2019,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.217
+    },
+    {
+      "rank": 5,
+      "name": "Qadree Ollison",
+      "college": "Pittsburgh",
+      "year": 2019,
+      "round": 5,
+      "pick": 152,
+      "ppg": 6.1438,
+      "rawPpg": 3.9917,
+      "madeIt": true,
+      "similarity": 0.208
+    },
+    {
+      "rank": 6,
+      "name": "Snoop Conner",
+      "college": "Mississippi",
+      "year": 2022,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.188
+    },
+    {
+      "rank": 7,
+      "name": "Kerrith Whyte Jr",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.2603,
+      "rawPpg": 2.2667,
+      "madeIt": true,
+      "similarity": 0.178
+    }
+  ]
+}

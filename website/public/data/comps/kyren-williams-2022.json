@@ -1,0 +1,89 @@
+{
+  "prospectId": "kyren-williams-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ito Smith",
+      "college": "Southern Miss",
+      "year": 2018,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.6424,
+      "rawPpg": 5.4385,
+      "madeIt": true,
+      "similarity": 0.49
+    },
+    {
+      "rank": 2,
+      "name": "Evan Hull",
+      "college": "Northwestern",
+      "year": 2023,
+      "round": 5,
+      "pick": 176,
+      "ppg": 5.9103,
+      "rawPpg": 0.9833,
+      "madeIt": true,
+      "similarity": 0.244
+    },
+    {
+      "rank": 3,
+      "name": "Paul Perkins",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 149,
+      "ppg": 5.5534,
+      "rawPpg": 3.575,
+      "madeIt": true,
+      "similarity": 0.186
+    },
+    {
+      "rank": 4,
+      "name": "James White",
+      "college": "Wisconsin",
+      "year": 2014,
+      "round": 4,
+      "pick": 130,
+      "ppg": 8.1461,
+      "rawPpg": 8.3906,
+      "madeIt": true,
+      "similarity": 0.18
+    },
+    {
+      "rank": 5,
+      "name": "Mike Davis",
+      "college": "South Carolina",
+      "year": 2015,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.2665,
+      "rawPpg": 4.6452,
+      "madeIt": true,
+      "similarity": 0.179
+    },
+    {
+      "rank": 6,
+      "name": "Marion Grice",
+      "college": "Arizona St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 201,
+      "ppg": 6.3922,
+      "rawPpg": 2.75,
+      "madeIt": true,
+      "similarity": 0.174
+    },
+    {
+      "rank": 7,
+      "name": "Vick Ballard",
+      "college": "Mississippi St.",
+      "year": 2012,
+      "round": 5,
+      "pick": 170,
+      "ppg": 7.7259,
+      "rawPpg": 7.6937,
+      "madeIt": true,
+      "similarity": 0.157
+    }
+  ]
+}

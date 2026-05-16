@@ -1,0 +1,89 @@
+{
+  "prospectId": "roschon-johnson-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "DeeJay Dallas",
+      "college": "Miami (FL)",
+      "year": 2020,
+      "round": 4,
+      "pick": 144,
+      "ppg": 5.2888,
+      "rawPpg": 4.1477,
+      "madeIt": true,
+      "similarity": 0.213
+    },
+    {
+      "rank": 2,
+      "name": "Jamaal Williams",
+      "college": "BYU",
+      "year": 2017,
+      "round": 4,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
+      "madeIt": true,
+      "similarity": 0.181
+    },
+    {
+      "rank": 3,
+      "name": "Anthony McFarland Jr.",
+      "college": "Maryland",
+      "year": 2020,
+      "round": 4,
+      "pick": 124,
+      "ppg": 5.3269,
+      "rawPpg": 1.7909,
+      "madeIt": true,
+      "similarity": 0.174
+    },
+    {
+      "rank": 4,
+      "name": "John Conner",
+      "college": "Kentucky",
+      "year": 2010,
+      "round": 5,
+      "pick": 139,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.155
+    },
+    {
+      "rank": 5,
+      "name": "Snoop Conner",
+      "college": "Mississippi",
+      "year": 2022,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.147
+    },
+    {
+      "rank": 6,
+      "name": "Kene Nwangwu",
+      "college": "Iowa St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 119,
+      "ppg": 3.9905,
+      "rawPpg": 1.5417,
+      "madeIt": false,
+      "similarity": 0.142
+    },
+    {
+      "rank": 7,
+      "name": "La'Mical Perine",
+      "college": "Florida",
+      "year": 2020,
+      "round": 4,
+      "pick": 120,
+      "ppg": 6.5818,
+      "rawPpg": 4.7,
+      "madeIt": true,
+      "similarity": 0.14
+    }
+  ]
+}

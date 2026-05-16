@@ -1,0 +1,89 @@
+{
+  "prospectId": "elijah-sarratt-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Leonte Carroo",
+      "college": "Rutgers",
+      "year": 2016,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.529
+    },
+    {
+      "rank": 2,
+      "name": "Tylan Wallace",
+      "college": "Oklahoma St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 131,
+      "ppg": 3.3229,
+      "rawPpg": 0.7983,
+      "madeIt": false,
+      "similarity": 0.457
+    },
+    {
+      "rank": 3,
+      "name": "J'Mon Moore",
+      "college": "Missouri",
+      "year": 2018,
+      "round": 4,
+      "pick": 133,
+      "ppg": 4.2579,
+      "rawPpg": 0.3571,
+      "madeIt": false,
+      "similarity": 0.438
+    },
+    {
+      "rank": 4,
+      "name": "Brandon LaFell",
+      "college": "LSU",
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
+      "madeIt": true,
+      "similarity": 0.434
+    },
+    {
+      "rank": 5,
+      "name": "Stefon Diggs",
+      "college": "Maryland",
+      "year": 2015,
+      "round": 5,
+      "pick": 146,
+      "ppg": 9.6031,
+      "rawPpg": 11.7549,
+      "madeIt": true,
+      "similarity": 0.411
+    },
+    {
+      "rank": 6,
+      "name": "Josh Boyce",
+      "college": "TCU",
+      "year": 2013,
+      "round": 4,
+      "pick": 102,
+      "ppg": 5.0924,
+      "rawPpg": 2.7667,
+      "madeIt": true,
+      "similarity": 0.411
+    },
+    {
+      "rank": 7,
+      "name": "Ty Montgomery",
+      "college": "Stanford",
+      "year": 2015,
+      "round": 3,
+      "pick": 94,
+      "ppg": 7.5393,
+      "rawPpg": 8.9563,
+      "madeIt": true,
+      "similarity": 0.4
+    }
+  ]
+}

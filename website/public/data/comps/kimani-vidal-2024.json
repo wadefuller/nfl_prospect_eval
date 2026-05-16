@@ -1,0 +1,89 @@
+{
+  "prospectId": "kimani-vidal-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Alfred Morris",
+      "college": "Florida Atlantic",
+      "year": 2012,
+      "round": 6,
+      "pick": 173,
+      "ppg": 11.4589,
+      "rawPpg": 13.3094,
+      "madeIt": true,
+      "similarity": 0.175
+    },
+    {
+      "rank": 2,
+      "name": "Kenneth Gainwell",
+      "college": "Memphis",
+      "year": 2021,
+      "round": 5,
+      "pick": 150,
+      "ppg": 6.5293,
+      "rawPpg": 5.915,
+      "madeIt": true,
+      "similarity": 0.175
+    },
+    {
+      "rank": 3,
+      "name": "Tyler Gaffney",
+      "college": "Stanford",
+      "year": 2014,
+      "round": 6,
+      "pick": 204,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.16
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Badie",
+      "college": "Missouri",
+      "year": 2022,
+      "round": 6,
+      "pick": 196,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.157
+    },
+    {
+      "rank": 5,
+      "name": "Cameron Artis-Payne",
+      "college": "Auburn",
+      "year": 2015,
+      "round": 5,
+      "pick": 174,
+      "ppg": 5.7643,
+      "rawPpg": 3.7292,
+      "madeIt": true,
+      "similarity": 0.143
+    },
+    {
+      "rank": 6,
+      "name": "Chase Brown",
+      "college": "Illinois",
+      "year": 2023,
+      "round": 5,
+      "pick": 163,
+      "ppg": 12.2495,
+      "rawPpg": 14.4221,
+      "madeIt": true,
+      "similarity": 0.141
+    },
+    {
+      "rank": 7,
+      "name": "Tyler Allgeier",
+      "college": "BYU",
+      "year": 2022,
+      "round": 5,
+      "pick": 151,
+      "ppg": 8.2475,
+      "rawPpg": 8.5136,
+      "madeIt": true,
+      "similarity": 0.141
+    }
+  ]
+}

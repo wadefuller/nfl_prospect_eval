@@ -1,0 +1,89 @@
+{
+  "prospectId": "kyle-philips-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Riley Ridley",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 4,
+      "pick": 126,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.506
+    },
+    {
+      "rank": 2,
+      "name": "Robert Herron",
+      "college": "Wyoming",
+      "year": 2014,
+      "round": 6,
+      "pick": 185,
+      "ppg": 5.0105,
+      "rawPpg": 2.4667,
+      "madeIt": true,
+      "similarity": 0.483
+    },
+    {
+      "rank": 3,
+      "name": "Isaiah McKenzie",
+      "college": "Georgia",
+      "year": 2017,
+      "round": 5,
+      "pick": 172,
+      "ppg": 5.2981,
+      "rawPpg": 4.9188,
+      "madeIt": true,
+      "similarity": 0.451
+    },
+    {
+      "rank": 4,
+      "name": "Jeremy Kerley",
+      "college": "TCU",
+      "year": 2011,
+      "round": 5,
+      "pick": 153,
+      "ppg": 7.2162,
+      "rawPpg": 7.9077,
+      "madeIt": true,
+      "similarity": 0.442
+    },
+    {
+      "rank": 5,
+      "name": "Kevin Norwood",
+      "college": "Alabama",
+      "year": 2014,
+      "round": 4,
+      "pick": 123,
+      "ppg": 5.006,
+      "rawPpg": 2.45,
+      "madeIt": true,
+      "similarity": 0.436
+    },
+    {
+      "rank": 6,
+      "name": "Ronald Johnson",
+      "college": "USC",
+      "year": 2011,
+      "round": 6,
+      "pick": 182,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.423
+    },
+    {
+      "rank": 7,
+      "name": "Kenny Stills",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 5,
+      "pick": 144,
+      "ppg": 7.4241,
+      "rawPpg": 8.2185,
+      "madeIt": true,
+      "similarity": 0.419
+    }
+  ]
+}

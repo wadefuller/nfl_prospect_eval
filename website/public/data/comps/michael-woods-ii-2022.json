@@ -1,0 +1,89 @@
+{
+  "prospectId": "michael-woods-ii-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "James Wright",
+      "college": "LSU",
+      "year": 2014,
+      "round": 7,
+      "pick": 239,
+      "ppg": 3.2444,
+      "rawPpg": 1.3511,
+      "madeIt": false,
+      "similarity": 0.468
+    },
+    {
+      "rank": 2,
+      "name": "Charone Peake",
+      "college": "Clemson",
+      "year": 2016,
+      "round": 7,
+      "pick": 241,
+      "ppg": 3.7362,
+      "rawPpg": 1.4625,
+      "madeIt": false,
+      "similarity": 0.418
+    },
+    {
+      "rank": 3,
+      "name": "Joe Webb",
+      "college": "Ala-Birmingham",
+      "year": 2010,
+      "round": 6,
+      "pick": 199,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.407
+    },
+    {
+      "rank": 4,
+      "name": "Keith Mumphery",
+      "college": "Michigan St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 175,
+      "ppg": 3.3482,
+      "rawPpg": 1.4545,
+      "madeIt": false,
+      "similarity": 0.4
+    },
+    {
+      "rank": 5,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
+      "madeIt": false,
+      "similarity": 0.395
+    },
+    {
+      "rank": 6,
+      "name": "Kaelin Clay",
+      "college": "Utah",
+      "year": 2015,
+      "round": 6,
+      "pick": 184,
+      "ppg": 3.3787,
+      "rawPpg": 1.2055,
+      "madeIt": false,
+      "similarity": 0.394
+    },
+    {
+      "rank": 7,
+      "name": "Ray-Ray McCloud",
+      "college": "Clemson",
+      "year": 2018,
+      "round": 6,
+      "pick": 187,
+      "ppg": 3.1533,
+      "rawPpg": 1.1625,
+      "madeIt": false,
+      "similarity": 0.392
+    }
+  ]
+}

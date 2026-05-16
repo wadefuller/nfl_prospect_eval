@@ -1,0 +1,89 @@
+{
+  "prospectId": "jordan-whittington-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.599
+    },
+    {
+      "rank": 2,
+      "name": "Bo Melton",
+      "college": "Rutgers",
+      "year": 2022,
+      "round": 7,
+      "pick": 229,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.58
+    },
+    {
+      "rank": 3,
+      "name": "Ray-Ray McCloud",
+      "college": "Clemson",
+      "year": 2018,
+      "round": 6,
+      "pick": 187,
+      "ppg": 3.1533,
+      "rawPpg": 1.1625,
+      "madeIt": false,
+      "similarity": 0.57
+    },
+    {
+      "rank": 4,
+      "name": "Juwann Winfree",
+      "college": "Colorado",
+      "year": 2019,
+      "round": 6,
+      "pick": 187,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.538
+    },
+    {
+      "rank": 5,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
+      "round": 7,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.53
+    },
+    {
+      "rank": 6,
+      "name": "Kayshon Boutte",
+      "college": "LSU",
+      "year": 2023,
+      "round": 6,
+      "pick": 187,
+      "ppg": 6.7429,
+      "rawPpg": 7.1895,
+      "madeIt": true,
+      "similarity": 0.496
+    },
+    {
+      "rank": 7,
+      "name": "K.J. Hill",
+      "college": "Ohio St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 220,
+      "ppg": 3.2568,
+      "rawPpg": 0.825,
+      "madeIt": false,
+      "similarity": 0.481
+    }
+  ]
+}

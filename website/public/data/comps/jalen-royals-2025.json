@@ -1,0 +1,89 @@
+{
+  "prospectId": "jalen-royals-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ty Montgomery",
+      "college": "Stanford",
+      "year": 2015,
+      "round": 3,
+      "pick": 94,
+      "ppg": 7.5393,
+      "rawPpg": 8.9563,
+      "madeIt": true,
+      "similarity": 0.52
+    },
+    {
+      "rank": 2,
+      "name": "Demarcus Robinson",
+      "college": "Florida",
+      "year": 2016,
+      "round": 4,
+      "pick": 126,
+      "ppg": 4.7733,
+      "rawPpg": 3.8636,
+      "madeIt": false,
+      "similarity": 0.419
+    },
+    {
+      "rank": 3,
+      "name": "Jarius Wright",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 118,
+      "ppg": 6.564,
+      "rawPpg": 7.2324,
+      "madeIt": true,
+      "similarity": 0.416
+    },
+    {
+      "rank": 4,
+      "name": "Kenny Stills",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 5,
+      "pick": 144,
+      "ppg": 7.4241,
+      "rawPpg": 8.2185,
+      "madeIt": true,
+      "similarity": 0.397
+    },
+    {
+      "rank": 5,
+      "name": "Danny Gray",
+      "college": "SMU",
+      "year": 2022,
+      "round": 3,
+      "pick": 105,
+      "ppg": 4.2536,
+      "rawPpg": 0.3429,
+      "madeIt": false,
+      "similarity": 0.394
+    },
+    {
+      "rank": 6,
+      "name": "Josh Boyce",
+      "college": "TCU",
+      "year": 2013,
+      "round": 4,
+      "pick": 102,
+      "ppg": 5.0924,
+      "rawPpg": 2.7667,
+      "madeIt": true,
+      "similarity": 0.393
+    },
+    {
+      "rank": 7,
+      "name": "J'Mon Moore",
+      "college": "Missouri",
+      "year": 2018,
+      "round": 4,
+      "pick": 133,
+      "ppg": 4.2579,
+      "rawPpg": 0.3571,
+      "madeIt": false,
+      "similarity": 0.392
+    }
+  ]
+}

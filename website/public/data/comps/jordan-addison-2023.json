@@ -1,0 +1,89 @@
+{
+  "prospectId": "jordan-addison-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Justin Blackmon",
+      "college": "Oklahoma St.",
+      "year": 2012,
+      "round": 1,
+      "pick": 5,
+      "ppg": 7.7572,
+      "rawPpg": 9.55,
+      "madeIt": true,
+      "similarity": 0.486
+    },
+    {
+      "rank": 2,
+      "name": "Rashod Bateman",
+      "college": "Minnesota",
+      "year": 2021,
+      "round": 1,
+      "pick": 27,
+      "ppg": 6.5274,
+      "rawPpg": 7.1875,
+      "madeIt": true,
+      "similarity": 0.378
+    },
+    {
+      "rank": 3,
+      "name": "DeVonta Smith",
+      "college": "Alabama",
+      "year": 2021,
+      "round": 1,
+      "pick": 10,
+      "ppg": 10.0333,
+      "rawPpg": 11.9969,
+      "madeIt": true,
+      "similarity": 0.348
+    },
+    {
+      "rank": 4,
+      "name": "Anthony Miller",
+      "college": "Memphis",
+      "year": 2018,
+      "round": 2,
+      "pick": 51,
+      "ppg": 6.3968,
+      "rawPpg": 6.6292,
+      "madeIt": true,
+      "similarity": 0.346
+    },
+    {
+      "rank": 5,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.315
+    },
+    {
+      "rank": 6,
+      "name": "Jerry Jeudy",
+      "college": "Alabama",
+      "year": 2020,
+      "round": 1,
+      "pick": 15,
+      "ppg": 8.4624,
+      "rawPpg": 9.8025,
+      "madeIt": true,
+      "similarity": 0.309
+    },
+    {
+      "rank": 7,
+      "name": "Robert Woods",
+      "college": "USC",
+      "year": 2013,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.1333,
+      "rawPpg": 7.7196,
+      "madeIt": true,
+      "similarity": 0.297
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "zach-charbonnet-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Dalvin Cook",
+      "college": "Florida St.",
+      "year": 2017,
+      "round": 2,
+      "pick": 41,
+      "ppg": 12.7324,
+      "rawPpg": 15.4964,
+      "madeIt": true,
+      "similarity": 0.233
+    },
+    {
+      "rank": 2,
+      "name": "T.J. Yeldon",
+      "college": "Alabama",
+      "year": 2015,
+      "round": 2,
+      "pick": 36,
+      "ppg": 8.7146,
+      "rawPpg": 9.5025,
+      "madeIt": true,
+      "similarity": 0.214
+    },
+    {
+      "rank": 3,
+      "name": "Tyjae Spears",
+      "college": "Tulane",
+      "year": 2023,
+      "round": 3,
+      "pick": 81,
+      "ppg": 7.7895,
+      "rawPpg": 7.8672,
+      "madeIt": true,
+      "similarity": 0.201
+    },
+    {
+      "rank": 4,
+      "name": "Duke Johnson",
+      "college": "Miami (FL)",
+      "year": 2015,
+      "round": 3,
+      "pick": 77,
+      "ppg": 9.1047,
+      "rawPpg": 9.7781,
+      "madeIt": true,
+      "similarity": 0.179
+    },
+    {
+      "rank": 5,
+      "name": "Carlos Hyde",
+      "college": "Ohio St.",
+      "year": 2014,
+      "round": 2,
+      "pick": 57,
+      "ppg": 10.5147,
+      "rawPpg": 12.2835,
+      "madeIt": true,
+      "similarity": 0.175
+    },
+    {
+      "rank": 6,
+      "name": "Kareem Hunt",
+      "college": "Toledo",
+      "year": 2017,
+      "round": 3,
+      "pick": 86,
+      "ppg": 14.1867,
+      "rawPpg": 18.2696,
+      "madeIt": true,
+      "similarity": 0.173
+    },
+    {
+      "rank": 7,
+      "name": "Breece Hall",
+      "college": "Iowa St.",
+      "year": 2022,
+      "round": 2,
+      "pick": 36,
+      "ppg": 12.0557,
+      "rawPpg": 14.9693,
+      "madeIt": true,
+      "similarity": 0.172
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "jase-mcclellan-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jordan Scarlett",
+      "college": "Florida",
+      "year": 2019,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.335
+    },
+    {
+      "rank": 2,
+      "name": "Mike Weber",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.258
+    },
+    {
+      "rank": 3,
+      "name": "Gary Brightwell",
+      "college": "Arizona",
+      "year": 2021,
+      "round": 6,
+      "pick": 196,
+      "ppg": 4.0034,
+      "rawPpg": 0.9905,
+      "madeIt": false,
+      "similarity": 0.238
+    },
+    {
+      "rank": 4,
+      "name": "Mike Gillislee",
+      "college": "Florida",
+      "year": 2013,
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.231
+    },
+    {
+      "rank": 5,
+      "name": "Vick Ballard",
+      "college": "Mississippi St.",
+      "year": 2012,
+      "round": 5,
+      "pick": 170,
+      "ppg": 7.7259,
+      "rawPpg": 7.6937,
+      "madeIt": true,
+      "similarity": 0.224
+    },
+    {
+      "rank": 6,
+      "name": "Storm Johnson",
+      "college": "Central Florida",
+      "year": 2014,
+      "round": 7,
+      "pick": 222,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.202
+    },
+    {
+      "rank": 7,
+      "name": "Kelvin Taylor",
+      "college": "Florida",
+      "year": 2016,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.201
+    }
+  ]
+}

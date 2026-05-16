@@ -1,0 +1,89 @@
+{
+  "prospectId": "ricky-white-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marquess Wilson",
+      "college": "Washington St.",
+      "year": 2013,
+      "round": 7,
+      "pick": 236,
+      "ppg": 5.598,
+      "rawPpg": 5.0539,
+      "madeIt": true,
+      "similarity": 0.283
+    },
+    {
+      "rank": 2,
+      "name": "Bud Sasser",
+      "college": "Missouri",
+      "year": 2015,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.257
+    },
+    {
+      "rank": 3,
+      "name": "Jeremy Gallon",
+      "college": "Michigan",
+      "year": 2014,
+      "round": 7,
+      "pick": 244,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.248
+    },
+    {
+      "rank": 4,
+      "name": "Dazz Newsome",
+      "college": "North Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 221,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.243
+    },
+    {
+      "rank": 5,
+      "name": "Kelvin Harmon",
+      "college": "North Carolina St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 206,
+      "ppg": 4.7539,
+      "rawPpg": 3.4627,
+      "madeIt": false,
+      "similarity": 0.232
+    },
+    {
+      "rank": 6,
+      "name": "Isaiah Ford",
+      "college": "Virginia Tech",
+      "year": 2017,
+      "round": 7,
+      "pick": 237,
+      "ppg": 5.518,
+      "rawPpg": 4.625,
+      "madeIt": true,
+      "similarity": 0.232
+    },
+    {
+      "rank": 7,
+      "name": "Da'Ron Brown",
+      "college": "Northern Illinois",
+      "year": 2015,
+      "round": 7,
+      "pick": 233,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.22
+    }
+  ]
+}

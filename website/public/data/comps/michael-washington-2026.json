@@ -1,0 +1,89 @@
+{
+  "prospectId": "michael-washington-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Christine Michael",
+      "college": "Texas A&M",
+      "year": 2013,
+      "round": 2,
+      "pick": 62,
+      "ppg": 5.0214,
+      "rawPpg": 2.6725,
+      "madeIt": true,
+      "similarity": 0.183
+    },
+    {
+      "rank": 2,
+      "name": "Trey Sermon",
+      "college": "Ohio St.",
+      "year": 2021,
+      "round": 3,
+      "pick": 88,
+      "ppg": 5.6576,
+      "rawPpg": 3.4083,
+      "madeIt": true,
+      "similarity": 0.14
+    },
+    {
+      "rank": 3,
+      "name": "Kene Nwangwu",
+      "college": "Iowa St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 119,
+      "ppg": 3.9905,
+      "rawPpg": 1.5417,
+      "madeIt": false,
+      "similarity": 0.14
+    },
+    {
+      "rank": 4,
+      "name": "Roschon Johnson",
+      "college": "Texas",
+      "year": 2023,
+      "round": 4,
+      "pick": 115,
+      "ppg": 6.3324,
+      "rawPpg": 5.5059,
+      "madeIt": true,
+      "similarity": 0.135
+    },
+    {
+      "rank": 5,
+      "name": "Carlos Hyde",
+      "college": "Ohio St.",
+      "year": 2014,
+      "round": 2,
+      "pick": 57,
+      "ppg": 10.5147,
+      "rawPpg": 12.2835,
+      "madeIt": true,
+      "similarity": 0.13
+    },
+    {
+      "rank": 6,
+      "name": "Tyjae Spears",
+      "college": "Tulane",
+      "year": 2023,
+      "round": 3,
+      "pick": 81,
+      "ppg": 7.7895,
+      "rawPpg": 7.8672,
+      "madeIt": true,
+      "similarity": 0.124
+    },
+    {
+      "rank": 7,
+      "name": "Matt Jones",
+      "college": "Florida",
+      "year": 2015,
+      "round": 3,
+      "pick": 95,
+      "ppg": 8.3424,
+      "rawPpg": 9.1275,
+      "madeIt": true,
+      "similarity": 0.12
+    }
+  ]
+}

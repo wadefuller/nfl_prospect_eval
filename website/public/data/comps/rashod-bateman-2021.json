@@ -1,0 +1,89 @@
+{
+  "prospectId": "rashod-bateman-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tyler Boyd",
+      "college": "Pittsburgh",
+      "year": 2016,
+      "round": 2,
+      "pick": 55,
+      "ppg": 8.1659,
+      "rawPpg": 9.5737,
+      "madeIt": true,
+      "similarity": 0.378
+    },
+    {
+      "rank": 2,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.306
+    },
+    {
+      "rank": 3,
+      "name": "Alshon Jeffery",
+      "college": "South Carolina",
+      "year": 2012,
+      "round": 2,
+      "pick": 45,
+      "ppg": 11.534,
+      "rawPpg": 14.3187,
+      "madeIt": true,
+      "similarity": 0.296
+    },
+    {
+      "rank": 4,
+      "name": "Jonathan Baldwin",
+      "college": "Pittsburgh",
+      "year": 2011,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5325,
+      "rawPpg": 3.6367,
+      "madeIt": false,
+      "similarity": 0.287
+    },
+    {
+      "rank": 5,
+      "name": "Jaxon Smith-Njigba",
+      "college": "Ohio St.",
+      "year": 2023,
+      "round": 1,
+      "pick": 20,
+      "ppg": 11.9766,
+      "rawPpg": 14.8059,
+      "madeIt": true,
+      "similarity": 0.26
+    },
+    {
+      "rank": 6,
+      "name": "Justin Blackmon",
+      "college": "Oklahoma St.",
+      "year": 2012,
+      "round": 1,
+      "pick": 5,
+      "ppg": 7.7572,
+      "rawPpg": 9.55,
+      "madeIt": true,
+      "similarity": 0.259
+    },
+    {
+      "rank": 7,
+      "name": "Diontae Johnson",
+      "college": "Toledo",
+      "year": 2019,
+      "round": 3,
+      "pick": 66,
+      "ppg": 10.556,
+      "rawPpg": 12.8965,
+      "madeIt": true,
+      "similarity": 0.254
+    }
+  ]
+}

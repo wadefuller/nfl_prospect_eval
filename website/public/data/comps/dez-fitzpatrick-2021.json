@@ -1,0 +1,89 @@
+{
+  "prospectId": "dez-fitzpatrick-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Chris Harper",
+      "college": "Kansas St.",
+      "year": 2013,
+      "round": 4,
+      "pick": 123,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.485
+    },
+    {
+      "rank": 2,
+      "name": "Josh Palmer",
+      "college": "Tennessee",
+      "year": 2021,
+      "round": 3,
+      "pick": 77,
+      "ppg": 7.5341,
+      "rawPpg": 8.5506,
+      "madeIt": true,
+      "similarity": 0.439
+    },
+    {
+      "rank": 3,
+      "name": "Ricardo Louis",
+      "college": "Auburn",
+      "year": 2016,
+      "round": 4,
+      "pick": 114,
+      "ppg": 3.9575,
+      "rawPpg": 2.8107,
+      "madeIt": false,
+      "similarity": 0.434
+    },
+    {
+      "rank": 4,
+      "name": "Amara Darboh",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 3,
+      "pick": 106,
+      "ppg": 4.4388,
+      "rawPpg": 1.3875,
+      "madeIt": false,
+      "similarity": 0.377
+    },
+    {
+      "rank": 5,
+      "name": "ArDarius Stewart",
+      "college": "Alabama",
+      "year": 2017,
+      "round": 3,
+      "pick": 79,
+      "ppg": 3.9047,
+      "rawPpg": 1.1583,
+      "madeIt": false,
+      "similarity": 0.368
+    },
+    {
+      "rank": 6,
+      "name": "Khalil Shakir",
+      "college": "Boise St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 148,
+      "ppg": 7.0964,
+      "rawPpg": 7.7417,
+      "madeIt": true,
+      "similarity": 0.361
+    },
+    {
+      "rank": 7,
+      "name": "Antonio Callaway",
+      "college": "Florida",
+      "year": 2018,
+      "round": 4,
+      "pick": 105,
+      "ppg": 6.4447,
+      "rawPpg": 6.925,
+      "madeIt": true,
+      "similarity": 0.361
+    }
+  ]
+}

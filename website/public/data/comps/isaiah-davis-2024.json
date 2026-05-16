@@ -1,0 +1,89 @@
+{
+  "prospectId": "isaiah-davis-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jordan Howard",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 5,
+      "pick": 150,
+      "ppg": 11.2325,
+      "rawPpg": 13.0679,
+      "madeIt": true,
+      "similarity": 0.196
+    },
+    {
+      "rank": 2,
+      "name": "Vick Ballard",
+      "college": "Mississippi St.",
+      "year": 2012,
+      "round": 5,
+      "pick": 170,
+      "ppg": 7.7259,
+      "rawPpg": 7.6937,
+      "madeIt": true,
+      "similarity": 0.192
+    },
+    {
+      "rank": 3,
+      "name": "Jonathan Williams",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 5,
+      "pick": 156,
+      "ppg": 5.6678,
+      "rawPpg": 1.4875,
+      "madeIt": true,
+      "similarity": 0.17
+    },
+    {
+      "rank": 4,
+      "name": "Joseph Randle",
+      "college": "Oklahoma St.",
+      "year": 2013,
+      "round": 5,
+      "pick": 151,
+      "ppg": 7.9906,
+      "rawPpg": 8.5083,
+      "madeIt": true,
+      "similarity": 0.166
+    },
+    {
+      "rank": 5,
+      "name": "Marlon Mack",
+      "college": "South Florida",
+      "year": 2017,
+      "round": 4,
+      "pick": 143,
+      "ppg": 11.1435,
+      "rawPpg": 13.2917,
+      "madeIt": true,
+      "similarity": 0.155
+    },
+    {
+      "rank": 6,
+      "name": "Paul Perkins",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 149,
+      "ppg": 5.5534,
+      "rawPpg": 3.575,
+      "madeIt": true,
+      "similarity": 0.154
+    },
+    {
+      "rank": 7,
+      "name": "Ty Johnson",
+      "college": "Maryland",
+      "year": 2019,
+      "round": 6,
+      "pick": 186,
+      "ppg": 6.653,
+      "rawPpg": 5.847,
+      "madeIt": true,
+      "similarity": 0.153
+    }
+  ]
+}

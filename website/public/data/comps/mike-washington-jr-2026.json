@@ -1,0 +1,89 @@
+{
+  "prospectId": "mike-washington-jr-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marlon Mack",
+      "college": "South Florida",
+      "year": 2017,
+      "round": 4,
+      "pick": 143,
+      "ppg": 11.1435,
+      "rawPpg": 13.2917,
+      "madeIt": true,
+      "similarity": 0.341
+    },
+    {
+      "rank": 2,
+      "name": "Qadree Ollison",
+      "college": "Pittsburgh",
+      "year": 2019,
+      "round": 5,
+      "pick": 152,
+      "ppg": 6.1438,
+      "rawPpg": 3.9917,
+      "madeIt": true,
+      "similarity": 0.34
+    },
+    {
+      "rank": 3,
+      "name": "Bilal Powell",
+      "college": "Louisville",
+      "year": 2011,
+      "round": 4,
+      "pick": 126,
+      "ppg": 7.3136,
+      "rawPpg": 7.0371,
+      "madeIt": true,
+      "similarity": 0.339
+    },
+    {
+      "rank": 4,
+      "name": "Chris Thompson",
+      "college": "Florida St.",
+      "year": 2013,
+      "round": 5,
+      "pick": 154,
+      "ppg": 6.8699,
+      "rawPpg": 5.7769,
+      "madeIt": true,
+      "similarity": 0.336
+    },
+    {
+      "rank": 5,
+      "name": "Zac Stacy",
+      "college": "Vanderbilt",
+      "year": 2013,
+      "round": 5,
+      "pick": 160,
+      "ppg": 9.2113,
+      "rawPpg": 9.6372,
+      "madeIt": true,
+      "similarity": 0.319
+    },
+    {
+      "rank": 6,
+      "name": "Nyheim Hines",
+      "college": "North Carolina St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 104,
+      "ppg": 8.6506,
+      "rawPpg": 9.0969,
+      "madeIt": true,
+      "similarity": 0.307
+    },
+    {
+      "rank": 7,
+      "name": "La'Mical Perine",
+      "college": "Florida",
+      "year": 2020,
+      "round": 4,
+      "pick": 120,
+      "ppg": 6.5818,
+      "rawPpg": 4.7,
+      "madeIt": true,
+      "similarity": 0.304
+    }
+  ]
+}

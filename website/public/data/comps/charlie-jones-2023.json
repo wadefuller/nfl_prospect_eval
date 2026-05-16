@@ -1,0 +1,89 @@
+{
+  "prospectId": "charlie-jones-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Chad Hansen",
+      "college": "California",
+      "year": 2017,
+      "round": 4,
+      "pick": 141,
+      "ppg": 4.5555,
+      "rawPpg": 1.7375,
+      "madeIt": false,
+      "similarity": 0.412
+    },
+    {
+      "rank": 2,
+      "name": "Kealoha Pilares",
+      "college": "Hawaii",
+      "year": 2011,
+      "round": 5,
+      "pick": 132,
+      "ppg": 3.2666,
+      "rawPpg": 1.079,
+      "madeIt": false,
+      "similarity": 0.392
+    },
+    {
+      "rank": 3,
+      "name": "Jaleel Scott",
+      "college": "New Mexico St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 132,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.366
+    },
+    {
+      "rank": 4,
+      "name": "Rashad Greene",
+      "college": "Florida St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 139,
+      "ppg": 4.1798,
+      "rawPpg": 2.4007,
+      "madeIt": false,
+      "similarity": 0.336
+    },
+    {
+      "rank": 5,
+      "name": "Devin Duvernay",
+      "college": "Texas",
+      "year": 2020,
+      "round": 3,
+      "pick": 92,
+      "ppg": 5.5159,
+      "rawPpg": 5.3826,
+      "madeIt": true,
+      "similarity": 0.316
+    },
+    {
+      "rank": 6,
+      "name": "Quinton Patton",
+      "college": "Louisiana Tech",
+      "year": 2013,
+      "round": 4,
+      "pick": 128,
+      "ppg": 4.8854,
+      "rawPpg": 3.8062,
+      "madeIt": false,
+      "similarity": 0.301
+    },
+    {
+      "rank": 7,
+      "name": "Mike Williams",
+      "college": "Syracuse",
+      "year": 2010,
+      "round": 4,
+      "pick": 101,
+      "ppg": 9.8448,
+      "rawPpg": 11.785,
+      "madeIt": true,
+      "similarity": 0.292
+    }
+  ]
+}

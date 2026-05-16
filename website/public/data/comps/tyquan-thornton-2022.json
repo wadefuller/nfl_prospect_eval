@@ -1,0 +1,89 @@
+{
+  "prospectId": "tyquan-thornton-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marquis Walker",
+      "college": "Michigan",
+      "year": 2002,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.493
+    },
+    {
+      "rank": 2,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.488
+    },
+    {
+      "rank": 3,
+      "name": "Alec Pierce",
+      "college": "Cincinnati",
+      "year": 2022,
+      "round": 2,
+      "pick": 53,
+      "ppg": 6.8777,
+      "rawPpg": 7.3344,
+      "madeIt": true,
+      "similarity": 0.458
+    },
+    {
+      "rank": 4,
+      "name": "Denzel Mims",
+      "college": "Baylor",
+      "year": 2020,
+      "round": 2,
+      "pick": 59,
+      "ppg": 4.9627,
+      "rawPpg": 4.0722,
+      "madeIt": false,
+      "similarity": 0.431
+    },
+    {
+      "rank": 5,
+      "name": "Quentin Johnston",
+      "college": "TCU",
+      "year": 2023,
+      "round": 1,
+      "pick": 21,
+      "ppg": 8.8257,
+      "rawPpg": 10.5105,
+      "madeIt": true,
+      "similarity": 0.425
+    },
+    {
+      "rank": 6,
+      "name": "Justin Hunter",
+      "college": "Tennessee",
+      "year": 2013,
+      "round": 2,
+      "pick": 34,
+      "ppg": 5.991,
+      "rawPpg": 6.0391,
+      "madeIt": true,
+      "similarity": 0.424
+    },
+    {
+      "rank": 7,
+      "name": "Jonathan Mingo",
+      "college": "Mississippi",
+      "year": 2023,
+      "round": 2,
+      "pick": 39,
+      "ppg": 4.054,
+      "rawPpg": 2.9564,
+      "madeIt": false,
+      "similarity": 0.412
+    }
+  ]
+}

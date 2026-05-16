@@ -1,0 +1,89 @@
+{
+  "prospectId": "kc-concepcion-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Deebo Samuel",
+      "college": "South Carolina",
+      "year": 2019,
+      "round": 2,
+      "pick": 36,
+      "ppg": 11.8403,
+      "rawPpg": 14.7427,
+      "madeIt": true,
+      "similarity": 0.45
+    },
+    {
+      "rank": 2,
+      "name": "A.J. Green",
+      "college": "Georgia",
+      "year": 2011,
+      "round": 1,
+      "pick": 4,
+      "ppg": 12.5902,
+      "rawPpg": 15.9031,
+      "madeIt": true,
+      "similarity": 0.425
+    },
+    {
+      "rank": 3,
+      "name": "Will Fuller",
+      "college": "Notre Dame",
+      "year": 2016,
+      "round": 1,
+      "pick": 21,
+      "ppg": 8.6343,
+      "rawPpg": 11.41,
+      "madeIt": true,
+      "similarity": 0.415
+    },
+    {
+      "rank": 4,
+      "name": "Tyquan Thornton",
+      "college": "Baylor",
+      "year": 2022,
+      "round": 2,
+      "pick": 50,
+      "ppg": 4.6333,
+      "rawPpg": 3.4542,
+      "madeIt": false,
+      "similarity": 0.411
+    },
+    {
+      "rank": 5,
+      "name": "Kadarius Toney",
+      "college": "Florida",
+      "year": 2021,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.1645,
+      "rawPpg": 6.3422,
+      "madeIt": true,
+      "similarity": 0.406
+    },
+    {
+      "rank": 6,
+      "name": "Justin Hunter",
+      "college": "Tennessee",
+      "year": 2013,
+      "round": 2,
+      "pick": 34,
+      "ppg": 5.991,
+      "rawPpg": 6.0391,
+      "madeIt": true,
+      "similarity": 0.399
+    },
+    {
+      "rank": 7,
+      "name": "Alec Pierce",
+      "college": "Cincinnati",
+      "year": 2022,
+      "round": 2,
+      "pick": 53,
+      "ppg": 6.8777,
+      "rawPpg": 7.3344,
+      "madeIt": true,
+      "similarity": 0.384
+    }
+  ]
+}

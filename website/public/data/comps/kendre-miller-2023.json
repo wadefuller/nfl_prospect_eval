@@ -1,0 +1,89 @@
+{
+  "prospectId": "kendre-miller-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ronald Jones II",
+      "college": "USC",
+      "year": 2018,
+      "round": 2,
+      "pick": 38,
+      "ppg": 9.7223,
+      "rawPpg": 10.8661,
+      "madeIt": true,
+      "similarity": 0.25
+    },
+    {
+      "rank": 2,
+      "name": "J.K. Dobbins",
+      "college": "Ohio St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 55,
+      "ppg": 9.2648,
+      "rawPpg": 10.1729,
+      "madeIt": true,
+      "similarity": 0.249
+    },
+    {
+      "rank": 3,
+      "name": "Robert Turbin",
+      "college": "Utah St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 106,
+      "ppg": 5.4197,
+      "rawPpg": 4.2125,
+      "madeIt": true,
+      "similarity": 0.243
+    },
+    {
+      "rank": 4,
+      "name": "Tre Mason",
+      "college": "Auburn",
+      "year": 2014,
+      "round": 3,
+      "pick": 75,
+      "ppg": 7.169,
+      "rawPpg": 6.9388,
+      "madeIt": true,
+      "similarity": 0.238
+    },
+    {
+      "rank": 5,
+      "name": "Stevan Ridley",
+      "college": "LSU",
+      "year": 2011,
+      "round": 3,
+      "pick": 73,
+      "ppg": 9.7615,
+      "rawPpg": 10.7,
+      "madeIt": true,
+      "similarity": 0.237
+    },
+    {
+      "rank": 6,
+      "name": "Knile Davis",
+      "college": "Arkansas",
+      "year": 2013,
+      "round": 3,
+      "pick": 96,
+      "ppg": 6.2985,
+      "rawPpg": 5.5688,
+      "madeIt": true,
+      "similarity": 0.208
+    },
+    {
+      "rank": 7,
+      "name": "Bernard Pierce",
+      "college": "Temple",
+      "year": 2012,
+      "round": 3,
+      "pick": 84,
+      "ppg": 5.6921,
+      "rawPpg": 4.6217,
+      "madeIt": true,
+      "similarity": 0.196
+    }
+  ]
+}

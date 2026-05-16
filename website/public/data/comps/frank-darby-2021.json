@@ -1,0 +1,89 @@
+{
+  "prospectId": "frank-darby-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Montrell Washington",
+      "college": "Samford",
+      "year": 2022,
+      "round": 5,
+      "pick": 162,
+      "ppg": 3.2462,
+      "rawPpg": 0.3467,
+      "madeIt": false,
+      "similarity": 0.156
+    },
+    {
+      "rank": 2,
+      "name": "Andrei Iosivas",
+      "college": "Princeton",
+      "year": 2023,
+      "round": 6,
+      "pick": 206,
+      "ppg": 5.6402,
+      "rawPpg": 5.4437,
+      "madeIt": true,
+      "similarity": 0.103
+    },
+    {
+      "rank": 3,
+      "name": "Rashard Higgins",
+      "college": "Colorado St.",
+      "year": 2016,
+      "round": 5,
+      "pick": 172,
+      "ppg": 5.7961,
+      "rawPpg": 5.764,
+      "madeIt": true,
+      "similarity": 0.102
+    },
+    {
+      "rank": 4,
+      "name": "Darnell Mooney",
+      "college": "Tulane",
+      "year": 2020,
+      "round": 5,
+      "pick": 173,
+      "ppg": 8.0864,
+      "rawPpg": 9.0706,
+      "madeIt": true,
+      "similarity": 0.1
+    },
+    {
+      "rank": 5,
+      "name": "Isaiah Coulter",
+      "college": "Rhode Island",
+      "year": 2020,
+      "round": 5,
+      "pick": 171,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.096
+    },
+    {
+      "rank": 6,
+      "name": "Juron Criner",
+      "college": "Arizona",
+      "year": 2012,
+      "round": 5,
+      "pick": 168,
+      "ppg": 5.0613,
+      "rawPpg": 3.4556,
+      "madeIt": true,
+      "similarity": 0.082
+    },
+    {
+      "rank": 7,
+      "name": "Dontayvion Wicks",
+      "college": "Virginia",
+      "year": 2023,
+      "round": 5,
+      "pick": 159,
+      "ppg": 5.9727,
+      "rawPpg": 6.0185,
+      "madeIt": true,
+      "similarity": 0.081
+    }
+  ]
+}

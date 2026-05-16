@@ -1,0 +1,89 @@
+{
+  "prospectId": "colton-dowell-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devin Lucien",
+      "college": "Arizona St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 225,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.663
+    },
+    {
+      "rank": 2,
+      "name": "Jauan Jennings",
+      "college": "Tennessee",
+      "year": 2020,
+      "round": 7,
+      "pick": 217,
+      "ppg": 5.1274,
+      "rawPpg": 4.7344,
+      "madeIt": true,
+      "similarity": 0.55
+    },
+    {
+      "rank": 3,
+      "name": "Dillon Mitchell",
+      "college": "Oregon",
+      "year": 2019,
+      "round": 7,
+      "pick": 239,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.536
+    },
+    {
+      "rank": 4,
+      "name": "Ronnie Bell",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 7,
+      "pick": 253,
+      "ppg": 4.2494,
+      "rawPpg": 2.1385,
+      "madeIt": false,
+      "similarity": 0.533
+    },
+    {
+      "rank": 5,
+      "name": "LaVon Brazill",
+      "college": "Ohio",
+      "year": 2012,
+      "round": 6,
+      "pick": 206,
+      "ppg": 4.3144,
+      "rawPpg": 3.1486,
+      "madeIt": false,
+      "similarity": 0.509
+    },
+    {
+      "rank": 6,
+      "name": "Dax Milne",
+      "college": "BYU",
+      "year": 2021,
+      "round": 7,
+      "pick": 258,
+      "ppg": 2.9758,
+      "rawPpg": 1.0289,
+      "madeIt": false,
+      "similarity": 0.504
+    },
+    {
+      "rank": 7,
+      "name": "Kyle Williams",
+      "college": "Arizona St.",
+      "year": 2010,
+      "round": 6,
+      "pick": 206,
+      "ppg": 4.7957,
+      "rawPpg": 3.9542,
+      "madeIt": false,
+      "similarity": 0.463
+    }
+  ]
+}

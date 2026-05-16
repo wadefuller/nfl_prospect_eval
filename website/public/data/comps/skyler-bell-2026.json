@@ -1,0 +1,89 @@
+{
+  "prospectId": "skyler-bell-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Antonio Gandy-Golden",
+      "college": "Liberty",
+      "year": 2020,
+      "round": 4,
+      "pick": 142,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.524
+    },
+    {
+      "rank": 2,
+      "name": "Khalil Shakir",
+      "college": "Boise St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 148,
+      "ppg": 7.0964,
+      "rawPpg": 7.7417,
+      "madeIt": true,
+      "similarity": 0.507
+    },
+    {
+      "rank": 3,
+      "name": "Dez Fitzpatrick",
+      "college": "Louisville",
+      "year": 2021,
+      "round": 4,
+      "pick": 109,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.505
+    },
+    {
+      "rank": 4,
+      "name": "Jordan Lasley",
+      "college": "UCLA",
+      "year": 2018,
+      "round": 5,
+      "pick": 162,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.474
+    },
+    {
+      "rank": 5,
+      "name": "Jordan Payton",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.461
+    },
+    {
+      "rank": 6,
+      "name": "Jalen Tolbert",
+      "college": "South Alabama",
+      "year": 2022,
+      "round": 3,
+      "pick": 88,
+      "ppg": 5.8028,
+      "rawPpg": 5.5286,
+      "madeIt": true,
+      "similarity": 0.446
+    },
+    {
+      "rank": 7,
+      "name": "Keke Coutee",
+      "college": "Texas Tech",
+      "year": 2018,
+      "round": 4,
+      "pick": 103,
+      "ppg": 7.2211,
+      "rawPpg": 8.5896,
+      "madeIt": true,
+      "similarity": 0.428
+    }
+  ]
+}

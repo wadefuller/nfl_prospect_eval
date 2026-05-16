@@ -1,0 +1,89 @@
+{
+  "prospectId": "lew-nichols-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Storm Johnson",
+      "college": "Central Florida",
+      "year": 2014,
+      "round": 7,
+      "pick": 222,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.163
+    },
+    {
+      "rank": 2,
+      "name": "Eno Benjamin",
+      "college": "Arizona St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.1143,
+      "rawPpg": 4.5279,
+      "madeIt": true,
+      "similarity": 0.161
+    },
+    {
+      "rank": 3,
+      "name": "Myles Gaskin",
+      "college": "Washington",
+      "year": 2019,
+      "round": 7,
+      "pick": 234,
+      "ppg": 9.696,
+      "rawPpg": 11.5703,
+      "madeIt": true,
+      "similarity": 0.16
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Gaffney",
+      "college": "Stanford",
+      "year": 2014,
+      "round": 6,
+      "pick": 204,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.148
+    },
+    {
+      "rank": 5,
+      "name": "Matthew Dayes",
+      "college": "North Carolina St.",
+      "year": 2017,
+      "round": 7,
+      "pick": 252,
+      "ppg": 4.4941,
+      "rawPpg": 0.4769,
+      "madeIt": false,
+      "similarity": 0.14
+    },
+    {
+      "rank": 6,
+      "name": "Mike Weber",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.136
+    },
+    {
+      "rank": 7,
+      "name": "Kylin Hill",
+      "college": "Mississippi St.",
+      "year": 2021,
+      "round": 7,
+      "pick": 256,
+      "ppg": 5.3137,
+      "rawPpg": 0.425,
+      "madeIt": true,
+      "similarity": 0.133
+    }
+  ]
+}

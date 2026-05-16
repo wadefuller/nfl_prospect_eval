@@ -1,0 +1,89 @@
+{
+  "prospectId": "nico-collins-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Leonte Carroo",
+      "college": "Rutgers",
+      "year": 2016,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.448
+    },
+    {
+      "rank": 2,
+      "name": "Demarcus Robinson",
+      "college": "Florida",
+      "year": 2016,
+      "round": 4,
+      "pick": 126,
+      "ppg": 4.7733,
+      "rawPpg": 3.8636,
+      "madeIt": false,
+      "similarity": 0.437
+    },
+    {
+      "rank": 3,
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
+      "year": 2022,
+      "round": 4,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.429
+    },
+    {
+      "rank": 4,
+      "name": "Jayden Reed",
+      "college": "Michigan St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 50,
+      "ppg": 9.1864,
+      "rawPpg": 10.7728,
+      "madeIt": true,
+      "similarity": 0.422
+    },
+    {
+      "rank": 5,
+      "name": "Cedric Tillman",
+      "college": "Tennessee",
+      "year": 2023,
+      "round": 3,
+      "pick": 74,
+      "ppg": 5.6982,
+      "rawPpg": 5.7236,
+      "madeIt": true,
+      "similarity": 0.416
+    },
+    {
+      "rank": 6,
+      "name": "Chris Moore",
+      "college": "Cincinnati",
+      "year": 2016,
+      "round": 4,
+      "pick": 107,
+      "ppg": 4.1621,
+      "rawPpg": 3.1844,
+      "madeIt": false,
+      "similarity": 0.413
+    },
+    {
+      "rank": 7,
+      "name": "Josh Reynolds",
+      "college": "Texas A&M",
+      "year": 2017,
+      "round": 4,
+      "pick": 117,
+      "ppg": 5.2803,
+      "rawPpg": 5.1688,
+      "madeIt": true,
+      "similarity": 0.41
+    }
+  ]
+}

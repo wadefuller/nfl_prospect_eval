@@ -1,0 +1,89 @@
+{
+  "prospectId": "kyle-monangai-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Michael Cox",
+      "college": "Massachusetts",
+      "year": 2013,
+      "round": 7,
+      "pick": 253,
+      "ppg": 4.8566,
+      "rawPpg": 0.6364,
+      "madeIt": false,
+      "similarity": 0.354
+    },
+    {
+      "rank": 2,
+      "name": "Marcus Murphy",
+      "college": "Missouri",
+      "year": 2015,
+      "round": 7,
+      "pick": 230,
+      "ppg": 4.4872,
+      "rawPpg": 0.4615,
+      "madeIt": false,
+      "similarity": 0.182
+    },
+    {
+      "rank": 3,
+      "name": "Baron Batch",
+      "college": "Texas Tech",
+      "year": 2011,
+      "round": 7,
+      "pick": 232,
+      "ppg": 5.6051,
+      "rawPpg": 1.7778,
+      "madeIt": true,
+      "similarity": 0.181
+    },
+    {
+      "rank": 4,
+      "name": "Devante Mays",
+      "college": "Utah St.",
+      "year": 2017,
+      "round": 7,
+      "pick": 238,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.172
+    },
+    {
+      "rank": 5,
+      "name": "Kelvin Taylor",
+      "college": "Florida",
+      "year": 2016,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.167
+    },
+    {
+      "rank": 6,
+      "name": "Myles Gaskin",
+      "college": "Washington",
+      "year": 2019,
+      "round": 7,
+      "pick": 234,
+      "ppg": 9.696,
+      "rawPpg": 11.5703,
+      "madeIt": true,
+      "similarity": 0.156
+    },
+    {
+      "rank": 7,
+      "name": "James Starks",
+      "college": "Buffalo",
+      "year": 2010,
+      "round": 6,
+      "pick": 193,
+      "ppg": 7.3894,
+      "rawPpg": 6.8154,
+      "madeIt": true,
+      "similarity": 0.136
+    }
+  ]
+}

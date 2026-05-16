@@ -1,0 +1,89 @@
+{
+  "prospectId": "trevor-etienne-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "DeeJay Dallas",
+      "college": "Miami (FL)",
+      "year": 2020,
+      "round": 4,
+      "pick": 144,
+      "ppg": 5.2888,
+      "rawPpg": 4.1477,
+      "madeIt": true,
+      "similarity": 0.22
+    },
+    {
+      "rank": 2,
+      "name": "De'Von Achane",
+      "college": "Texas A&M",
+      "year": 2023,
+      "round": 3,
+      "pick": 84,
+      "ppg": 13.7355,
+      "rawPpg": 17.0952,
+      "madeIt": true,
+      "similarity": 0.192
+    },
+    {
+      "rank": 3,
+      "name": "Anthony McFarland Jr.",
+      "college": "Maryland",
+      "year": 2020,
+      "round": 4,
+      "pick": 124,
+      "ppg": 5.3269,
+      "rawPpg": 1.7909,
+      "madeIt": true,
+      "similarity": 0.181
+    },
+    {
+      "rank": 4,
+      "name": "La'Mical Perine",
+      "college": "Florida",
+      "year": 2020,
+      "round": 4,
+      "pick": 120,
+      "ppg": 6.5818,
+      "rawPpg": 4.7,
+      "madeIt": true,
+      "similarity": 0.177
+    },
+    {
+      "rank": 5,
+      "name": "Devonta Freeman",
+      "college": "Florida St.",
+      "year": 2014,
+      "round": 4,
+      "pick": 103,
+      "ppg": 14.0665,
+      "rawPpg": 17.3644,
+      "madeIt": true,
+      "similarity": 0.162
+    },
+    {
+      "rank": 6,
+      "name": "Marlon Mack",
+      "college": "South Florida",
+      "year": 2017,
+      "round": 4,
+      "pick": 143,
+      "ppg": 11.1435,
+      "rawPpg": 13.2917,
+      "madeIt": true,
+      "similarity": 0.16
+    },
+    {
+      "rank": 7,
+      "name": "Paul Perkins",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 149,
+      "ppg": 5.5534,
+      "rawPpg": 3.575,
+      "madeIt": true,
+      "similarity": 0.151
+    }
+  ]
+}

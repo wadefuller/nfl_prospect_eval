@@ -1,0 +1,89 @@
+{
+  "prospectId": "javon-baker-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Hakeem Butler",
+      "college": "Iowa St.",
+      "year": 2019,
+      "round": 4,
+      "pick": 103,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.438
+    },
+    {
+      "rank": 2,
+      "name": "Chris Moore",
+      "college": "Cincinnati",
+      "year": 2016,
+      "round": 4,
+      "pick": 107,
+      "ppg": 4.1621,
+      "rawPpg": 3.1844,
+      "madeIt": false,
+      "similarity": 0.424
+    },
+    {
+      "rank": 3,
+      "name": "Josh Palmer",
+      "college": "Tennessee",
+      "year": 2021,
+      "round": 3,
+      "pick": 77,
+      "ppg": 7.5341,
+      "rawPpg": 8.5506,
+      "madeIt": true,
+      "similarity": 0.381
+    },
+    {
+      "rank": 4,
+      "name": "Martavis Bryant",
+      "college": "Clemson",
+      "year": 2014,
+      "round": 4,
+      "pick": 118,
+      "ppg": 9.6684,
+      "rawPpg": 12.455,
+      "madeIt": true,
+      "similarity": 0.369
+    },
+    {
+      "rank": 5,
+      "name": "Sammie Coates",
+      "college": "Auburn",
+      "year": 2015,
+      "round": 3,
+      "pick": 87,
+      "ppg": 4.6711,
+      "rawPpg": 3.1214,
+      "madeIt": false,
+      "similarity": 0.367
+    },
+    {
+      "rank": 6,
+      "name": "Vincent Brown",
+      "college": "San Diego St.",
+      "year": 2011,
+      "round": 3,
+      "pick": 82,
+      "ppg": 5.3222,
+      "rawPpg": 5.0231,
+      "madeIt": true,
+      "similarity": 0.358
+    },
+    {
+      "rank": 7,
+      "name": "Dez Fitzpatrick",
+      "college": "Louisville",
+      "year": 2021,
+      "round": 4,
+      "pick": 109,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.356
+    }
+  ]
+}

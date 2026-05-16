@@ -1,0 +1,89 @@
+{
+  "prospectId": "keon-coleman-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devin Funchess",
+      "college": "Michigan",
+      "year": 2015,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.2861,
+      "rawPpg": 7.9469,
+      "madeIt": true,
+      "similarity": 0.533
+    },
+    {
+      "rank": 2,
+      "name": "Drake London",
+      "college": "USC",
+      "year": 2022,
+      "round": 1,
+      "pick": 8,
+      "ppg": 9.5125,
+      "rawPpg": 11.1595,
+      "madeIt": true,
+      "similarity": 0.462
+    },
+    {
+      "rank": 3,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.421
+    },
+    {
+      "rank": 4,
+      "name": "N'Keal Harry",
+      "college": "Arizona St.",
+      "year": 2019,
+      "round": 1,
+      "pick": 32,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.415
+    },
+    {
+      "rank": 5,
+      "name": "Terrace Marshall Jr.",
+      "college": "LSU",
+      "year": 2021,
+      "round": 2,
+      "pick": 59,
+      "ppg": 5.0765,
+      "rawPpg": 4.1163,
+      "madeIt": true,
+      "similarity": 0.412
+    },
+    {
+      "rank": 6,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.405
+    },
+    {
+      "rank": 7,
+      "name": "Christian Kirk",
+      "college": "Texas A&M",
+      "year": 2018,
+      "round": 2,
+      "pick": 47,
+      "ppg": 8.1868,
+      "rawPpg": 9.533,
+      "madeIt": true,
+      "similarity": 0.394
+    }
+  ]
+}

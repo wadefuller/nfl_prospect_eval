@@ -1,0 +1,89 @@
+{
+  "prospectId": "dyami-brown-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Titus Young",
+      "college": "Boise St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 44,
+      "ppg": 7.1889,
+      "rawPpg": 7.9606,
+      "madeIt": true,
+      "similarity": 0.422
+    },
+    {
+      "rank": 2,
+      "name": "Dez Fitzpatrick",
+      "college": "Louisville",
+      "year": 2021,
+      "round": 4,
+      "pick": 109,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.401
+    },
+    {
+      "rank": 3,
+      "name": "Denzel Mims",
+      "college": "Baylor",
+      "year": 2020,
+      "round": 2,
+      "pick": 59,
+      "ppg": 4.9627,
+      "rawPpg": 4.0722,
+      "madeIt": false,
+      "similarity": 0.391
+    },
+    {
+      "rank": 4,
+      "name": "ArDarius Stewart",
+      "college": "Alabama",
+      "year": 2017,
+      "round": 3,
+      "pick": 79,
+      "ppg": 3.9047,
+      "rawPpg": 1.1583,
+      "madeIt": false,
+      "similarity": 0.382
+    },
+    {
+      "rank": 5,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.371
+    },
+    {
+      "rank": 6,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.363
+    },
+    {
+      "rank": 7,
+      "name": "Vincent Brown",
+      "college": "San Diego St.",
+      "year": 2011,
+      "round": 3,
+      "pick": 82,
+      "ppg": 5.3222,
+      "rawPpg": 5.0231,
+      "madeIt": true,
+      "similarity": 0.35
+    }
+  ]
+}

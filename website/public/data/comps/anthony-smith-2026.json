@@ -1,0 +1,89 @@
+{
+  "prospectId": "anthony-smith-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tevin Reese",
+      "college": "Baylor",
+      "year": 2014,
+      "round": 7,
+      "pick": 240,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.423
+    },
+    {
+      "rank": 2,
+      "name": "Dezmon Briscoe",
+      "college": "Kansas",
+      "year": 2010,
+      "round": 6,
+      "pick": 191,
+      "ppg": 6.2544,
+      "rawPpg": 6.5857,
+      "madeIt": true,
+      "similarity": 0.422
+    },
+    {
+      "rank": 3,
+      "name": "Jeremy Gallon",
+      "college": "Michigan",
+      "year": 2014,
+      "round": 7,
+      "pick": 244,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.411
+    },
+    {
+      "rank": 4,
+      "name": "DeMarco Sampson",
+      "college": "San Diego St.",
+      "year": 2011,
+      "round": 7,
+      "pick": 249,
+      "ppg": 4.5696,
+      "rawPpg": 0.85,
+      "madeIt": false,
+      "similarity": 0.401
+    },
+    {
+      "rank": 5,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.398
+    },
+    {
+      "rank": 6,
+      "name": "Kolby Listenbee",
+      "college": "TCU",
+      "year": 2016,
+      "round": 6,
+      "pick": 192,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.392
+    },
+    {
+      "rank": 7,
+      "name": "Marquess Wilson",
+      "college": "Washington St.",
+      "year": 2013,
+      "round": 7,
+      "pick": 236,
+      "ppg": 5.598,
+      "rawPpg": 5.0539,
+      "madeIt": true,
+      "similarity": 0.391
+    }
+  ]
+}

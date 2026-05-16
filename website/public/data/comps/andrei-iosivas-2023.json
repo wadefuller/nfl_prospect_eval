@@ -1,0 +1,89 @@
+{
+  "prospectId": "andrei-iosivas-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Colton Dowell",
+      "college": "UT Martin",
+      "year": 2023,
+      "round": 7,
+      "pick": 228,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.368
+    },
+    {
+      "rank": 2,
+      "name": "Dillon Mitchell",
+      "college": "Oregon",
+      "year": 2019,
+      "round": 7,
+      "pick": 239,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.302
+    },
+    {
+      "rank": 3,
+      "name": "Devin Lucien",
+      "college": "Arizona St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 225,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.265
+    },
+    {
+      "rank": 4,
+      "name": "Travis Fulgham",
+      "college": "Old Dominion",
+      "year": 2019,
+      "round": 6,
+      "pick": 184,
+      "ppg": 6.869,
+      "rawPpg": 8.075,
+      "madeIt": true,
+      "similarity": 0.262
+    },
+    {
+      "rank": 5,
+      "name": "Cornell Powell",
+      "college": "Clemson",
+      "year": 2021,
+      "round": 5,
+      "pick": 181,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.252
+    },
+    {
+      "rank": 6,
+      "name": "Michael Campanaro",
+      "college": "Wake Forest",
+      "year": 2014,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.246
+    },
+    {
+      "rank": 7,
+      "name": "Marvin McNutt",
+      "college": "Iowa",
+      "year": 2012,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.241
+    }
+  ]
+}

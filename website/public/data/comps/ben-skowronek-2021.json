@@ -1,0 +1,89 @@
+{
+  "prospectId": "ben-skowronek-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Freddie Swain",
+      "college": "Florida",
+      "year": 2020,
+      "round": 6,
+      "pick": 214,
+      "ppg": 4.4311,
+      "rawPpg": 3.4995,
+      "madeIt": false,
+      "similarity": 0.596
+    },
+    {
+      "rank": 2,
+      "name": "Brice Butler",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 7,
+      "pick": 209,
+      "ppg": 4.3877,
+      "rawPpg": 2.9429,
+      "madeIt": false,
+      "similarity": 0.585
+    },
+    {
+      "rank": 3,
+      "name": "Noah Brown",
+      "college": "Ohio St.",
+      "year": 2017,
+      "round": 7,
+      "pick": 239,
+      "ppg": 3.6211,
+      "rawPpg": 0.9429,
+      "madeIt": false,
+      "similarity": 0.498
+    },
+    {
+      "rank": 4,
+      "name": "Jalen Camp",
+      "college": "Georgia Tech",
+      "year": 2021,
+      "round": 6,
+      "pick": 209,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.464
+    },
+    {
+      "rank": 5,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.423
+    },
+    {
+      "rank": 6,
+      "name": "Toney Clemons",
+      "college": "Colorado",
+      "year": 2012,
+      "round": 7,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.414
+    },
+    {
+      "rank": 7,
+      "name": "Charone Peake",
+      "college": "Clemson",
+      "year": 2016,
+      "round": 7,
+      "pick": 241,
+      "ppg": 3.7362,
+      "rawPpg": 1.4625,
+      "madeIt": false,
+      "similarity": 0.407
+    }
+  ]
+}
