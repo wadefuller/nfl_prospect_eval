@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { ProspectTable } from "./components/ProspectTable";
 import { ModelPage } from "./components/ModelPage";
 import { InspectorPage } from "./components/InspectorPage";
+import { dataUrl } from "./dataUrl";
 
 function useHashRoute() {
   const [hash, setHash] = useState(() => window.location.hash || "#/");
@@ -42,7 +43,7 @@ export default function App() {
 
   // Load meta on mount
   useEffect(() => {
-    fetch("/data/meta.json")
+    fetch(dataUrl("/data/meta.json"))
       .then((r) => r.json())
       .then((m: Meta) => {
         setMeta(m);
@@ -54,7 +55,7 @@ export default function App() {
   useEffect(() => {
     if (!year || allClasses || !onProspectsPage) return;
     let cancelled = false;
-    fetch(`/data/prospects/${year}.json`)
+    fetch(dataUrl(`/data/prospects/${year}.json`))
       .then((r) => r.json())
       .then((d: YearData) => {
         if (cancelled) return;
@@ -75,7 +76,7 @@ export default function App() {
     let cancelled = false;
     Promise.all(
       meta.availableYears.map((yr) =>
-        fetch(`/data/prospects/${yr}.json`)
+        fetch(dataUrl(`/data/prospects/${yr}.json`))
           .then((r) => r.json())
           .then((d: YearData) => d.prospects.map((p) => ({
             ...p,
@@ -110,7 +111,7 @@ export default function App() {
   const loadComps = useCallback(
     (id: string) => {
       if (comps[id]) return;
-      fetch(`/data/comps/${id}.json`)
+      fetch(dataUrl(`/data/comps/${id}.json`))
         .then((r) => r.json())
         .then((d: { prospectId: string; comps: ProspectComp[] }) => {
           setComps((prev) => ({ ...prev, [id]: d.comps }));

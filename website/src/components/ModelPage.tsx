@@ -1,5 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import type { ModelPerformanceData, ScatterPoint } from "../types";
+import { dataUrl } from "../dataUrl";
 
 // ── Design tokens ─────────────────────────────────────────────────────────────
 const C = {
@@ -415,7 +416,7 @@ export function ModelPage() {
   const [posFilter, setPosFilter] = useState<"ALL" | "WR" | "RB">("ALL");
 
   useEffect(() => {
-    fetch("/data/model_performance.json")
+    fetch(dataUrl("/data/model_performance.json"))
       .then(r => r.json())
       .then(setData);
   }, []);

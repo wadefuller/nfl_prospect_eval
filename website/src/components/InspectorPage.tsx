@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { PlayerAvatar } from "./PlayerAvatar";
 import type { ProspectComp } from "../types";
+import { dataUrl } from "../dataUrl";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 interface IndexPlayer {
@@ -760,7 +761,7 @@ export function InspectorPage() {
 
   // Load index once
   useEffect(() => {
-    fetch("/data/inspector/index.json")
+    fetch(dataUrl("/data/inspector/index.json"))
       .then(r => r.json())
       .then((d: IndexJson) => {
         setIndex(d);
@@ -773,7 +774,7 @@ export function InspectorPage() {
   useEffect(() => {
     if (!selectedId) return;
     let cancelled = false;
-    fetch(`/data/inspector/players/${selectedId}.json`)
+    fetch(dataUrl(`/data/inspector/players/${selectedId}.json`))
       .then(r => r.json())
       .then((p: PlayerJson) => {
         if (!cancelled) setPlayer(p);
@@ -787,7 +788,7 @@ export function InspectorPage() {
     if (comps[selectedId] !== undefined) return; // already loading or loaded
     if (loadingComps.current.has(selectedId)) return;
     loadingComps.current.add(selectedId);
-    fetch(`/data/comps/${selectedId}.json`)
+    fetch(dataUrl(`/data/comps/${selectedId}.json`))
       .then(r => r.ok ? r.json() : null)
       .then((d: { prospectId: string; comps: ProspectComp[] } | null) => {
         loadingComps.current.delete(selectedId);
