@@ -12,6 +12,78 @@ The model estimates expected half-PPR PPG and bucket probabilities such as bust,
 - Scores historical and upcoming draft classes.
 - Exports JSON data for a local Vite/React website.
 
+## System Diagram
+
+```mermaid
+flowchart LR
+  subgraph Sources["External Data Sources"]
+    NFL["NFL data<br/>draft picks, rosters, player stats"]
+    CFB["College football data<br/>production, PPA, usage, play-by-play"]
+    Context["Context data<br/>recruiting, combine, mocks, landing spot"]
+  end
+
+  subgraph FeaturePipeline["R Feature Pipeline"]
+    Targets["01_build_targets.R<br/>early-career half-PPR outcomes"]
+    Features["02*_build_*.R<br/>college and context features"]
+    Merge["03_merge_and_clean.R<br/>WR/RB training tables"]
+    Specs["functions/feature_specs.R<br/>canonical feature lists"]
+  end
+
+  subgraph ModelStack["Model Stack"]
+    Bust["04_model_bust.R<br/>XGBoost made-it classifier"]
+    Production["05_model_production.R<br/>producer log-PPG model"]
+    Buckets["19_train_ordinal_models.R<br/>bucket probability sidecar"]
+    Comps["08*_comp*.R<br/>strictly-past player comps"]
+    Score["score_class()<br/>hurdle + bucket + comp blend"]
+  end
+
+  subgraph Evaluation["Evaluation"]
+    TemporalCV["11_temporal_cv.R<br/>rolling out-of-sample CV"]
+    BucketCV["20_bucket_cv.R<br/>bucket calibration and accuracy"]
+    PerfExport["export_model_performance.R<br/>model-page metrics JSON"]
+  end
+
+  subgraph WebsiteData["Static Website Data"]
+    ClassScores["07_score_all_classes.R<br/>2021-2026 class scores"]
+    ProspectJSON["export_website_data.R<br/>prospects JSON"]
+    InspectorJSON["export_inspector_data.R<br/>inspector JSON"]
+  end
+
+  subgraph Frontend["React/Vite Website"]
+    UI["website/src<br/>prospects, model, inspector pages"]
+    Build["npm run build<br/>website/dist"]
+    Pages["GitHub Actions<br/>GitHub Pages deploy"]
+  end
+
+  NFL --> Targets
+  CFB --> Features
+  Context --> Features
+  Targets --> Merge
+  Features --> Merge
+  Specs --> Bust
+  Specs --> Production
+  Merge --> Bust
+  Merge --> Production
+  Merge --> Buckets
+  Merge --> Comps
+  Bust --> Score
+  Production --> Score
+  Buckets --> Score
+  Comps --> Score
+  Merge --> TemporalCV
+  Merge --> BucketCV
+  TemporalCV --> PerfExport
+  BucketCV --> PerfExport
+  Score --> ClassScores
+  ClassScores --> ProspectJSON
+  ClassScores --> InspectorJSON
+  PerfExport --> UI
+  ProspectJSON --> UI
+  InspectorJSON --> UI
+  UI --> Build
+  Build --> Pages
+```
+
 ## Model Architecture
 
 The deployed score is a blend of three signals:
