@@ -1,8 +1,13 @@
 # DraftScout College-to-NFL Model
 
-DraftScout is an R modeling pipeline and React website for evaluating drafted and draft-eligible college WR/RB prospects as early-career NFL fantasy football assets.
+Drafting prospects in fantasy football is hard. This repo streamlines the process by using data science to analyze and project college football metrics into predictive NFL fantasy performance models.
 
-The model estimates expected half-PPR PPG and bucket probabilities such as bust, flex, elite, and league-winner. The website exposes the resulting prospect table, model diagnostics, and player-level inspector views.
+DraftScout couples an R modeling pipeline with a React web interface to evaluate drafted and draft-eligible WR/RB prospects as early-career fantasy assets.
+
+## How it works:
+Predictive Projections: Estimates expected half-PPR PPG alongside bucket probabilities for rookie profiles (including Bust, Flex, Elite, and League-Winner tiers).
+
+Interactive Interface: Exposes an interactive prospect dashboard, full model diagnostics, and granular, player-level inspector views.
 
 ## What It Does
 
