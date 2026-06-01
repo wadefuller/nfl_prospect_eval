@@ -1,5 +1,7 @@
 # DraftScout College-to-NFL Model
 
+Check it out [here](https://wadefuller.github.io/nfl_prospect_eval/)!
+
 Drafting prospects in fantasy football is hard. This repo streamlines the process by using data science to analyze and project college football metrics into predictive NFL fantasy performance models.
 
 DraftScout couples an R modeling pipeline with a React web interface to evaluate drafted and draft-eligible WR/RB prospects as early-career fantasy assets.
