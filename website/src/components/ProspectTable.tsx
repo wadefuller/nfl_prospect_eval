@@ -125,16 +125,18 @@ export function ProspectTable({
   // can tap a chip to sort by that metric. Tapping the active chip toggles
   // direction; tapping a different chip switches field (and direction
   // resets to a sensible default via App's handleSort).
-  const mobileSortChips: { label: string; field: SortField; show: boolean }[] = [
-    { label: "Score", field: "prospect_score", show: true },
-    { label: "PPG", field: "exp_ppg", show: true },
-    { label: "Hit %", field: "p_made_it", show: true },
-    { label: "Comp", field: "comp_weighted_ppg", show: true },
-    { label: "Pick", field: "pick", show: true },
-    { label: "Name", field: "name", show: true },
-    { label: "Actual", field: "actual_ppg", show: hasActuals },
-    { label: "Year", field: "draft_year", show: allClasses },
-  ].filter((c) => c.show);
+  const mobileSortChips: { label: string; field: SortField; show: boolean }[] = (
+    [
+      { label: "Score", field: "prospect_score", show: true },
+      { label: "PPG", field: "exp_ppg", show: true },
+      { label: "Hit %", field: "p_made_it", show: true },
+      { label: "Comp", field: "comp_weighted_ppg", show: true },
+      { label: "Pick", field: "pick", show: true },
+      { label: "Name", field: "name", show: true },
+      { label: "Actual", field: "actual_ppg", show: hasActuals },
+      { label: "Year", field: "draft_year", show: allClasses },
+    ] satisfies { label: string; field: SortField; show: boolean }[]
+  ).filter((c) => c.show);
 
   return (
     <div>
