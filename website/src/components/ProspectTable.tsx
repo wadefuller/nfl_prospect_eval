@@ -121,10 +121,99 @@ export function ProspectTable({
     return () => window.clearTimeout(t);
   }, [expandedId]);
 
+  // Mobile sort chips — mirrors the metric pills on each row so the user
+  // can tap a chip to sort by that metric. Tapping the active chip toggles
+  // direction; tapping a different chip switches field (and direction
+  // resets to a sensible default via App's handleSort).
+  const mobileSortChips: { label: string; field: SortField; show: boolean }[] = [
+    { label: "Score", field: "prospect_score", show: true },
+    { label: "PPG", field: "exp_ppg", show: true },
+    { label: "Hit %", field: "p_made_it", show: true },
+    { label: "Comp", field: "comp_weighted_ppg", show: true },
+    { label: "Pick", field: "pick", show: true },
+    { label: "Name", field: "name", show: true },
+    { label: "Actual", field: "actual_ppg", show: hasActuals },
+    { label: "Year", field: "draft_year", show: allClasses },
+  ].filter((c) => c.show);
+
   return (
     <div>
+      {/* Mobile-only sort chip strip */}
+      <div
+        className="sm:hidden mobile-pill-strip"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 6,
+          overflowX: "auto",
+          overflowY: "hidden",
+          scrollbarWidth: "none",
+          WebkitOverflowScrolling: "touch",
+          touchAction: "pan-x",
+          padding: "8px 12px",
+          borderBottom: "1px solid rgba(255,255,255,0.05)",
+          position: "sticky",
+          top: "var(--header-h, 88px)",
+          zIndex: 11,
+          background: "rgba(11,14,19,0.92)",
+          backdropFilter: "blur(8px)",
+          WebkitMaskImage:
+            "linear-gradient(to right, #000 calc(100% - 18px), transparent 100%)",
+          maskImage:
+            "linear-gradient(to right, #000 calc(100% - 18px), transparent 100%)",
+        }}
+      >
+        <span
+          style={{
+            fontSize: 10,
+            color: "#4A5578",
+            textTransform: "uppercase",
+            letterSpacing: "0.08em",
+            fontWeight: 500,
+            flexShrink: 0,
+            marginRight: 2,
+          }}
+        >
+          Sort
+        </span>
+        {mobileSortChips.map((c) => {
+          const active = sortField === c.field;
+          return (
+            <button
+              key={c.field}
+              onClick={() => onSort(c.field)}
+              style={{
+                appearance: "none",
+                border: active ? "1px solid #3E8EF7" : "1px solid rgba(255,255,255,0.08)",
+                background: active ? "rgba(62,142,247,0.15)" : "rgba(255,255,255,0.04)",
+                color: active ? "#3E8EF7" : "#8A9AC0",
+                fontFamily: "var(--font-body)",
+                fontSize: 12,
+                fontWeight: active ? 600 : 500,
+                padding: "5px 10px",
+                borderRadius: 999,
+                whiteSpace: "nowrap",
+                cursor: "pointer",
+                flexShrink: 0,
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 4,
+              }}
+            >
+              {c.label}
+              {active && (
+                <span style={{ fontFamily: "var(--font-mono)", fontSize: 11 }}>
+                  {sortDir === "asc" ? "↑" : "↓"}
+                </span>
+              )}
+            </button>
+          );
+        })}
+      </div>
+
       <table style={{ width: "100%", borderCollapse: "collapse" }}>
         <thead
+          className="hidden sm:table-header-group"
           style={{
             position: "sticky",
             top: "var(--header-h, 88px)",

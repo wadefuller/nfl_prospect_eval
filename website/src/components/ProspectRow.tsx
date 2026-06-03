@@ -215,39 +215,87 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
             </div>
           </div>
 
-          {/* Mobile-only stat pills — surface the model's call on the row itself */}
+          {/* Mobile-only stat strip — horizontally swipeable to reveal more
+              metrics. The chevron sits outside the scroll area so it's
+              always visible. */}
           <div
             className="sm:hidden"
-            style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}
+            style={{ display: "flex", alignItems: "center", gap: 4, flexShrink: 0, minWidth: 0 }}
           >
-            {p.prospect_score != null && (
+            <div
+              className="mobile-pill-strip"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+                maxWidth: "min(58vw, 220px)",
+                overflowX: "auto",
+                overflowY: "hidden",
+                scrollbarWidth: "none",
+                WebkitOverflowScrolling: "touch",
+                touchAction: "pan-x",
+                // Right-edge fade hints at more content offscreen
+                WebkitMaskImage:
+                  "linear-gradient(to right, #000 calc(100% - 18px), transparent 100%)",
+                maskImage:
+                  "linear-gradient(to right, #000 calc(100% - 18px), transparent 100%)",
+                paddingRight: 4,
+              }}
+            >
+              {p.prospect_score != null && (
+                <MobileStatPill
+                  label="SCORE"
+                  value={String(p.prospect_score)}
+                  color={mobileScoreColor}
+                  bg={`${mobileScoreColor}22`}
+                />
+              )}
               <MobileStatPill
-                label="SCORE"
-                value={String(p.prospect_score)}
-                color={mobileScoreColor}
-                bg={`${mobileScoreColor}22`}
+                label="PPG"
+                value={p.exp_ppg.toFixed(1)}
+                color="#2DD4A0"
               />
-            )}
-            <MobileStatPill
-              label="PPG"
-              value={p.exp_ppg.toFixed(1)}
-              color="#2DD4A0"
-            />
-            {(() => {
-              // Show actual result if available, else show comp bust rate
-              if (p.actual_ppg != null) {
-                const display = p.actual_raw_ppg ?? p.actual_ppg;
-                const beat = display >= p.exp_ppg;
-                return (
-                  <MobileStatPill
-                    label="REAL"
-                    value={display.toFixed(1)}
-                    color={beat ? "#2DD4A0" : "#F75757"}
-                  />
-                );
-              }
-              return null;
-            })()}
+              {p.actual_ppg != null &&
+                (() => {
+                  const display = p.actual_raw_ppg ?? p.actual_ppg;
+                  const beat = display >= p.exp_ppg;
+                  return (
+                    <MobileStatPill
+                      label="REAL"
+                      value={display.toFixed(1)}
+                      color={beat ? "#2DD4A0" : "#F75757"}
+                    />
+                  );
+                })()}
+              {p.p_made_it != null && (
+                <MobileStatPill
+                  label="HIT"
+                  value={`${Math.round(p.p_made_it * 100)}%`}
+                  color="#8A9AC0"
+                />
+              )}
+              {p.comp_weighted_ppg != null && (
+                <MobileStatPill
+                  label="COMP"
+                  value={p.comp_weighted_ppg.toFixed(1)}
+                  color="#A78BFA"
+                />
+              )}
+              {p.comp_bust_rate != null && (
+                <MobileStatPill
+                  label="BUST"
+                  value={`${Math.round(p.comp_bust_rate * 100)}%`}
+                  color={p.comp_bust_rate === 0 ? "#2DD4A0" : "#F5A623"}
+                />
+              )}
+              {p.round != null && p.pick != null && (
+                <MobileStatPill
+                  label="PICK"
+                  value={`${p.round}.${p.pick}`}
+                  color="#8A9AC0"
+                />
+              )}
+            </div>
             {/* Chevron — communicates that the row is interactive */}
             <span
               style={{
@@ -258,6 +306,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
                 transform: expanded ? "rotate(90deg)" : "rotate(0deg)",
                 display: "inline-block",
                 lineHeight: 1,
+                flexShrink: 0,
               }}
               aria-hidden="true"
             >

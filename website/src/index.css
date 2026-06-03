@@ -125,6 +125,12 @@ body {
   }
 }
 
+/* Hide WebKit scrollbar for the mobile pill strip (Firefox is handled
+   inline with scrollbar-width: none). */
+.mobile-pill-strip::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 900px) {
   body {
     overflow-x: hidden;
