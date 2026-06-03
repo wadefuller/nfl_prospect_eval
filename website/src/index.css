@@ -105,6 +105,26 @@ body {
   flex: 0 0 240px;
 }
 
+/* Mobile prospect detail tweaks (< 640px = Tailwind sm) */
+@media (max-width: 639px) {
+  .prospect-detail-body {
+    padding: 10px !important;
+    gap: 10px !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  .prospect-detail-header {
+    padding: 10px 12px !important;
+  }
+
+  /* Inside the Model Predictions card, let the gauge + numbers stack
+     cleanly instead of squeezing side-by-side. */
+  .prospect-predictions-row {
+    gap: 12px !important;
+    justify-content: flex-start !important;
+  }
+}
+
 @media (max-width: 900px) {
   body {
     overflow-x: hidden;

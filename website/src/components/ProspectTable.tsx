@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import type { Prospect, ProspectComp, SortField, SortDir } from "../types";
 import { ProspectRow } from "./ProspectRow";
 import { ProspectDetail } from "./ProspectDetail";
@@ -98,6 +98,29 @@ export function ProspectTable({
   const hasActuals = !allClasses && prospects.some((p) => p.actual_ppg != null);
   const colCount = allClasses ? 8 : 7;
 
+  // When a row is expanded on mobile, scroll the detail panel into view so the
+  // model's predictions appear in the viewport instead of below the fold.
+  const expandedRef = useRef<HTMLTableRowElement | null>(null);
+  useEffect(() => {
+    if (!expandedId || !expandedRef.current) return;
+    // Only auto-scroll on narrow screens (sm breakpoint is 640px).
+    if (typeof window === "undefined" || window.innerWidth >= 640) return;
+    const el = expandedRef.current;
+    // Defer so the row has rendered before we measure.
+    const t = window.setTimeout(() => {
+      // Account for the sticky table header so we don't scroll the detail
+      // *under* it.
+      const headerH = parseInt(
+        getComputedStyle(document.documentElement).getPropertyValue("--header-h") || "88",
+        10
+      );
+      const rect = el.getBoundingClientRect();
+      const offset = window.scrollY + rect.top - (Number.isFinite(headerH) ? headerH : 88) - 8;
+      window.scrollTo({ top: offset, behavior: "smooth" });
+    }, 60);
+    return () => window.clearTimeout(t);
+  }, [expandedId]);
+
   return (
     <div>
       <table style={{ width: "100%", borderCollapse: "collapse" }}>
@@ -189,7 +212,7 @@ export function ProspectTable({
                 allClasses={allClasses}
               />
               {expandedId === p.id && (
-                <tr>
+                <tr ref={expandedRef}>
                   <td
                     colSpan={colCount}
                     style={{

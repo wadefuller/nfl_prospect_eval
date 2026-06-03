@@ -419,11 +419,12 @@ export function ProspectDetail({ prospect: p, comps }: Props) {
     <div style={{ background: "transparent" }}>
       {/* Player header */}
       <div
+        className="prospect-detail-header"
         style={{
           display: "flex",
           alignItems: "center",
           gap: 12,
-          padding: "12px 16px",
+          padding: "12px 14px",
           background: "rgba(62,142,247,0.04)",
           borderBottom: "1px solid rgba(255,255,255,0.07)",
         }}
@@ -460,27 +461,31 @@ export function ProspectDetail({ prospect: p, comps }: Props) {
         </div>
       </div>
 
-      {/* 3-column body */}
+      {/* 3-column body (collapses to single column on mobile via auto-fit) */}
       <div
+        className="prospect-detail-body"
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-          gap: 16,
-          padding: 16,
+          gap: 12,
+          padding: 12,
         }}
       >
         {/* Col 1: Predictions + Bullish/Bearish */}
         <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
           <div style={CARD}>
             <div style={{ ...LABEL, marginBottom: 10 }}>Model Predictions</div>
-            <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <div
+              className="prospect-predictions-row"
+              style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}
+            >
               {p.prospect_score != null && (
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
                   <div style={{ ...LABEL, marginBottom: 4 }}>Score</div>
                   <CircleGauge score={p.prospect_score} />
                 </div>
               )}
-              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: 10, flex: "1 1 140px", minWidth: 0 }}>
                 <div>
                   <div style={LABEL}>PPG If Hit</div>
                   <div style={{ fontFamily: "var(--font-mono)", fontSize: 22, fontWeight: 700, color: "#F0F4FF", lineHeight: 1 }}>
