@@ -217,9 +217,10 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
 
           {/* Mobile-only stat strip — horizontally swipeable to reveal more
               metrics. The chevron sits outside the scroll area so it's
-              always visible. */}
+              always visible. Uses `sm:!hidden` so the !important wins
+              over the inline `display: flex` at the sm+ breakpoint. */}
           <div
-            className="sm:hidden"
+            className="sm:!hidden"
             style={{ display: "flex", alignItems: "center", gap: 4, flexShrink: 0, minWidth: 0 }}
           >
             <div

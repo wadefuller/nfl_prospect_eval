@@ -140,9 +140,11 @@ export function ProspectTable({
 
   return (
     <div>
-      {/* Mobile-only sort chip strip */}
+      {/* Mobile-only sort chip strip — `sm:!hidden` (!important) is needed
+          because the inline `display: flex` below would otherwise beat
+          Tailwind's `sm:hidden` (which is `display: none` without !important). */}
       <div
-        className="sm:hidden mobile-pill-strip"
+        className="sm:!hidden mobile-pill-strip"
         style={{
           display: "flex",
           alignItems: "center",
