@@ -96,25 +96,51 @@ function MeasurablesCard({ p }: { p: Prospect }) {
 }
 
 function DriverSnapshot({ p }: { p: Prospect }) {
-  const metrics = p.position === "WR"
-    ? [
-        { label: "Draft capital", pct: p.pick <= 32 ? 92 : p.pick <= 64 ? 78 : p.pick <= 100 ? 62 : 38 },
-        { label: "Receiving volume", pct: p.rec_yards_final_pct },
-        { label: "Dominator rate", pct: p.dominator_rate_pct },
-        { label: "Target share", pct: p.target_share_wr_pct },
-        { label: "Yards per target", pct: p.yards_per_target_wr_pct },
-        { label: "Explosive receptions", pct: p.explosive_rec_rate_pct },
-        { label: "Speed score", pct: p.forty == null ? null : p.forty <= 4.4 ? 85 : p.forty <= 4.5 ? 65 : 35 },
-      ]
-    : [
-        { label: "Draft capital", pct: p.pick <= 32 ? 92 : p.pick <= 64 ? 78 : p.pick <= 100 ? 62 : 38 },
-        { label: "Rushing volume", pct: p.rush_yards_final_pct },
-        { label: "Yards per carry", pct: p.ypc_pct },
-        { label: "Receiving usage", pct: p.rb_rec_yards_pct },
-        { label: "EPA per rush", pct: p.epa_per_rush_pct },
-        { label: "Explosive runs", pct: p.explosive_rate_pct },
-        { label: "Breakaway rate", pct: p.breakaway_rate_pct },
-      ];
+  const draftCapital = p.pick <= 32 ? 92 : p.pick <= 64 ? 78 : p.pick <= 100 ? 62 : 38;
+  const metrics: { label: string; pct: number | null }[] = (() => {
+    switch (p.position) {
+      case "QB":
+        return [
+          { label: "Draft capital",      pct: draftCapital },
+          { label: "Pass volume",        pct: p.pass_yds_final_pct },
+          { label: "Pass efficiency",    pct: p.pass_ypa_final_pct },
+          { label: "EPA / dropback",     pct: p.epa_per_dropback_pct },
+          { label: "Explosive passes",   pct: p.explosive_pass_rate_pct },
+          { label: "Rushing upside",     pct: p.rush_yds_final_pct },
+          { label: "Sack rate (inv)",    pct: p.sack_rate_pct == null ? null : 100 - p.sack_rate_pct },
+        ];
+      case "TE":
+        return [
+          { label: "Draft capital",      pct: draftCapital },
+          { label: "Receiving volume",   pct: p.rec_yards_final_pct },
+          { label: "Target share",       pct: p.target_share_te_pct },
+          { label: "Yards per target",   pct: p.yards_per_target_te_pct },
+          { label: "EPA per target",     pct: p.epa_per_target_te_pct },
+          { label: "Explosive receptions", pct: p.explosive_rec_rate_te_pct },
+          { label: "Dominator rate",     pct: p.dominator_rate_te_pct },
+        ];
+      case "WR":
+        return [
+          { label: "Draft capital",      pct: draftCapital },
+          { label: "Receiving volume",   pct: p.rec_yards_final_pct },
+          { label: "Dominator rate",     pct: p.dominator_rate_pct },
+          { label: "Target share",       pct: p.target_share_wr_pct },
+          { label: "Yards per target",   pct: p.yards_per_target_wr_pct },
+          { label: "Explosive receptions", pct: p.explosive_rec_rate_pct },
+          { label: "Speed score",        pct: p.forty == null ? null : p.forty <= 4.4 ? 85 : p.forty <= 4.5 ? 65 : 35 },
+        ];
+      default: // RB
+        return [
+          { label: "Draft capital",      pct: draftCapital },
+          { label: "Rushing volume",     pct: p.rush_yards_final_pct },
+          { label: "Yards per carry",    pct: p.ypc_pct },
+          { label: "Receiving usage",    pct: p.rb_rec_yards_pct },
+          { label: "EPA per rush",       pct: p.epa_per_rush_pct },
+          { label: "Explosive runs",     pct: p.explosive_rate_pct },
+          { label: "Breakaway rate",     pct: p.breakaway_rate_pct },
+        ];
+    }
+  })();
 
   const ranked = metrics
     .filter((m): m is { label: string; pct: number } => m.pct != null && Number.isFinite(m.pct))
@@ -291,6 +317,89 @@ function SubSection({
 }
 
 function StatsCard({ p }: { p: Prospect }) {
+  if (p.position === "QB") {
+    const hasAny =
+      p.pass_yds_final != null || p.pass_td_final != null ||
+      p.epa_per_dropback != null || p.completion_pct_pbp != null;
+    if (!hasAny) return null;
+
+    const volumeRows = [
+      { label: "Pass Yards",       value: p.pass_yds_final,    format: fmt.yds,  pct: p.pass_yds_final_pct },
+      { label: "Pass TDs",         value: p.pass_td_final,     format: fmt.int,  pct: p.pass_td_final_pct },
+      { label: "Pass INTs",        value: p.pass_int_final,    format: fmt.int,  pct: p.pass_int_final_pct },
+      { label: "Completion %",     value: p.pass_pct_final,    format: fmt.per,  pct: p.pass_pct_final_pct },
+      { label: "Yards / Attempt",  value: p.pass_ypa_final,    format: fmt.dec1, pct: p.pass_ypa_final_pct },
+      { label: "Pass Yards / Game", value: p.pass_yds_per_game, format: fmt.dec1, pct: p.pass_yds_per_game_pct },
+      { label: "Pass TDs / Game",  value: p.pass_td_per_game,  format: fmt.dec1, pct: p.pass_td_per_game_pct },
+    ];
+    const rushRows = [
+      { label: "Rush Yards",         value: p.rush_yds_final,     format: fmt.yds,  pct: p.rush_yds_final_pct },
+      { label: "Yards / Carry",      value: p.rush_yds_per_carry, format: fmt.dec1, pct: p.rush_yds_per_carry_pct },
+    ];
+    const pbpRows = [
+      { label: "EPA / Dropback",     value: p.epa_per_dropback,    format: fmt.epa, pct: p.epa_per_dropback_pct },
+      { label: "EPA / Attempt",      value: p.epa_per_attempt,     format: fmt.epa, pct: p.epa_per_attempt_pct },
+      { label: "Completion % (PBP)", value: p.completion_pct_pbp,  format: fmt.per, pct: p.completion_pct_pbp_pct },
+      { label: "Sack Rate",          value: p.sack_rate,           format: fmt.per, pct: p.sack_rate_pct },
+      { label: "INT Rate",           value: p.int_rate,            format: fmt.per, pct: p.int_rate_pct },
+      { label: "Explosive Pass Rate", value: p.explosive_pass_rate, format: fmt.per, pct: p.explosive_pass_rate_pct },
+      { label: "Team Pass Share",    value: p.qb_share_team,       format: fmt.per, pct: p.qb_share_team_pct },
+    ];
+
+    return (
+      <div style={CARD}>
+        <div style={{ ...LABEL, marginBottom: 6 }}>
+          College Production · Regular Season
+          <span style={{ marginLeft: 6, fontSize: 9, color: "#4A5578", fontWeight: 400, textTransform: "none" }}>
+            bar = percentile vs drafted QBs
+          </span>
+        </div>
+        <SubSection title="Passing" rows={volumeRows} />
+        <SubSection title="Rushing" rows={rushRows} />
+        <SubSection title="Play-by-Play" rows={pbpRows} />
+      </div>
+    );
+  }
+
+  if (p.position === "TE") {
+    const hasAny =
+      p.rec_yards_final != null || p.rec_final != null ||
+      p.catch_rate_te != null || p.target_share_te != null;
+    if (!hasAny) return null;
+
+    const volumeRows = [
+      { label: "Rec Yards",           value: p.rec_yards_final,    format: fmt.yds,  pct: p.rec_yards_final_pct },
+      { label: "Receptions",          value: p.rec_final,          format: fmt.int,  pct: p.rec_final_pct },
+      { label: "Rec TDs",             value: p.rec_td_final,       format: fmt.int,  pct: p.rec_td_final_pct },
+      { label: "Rec Yards / Game",    value: p.rec_yards_per_game, format: fmt.dec1, pct: p.rec_yards_per_game_pct },
+      { label: "Receptions / Game",   value: p.rec_per_game,       format: fmt.dec1, pct: p.rec_per_game_pct },
+      { label: "Yards / Reception",   value: p.ypr_te,             format: fmt.dec1, pct: p.ypr_te_pct },
+      { label: "Rec TD Rate",         value: p.rec_td_rate_te,     format: fmt.per,  pct: p.rec_td_rate_te_pct },
+      { label: "Dominator Rate",      value: p.dominator_rate_te,  format: fmt.per,  pct: p.dominator_rate_te_pct },
+    ];
+    const pbpRows = [
+      { label: "Catch Rate",          value: p.catch_rate_te,       format: fmt.per,  pct: p.catch_rate_te_pct },
+      { label: "Target Share",        value: p.target_share_te,     format: fmt.per,  pct: p.target_share_te_pct },
+      { label: "Targets / Game",      value: p.targets_per_game_te, format: fmt.dec1, pct: p.targets_per_game_te_pct },
+      { label: "Yards / Target",      value: p.yards_per_target_te, format: fmt.dec1, pct: p.yards_per_target_te_pct },
+      { label: "EPA / Target",        value: p.epa_per_target_te,   format: fmt.epa,  pct: p.epa_per_target_te_pct },
+      { label: "Explosive Rec Rate",  value: p.explosive_rec_rate_te, format: fmt.per, pct: p.explosive_rec_rate_te_pct },
+    ];
+
+    return (
+      <div style={CARD}>
+        <div style={{ ...LABEL, marginBottom: 6 }}>
+          College Production · Regular Season
+          <span style={{ marginLeft: 6, fontSize: 9, color: "#4A5578", fontWeight: 400, textTransform: "none" }}>
+            bar = percentile vs drafted TEs
+          </span>
+        </div>
+        <SubSection title="Volume & Efficiency" rows={volumeRows} />
+        <SubSection title="Play-by-Play" rows={pbpRows} />
+      </div>
+    );
+  }
+
   if (p.position === "WR") {
     const hasAny =
       p.rec_yards_final != null || p.rec_final != null || p.catch_rate_wr != null ||

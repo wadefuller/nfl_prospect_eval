@@ -18,7 +18,7 @@
 library(tidyverse)
 library(nflreadr)
 
-POSITIONS      <- c("WR", "RB")
+POSITIONS      <- c("WR", "RB", "QB", "TE")
 DRAFT_MIN      <- 2002
 DRAFT_MAX      <- 2023   # 2023 rookies completed 3rd season in 2025
 MIN_GAMES      <- 6      # lowered from 8 to capture injury-shortened but productive seasons

@@ -62,6 +62,25 @@ RB_COMP_FEATURES <- list(
   context     = c("age")
 )
 
+QB_COMP_FEATURES <- list(
+  measurables = c("height_in", "weight", "forty"),
+  production  = c("pass_yds_final", "pass_td_final", "pass_int_final",
+                  "pass_ypa_final", "pass_td_int_ratio",
+                  "pass_yds_per_game", "pass_yds_yoy",
+                  "rush_yds_final"),
+  profile     = c("speed_score", "recruit_rating"),
+  context     = c("age")
+)
+
+TE_COMP_FEATURES <- list(
+  measurables = c("height_in", "weight", "forty", "vertical", "broad_jump"),
+  production  = c("rec_yards_final", "rec_final", "rec_td_final",
+                  "rec_td_rate", "rec_yards_penult", "rec_yds_yoy",
+                  "rec_yards_per_game", "rec_per_game"),
+  profile     = c("dominator_rate", "speed_score", "recruit_rating"),
+  context     = c("age")
+)
+
 ERA_NORM_FEATURES <- c(
   # production (WR)
   "rec_yards_final", "rec_final", "rec_td_final", "ypr", "rec_td_rate",
@@ -70,6 +89,10 @@ ERA_NORM_FEATURES <- c(
   "rush_yards_final", "carries_final", "rush_td_final", "ypc",
   "rb_rec_yards", "recv_share", "scrimmage_yards", "yards_per_touch",
   "rush_yds_yoy", "rush_yards_per_game", "carries_per_game",
+  # production (QB)
+  "pass_yds_final", "pass_td_final", "pass_int_final", "pass_ypa_final",
+  "pass_td_int_ratio", "pass_yds_per_game", "pass_yds_yoy",
+  # production (TE — shares column names with WR receiving)
   # measurables affected by timing changes / athlete evolution
   "forty", "broad_jump", "vertical",
   # derived profile features
@@ -334,11 +357,17 @@ build_comp_features_for_position <- function(model_data, feature_list,
 
 wr_data <- readRDS("data/wr_model_data.rds")
 rb_data <- readRDS("data/rb_model_data.rds")
+qb_data <- if (file.exists("data/qb_model_data.rds")) readRDS("data/qb_model_data.rds") else NULL
+te_data <- if (file.exists("data/te_model_data.rds")) readRDS("data/te_model_data.rds") else NULL
 
 wr_comps <- build_comp_features_for_position(wr_data, WR_COMP_FEATURES, "WR")
 rb_comps <- build_comp_features_for_position(rb_data, RB_COMP_FEATURES, "RB")
+qb_comps <- if (!is.null(qb_data))
+  build_comp_features_for_position(qb_data, QB_COMP_FEATURES, "QB") else tibble()
+te_comps <- if (!is.null(te_data))
+  build_comp_features_for_position(te_data, TE_COMP_FEATURES, "TE") else tibble()
 
-all_comps <- bind_rows(wr_comps, rb_comps)
+all_comps <- bind_rows(wr_comps, rb_comps, qb_comps, te_comps)
 
 cat("\n── Comp feature coverage ──\n")
 all_comps |>

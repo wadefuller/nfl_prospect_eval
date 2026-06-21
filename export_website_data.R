@@ -14,6 +14,24 @@ library(nflreadr)
 library(cfbfastR)
 
 scores   <- read_csv("output/all_class_scores.csv", show_col_types = FALSE)
+
+# QB/TE scores come from a separate pipeline (07b_score_qb_te.R) — append
+# them. bind_rows fills missing position-specific columns (rec_*, rush_*, etc.)
+# with NA, which is correct: a QB shouldn't have rec_yards_final.
+if (file.exists("output/qb_te_class_scores.csv")) {
+  qb_te <- read_csv("output/qb_te_class_scores.csv", show_col_types = FALSE) |>
+    filter(draft_year >= 2021) |>
+    # Defensive dedup on (name, position, draft_year) — Carson Beck appeared
+    # twice (deploy + late-training-year overlap). Keep the row with the
+    # highest exp_ppg as the "winning" prediction.
+    group_by(name, position, draft_year) |>
+    slice_max(exp_ppg, n = 1, with_ties = FALSE) |>
+    ungroup()
+  scores <- bind_rows(scores, qb_te) |>
+    arrange(draft_year, position, pick)
+  message(sprintf("  Added %d QB/TE rows from output/qb_te_class_scores.csv",
+                  nrow(qb_te)))
+}
 comps    <- read_csv("output/player_comps.csv", show_col_types = FALSE)
 summary  <- read_csv("output/player_comp_summary.csv", show_col_types = FALSE)
 profiles_raw <- read_csv("output/prospect_profiles.csv", show_col_types = FALSE)
@@ -23,6 +41,12 @@ profiles_raw <- read_csv("output/prospect_profiles.csv", show_col_types = FALSE)
 # drafted players at the same position.
 wr_train_ref <- readRDS("data/wr_model_data.rds") |> filter(has_cfb_data == 1)
 rb_train_ref <- readRDS("data/rb_model_data.rds") |> filter(has_cfb_data == 1)
+qb_train_ref <- if (file.exists("data/qb_model_data.rds")) {
+  readRDS("data/qb_model_data.rds") |> filter(has_cfb_data == 1)
+} else NULL
+te_train_ref <- if (file.exists("data/te_model_data.rds")) {
+  readRDS("data/te_model_data.rds") |> filter(has_cfb_data == 1)
+} else NULL
 
 make_pct <- function(ref_vec) {
   ref_vec <- ref_vec[is.finite(ref_vec)]
@@ -46,9 +70,41 @@ rb_stat_cols <- c("rush_yards_final", "carries_final", "rush_td_final",
                   "rb_rec_yards", "rb_rec", "rb_rec_td",
                   "epa_per_rush", "explosive_rate", "breakaway_rate",
                   "target_share", "catch_rate")
+# QB raw column names match qb_train_ref (qb_features); JSON output renames
+# rush_yds_final → rush_yds_final etc, preserving the original key.
+qb_stat_cols <- c("pass_yds_final", "pass_td_final", "pass_int_final",
+                  "pass_pct_final", "pass_ypa_final",
+                  "pass_yds_per_game", "pass_td_per_game",
+                  "rush_yds_final", "rush_yds_per_carry",
+                  "epa_per_dropback", "epa_per_attempt", "completion_pct_pbp",
+                  "sack_rate", "int_rate", "explosive_pass_rate",
+                  "qb_share_team")
+te_stat_cols <- c("rec_yards_final", "rec_final", "rec_td_final",
+                  "rec_yards_per_game", "rec_per_game",
+                  "ypr_te", "rec_td_rate_te", "dominator_rate_te",
+                  "catch_rate_te", "yards_per_target_te", "target_share_te",
+                  "targets_per_game_te", "epa_per_target_te",
+                  "explosive_rec_rate_te")
+
+# Map JSON column name → train-ref column name (training data uses
+# unsuffixed names like ypr_final, catch_rate_te is already te-suffixed, etc.).
+te_train_col <- c(
+  rec_yards_final = "rec_yards_final", rec_final = "rec_final", rec_td_final = "rec_td_final",
+  rec_yards_per_game = "rec_yards_per_game", rec_per_game = "rec_per_game",
+  ypr_te = "ypr_final", rec_td_rate_te = "rec_td_rate", dominator_rate_te = "dominator_rate",
+  catch_rate_te = "catch_rate_te", yards_per_target_te = "yards_per_target_te",
+  target_share_te = "target_share_te", targets_per_game_te = "targets_per_game_te",
+  epa_per_target_te = "epa_per_target_te", explosive_rec_rate_te = "explosive_rec_rate_te"
+)
 
 wr_pct_fns <- setNames(lapply(wr_stat_cols, function(c) make_pct(wr_train_ref[[c]])), wr_stat_cols)
 rb_pct_fns <- setNames(lapply(rb_stat_cols, function(c) make_pct(rb_train_ref[[c]])), rb_stat_cols)
+qb_pct_fns <- if (!is.null(qb_train_ref)) {
+  setNames(lapply(qb_stat_cols, function(c) make_pct(qb_train_ref[[c]])), qb_stat_cols)
+} else NULL
+te_pct_fns <- if (!is.null(te_train_ref)) {
+  setNames(lapply(te_stat_cols, function(c) make_pct(te_train_ref[[ te_train_col[[c]] ]])), te_stat_cols)
+} else NULL
 
 # Re-derive bullish/bearish lists from the flat blurb string so we can export
 # them as proper JSON arrays. Format: "Bullish: X; Y. Bearish: A; B."
@@ -123,7 +179,7 @@ cat(sprintf("  NFL headshot lookup: %d entries\n", nrow(nfl_hs_lkp)))
 load_cfb_hs <- function(seasons) {
   tryCatch({
     load_cfb_rosters(seasons = seasons) |>
-      filter(position %in% c("WR", "RB"), !is.na(headshot_url)) |>
+      filter(position %in% c("WR", "RB", "QB", "TE"), !is.na(headshot_url)) |>
       transmute(
         nm_clean     = clean_nm(paste(first_name, last_name)),
         last_clean   = clean_nm(last_name),
@@ -232,6 +288,14 @@ merged <- scores |>
       is.na(comp_weighted_ppg) ~ exp_ppg,
       position == "WR" ~ 0.60 * exp_ppg + 0.40 * comp_weighted_ppg,
       position == "RB" ~ 0.35 * exp_ppg + 0.65 * comp_weighted_ppg,
+      # QB/TE blends set from 11b walk-forward CV with strict past-only
+      # per-fold comp pools (output/temporal_cv_qb_te/comp_blend_sweep_*.csv).
+      # QB: 50/50 — comp dominates the full population, model wins on
+      # producers; blend captures both.
+      position == "QB" ~ 0.50 * exp_ppg + 0.50 * comp_weighted_ppg,
+      # TE: 30/70 — both MAE and producer-only MAE monotonically improve
+      # with comp weight; 0.30 model is the producer-MAE sweet spot.
+      position == "TE" ~ 0.30 * exp_ppg + 0.70 * comp_weighted_ppg,
       TRUE ~ exp_ppg
     ),
     # Null out display stats for players with no CFB data (opted out, FCS, etc.)
@@ -287,6 +351,22 @@ for (c in rb_stat_cols) {
   vals <- ifelse(merged$position == "RB", merged[[c]], NA_real_)
   merged[[new_col]] <- rb_pct_fns[[c]](vals)
 }
+if (!is.null(qb_pct_fns)) {
+  for (c in qb_stat_cols) {
+    if (!c %in% names(merged)) next
+    new_col <- paste0(c, "_pct")
+    vals <- ifelse(merged$position == "QB", merged[[c]], NA_real_)
+    merged[[new_col]] <- qb_pct_fns[[c]](vals)
+  }
+}
+if (!is.null(te_pct_fns)) {
+  for (c in te_stat_cols) {
+    if (!c %in% names(merged)) next
+    new_col <- paste0(c, "_pct")
+    vals <- ifelse(merged$position == "TE", merged[[c]], NA_real_)
+    merged[[new_col]] <- te_pct_fns[[c]](vals)
+  }
+}
 
 # ── Per-year prospect JSON ───────────────────────────────────────────────────
 for (yr in unique(merged$draft_year)) {
@@ -314,8 +394,12 @@ for (yr in unique(merged$draft_year)) {
       any_of(wr_stat_cols), any_of(paste0(wr_stat_cols, "_pct")),
       # Full RB stat set + percentiles
       any_of(rb_stat_cols), any_of(paste0(rb_stat_cols, "_pct")),
+      # Full QB stat set + percentiles
+      any_of(qb_stat_cols), any_of(paste0(qb_stat_cols, "_pct")),
+      # Full TE stat set + percentiles
+      any_of(te_stat_cols), any_of(paste0(te_stat_cols, "_pct")),
       # PBP availability flags (so UI can tell "no PBP" from "bad PBP")
-      any_of(c("has_wr_pbp", "has_pbp", "has_cfb_data")),
+      any_of(c("has_wr_pbp", "has_pbp", "has_qb_pbp", "has_te_pbp", "has_cfb_data")),
       # Draft-capital delta (mock vs actual)
       any_of(c("proj_pick", "actual_pick_value", "proj_pick_value",
                "draft_capital_delta", "has_mock_data")),

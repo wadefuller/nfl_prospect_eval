@@ -40,9 +40,22 @@ if (!file.exists("output/all_class_scores.rds")) {
 
 wr_train <- readRDS("data/wr_model_data.rds")
 rb_train <- readRDS("data/rb_model_data.rds")
-scored   <- readRDS("output/all_class_scores.rds") |> as_tibble()
+qb_train <- if (file.exists("data/qb_model_data.rds")) readRDS("data/qb_model_data.rds") else NULL
+te_train <- if (file.exists("data/te_model_data.rds")) readRDS("data/te_model_data.rds") else NULL
 
-deploy_years <- setdiff(unique(scored$draft_year), unique(c(wr_train$draft_year, rb_train$draft_year)))
+scored <- readRDS("output/all_class_scores.rds") |> as_tibble()
+
+# Append QB/TE scored rows (which carry their own deploy-class rows already)
+# so the comp build sees them when computing comps for deploy years.
+if (file.exists("output/qb_te_class_scores.rds")) {
+  qb_te_scored <- readRDS("output/qb_te_class_scores.rds")
+  scored <- bind_rows(scored, qb_te_scored)
+}
+
+train_years <- unique(c(wr_train$draft_year, rb_train$draft_year,
+                         if (!is.null(qb_train)) qb_train$draft_year[!is.na(qb_train$made_it)],
+                         if (!is.null(te_train)) te_train$draft_year[!is.na(te_train$made_it)]))
+deploy_years <- setdiff(unique(scored$draft_year), train_years)
 cat(sprintf("Deploy years (not in training): %s\n", paste(deploy_years, collapse = ", ")))
 
 # Score output uses `name`; training uses `pfr_player_name`. Align.
@@ -56,6 +69,8 @@ scored <- scored |> rename(pfr_player_name = name)
 needed_cols <- unique(c(
   unlist(WR_COMP_FEATURES, use.names = FALSE),
   unlist(RB_COMP_FEATURES, use.names = FALSE),
+  unlist(QB_COMP_FEATURES, use.names = FALSE),
+  unlist(TE_COMP_FEATURES, use.names = FALSE),
   "pfr_player_name", "draft_year", "position", "pick", "has_cfb_data"
 ))
 for (col in setdiff(needed_cols, names(scored))) {
@@ -101,11 +116,16 @@ build_deploy_for_position <- function(scored_df, train_df, feature_list, pos_lab
 
 wr_deploy_comps <- build_deploy_for_position(scored, wr_train, WR_COMP_FEATURES, "WR")
 rb_deploy_comps <- build_deploy_for_position(scored, rb_train, RB_COMP_FEATURES, "RB")
+qb_deploy_comps <- if (!is.null(qb_train))
+  build_deploy_for_position(scored, qb_train, QB_COMP_FEATURES, "QB") else tibble()
+te_deploy_comps <- if (!is.null(te_train))
+  build_deploy_for_position(scored, te_train, TE_COMP_FEATURES, "TE") else tibble()
 
 # ── Append to comp_features.rds ──────────────────────────────────────────────
 
 existing <- readRDS("data/comp_features.rds")
-updated <- bind_rows(existing, wr_deploy_comps, rb_deploy_comps) |>
+updated <- bind_rows(existing, wr_deploy_comps, rb_deploy_comps,
+                     qb_deploy_comps, te_deploy_comps) |>
   distinct(name_clean, draft_year, position, .keep_all = TRUE)
 
 cat("\n══ Coverage after extension ══\n")

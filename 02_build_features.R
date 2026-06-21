@@ -111,6 +111,28 @@ if (file.exists(rush_cache)) {
   saveRDS(rush_raw, rush_cache)
 }
 
+# ── 2b. Fetch / cache college passing stats (QB features) ────────────────────
+# Same season_type = "both" comment from the receiving block applies here.
+pass_cache <- file.path(CACHE_DIR, "cfb_passing_raw.rds")
+
+if (file.exists(pass_cache)) {
+  message("Loading cached passing stats...")
+  pass_raw <- readRDS(pass_cache) |> as_tibble()
+} else {
+  message("Fetching passing stats from cfbfastR (", length(COLLEGE_SEASONS), " seasons)...")
+  pass_raw <- map_dfr(COLLEGE_SEASONS, function(yr) {
+    tryCatch({
+      message("  year: ", yr)
+      cfbd_stats_season_player(year = yr, season_type = "both", category = "passing") |>
+        mutate(cfb_season = yr)
+    }, error = function(e) {
+      warning("  Failed for year ", yr, ": ", conditionMessage(e))
+      tibble()
+    })
+  })
+  saveRDS(pass_raw, pass_cache)
+}
+
 # ── 3. Fetch / cache recruiting ratings ──────────────────────────────────────
 # cfbd_recruiting_player(year) returns HS recruiting class data (247Sports composite):
 #   stars (1-5), rating (0-1), national ranking

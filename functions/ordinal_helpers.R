@@ -20,17 +20,25 @@
 
 BUCKET_LEVELS <- c("bust", "bench", "flex", "elite", "league_winner")
 
-# Frozen cuts from 2026-05-10 training data — producer p25 / p75 / p90.
+# Frozen cuts from 2026-05-10 (WR/RB) and 2026-05-16 (QB/TE) training data
+# — producer p25 / p75 / p90.
 BUCKET_CUTS <- list(
-  WR = c(0, 4.43, 7.62, 9.75),
-  RB = c(0, 5.74, 9.75, 12.54)
+  WR = c(0, 4.43,  7.62,  9.75),
+  RB = c(0, 5.74,  9.75, 12.54),
+  QB = c(0, 10.2, 13.9, 16.2),
+  TE = c(0,  3.3,  5.5,  6.8)
 )
 
-# Midpoints used to convert P(bucket) → expected PPG. The open upper bucket
-# uses position p95 producer value as a conservative point estimate.
+# Midpoints used to convert P(bucket) → expected PPG. Recalibrated 2026-06-15
+# from the actual conditional mean of training-data ppg given the bucket
+# (previously hand-set, which was conservative on the upper tails — especially
+# TE LW, where the old 7.5 capped a bucket that empirically averages 8.41
+# and contains outcomes up to 12.2).
 BUCKET_MIDPOINTS <- list(
-  WR = c(bust = 0, bench = 2.5, flex = 6.0, elite = 8.7, league_winner = 11.5),
-  RB = c(bust = 0, bench = 3.5, flex = 7.7, elite = 11.0, league_winner = 14.5)
+  WR = c(bust = 0, bench = 3.83, flex = 5.79, elite = 8.77,  league_winner = 11.20),
+  RB = c(bust = 0, bench = 4.96, flex = 7.43, elite = 11.10, league_winner = 14.40),
+  QB = c(bust = 0, bench = 9.16, flex = 11.90, elite = 15.10, league_winner = 18.10),
+  TE = c(bust = 0, bench = 2.84, flex = 4.07, elite = 6.23,  league_winner = 8.41)
 )
 
 assign_bucket <- function(ppg, pos) {
@@ -59,6 +67,18 @@ ORD_FEATURES_RB <- c(
   "recruit_rating", "age", "comp_weighted_ppg",
   "draft_year_sc", "rb_rec_yards"
 )
+ORD_FEATURES_QB <- c(
+  "sqrt_pick", "pass_yds_final", "pass_td_final",
+  "pass_int_final", "pass_ypa_final", "pass_td_int_ratio",
+  "pass_yds_per_game", "rush_yds_final",
+  "recruit_rating", "age", "draft_year_sc"
+)
+ORD_FEATURES_TE <- c(
+  "sqrt_pick", "rec_yards_final", "rec_td_final",
+  "ypr_final", "rec_td_rate", "dominator_rate",
+  "weight", "speed_score", "recruit_rating",
+  "age", "draft_year_sc"
+)
 
 # ── Train XGBoost multiclass (full feature spec) ─────────────────────────────
 # Re-uses build_recipe() from 11_temporal_cv.R for era zero-fill etc.
@@ -66,7 +86,7 @@ ORD_FEATURES_RB <- c(
 train_xgb_bucket <- function(model_data, features, pos, build_recipe_fn) {
   bf <- intersect(features, names(model_data))
   model_df <- model_data |>
-    dplyr::filter(has_cfb_data,
+    dplyr::filter(has_cfb_data, !is.na(ppg),
                   if (pos == "RB") draft_year >= 2010 else TRUE) |>
     dplyr::mutate(bucket = assign_bucket(ppg, pos)) |>
     dplyr::select(dplyr::all_of(c("bucket", bf, "draft_year")))
@@ -134,7 +154,7 @@ train_stan_bucket <- function(model_data, features, pos,
   }
   feats <- intersect(features, names(model_data))
   d <- model_data |>
-    dplyr::filter(has_cfb_data,
+    dplyr::filter(has_cfb_data, !is.na(ppg),
                   if (pos == "RB") draft_year >= 2010 else TRUE) |>
     dplyr::mutate(bucket = assign_bucket(ppg, pos)) |>
     dplyr::select(dplyr::all_of(c("bucket", feats))) |>

@@ -64,6 +64,8 @@ function MobileStatPill({
 const POS_STYLE: Record<string, { bg: string; color: string }> = {
   WR: { bg: "rgba(245,166,35,0.15)", color: "#FFBF4D" },
   RB: { bg: "rgba(45,212,160,0.15)", color: "#5EEBC0" },
+  QB: { bg: "rgba(62,142,247,0.15)", color: "#7AB0F9" },
+  TE: { bg: "rgba(167,139,250,0.15)", color: "#B398FC" },
 };
 
 export function PosBadge({ pos }: { pos: string }) {

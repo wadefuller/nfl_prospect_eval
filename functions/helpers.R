@@ -217,13 +217,23 @@ attach_comp_features <- function(df, comp_features_path = "data/comp_features.rd
       has_comp_features = 0L
     ))
   }
-  comps <- readRDS(comp_features_path)
+  comps <- readRDS(comp_features_path) |>
+    # Defensive dedupe — if the same (name, year, position) shows up twice
+    # (e.g. from re-running 08b on a model_data that includes deploy rows
+    # already attached as comps), keep the row with non-NA comp_weighted_ppg
+    # and otherwise the first match. Without this the left_join below fans
+    # the prospect dataframe out by the duplicate count.
+    dplyr::group_by(name_clean, draft_year, position) |>
+    dplyr::slice_max(dplyr::coalesce(comp_weighted_ppg, -Inf),
+                      n = 1, with_ties = FALSE) |>
+    dplyr::ungroup()
   df |>
     mutate(.name_clean_join = clean_name(.data[[name_col]])) |>
     left_join(
       comps |> select(name_clean, draft_year, position,
                       comp_weighted_ppg, comp_bust_rate, comp_median_ppg),
-      by = c(".name_clean_join" = "name_clean", "draft_year", "position")
+      by = c(".name_clean_join" = "name_clean", "draft_year", "position"),
+      relationship = "many-to-one"
     ) |>
     mutate(has_comp_features = as.integer(!is.na(comp_weighted_ppg))) |>
     select(-.name_clean_join)

@@ -26,11 +26,20 @@ source("functions/helpers.R")
 
 wr_data <- readRDS("data/wr_model_data.rds")
 rb_data <- readRDS("data/rb_model_data.rds")
+qb_data <- if (file.exists("data/qb_model_data.rds")) readRDS("data/qb_model_data.rds") else NULL
+te_data <- if (file.exists("data/te_model_data.rds")) readRDS("data/te_model_data.rds") else NULL
 scores  <- readRDS("output/all_class_scores.rds")
+# 07_score_all_classes.R only writes WR/RB. QB/TE scores live in a parallel
+# rds written by 07b_score_qb_te.R; bind them in so QB/TE prospects show up
+# in the prospect-side of the comp loop.
+if (file.exists("output/qb_te_class_scores.rds")) {
+  qb_te_scores <- readRDS("output/qb_te_class_scores.rds")
+  scores <- bind_rows(scores, qb_te_scores)
+}
 
 # Combine data for recent prospects (2024-2026) not in training data
 recent_combine <- load_combine() |>
-  filter(pos %in% c("WR", "RB"), season >= 2024) |>
+  filter(pos %in% c("WR", "RB", "QB", "TE"), season >= 2024) |>
   mutate(
     name_clean = strip_suffix(clean_name(player_name)),
     height_in  = height_to_inches(ht),
@@ -63,6 +72,31 @@ RB_COMP_FEATURES <- list(
   context     = c("age")
 )
 
+# QB: combine passing volume + efficiency + rushing upside. Mobile-QB signal
+# captured via forty/speed_score and rush_yds_final.
+QB_COMP_FEATURES <- list(
+  measurables = c("height_in", "weight", "forty"),
+  production  = c("pass_yds_final", "pass_td_final", "pass_int_final",
+                   "pass_ypa_final", "pass_pct_final",
+                   "pass_yds_per_game", "pass_td_per_game",
+                   "pass_td_int_ratio",
+                   "rush_yds_final"),
+  profile     = c("speed_score", "recruit_rating", "qb_share_team"),
+  context     = c("age")
+)
+
+# TE: mirrors WR_COMP_FEATURES but uses te-suffixed column names where the
+# TE-specific PBP metric exists; falls back on shared WR-style stats for
+# volume since rec_yards_final / rec_final / rec_td_final keep the same name.
+TE_COMP_FEATURES <- list(
+  measurables = c("height_in", "weight", "forty", "vertical", "broad_jump"),
+  production  = c("rec_yards_final", "rec_final", "rec_td_final", "ypr_final",
+                   "rec_td_rate", "rec_yards_penult", "rec_yds_yoy",
+                   "rec_yards_per_game", "rec_per_game"),
+  profile     = c("dominator_rate", "speed_score", "recruit_rating"),
+  context     = c("age")
+)
+
 # Features that benefit from era normalization (z-score within draft_year).
 # Includes production stats (change with offensive trends), measurables affected
 # by timing methodology (hand→electronic ~2015), and derived profile features
@@ -76,6 +110,12 @@ ERA_NORM_FEATURES <- c(
   "rush_yards_final", "carries_final", "rush_td_final", "ypc",
   "rb_rec_yards", "recv_share", "scrimmage_yards", "yards_per_touch",
   "rush_yds_yoy", "rush_yards_per_game", "carries_per_game",
+  # production (QB) — passing has changed dramatically; rushing modest
+  "pass_yds_final", "pass_td_final", "pass_int_final", "pass_ypa_final",
+  "pass_pct_final", "pass_yds_per_game", "pass_td_per_game",
+  "pass_td_int_ratio", "rush_yds_final",
+  # production (TE) — same names as WR for receiving, plus ypr_final
+  "ypr_final",
   # measurables affected by timing changes / athlete evolution
   "forty", "broad_jump", "vertical",
   # derived profile features dependent on era-variant inputs
@@ -105,11 +145,11 @@ era_normalize <- function(df, features_to_norm = ERA_NORM_FEATURES) {
 
 # ── 4. Prepare comp pool ───────────────────────────────────────────────────
 
-prep_comp_pool <- function(model_data, feature_list) {
+prep_comp_pool <- function(model_data, feature_list, max_year = 2023) {
   all_features <- unlist(feature_list, use.names = FALSE)
 
   pool <- model_data |>
-    filter(has_cfb_data, draft_year <= 2023) |>
+    filter(has_cfb_data, draft_year <= max_year) |>
     select(pfr_player_name, position, college, draft_year, round, pick,
            ppg, made_it, avg_top2_ppg, n_qual_seasons, age,
            any_of(all_features))
@@ -300,7 +340,7 @@ find_comps <- function(prospect_df, pool, dist_mat, n_comps = 5,
       select(any_of(c("name", "position", "college", "draft_year", "round", "pick")))
 
     results[[i]] <- bind_cols(
-      prospect_info |> slice(rep(1, nrow(comps))),
+      prospect_info |> dplyr::slice(rep(1, nrow(comps))),
       comps
     )
   }
@@ -474,7 +514,7 @@ build_prospect_features <- function(scores_df, model_data, position_filter,
 # ── 10. Main pipeline ───────────────────────────────────────────────────────
 
 run_comps <- function(model_data, feature_list, position_label, scores_df,
-                      pick_window = 40, config = NULL) {
+                      pick_window = 40, config = NULL, max_pool_year = 2023) {
   cat("\n══ Player Comps:", position_label, "══\n")
 
   all_features <- unlist(feature_list, use.names = FALSE)
@@ -489,8 +529,9 @@ run_comps <- function(model_data, feature_list, position_label, scores_df,
   n_comps     <- config$n_comps
   bandwidth   <- config$bandwidth
 
-  # Step 2: Build comp pool (era-normalized)
-  pool <- prep_comp_pool(model_data, feature_list)
+  # Step 2: Build comp pool (era-normalized). `max_pool_year` lets walk-forward
+  # CV restrict the pool to strictly past prospects.
+  pool <- prep_comp_pool(model_data, feature_list, max_year = max_pool_year)
 
   # Step 3: Scale (preserving NAs, using MAD)
   scaling <- compute_scaling_params(pool, all_features)
@@ -572,10 +613,25 @@ run_comps <- function(model_data, feature_list, position_label, scores_df,
 
 # ── 11. Run ──────────────────────────────────────────────────────────────────
 
+# Allow 11b walk-forward CV (and other scripts) to load these helpers
+# (era_normalize, prep_comp_pool, compute_*_mahal, find_comps, run_comps,
+# WR/RB/QB/TE feature lists, recent_combine) without triggering the full
+# weight optimization + writes below. Set `COMP_LOAD_ONLY = TRUE` in the
+# calling script before `source("08_player_comps.R")`.
+if (isTRUE(getOption("comp_helpers.load_only", FALSE)) ||
+    isTRUE(get0("COMP_LOAD_ONLY", ifnotfound = FALSE))) {
+  message("[08] COMP_LOAD_ONLY active — helpers loaded, skipping run.")
+} else {
 wr_result <- run_comps(wr_data, WR_COMP_FEATURES, "WR", scores)
 rb_result <- run_comps(rb_data, RB_COMP_FEATURES, "RB", scores)
+qb_result <- if (!is.null(qb_data)) run_comps(qb_data, QB_COMP_FEATURES, "QB", scores) else NULL
+te_result <- if (!is.null(te_data)) run_comps(te_data, TE_COMP_FEATURES, "TE", scores) else NULL
 
-all_comps <- bind_rows(wr_result$comps, rb_result$comps) |>
+all_comps <- bind_rows(
+  wr_result$comps, rb_result$comps,
+  if (!is.null(qb_result)) qb_result$comps else NULL,
+  if (!is.null(te_result)) te_result$comps else NULL
+) |>
   arrange(draft_year, position, pick, comp_rank)
 
 # ── 12. Join model predictions for context ──────────────────────────────────
@@ -719,3 +775,4 @@ cat(sprintf("  RB: %s, K=%d, bandwidth=%.1f\n",
             rb_result$config$n_comps, rb_result$config$bandwidth))
 
 message("\nSaved: output/player_comps.csv, output/player_comp_summary.csv")
+} # end COMP_LOAD_ONLY guard

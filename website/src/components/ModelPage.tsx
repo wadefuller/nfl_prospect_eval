@@ -269,7 +269,12 @@ function ScatterChart({ data }: { data: ScatterPoint[] }) {
         <line x1={xS(0)} x2={xS(maxV)} y1={yS(0)} y2={yS(maxV)} stroke={C.muted} strokeDasharray="5 3" opacity={0.5} />
         {/* Points */}
         {data.map((d, i) => {
-          const col = d.pos === "WR" ? C.blue : C.gold;
+          const col =
+            d.pos === "WR" ? C.blue
+            : d.pos === "RB" ? C.gold
+            : d.pos === "QB" ? C.teal
+            : d.pos === "TE" ? C.coral
+            : C.muted;
           return (
             <circle
               key={i}
@@ -413,7 +418,7 @@ function NotableTable({ data }: { data: ModelPerformanceData["notable"] }) {
 // ── Main page ─────────────────────────────────────────────────────────────────
 export function ModelPage() {
   const [data, setData] = useState<ModelPerformanceData | null>(null);
-  const [posFilter, setPosFilter] = useState<"ALL" | "WR" | "RB">("ALL");
+  const [posFilter, setPosFilter] = useState<"ALL" | "WR" | "RB" | "QB" | "TE">("ALL");
 
   useEffect(() => {
     fetch(dataUrl("/data/model_performance.json"))
@@ -549,7 +554,7 @@ export function ModelPage() {
               <div style={{ fontSize: 11, color: C.muted, marginTop: 2, ...BODY }}>Each dot is one player. Hover to see who. The dashed line is a perfect prediction — closer dots = better.</div>
             </div>
             <div style={{ display: "flex", background: "rgba(255,255,255,0.04)", borderRadius: 6, overflow: "hidden", border: `1px solid ${C.border}` }}>
-              {(["ALL", "WR", "RB"] as const).map(p => (
+              {(["ALL", "QB", "RB", "WR", "TE"] as const).map(p => (
                 <button key={p} onClick={() => setPosFilter(p)} style={{
                   padding: "4px 10px", fontSize: 11, fontWeight: 600,
                   fontFamily: "var(--font-mono)", border: "none", cursor: "pointer",

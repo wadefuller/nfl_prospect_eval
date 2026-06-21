@@ -46,6 +46,18 @@ rb_train <- readRDS("data/rb_model_data.rds") |>
   mutate(position = "RB", name = pfr_player_name,
          name_clean = clean_name(pfr_player_name), source = "training") |>
   normalize_row()
+qb_train <- if (file.exists("data/qb_model_data.rds")) {
+  readRDS("data/qb_model_data.rds") |>
+    mutate(position = "QB", name = pfr_player_name,
+           name_clean = clean_name(pfr_player_name), source = "training") |>
+    normalize_row()
+} else tibble()
+te_train <- if (file.exists("data/te_model_data.rds")) {
+  readRDS("data/te_model_data.rds") |>
+    mutate(position = "TE", name = pfr_player_name,
+           name_clean = clean_name(pfr_player_name), source = "training") |>
+    normalize_row()
+} else tibble()
 
 scores <- tryCatch(
   readRDS("output/all_class_scores.rds") |>
@@ -65,7 +77,7 @@ overlay_cols <- c("p_made_it", "exp_ppg", "actual_ppg", "actual_raw_ppg",
                   "bucket_top1")
 
 build_master <- function() {
-  train_all <- bind_rows(wr_train, rb_train) |>
+  train_all <- bind_rows(wr_train, rb_train, qb_train, te_train) |>
     mutate(k = paste(name_clean, position, draft_year))
   sc <- scores
   if (!is.null(sc)) sc <- sc |> mutate(k = paste(name_clean, position, draft_year))
@@ -170,6 +182,27 @@ FEATURE_GROUPS <- list(
     "Recruiting"          = c("recruit_stars","recruit_rating","recruit_rank"),
     "Context"             = c("age","age_relative","college_years","teammate_rush_yards",
                               "n_drafted_skill","elite_teammate")
+  ),
+  QB = list(
+    "Final Season"        = c("pass_yds_final","pass_td_final","pass_int_final",
+                              "pass_att_final","pass_comp_final","pass_pct_final","pass_ypa_final",
+                              "pass_td_int_ratio","pass_yds_per_game","pass_td_per_game"),
+    "Penult / Ante / YoY" = c("pass_yds_penult","pass_td_penult","pass_att_penult",
+                              "pass_yds_ante","pass_yds_yoy"),
+    "Mobility"            = c("rush_car_final","rush_yds_final","rush_td_final",
+                              "rush_yds_per_carry","has_mobility"),
+    "Combine"             = c("height_in","weight","forty","vertical","broad_jump","speed_score"),
+    "Recruiting"          = c("recruit_stars","recruit_rating","recruit_rank"),
+    "Context"             = c("age","college_years")
+  ),
+  TE = list(
+    "Final Season"        = c("rec_final","rec_yards_final","rec_td_final","ypr_final",
+                              "rec_td_rate","dominator_rate","rec_yards_per_game","rec_per_game"),
+    "Penult / Ante / YoY" = c("rec_penult","rec_yards_penult","rec_td_penult",
+                              "rec_yards_ante","rec_yds_yoy"),
+    "Combine"             = c("height_in","weight","forty","vertical","broad_jump","speed_score","is_move_te"),
+    "Recruiting"          = c("recruit_stars","recruit_rating","recruit_rank"),
+    "Context"             = c("age","college_years","teammate_rec_yards")
   )
 )
 
@@ -269,7 +302,9 @@ METRIC_DESC <- list(
 # ── Cohort percentile fns (training only, has_cfb_data filter mirrors app) ───
 cohort_pool <- list(
   WR = wr_train |> filter(has_cfb_data),
-  RB = rb_train |> filter(has_cfb_data)
+  RB = rb_train |> filter(has_cfb_data),
+  QB = if (nrow(qb_train) > 0) qb_train |> filter(has_cfb_data) else tibble(),
+  TE = if (nrow(te_train) > 0) te_train |> filter(has_cfb_data) else tibble()
 )
 
 pct_of <- function(pos, col, val) {

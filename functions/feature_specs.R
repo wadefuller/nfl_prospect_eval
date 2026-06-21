@@ -172,5 +172,106 @@ ERA_ZEROFILL_RULES <- list(
                       "epa_per_play_pbp")),
     list(flag = "has_comp_features",
          features = c("comp_weighted_ppg", "comp_bust_rate"))
+  ),
+  QB = list(
+    list(flag = "has_qb_pbp",
+         features = c("epa_per_dropback","epa_per_attempt","completion_pct_pbp",
+                      "sack_rate","int_rate","negative_play_rate",
+                      "explosive_pass_rate","late_down_epa","qb_share_team")),
+    list(flag = "has_comp_features",
+         features = c("comp_weighted_ppg","comp_bust_rate"))
+  ),
+  TE = list(
+    list(flag = "has_te_pbp",
+         features = c("catch_rate_te","yards_per_target_te","yards_per_rec_te",
+                      "explosive_rec_rate_te","target_share_te","targets_per_game_te",
+                      "epa_per_target_te","epa_per_play_te_pbp")),
+    list(flag = "has_comp_features",
+         features = c("comp_weighted_ppg","comp_bust_rate"))
   )
 )
+
+# ── QB feature spec ──────────────────────────────────────────────────────────
+# QBs use a lighter feature set than WR/RB because the seasonal stats endpoint
+# already encodes a lot of QB skill. Mobility (rushing component) is in here
+# explicitly because dual-threat is increasingly important in modern NFL.
+
+QB_FEATURES_BASE <- c(
+  # Draft capital
+  "sqrt_pick", "age", "draft_year_sc", "tier",
+  # Passing — final season
+  "pass_yds_final", "pass_td_final", "pass_int_final",
+  "pass_att_final", "pass_comp_final", "pass_pct_final", "pass_ypa_final",
+  "pass_td_int_ratio",
+  # Penult / ante season + trend
+  "pass_yds_penult", "pass_td_penult", "pass_att_penult",
+  "pass_yds_ante", "pass_yds_yoy",
+  # Per-game rates
+  "pass_yds_per_game", "pass_td_per_game",
+  # Mobility (rushing component)
+  "rush_car_final", "rush_yds_final", "rush_td_final",
+  "rush_yds_per_carry", "has_mobility",
+  # PBP-derived efficiency (2014+ via has_qb_pbp era flag)
+  "epa_per_dropback", "epa_per_attempt", "completion_pct_pbp",
+  "sack_rate", "int_rate", "negative_play_rate",
+  "explosive_pass_rate", "late_down_epa", "qb_share_team",
+  "has_qb_pbp",
+  # Comp-stack (kNN over historical NFL outcomes; strictly-past pool)
+  "comp_weighted_ppg", "comp_bust_rate", "has_comp_features",
+  # Combine
+  "weight", "height_in", "forty", "vertical", "broad_jump",
+  "speed_score",
+  # Recruiting
+  "recruit_stars", "recruit_rating", "recruit_rank",
+  "college_years",
+  # Era / coverage flags
+  "has_penult", "has_recruiting", "has_combine", "has_recruit_year",
+  "best_season_is_final",
+  # Draft-capital delta
+  "draft_capital_delta", "has_mock_data"
+)
+QB_BUST_FEATURES <- QB_FEATURES_BASE
+QB_PROD_FEATURES <- QB_FEATURES_BASE
+
+# ── TE feature spec ──────────────────────────────────────────────────────────
+# TEs share most of the WR receiving feature space but lose the PBP /
+# usage / PPA / landing pieces (we don't yet have TE-specific PBP).
+
+TE_FEATURES_BASE <- c(
+  # Draft capital
+  "sqrt_pick", "age", "draft_year_sc", "tier",
+  # Receiving — final season
+  "rec_final", "rec_yards_final", "rec_td_final", "ypr_final",
+  "rec_td_rate",
+  # Penult / ante season + trend
+  "rec_penult", "rec_yards_penult", "rec_td_penult",
+  "rec_yards_ante", "rec_yds_yoy",
+  # Per-game rates
+  "rec_yards_per_game", "rec_per_game",
+  # Team context
+  "teammate_rec_yards", "dominator_rate",
+  # PBP-derived efficiency (2014+, reuses WR PBP cache; has_te_pbp era flag)
+  "catch_rate_te", "yards_per_target_te", "yards_per_rec_te",
+  "explosive_rec_rate_te", "target_share_te", "targets_per_game_te",
+  "epa_per_target_te", "epa_per_play_te_pbp",
+  "has_te_pbp",
+  # Comp-stack (kNN over historical NFL outcomes; strictly-past pool)
+  "comp_weighted_ppg", "comp_bust_rate", "has_comp_features",
+  # Combine + archetype flag
+  "weight", "height_in", "forty", "vertical", "broad_jump",
+  "speed_score", "is_move_te",
+  # Recruiting
+  "recruit_stars", "recruit_rating", "recruit_rank",
+  "college_years",
+  # Era / coverage flags
+  "has_penult", "has_recruiting", "has_combine", "has_recruit_year",
+  "best_season_is_final",
+  # Landing spot (shared WR-side context)
+  "vacated_tgt_pct", "incumbent_tgt_share", "n_ret_wr_50tgt",
+  "incumbent_wr1_age", "expected_depth_rank", "team_targets_prior",
+  "has_landing_data",
+  # Draft-capital delta
+  "draft_capital_delta", "has_mock_data"
+)
+TE_BUST_FEATURES <- TE_FEATURES_BASE
+TE_PROD_FEATURES <- TE_FEATURES_BASE

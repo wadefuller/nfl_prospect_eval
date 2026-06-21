@@ -73,6 +73,27 @@ overall <- list(
                                   (oos$made_it[oos$position=="RB"] == 1)), 3)
 )
 
+# ── QB / TE metrics (separate hurdle pipeline; CV via 11b_temporal_cv_qb_te.R) ─
+qb_te_metrics <- tryCatch({
+  m <- read_csv("output/temporal_cv_qb_te/metrics_summary.csv",
+                show_col_types = FALSE)
+  qb_row <- m |> dplyr::filter(position == "QB")
+  te_row <- m |> dplyr::filter(position == "TE")
+  list(
+    qb_mae = if (nrow(qb_row)) round(qb_row$mae, 3) else NA_real_,
+    qb_cor = if (nrow(qb_row)) round(qb_row$cor, 3) else NA_real_,
+    qb_bias = if (nrow(qb_row)) round(qb_row$bias, 3) else NA_real_,
+    qb_bust_accuracy = if (nrow(qb_row)) round(qb_row$bust_accuracy, 3) else NA_real_,
+    qb_n = if (nrow(qb_row)) as.integer(qb_row$n) else 0L,
+    te_mae = if (nrow(te_row)) round(te_row$mae, 3) else NA_real_,
+    te_cor = if (nrow(te_row)) round(te_row$cor, 3) else NA_real_,
+    te_bias = if (nrow(te_row)) round(te_row$bias, 3) else NA_real_,
+    te_bust_accuracy = if (nrow(te_row)) round(te_row$bust_accuracy, 3) else NA_real_,
+    te_n = if (nrow(te_row)) as.integer(te_row$n) else 0L
+  )
+}, error = function(e) list())
+overall <- c(overall, qb_te_metrics)
+
 # ── By year ─────────────────────────────────────────────────────────────────
 # Recomputed from ensembled OOS so the trend chart reflects the deployed
 # model's accuracy, not the hurdle-only component.

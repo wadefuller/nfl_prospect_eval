@@ -5,7 +5,7 @@ import { dataUrl } from "../dataUrl";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 interface IndexPlayer {
-  id: string; name: string; position: "WR" | "RB"; college: string | null;
+  id: string; name: string; position: "WR" | "RB" | "QB" | "TE"; college: string | null;
   draft_year: number; round: number | null; pick: number | null;
   tier: string | null; headshot_url: string | null;
   p_made_it: number | null; exp_ppg: number | null;
@@ -36,7 +36,7 @@ interface BucketSummary {
   exp_ppg_bucket_hi: number | null;
 }
 interface PlayerJson {
-  id: string; name: string; position: "WR" | "RB";
+  id: string; name: string; position: "WR" | "RB" | "QB" | "TE";
   college: string | null; draft_year: number; round: number | null;
   pick: number | null; tier: string | null; headshot_url: string | null;
   summary: {
@@ -616,7 +616,7 @@ function PlayerPicker({
           }}
         />
         <div style={{ display: "flex", gap: 6, marginBottom: 6 }}>
-          {["ALL", "WR", "RB"].map(p => (
+          {["ALL", "QB", "RB", "WR", "TE"].map(p => (
             <button
               key={p}
               onClick={() => onPosFilter(p)}
@@ -711,7 +711,13 @@ function PlayerPicker({
                 }}>
                   <span style={{
                     display: "inline-block", width: 6, height: 6, borderRadius: "50%",
-                    background: p.position === "WR" ? C.blue : C.gold, flexShrink: 0,
+                    background:
+                      p.position === "WR" ? C.blue
+                      : p.position === "RB" ? C.gold
+                      : p.position === "QB" ? C.teal
+                      : p.position === "TE" ? C.coral
+                      : C.muted,
+                    flexShrink: 0,
                   }} />
                   <span style={{ overflow: "hidden", textOverflow: "ellipsis" }}>{p.name}</span>
                 </div>

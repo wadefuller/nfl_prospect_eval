@@ -138,7 +138,7 @@ export function Header({
                 border: "1px solid rgba(255,255,255,0.07)",
               }}
             >
-              {["ALL", "WR", "RB"].map((pos) => (
+              {["ALL", "QB", "RB", "WR", "TE"].map((pos) => (
                 <button
                   key={pos}
                   onClick={() => onPosFilterChange(pos)}

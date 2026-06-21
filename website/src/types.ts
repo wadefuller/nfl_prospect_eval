@@ -1,7 +1,7 @@
 export interface Prospect {
   id: string;
   name: string;
-  position: "WR" | "RB";
+  position: "WR" | "RB" | "QB" | "TE";
   college: string;
   tier: string | null;
   round: number;
@@ -106,7 +106,66 @@ export interface Prospect {
   // PBP availability flags
   has_wr_pbp: number | null;
   has_pbp: number | null;
+  has_qb_pbp: number | null;
+  has_te_pbp: number | null;
   has_cfb_data: boolean | null;
+
+  // ── QB stats (passing volume / efficiency + PBP) ──────────────────────────
+  pass_yds_final: number | null;
+  pass_td_final: number | null;
+  pass_int_final: number | null;
+  pass_pct_final: number | null;
+  pass_ypa_final: number | null;
+  pass_yds_per_game: number | null;
+  pass_td_per_game: number | null;
+  rush_yds_final: number | null;
+  rush_yds_per_carry: number | null;
+  epa_per_dropback: number | null;
+  epa_per_attempt: number | null;
+  completion_pct_pbp: number | null;
+  sack_rate: number | null;
+  int_rate: number | null;
+  explosive_pass_rate: number | null;
+  qb_share_team: number | null;
+  pass_yds_final_pct: number | null;
+  pass_td_final_pct: number | null;
+  pass_int_final_pct: number | null;
+  pass_pct_final_pct: number | null;
+  pass_ypa_final_pct: number | null;
+  pass_yds_per_game_pct: number | null;
+  pass_td_per_game_pct: number | null;
+  rush_yds_final_pct: number | null;
+  rush_yds_per_carry_pct: number | null;
+  epa_per_dropback_pct: number | null;
+  epa_per_attempt_pct: number | null;
+  completion_pct_pbp_pct: number | null;
+  sack_rate_pct: number | null;
+  int_rate_pct: number | null;
+  explosive_pass_rate_pct: number | null;
+  qb_share_team_pct: number | null;
+
+  // ── TE stats (receiving volume / efficiency + PBP, "_te" suffix to avoid
+  // colliding with WR-side fields that share the same root name) ────────────
+  rec_per_game: number | null;
+  ypr_te: number | null;
+  rec_td_rate_te: number | null;
+  dominator_rate_te: number | null;
+  catch_rate_te: number | null;
+  yards_per_target_te: number | null;
+  target_share_te: number | null;
+  targets_per_game_te: number | null;
+  epa_per_target_te: number | null;
+  explosive_rec_rate_te: number | null;
+  rec_per_game_pct: number | null;
+  ypr_te_pct: number | null;
+  rec_td_rate_te_pct: number | null;
+  dominator_rate_te_pct: number | null;
+  catch_rate_te_pct: number | null;
+  yards_per_target_te_pct: number | null;
+  target_share_te_pct: number | null;
+  targets_per_game_te_pct: number | null;
+  epa_per_target_te_pct: number | null;
+  explosive_rec_rate_te_pct: number | null;
   actual_ppg: number | null;
   actual_raw_ppg: number | null;
   actual_made_it: number | null;
