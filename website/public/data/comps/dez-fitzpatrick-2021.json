@@ -3,6 +3,30 @@
   "comps": [
     {
       "rank": 1,
+      "name": "Khalil Shakir",
+      "college": "Boise St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 148,
+      "ppg": 7.0964,
+      "rawPpg": 7.7417,
+      "madeIt": true,
+      "similarity": 0.556
+    },
+    {
+      "rank": 2,
+      "name": "Amara Darboh",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 3,
+      "pick": 106,
+      "ppg": 4.4388,
+      "rawPpg": 1.3875,
+      "madeIt": false,
+      "similarity": 0.497
+    },
+    {
+      "rank": 3,
       "name": "Chris Harper",
       "college": "Kansas St.",
       "year": 2013,
@@ -14,19 +38,43 @@
       "similarity": 0.485
     },
     {
-      "rank": 2,
-      "name": "Josh Palmer",
-      "college": "Tennessee",
-      "year": 2021,
+      "rank": 4,
+      "name": "ArDarius Stewart",
+      "college": "Alabama",
+      "year": 2017,
       "round": 3,
-      "pick": 77,
-      "ppg": 7.5341,
-      "rawPpg": 8.5506,
-      "madeIt": true,
-      "similarity": 0.439
+      "pick": 79,
+      "ppg": 3.9047,
+      "rawPpg": 1.1583,
+      "madeIt": false,
+      "similarity": 0.469
     },
     {
-      "rank": 3,
+      "rank": 5,
+      "name": "Terrance Williams",
+      "college": "Baylor",
+      "year": 2013,
+      "round": 3,
+      "pick": 74,
+      "ppg": 7.6094,
+      "rawPpg": 8.4867,
+      "madeIt": true,
+      "similarity": 0.445
+    },
+    {
+      "rank": 6,
+      "name": "DaeSean Hamilton",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 113,
+      "ppg": 5.0649,
+      "rawPpg": 4.4485,
+      "madeIt": true,
+      "similarity": 0.436
+    },
+    {
+      "rank": 7,
       "name": "Ricardo Louis",
       "college": "Auburn",
       "year": 2016,
@@ -36,54 +84,6 @@
       "rawPpg": 2.8107,
       "madeIt": false,
       "similarity": 0.434
-    },
-    {
-      "rank": 4,
-      "name": "Amara Darboh",
-      "college": "Michigan",
-      "year": 2017,
-      "round": 3,
-      "pick": 106,
-      "ppg": 4.4388,
-      "rawPpg": 1.3875,
-      "madeIt": false,
-      "similarity": 0.377
-    },
-    {
-      "rank": 5,
-      "name": "ArDarius Stewart",
-      "college": "Alabama",
-      "year": 2017,
-      "round": 3,
-      "pick": 79,
-      "ppg": 3.9047,
-      "rawPpg": 1.1583,
-      "madeIt": false,
-      "similarity": 0.368
-    },
-    {
-      "rank": 6,
-      "name": "Khalil Shakir",
-      "college": "Boise St.",
-      "year": 2022,
-      "round": 5,
-      "pick": 148,
-      "ppg": 7.0964,
-      "rawPpg": 7.7417,
-      "madeIt": true,
-      "similarity": 0.361
-    },
-    {
-      "rank": 7,
-      "name": "Antonio Callaway",
-      "college": "Florida",
-      "year": 2018,
-      "round": 4,
-      "pick": 105,
-      "ppg": 6.4447,
-      "rawPpg": 6.925,
-      "madeIt": true,
-      "similarity": 0.361
     }
   ]
 }

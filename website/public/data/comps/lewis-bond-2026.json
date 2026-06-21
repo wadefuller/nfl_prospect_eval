@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Kerry Meier",
-      "college": "Kansas",
-      "year": 2010,
-      "round": 5,
-      "pick": 165,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.574
-    },
-    {
-      "rank": 2,
       "name": "Xavier Hutchinson",
       "college": "Iowa St.",
       "year": 2023,
@@ -23,10 +11,58 @@
       "ppg": 4.4053,
       "rawPpg": 3.2615,
       "madeIt": false,
-      "similarity": 0.544
+      "similarity": 0.427
+    },
+    {
+      "rank": 2,
+      "name": "KeeSean Johnson",
+      "college": "Fresno St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 174,
+      "ppg": 4.5803,
+      "rawPpg": 3.325,
+      "madeIt": false,
+      "similarity": 0.422
     },
     {
       "rank": 3,
+      "name": "Demarcus Ayers",
+      "college": "Houston",
+      "year": 2016,
+      "round": 7,
+      "pick": 229,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.374
+    },
+    {
+      "rank": 4,
+      "name": "Kelvin Harmon",
+      "college": "North Carolina St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 206,
+      "ppg": 4.7539,
+      "rawPpg": 3.4627,
+      "madeIt": false,
+      "similarity": 0.37
+    },
+    {
+      "rank": 5,
+      "name": "Cobi Hamilton",
+      "college": "Arkansas",
+      "year": 2013,
+      "round": 6,
+      "pick": 197,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.359
+    },
+    {
+      "rank": 6,
       "name": "Antonio Brown",
       "college": "Central Michigan",
       "year": 2010,
@@ -35,55 +71,19 @@
       "ppg": 8.954,
       "rawPpg": 10.6197,
       "madeIt": true,
-      "similarity": 0.504
-    },
-    {
-      "rank": 4,
-      "name": "Dwayne Harris",
-      "college": "East Carolina",
-      "year": 2011,
-      "round": 6,
-      "pick": 176,
-      "ppg": 3.8916,
-      "rawPpg": 2.6862,
-      "madeIt": false,
-      "similarity": 0.486
-    },
-    {
-      "rank": 5,
-      "name": "Jakeem Grant",
-      "college": "Texas Tech",
-      "year": 2016,
-      "round": 6,
-      "pick": 186,
-      "ppg": 4.8105,
-      "rawPpg": 4.4233,
-      "madeIt": false,
-      "similarity": 0.465
-    },
-    {
-      "rank": 6,
-      "name": "Shi Smith",
-      "college": "South Carolina",
-      "year": 2021,
-      "round": 6,
-      "pick": 204,
-      "ppg": 4.4252,
-      "rawPpg": 2.9765,
-      "madeIt": false,
-      "similarity": 0.456
+      "similarity": 0.356
     },
     {
       "rank": 7,
-      "name": "Dylan Cantrell",
-      "college": "Texas Tech",
-      "year": 2018,
+      "name": "DeMario Douglas",
+      "college": "Liberty",
+      "year": 2023,
       "round": 6,
-      "pick": 191,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.451
+      "pick": 210,
+      "ppg": 6.3659,
+      "rawPpg": 6.5379,
+      "madeIt": true,
+      "similarity": 0.328
     }
   ]
 }

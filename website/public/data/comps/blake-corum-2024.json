@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Devin Singletary",
-      "college": "Florida Atlantic",
-      "year": 2019,
-      "round": 3,
-      "pick": 74,
-      "ppg": 9.6739,
-      "rawPpg": 10.7877,
-      "madeIt": true,
-      "similarity": 0.154
-    },
-    {
-      "rank": 2,
       "name": "Daniel Thomas",
       "college": "Kansas St.",
       "year": 2011,
@@ -23,10 +11,10 @@
       "ppg": 6.7472,
       "rawPpg": 6.1633,
       "madeIt": true,
-      "similarity": 0.141
+      "similarity": 0.437
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "Ka'Deem Carey",
       "college": "Arizona",
       "year": 2014,
@@ -35,22 +23,10 @@
       "ppg": 5.0952,
       "rawPpg": 3.052,
       "madeIt": true,
-      "similarity": 0.141
+      "similarity": 0.426
     },
     {
-      "rank": 4,
-      "name": "Joshua Kelley",
-      "college": "UCLA",
-      "year": 2020,
-      "round": 4,
-      "pick": 112,
-      "ppg": 6.1373,
-      "rawPpg": 5.0891,
-      "madeIt": true,
-      "similarity": 0.132
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "name": "Samaje Perine",
       "college": "Oklahoma",
       "year": 2017,
@@ -59,10 +35,10 @@
       "ppg": 7.6423,
       "rawPpg": 7.5,
       "madeIt": true,
-      "similarity": 0.127
+      "similarity": 0.424
     },
     {
-      "rank": 6,
+      "rank": 4,
       "name": "Mark Walton",
       "college": "Miami (FL)",
       "year": 2018,
@@ -71,19 +47,19 @@
       "ppg": 5.1099,
       "rawPpg": 2.9643,
       "madeIt": true,
-      "similarity": 0.126
+      "similarity": 0.408
     },
     {
-      "rank": 7,
-      "name": "Montee Ball",
-      "college": "Wisconsin",
-      "year": 2013,
-      "round": 2,
-      "pick": 58,
-      "ppg": 6.954,
-      "rawPpg": 6.15,
+      "rank": 5,
+      "name": "Jeremy Langford",
+      "college": "Michigan St.",
+      "year": 2015,
+      "round": 4,
+      "pick": 106,
+      "ppg": 7.5448,
+      "rawPpg": 7.2075,
       "madeIt": true,
-      "similarity": 0.12
+      "similarity": 0.38
     }
   ]
 }

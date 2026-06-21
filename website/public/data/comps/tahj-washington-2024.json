@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "DeMarco Sampson",
-      "college": "San Diego St.",
-      "year": 2011,
-      "round": 7,
-      "pick": 249,
-      "ppg": 4.5696,
-      "rawPpg": 0.85,
-      "madeIt": false,
-      "similarity": 0.555
-    },
-    {
-      "rank": 2,
-      "name": "Scott Miller",
-      "college": "Bowling Green",
-      "year": 2019,
-      "round": 6,
-      "pick": 208,
-      "ppg": 5.5265,
-      "rawPpg": 4.9659,
-      "madeIt": true,
-      "similarity": 0.534
-    },
-    {
-      "rank": 3,
-      "name": "Da'Ron Brown",
-      "college": "Northern Illinois",
-      "year": 2015,
-      "round": 7,
-      "pick": 233,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.517
-    },
-    {
-      "rank": 4,
       "name": "DeVeren Johnson",
       "college": "Sacred Heart",
       "year": 2002,
@@ -47,10 +11,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.513
+      "similarity": 0.6
     },
     {
-      "rank": 5,
+      "rank": 2,
       "name": "Michael Coleman",
       "college": "Widener",
       "year": 2002,
@@ -59,10 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.513
+      "similarity": 0.6
     },
     {
-      "rank": 6,
+      "rank": 3,
       "name": "Rodney Wright",
       "college": "Fresno St.",
       "year": 2002,
@@ -71,10 +35,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.513
+      "similarity": 0.6
     },
     {
-      "rank": 7,
+      "rank": 4,
       "name": "DeAndrew Rubin",
       "college": "South Florida",
       "year": 2003,
@@ -83,7 +47,43 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.513
+      "similarity": 0.6
+    },
+    {
+      "rank": 5,
+      "name": "Travis Anglin",
+      "college": "Memphis",
+      "year": 2003,
+      "round": 7,
+      "pick": 260,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.6
+    },
+    {
+      "rank": 6,
+      "name": "Bennie Brazell",
+      "college": "LSU",
+      "year": 2006,
+      "round": 7,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.6
+    },
+    {
+      "rank": 7,
+      "name": "Kevin McMahan",
+      "college": "Maine",
+      "year": 2006,
+      "round": 7,
+      "pick": 255,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.6
     }
   ]
 }

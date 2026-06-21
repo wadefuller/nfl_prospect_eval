@@ -11,7 +11,7 @@
       "ppg": 13.3263,
       "rawPpg": 17.2986,
       "madeIt": true,
-      "similarity": 0.497
+      "similarity": 0.517
     },
     {
       "rank": 2,
@@ -23,10 +23,34 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.432
+      "similarity": 0.507
     },
     {
       "rank": 3,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.48
+    },
+    {
+      "rank": 4,
+      "name": "Toney Clemons",
+      "college": "Colorado",
+      "year": 2012,
+      "round": 7,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.464
+    },
+    {
+      "rank": 5,
       "name": "Darius Slayton",
       "college": "Auburn",
       "year": 2019,
@@ -38,52 +62,28 @@
       "similarity": 0.427
     },
     {
-      "rank": 4,
-      "name": "Simi Fehoko",
-      "college": "Stanford",
-      "year": 2021,
-      "round": 5,
-      "pick": 179,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.406
-    },
-    {
-      "rank": 5,
-      "name": "Rodney Adams",
-      "college": "South Florida",
-      "year": 2017,
-      "round": 5,
-      "pick": 170,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.392
-    },
-    {
       "rank": 6,
-      "name": "Shelton Gibson",
-      "college": "West Virginia",
-      "year": 2017,
-      "round": 5,
-      "pick": 166,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "Brice Butler",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 7,
+      "pick": 209,
+      "ppg": 4.3877,
+      "rawPpg": 2.9429,
       "madeIt": false,
-      "similarity": 0.389
+      "similarity": 0.425
     },
     {
       "rank": 7,
-      "name": "Frank Darby",
-      "college": "Arizona St.",
-      "year": 2021,
-      "round": 6,
-      "pick": 187,
+      "name": "Kenny Bell",
+      "college": "Nebraska",
+      "year": 2015,
+      "round": 5,
+      "pick": 162,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.386
+      "similarity": 0.414
     }
   ]
 }

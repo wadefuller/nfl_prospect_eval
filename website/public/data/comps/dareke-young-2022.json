@@ -3,87 +3,87 @@
   "comps": [
     {
       "rank": 1,
-      "name": "DeVeren Johnson",
-      "college": "Sacred Heart",
-      "year": 2002,
-      "round": 6,
-      "pick": 208,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 0.772
     },
     {
       "rank": 2,
-      "name": "Michael Coleman",
-      "college": "Widener",
-      "year": 2002,
+      "name": "Tre Nixon",
+      "college": "Central Florida",
+      "year": 2021,
       "round": 7,
-      "pick": 217,
+      "pick": 242,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 0.743
     },
     {
       "rank": 3,
-      "name": "Rodney Wright",
-      "college": "Fresno St.",
-      "year": 2002,
+      "name": "Stacy Coley",
+      "college": "Miami (FL)",
+      "year": 2017,
       "round": 7,
-      "pick": 249,
+      "pick": 219,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 0.675
     },
     {
       "rank": 4,
-      "name": "Aaron Lockett",
-      "college": "Kansas St.",
-      "year": 2002,
-      "round": 7,
-      "pick": 254,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 1
-    },
-    {
-      "rank": 5,
-      "name": "Kareem Kelly",
-      "college": "USC",
-      "year": 2003,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
       "round": 6,
       "pick": 203,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 0.651
+    },
+    {
+      "rank": 5,
+      "name": "Kawaan Baker",
+      "college": "South Alabama",
+      "year": 2021,
+      "round": 7,
+      "pick": 255,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.646
     },
     {
       "rank": 6,
-      "name": "DeAndrew Rubin",
-      "college": "South Florida",
-      "year": 2003,
+      "name": "Jeremy Ebert",
+      "college": "Northwestern",
+      "year": 2012,
       "round": 7,
-      "pick": 253,
+      "pick": 235,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 0.597
     },
     {
       "rank": 7,
-      "name": "Travis Anglin",
-      "college": "Memphis",
-      "year": 2003,
+      "name": "Bo Melton",
+      "college": "Rutgers",
+      "year": 2022,
       "round": 7,
-      "pick": 260,
+      "pick": 229,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 0.591
     }
   ]
 }

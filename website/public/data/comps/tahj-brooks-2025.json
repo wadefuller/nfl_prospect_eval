@@ -11,19 +11,19 @@
       "ppg": 11.4589,
       "rawPpg": 13.3094,
       "madeIt": true,
-      "similarity": 0.195
+      "similarity": 0.488
     },
     {
       "rank": 2,
-      "name": "Tyler Gaffney",
-      "college": "Stanford",
-      "year": 2014,
-      "round": 6,
-      "pick": 204,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.184
+      "name": "Da'Rel Scott",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 7,
+      "pick": 221,
+      "ppg": 5.4795,
+      "rawPpg": 0.2714,
+      "madeIt": true,
+      "similarity": 0.385
     },
     {
       "rank": 3,
@@ -35,19 +35,19 @@
       "ppg": 12.2495,
       "rawPpg": 14.4221,
       "madeIt": true,
-      "similarity": 0.167
+      "similarity": 0.381
     },
     {
       "rank": 4,
-      "name": "Alex Collins",
-      "college": "Arkansas",
-      "year": 2016,
-      "round": 5,
-      "pick": 171,
-      "ppg": 9.3836,
-      "rawPpg": 10.3717,
-      "madeIt": true,
-      "similarity": 0.164
+      "name": "Jawan Jamison",
+      "college": "Rutgers",
+      "year": 2013,
+      "round": 7,
+      "pick": 228,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.372
     },
     {
       "rank": 5,
@@ -59,31 +59,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.155
-    },
-    {
-      "rank": 6,
-      "name": "Da'Rel Scott",
-      "college": "Maryland",
-      "year": 2011,
-      "round": 7,
-      "pick": 221,
-      "ppg": 5.4795,
-      "rawPpg": 0.2714,
-      "madeIt": true,
-      "similarity": 0.151
-    },
-    {
-      "rank": 7,
-      "name": "Andre Ellington",
-      "college": "Clemson",
-      "year": 2013,
-      "round": 6,
-      "pick": 187,
-      "ppg": 9.8704,
-      "rawPpg": 11.2975,
-      "madeIt": true,
-      "similarity": 0.149
+      "similarity": 0.353
     }
   ]
 }

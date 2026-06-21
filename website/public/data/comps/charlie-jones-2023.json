@@ -3,6 +3,18 @@
   "comps": [
     {
       "rank": 1,
+      "name": "John Hightower",
+      "college": "Boise St.",
+      "year": 2020,
+      "round": 5,
+      "pick": 168,
+      "ppg": 4.5858,
+      "rawPpg": 2.38,
+      "madeIt": false,
+      "similarity": 0.379
+    },
+    {
+      "rank": 2,
       "name": "Chad Hansen",
       "college": "California",
       "year": 2017,
@@ -11,10 +23,22 @@
       "ppg": 4.5555,
       "rawPpg": 1.7375,
       "madeIt": false,
-      "similarity": 0.412
+      "similarity": 0.376
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "name": "David Reed",
+      "college": "Utah",
+      "year": 2010,
+      "round": 5,
+      "pick": 156,
+      "ppg": 2.9866,
+      "rawPpg": 0.4639,
+      "madeIt": false,
+      "similarity": 0.375
+    },
+    {
+      "rank": 4,
       "name": "Kealoha Pilares",
       "college": "Hawaii",
       "year": 2011,
@@ -23,67 +47,43 @@
       "ppg": 3.2666,
       "rawPpg": 1.079,
       "madeIt": false,
-      "similarity": 0.392
-    },
-    {
-      "rank": 3,
-      "name": "Jaleel Scott",
-      "college": "New Mexico St.",
-      "year": 2018,
-      "round": 4,
-      "pick": 132,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.366
-    },
-    {
-      "rank": 4,
-      "name": "Rashad Greene",
-      "college": "Florida St.",
-      "year": 2015,
-      "round": 5,
-      "pick": 139,
-      "ppg": 4.1798,
-      "rawPpg": 2.4007,
-      "madeIt": false,
-      "similarity": 0.336
+      "similarity": 0.37
     },
     {
       "rank": 5,
-      "name": "Devin Duvernay",
-      "college": "Texas",
-      "year": 2020,
-      "round": 3,
-      "pick": 92,
-      "ppg": 5.5159,
-      "rawPpg": 5.3826,
-      "madeIt": true,
-      "similarity": 0.316
+      "name": "Cory Rodgers",
+      "college": "TCU",
+      "year": 2006,
+      "round": 4,
+      "pick": 104,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.367
     },
     {
       "rank": 6,
-      "name": "Quinton Patton",
-      "college": "Louisiana Tech",
-      "year": 2013,
+      "name": "Malcolm Mitchell",
+      "college": "Georgia",
+      "year": 2016,
       "round": 4,
-      "pick": 128,
-      "ppg": 4.8854,
-      "rawPpg": 3.8062,
-      "madeIt": false,
-      "similarity": 0.301
+      "pick": 112,
+      "ppg": 6.269,
+      "rawPpg": 6.675,
+      "madeIt": true,
+      "similarity": 0.35
     },
     {
       "rank": 7,
-      "name": "Mike Williams",
-      "college": "Syracuse",
-      "year": 2010,
+      "name": "DaeSean Hamilton",
+      "college": "Penn St.",
+      "year": 2018,
       "round": 4,
-      "pick": 101,
-      "ppg": 9.8448,
-      "rawPpg": 11.785,
+      "pick": 113,
+      "ppg": 5.0649,
+      "rawPpg": 4.4485,
       "madeIt": true,
-      "similarity": 0.292
+      "similarity": 0.336
     }
   ]
 }

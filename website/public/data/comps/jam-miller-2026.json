@@ -3,18 +3,54 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Marcus Murphy",
-      "college": "Missouri",
-      "year": 2015,
+      "name": "David Williams",
+      "college": "Arkansas",
+      "year": 2018,
       "round": 7,
-      "pick": 230,
-      "ppg": 4.4872,
-      "rawPpg": 0.4615,
+      "pick": 226,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.208
+      "similarity": 0.351
     },
     {
       "rank": 2,
+      "name": "Kenny Hilliard",
+      "college": "LSU",
+      "year": 2015,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.326
+    },
+    {
+      "rank": 3,
+      "name": "Khalfani Muhammad",
+      "college": "California",
+      "year": 2017,
+      "round": 7,
+      "pick": 241,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.322
+    },
+    {
+      "rank": 4,
+      "name": "Jermar Jefferson",
+      "college": "Oregon St.",
+      "year": 2021,
+      "round": 7,
+      "pick": 257,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.319
+    },
+    {
+      "rank": 5,
       "name": "Matthew Dayes",
       "college": "North Carolina St.",
       "year": 2017,
@@ -23,67 +59,7 @@
       "ppg": 4.4941,
       "rawPpg": 0.4769,
       "madeIt": false,
-      "similarity": 0.199
-    },
-    {
-      "rank": 3,
-      "name": "Ahmaad Galloway",
-      "college": "Alabama",
-      "year": 2003,
-      "round": 7,
-      "pick": 235,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.191
-    },
-    {
-      "rank": 4,
-      "name": "Darius Jackson",
-      "college": "Eastern Michigan",
-      "year": 2016,
-      "round": 6,
-      "pick": 216,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.19
-    },
-    {
-      "rank": 5,
-      "name": "Da'Rel Scott",
-      "college": "Maryland",
-      "year": 2011,
-      "round": 7,
-      "pick": 221,
-      "ppg": 5.4795,
-      "rawPpg": 0.2714,
-      "madeIt": true,
-      "similarity": 0.189
-    },
-    {
-      "rank": 6,
-      "name": "Mike Weber",
-      "college": "Ohio St.",
-      "year": 2019,
-      "round": 7,
-      "pick": 218,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.186
-    },
-    {
-      "rank": 7,
-      "name": "Luke Staley",
-      "college": "BYU",
-      "year": 2002,
-      "round": 7,
-      "pick": 214,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.178
+      "similarity": 0.316
     }
   ]
 }

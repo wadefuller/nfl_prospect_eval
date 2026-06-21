@@ -3,18 +3,30 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Shi Smith",
-      "college": "South Carolina",
-      "year": 2021,
+      "name": "Ray-Ray McCloud",
+      "college": "Clemson",
+      "year": 2018,
       "round": 6,
-      "pick": 204,
-      "ppg": 4.4252,
-      "rawPpg": 2.9765,
+      "pick": 187,
+      "ppg": 3.1533,
+      "rawPpg": 1.1625,
+      "madeIt": false,
+      "similarity": 0.603
+    },
+    {
+      "rank": 2,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
       "madeIt": false,
       "similarity": 0.577
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Terrence Austin",
       "college": "UCLA",
       "year": 2010,
@@ -23,67 +35,55 @@
       "ppg": 4.3512,
       "rawPpg": 1.77,
       "madeIt": false,
-      "similarity": 0.575
-    },
-    {
-      "rank": 3,
-      "name": "Deon Cain",
-      "college": "Clemson",
-      "year": 2018,
-      "round": 6,
-      "pick": 185,
-      "ppg": 4.1604,
-      "rawPpg": 1.5364,
-      "madeIt": false,
-      "similarity": 0.573
+      "similarity": 0.559
     },
     {
       "rank": 4,
-      "name": "Dezmon Patmon",
-      "college": "Washington St.",
-      "year": 2020,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
       "round": 6,
-      "pick": 212,
-      "ppg": 0,
-      "rawPpg": null,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
       "madeIt": false,
-      "similarity": 0.571
+      "similarity": 0.555
     },
     {
       "rank": 5,
-      "name": "Kayshon Boutte",
-      "college": "LSU",
-      "year": 2023,
+      "name": "Robert Herron",
+      "college": "Wyoming",
+      "year": 2014,
       "round": 6,
-      "pick": 187,
-      "ppg": 6.7429,
-      "rawPpg": 7.1895,
+      "pick": 185,
+      "ppg": 5.0105,
+      "rawPpg": 2.4667,
       "madeIt": true,
-      "similarity": 0.556
+      "similarity": 0.551
     },
     {
       "rank": 6,
-      "name": "Dylan Cantrell",
-      "college": "Texas Tech",
-      "year": 2018,
-      "round": 6,
-      "pick": 191,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "K.J. Hill",
+      "college": "Ohio St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 220,
+      "ppg": 3.2568,
+      "rawPpg": 0.825,
       "madeIt": false,
-      "similarity": 0.541
+      "similarity": 0.53
     },
     {
       "rank": 7,
-      "name": "Seth Williams",
+      "name": "Jeris McIntyre",
       "college": "Auburn",
-      "year": 2021,
+      "year": 2004,
       "round": 6,
-      "pick": 219,
+      "pick": 195,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.537
+      "similarity": 0.525
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "prospectId": "gavin-bartholomew-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ted Bolser",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.505
+    },
+    {
+      "rank": 2,
+      "name": "Rob Blanchflower",
+      "college": "Massachusetts",
+      "year": 2014,
+      "round": 7,
+      "pick": 230,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.41
+    },
+    {
+      "rank": 3,
+      "name": "Teagan Quitoriano",
+      "college": "Oregon St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 170,
+      "ppg": 4.1852,
+      "rawPpg": 3.8286,
+      "madeIt": false,
+      "similarity": 0.388
+    },
+    {
+      "rank": 4,
+      "name": "Jordan Thomas",
+      "college": "Mississippi St.",
+      "year": 2018,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.385
+    },
+    {
+      "rank": 5,
+      "name": "Randall Telfer",
+      "college": "USC",
+      "year": 2015,
+      "round": 6,
+      "pick": 198,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.376
+    },
+    {
+      "rank": 6,
+      "name": "Davis Allen",
+      "college": "Clemson",
+      "year": 2023,
+      "round": 5,
+      "pick": 175,
+      "ppg": 3.7042,
+      "rawPpg": 3.1576,
+      "madeIt": false,
+      "similarity": 0.361
+    },
+    {
+      "rank": 7,
+      "name": "Grant Calcaterra",
+      "college": "SMU",
+      "year": 2022,
+      "round": 6,
+      "pick": 198,
+      "ppg": 3.4556,
+      "rawPpg": 2.4767,
+      "madeIt": false,
+      "similarity": 0.343
+    }
+  ]
+}

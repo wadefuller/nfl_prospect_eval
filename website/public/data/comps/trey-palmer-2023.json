@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Ryan Swope",
-      "college": "Texas A&M",
-      "year": 2013,
-      "round": 6,
-      "pick": 174,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.665
-    },
-    {
-      "rank": 2,
-      "name": "Bud Sasser",
-      "college": "Missouri",
-      "year": 2015,
-      "round": 6,
-      "pick": 201,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.653
-    },
-    {
-      "rank": 3,
       "name": "Tyler Johnson",
       "college": "Minnesota",
       "year": 2020,
@@ -35,22 +11,34 @@
       "ppg": 4.3889,
       "rawPpg": 3.4325,
       "madeIt": false,
-      "similarity": 0.617
+      "similarity": 0.674
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Swope",
+      "college": "Texas A&M",
+      "year": 2013,
+      "round": 6,
+      "pick": 174,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.668
+    },
+    {
+      "rank": 3,
+      "name": "Bud Sasser",
+      "college": "Missouri",
+      "year": 2015,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.649
     },
     {
       "rank": 4,
-      "name": "DeMario Douglas",
-      "college": "Liberty",
-      "year": 2023,
-      "round": 6,
-      "pick": 210,
-      "ppg": 6.3659,
-      "rawPpg": 6.5379,
-      "madeIt": true,
-      "similarity": 0.598
-    },
-    {
-      "rank": 5,
       "name": "Scott Miller",
       "college": "Bowling Green",
       "year": 2019,
@@ -59,10 +47,10 @@
       "ppg": 5.5265,
       "rawPpg": 4.9659,
       "madeIt": true,
-      "similarity": 0.566
+      "similarity": 0.574
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "DeVeren Johnson",
       "college": "Sacred Heart",
       "year": 2002,
@@ -71,10 +59,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.556
+      "similarity": 0.545
     },
     {
-      "rank": 7,
+      "rank": 6,
       "name": "Michael Coleman",
       "college": "Widener",
       "year": 2002,
@@ -83,7 +71,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.556
+      "similarity": 0.545
+    },
+    {
+      "rank": 7,
+      "name": "Jon Olinger",
+      "college": "Cincinnati",
+      "year": 2003,
+      "round": 5,
+      "pick": 159,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.545
     }
   ]
 }

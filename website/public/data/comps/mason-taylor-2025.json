@@ -1,0 +1,89 @@
+{
+  "prospectId": "mason-taylor-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Austin Hooper",
+      "college": "Stanford",
+      "year": 2016,
+      "round": 3,
+      "pick": 81,
+      "ppg": 6.0846,
+      "rawPpg": 6.9563,
+      "madeIt": true,
+      "similarity": 0.585
+    },
+    {
+      "rank": 2,
+      "name": "C.J. Fiedorowicz",
+      "college": "Iowa",
+      "year": 2014,
+      "round": 3,
+      "pick": 65,
+      "ppg": 4.568,
+      "rawPpg": 4.6062,
+      "madeIt": false,
+      "similarity": 0.442
+    },
+    {
+      "rank": 3,
+      "name": "Luke Schoonmaker",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 2,
+      "pick": 58,
+      "ppg": 3.389,
+      "rawPpg": 2.7542,
+      "madeIt": false,
+      "similarity": 0.402
+    },
+    {
+      "rank": 4,
+      "name": "Hayden Hurst",
+      "college": "South Carolina",
+      "year": 2018,
+      "round": 1,
+      "pick": 25,
+      "ppg": 5.2596,
+      "rawPpg": 5.7188,
+      "madeIt": true,
+      "similarity": 0.35
+    },
+    {
+      "rank": 5,
+      "name": "Vernon Davis",
+      "college": "Maryland",
+      "year": 2006,
+      "round": 1,
+      "pick": 6,
+      "ppg": 5.8252,
+      "rawPpg": 6.8446,
+      "madeIt": true,
+      "similarity": 0.327
+    },
+    {
+      "rank": 6,
+      "name": "Gerald Everett",
+      "college": "South Alabama",
+      "year": 2017,
+      "round": 2,
+      "pick": 44,
+      "ppg": 4.9037,
+      "rawPpg": 5.3075,
+      "madeIt": false,
+      "similarity": 0.327
+    },
+    {
+      "rank": 7,
+      "name": "Sam LaPorta",
+      "college": "Iowa",
+      "year": 2023,
+      "round": 2,
+      "pick": 34,
+      "ppg": 8.3966,
+      "rawPpg": 10.6013,
+      "madeIt": true,
+      "similarity": 0.316
+    }
+  ]
+}

@@ -11,19 +11,19 @@
       "ppg": 6.2985,
       "rawPpg": 5.5688,
       "madeIt": true,
-      "similarity": 0.257
+      "similarity": 0.516
     },
     {
       "rank": 2,
-      "name": "Kenny Irons",
-      "college": "Auburn",
-      "year": 2007,
+      "name": "Carlos Hyde",
+      "college": "Ohio St.",
+      "year": 2014,
       "round": 2,
-      "pick": 49,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.232
+      "pick": 57,
+      "ppg": 10.5147,
+      "rawPpg": 12.2835,
+      "madeIt": true,
+      "similarity": 0.497
     },
     {
       "rank": 3,
@@ -35,46 +35,10 @@
       "ppg": 12.7814,
       "rawPpg": 15.3625,
       "madeIt": true,
-      "similarity": 0.225
+      "similarity": 0.488
     },
     {
       "rank": 4,
-      "name": "Mikel Leshoure",
-      "college": "Illinois",
-      "year": 2011,
-      "round": 2,
-      "pick": 57,
-      "ppg": 9.6776,
-      "rawPpg": 11.8714,
-      "madeIt": true,
-      "similarity": 0.224
-    },
-    {
-      "rank": 5,
-      "name": "Carlos Hyde",
-      "college": "Ohio St.",
-      "year": 2014,
-      "round": 2,
-      "pick": 57,
-      "ppg": 10.5147,
-      "rawPpg": 12.2835,
-      "madeIt": true,
-      "similarity": 0.222
-    },
-    {
-      "rank": 6,
-      "name": "Manuel White",
-      "college": "UCLA",
-      "year": 2005,
-      "round": 4,
-      "pick": 120,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.206
-    },
-    {
-      "rank": 7,
       "name": "Zach Charbonnet",
       "college": "UCLA",
       "year": 2023,
@@ -83,7 +47,19 @@
       "ppg": 9.4169,
       "rawPpg": 10.2357,
       "madeIt": true,
-      "similarity": 0.201
+      "similarity": 0.48
+    },
+    {
+      "rank": 5,
+      "name": "Kenny Irons",
+      "college": "Auburn",
+      "year": 2007,
+      "round": 2,
+      "pick": 49,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.47
     }
   ]
 }

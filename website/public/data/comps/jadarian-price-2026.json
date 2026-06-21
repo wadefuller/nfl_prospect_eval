@@ -3,18 +3,42 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Todd Gurley",
+      "name": "James Cook",
       "college": "Georgia",
-      "year": 2015,
-      "round": 1,
-      "pick": 10,
-      "ppg": 15.3029,
-      "rawPpg": 19.3215,
+      "year": 2022,
+      "round": 2,
+      "pick": 63,
+      "ppg": 11.9495,
+      "rawPpg": 14.0314,
       "madeIt": true,
-      "similarity": 0.308
+      "similarity": 0.362
     },
     {
       "rank": 2,
+      "name": "T.J. Yeldon",
+      "college": "Alabama",
+      "year": 2015,
+      "round": 2,
+      "pick": 36,
+      "ppg": 8.7146,
+      "rawPpg": 9.5025,
+      "madeIt": true,
+      "similarity": 0.342
+    },
+    {
+      "rank": 3,
+      "name": "Zach Charbonnet",
+      "college": "UCLA",
+      "year": 2023,
+      "round": 2,
+      "pick": 52,
+      "ppg": 9.4169,
+      "rawPpg": 10.2357,
+      "madeIt": true,
+      "similarity": 0.334
+    },
+    {
+      "rank": 4,
       "name": "Kendre Miller",
       "college": "TCU",
       "year": 2023,
@@ -23,67 +47,19 @@
       "ppg": 6.5182,
       "rawPpg": 4.9524,
       "madeIt": true,
-      "similarity": 0.171
-    },
-    {
-      "rank": 3,
-      "name": "Josh Jacobs",
-      "college": "Alabama",
-      "year": 2019,
-      "round": 1,
-      "pick": 24,
-      "ppg": 11.8302,
-      "rawPpg": 14.1446,
-      "madeIt": true,
-      "similarity": 0.146
-    },
-    {
-      "rank": 4,
-      "name": "Jeremy Hill",
-      "college": "LSU",
-      "year": 2014,
-      "round": 2,
-      "pick": 55,
-      "ppg": 10.3687,
-      "rawPpg": 11.6954,
-      "madeIt": true,
-      "similarity": 0.143
+      "similarity": 0.332
     },
     {
       "rank": 5,
-      "name": "Ronald Jones II",
-      "college": "USC",
-      "year": 2018,
-      "round": 2,
-      "pick": 38,
-      "ppg": 9.7223,
-      "rawPpg": 10.8661,
-      "madeIt": true,
-      "similarity": 0.142
-    },
-    {
-      "rank": 6,
-      "name": "Eddie Lacy",
-      "college": "Alabama",
-      "year": 2013,
-      "round": 2,
-      "pick": 61,
-      "ppg": 12.7814,
-      "rawPpg": 15.3625,
-      "madeIt": true,
-      "similarity": 0.139
-    },
-    {
-      "rank": 7,
-      "name": "Nick Chubb",
+      "name": "D'Andre Swift",
       "college": "Georgia",
-      "year": 2018,
+      "year": 2020,
       "round": 2,
       "pick": 35,
-      "ppg": 12.7506,
-      "rawPpg": 15.7333,
+      "ppg": 11.1626,
+      "rawPpg": 13.2577,
       "madeIt": true,
-      "similarity": 0.137
+      "similarity": 0.32
     }
   ]
 }

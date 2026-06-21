@@ -11,46 +11,10 @@
       "ppg": 6.9161,
       "rawPpg": 6.0258,
       "madeIt": true,
-      "similarity": 0.371
+      "similarity": 0.576
     },
     {
       "rank": 2,
-      "name": "Bilal Powell",
-      "college": "Louisville",
-      "year": 2011,
-      "round": 4,
-      "pick": 126,
-      "ppg": 7.3136,
-      "rawPpg": 7.0371,
-      "madeIt": true,
-      "similarity": 0.311
-    },
-    {
-      "rank": 3,
-      "name": "Michael Carter",
-      "college": "North Carolina",
-      "year": 2021,
-      "round": 4,
-      "pick": 107,
-      "ppg": 7.9571,
-      "rawPpg": 8.1683,
-      "madeIt": true,
-      "similarity": 0.266
-    },
-    {
-      "rank": 4,
-      "name": "James White",
-      "college": "Wisconsin",
-      "year": 2014,
-      "round": 4,
-      "pick": 130,
-      "ppg": 8.1461,
-      "rawPpg": 8.3906,
-      "madeIt": true,
-      "similarity": 0.258
-    },
-    {
-      "rank": 5,
       "name": "Marlon Mack",
       "college": "South Florida",
       "year": 2017,
@@ -59,10 +23,22 @@
       "ppg": 11.1435,
       "rawPpg": 13.2917,
       "madeIt": true,
-      "similarity": 0.232
+      "similarity": 0.518
     },
     {
-      "rank": 6,
+      "rank": 3,
+      "name": "Bilal Powell",
+      "college": "Louisville",
+      "year": 2011,
+      "round": 4,
+      "pick": 126,
+      "ppg": 7.3136,
+      "rawPpg": 7.0371,
+      "madeIt": true,
+      "similarity": 0.514
+    },
+    {
+      "rank": 4,
       "name": "Chris Thompson",
       "college": "Florida St.",
       "year": 2013,
@@ -71,19 +47,19 @@
       "ppg": 6.8699,
       "rawPpg": 5.7769,
       "madeIt": true,
-      "similarity": 0.23
+      "similarity": 0.513
     },
     {
-      "rank": 7,
-      "name": "Jonathan Williams",
-      "college": "Arkansas",
-      "year": 2016,
-      "round": 5,
-      "pick": 156,
-      "ppg": 5.6678,
-      "rawPpg": 1.4875,
+      "rank": 5,
+      "name": "Michael Carter",
+      "college": "North Carolina",
+      "year": 2021,
+      "round": 4,
+      "pick": 107,
+      "ppg": 7.9571,
+      "rawPpg": 8.1683,
       "madeIt": true,
-      "similarity": 0.223
+      "similarity": 0.503
     }
   ]
 }

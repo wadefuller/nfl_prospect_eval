@@ -1,0 +1,65 @@
+{
+  "prospectId": "drew-allar-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Desmond Ridder",
+      "college": "Cincinnati",
+      "year": 2022,
+      "round": 3,
+      "pick": 74,
+      "ppg": 11.7419,
+      "rawPpg": 11.776,
+      "madeIt": true,
+      "similarity": 0.565
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Finley",
+      "college": "North Carolina St.",
+      "year": 2019,
+      "round": 4,
+      "pick": 104,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.464
+    },
+    {
+      "rank": 3,
+      "name": "Kirk Cousins",
+      "college": "Michigan St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 102,
+      "ppg": 12.5345,
+      "rawPpg": 14.7333,
+      "madeIt": true,
+      "similarity": 0.447
+    },
+    {
+      "rank": 4,
+      "name": "DeShone Kizer",
+      "college": "Notre Dame",
+      "year": 2017,
+      "round": 2,
+      "pick": 52,
+      "ppg": 11.7103,
+      "rawPpg": 11.7107,
+      "madeIt": true,
+      "similarity": 0.4
+    },
+    {
+      "rank": 5,
+      "name": "Sean Mannion",
+      "college": "Oregon St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 89,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.395
+    }
+  ]
+}

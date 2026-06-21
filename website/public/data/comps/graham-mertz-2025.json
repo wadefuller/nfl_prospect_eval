@@ -1,0 +1,65 @@
+{
+  "prospectId": "graham-mertz-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tanner McKee",
+      "college": "Stanford",
+      "year": 2023,
+      "round": 6,
+      "pick": 188,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.366
+    },
+    {
+      "rank": 2,
+      "name": "Brad Kaaya",
+      "college": "Miami (FL)",
+      "year": 2017,
+      "round": 6,
+      "pick": 215,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.349
+    },
+    {
+      "rank": 3,
+      "name": "David Fales",
+      "college": "San Jose St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 183,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.349
+    },
+    {
+      "rank": 4,
+      "name": "Luke Falk",
+      "college": "Washington St.",
+      "year": 2018,
+      "round": 6,
+      "pick": 199,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.335
+    },
+    {
+      "rank": 5,
+      "name": "A.J. McCarron",
+      "college": "Alabama",
+      "year": 2014,
+      "round": 5,
+      "pick": 164,
+      "ppg": 10.5486,
+      "rawPpg": 7.8943,
+      "madeIt": true,
+      "similarity": 0.333
+    }
+  ]
+}

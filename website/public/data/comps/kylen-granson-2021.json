@@ -1,0 +1,89 @@
+{
+  "prospectId": "kylen-granson-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Brevin Jordan",
+      "college": "Miami (FL)",
+      "year": 2021,
+      "round": 5,
+      "pick": 147,
+      "ppg": 4.637,
+      "rawPpg": 4.9825,
+      "madeIt": false,
+      "similarity": 0.425
+    },
+    {
+      "rank": 2,
+      "name": "Jordan Leggett",
+      "college": "Clemson",
+      "year": 2017,
+      "round": 5,
+      "pick": 150,
+      "ppg": 3.2365,
+      "rawPpg": 1.8769,
+      "madeIt": false,
+      "similarity": 0.412
+    },
+    {
+      "rank": 3,
+      "name": "Jeff Heuerman",
+      "college": "Ohio St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 92,
+      "ppg": 3.7112,
+      "rawPpg": 3.085,
+      "madeIt": false,
+      "similarity": 0.398
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Higbee",
+      "college": "Western Kentucky",
+      "year": 2016,
+      "round": 4,
+      "pick": 110,
+      "ppg": 3.8786,
+      "rawPpg": 3.6143,
+      "madeIt": false,
+      "similarity": 0.385
+    },
+    {
+      "rank": 5,
+      "name": "Brycen Hopkins",
+      "college": "Purdue",
+      "year": 2020,
+      "round": 4,
+      "pick": 136,
+      "ppg": 3.646,
+      "rawPpg": 2.0571,
+      "madeIt": false,
+      "similarity": 0.351
+    },
+    {
+      "rank": 6,
+      "name": "Jordan Akins",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 98,
+      "ppg": 4.588,
+      "rawPpg": 4.7514,
+      "madeIt": false,
+      "similarity": 0.345
+    },
+    {
+      "rank": 7,
+      "name": "Tyler Conklin",
+      "college": "Central Michigan",
+      "year": 2018,
+      "round": 5,
+      "pick": 157,
+      "ppg": 3.3576,
+      "rawPpg": 2.4833,
+      "madeIt": false,
+      "similarity": 0.325
+    }
+  ]
+}

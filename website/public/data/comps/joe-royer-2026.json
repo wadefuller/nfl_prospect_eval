@@ -1,0 +1,89 @@
+{
+  "prospectId": "joe-royer-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Andrew Quarless",
+      "college": "Penn St.",
+      "year": 2010,
+      "round": 5,
+      "pick": 154,
+      "ppg": 3.8485,
+      "rawPpg": 3.1917,
+      "madeIt": false,
+      "similarity": 0.599
+    },
+    {
+      "rank": 2,
+      "name": "Jesse James",
+      "college": "Penn St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 160,
+      "ppg": 4.7274,
+      "rawPpg": 4.9674,
+      "madeIt": false,
+      "similarity": 0.594
+    },
+    {
+      "rank": 3,
+      "name": "Grant Calcaterra",
+      "college": "SMU",
+      "year": 2022,
+      "round": 6,
+      "pick": 198,
+      "ppg": 3.4556,
+      "rawPpg": 2.4767,
+      "madeIt": false,
+      "similarity": 0.59
+    },
+    {
+      "rank": 4,
+      "name": "David Morgan",
+      "college": "Texas-San Antonio",
+      "year": 2016,
+      "round": 6,
+      "pick": 188,
+      "ppg": 3.0987,
+      "rawPpg": 1.6472,
+      "madeIt": false,
+      "similarity": 0.547
+    },
+    {
+      "rank": 5,
+      "name": "Luke Willson",
+      "college": "Rice",
+      "year": 2013,
+      "round": 5,
+      "pick": 158,
+      "ppg": 4.2347,
+      "rawPpg": 4.1692,
+      "madeIt": false,
+      "similarity": 0.479
+    },
+    {
+      "rank": 6,
+      "name": "Davis Allen",
+      "college": "Clemson",
+      "year": 2023,
+      "round": 5,
+      "pick": 175,
+      "ppg": 3.7042,
+      "rawPpg": 3.1576,
+      "madeIt": false,
+      "similarity": 0.473
+    },
+    {
+      "rank": 7,
+      "name": "Lee Smith",
+      "college": "Marshall",
+      "year": 2011,
+      "round": 5,
+      "pick": 159,
+      "ppg": 2.7959,
+      "rawPpg": 1.4222,
+      "madeIt": false,
+      "similarity": 0.472
+    }
+  ]
+}

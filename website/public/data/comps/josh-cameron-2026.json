@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Kyle Philips",
-      "college": "UCLA",
-      "year": 2022,
-      "round": 5,
-      "pick": 163,
-      "ppg": 5.043,
-      "rawPpg": 3.2,
-      "madeIt": true,
-      "similarity": 0.476
-    },
-    {
-      "rank": 2,
-      "name": "Kenny Bell",
-      "college": "Nebraska",
-      "year": 2015,
-      "round": 5,
-      "pick": 162,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.45
-    },
-    {
-      "rank": 3,
-      "name": "Marvin McNutt",
-      "college": "Iowa",
-      "year": 2012,
-      "round": 6,
-      "pick": 194,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.431
-    },
-    {
-      "rank": 4,
       "name": "Juron Criner",
       "college": "Arizona",
       "year": 2012,
@@ -47,10 +11,10 @@
       "ppg": 5.0613,
       "rawPpg": 3.4556,
       "madeIt": true,
-      "similarity": 0.431
+      "similarity": 0.666
     },
     {
-      "rank": 5,
+      "rank": 2,
       "name": "Joel Filani",
       "college": "Texas Tech",
       "year": 2007,
@@ -59,31 +23,67 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.421
+      "similarity": 0.58
+    },
+    {
+      "rank": 3,
+      "name": "Kerry Meier",
+      "college": "Kansas",
+      "year": 2010,
+      "round": 5,
+      "pick": 165,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.58
+    },
+    {
+      "rank": 4,
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
+      "madeIt": false,
+      "similarity": 0.571
+    },
+    {
+      "rank": 5,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
+      "round": 5,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
+      "madeIt": false,
+      "similarity": 0.567
     },
     {
       "rank": 6,
-      "name": "Demetrius Byrd",
-      "college": "LSU",
-      "year": 2009,
+      "name": "Daniel Braverman",
+      "college": "Western Michigan",
+      "year": 2016,
       "round": 7,
-      "pick": 224,
+      "pick": 230,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.415
+      "similarity": 0.564
     },
     {
       "rank": 7,
-      "name": "Jeris McIntyre",
-      "college": "Auburn",
-      "year": 2004,
+      "name": "Scott Miller",
+      "college": "Bowling Green",
+      "year": 2019,
       "round": 6,
-      "pick": 195,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.415
+      "pick": 208,
+      "ppg": 5.5265,
+      "rawPpg": 4.9659,
+      "madeIt": true,
+      "similarity": 0.558
     }
   ]
 }

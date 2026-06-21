@@ -1,0 +1,65 @@
+{
+  "prospectId": "kyle-mccord-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Clayton Thorson",
+      "college": "Northwestern",
+      "year": 2019,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.362
+    },
+    {
+      "rank": 2,
+      "name": "Keith Wenning",
+      "college": "Ball St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.349
+    },
+    {
+      "rank": 3,
+      "name": "Jake Fromm",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.3
+    },
+    {
+      "rank": 4,
+      "name": "Nate Sudfeld",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 6,
+      "pick": 187,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.293
+    },
+    {
+      "rank": 5,
+      "name": "Rusty Smith",
+      "college": "Florida Atlantic",
+      "year": 2010,
+      "round": 6,
+      "pick": 176,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.276
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "sam-roush-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Austin Hooper",
+      "college": "Stanford",
+      "year": 2016,
+      "round": 3,
+      "pick": 81,
+      "ppg": 6.0846,
+      "rawPpg": 6.9563,
+      "madeIt": true,
+      "similarity": 0.611
+    },
+    {
+      "rank": 2,
+      "name": "Dion Sims",
+      "college": "Michigan St.",
+      "year": 2013,
+      "round": 4,
+      "pick": 106,
+      "ppg": 3.4316,
+      "rawPpg": 2.8599,
+      "madeIt": false,
+      "similarity": 0.593
+    },
+    {
+      "rank": 3,
+      "name": "Luke Stocker",
+      "college": "Tennessee",
+      "year": 2011,
+      "round": 4,
+      "pick": 104,
+      "ppg": 3.0305,
+      "rawPpg": 2.0175,
+      "madeIt": false,
+      "similarity": 0.578
+    },
+    {
+      "rank": 4,
+      "name": "Crockett Gillmore",
+      "college": "Colorado St.",
+      "year": 2014,
+      "round": 3,
+      "pick": 99,
+      "ppg": 4.9788,
+      "rawPpg": 5.3683,
+      "madeIt": false,
+      "similarity": 0.566
+    },
+    {
+      "rank": 5,
+      "name": "Jordan Reed",
+      "college": "Florida",
+      "year": 2013,
+      "round": 3,
+      "pick": 85,
+      "ppg": 9.2913,
+      "rawPpg": 12.2901,
+      "madeIt": true,
+      "similarity": 0.42
+    },
+    {
+      "rank": 6,
+      "name": "Cade Otton",
+      "college": "Washington",
+      "year": 2022,
+      "round": 4,
+      "pick": 106,
+      "ppg": 5.863,
+      "rawPpg": 6.762,
+      "madeIt": true,
+      "similarity": 0.42
+    },
+    {
+      "rank": 7,
+      "name": "Luke Schoonmaker",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 2,
+      "pick": 58,
+      "ppg": 3.389,
+      "rawPpg": 2.7542,
+      "madeIt": false,
+      "similarity": 0.405
+    }
+  ]
+}

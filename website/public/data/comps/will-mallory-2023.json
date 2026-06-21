@@ -1,0 +1,89 @@
+{
+  "prospectId": "will-mallory-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jake Butt",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 5,
+      "pick": 145,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.567
+    },
+    {
+      "rank": 2,
+      "name": "Andrew Quarless",
+      "college": "Penn St.",
+      "year": 2010,
+      "round": 5,
+      "pick": 154,
+      "ppg": 3.8485,
+      "rawPpg": 3.1917,
+      "madeIt": false,
+      "similarity": 0.522
+    },
+    {
+      "rank": 3,
+      "name": "Jerell Adams",
+      "college": "South Carolina",
+      "year": 2016,
+      "round": 6,
+      "pick": 184,
+      "ppg": 3.1103,
+      "rawPpg": 2.0433,
+      "madeIt": false,
+      "similarity": 0.494
+    },
+    {
+      "rank": 4,
+      "name": "Ryan Griffin",
+      "college": "Connecticut",
+      "year": 2013,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.3461,
+      "rawPpg": 4.4303,
+      "madeIt": false,
+      "similarity": 0.475
+    },
+    {
+      "rank": 5,
+      "name": "Troy Fumagalli",
+      "college": "Wisconsin",
+      "year": 2018,
+      "round": 5,
+      "pick": 156,
+      "ppg": 3.4572,
+      "rawPpg": 2.3524,
+      "madeIt": false,
+      "similarity": 0.462
+    },
+    {
+      "rank": 6,
+      "name": "Grant Calcaterra",
+      "college": "SMU",
+      "year": 2022,
+      "round": 6,
+      "pick": 198,
+      "ppg": 3.4556,
+      "rawPpg": 2.4767,
+      "madeIt": false,
+      "similarity": 0.455
+    },
+    {
+      "rank": 7,
+      "name": "Luke Willson",
+      "college": "Rice",
+      "year": 2013,
+      "round": 5,
+      "pick": 158,
+      "ppg": 4.2347,
+      "rawPpg": 4.1692,
+      "madeIt": false,
+      "similarity": 0.417
+    }
+  ]
+}

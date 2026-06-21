@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Anthony Sherman",
-      "college": "Connecticut",
-      "year": 2011,
-      "round": 5,
-      "pick": 136,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.037
-    },
-    {
-      "rank": 2,
-      "name": "Chris Thompson",
-      "college": "Florida St.",
-      "year": 2013,
-      "round": 5,
-      "pick": 154,
-      "ppg": 6.8699,
-      "rawPpg": 5.7769,
-      "madeIt": true,
-      "similarity": 0.018
-    },
-    {
-      "rank": 3,
       "name": "Elijah McGuire",
       "college": "Louisiana",
       "year": 2017,
@@ -35,10 +11,10 @@
       "ppg": 6.9289,
       "rawPpg": 7.0983,
       "madeIt": true,
-      "similarity": 0.018
+      "similarity": 0.162
     },
     {
-      "rank": 4,
+      "rank": 2,
       "name": "Alfred Blue",
       "college": "LSU",
       "year": 2014,
@@ -47,10 +23,10 @@
       "ppg": 7.0419,
       "rawPpg": 6.7089,
       "madeIt": true,
-      "similarity": 0.017
+      "similarity": 0.149
     },
     {
-      "rank": 5,
+      "rank": 3,
       "name": "Karlos Williams",
       "college": "Florida St.",
       "year": 2015,
@@ -59,31 +35,31 @@
       "ppg": 8.9973,
       "rawPpg": 10.8,
       "madeIt": true,
-      "similarity": 0.017
+      "similarity": 0.141
     },
     {
-      "rank": 6,
-      "name": "Lache Seastrunk",
-      "college": "Baylor",
-      "year": 2014,
-      "round": 6,
-      "pick": 186,
+      "rank": 4,
+      "name": "Anthony Sherman",
+      "college": "Connecticut",
+      "year": 2011,
+      "round": 5,
+      "pick": 136,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.015
+      "similarity": 0.133
     },
     {
-      "rank": 7,
-      "name": "Keaontay Ingram",
-      "college": "USC",
-      "year": 2022,
-      "round": 6,
-      "pick": 201,
-      "ppg": 4.4773,
-      "rawPpg": 1.589,
-      "madeIt": false,
-      "similarity": 0.012
+      "rank": 5,
+      "name": "Chris Thompson",
+      "college": "Florida St.",
+      "year": 2013,
+      "round": 5,
+      "pick": 154,
+      "ppg": 6.8699,
+      "rawPpg": 5.7769,
+      "madeIt": true,
+      "similarity": 0.128
     }
   ]
 }

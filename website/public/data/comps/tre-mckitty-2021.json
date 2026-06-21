@@ -1,0 +1,89 @@
+{
+  "prospectId": "tre-mckitty-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Dalton Keene",
+      "college": "Virginia Tech",
+      "year": 2020,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.713
+    },
+    {
+      "rank": 2,
+      "name": "Kahale Warring",
+      "college": "San Diego St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.688
+    },
+    {
+      "rank": 3,
+      "name": "Jeremy Ruckert",
+      "college": "Ohio St.",
+      "year": 2022,
+      "round": 3,
+      "pick": 101,
+      "ppg": 2.8015,
+      "rawPpg": 1.8514,
+      "madeIt": false,
+      "similarity": 0.624
+    },
+    {
+      "rank": 4,
+      "name": "Cade Otton",
+      "college": "Washington",
+      "year": 2022,
+      "round": 4,
+      "pick": 106,
+      "ppg": 5.863,
+      "rawPpg": 6.762,
+      "madeIt": true,
+      "similarity": 0.619
+    },
+    {
+      "rank": 5,
+      "name": "Daniel Bellinger",
+      "college": "San Diego St.",
+      "year": 2022,
+      "round": 4,
+      "pick": 112,
+      "ppg": 4.0844,
+      "rawPpg": 4.0844,
+      "madeIt": false,
+      "similarity": 0.596
+    },
+    {
+      "rank": 6,
+      "name": "John Bates",
+      "college": "Boise St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 124,
+      "ppg": 3.6259,
+      "rawPpg": 3.0264,
+      "madeIt": false,
+      "similarity": 0.592
+    },
+    {
+      "rank": 7,
+      "name": "Luke Schoonmaker",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 2,
+      "pick": 58,
+      "ppg": 3.389,
+      "rawPpg": 2.7542,
+      "madeIt": false,
+      "similarity": 0.572
+    }
+  ]
+}

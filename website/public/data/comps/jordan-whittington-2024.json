@@ -11,46 +11,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.599
+      "similarity": 0.703
     },
     {
       "rank": 2,
-      "name": "Bo Melton",
-      "college": "Rutgers",
-      "year": 2022,
-      "round": 7,
-      "pick": 229,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.58
-    },
-    {
-      "rank": 3,
-      "name": "Ray-Ray McCloud",
-      "college": "Clemson",
-      "year": 2018,
-      "round": 6,
-      "pick": 187,
-      "ppg": 3.1533,
-      "rawPpg": 1.1625,
-      "madeIt": false,
-      "similarity": 0.57
-    },
-    {
-      "rank": 4,
-      "name": "Juwann Winfree",
-      "college": "Colorado",
-      "year": 2019,
-      "round": 6,
-      "pick": 187,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.538
-    },
-    {
-      "rank": 5,
       "name": "Terrence Austin",
       "college": "UCLA",
       "year": 2010,
@@ -59,22 +23,34 @@
       "ppg": 4.3512,
       "rawPpg": 1.77,
       "madeIt": false,
-      "similarity": 0.53
+      "similarity": 0.558
     },
     {
-      "rank": 6,
-      "name": "Kayshon Boutte",
-      "college": "LSU",
-      "year": 2023,
+      "rank": 3,
+      "name": "Juwann Winfree",
+      "college": "Colorado",
+      "year": 2019,
       "round": 6,
       "pick": 187,
-      "ppg": 6.7429,
-      "rawPpg": 7.1895,
-      "madeIt": true,
-      "similarity": 0.496
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.554
     },
     {
-      "rank": 7,
+      "rank": 4,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.537
+    },
+    {
+      "rank": 5,
       "name": "K.J. Hill",
       "college": "Ohio St.",
       "year": 2020,
@@ -83,7 +59,31 @@
       "ppg": 3.2568,
       "rawPpg": 0.825,
       "madeIt": false,
-      "similarity": 0.481
+      "similarity": 0.535
+    },
+    {
+      "rank": 6,
+      "name": "Deon Cain",
+      "college": "Clemson",
+      "year": 2018,
+      "round": 6,
+      "pick": 185,
+      "ppg": 4.1604,
+      "rawPpg": 1.5364,
+      "madeIt": false,
+      "similarity": 0.53
+    },
+    {
+      "rank": 7,
+      "name": "Keith Mumphery",
+      "college": "Michigan St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 175,
+      "ppg": 3.3482,
+      "rawPpg": 1.4545,
+      "madeIt": false,
+      "similarity": 0.522
     }
   ]
 }

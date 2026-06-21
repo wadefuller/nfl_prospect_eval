@@ -11,46 +11,10 @@
       "ppg": 11.534,
       "rawPpg": 14.3187,
       "madeIt": true,
-      "similarity": 0.531
+      "similarity": 0.511
     },
     {
       "rank": 2,
-      "name": "Arrelious Benn",
-      "college": "Illinois",
-      "year": 2010,
-      "round": 2,
-      "pick": 39,
-      "ppg": 5.4394,
-      "rawPpg": 5.1393,
-      "madeIt": true,
-      "similarity": 0.428
-    },
-    {
-      "rank": 3,
-      "name": "Marqise Lee",
-      "college": "USC",
-      "year": 2014,
-      "round": 2,
-      "pick": 39,
-      "ppg": 7.0894,
-      "rawPpg": 7.4698,
-      "madeIt": true,
-      "similarity": 0.365
-    },
-    {
-      "rank": 4,
-      "name": "Rashod Bateman",
-      "college": "Minnesota",
-      "year": 2021,
-      "round": 1,
-      "pick": 27,
-      "ppg": 6.5274,
-      "rawPpg": 7.1875,
-      "madeIt": true,
-      "similarity": 0.363
-    },
-    {
-      "rank": 5,
       "name": "Tyler Boyd",
       "college": "Pittsburgh",
       "year": 2016,
@@ -59,31 +23,67 @@
       "ppg": 8.1659,
       "rawPpg": 9.5737,
       "madeIt": true,
-      "similarity": 0.317
+      "similarity": 0.473
+    },
+    {
+      "rank": 3,
+      "name": "Rashod Bateman",
+      "college": "Minnesota",
+      "year": 2021,
+      "round": 1,
+      "pick": 27,
+      "ppg": 6.5274,
+      "rawPpg": 7.1875,
+      "madeIt": true,
+      "similarity": 0.443
+    },
+    {
+      "rank": 4,
+      "name": "Marqise Lee",
+      "college": "USC",
+      "year": 2014,
+      "round": 2,
+      "pick": 39,
+      "ppg": 7.0894,
+      "rawPpg": 7.4698,
+      "madeIt": true,
+      "similarity": 0.434
+    },
+    {
+      "rank": 5,
+      "name": "Arrelious Benn",
+      "college": "Illinois",
+      "year": 2010,
+      "round": 2,
+      "pick": 39,
+      "ppg": 5.4394,
+      "rawPpg": 5.1393,
+      "madeIt": true,
+      "similarity": 0.409
     },
     {
       "rank": 6,
-      "name": "Jalen Reagor",
-      "college": "TCU",
-      "year": 2020,
-      "round": 1,
-      "pick": 21,
-      "ppg": 5.1985,
-      "rawPpg": 5.0709,
+      "name": "Robert Woods",
+      "college": "USC",
+      "year": 2013,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.1333,
+      "rawPpg": 7.7196,
       "madeIt": true,
-      "similarity": 0.312
+      "similarity": 0.357
     },
     {
       "rank": 7,
-      "name": "Courtland Sutton",
-      "college": "SMU",
-      "year": 2018,
-      "round": 2,
-      "pick": 40,
-      "ppg": 8.274,
-      "rawPpg": 9.4288,
-      "madeIt": true,
-      "similarity": 0.285
+      "name": "Jonathan Baldwin",
+      "college": "Pittsburgh",
+      "year": 2011,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5325,
+      "rawPpg": 3.6367,
+      "madeIt": false,
+      "similarity": 0.337
     }
   ]
 }

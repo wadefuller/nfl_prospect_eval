@@ -11,7 +11,7 @@
       "ppg": 4.9469,
       "rawPpg": 2.2333,
       "madeIt": false,
-      "similarity": 0.69
+      "similarity": 0.754
     },
     {
       "rank": 2,
@@ -23,7 +23,7 @@
       "ppg": 4.4252,
       "rawPpg": 2.9765,
       "madeIt": false,
-      "similarity": 0.618
+      "similarity": 0.675
     },
     {
       "rank": 3,
@@ -35,10 +35,22 @@
       "ppg": 4.3512,
       "rawPpg": 1.77,
       "madeIt": false,
-      "similarity": 0.587
+      "similarity": 0.671
     },
     {
       "rank": 4,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.487
+    },
+    {
+      "rank": 5,
       "name": "Parker Washington",
       "college": "Penn St.",
       "year": 2023,
@@ -47,34 +59,10 @@
       "ppg": 7.2203,
       "rawPpg": 7.7585,
       "madeIt": true,
-      "similarity": 0.546
-    },
-    {
-      "rank": 5,
-      "name": "DeMario Douglas",
-      "college": "Liberty",
-      "year": 2023,
-      "round": 6,
-      "pick": 210,
-      "ppg": 6.3659,
-      "rawPpg": 6.5379,
-      "madeIt": true,
-      "similarity": 0.464
+      "similarity": 0.484
     },
     {
       "rank": 6,
-      "name": "Keith Mumphery",
-      "college": "Michigan St.",
-      "year": 2015,
-      "round": 5,
-      "pick": 175,
-      "ppg": 3.3482,
-      "rawPpg": 1.4545,
-      "madeIt": false,
-      "similarity": 0.46
-    },
-    {
-      "rank": 7,
       "name": "Dezmon Patmon",
       "college": "Washington St.",
       "year": 2020,
@@ -83,7 +71,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.46
+      "similarity": 0.463
+    },
+    {
+      "rank": 7,
+      "name": "Kelvin Harmon",
+      "college": "North Carolina St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 206,
+      "ppg": 4.7539,
+      "rawPpg": 3.4627,
+      "madeIt": false,
+      "similarity": 0.449
     }
   ]
 }

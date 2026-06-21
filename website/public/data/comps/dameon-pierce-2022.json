@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Rhamondre Stevenson",
-      "college": "Oklahoma",
-      "year": 2021,
-      "round": 4,
-      "pick": 120,
-      "ppg": 10.3428,
-      "rawPpg": 11.5909,
-      "madeIt": true,
-      "similarity": 0.14
-    },
-    {
-      "rank": 2,
       "name": "Alvin Kamara",
       "college": "Tennessee",
       "year": 2017,
@@ -23,19 +11,31 @@
       "ppg": 15.2708,
       "rawPpg": 19.2035,
       "madeIt": true,
-      "similarity": 0.136
+      "similarity": 0.431
+    },
+    {
+      "rank": 2,
+      "name": "Rhamondre Stevenson",
+      "college": "Oklahoma",
+      "year": 2021,
+      "round": 4,
+      "pick": 120,
+      "ppg": 10.3428,
+      "rawPpg": 11.5909,
+      "madeIt": true,
+      "similarity": 0.36
     },
     {
       "rank": 3,
-      "name": "Devonta Freeman",
-      "college": "Florida St.",
-      "year": 2014,
+      "name": "La'Mical Perine",
+      "college": "Florida",
+      "year": 2020,
       "round": 4,
-      "pick": 103,
-      "ppg": 14.0665,
-      "rawPpg": 17.3644,
+      "pick": 120,
+      "ppg": 6.5818,
+      "rawPpg": 4.7,
       "madeIt": true,
-      "similarity": 0.119
+      "similarity": 0.338
     },
     {
       "rank": 4,
@@ -47,43 +47,19 @@
       "ppg": 5.2888,
       "rawPpg": 4.1477,
       "madeIt": true,
-      "similarity": 0.117
+      "similarity": 0.331
     },
     {
       "rank": 5,
-      "name": "Samaje Perine",
-      "college": "Oklahoma",
-      "year": 2017,
+      "name": "Devonta Freeman",
+      "college": "Florida St.",
+      "year": 2014,
       "round": 4,
-      "pick": 114,
-      "ppg": 7.6423,
-      "rawPpg": 7.5,
+      "pick": 103,
+      "ppg": 14.0665,
+      "rawPpg": 17.3644,
       "madeIt": true,
-      "similarity": 0.105
-    },
-    {
-      "rank": 6,
-      "name": "Kenyan Drake",
-      "college": "Alabama",
-      "year": 2016,
-      "round": 3,
-      "pick": 73,
-      "ppg": 8.961,
-      "rawPpg": 9.5625,
-      "madeIt": true,
-      "similarity": 0.102
-    },
-    {
-      "rank": 7,
-      "name": "Kenneth Dixon",
-      "college": "Louisiana Tech",
-      "year": 2016,
-      "round": 4,
-      "pick": 134,
-      "ppg": 7.7332,
-      "rawPpg": 7.925,
-      "madeIt": true,
-      "similarity": 0.1
+      "similarity": 0.324
     }
   ]
 }

@@ -11,19 +11,19 @@
       "ppg": 11.1277,
       "rawPpg": 12.7416,
       "madeIt": true,
-      "similarity": 0.256
+      "similarity": 0.473
     },
     {
       "rank": 2,
-      "name": "Ito Smith",
-      "college": "Southern Miss",
-      "year": 2018,
-      "round": 4,
-      "pick": 126,
-      "ppg": 6.6424,
-      "rawPpg": 5.4385,
+      "name": "Zack Moss",
+      "college": "Utah",
+      "year": 2020,
+      "round": 3,
+      "pick": 86,
+      "ppg": 7.4388,
+      "rawPpg": 7.2423,
       "madeIt": true,
-      "similarity": 0.242
+      "similarity": 0.402
     },
     {
       "rank": 3,
@@ -35,55 +35,31 @@
       "ppg": 6.1097,
       "rawPpg": 5.2167,
       "madeIt": true,
-      "similarity": 0.232
+      "similarity": 0.391
     },
     {
       "rank": 4,
-      "name": "C.J. Prosise",
-      "college": "Notre Dame",
-      "year": 2016,
-      "round": 3,
-      "pick": 90,
-      "ppg": 8.0285,
-      "rawPpg": 8.75,
+      "name": "Ito Smith",
+      "college": "Southern Miss",
+      "year": 2018,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.6424,
+      "rawPpg": 5.4385,
       "madeIt": true,
-      "similarity": 0.213
+      "similarity": 0.349
     },
     {
       "rank": 5,
-      "name": "Kareem Hunt",
-      "college": "Toledo",
-      "year": 2017,
-      "round": 3,
-      "pick": 86,
-      "ppg": 14.1867,
-      "rawPpg": 18.2696,
-      "madeIt": true,
-      "similarity": 0.183
-    },
-    {
-      "rank": 6,
-      "name": "Zack Moss",
-      "college": "Utah",
-      "year": 2020,
-      "round": 3,
-      "pick": 86,
-      "ppg": 7.4388,
-      "rawPpg": 7.2423,
-      "madeIt": true,
-      "similarity": 0.172
-    },
-    {
-      "rank": 7,
-      "name": "Mike Davis",
-      "college": "South Carolina",
-      "year": 2015,
+      "name": "Tyler Ervin",
+      "college": "San Jose St.",
+      "year": 2016,
       "round": 4,
-      "pick": 126,
-      "ppg": 6.2665,
-      "rawPpg": 4.6452,
-      "madeIt": true,
-      "similarity": 0.17
+      "pick": 119,
+      "ppg": 3.5872,
+      "rawPpg": 0.4278,
+      "madeIt": false,
+      "similarity": 0.319
     }
   ]
 }

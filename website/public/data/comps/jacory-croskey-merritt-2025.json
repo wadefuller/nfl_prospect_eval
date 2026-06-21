@@ -3,18 +3,54 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Devante Mays",
-      "college": "Utah St.",
-      "year": 2017,
+      "name": "Bryce Brown",
+      "college": "Kansas St.",
+      "year": 2012,
       "round": 7,
-      "pick": 238,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.185
+      "pick": 229,
+      "ppg": 6.3289,
+      "rawPpg": 5.2888,
+      "madeIt": true,
+      "similarity": 0.067
     },
     {
       "rank": 2,
+      "name": "Michael Cox",
+      "college": "Massachusetts",
+      "year": 2013,
+      "round": 7,
+      "pick": 253,
+      "ppg": 4.8566,
+      "rawPpg": 0.6364,
+      "madeIt": false,
+      "similarity": 0.058
+    },
+    {
+      "rank": 3,
+      "name": "Kiero Small",
+      "college": "Arkansas",
+      "year": 2014,
+      "round": 7,
+      "pick": 227,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.058
+    },
+    {
+      "rank": 4,
+      "name": "Khalfani Muhammad",
+      "college": "California",
+      "year": 2017,
+      "round": 7,
+      "pick": 241,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.047
+    },
+    {
+      "rank": 5,
       "name": "Kenny Hilliard",
       "college": "LSU",
       "year": 2015,
@@ -23,67 +59,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.135
-    },
-    {
-      "rank": 3,
-      "name": "Brandon Wilson",
-      "college": "Houston",
-      "year": 2017,
-      "round": 6,
-      "pick": 207,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.111
-    },
-    {
-      "rank": 4,
-      "name": "Daniel Lasco",
-      "college": "California",
-      "year": 2016,
-      "round": 7,
-      "pick": 237,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.109
-    },
-    {
-      "rank": 5,
-      "name": "Rodney Anderson",
-      "college": "Oklahoma",
-      "year": 2019,
-      "round": 6,
-      "pick": 211,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.091
-    },
-    {
-      "rank": 6,
-      "name": "Brittain Brown",
-      "college": "UCLA",
-      "year": 2022,
-      "round": 7,
-      "pick": 250,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.082
-    },
-    {
-      "rank": 7,
-      "name": "Zach Evans",
-      "college": "Mississippi",
-      "year": 2023,
-      "round": 6,
-      "pick": 215,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.079
+      "similarity": 0.043
     }
   ]
 }

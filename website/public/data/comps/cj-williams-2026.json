@@ -3,30 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Javon Wims",
-      "college": "Georgia",
-      "year": 2018,
-      "round": 7,
-      "pick": 224,
-      "ppg": 3.8657,
-      "rawPpg": 2.2273,
+      "name": "Trey Palmer",
+      "college": "Nebraska",
+      "year": 2023,
+      "round": 6,
+      "pick": 191,
+      "ppg": 4.184,
+      "rawPpg": 3.2145,
       "madeIt": false,
-      "similarity": 0.569
+      "similarity": 0.703
     },
     {
       "rank": 2,
-      "name": "Jalen Camp",
-      "college": "Georgia Tech",
-      "year": 2021,
-      "round": 6,
-      "pick": 209,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.568
-    },
-    {
-      "rank": 3,
       "name": "Kyle Williams",
       "college": "Arizona St.",
       "year": 2010,
@@ -35,55 +23,67 @@
       "ppg": 4.7957,
       "rawPpg": 3.9542,
       "madeIt": false,
-      "similarity": 0.548
+      "similarity": 0.69
+    },
+    {
+      "rank": 3,
+      "name": "T.J. Jones",
+      "college": "Notre Dame",
+      "year": 2014,
+      "round": 6,
+      "pick": 189,
+      "ppg": 4.5897,
+      "rawPpg": 2.39,
+      "madeIt": false,
+      "similarity": 0.678
     },
     {
       "rank": 4,
-      "name": "Brice Butler",
-      "college": "San Diego St.",
-      "year": 2013,
+      "name": "Dillon Mitchell",
+      "college": "Oregon",
+      "year": 2019,
       "round": 7,
-      "pick": 209,
-      "ppg": 4.3877,
-      "rawPpg": 2.9429,
-      "madeIt": false,
-      "similarity": 0.539
-    },
-    {
-      "rank": 5,
-      "name": "Isaiah McKenzie",
-      "college": "Georgia",
-      "year": 2017,
-      "round": 5,
-      "pick": 172,
-      "ppg": 5.2981,
-      "rawPpg": 4.9188,
-      "madeIt": true,
-      "similarity": 0.519
-    },
-    {
-      "rank": 6,
-      "name": "Toney Clemons",
-      "college": "Colorado",
-      "year": 2012,
-      "round": 7,
-      "pick": 231,
+      "pick": 239,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.513
+      "similarity": 0.651
+    },
+    {
+      "rank": 5,
+      "name": "DeMario Douglas",
+      "college": "Liberty",
+      "year": 2023,
+      "round": 6,
+      "pick": 210,
+      "ppg": 6.3659,
+      "rawPpg": 6.5379,
+      "madeIt": true,
+      "similarity": 0.619
+    },
+    {
+      "rank": 6,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
+      "madeIt": false,
+      "similarity": 0.619
     },
     {
       "rank": 7,
-      "name": "Braxton Berrios",
-      "college": "Miami (FL)",
-      "year": 2018,
+      "name": "Aaron Burbridge",
+      "college": "Michigan St.",
+      "year": 2016,
       "round": 6,
-      "pick": 210,
-      "ppg": 3.9319,
-      "rawPpg": 2.9156,
+      "pick": 213,
+      "ppg": 3.4752,
+      "rawPpg": 0.82,
       "madeIt": false,
-      "similarity": 0.478
+      "similarity": 0.605
     }
   ]
 }

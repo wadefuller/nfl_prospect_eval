@@ -11,19 +11,19 @@
       "ppg": 6.2603,
       "rawPpg": 2.2667,
       "madeIt": true,
-      "similarity": 0.231
+      "similarity": 0.35
     },
     {
       "rank": 2,
-      "name": "Jay Finley",
-      "college": "Baylor",
-      "year": 2011,
+      "name": "Jake Funk",
+      "college": "Maryland",
+      "year": 2021,
       "round": 7,
-      "pick": 246,
+      "pick": 233,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.132
+      "similarity": 0.335
     },
     {
       "rank": 3,
@@ -35,55 +35,31 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.13
+      "similarity": 0.308
     },
     {
       "rank": 4,
-      "name": "Ahmaad Galloway",
-      "college": "Alabama",
-      "year": 2003,
+      "name": "Storm Johnson",
+      "college": "Central Florida",
+      "year": 2014,
       "round": 7,
-      "pick": 235,
+      "pick": 222,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.129
+      "similarity": 0.306
     },
     {
       "rank": 5,
-      "name": "Antwoine Womack",
-      "college": "Virginia",
-      "year": 2002,
+      "name": "Jay Finley",
+      "college": "Baylor",
+      "year": 2011,
       "round": 7,
-      "pick": 237,
+      "pick": 246,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.124
-    },
-    {
-      "rank": 6,
-      "name": "Jarrett Ferguson",
-      "college": "Virginia Tech",
-      "year": 2002,
-      "round": 7,
-      "pick": 251,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.124
-    },
-    {
-      "rank": 7,
-      "name": "Brandon Drumm",
-      "college": "Colorado",
-      "year": 2003,
-      "round": 7,
-      "pick": 236,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.124
+      "similarity": 0.296
     }
   ]
 }

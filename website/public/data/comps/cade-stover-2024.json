@@ -1,0 +1,89 @@
+{
+  "prospectId": "cade-stover-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Brevin Jordan",
+      "college": "Miami (FL)",
+      "year": 2021,
+      "round": 5,
+      "pick": 147,
+      "ppg": 4.637,
+      "rawPpg": 4.9825,
+      "madeIt": false,
+      "similarity": 0.647
+    },
+    {
+      "rank": 2,
+      "name": "Jordan Akins",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 98,
+      "ppg": 4.588,
+      "rawPpg": 4.7514,
+      "madeIt": false,
+      "similarity": 0.62
+    },
+    {
+      "rank": 3,
+      "name": "Jordan Leggett",
+      "college": "Clemson",
+      "year": 2017,
+      "round": 5,
+      "pick": 150,
+      "ppg": 3.2365,
+      "rawPpg": 1.8769,
+      "madeIt": false,
+      "similarity": 0.522
+    },
+    {
+      "rank": 4,
+      "name": "Devin Asiasi",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.5
+    },
+    {
+      "rank": 5,
+      "name": "Jeff Heuerman",
+      "college": "Ohio St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 92,
+      "ppg": 3.7112,
+      "rawPpg": 3.085,
+      "madeIt": false,
+      "similarity": 0.488
+    },
+    {
+      "rank": 6,
+      "name": "Tyler Higbee",
+      "college": "Western Kentucky",
+      "year": 2016,
+      "round": 4,
+      "pick": 110,
+      "ppg": 3.8786,
+      "rawPpg": 3.6143,
+      "madeIt": false,
+      "similarity": 0.471
+    },
+    {
+      "rank": 7,
+      "name": "Jake Ferguson",
+      "college": "Wisconsin",
+      "year": 2022,
+      "round": 4,
+      "pick": 129,
+      "ppg": 6.0842,
+      "rawPpg": 6.8397,
+      "madeIt": true,
+      "similarity": 0.46
+    }
+  ]
+}

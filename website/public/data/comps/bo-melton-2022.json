@@ -11,7 +11,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.573
+      "similarity": 0.605
     },
     {
       "rank": 2,
@@ -23,7 +23,7 @@
       "ppg": 4.3512,
       "rawPpg": 1.77,
       "madeIt": false,
-      "similarity": 0.556
+      "similarity": 0.548
     },
     {
       "rank": 3,
@@ -35,22 +35,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.537
+      "similarity": 0.519
     },
     {
       "rank": 4,
-      "name": "Grant Dubose",
-      "college": "Charlotte",
-      "year": 2023,
-      "round": 7,
-      "pick": 256,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.445
-    },
-    {
-      "rank": 5,
       "name": "Shi Smith",
       "college": "South Carolina",
       "year": 2021,
@@ -59,7 +47,19 @@
       "ppg": 4.4252,
       "rawPpg": 2.9765,
       "madeIt": false,
-      "similarity": 0.417
+      "similarity": 0.514
+    },
+    {
+      "rank": 5,
+      "name": "Scotty McKnight",
+      "college": "Colorado",
+      "year": 2011,
+      "round": 7,
+      "pick": 227,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.474
     },
     {
       "rank": 6,
@@ -71,19 +71,19 @@
       "ppg": 4.9166,
       "rawPpg": 3.9923,
       "madeIt": false,
-      "similarity": 0.403
+      "similarity": 0.453
     },
     {
       "rank": 7,
-      "name": "Devin Fuller",
-      "college": "UCLA",
-      "year": 2016,
-      "round": 7,
-      "pick": 238,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.386
+      "similarity": 0.422
     }
   ]
 }

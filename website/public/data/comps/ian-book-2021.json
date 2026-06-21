@@ -1,0 +1,65 @@
+{
+  "prospectId": "ian-book-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jaren Hall",
+      "college": "BYU",
+      "year": 2023,
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.529
+    },
+    {
+      "rank": 2,
+      "name": "Sean Clifford",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 5,
+      "pick": 149,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.421
+    },
+    {
+      "rank": 3,
+      "name": "Clayton Tune",
+      "college": "Houston",
+      "year": 2023,
+      "round": 5,
+      "pick": 139,
+      "ppg": 8.8563,
+      "rawPpg": 1.2467,
+      "madeIt": true,
+      "similarity": 0.396
+    },
+    {
+      "rank": 4,
+      "name": "Sam Howell",
+      "college": "North Carolina",
+      "year": 2022,
+      "round": 5,
+      "pick": 144,
+      "ppg": 13.4666,
+      "rawPpg": 15.12,
+      "madeIt": true,
+      "similarity": 0.389
+    },
+    {
+      "rank": 5,
+      "name": "Clayton Thorson",
+      "college": "Northwestern",
+      "year": 2019,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.388
+    }
+  ]
+}

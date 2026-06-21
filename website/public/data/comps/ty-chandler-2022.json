@@ -11,22 +11,10 @@
       "ppg": 5.5126,
       "rawPpg": 4.1308,
       "madeIt": true,
-      "similarity": 0.257
+      "similarity": 0.584
     },
     {
       "rank": 2,
-      "name": "Kenjon Barner",
-      "college": "Oregon",
-      "year": 2013,
-      "round": 6,
-      "pick": 182,
-      "ppg": 6.4194,
-      "rawPpg": 2.85,
-      "madeIt": true,
-      "similarity": 0.204
-    },
-    {
-      "rank": 3,
       "name": "Justise Hairston",
       "college": "Central Connecticut St.",
       "year": 2007,
@@ -35,7 +23,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.185
+      "similarity": 0.538
+    },
+    {
+      "rank": 3,
+      "name": "Eric Gray",
+      "college": "Oklahoma",
+      "year": 2023,
+      "round": 5,
+      "pick": 172,
+      "ppg": 3.7107,
+      "rawPpg": 1.0107,
+      "madeIt": false,
+      "similarity": 0.498
     },
     {
       "rank": 4,
@@ -47,43 +47,19 @@
       "ppg": 9.8704,
       "rawPpg": 11.2975,
       "madeIt": true,
-      "similarity": 0.182
+      "similarity": 0.491
     },
     {
       "rank": 5,
-      "name": "DeAndre Washington",
-      "college": "Texas Tech",
-      "year": 2016,
-      "round": 5,
-      "pick": 143,
-      "ppg": 6.1097,
-      "rawPpg": 5.2167,
-      "madeIt": true,
-      "similarity": 0.18
-    },
-    {
-      "rank": 6,
-      "name": "Boston Scott",
-      "college": "Louisiana Tech",
-      "year": 2018,
-      "round": 6,
-      "pick": 201,
-      "ppg": 7.1738,
-      "rawPpg": 7.4247,
-      "madeIt": true,
-      "similarity": 0.17
-    },
-    {
-      "rank": 7,
-      "name": "Latavius Murray",
-      "college": "Central Florida",
+      "name": "Kenjon Barner",
+      "college": "Oregon",
       "year": 2013,
       "round": 6,
-      "pick": 181,
-      "ppg": 8.5695,
-      "rawPpg": 8.7286,
+      "pick": 182,
+      "ppg": 6.4194,
+      "rawPpg": 2.85,
       "madeIt": true,
-      "similarity": 0.169
+      "similarity": 0.488
     }
   ]
 }

@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Melvin Gordon",
-      "college": "Wisconsin",
-      "year": 2015,
-      "round": 1,
-      "pick": 15,
-      "ppg": 13.6295,
-      "rawPpg": 16.9469,
-      "madeIt": true,
-      "similarity": 0.158
-    },
-    {
-      "rank": 2,
-      "name": "Ezekiel Elliott",
-      "college": "Ohio St.",
-      "year": 2016,
-      "round": 1,
-      "pick": 4,
-      "ppg": 15.7419,
-      "rawPpg": 20,
-      "madeIt": true,
-      "similarity": 0.143
-    },
-    {
-      "rank": 3,
       "name": "Javonte Williams",
       "college": "North Carolina",
       "year": 2021,
@@ -35,34 +11,34 @@
       "ppg": 9.4536,
       "rawPpg": 10.2597,
       "madeIt": true,
-      "similarity": 0.127
+      "similarity": 0.386
+    },
+    {
+      "rank": 2,
+      "name": "Melvin Gordon",
+      "college": "Wisconsin",
+      "year": 2015,
+      "round": 1,
+      "pick": 15,
+      "ppg": 13.6295,
+      "rawPpg": 16.9469,
+      "madeIt": true,
+      "similarity": 0.352
+    },
+    {
+      "rank": 3,
+      "name": "Ezekiel Elliott",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 1,
+      "pick": 4,
+      "ppg": 15.7419,
+      "rawPpg": 20,
+      "madeIt": true,
+      "similarity": 0.349
     },
     {
       "rank": 4,
-      "name": "Breece Hall",
-      "college": "Iowa St.",
-      "year": 2022,
-      "round": 2,
-      "pick": 36,
-      "ppg": 12.0557,
-      "rawPpg": 14.9693,
-      "madeIt": true,
-      "similarity": 0.097
-    },
-    {
-      "rank": 5,
-      "name": "Dalvin Cook",
-      "college": "Florida St.",
-      "year": 2017,
-      "round": 2,
-      "pick": 41,
-      "ppg": 12.7324,
-      "rawPpg": 15.4964,
-      "madeIt": true,
-      "similarity": 0.09
-    },
-    {
-      "rank": 6,
       "name": "Bijan Robinson",
       "college": "Texas",
       "year": 2023,
@@ -71,10 +47,10 @@
       "ppg": 15.3326,
       "rawPpg": 18.8971,
       "madeIt": true,
-      "similarity": 0.079
+      "similarity": 0.345
     },
     {
-      "rank": 7,
+      "rank": 5,
       "name": "Trent Richardson",
       "college": "Alabama",
       "year": 2012,
@@ -83,7 +59,7 @@
       "ppg": 10.2282,
       "rawPpg": 11.6212,
       "madeIt": true,
-      "similarity": 0.077
+      "similarity": 0.321
     }
   ]
 }

@@ -3,78 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Jahan Dotson",
-      "college": "Penn St.",
-      "year": 2022,
-      "round": 1,
-      "pick": 16,
-      "ppg": 6.8629,
-      "rawPpg": 7.6625,
-      "madeIt": true,
-      "similarity": 0.688
-    },
-    {
-      "rank": 2,
-      "name": "Bryan Edwards",
-      "college": "South Carolina",
-      "year": 2020,
-      "round": 3,
-      "pick": 81,
-      "ppg": 5.3252,
-      "rawPpg": 4.5892,
-      "madeIt": true,
-      "similarity": 0.608
-    },
-    {
-      "rank": 3,
-      "name": "Michael Floyd",
-      "college": "Notre Dame",
-      "year": 2012,
-      "round": 1,
-      "pick": 13,
-      "ppg": 8.4132,
-      "rawPpg": 9.6375,
-      "madeIt": true,
-      "similarity": 0.578
-    },
-    {
-      "rank": 4,
-      "name": "Drake London",
-      "college": "USC",
-      "year": 2022,
-      "round": 1,
-      "pick": 8,
-      "ppg": 9.5125,
-      "rawPpg": 11.1595,
-      "madeIt": true,
-      "similarity": 0.547
-    },
-    {
-      "rank": 5,
-      "name": "Christian Kirk",
-      "college": "Texas A&M",
-      "year": 2018,
-      "round": 2,
-      "pick": 47,
-      "ppg": 8.1868,
-      "rawPpg": 9.533,
-      "madeIt": true,
-      "similarity": 0.529
-    },
-    {
-      "rank": 6,
-      "name": "Tavon Austin",
-      "college": "West Virginia",
-      "year": 2013,
-      "round": 1,
-      "pick": 8,
-      "ppg": 8.4674,
-      "rawPpg": 9.7248,
-      "madeIt": true,
-      "similarity": 0.516
-    },
-    {
-      "rank": 7,
       "name": "Markus Wheaton",
       "college": "Oregon St.",
       "year": 2013,
@@ -83,7 +11,79 @@
       "ppg": 6.8569,
       "rawPpg": 7.3031,
       "madeIt": true,
-      "similarity": 0.496
+      "similarity": 0.597
+    },
+    {
+      "rank": 2,
+      "name": "Calvin Ridley",
+      "college": "Alabama",
+      "year": 2018,
+      "round": 1,
+      "pick": 26,
+      "ppg": 11.3053,
+      "rawPpg": 14.2487,
+      "madeIt": true,
+      "similarity": 0.597
+    },
+    {
+      "rank": 3,
+      "name": "Damian Williams",
+      "college": "USC",
+      "year": 2010,
+      "round": 3,
+      "pick": 77,
+      "ppg": 5.7848,
+      "rawPpg": 5.5464,
+      "madeIt": true,
+      "similarity": 0.55
+    },
+    {
+      "rank": 4,
+      "name": "Tavon Austin",
+      "college": "West Virginia",
+      "year": 2013,
+      "round": 1,
+      "pick": 8,
+      "ppg": 8.4674,
+      "rawPpg": 9.7248,
+      "madeIt": true,
+      "similarity": 0.534
+    },
+    {
+      "rank": 5,
+      "name": "Nelson Agholor",
+      "college": "USC",
+      "year": 2015,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.8475,
+      "rawPpg": 7.2206,
+      "madeIt": true,
+      "similarity": 0.521
+    },
+    {
+      "rank": 6,
+      "name": "Jahan Dotson",
+      "college": "Penn St.",
+      "year": 2022,
+      "round": 1,
+      "pick": 16,
+      "ppg": 6.8629,
+      "rawPpg": 7.6625,
+      "madeIt": true,
+      "similarity": 0.519
+    },
+    {
+      "rank": 7,
+      "name": "Josh Downs",
+      "college": "North Carolina",
+      "year": 2023,
+      "round": 3,
+      "pick": 79,
+      "ppg": 7.7879,
+      "rawPpg": 8.8884,
+      "madeIt": true,
+      "similarity": 0.517
     }
   ]
 }

@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Chase Claypool",
-      "college": "Notre Dame",
-      "year": 2020,
-      "round": 2,
-      "pick": 49,
-      "ppg": 8.8603,
-      "rawPpg": 10.3169,
-      "madeIt": true,
-      "similarity": 0.662
-    },
-    {
-      "rank": 2,
-      "name": "Zay Flowers",
-      "college": "Boston Col.",
-      "year": 2023,
-      "round": 1,
-      "pick": 22,
-      "ppg": 9.4619,
-      "rawPpg": 11.1381,
-      "madeIt": true,
-      "similarity": 0.579
-    },
-    {
-      "rank": 3,
       "name": "Torrey Smith",
       "college": "Maryland",
       "year": 2011,
@@ -35,46 +11,34 @@
       "ppg": 8.973,
       "rawPpg": 10.5198,
       "madeIt": true,
-      "similarity": 0.565
-    },
-    {
-      "rank": 4,
-      "name": "Leonard Hankerson",
-      "college": "Miami (FL)",
-      "year": 2011,
-      "round": 3,
-      "pick": 79,
-      "ppg": 6.2861,
-      "rawPpg": 6.585,
-      "madeIt": true,
       "similarity": 0.539
     },
     {
-      "rank": 5,
-      "name": "KJ Hamler",
-      "college": "Penn St.",
-      "year": 2020,
-      "round": 2,
-      "pick": 46,
-      "ppg": 5.6715,
-      "rawPpg": 4.9875,
-      "madeIt": true,
+      "rank": 2,
+      "name": "Jaelen Strong",
+      "college": "Arizona St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 70,
+      "ppg": 4.8947,
+      "rawPpg": 3.73,
+      "madeIt": false,
       "similarity": 0.527
     },
     {
-      "rank": 6,
-      "name": "Deebo Samuel",
-      "college": "South Carolina",
-      "year": 2019,
-      "round": 2,
-      "pick": 36,
-      "ppg": 11.8403,
-      "rawPpg": 14.7427,
+      "rank": 3,
+      "name": "Nelson Agholor",
+      "college": "USC",
+      "year": 2015,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.8475,
+      "rawPpg": 7.2206,
       "madeIt": true,
-      "similarity": 0.516
+      "similarity": 0.514
     },
     {
-      "rank": 7,
+      "rank": 4,
       "name": "Cody Latimer",
       "college": "Indiana",
       "year": 2014,
@@ -83,7 +47,43 @@
       "ppg": 3.4866,
       "rawPpg": 1.4648,
       "madeIt": false,
-      "similarity": 0.51
+      "similarity": 0.505
+    },
+    {
+      "rank": 5,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
+      "madeIt": true,
+      "similarity": 0.505
+    },
+    {
+      "rank": 6,
+      "name": "Damian Williams",
+      "college": "USC",
+      "year": 2010,
+      "round": 3,
+      "pick": 77,
+      "ppg": 5.7848,
+      "rawPpg": 5.5464,
+      "madeIt": true,
+      "similarity": 0.484
+    },
+    {
+      "rank": 7,
+      "name": "Marquis Walker",
+      "college": "Michigan",
+      "year": 2002,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.477
     }
   ]
 }

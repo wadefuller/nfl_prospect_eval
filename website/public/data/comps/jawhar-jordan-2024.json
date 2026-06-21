@@ -3,6 +3,18 @@
   "comps": [
     {
       "rank": 1,
+      "name": "Ty Chandler",
+      "college": "North Carolina",
+      "year": 2022,
+      "round": 5,
+      "pick": 169,
+      "ppg": 5.218,
+      "rawPpg": 3.7353,
+      "madeIt": true,
+      "similarity": 0.621
+    },
+    {
+      "rank": 2,
       "name": "Antwoine Womack",
       "college": "Virginia",
       "year": 2002,
@@ -11,10 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.389
+      "similarity": 0.606
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Brandon Drumm",
       "college": "Colorado",
       "year": 2003,
@@ -23,10 +35,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.389
+      "similarity": 0.606
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "J.T. Wall",
       "college": "Georgia",
       "year": 2003,
@@ -35,10 +47,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.389
+      "similarity": 0.606
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Rick Razzano",
       "college": "Mississippi",
       "year": 2005,
@@ -47,43 +59,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.389
-    },
-    {
-      "rank": 5,
-      "name": "Justise Hairston",
-      "college": "Central Connecticut St.",
-      "year": 2007,
-      "round": 6,
-      "pick": 208,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.389
-    },
-    {
-      "rank": 6,
-      "name": "Andre Ellington",
-      "college": "Clemson",
-      "year": 2013,
-      "round": 6,
-      "pick": 187,
-      "ppg": 9.8704,
-      "rawPpg": 11.2975,
-      "madeIt": true,
-      "similarity": 0.278
-    },
-    {
-      "rank": 7,
-      "name": "Ahmaad Galloway",
-      "college": "Alabama",
-      "year": 2003,
-      "round": 7,
-      "pick": 235,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.213
+      "similarity": 0.606
     }
   ]
 }

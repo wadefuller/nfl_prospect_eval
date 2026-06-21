@@ -1,0 +1,89 @@
+{
+  "prospectId": "max-klare-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Mike Gesicki",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 2,
+      "pick": 42,
+      "ppg": 6.7991,
+      "rawPpg": 8.11,
+      "madeIt": true,
+      "similarity": 0.625
+    },
+    {
+      "rank": 2,
+      "name": "Rob Housler",
+      "college": "Florida Atlantic",
+      "year": 2011,
+      "round": 3,
+      "pick": 69,
+      "ppg": 4.6491,
+      "rawPpg": 4.8669,
+      "madeIt": false,
+      "similarity": 0.548
+    },
+    {
+      "rank": 3,
+      "name": "Devin Asiasi",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.505
+    },
+    {
+      "rank": 4,
+      "name": "Jordan Akins",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 98,
+      "ppg": 4.588,
+      "rawPpg": 4.7514,
+      "madeIt": false,
+      "similarity": 0.5
+    },
+    {
+      "rank": 5,
+      "name": "Tyler Kroft",
+      "college": "Rutgers",
+      "year": 2015,
+      "round": 3,
+      "pick": 85,
+      "ppg": 4.4832,
+      "rawPpg": 4.2479,
+      "madeIt": false,
+      "similarity": 0.488
+    },
+    {
+      "rank": 6,
+      "name": "David Njoku",
+      "college": "Miami (FL)",
+      "year": 2017,
+      "round": 1,
+      "pick": 29,
+      "ppg": 5.6183,
+      "rawPpg": 6.3227,
+      "madeIt": true,
+      "similarity": 0.464
+    },
+    {
+      "rank": 7,
+      "name": "Lance Kendricks",
+      "college": "Wisconsin",
+      "year": 2011,
+      "round": 2,
+      "pick": 47,
+      "ppg": 5.0904,
+      "rawPpg": 5.4406,
+      "madeIt": true,
+      "similarity": 0.464
+    }
+  ]
+}

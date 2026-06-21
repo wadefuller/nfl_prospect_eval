@@ -11,22 +11,10 @@
       "ppg": 7.1889,
       "rawPpg": 7.9606,
       "madeIt": true,
-      "similarity": 0.728
+      "similarity": 0.642
     },
     {
       "rank": 2,
-      "name": "Vincent Brown",
-      "college": "San Diego St.",
-      "year": 2011,
-      "round": 3,
-      "pick": 82,
-      "ppg": 5.3222,
-      "rawPpg": 5.0231,
-      "madeIt": true,
-      "similarity": 0.698
-    },
-    {
-      "rank": 3,
       "name": "Denzel Mims",
       "college": "Baylor",
       "year": 2020,
@@ -35,22 +23,10 @@
       "ppg": 4.9627,
       "rawPpg": 4.0722,
       "madeIt": false,
-      "similarity": 0.612
+      "similarity": 0.602
     },
     {
-      "rank": 4,
-      "name": "Dyami Brown",
-      "college": "North Carolina",
-      "year": 2021,
-      "round": 3,
-      "pick": 82,
-      "ppg": 4.2238,
-      "rawPpg": 2.7883,
-      "madeIt": false,
-      "similarity": 0.586
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "name": "Marquise Brown",
       "college": "Oklahoma",
       "year": 2019,
@@ -59,31 +35,55 @@
       "ppg": 9.0048,
       "rawPpg": 10.525,
       "madeIt": true,
-      "similarity": 0.572
+      "similarity": 0.577
+    },
+    {
+      "rank": 4,
+      "name": "Brandon LaFell",
+      "college": "LSU",
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
+      "madeIt": true,
+      "similarity": 0.57
+    },
+    {
+      "rank": 5,
+      "name": "Aaron Dobson",
+      "college": "Marshall",
+      "year": 2013,
+      "round": 2,
+      "pick": 59,
+      "ppg": 6.3767,
+      "rawPpg": 6.0076,
+      "madeIt": true,
+      "similarity": 0.529
     },
     {
       "rank": 6,
-      "name": "James Washington",
-      "college": "Oklahoma St.",
-      "year": 2018,
-      "round": 2,
-      "pick": 60,
-      "ppg": 6.1943,
-      "rawPpg": 6.3479,
-      "madeIt": true,
-      "similarity": 0.502
+      "name": "Taylor Price",
+      "college": "Ohio",
+      "year": 2010,
+      "round": 3,
+      "pick": 90,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.529
     },
     {
       "rank": 7,
-      "name": "Quentin Johnston",
-      "college": "TCU",
+      "name": "Jayden Reed",
+      "college": "Michigan St.",
       "year": 2023,
-      "round": 1,
-      "pick": 21,
-      "ppg": 8.8257,
-      "rawPpg": 10.5105,
+      "round": 2,
+      "pick": 50,
+      "ppg": 9.1864,
+      "rawPpg": 10.7728,
       "madeIt": true,
-      "similarity": 0.487
+      "similarity": 0.517
     }
   ]
 }

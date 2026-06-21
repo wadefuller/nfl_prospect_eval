@@ -11,22 +11,10 @@
       "ppg": 6.3149,
       "rawPpg": 2.4667,
       "madeIt": true,
-      "similarity": 0.331
+      "similarity": 0.665
     },
     {
       "rank": 2,
-      "name": "Benny Snell Jr.",
-      "college": "Kentucky",
-      "year": 2019,
-      "round": 4,
-      "pick": 122,
-      "ppg": 5.9626,
-      "rawPpg": 4.8936,
-      "madeIt": true,
-      "similarity": 0.169
-    },
-    {
-      "rank": 3,
       "name": "Darrynton Evans",
       "college": "Appalachian St.",
       "year": 2020,
@@ -35,46 +23,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.145
+      "similarity": 0.417
+    },
+    {
+      "rank": 3,
+      "name": "Nyheim Hines",
+      "college": "North Carolina St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 104,
+      "ppg": 8.6506,
+      "rawPpg": 9.0969,
+      "madeIt": true,
+      "similarity": 0.391
     },
     {
       "rank": 4,
-      "name": "Alexander Mattison",
-      "college": "Boise St.",
-      "year": 2019,
-      "round": 3,
-      "pick": 102,
-      "ppg": 6.9873,
-      "rawPpg": 6.5267,
-      "madeIt": true,
-      "similarity": 0.14
-    },
-    {
-      "rank": 5,
-      "name": "Ryquell Armstead",
-      "college": "Temple",
-      "year": 2019,
-      "round": 5,
-      "pick": 140,
-      "ppg": 5.6109,
-      "rawPpg": 3.1571,
-      "madeIt": true,
-      "similarity": 0.137
-    },
-    {
-      "rank": 6,
-      "name": "Mike Gillislee",
-      "college": "Florida",
-      "year": 2013,
-      "round": 5,
-      "pick": 164,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.137
-    },
-    {
-      "rank": 7,
       "name": "Robert Turbin",
       "college": "Utah St.",
       "year": 2012,
@@ -83,7 +47,19 @@
       "ppg": 5.4197,
       "rawPpg": 4.2125,
       "madeIt": true,
-      "similarity": 0.136
+      "similarity": 0.379
+    },
+    {
+      "rank": 5,
+      "name": "Jerome Ford",
+      "college": "Cincinnati",
+      "year": 2022,
+      "round": 5,
+      "pick": 156,
+      "ppg": 9.124,
+      "rawPpg": 9.6897,
+      "madeIt": true,
+      "similarity": 0.374
     }
   ]
 }

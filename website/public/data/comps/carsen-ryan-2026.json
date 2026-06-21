@@ -1,0 +1,89 @@
+{
+  "prospectId": "carsen-ryan-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Gerald Christian",
+      "college": "Louisville",
+      "year": 2015,
+      "round": 7,
+      "pick": 256,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.644
+    },
+    {
+      "rank": 2,
+      "name": "Tommy Sweeney",
+      "college": "Boston Col.",
+      "year": 2019,
+      "round": 7,
+      "pick": 228,
+      "ppg": 3.6678,
+      "rawPpg": 2.1286,
+      "madeIt": false,
+      "similarity": 0.429
+    },
+    {
+      "rank": 3,
+      "name": "Nick Muse",
+      "college": "South Carolina",
+      "year": 2022,
+      "round": 7,
+      "pick": 227,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.356
+    },
+    {
+      "rank": 4,
+      "name": "Isaac Nauta",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.336
+    },
+    {
+      "rank": 5,
+      "name": "Jameson Konz",
+      "college": "Kent St.",
+      "year": 2010,
+      "round": 7,
+      "pick": 245,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.317
+    },
+    {
+      "rank": 6,
+      "name": "Chris Gragg",
+      "college": "Arkansas",
+      "year": 2013,
+      "round": 7,
+      "pick": 222,
+      "ppg": 3.6124,
+      "rawPpg": 2.6917,
+      "madeIt": false,
+      "similarity": 0.315
+    },
+    {
+      "rank": 7,
+      "name": "Dedrick Epps",
+      "college": "Miami (FL)",
+      "year": 2010,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.313
+    }
+  ]
+}

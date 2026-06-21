@@ -3,54 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Michael Gallup",
-      "college": "Colorado St.",
-      "year": 2018,
-      "round": 3,
-      "pick": 81,
-      "ppg": 9.1072,
-      "rawPpg": 10.9116,
-      "madeIt": true,
-      "similarity": 0.484
+      "name": "Tandon Doss",
+      "college": "Indiana",
+      "year": 2011,
+      "round": 4,
+      "pick": 123,
+      "ppg": 4.2956,
+      "rawPpg": 3.0067,
+      "madeIt": false,
+      "similarity": 0.456
     },
     {
       "rank": 2,
-      "name": "Allen Robinson",
-      "college": "Penn St.",
-      "year": 2014,
-      "round": 2,
-      "pick": 61,
-      "ppg": 10.8798,
-      "rawPpg": 13.3375,
-      "madeIt": true,
-      "similarity": 0.464
-    },
-    {
-      "rank": 3,
-      "name": "Ryan Switzer",
-      "college": "North Carolina",
-      "year": 2017,
-      "round": 4,
-      "pick": 133,
-      "ppg": 3.3423,
-      "rawPpg": 2.0313,
-      "madeIt": false,
-      "similarity": 0.439
-    },
-    {
-      "rank": 4,
-      "name": "Keke Coutee",
-      "college": "Texas Tech",
-      "year": 2018,
-      "round": 4,
-      "pick": 103,
-      "ppg": 7.2211,
-      "rawPpg": 8.5896,
-      "madeIt": true,
-      "similarity": 0.431
-    },
-    {
-      "rank": 5,
       "name": "Bryan Edwards",
       "college": "South Carolina",
       "year": 2020,
@@ -59,31 +23,67 @@
       "ppg": 5.3252,
       "rawPpg": 4.5892,
       "madeIt": true,
-      "similarity": 0.383
+      "similarity": 0.451
+    },
+    {
+      "rank": 3,
+      "name": "Jarvis Landry",
+      "college": "LSU",
+      "year": 2014,
+      "round": 2,
+      "pick": 63,
+      "ppg": 10.4602,
+      "rawPpg": 12.7081,
+      "madeIt": true,
+      "similarity": 0.443
+    },
+    {
+      "rank": 4,
+      "name": "Keenan Allen",
+      "college": "California",
+      "year": 2013,
+      "round": 3,
+      "pick": 76,
+      "ppg": 10.5521,
+      "rawPpg": 14.3283,
+      "madeIt": true,
+      "similarity": 0.395
+    },
+    {
+      "rank": 5,
+      "name": "Tylan Wallace",
+      "college": "Oklahoma St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 131,
+      "ppg": 3.3229,
+      "rawPpg": 0.7983,
+      "madeIt": false,
+      "similarity": 0.389
     },
     {
       "rank": 6,
-      "name": "Amari Rodgers",
-      "college": "Clemson",
-      "year": 2021,
-      "round": 3,
-      "pick": 85,
-      "ppg": 2.939,
-      "rawPpg": 1.4075,
-      "madeIt": false,
-      "similarity": 0.383
+      "name": "Allen Robinson",
+      "college": "Penn St.",
+      "year": 2014,
+      "round": 2,
+      "pick": 61,
+      "ppg": 10.8798,
+      "rawPpg": 13.3375,
+      "madeIt": true,
+      "similarity": 0.379
     },
     {
       "rank": 7,
-      "name": "Jordan Shipley",
-      "college": "Texas",
-      "year": 2010,
-      "round": 3,
-      "pick": 84,
-      "ppg": 6.3508,
-      "rawPpg": 6.4595,
+      "name": "Justin Hardy",
+      "college": "East Carolina",
+      "year": 2015,
+      "round": 4,
+      "pick": 107,
+      "ppg": 5.1367,
+      "rawPpg": 4.6127,
       "madeIt": true,
-      "similarity": 0.38
+      "similarity": 0.378
     }
   ]
 }

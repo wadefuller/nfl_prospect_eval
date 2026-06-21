@@ -1,0 +1,89 @@
+{
+  "prospectId": "caleb-lohner-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jim Dray",
+      "college": "Stanford",
+      "year": 2010,
+      "round": 7,
+      "pick": 233,
+      "ppg": 2.91,
+      "rawPpg": 0.62,
+      "madeIt": false,
+      "similarity": 0.507
+    },
+    {
+      "rank": 2,
+      "name": "David Paulson",
+      "college": "Oregon",
+      "year": 2012,
+      "round": 7,
+      "pick": 240,
+      "ppg": 3.0023,
+      "rawPpg": 0.86,
+      "madeIt": false,
+      "similarity": 0.431
+    },
+    {
+      "rank": 3,
+      "name": "Ko Kieft",
+      "college": "Minnesota",
+      "year": 2022,
+      "round": 6,
+      "pick": 218,
+      "ppg": 2.4015,
+      "rawPpg": 1.0081,
+      "madeIt": false,
+      "similarity": 0.416
+    },
+    {
+      "rank": 4,
+      "name": "Ryan Izzo",
+      "college": "Florida St.",
+      "year": 2018,
+      "round": 7,
+      "pick": 250,
+      "ppg": 3.5706,
+      "rawPpg": 2.92,
+      "madeIt": false,
+      "similarity": 0.411
+    },
+    {
+      "rank": 5,
+      "name": "Jordan Thomas",
+      "college": "Mississippi St.",
+      "year": 2018,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.369
+    },
+    {
+      "rank": 6,
+      "name": "Isaac Nauta",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.348
+    },
+    {
+      "rank": 7,
+      "name": "Michael Williams",
+      "college": "Alabama",
+      "year": 2013,
+      "round": 7,
+      "pick": 211,
+      "ppg": 2.9424,
+      "rawPpg": 0.4556,
+      "madeIt": false,
+      "similarity": 0.334
+    }
+  ]
+}

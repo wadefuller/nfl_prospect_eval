@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Israel Abanikanda",
-      "college": "Pittsburgh",
-      "year": 2023,
-      "round": 5,
-      "pick": 143,
-      "ppg": 6.3149,
-      "rawPpg": 2.4667,
-      "madeIt": true,
-      "similarity": 0.21
-    },
-    {
-      "rank": 2,
       "name": "Alex Collins",
       "college": "Arkansas",
       "year": 2016,
@@ -23,7 +11,19 @@
       "ppg": 9.3836,
       "rawPpg": 10.3717,
       "madeIt": true,
-      "similarity": 0.209
+      "similarity": 0.64
+    },
+    {
+      "rank": 2,
+      "name": "Israel Abanikanda",
+      "college": "Pittsburgh",
+      "year": 2023,
+      "round": 5,
+      "pick": 143,
+      "ppg": 6.3149,
+      "rawPpg": 2.4667,
+      "madeIt": true,
+      "similarity": 0.561
     },
     {
       "rank": 3,
@@ -35,22 +35,10 @@
       "ppg": 7.6423,
       "rawPpg": 7.5,
       "madeIt": true,
-      "similarity": 0.187
+      "similarity": 0.523
     },
     {
       "rank": 4,
-      "name": "Kendall Hunter",
-      "college": "Oklahoma St.",
-      "year": 2011,
-      "round": 4,
-      "pick": 115,
-      "ppg": 6.2913,
-      "rawPpg": 5.4216,
-      "madeIt": true,
-      "similarity": 0.18
-    },
-    {
-      "rank": 5,
       "name": "Jerome Ford",
       "college": "Cincinnati",
       "year": 2022,
@@ -59,10 +47,10 @@
       "ppg": 9.124,
       "rawPpg": 9.6897,
       "madeIt": true,
-      "similarity": 0.176
+      "similarity": 0.491
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "Tyler Allgeier",
       "college": "BYU",
       "year": 2022,
@@ -71,19 +59,7 @@
       "ppg": 8.2475,
       "rawPpg": 8.5136,
       "madeIt": true,
-      "similarity": 0.171
-    },
-    {
-      "rank": 7,
-      "name": "Keenan Reynolds",
-      "college": "Navy",
-      "year": 2016,
-      "round": 6,
-      "pick": 182,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.169
+      "similarity": 0.487
     }
   ]
 }

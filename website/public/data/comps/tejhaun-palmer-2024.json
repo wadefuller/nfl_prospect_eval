@@ -11,10 +11,34 @@
       "ppg": 4.5858,
       "rawPpg": 2.38,
       "madeIt": false,
-      "similarity": 0.645
+      "similarity": 0.689
     },
     {
       "rank": 2,
+      "name": "Kenny Bell",
+      "college": "Nebraska",
+      "year": 2015,
+      "round": 5,
+      "pick": 162,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.597
+    },
+    {
+      "rank": 3,
+      "name": "Marquez Valdes-Scantling",
+      "college": "South Florida",
+      "year": 2018,
+      "round": 5,
+      "pick": 174,
+      "ppg": 6.7007,
+      "rawPpg": 7.1893,
+      "madeIt": true,
+      "similarity": 0.586
+    },
+    {
+      "rank": 4,
       "name": "Jauan Jennings",
       "college": "Tennessee",
       "year": 2020,
@@ -23,31 +47,7 @@
       "ppg": 5.1274,
       "rawPpg": 4.7344,
       "madeIt": true,
-      "similarity": 0.579
-    },
-    {
-      "rank": 3,
-      "name": "Carlton Mitchell",
-      "college": "South Florida",
-      "year": 2010,
-      "round": 6,
-      "pick": 177,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.57
-    },
-    {
-      "rank": 4,
-      "name": "Devin Lucien",
-      "college": "Arizona St.",
-      "year": 2016,
-      "round": 7,
-      "pick": 225,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.556
+      "similarity": 0.562
     },
     {
       "rank": 5,
@@ -59,31 +59,31 @@
       "ppg": 6.869,
       "rawPpg": 8.075,
       "madeIt": true,
-      "similarity": 0.552
+      "similarity": 0.558
     },
     {
       "rank": 6,
-      "name": "T.J. Jones",
-      "college": "Notre Dame",
-      "year": 2014,
+      "name": "DeVeren Johnson",
+      "college": "Sacred Heart",
+      "year": 2002,
       "round": 6,
-      "pick": 189,
-      "ppg": 4.5897,
-      "rawPpg": 2.39,
-      "madeIt": false,
-      "similarity": 0.543
-    },
-    {
-      "rank": 7,
-      "name": "Kenny Bell",
-      "college": "Nebraska",
-      "year": 2015,
-      "round": 5,
-      "pick": 162,
+      "pick": 208,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.521
+      "similarity": 0.554
+    },
+    {
+      "rank": 7,
+      "name": "Michael Coleman",
+      "college": "Widener",
+      "year": 2002,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.554
     }
   ]
 }

@@ -11,7 +11,7 @@
       "ppg": 7.2861,
       "rawPpg": 7.9469,
       "madeIt": true,
-      "similarity": 0.533
+      "similarity": 0.55
     },
     {
       "rank": 2,
@@ -23,7 +23,7 @@
       "ppg": 9.5125,
       "rawPpg": 11.1595,
       "madeIt": true,
-      "similarity": 0.462
+      "similarity": 0.477
     },
     {
       "rank": 3,
@@ -35,34 +35,22 @@
       "ppg": 3.4866,
       "rawPpg": 1.4648,
       "madeIt": false,
-      "similarity": 0.421
+      "similarity": 0.444
     },
     {
       "rank": 4,
-      "name": "N'Keal Harry",
-      "college": "Arizona St.",
-      "year": 2019,
+      "name": "Breshad Perriman",
+      "college": "Central Florida",
+      "year": 2015,
       "round": 1,
-      "pick": 32,
-      "ppg": 0,
-      "rawPpg": null,
+      "pick": 26,
+      "ppg": 4.5889,
+      "rawPpg": 3.3973,
       "madeIt": false,
-      "similarity": 0.415
+      "similarity": 0.437
     },
     {
       "rank": 5,
-      "name": "Terrace Marshall Jr.",
-      "college": "LSU",
-      "year": 2021,
-      "round": 2,
-      "pick": 59,
-      "ppg": 5.0765,
-      "rawPpg": 4.1163,
-      "madeIt": true,
-      "similarity": 0.412
-    },
-    {
-      "rank": 6,
       "name": "KJ Hamler",
       "college": "Penn St.",
       "year": 2020,
@@ -71,19 +59,31 @@
       "ppg": 5.6715,
       "rawPpg": 4.9875,
       "madeIt": true,
-      "similarity": 0.405
+      "similarity": 0.435
+    },
+    {
+      "rank": 6,
+      "name": "John Metchie",
+      "college": "Alabama",
+      "year": 2022,
+      "round": 2,
+      "pick": 44,
+      "ppg": 4.0758,
+      "rawPpg": 3.0343,
+      "madeIt": false,
+      "similarity": 0.422
     },
     {
       "rank": 7,
-      "name": "Christian Kirk",
-      "college": "Texas A&M",
-      "year": 2018,
+      "name": "JJ Arcega-Whiteside",
+      "college": "Stanford",
+      "year": 2019,
       "round": 2,
-      "pick": 47,
-      "ppg": 8.1868,
-      "rawPpg": 9.533,
-      "madeIt": true,
-      "similarity": 0.394
+      "pick": 57,
+      "ppg": 3.9979,
+      "rawPpg": 1.8786,
+      "madeIt": false,
+      "similarity": 0.407
     }
   ]
 }

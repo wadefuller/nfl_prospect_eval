@@ -12,7 +12,17 @@
     "rb_bias": 0.17,
     "bust_accuracy": 0.789,
     "wr_bust_accuracy": 0.789,
-    "rb_bust_accuracy": 0.789
+    "rb_bust_accuracy": 0.789,
+    "qb_mae": 4.976,
+    "qb_cor": 0.636,
+    "qb_bias": 0.512,
+    "qb_bust_accuracy": 0.793,
+    "qb_n": 92,
+    "te_mae": 1.626,
+    "te_cor": 0.369,
+    "te_bias": -0.466,
+    "te_bust_accuracy": 0.843,
+    "te_n": 102
   },
   "byYear": [
     {

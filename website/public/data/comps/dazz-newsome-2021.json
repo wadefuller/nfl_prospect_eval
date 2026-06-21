@@ -3,54 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Marquez Stevenson",
-      "college": "Houston",
-      "year": 2021,
-      "round": 6,
-      "pick": 203,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.489
-    },
-    {
-      "rank": 2,
-      "name": "Isaiah Ford",
-      "college": "Virginia Tech",
-      "year": 2017,
-      "round": 7,
-      "pick": 237,
-      "ppg": 5.518,
-      "rawPpg": 4.625,
-      "madeIt": true,
-      "similarity": 0.479
-    },
-    {
-      "rank": 3,
-      "name": "K.J. Hill",
-      "college": "Ohio St.",
-      "year": 2020,
-      "round": 7,
-      "pick": 220,
-      "ppg": 3.2568,
-      "rawPpg": 0.825,
-      "madeIt": false,
-      "similarity": 0.466
-    },
-    {
-      "rank": 4,
-      "name": "Grant Dubose",
-      "college": "Charlotte",
-      "year": 2023,
-      "round": 7,
-      "pick": 256,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.465
-    },
-    {
-      "rank": 5,
       "name": "Jakeem Grant",
       "college": "Texas Tech",
       "year": 2016,
@@ -59,22 +11,22 @@
       "ppg": 4.8105,
       "rawPpg": 4.4233,
       "madeIt": false,
-      "similarity": 0.452
+      "similarity": 0.534
     },
     {
-      "rank": 6,
-      "name": "Tre Nixon",
-      "college": "Central Florida",
-      "year": 2021,
+      "rank": 2,
+      "name": "Scotty McKnight",
+      "college": "Colorado",
+      "year": 2011,
       "round": 7,
-      "pick": 242,
+      "pick": 227,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.436
+      "similarity": 0.519
     },
     {
-      "rank": 7,
+      "rank": 3,
       "name": "Parker Washington",
       "college": "Penn St.",
       "year": 2023,
@@ -83,7 +35,55 @@
       "ppg": 7.2203,
       "rawPpg": 7.7585,
       "madeIt": true,
-      "similarity": 0.415
+      "similarity": 0.515
+    },
+    {
+      "rank": 4,
+      "name": "Scott Miller",
+      "college": "Bowling Green",
+      "year": 2019,
+      "round": 6,
+      "pick": 208,
+      "ppg": 5.5265,
+      "rawPpg": 4.9659,
+      "madeIt": true,
+      "similarity": 0.509
+    },
+    {
+      "rank": 5,
+      "name": "Austin Proehl",
+      "college": "North Carolina",
+      "year": 2018,
+      "round": 7,
+      "pick": 255,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.503
+    },
+    {
+      "rank": 6,
+      "name": "Marquez Stevenson",
+      "college": "Houston",
+      "year": 2021,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.495
+    },
+    {
+      "rank": 7,
+      "name": "Olabisi Johnson",
+      "college": "Colorado St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 247,
+      "ppg": 4.9166,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.494
     }
   ]
 }

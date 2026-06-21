@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Kerrith Whyte Jr",
-      "college": "Florida Atlantic",
-      "year": 2019,
-      "round": 7,
-      "pick": 222,
-      "ppg": 6.2603,
-      "rawPpg": 2.2667,
-      "madeIt": true,
-      "similarity": 0.192
-    },
-    {
-      "rank": 2,
       "name": "Jay Finley",
       "college": "Baylor",
       "year": 2011,
@@ -23,58 +11,34 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.156
+      "similarity": 0.35
+    },
+    {
+      "rank": 2,
+      "name": "Kerrith Whyte Jr",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.2603,
+      "rawPpg": 2.2667,
+      "madeIt": true,
+      "similarity": 0.348
     },
     {
       "rank": 3,
-      "name": "Zach Evans",
-      "college": "Mississippi",
-      "year": 2023,
-      "round": 6,
-      "pick": 215,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.153
+      "name": "Da'Rel Scott",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 7,
+      "pick": 221,
+      "ppg": 5.4795,
+      "rawPpg": 0.2714,
+      "madeIt": true,
+      "similarity": 0.316
     },
     {
       "rank": 4,
-      "name": "Keaontay Ingram",
-      "college": "USC",
-      "year": 2022,
-      "round": 6,
-      "pick": 201,
-      "ppg": 4.4773,
-      "rawPpg": 1.589,
-      "madeIt": false,
-      "similarity": 0.146
-    },
-    {
-      "rank": 5,
-      "name": "Raymond Calais",
-      "college": "Louisiana",
-      "year": 2020,
-      "round": 7,
-      "pick": 245,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.14
-    },
-    {
-      "rank": 6,
-      "name": "Khalil Herbert",
-      "college": "Virginia Tech",
-      "year": 2021,
-      "round": 6,
-      "pick": 217,
-      "ppg": 8.2909,
-      "rawPpg": 8.6285,
-      "madeIt": true,
-      "similarity": 0.119
-    },
-    {
-      "rank": 7,
       "name": "Mike Weber",
       "college": "Ohio St.",
       "year": 2019,
@@ -83,7 +47,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.111
+      "similarity": 0.311
+    },
+    {
+      "rank": 5,
+      "name": "Boston Scott",
+      "college": "Louisiana Tech",
+      "year": 2018,
+      "round": 6,
+      "pick": 201,
+      "ppg": 7.1738,
+      "rawPpg": 7.4247,
+      "madeIt": true,
+      "similarity": 0.31
     }
   ]
 }

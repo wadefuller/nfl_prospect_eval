@@ -1,0 +1,89 @@
+{
+  "prospectId": "eli-stowers-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tyler Kroft",
+      "college": "Rutgers",
+      "year": 2015,
+      "round": 3,
+      "pick": 85,
+      "ppg": 4.4832,
+      "rawPpg": 4.2479,
+      "madeIt": false,
+      "similarity": 0.57
+    },
+    {
+      "rank": 2,
+      "name": "Evan Engram",
+      "college": "Mississippi",
+      "year": 2017,
+      "round": 1,
+      "pick": 23,
+      "ppg": 7.6528,
+      "rawPpg": 10.1825,
+      "madeIt": true,
+      "similarity": 0.553
+    },
+    {
+      "rank": 3,
+      "name": "Mike Gesicki",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 2,
+      "pick": 42,
+      "ppg": 6.7991,
+      "rawPpg": 8.11,
+      "madeIt": true,
+      "similarity": 0.534
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Eifert",
+      "college": "Notre Dame",
+      "year": 2013,
+      "round": 1,
+      "pick": 21,
+      "ppg": 7.0672,
+      "rawPpg": 8.8987,
+      "madeIt": true,
+      "similarity": 0.435
+    },
+    {
+      "rank": 5,
+      "name": "Michael Mayer",
+      "college": "Notre Dame",
+      "year": 2023,
+      "round": 2,
+      "pick": 35,
+      "ppg": 4.3728,
+      "rawPpg": 4.3923,
+      "madeIt": false,
+      "similarity": 0.416
+    },
+    {
+      "rank": 6,
+      "name": "Dalton Kincaid",
+      "college": "Utah",
+      "year": 2023,
+      "round": 1,
+      "pick": 25,
+      "ppg": 6.5877,
+      "rawPpg": 7.9979,
+      "madeIt": true,
+      "similarity": 0.396
+    },
+    {
+      "rank": 7,
+      "name": "Hunter Henry",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 2,
+      "pick": 35,
+      "ppg": 6.9673,
+      "rawPpg": 8.65,
+      "madeIt": true,
+      "similarity": 0.392
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "eli-raridon-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Richard Rodgers",
+      "college": "California",
+      "year": 2014,
+      "round": 3,
+      "pick": 98,
+      "ppg": 5.4183,
+      "rawPpg": 5.9002,
+      "madeIt": true,
+      "similarity": 0.749
+    },
+    {
+      "rank": 2,
+      "name": "Darnell Washington",
+      "college": "Georgia",
+      "year": 2023,
+      "round": 3,
+      "pick": 93,
+      "ppg": 3.8776,
+      "rawPpg": 3.5923,
+      "madeIt": false,
+      "similarity": 0.561
+    },
+    {
+      "rank": 3,
+      "name": "Evan Rodriguez",
+      "college": "Temple",
+      "year": 2012,
+      "round": 4,
+      "pick": 111,
+      "ppg": 3.1982,
+      "rawPpg": 0.5857,
+      "madeIt": false,
+      "similarity": 0.46
+    },
+    {
+      "rank": 4,
+      "name": "Dion Sims",
+      "college": "Michigan St.",
+      "year": 2013,
+      "round": 4,
+      "pick": 106,
+      "ppg": 3.4316,
+      "rawPpg": 2.8599,
+      "madeIt": false,
+      "similarity": 0.362
+    },
+    {
+      "rank": 5,
+      "name": "Durham Smythe",
+      "college": "Notre Dame",
+      "year": 2018,
+      "round": 4,
+      "pick": 123,
+      "ppg": 3.3313,
+      "rawPpg": 2.2615,
+      "madeIt": false,
+      "similarity": 0.353
+    },
+    {
+      "rank": 6,
+      "name": "Trevon Wesco",
+      "college": "West Virginia",
+      "year": 2019,
+      "round": 4,
+      "pick": 121,
+      "ppg": 2.6786,
+      "rawPpg": 0.8042,
+      "madeIt": false,
+      "similarity": 0.337
+    },
+    {
+      "rank": 7,
+      "name": "Devin Asiasi",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.331
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "nick-muse-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jameson Konz",
+      "college": "Kent St.",
+      "year": 2010,
+      "round": 7,
+      "pick": 245,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.548
+    },
+    {
+      "rank": 2,
+      "name": "Dedrick Epps",
+      "college": "Miami (FL)",
+      "year": 2010,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.543
+    },
+    {
+      "rank": 3,
+      "name": "Ryan Griffin",
+      "college": "Connecticut",
+      "year": 2013,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.3461,
+      "rawPpg": 4.4303,
+      "madeIt": false,
+      "similarity": 0.542
+    },
+    {
+      "rank": 4,
+      "name": "Chris Gragg",
+      "college": "Arkansas",
+      "year": 2013,
+      "round": 7,
+      "pick": 222,
+      "ppg": 3.6124,
+      "rawPpg": 2.6917,
+      "madeIt": false,
+      "similarity": 0.475
+    },
+    {
+      "rank": 5,
+      "name": "Stephen Sullivan",
+      "college": "LSU",
+      "year": 2020,
+      "round": 7,
+      "pick": 251,
+      "ppg": 3.1275,
+      "rawPpg": 0.7,
+      "madeIt": false,
+      "similarity": 0.434
+    },
+    {
+      "rank": 6,
+      "name": "Ryan Taylor",
+      "college": "North Carolina",
+      "year": 2011,
+      "round": 7,
+      "pick": 218,
+      "ppg": 2.4957,
+      "rawPpg": 0.7583,
+      "madeIt": false,
+      "similarity": 0.415
+    },
+    {
+      "rank": 7,
+      "name": "Grant Calcaterra",
+      "college": "SMU",
+      "year": 2022,
+      "round": 6,
+      "pick": 198,
+      "ppg": 3.4556,
+      "rawPpg": 2.4767,
+      "madeIt": false,
+      "similarity": 0.404
+    }
+  ]
+}

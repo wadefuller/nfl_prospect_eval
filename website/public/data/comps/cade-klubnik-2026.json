@@ -1,0 +1,65 @@
+{
+  "prospectId": "cade-klubnik-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ian Book",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 4,
+      "pick": 133,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.431
+    },
+    {
+      "rank": 2,
+      "name": "Clayton Tune",
+      "college": "Houston",
+      "year": 2023,
+      "round": 5,
+      "pick": 139,
+      "ppg": 8.8563,
+      "rawPpg": 1.2467,
+      "madeIt": true,
+      "similarity": 0.394
+    },
+    {
+      "rank": 3,
+      "name": "Jacoby Brissett",
+      "college": "North Carolina St.",
+      "year": 2016,
+      "round": 3,
+      "pick": 91,
+      "ppg": 12.2899,
+      "rawPpg": 12.87,
+      "madeIt": true,
+      "similarity": 0.365
+    },
+    {
+      "rank": 4,
+      "name": "Sam Howell",
+      "college": "North Carolina",
+      "year": 2022,
+      "round": 5,
+      "pick": 144,
+      "ppg": 13.4666,
+      "rawPpg": 15.12,
+      "madeIt": true,
+      "similarity": 0.321
+    },
+    {
+      "rank": 5,
+      "name": "Russell Wilson",
+      "college": "Wisconsin",
+      "year": 2012,
+      "round": 3,
+      "pick": 75,
+      "ppg": 16.4808,
+      "rawPpg": 18.8663,
+      "madeIt": true,
+      "similarity": 0.319
+    }
+  ]
+}

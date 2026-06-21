@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Seth Williams",
-      "college": "Auburn",
-      "year": 2021,
-      "round": 6,
-      "pick": 219,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.638
-    },
-    {
-      "rank": 2,
       "name": "Michael Coleman",
       "college": "Widener",
       "year": 2002,
@@ -23,10 +11,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.599
+      "similarity": 0.627
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "Rodney Wright",
       "college": "Fresno St.",
       "year": 2002,
@@ -35,10 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.599
+      "similarity": 0.627
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "DeAndrew Rubin",
       "college": "South Florida",
       "year": 2003,
@@ -47,10 +35,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.599
+      "similarity": 0.627
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "Travis Anglin",
       "college": "Memphis",
       "year": 2003,
@@ -59,10 +47,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.599
+      "similarity": 0.627
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "Bennie Brazell",
       "college": "LSU",
       "year": 2006,
@@ -71,10 +59,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.599
+      "similarity": 0.627
     },
     {
-      "rank": 7,
+      "rank": 6,
       "name": "Kevin McMahan",
       "college": "Maine",
       "year": 2006,
@@ -83,7 +71,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.599
+      "similarity": 0.627
+    },
+    {
+      "rank": 7,
+      "name": "Derek Kinder",
+      "college": "Pittsburgh",
+      "year": 2009,
+      "round": 7,
+      "pick": 251,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.627
     }
   ]
 }

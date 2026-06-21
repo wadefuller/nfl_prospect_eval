@@ -11,10 +11,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.485
+      "similarity": 0.54
     },
     {
       "rank": 2,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.476
+    },
+    {
+      "rank": 3,
       "name": "Brice Butler",
       "college": "San Diego St.",
       "year": 2013,
@@ -23,10 +35,22 @@
       "ppg": 4.3877,
       "rawPpg": 2.9429,
       "madeIt": false,
-      "similarity": 0.473
+      "similarity": 0.475
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "name": "Joe Webb",
+      "college": "Ala-Birmingham",
+      "year": 2010,
+      "round": 6,
+      "pick": 199,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.469
+    },
+    {
+      "rank": 5,
       "name": "Russell Gage",
       "college": "LSU",
       "year": 2018,
@@ -35,55 +59,31 @@
       "ppg": 6.8868,
       "rawPpg": 7.2581,
       "madeIt": true,
-      "similarity": 0.466
-    },
-    {
-      "rank": 4,
-      "name": "Jalen Camp",
-      "college": "Georgia Tech",
-      "year": 2021,
-      "round": 6,
-      "pick": 209,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.448
-    },
-    {
-      "rank": 5,
-      "name": "Rodney Adams",
-      "college": "South Florida",
-      "year": 2017,
-      "round": 5,
-      "pick": 170,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.416
+      "similarity": 0.4
     },
     {
       "rank": 6,
-      "name": "Racey McMath",
-      "college": "LSU",
-      "year": 2021,
+      "name": "Ronald Johnson",
+      "college": "USC",
+      "year": 2011,
       "round": 6,
-      "pick": 205,
-      "ppg": 4.3287,
-      "rawPpg": -0.0333,
+      "pick": 182,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.409
+      "similarity": 0.391
     },
     {
       "rank": 7,
-      "name": "Cody Core",
-      "college": "Mississippi",
-      "year": 2016,
+      "name": "Kaelin Clay",
+      "college": "Utah",
+      "year": 2015,
       "round": 6,
-      "pick": 199,
-      "ppg": 4.6798,
-      "rawPpg": 3.5607,
+      "pick": 184,
+      "ppg": 3.3787,
+      "rawPpg": 1.2055,
       "madeIt": false,
-      "similarity": 0.407
+      "similarity": 0.381
     }
   ]
 }

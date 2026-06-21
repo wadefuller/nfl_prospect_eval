@@ -3,6 +3,18 @@
   "comps": [
     {
       "rank": 1,
+      "name": "Zamir White",
+      "college": "Georgia",
+      "year": 2022,
+      "round": 4,
+      "pick": 122,
+      "ppg": 5.8602,
+      "rawPpg": 4.1976,
+      "madeIt": true,
+      "similarity": 0.453
+    },
+    {
+      "rank": 2,
       "name": "Kene Nwangwu",
       "college": "Iowa St.",
       "year": 2021,
@@ -11,19 +23,7 @@
       "ppg": 3.9905,
       "rawPpg": 1.5417,
       "madeIt": false,
-      "similarity": 0.228
-    },
-    {
-      "rank": 2,
-      "name": "Tyjae Spears",
-      "college": "Tulane",
-      "year": 2023,
-      "round": 3,
-      "pick": 81,
-      "ppg": 7.7895,
-      "rawPpg": 7.8672,
-      "madeIt": true,
-      "similarity": 0.185
+      "similarity": 0.426
     },
     {
       "rank": 3,
@@ -35,55 +35,31 @@
       "ppg": 6.3324,
       "rawPpg": 5.5059,
       "madeIt": true,
-      "similarity": 0.181
+      "similarity": 0.422
     },
     {
       "rank": 4,
-      "name": "Eddie Lacy",
-      "college": "Alabama",
-      "year": 2013,
-      "round": 2,
-      "pick": 61,
-      "ppg": 12.7814,
-      "rawPpg": 15.3625,
+      "name": "Kendre Miller",
+      "college": "TCU",
+      "year": 2023,
+      "round": 3,
+      "pick": 71,
+      "ppg": 6.5182,
+      "rawPpg": 4.9524,
       "madeIt": true,
-      "similarity": 0.147
+      "similarity": 0.355
     },
     {
       "rank": 5,
-      "name": "La'Mical Perine",
-      "college": "Florida",
-      "year": 2020,
-      "round": 4,
-      "pick": 120,
-      "ppg": 6.5818,
-      "rawPpg": 4.7,
-      "madeIt": true,
-      "similarity": 0.145
-    },
-    {
-      "rank": 6,
-      "name": "James Cook",
-      "college": "Georgia",
-      "year": 2022,
+      "name": "Christine Michael",
+      "college": "Texas A&M",
+      "year": 2013,
       "round": 2,
-      "pick": 63,
-      "ppg": 11.9495,
-      "rawPpg": 14.0314,
+      "pick": 62,
+      "ppg": 5.0214,
+      "rawPpg": 2.6725,
       "madeIt": true,
-      "similarity": 0.14
-    },
-    {
-      "rank": 7,
-      "name": "Matt Jones",
-      "college": "Florida",
-      "year": 2015,
-      "round": 3,
-      "pick": 95,
-      "ppg": 8.3424,
-      "rawPpg": 9.1275,
-      "madeIt": true,
-      "similarity": 0.137
+      "similarity": 0.348
     }
   ]
 }

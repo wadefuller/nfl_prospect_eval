@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Maurice Clarett",
-      "college": "Ohio St.",
-      "year": 2005,
-      "round": 3,
-      "pick": 101,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.245
-    },
-    {
-      "rank": 2,
-      "name": "Dennis Morris",
-      "college": "Louisiana Tech",
-      "year": 2010,
-      "round": 6,
-      "pick": 174,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.234
-    },
-    {
-      "rank": 3,
       "name": "Jordan Howard",
       "college": "Indiana",
       "year": 2016,
@@ -35,55 +11,55 @@
       "ppg": 11.2325,
       "rawPpg": 13.0679,
       "madeIt": true,
-      "similarity": 0.229
+      "similarity": 0.501
     },
     {
-      "rank": 4,
-      "name": "Manuel White",
-      "college": "UCLA",
-      "year": 2005,
+      "rank": 2,
+      "name": "Mark Walton",
+      "college": "Miami (FL)",
+      "year": 2018,
       "round": 4,
-      "pick": 120,
+      "pick": 112,
+      "ppg": 5.1099,
+      "rawPpg": 2.9643,
+      "madeIt": true,
+      "similarity": 0.477
+    },
+    {
+      "rank": 3,
+      "name": "Dennis Morris",
+      "college": "Louisiana Tech",
+      "year": 2010,
+      "round": 6,
+      "pick": 174,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.218
+      "similarity": 0.472
+    },
+    {
+      "rank": 4,
+      "name": "Maurice Clarett",
+      "college": "Ohio St.",
+      "year": 2005,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.466
     },
     {
       "rank": 5,
-      "name": "Isaiah Spiller",
-      "college": "Texas A&M",
-      "year": 2022,
-      "round": 4,
-      "pick": 123,
-      "ppg": 5.6051,
-      "rawPpg": 1.7778,
-      "madeIt": true,
-      "similarity": 0.214
-    },
-    {
-      "rank": 6,
-      "name": "DeeJay Dallas",
-      "college": "Miami (FL)",
-      "year": 2020,
-      "round": 4,
-      "pick": 144,
-      "ppg": 5.2888,
-      "rawPpg": 4.1477,
-      "madeIt": true,
-      "similarity": 0.197
-    },
-    {
-      "rank": 7,
-      "name": "Wayne Gallman",
-      "college": "Clemson",
+      "name": "Jamaal Williams",
+      "college": "BYU",
       "year": 2017,
       "round": 4,
-      "pick": 140,
-      "ppg": 6.7034,
-      "rawPpg": 5.753,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
       "madeIt": true,
-      "similarity": 0.19
+      "similarity": 0.443
     }
   ]
 }

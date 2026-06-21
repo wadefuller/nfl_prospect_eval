@@ -11,34 +11,10 @@
       "ppg": 14.3775,
       "rawPpg": 19.5225,
       "madeIt": true,
-      "similarity": 0.486
+      "similarity": 0.529
     },
     {
       "rank": 2,
-      "name": "Quentin Johnston",
-      "college": "TCU",
-      "year": 2023,
-      "round": 1,
-      "pick": 21,
-      "ppg": 8.8257,
-      "rawPpg": 10.5105,
-      "madeIt": true,
-      "similarity": 0.448
-    },
-    {
-      "rank": 3,
-      "name": "Henry Ruggs III",
-      "college": "Alabama",
-      "year": 2020,
-      "round": 1,
-      "pick": 12,
-      "ppg": 6.6398,
-      "rawPpg": 7.9132,
-      "madeIt": true,
-      "similarity": 0.445
-    },
-    {
-      "rank": 4,
       "name": "Jonathan Mingo",
       "college": "Mississippi",
       "year": 2023,
@@ -47,22 +23,34 @@
       "ppg": 4.054,
       "rawPpg": 2.9564,
       "madeIt": false,
-      "similarity": 0.405
+      "similarity": 0.526
+    },
+    {
+      "rank": 3,
+      "name": "Quentin Johnston",
+      "college": "TCU",
+      "year": 2023,
+      "round": 1,
+      "pick": 21,
+      "ppg": 8.8257,
+      "rawPpg": 10.5105,
+      "madeIt": true,
+      "similarity": 0.522
+    },
+    {
+      "rank": 4,
+      "name": "Henry Ruggs III",
+      "college": "Alabama",
+      "year": 2020,
+      "round": 1,
+      "pick": 12,
+      "ppg": 6.6398,
+      "rawPpg": 7.9132,
+      "madeIt": true,
+      "similarity": 0.487
     },
     {
       "rank": 5,
-      "name": "Breshad Perriman",
-      "college": "Central Florida",
-      "year": 2015,
-      "round": 1,
-      "pick": 26,
-      "ppg": 4.5889,
-      "rawPpg": 3.3973,
-      "madeIt": false,
-      "similarity": 0.391
-    },
-    {
-      "rank": 6,
       "name": "Mike Evans",
       "college": "Texas A&M",
       "year": 2014,
@@ -71,19 +59,31 @@
       "ppg": 11.9709,
       "rawPpg": 15.0398,
       "madeIt": true,
-      "similarity": 0.376
+      "similarity": 0.441
+    },
+    {
+      "rank": 6,
+      "name": "Marquise Brown",
+      "college": "Oklahoma",
+      "year": 2019,
+      "round": 1,
+      "pick": 25,
+      "ppg": 9.0048,
+      "rawPpg": 10.525,
+      "madeIt": true,
+      "similarity": 0.439
     },
     {
       "rank": 7,
-      "name": "KJ Hamler",
-      "college": "Penn St.",
-      "year": 2020,
+      "name": "Devin Funchess",
+      "college": "Michigan",
+      "year": 2015,
       "round": 2,
-      "pick": 46,
-      "ppg": 5.6715,
-      "rawPpg": 4.9875,
+      "pick": 41,
+      "ppg": 7.2861,
+      "rawPpg": 7.9469,
       "madeIt": true,
-      "similarity": 0.366
+      "similarity": 0.434
     }
   ]
 }

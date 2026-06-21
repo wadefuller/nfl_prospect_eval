@@ -1,0 +1,65 @@
+{
+  "prospectId": "carson-beck-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Nick Foles",
+      "college": "Arizona",
+      "year": 2012,
+      "round": 3,
+      "pick": 88,
+      "ppg": 15.3086,
+      "rawPpg": 17.4475,
+      "madeIt": true,
+      "similarity": 0.447
+    },
+    {
+      "rank": 2,
+      "name": "Brock Osweiler",
+      "college": "Arizona St.",
+      "year": 2012,
+      "round": 2,
+      "pick": 57,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.392
+    },
+    {
+      "rank": 3,
+      "name": "Ryan Finley",
+      "college": "North Carolina St.",
+      "year": 2019,
+      "round": 4,
+      "pick": 104,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.35
+    },
+    {
+      "rank": 4,
+      "name": "Mason Rudolph",
+      "college": "Oklahoma St.",
+      "year": 2018,
+      "round": 3,
+      "pick": 76,
+      "ppg": 11.3907,
+      "rawPpg": 10.88,
+      "madeIt": true,
+      "similarity": 0.343
+    },
+    {
+      "rank": 5,
+      "name": "Geno Smith",
+      "college": "West Virginia",
+      "year": 2013,
+      "round": 2,
+      "pick": 39,
+      "ppg": 11.5739,
+      "rawPpg": 11.4557,
+      "madeIt": true,
+      "similarity": 0.328
+    }
+  ]
+}

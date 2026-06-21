@@ -3,27 +3,27 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Anthony McFarland Jr.",
-      "college": "Maryland",
-      "year": 2020,
-      "round": 4,
-      "pick": 124,
-      "ppg": 5.3269,
-      "rawPpg": 1.7909,
+      "name": "Stevan Ridley",
+      "college": "LSU",
+      "year": 2011,
+      "round": 3,
+      "pick": 73,
+      "ppg": 9.7615,
+      "rawPpg": 10.7,
       "madeIt": true,
-      "similarity": 0.194
+      "similarity": 0.386
     },
     {
       "rank": 2,
-      "name": "Kene Nwangwu",
-      "college": "Iowa St.",
-      "year": 2021,
+      "name": "Joe Williams",
+      "college": "Utah",
+      "year": 2017,
       "round": 4,
-      "pick": 119,
-      "ppg": 3.9905,
-      "rawPpg": 1.5417,
+      "pick": 121,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.157
+      "similarity": 0.378
     },
     {
       "rank": 3,
@@ -35,55 +35,31 @@
       "ppg": 8.3424,
       "rawPpg": 9.1275,
       "madeIt": true,
-      "similarity": 0.122
+      "similarity": 0.374
     },
     {
       "rank": 4,
-      "name": "Nyheim Hines",
-      "college": "North Carolina St.",
-      "year": 2018,
-      "round": 4,
-      "pick": 104,
-      "ppg": 8.6506,
-      "rawPpg": 9.0969,
+      "name": "Kendre Miller",
+      "college": "TCU",
+      "year": 2023,
+      "round": 3,
+      "pick": 71,
+      "ppg": 6.5182,
+      "rawPpg": 4.9524,
       "madeIt": true,
-      "similarity": 0.119
+      "similarity": 0.372
     },
     {
       "rank": 5,
-      "name": "Trey Sermon",
-      "college": "Ohio St.",
-      "year": 2021,
-      "round": 3,
-      "pick": 88,
-      "ppg": 5.6576,
-      "rawPpg": 3.4083,
-      "madeIt": true,
-      "similarity": 0.114
-    },
-    {
-      "rank": 6,
-      "name": "Joe Williams",
-      "college": "Utah",
-      "year": 2017,
+      "name": "Bilal Powell",
+      "college": "Louisville",
+      "year": 2011,
       "round": 4,
-      "pick": 121,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.109
-    },
-    {
-      "rank": 7,
-      "name": "Roschon Johnson",
-      "college": "Texas",
-      "year": 2023,
-      "round": 4,
-      "pick": 115,
-      "ppg": 6.3324,
-      "rawPpg": 5.5059,
+      "pick": 126,
+      "ppg": 7.3136,
+      "rawPpg": 7.0371,
       "madeIt": true,
-      "similarity": 0.106
+      "similarity": 0.342
     }
   ]
 }

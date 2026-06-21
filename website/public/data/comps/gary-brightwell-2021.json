@@ -3,54 +3,42 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Kerrith Whyte Jr",
-      "college": "Florida Atlantic",
-      "year": 2019,
-      "round": 7,
-      "pick": 222,
-      "ppg": 6.2603,
-      "rawPpg": 2.2667,
+      "name": "Chris Evans",
+      "college": "Michigan",
+      "year": 2021,
+      "round": 6,
+      "pick": 202,
+      "ppg": 5.0779,
+      "rawPpg": 2.915,
       "madeIt": true,
-      "similarity": 0.241
+      "similarity": 0.467
     },
     {
       "rank": 2,
-      "name": "Jason Huntley",
-      "college": "New Mexico St.",
-      "year": 2020,
-      "round": 5,
-      "pick": 172,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.24
+      "name": "Latavius Murray",
+      "college": "Central Florida",
+      "year": 2013,
+      "round": 6,
+      "pick": 181,
+      "ppg": 8.5695,
+      "rawPpg": 8.7286,
+      "madeIt": true,
+      "similarity": 0.437
     },
     {
       "rank": 3,
-      "name": "Vick Ballard",
-      "college": "Mississippi St.",
+      "name": "Bryce Brown",
+      "college": "Kansas St.",
       "year": 2012,
-      "round": 5,
-      "pick": 170,
-      "ppg": 7.7259,
-      "rawPpg": 7.6937,
+      "round": 7,
+      "pick": 229,
+      "ppg": 6.3289,
+      "rawPpg": 5.2888,
       "madeIt": true,
-      "similarity": 0.192
+      "similarity": 0.428
     },
     {
       "rank": 4,
-      "name": "Storm Johnson",
-      "college": "Central Florida",
-      "year": 2014,
-      "round": 7,
-      "pick": 222,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.189
-    },
-    {
-      "rank": 5,
       "name": "Darius Jackson",
       "college": "Eastern Michigan",
       "year": 2016,
@@ -59,31 +47,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.173
+      "similarity": 0.427
     },
     {
-      "rank": 6,
-      "name": "Mike Weber",
-      "college": "Ohio St.",
-      "year": 2019,
+      "rank": 5,
+      "name": "Kenny Hilliard",
+      "college": "LSU",
+      "year": 2015,
       "round": 7,
-      "pick": 218,
+      "pick": 235,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.166
-    },
-    {
-      "rank": 7,
-      "name": "Jonathan Williams",
-      "college": "Arkansas",
-      "year": 2016,
-      "round": 5,
-      "pick": 156,
-      "ppg": 5.6678,
-      "rawPpg": 1.4875,
-      "madeIt": true,
-      "similarity": 0.166
+      "similarity": 0.424
     }
   ]
 }

@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Khalil Shakir",
-      "college": "Boise St.",
-      "year": 2022,
-      "round": 5,
-      "pick": 148,
-      "ppg": 7.0964,
-      "rawPpg": 7.7417,
-      "madeIt": true,
-      "similarity": 0.597
-    },
-    {
-      "rank": 2,
-      "name": "Amara Darboh",
-      "college": "Michigan",
-      "year": 2017,
-      "round": 3,
-      "pick": 106,
-      "ppg": 4.4388,
-      "rawPpg": 1.3875,
-      "madeIt": false,
-      "similarity": 0.554
-    },
-    {
-      "rank": 3,
-      "name": "Ryan Swope",
-      "college": "Texas A&M",
-      "year": 2013,
-      "round": 6,
-      "pick": 174,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.532
-    },
-    {
-      "rank": 4,
       "name": "Erik Ezukanma",
       "college": "Texas Tech",
       "year": 2022,
@@ -47,43 +11,79 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.52
+      "similarity": 0.615
     },
     {
-      "rank": 5,
-      "name": "Ihmir Smith-Marsette",
-      "college": "Iowa",
-      "year": 2021,
-      "round": 5,
-      "pick": 157,
-      "ppg": 3.847,
-      "rawPpg": 3.0132,
+      "rank": 2,
+      "name": "Ryan Whalen",
+      "college": "Stanford",
+      "year": 2011,
+      "round": 6,
+      "pick": 167,
+      "ppg": 4.5318,
+      "rawPpg": 1.2571,
       "madeIt": false,
-      "similarity": 0.518
+      "similarity": 0.582
     },
     {
-      "rank": 6,
-      "name": "Jordan Payton",
-      "college": "UCLA",
-      "year": 2016,
+      "rank": 3,
+      "name": "Khalil Shakir",
+      "college": "Boise St.",
+      "year": 2022,
       "round": 5,
-      "pick": 154,
+      "pick": 148,
+      "ppg": 7.0964,
+      "rawPpg": 7.7417,
+      "madeIt": true,
+      "similarity": 0.58
+    },
+    {
+      "rank": 4,
+      "name": "Terry Charles",
+      "college": "Portland St.",
+      "year": 2002,
+      "round": 5,
+      "pick": 142,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.512
+      "similarity": 0.55
+    },
+    {
+      "rank": 5,
+      "name": "Chase Lyman",
+      "college": "California",
+      "year": 2005,
+      "round": 4,
+      "pick": 118,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.542
+    },
+    {
+      "rank": 6,
+      "name": "Amara Darboh",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 3,
+      "pick": 106,
+      "ppg": 4.4388,
+      "rawPpg": 1.3875,
+      "madeIt": false,
+      "similarity": 0.533
     },
     {
       "rank": 7,
-      "name": "Devin Street",
-      "college": "Pittsburgh",
-      "year": 2014,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
       "round": 5,
-      "pick": 146,
-      "ppg": 4.2345,
-      "rawPpg": 1.7182,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
       "madeIt": false,
-      "similarity": 0.501
+      "similarity": 0.519
     }
   ]
 }

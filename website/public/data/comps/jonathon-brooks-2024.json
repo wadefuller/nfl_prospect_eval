@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Duke Johnson",
-      "college": "Miami (FL)",
-      "year": 2015,
-      "round": 3,
-      "pick": 77,
-      "ppg": 9.1047,
-      "rawPpg": 9.7781,
+      "name": "Mikel Leshoure",
+      "college": "Illinois",
+      "year": 2011,
+      "round": 2,
+      "pick": 57,
+      "ppg": 9.6776,
+      "rawPpg": 11.8714,
       "madeIt": true,
-      "similarity": 0.272
+      "similarity": 0.533
     },
     {
       "rank": 2,
@@ -23,22 +23,10 @@
       "ppg": 10.7779,
       "rawPpg": 12.5698,
       "madeIt": true,
-      "similarity": 0.265
+      "similarity": 0.516
     },
     {
       "rank": 3,
-      "name": "Mikel Leshoure",
-      "college": "Illinois",
-      "year": 2011,
-      "round": 2,
-      "pick": 57,
-      "ppg": 9.6776,
-      "rawPpg": 11.8714,
-      "madeIt": true,
-      "similarity": 0.232
-    },
-    {
-      "rank": 4,
       "name": "Jeremy Hill",
       "college": "LSU",
       "year": 2014,
@@ -47,7 +35,19 @@
       "ppg": 10.3687,
       "rawPpg": 11.6954,
       "madeIt": true,
-      "similarity": 0.177
+      "similarity": 0.445
+    },
+    {
+      "rank": 4,
+      "name": "Kenneth Walker III",
+      "college": "Michigan St.",
+      "year": 2022,
+      "round": 2,
+      "pick": 41,
+      "ppg": 11.2221,
+      "rawPpg": 13.4909,
+      "madeIt": true,
+      "similarity": 0.408
     },
     {
       "rank": 5,
@@ -59,31 +59,7 @@
       "ppg": 9.2648,
       "rawPpg": 10.1729,
       "madeIt": true,
-      "similarity": 0.176
-    },
-    {
-      "rank": 6,
-      "name": "Clyde Edwards-Helaire",
-      "college": "LSU",
-      "year": 2020,
-      "round": 1,
-      "pick": 32,
-      "ppg": 10.0058,
-      "rawPpg": 11.4819,
-      "madeIt": true,
-      "similarity": 0.165
-    },
-    {
-      "rank": 7,
-      "name": "Montario Hardesty",
-      "college": "Tennessee",
-      "year": 2010,
-      "round": 2,
-      "pick": 59,
-      "ppg": 5.8751,
-      "rawPpg": 4.3294,
-      "madeIt": true,
-      "similarity": 0.16
+      "similarity": 0.404
     }
   ]
 }

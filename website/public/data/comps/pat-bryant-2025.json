@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Tre'Quan Smith",
-      "college": "Central Florida",
-      "year": 2018,
-      "round": 3,
-      "pick": 91,
-      "ppg": 6.3865,
-      "rawPpg": 6.6462,
-      "madeIt": true,
-      "similarity": 0.641
-    },
-    {
-      "rank": 2,
       "name": "DaeSean Hamilton",
       "college": "Penn St.",
       "year": 2018,
@@ -23,10 +11,34 @@
       "ppg": 5.0649,
       "rawPpg": 4.4485,
       "madeIt": true,
-      "similarity": 0.494
+      "similarity": 0.574
+    },
+    {
+      "rank": 2,
+      "name": "JJ Arcega-Whiteside",
+      "college": "Stanford",
+      "year": 2019,
+      "round": 2,
+      "pick": 57,
+      "ppg": 3.9979,
+      "rawPpg": 1.8786,
+      "madeIt": false,
+      "similarity": 0.475
     },
     {
       "rank": 3,
+      "name": "Dede Westbrook",
+      "college": "Oklahoma",
+      "year": 2017,
+      "round": 4,
+      "pick": 110,
+      "ppg": 7.822,
+      "rawPpg": 8.764,
+      "madeIt": true,
+      "similarity": 0.471
+    },
+    {
+      "rank": 4,
       "name": "KJ Hamler",
       "college": "Penn St.",
       "year": 2020,
@@ -35,55 +47,43 @@
       "ppg": 5.6715,
       "rawPpg": 4.9875,
       "madeIt": true,
-      "similarity": 0.487
-    },
-    {
-      "rank": 4,
-      "name": "Josh Huff",
-      "college": "Oregon",
-      "year": 2014,
-      "round": 3,
-      "pick": 86,
-      "ppg": 4.6569,
-      "rawPpg": 3.73,
-      "madeIt": false,
-      "similarity": 0.447
+      "similarity": 0.452
     },
     {
       "rank": 5,
-      "name": "Torrey Smith",
-      "college": "Maryland",
-      "year": 2011,
-      "round": 2,
-      "pick": 58,
-      "ppg": 8.973,
-      "rawPpg": 10.5198,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
       "madeIt": true,
-      "similarity": 0.43
+      "similarity": 0.437
     },
     {
       "rank": 6,
-      "name": "Marquis Walker",
-      "college": "Michigan",
-      "year": 2002,
-      "round": 3,
-      "pick": 86,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "Mardy Gilyard",
+      "college": "Cincinnati",
+      "year": 2010,
+      "round": 4,
+      "pick": 99,
+      "ppg": 3.5744,
+      "rawPpg": 0.8429,
       "madeIt": false,
-      "similarity": 0.43
+      "similarity": 0.433
     },
     {
       "rank": 7,
-      "name": "Terrace Marshall Jr.",
+      "name": "Brandon LaFell",
       "college": "LSU",
-      "year": 2021,
-      "round": 2,
-      "pick": 59,
-      "ppg": 5.0765,
-      "rawPpg": 4.1163,
+      "year": 2010,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.0439,
+      "rawPpg": 7.751,
       "madeIt": true,
-      "similarity": 0.428
+      "similarity": 0.427
     }
   ]
 }

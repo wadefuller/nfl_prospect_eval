@@ -1,0 +1,89 @@
+{
+  "prospectId": "sam-laporta-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Hayden Hurst",
+      "college": "South Carolina",
+      "year": 2018,
+      "round": 1,
+      "pick": 25,
+      "ppg": 5.2596,
+      "rawPpg": 5.7188,
+      "madeIt": true,
+      "similarity": 0.583
+    },
+    {
+      "rank": 2,
+      "name": "Gerald Everett",
+      "college": "South Alabama",
+      "year": 2017,
+      "round": 2,
+      "pick": 44,
+      "ppg": 4.9037,
+      "rawPpg": 5.3075,
+      "madeIt": false,
+      "similarity": 0.573
+    },
+    {
+      "rank": 3,
+      "name": "Hunter Henry",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 2,
+      "pick": 35,
+      "ppg": 6.9673,
+      "rawPpg": 8.65,
+      "madeIt": true,
+      "similarity": 0.421
+    },
+    {
+      "rank": 4,
+      "name": "Eric Ebron",
+      "college": "North Carolina",
+      "year": 2014,
+      "round": 1,
+      "pick": 10,
+      "ppg": 6.7525,
+      "rawPpg": 8.2016,
+      "madeIt": true,
+      "similarity": 0.411
+    },
+    {
+      "rank": 5,
+      "name": "Evan Engram",
+      "college": "Mississippi",
+      "year": 2017,
+      "round": 1,
+      "pick": 23,
+      "ppg": 7.6528,
+      "rawPpg": 10.1825,
+      "madeIt": true,
+      "similarity": 0.3
+    },
+    {
+      "rank": 6,
+      "name": "Josh Oliver",
+      "college": "San Jose St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 69,
+      "ppg": 2.9837,
+      "rawPpg": 1.0091,
+      "madeIt": false,
+      "similarity": 0.291
+    },
+    {
+      "rank": 7,
+      "name": "Mike Gesicki",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 2,
+      "pick": 42,
+      "ppg": 6.7991,
+      "rawPpg": 8.11,
+      "madeIt": true,
+      "similarity": 0.276
+    }
+  ]
+}

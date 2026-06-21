@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Amon-Ra St. Brown",
-      "college": "USC",
-      "year": 2021,
+      "name": "Demarcus Robinson",
+      "college": "Florida",
+      "year": 2016,
       "round": 4,
-      "pick": 112,
-      "ppg": 12.1132,
-      "rawPpg": 15.1875,
-      "madeIt": true,
-      "similarity": 0.505
+      "pick": 126,
+      "ppg": 4.7733,
+      "rawPpg": 3.8636,
+      "madeIt": false,
+      "similarity": 0.545
     },
     {
       "rank": 2,
@@ -23,58 +23,34 @@
       "ppg": 9.534,
       "rawPpg": 11.3187,
       "madeIt": true,
-      "similarity": 0.427
+      "similarity": 0.535
     },
     {
       "rank": 3,
-      "name": "DeVier Posey",
-      "college": "Ohio St.",
-      "year": 2012,
-      "round": 3,
-      "pick": 68,
-      "ppg": 4.1161,
-      "rawPpg": 2.3653,
-      "madeIt": false,
-      "similarity": 0.418
+      "name": "Romeo Doubs",
+      "college": "Nevada",
+      "year": 2022,
+      "round": 4,
+      "pick": 132,
+      "ppg": 7.5963,
+      "rawPpg": 8.4579,
+      "madeIt": true,
+      "similarity": 0.481
     },
     {
       "rank": 4,
-      "name": "Demarcus Robinson",
-      "college": "Florida",
-      "year": 2016,
-      "round": 4,
-      "pick": 126,
-      "ppg": 4.7733,
-      "rawPpg": 3.8636,
-      "madeIt": false,
-      "similarity": 0.417
+      "name": "Lynn Bowden Jr.",
+      "college": "Kentucky",
+      "year": 2020,
+      "round": 3,
+      "pick": 80,
+      "ppg": 5.4005,
+      "rawPpg": 4.3978,
+      "madeIt": true,
+      "similarity": 0.467
     },
     {
       "rank": 5,
-      "name": "JuJu Smith-Schuster",
-      "college": "USC",
-      "year": 2017,
-      "round": 2,
-      "pick": 62,
-      "ppg": 10.9898,
-      "rawPpg": 13.5687,
-      "madeIt": true,
-      "similarity": 0.414
-    },
-    {
-      "rank": 6,
-      "name": "Keenan Allen",
-      "college": "California",
-      "year": 2013,
-      "round": 3,
-      "pick": 76,
-      "ppg": 10.5521,
-      "rawPpg": 14.3283,
-      "madeIt": true,
-      "similarity": 0.413
-    },
-    {
-      "rank": 7,
       "name": "Tandon Doss",
       "college": "Indiana",
       "year": 2011,
@@ -83,7 +59,31 @@
       "ppg": 4.2956,
       "rawPpg": 3.0067,
       "madeIt": false,
-      "similarity": 0.407
+      "similarity": 0.466
+    },
+    {
+      "rank": 6,
+      "name": "Diontae Johnson",
+      "college": "Toledo",
+      "year": 2019,
+      "round": 3,
+      "pick": 66,
+      "ppg": 10.556,
+      "rawPpg": 12.8965,
+      "madeIt": true,
+      "similarity": 0.46
+    },
+    {
+      "rank": 7,
+      "name": "Amon-Ra St. Brown",
+      "college": "USC",
+      "year": 2021,
+      "round": 4,
+      "pick": 112,
+      "ppg": 12.1132,
+      "rawPpg": 15.1875,
+      "madeIt": true,
+      "similarity": 0.46
     }
   ]
 }

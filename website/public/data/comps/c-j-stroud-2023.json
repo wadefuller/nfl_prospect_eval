@@ -1,0 +1,65 @@
+{
+  "prospectId": "c-j-stroud-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Mac Jones",
+      "college": "Alabama",
+      "year": 2021,
+      "round": 1,
+      "pick": 15,
+      "ppg": 12.391,
+      "rawPpg": 12.6902,
+      "madeIt": true,
+      "similarity": 0.517
+    },
+    {
+      "rank": 2,
+      "name": "Zach Wilson",
+      "college": "BYU",
+      "year": 2021,
+      "round": 1,
+      "pick": 2,
+      "ppg": 11.5168,
+      "rawPpg": 11.3085,
+      "madeIt": true,
+      "similarity": 0.411
+    },
+    {
+      "rank": 3,
+      "name": "Jordan Love",
+      "college": "Utah St.",
+      "year": 2020,
+      "round": 1,
+      "pick": 26,
+      "ppg": 9.4772,
+      "rawPpg": 3.5233,
+      "madeIt": true,
+      "similarity": 0.389
+    },
+    {
+      "rank": 4,
+      "name": "Brandon Weeden",
+      "college": "Oklahoma St.",
+      "year": 2012,
+      "round": 1,
+      "pick": 22,
+      "ppg": 11.3487,
+      "rawPpg": 11.1225,
+      "madeIt": true,
+      "similarity": 0.389
+    },
+    {
+      "rank": 5,
+      "name": "Tua Tagovailoa",
+      "college": "Alabama",
+      "year": 2020,
+      "round": 1,
+      "pick": 5,
+      "ppg": 14.2666,
+      "rawPpg": 15.84,
+      "madeIt": true,
+      "similarity": 0.38
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "tucker-kraft-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Luke Musgrave",
+      "college": "Oregon St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 42,
+      "ppg": 4.1215,
+      "rawPpg": 4.0762,
+      "madeIt": false,
+      "similarity": 0.605
+    },
+    {
+      "rank": 2,
+      "name": "Dawson Knox",
+      "college": "Mississippi",
+      "year": 2019,
+      "round": 3,
+      "pick": 96,
+      "ppg": 6.2824,
+      "rawPpg": 7.1442,
+      "madeIt": true,
+      "similarity": 0.505
+    },
+    {
+      "rank": 3,
+      "name": "Tommy Tremble",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 3,
+      "pick": 83,
+      "ppg": 3.5491,
+      "rawPpg": 3.1267,
+      "madeIt": false,
+      "similarity": 0.486
+    },
+    {
+      "rank": 4,
+      "name": "Dalton Keene",
+      "college": "Virginia Tech",
+      "year": 2020,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.469
+    },
+    {
+      "rank": 5,
+      "name": "Luke Schoonmaker",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 2,
+      "pick": 58,
+      "ppg": 3.389,
+      "rawPpg": 2.7542,
+      "madeIt": false,
+      "similarity": 0.465
+    },
+    {
+      "rank": 6,
+      "name": "Tre' McKitty",
+      "college": "Georgia",
+      "year": 2021,
+      "round": 3,
+      "pick": 97,
+      "ppg": 2.5474,
+      "rawPpg": 1.0942,
+      "madeIt": false,
+      "similarity": 0.453
+    },
+    {
+      "rank": 7,
+      "name": "Jeremy Ruckert",
+      "college": "Ohio St.",
+      "year": 2022,
+      "round": 3,
+      "pick": 101,
+      "ppg": 2.8015,
+      "rawPpg": 1.8514,
+      "madeIt": false,
+      "similarity": 0.433
+    }
+  ]
+}

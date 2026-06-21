@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Tre'Quan Smith",
-      "college": "Central Florida",
-      "year": 2018,
-      "round": 3,
-      "pick": 91,
-      "ppg": 6.3865,
-      "rawPpg": 6.6462,
-      "madeIt": true,
-      "similarity": 0.338
-    },
-    {
-      "rank": 2,
       "name": "Paul Richardson",
       "college": "Colorado",
       "year": 2014,
@@ -23,7 +11,19 @@
       "ppg": 4.6057,
       "rawPpg": 3.7449,
       "madeIt": false,
-      "similarity": 0.335
+      "similarity": 0.44
+    },
+    {
+      "rank": 2,
+      "name": "Tyquan Thornton",
+      "college": "Baylor",
+      "year": 2022,
+      "round": 2,
+      "pick": 50,
+      "ppg": 4.6333,
+      "rawPpg": 3.4542,
+      "madeIt": false,
+      "similarity": 0.404
     },
     {
       "rank": 3,
@@ -35,46 +35,34 @@
       "ppg": 7.822,
       "rawPpg": 8.764,
       "madeIt": true,
-      "similarity": 0.309
+      "similarity": 0.356
     },
     {
       "rank": 4,
-      "name": "Marcus Easley",
-      "college": "Connecticut",
-      "year": 2010,
-      "round": 4,
-      "pick": 107,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.295
+      "name": "Tre'Quan Smith",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 91,
+      "ppg": 6.3865,
+      "rawPpg": 6.6462,
+      "madeIt": true,
+      "similarity": 0.348
     },
     {
       "rank": 5,
-      "name": "Golden Tate",
-      "college": "Notre Dame",
-      "year": 2010,
+      "name": "Justin Hunter",
+      "college": "Tennessee",
+      "year": 2013,
       "round": 2,
-      "pick": 60,
-      "ppg": 6.7555,
-      "rawPpg": 7.1773,
+      "pick": 34,
+      "ppg": 5.991,
+      "rawPpg": 6.0391,
       "madeIt": true,
-      "similarity": 0.288
+      "similarity": 0.341
     },
     {
       "rank": 6,
-      "name": "Tyquan Thornton",
-      "college": "Baylor",
-      "year": 2022,
-      "round": 2,
-      "pick": 50,
-      "ppg": 4.6333,
-      "rawPpg": 3.4542,
-      "madeIt": false,
-      "similarity": 0.287
-    },
-    {
-      "rank": 7,
       "name": "Carlos Henderson",
       "college": "Louisiana Tech",
       "year": 2017,
@@ -83,7 +71,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.283
+      "similarity": 0.321
+    },
+    {
+      "rank": 7,
+      "name": "Tee Higgins",
+      "college": "Clemson",
+      "year": 2020,
+      "round": 2,
+      "pick": 33,
+      "ppg": 10.4871,
+      "rawPpg": 13.0714,
+      "madeIt": true,
+      "similarity": 0.313
     }
   ]
 }

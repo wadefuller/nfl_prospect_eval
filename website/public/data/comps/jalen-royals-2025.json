@@ -11,22 +11,10 @@
       "ppg": 7.5393,
       "rawPpg": 8.9563,
       "madeIt": true,
-      "similarity": 0.52
+      "similarity": 0.473
     },
     {
       "rank": 2,
-      "name": "Demarcus Robinson",
-      "college": "Florida",
-      "year": 2016,
-      "round": 4,
-      "pick": 126,
-      "ppg": 4.7733,
-      "rawPpg": 3.8636,
-      "madeIt": false,
-      "similarity": 0.419
-    },
-    {
-      "rank": 3,
       "name": "Jarius Wright",
       "college": "Arkansas",
       "year": 2012,
@@ -35,31 +23,43 @@
       "ppg": 6.564,
       "rawPpg": 7.2324,
       "madeIt": true,
-      "similarity": 0.416
+      "similarity": 0.449
+    },
+    {
+      "rank": 3,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
+      "round": 5,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
+      "madeIt": false,
+      "similarity": 0.444
     },
     {
       "rank": 4,
-      "name": "Kenny Stills",
-      "college": "Oklahoma",
-      "year": 2013,
-      "round": 5,
-      "pick": 144,
-      "ppg": 7.4241,
-      "rawPpg": 8.2185,
+      "name": "Romeo Doubs",
+      "college": "Nevada",
+      "year": 2022,
+      "round": 4,
+      "pick": 132,
+      "ppg": 7.5963,
+      "rawPpg": 8.4579,
       "madeIt": true,
-      "similarity": 0.397
+      "similarity": 0.443
     },
     {
       "rank": 5,
-      "name": "Danny Gray",
-      "college": "SMU",
-      "year": 2022,
-      "round": 3,
-      "pick": 105,
-      "ppg": 4.2536,
-      "rawPpg": 0.3429,
+      "name": "Pharoh Cooper",
+      "college": "South Carolina",
+      "year": 2016,
+      "round": 4,
+      "pick": 117,
+      "ppg": 3.2081,
+      "rawPpg": 1.5073,
       "madeIt": false,
-      "similarity": 0.394
+      "similarity": 0.426
     },
     {
       "rank": 6,
@@ -71,19 +71,19 @@
       "ppg": 5.0924,
       "rawPpg": 2.7667,
       "madeIt": true,
-      "similarity": 0.393
+      "similarity": 0.426
     },
     {
       "rank": 7,
-      "name": "J'Mon Moore",
-      "college": "Missouri",
-      "year": 2018,
-      "round": 4,
-      "pick": 133,
-      "ppg": 4.2579,
-      "rawPpg": 0.3571,
-      "madeIt": false,
-      "similarity": 0.392
+      "name": "Kenny Stills",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 5,
+      "pick": 144,
+      "ppg": 7.4241,
+      "rawPpg": 8.2185,
+      "madeIt": true,
+      "similarity": 0.412
     }
   ]
 }

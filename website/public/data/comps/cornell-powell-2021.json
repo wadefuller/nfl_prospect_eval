@@ -11,22 +11,10 @@
       "ppg": 6.869,
       "rawPpg": 8.075,
       "madeIt": true,
-      "similarity": 0.513
+      "similarity": 0.595
     },
     {
       "rank": 2,
-      "name": "Joe Webb",
-      "college": "Ala-Birmingham",
-      "year": 2010,
-      "round": 6,
-      "pick": 199,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.496
-    },
-    {
-      "rank": 3,
       "name": "Justin Brown",
       "college": "Oklahoma",
       "year": 2013,
@@ -35,55 +23,67 @@
       "ppg": 4.9469,
       "rawPpg": 2.2333,
       "madeIt": false,
-      "similarity": 0.475
+      "similarity": 0.523
+    },
+    {
+      "rank": 3,
+      "name": "Joe Webb",
+      "college": "Ala-Birmingham",
+      "year": 2010,
+      "round": 6,
+      "pick": 199,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.521
     },
     {
       "rank": 4,
-      "name": "Jauan Jennings",
-      "college": "Tennessee",
-      "year": 2020,
-      "round": 7,
-      "pick": 217,
-      "ppg": 5.1274,
-      "rawPpg": 4.7344,
-      "madeIt": true,
-      "similarity": 0.445
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.494
     },
     {
       "rank": 5,
-      "name": "Michael Woods II",
-      "college": "Oklahoma",
-      "year": 2022,
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
       "round": 6,
-      "pick": 202,
-      "ppg": 4.4318,
-      "rawPpg": 0.9286,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
+      "madeIt": false,
+      "similarity": 0.45
+    },
+    {
+      "rank": 6,
+      "name": "Braxton Berrios",
+      "college": "Miami (FL)",
+      "year": 2018,
+      "round": 6,
+      "pick": 210,
+      "ppg": 3.9319,
+      "rawPpg": 2.9156,
       "madeIt": false,
       "similarity": 0.436
     },
     {
-      "rank": 6,
-      "name": "Jalen Camp",
-      "college": "Georgia Tech",
-      "year": 2021,
+      "rank": 7,
+      "name": "Ronald Johnson",
+      "college": "USC",
+      "year": 2011,
       "round": 6,
-      "pick": 209,
+      "pick": 182,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.413
-    },
-    {
-      "rank": 7,
-      "name": "David Reed",
-      "college": "Utah",
-      "year": 2010,
-      "round": 5,
-      "pick": 156,
-      "ppg": 2.9866,
-      "rawPpg": 0.4639,
-      "madeIt": false,
-      "similarity": 0.411
+      "similarity": 0.43
     }
   ]
 }

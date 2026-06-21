@@ -3,42 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "La'Mical Perine",
-      "college": "Florida",
+      "name": "Cam Akers",
+      "college": "Florida St.",
       "year": 2020,
-      "round": 4,
-      "pick": 120,
-      "ppg": 6.5818,
-      "rawPpg": 4.7,
+      "round": 2,
+      "pick": 52,
+      "ppg": 8.4578,
+      "rawPpg": 8.8706,
       "madeIt": true,
-      "similarity": 0.163
+      "similarity": 0.418
     },
     {
       "rank": 2,
-      "name": "David Montgomery",
-      "college": "Iowa St.",
-      "year": 2019,
-      "round": 3,
-      "pick": 73,
-      "ppg": 12.1802,
-      "rawPpg": 14.619,
-      "madeIt": true,
-      "similarity": 0.16
-    },
-    {
-      "rank": 3,
-      "name": "Benny Snell Jr.",
-      "college": "Kentucky",
-      "year": 2019,
-      "round": 4,
-      "pick": 122,
-      "ppg": 5.9626,
-      "rawPpg": 4.8936,
-      "madeIt": true,
-      "similarity": 0.159
-    },
-    {
-      "rank": 4,
       "name": "Mark Walton",
       "college": "Miami (FL)",
       "year": 2018,
@@ -47,43 +23,43 @@
       "ppg": 5.1099,
       "rawPpg": 2.9643,
       "madeIt": true,
-      "similarity": 0.151
+      "similarity": 0.409
+    },
+    {
+      "rank": 3,
+      "name": "David Montgomery",
+      "college": "Iowa St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 73,
+      "ppg": 12.1802,
+      "rawPpg": 14.619,
+      "madeIt": true,
+      "similarity": 0.4
+    },
+    {
+      "rank": 4,
+      "name": "Daniel Thomas",
+      "college": "Kansas St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 62,
+      "ppg": 6.7472,
+      "rawPpg": 6.1633,
+      "madeIt": true,
+      "similarity": 0.386
     },
     {
       "rank": 5,
-      "name": "Joshua Kelley",
-      "college": "UCLA",
-      "year": 2020,
-      "round": 4,
-      "pick": 112,
-      "ppg": 6.1373,
-      "rawPpg": 5.0891,
-      "madeIt": true,
-      "similarity": 0.146
-    },
-    {
-      "rank": 6,
-      "name": "Mike Davis",
-      "college": "South Carolina",
-      "year": 2015,
-      "round": 4,
-      "pick": 126,
-      "ppg": 6.2665,
-      "rawPpg": 4.6452,
-      "madeIt": true,
-      "similarity": 0.139
-    },
-    {
-      "rank": 7,
-      "name": "Ke'Shawn Vaughn",
-      "college": "Illinois",
-      "year": 2020,
+      "name": "De'Von Achane",
+      "college": "Texas A&M",
+      "year": 2023,
       "round": 3,
-      "pick": 76,
-      "ppg": 6.4117,
-      "rawPpg": 4.6167,
+      "pick": 84,
+      "ppg": 13.7355,
+      "rawPpg": 17.0952,
       "madeIt": true,
-      "similarity": 0.135
+      "similarity": 0.372
     }
   ]
 }

@@ -3,87 +3,87 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Puka Nacua",
-      "college": "BYU",
-      "year": 2023,
-      "round": 5,
-      "pick": 177,
-      "ppg": 13.3263,
-      "rawPpg": 17.2986,
-      "madeIt": true,
-      "similarity": 0.534
-    },
-    {
-      "rank": 2,
-      "name": "Demarcus Robinson",
-      "college": "Florida",
-      "year": 2016,
-      "round": 4,
-      "pick": 126,
-      "ppg": 4.7733,
-      "rawPpg": 3.8636,
-      "madeIt": false,
-      "similarity": 0.481
-    },
-    {
-      "rank": 3,
-      "name": "J'Mon Moore",
-      "college": "Missouri",
+      "name": "Daurice Fountain",
+      "college": "Northern Iowa",
       "year": 2018,
-      "round": 4,
-      "pick": 133,
-      "ppg": 4.2579,
-      "rawPpg": 0.3571,
-      "madeIt": false,
-      "similarity": 0.465
-    },
-    {
-      "rank": 4,
-      "name": "DeAngelo Yancey",
-      "college": "Purdue",
-      "year": 2017,
-      "round": 5,
-      "pick": 175,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.439
-    },
-    {
-      "rank": 5,
-      "name": "Josh Reynolds",
-      "college": "Texas A&M",
-      "year": 2017,
-      "round": 4,
-      "pick": 117,
-      "ppg": 5.2803,
-      "rawPpg": 5.1688,
-      "madeIt": true,
-      "similarity": 0.436
-    },
-    {
-      "rank": 6,
-      "name": "Fred Gibson",
-      "college": "Georgia",
-      "year": 2005,
-      "round": 4,
-      "pick": 131,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.428
-    },
-    {
-      "rank": 7,
-      "name": "Jon Olinger",
-      "college": "Cincinnati",
-      "year": 2003,
       "round": 5,
       "pick": 159,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.426
+      "similarity": 0.642
+    },
+    {
+      "rank": 2,
+      "name": "Tyreek Hill",
+      "college": "West Alabama",
+      "year": 2016,
+      "round": 5,
+      "pick": 165,
+      "ppg": 12.6305,
+      "rawPpg": 16.0015,
+      "madeIt": true,
+      "similarity": 0.36
+    },
+    {
+      "rank": 3,
+      "name": "Montrell Washington",
+      "college": "Samford",
+      "year": 2022,
+      "round": 5,
+      "pick": 162,
+      "ppg": 3.2462,
+      "rawPpg": 0.3467,
+      "madeIt": false,
+      "similarity": 0.282
+    },
+    {
+      "rank": 4,
+      "name": "Isaiah Coulter",
+      "college": "Rhode Island",
+      "year": 2020,
+      "round": 5,
+      "pick": 171,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.266
+    },
+    {
+      "rank": 5,
+      "name": "Joe Adams",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 104,
+      "ppg": 3.9173,
+      "rawPpg": 0.2778,
+      "madeIt": false,
+      "similarity": 0.254
+    },
+    {
+      "rank": 6,
+      "name": "Ihmir Smith-Marsette",
+      "college": "Iowa",
+      "year": 2021,
+      "round": 5,
+      "pick": 157,
+      "ppg": 3.847,
+      "rawPpg": 3.0132,
+      "madeIt": false,
+      "similarity": 0.245
+    },
+    {
+      "rank": 7,
+      "name": "Devin Street",
+      "college": "Pittsburgh",
+      "year": 2014,
+      "round": 5,
+      "pick": 146,
+      "ppg": 4.2345,
+      "rawPpg": 1.7182,
+      "madeIt": false,
+      "similarity": 0.226
     }
   ]
 }

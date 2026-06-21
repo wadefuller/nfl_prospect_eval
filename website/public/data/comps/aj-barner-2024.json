@@ -1,0 +1,89 @@
+{
+  "prospectId": "aj-barner-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Luke Farrell",
+      "college": "Ohio St.",
+      "year": 2021,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.9576,
+      "rawPpg": 1.6688,
+      "madeIt": false,
+      "similarity": 0.72
+    },
+    {
+      "rank": 2,
+      "name": "Jordan Cameron",
+      "college": "USC",
+      "year": 2011,
+      "round": 4,
+      "pick": 102,
+      "ppg": 6.2613,
+      "rawPpg": 7.1686,
+      "madeIt": true,
+      "similarity": 0.689
+    },
+    {
+      "rank": 3,
+      "name": "John Bates",
+      "college": "Boise St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 124,
+      "ppg": 3.6259,
+      "rawPpg": 3.0264,
+      "madeIt": false,
+      "similarity": 0.609
+    },
+    {
+      "rank": 4,
+      "name": "Tommy Tremble",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 3,
+      "pick": 83,
+      "ppg": 3.5491,
+      "rawPpg": 3.1267,
+      "madeIt": false,
+      "similarity": 0.582
+    },
+    {
+      "rank": 5,
+      "name": "Dawson Knox",
+      "college": "Mississippi",
+      "year": 2019,
+      "round": 3,
+      "pick": 96,
+      "ppg": 6.2824,
+      "rawPpg": 7.1442,
+      "madeIt": true,
+      "similarity": 0.552
+    },
+    {
+      "rank": 6,
+      "name": "Tre' McKitty",
+      "college": "Georgia",
+      "year": 2021,
+      "round": 3,
+      "pick": 97,
+      "ppg": 2.5474,
+      "rawPpg": 1.0942,
+      "madeIt": false,
+      "similarity": 0.497
+    },
+    {
+      "rank": 7,
+      "name": "Anthony Hill",
+      "college": "North Carolina St.",
+      "year": 2009,
+      "round": 4,
+      "pick": 122,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.478
+    }
+  ]
+}

@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Tyjae Spears",
-      "college": "Tulane",
-      "year": 2023,
-      "round": 3,
-      "pick": 81,
-      "ppg": 7.7895,
-      "rawPpg": 7.8672,
-      "madeIt": true,
-      "similarity": 0.224
-    },
-    {
-      "rank": 2,
-      "name": "Robert Turbin",
-      "college": "Utah St.",
-      "year": 2012,
-      "round": 4,
-      "pick": 106,
-      "ppg": 5.4197,
-      "rawPpg": 4.2125,
-      "madeIt": true,
-      "similarity": 0.216
-    },
-    {
-      "rank": 3,
-      "name": "Knile Davis",
-      "college": "Arkansas",
-      "year": 2013,
-      "round": 3,
-      "pick": 96,
-      "ppg": 6.2985,
-      "rawPpg": 5.5688,
-      "madeIt": true,
-      "similarity": 0.194
-    },
-    {
-      "rank": 4,
       "name": "Kendre Miller",
       "college": "TCU",
       "year": 2023,
@@ -47,34 +11,46 @@
       "ppg": 6.5182,
       "rawPpg": 4.9524,
       "madeIt": true,
-      "similarity": 0.186
+      "similarity": 0.517
+    },
+    {
+      "rank": 2,
+      "name": "Zamir White",
+      "college": "Georgia",
+      "year": 2022,
+      "round": 4,
+      "pick": 122,
+      "ppg": 5.8602,
+      "rawPpg": 4.1976,
+      "madeIt": true,
+      "similarity": 0.433
+    },
+    {
+      "rank": 3,
+      "name": "Robert Turbin",
+      "college": "Utah St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 106,
+      "ppg": 5.4197,
+      "rawPpg": 4.2125,
+      "madeIt": true,
+      "similarity": 0.424
+    },
+    {
+      "rank": 4,
+      "name": "Knile Davis",
+      "college": "Arkansas",
+      "year": 2013,
+      "round": 3,
+      "pick": 96,
+      "ppg": 6.2985,
+      "rawPpg": 5.5688,
+      "madeIt": true,
+      "similarity": 0.423
     },
     {
       "rank": 5,
-      "name": "Manuel White",
-      "college": "UCLA",
-      "year": 2005,
-      "round": 4,
-      "pick": 120,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.161
-    },
-    {
-      "rank": 6,
-      "name": "Joe Williams",
-      "college": "Utah",
-      "year": 2017,
-      "round": 4,
-      "pick": 121,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.158
-    },
-    {
-      "rank": 7,
       "name": "Darrynton Evans",
       "college": "Appalachian St.",
       "year": 2020,
@@ -83,7 +59,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.155
+      "similarity": 0.417
     }
   ]
 }

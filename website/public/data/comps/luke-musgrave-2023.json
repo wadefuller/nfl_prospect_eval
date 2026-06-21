@@ -1,0 +1,89 @@
+{
+  "prospectId": "luke-musgrave-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tucker Kraft",
+      "college": "South Dakota St.",
+      "year": 2023,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.5356,
+      "rawPpg": 10.3926,
+      "madeIt": true,
+      "similarity": 0.605
+    },
+    {
+      "rank": 2,
+      "name": "O.J. Howard",
+      "college": "Alabama",
+      "year": 2017,
+      "round": 1,
+      "pick": 19,
+      "ppg": 6.6964,
+      "rawPpg": 8.5673,
+      "madeIt": true,
+      "similarity": 0.42
+    },
+    {
+      "rank": 3,
+      "name": "Luke Schoonmaker",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 2,
+      "pick": 58,
+      "ppg": 3.389,
+      "rawPpg": 2.7542,
+      "madeIt": false,
+      "similarity": 0.401
+    },
+    {
+      "rank": 4,
+      "name": "C.J. Fiedorowicz",
+      "college": "Iowa",
+      "year": 2014,
+      "round": 3,
+      "pick": 65,
+      "ppg": 4.568,
+      "rawPpg": 4.6062,
+      "madeIt": false,
+      "similarity": 0.264
+    },
+    {
+      "rank": 5,
+      "name": "Kyle Rudolph",
+      "college": "Notre Dame",
+      "year": 2011,
+      "round": 2,
+      "pick": 43,
+      "ppg": 6.639,
+      "rawPpg": 8.1375,
+      "madeIt": true,
+      "similarity": 0.258
+    },
+    {
+      "rank": 6,
+      "name": "Brenton Strange",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 61,
+      "ppg": 5.6085,
+      "rawPpg": 6.4976,
+      "madeIt": true,
+      "similarity": 0.227
+    },
+    {
+      "rank": 7,
+      "name": "Vernon Davis",
+      "college": "Maryland",
+      "year": 2006,
+      "round": 1,
+      "pick": 6,
+      "ppg": 5.8252,
+      "rawPpg": 6.8446,
+      "madeIt": true,
+      "similarity": 0.212
+    }
+  ]
+}

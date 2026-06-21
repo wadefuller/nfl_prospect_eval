@@ -1,0 +1,65 @@
+{
+  "prospectId": "max-duggan-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Brandon Allen",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.429
+    },
+    {
+      "rank": 2,
+      "name": "Brock Purdy",
+      "college": "Iowa St.",
+      "year": 2022,
+      "round": 7,
+      "pick": 262,
+      "ppg": 15.9536,
+      "rawPpg": 18.1328,
+      "madeIt": true,
+      "similarity": 0.416
+    },
+    {
+      "rank": 3,
+      "name": "Zac Robinson",
+      "college": "Oklahoma St.",
+      "year": 2010,
+      "round": 7,
+      "pick": 250,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.39
+    },
+    {
+      "rank": 4,
+      "name": "Chad Kelly",
+      "college": "Mississippi",
+      "year": 2017,
+      "round": 7,
+      "pick": 253,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.364
+    },
+    {
+      "rank": 5,
+      "name": "Logan Woodside",
+      "college": "Toledo",
+      "year": 2018,
+      "round": 7,
+      "pick": 249,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.341
+    }
+  ]
+}

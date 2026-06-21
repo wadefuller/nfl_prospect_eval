@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Will Fuller",
-      "college": "Notre Dame",
-      "year": 2016,
-      "round": 1,
-      "pick": 21,
-      "ppg": 8.6343,
-      "rawPpg": 11.41,
-      "madeIt": true,
-      "similarity": 0.541
-    },
-    {
-      "rank": 2,
       "name": "Paul Richardson",
       "college": "Colorado",
       "year": 2014,
@@ -23,34 +11,10 @@
       "ppg": 4.6057,
       "rawPpg": 3.7449,
       "madeIt": false,
-      "similarity": 0.338
+      "similarity": 0.438
     },
     {
-      "rank": 3,
-      "name": "A.J. Green",
-      "college": "Georgia",
-      "year": 2011,
-      "round": 1,
-      "pick": 4,
-      "ppg": 12.5902,
-      "rawPpg": 15.9031,
-      "madeIt": true,
-      "similarity": 0.302
-    },
-    {
-      "rank": 4,
-      "name": "Brandon Aiyuk",
-      "college": "Arizona St.",
-      "year": 2020,
-      "round": 1,
-      "pick": 25,
-      "ppg": 9.7496,
-      "rawPpg": 11.9904,
-      "madeIt": true,
-      "similarity": 0.296
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "name": "Tyquan Thornton",
       "college": "Baylor",
       "year": 2022,
@@ -59,22 +23,10 @@
       "ppg": 4.6333,
       "rawPpg": 3.4542,
       "madeIt": false,
-      "similarity": 0.265
+      "similarity": 0.389
     },
     {
-      "rank": 6,
-      "name": "Demaryius Thomas",
-      "college": "Georgia Tech",
-      "year": 2010,
-      "round": 1,
-      "pick": 22,
-      "ppg": 10.415,
-      "rawPpg": 12.48,
-      "madeIt": true,
-      "similarity": 0.263
-    },
-    {
-      "rank": 7,
+      "rank": 3,
       "name": "Justin Hunter",
       "college": "Tennessee",
       "year": 2013,
@@ -83,7 +35,55 @@
       "ppg": 5.991,
       "rawPpg": 6.0391,
       "madeIt": true,
-      "similarity": 0.245
+      "similarity": 0.343
+    },
+    {
+      "rank": 4,
+      "name": "Phillip Dorsett",
+      "college": "Miami (FL)",
+      "year": 2015,
+      "round": 1,
+      "pick": 29,
+      "ppg": 5.165,
+      "rawPpg": 4.5252,
+      "madeIt": true,
+      "similarity": 0.342
+    },
+    {
+      "rank": 5,
+      "name": "Brandon Aiyuk",
+      "college": "Arizona St.",
+      "year": 2020,
+      "round": 1,
+      "pick": 25,
+      "ppg": 9.7496,
+      "rawPpg": 11.9904,
+      "madeIt": true,
+      "similarity": 0.313
+    },
+    {
+      "rank": 6,
+      "name": "A.J. Green",
+      "college": "Georgia",
+      "year": 2011,
+      "round": 1,
+      "pick": 4,
+      "ppg": 12.5902,
+      "rawPpg": 15.9031,
+      "madeIt": true,
+      "similarity": 0.312
+    },
+    {
+      "rank": 7,
+      "name": "John Ross",
+      "college": "Washington",
+      "year": 2017,
+      "round": 1,
+      "pick": 9,
+      "ppg": 6.7792,
+      "rawPpg": 7.924,
+      "madeIt": true,
+      "similarity": 0.311
     }
   ]
 }

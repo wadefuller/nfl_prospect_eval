@@ -1,0 +1,89 @@
+{
+  "prospectId": "josh-whyle-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Blake Bell",
+      "college": "Oklahoma",
+      "year": 2015,
+      "round": 4,
+      "pick": 117,
+      "ppg": 3.2139,
+      "rawPpg": 2.1063,
+      "madeIt": false,
+      "similarity": 0.428
+    },
+    {
+      "rank": 2,
+      "name": "Taylor Thompson",
+      "college": "SMU",
+      "year": 2012,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.385,
+      "rawPpg": 0.8343,
+      "madeIt": false,
+      "similarity": 0.395
+    },
+    {
+      "rank": 3,
+      "name": "C.J. Uzomah",
+      "college": "Auburn",
+      "year": 2015,
+      "round": 5,
+      "pick": 157,
+      "ppg": 3.6544,
+      "rawPpg": 3.4604,
+      "madeIt": false,
+      "similarity": 0.372
+    },
+    {
+      "rank": 4,
+      "name": "Arthur Lynch",
+      "college": "Georgia",
+      "year": 2014,
+      "round": 5,
+      "pick": 155,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.328
+    },
+    {
+      "rank": 5,
+      "name": "Jeremy Sprinkle",
+      "college": "Arkansas",
+      "year": 2017,
+      "round": 5,
+      "pick": 154,
+      "ppg": 3.129,
+      "rawPpg": 2.1344,
+      "madeIt": false,
+      "similarity": 0.296
+    },
+    {
+      "rank": 6,
+      "name": "Teagan Quitoriano",
+      "college": "Oregon St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 170,
+      "ppg": 4.1852,
+      "rawPpg": 3.8286,
+      "madeIt": false,
+      "similarity": 0.288
+    },
+    {
+      "rank": 7,
+      "name": "Davis Allen",
+      "college": "Clemson",
+      "year": 2023,
+      "round": 5,
+      "pick": 175,
+      "ppg": 3.7042,
+      "rawPpg": 3.1576,
+      "madeIt": false,
+      "similarity": 0.279
+    }
+  ]
+}

@@ -3,30 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Elijah Higgins",
-      "college": "Stanford",
+      "name": "DeMario Douglas",
+      "college": "Liberty",
       "year": 2023,
       "round": 6,
-      "pick": 197,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.592
+      "pick": 210,
+      "ppg": 6.3659,
+      "rawPpg": 6.5379,
+      "madeIt": true,
+      "similarity": 0.705
     },
     {
       "rank": 2,
-      "name": "Terrence Austin",
-      "college": "UCLA",
-      "year": 2010,
-      "round": 7,
-      "pick": 219,
-      "ppg": 4.3512,
-      "rawPpg": 1.77,
-      "madeIt": false,
-      "similarity": 0.528
-    },
-    {
-      "rank": 3,
       "name": "Justin Brown",
       "college": "Oklahoma",
       "year": 2013,
@@ -35,55 +23,67 @@
       "ppg": 4.9469,
       "rawPpg": 2.2333,
       "madeIt": false,
-      "similarity": 0.524
+      "similarity": 0.613
     },
     {
-      "rank": 4,
-      "name": "Parker Washington",
-      "college": "Penn St.",
+      "rank": 3,
+      "name": "Elijah Higgins",
+      "college": "Stanford",
       "year": 2023,
       "round": 6,
-      "pick": 185,
-      "ppg": 7.2203,
-      "rawPpg": 7.7585,
-      "madeIt": true,
-      "similarity": 0.514
-    },
-    {
-      "rank": 5,
-      "name": "Ray-Ray McCloud",
-      "college": "Clemson",
-      "year": 2018,
-      "round": 6,
-      "pick": 187,
-      "ppg": 3.1533,
-      "rawPpg": 1.1625,
-      "madeIt": false,
-      "similarity": 0.496
-    },
-    {
-      "rank": 6,
-      "name": "Kayshon Boutte",
-      "college": "LSU",
-      "year": 2023,
-      "round": 6,
-      "pick": 187,
-      "ppg": 6.7429,
-      "rawPpg": 7.1895,
-      "madeIt": true,
-      "similarity": 0.495
-    },
-    {
-      "rank": 7,
-      "name": "Dylan Cantrell",
-      "college": "Texas Tech",
-      "year": 2018,
-      "round": 6,
-      "pick": 191,
+      "pick": 197,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.481
+      "similarity": 0.6
+    },
+    {
+      "rank": 4,
+      "name": "Rodney Adams",
+      "college": "South Florida",
+      "year": 2017,
+      "round": 5,
+      "pick": 170,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.563
+    },
+    {
+      "rank": 5,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
+      "round": 7,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.553
+    },
+    {
+      "rank": 6,
+      "name": "Robert Herron",
+      "college": "Wyoming",
+      "year": 2014,
+      "round": 6,
+      "pick": 185,
+      "ppg": 5.0105,
+      "rawPpg": 2.4667,
+      "madeIt": true,
+      "similarity": 0.542
+    },
+    {
+      "rank": 7,
+      "name": "Antonio Brown",
+      "college": "Central Michigan",
+      "year": 2010,
+      "round": 6,
+      "pick": 195,
+      "ppg": 8.954,
+      "rawPpg": 10.6197,
+      "madeIt": true,
+      "similarity": 0.537
     }
   ]
 }

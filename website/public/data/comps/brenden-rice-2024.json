@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Antoine Green",
-      "college": "North Carolina",
-      "year": 2023,
+      "name": "Kenny Lawler",
+      "college": "California",
+      "year": 2016,
       "round": 7,
-      "pick": 219,
+      "pick": 243,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.441
+      "similarity": 0.52
     },
     {
       "rank": 2,
@@ -23,46 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.432
+      "similarity": 0.481
     },
     {
       "rank": 3,
-      "name": "Braxton Berrios",
-      "college": "Miami (FL)",
-      "year": 2018,
-      "round": 6,
-      "pick": 210,
-      "ppg": 3.9319,
-      "rawPpg": 2.9156,
-      "madeIt": false,
-      "similarity": 0.414
-    },
-    {
-      "rank": 4,
-      "name": "Kenny Lawler",
-      "college": "California",
-      "year": 2016,
-      "round": 7,
-      "pick": 243,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.41
-    },
-    {
-      "rank": 5,
-      "name": "Jeremy Ebert",
-      "college": "Northwestern",
-      "year": 2012,
-      "round": 7,
-      "pick": 235,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.401
-    },
-    {
-      "rank": 6,
       "name": "Javon Wims",
       "college": "Georgia",
       "year": 2018,
@@ -71,10 +35,34 @@
       "ppg": 3.8657,
       "rawPpg": 2.2273,
       "madeIt": false,
-      "similarity": 0.399
+      "similarity": 0.476
     },
     {
-      "rank": 7,
+      "rank": 4,
+      "name": "Dorin Dickerson",
+      "college": "Pittsburgh",
+      "year": 2010,
+      "round": 7,
+      "pick": 227,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.474
+    },
+    {
+      "rank": 5,
+      "name": "Braxton Berrios",
+      "college": "Miami (FL)",
+      "year": 2018,
+      "round": 6,
+      "pick": 210,
+      "ppg": 3.9319,
+      "rawPpg": 2.9156,
+      "madeIt": false,
+      "similarity": 0.449
+    },
+    {
+      "rank": 6,
       "name": "Freddie Swain",
       "college": "Florida",
       "year": 2020,
@@ -83,7 +71,19 @@
       "ppg": 4.4311,
       "rawPpg": 3.4995,
       "madeIt": false,
-      "similarity": 0.398
+      "similarity": 0.448
+    },
+    {
+      "rank": 7,
+      "name": "Frank Darby",
+      "college": "Arizona St.",
+      "year": 2021,
+      "round": 6,
+      "pick": 187,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.439
     }
   ]
 }

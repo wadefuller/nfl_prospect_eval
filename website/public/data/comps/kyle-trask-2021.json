@@ -1,0 +1,65 @@
+{
+  "prospectId": "kyle-trask-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Mason Rudolph",
+      "college": "Oklahoma St.",
+      "year": 2018,
+      "round": 3,
+      "pick": 76,
+      "ppg": 11.3907,
+      "rawPpg": 10.88,
+      "madeIt": true,
+      "similarity": 0.442
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Mallett",
+      "college": "Arkansas",
+      "year": 2011,
+      "round": 3,
+      "pick": 74,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.416
+    },
+    {
+      "rank": 3,
+      "name": "Sean Mannion",
+      "college": "Oregon St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 89,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.409
+    },
+    {
+      "rank": 4,
+      "name": "Will Grier",
+      "college": "West Virginia",
+      "year": 2019,
+      "round": 3,
+      "pick": 100,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.394
+    },
+    {
+      "rank": 5,
+      "name": "Jordan Love",
+      "college": "Utah St.",
+      "year": 2020,
+      "round": 1,
+      "pick": 26,
+      "ppg": 9.4772,
+      "rawPpg": 3.5233,
+      "madeIt": true,
+      "similarity": 0.388
+    }
+  ]
+}

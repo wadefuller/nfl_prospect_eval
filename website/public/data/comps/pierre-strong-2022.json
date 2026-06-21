@@ -3,27 +3,27 @@
   "comps": [
     {
       "rank": 1,
-      "name": "La'Mical Perine",
-      "college": "Florida",
-      "year": 2020,
+      "name": "Kalen Ballage",
+      "college": "Arizona St.",
+      "year": 2018,
       "round": 4,
-      "pick": 120,
-      "ppg": 6.5818,
-      "rawPpg": 4.7,
+      "pick": 131,
+      "ppg": 6.3674,
+      "rawPpg": 5.4758,
       "madeIt": true,
-      "similarity": 0.262
+      "similarity": 0.098
     },
     {
       "rank": 2,
-      "name": "Trey Sermon",
-      "college": "Ohio St.",
-      "year": 2021,
-      "round": 3,
-      "pick": 88,
-      "ppg": 5.6576,
-      "rawPpg": 3.4083,
-      "madeIt": true,
-      "similarity": 0.212
+      "name": "Snoop Conner",
+      "college": "Mississippi",
+      "year": 2022,
+      "round": 5,
+      "pick": 154,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.08
     },
     {
       "rank": 3,
@@ -35,55 +35,31 @@
       "ppg": 3.9905,
       "rawPpg": 1.5417,
       "madeIt": false,
-      "similarity": 0.212
+      "similarity": 0.079
     },
     {
       "rank": 4,
-      "name": "Jordan Scarlett",
-      "college": "Florida",
-      "year": 2019,
-      "round": 5,
-      "pick": 154,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.21
+      "name": "Owen Marecic",
+      "college": "Stanford",
+      "year": 2011,
+      "round": 4,
+      "pick": 124,
+      "ppg": 5.4387,
+      "rawPpg": 0.8,
+      "madeIt": true,
+      "similarity": 0.073
     },
     {
       "rank": 5,
-      "name": "Jamaal Williams",
-      "college": "BYU",
-      "year": 2017,
-      "round": 4,
-      "pick": 134,
-      "ppg": 8.4717,
-      "rawPpg": 8.8719,
+      "name": "Tank Bigsby",
+      "college": "Auburn",
+      "year": 2023,
+      "round": 3,
+      "pick": 88,
+      "ppg": 6.424,
+      "rawPpg": 5.6652,
       "madeIt": true,
-      "similarity": 0.186
-    },
-    {
-      "rank": 6,
-      "name": "Mike Davis",
-      "college": "South Carolina",
-      "year": 2015,
-      "round": 4,
-      "pick": 126,
-      "ppg": 6.2665,
-      "rawPpg": 4.6452,
-      "madeIt": true,
-      "similarity": 0.184
-    },
-    {
-      "rank": 7,
-      "name": "Devonta Freeman",
-      "college": "Florida St.",
-      "year": 2014,
-      "round": 4,
-      "pick": 103,
-      "ppg": 14.0665,
-      "rawPpg": 17.3644,
-      "madeIt": true,
-      "similarity": 0.177
+      "similarity": 0.073
     }
   ]
 }

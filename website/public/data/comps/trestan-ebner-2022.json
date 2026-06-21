@@ -11,31 +11,31 @@
       "ppg": 7.1738,
       "rawPpg": 7.4247,
       "madeIt": true,
-      "similarity": 0.176
+      "similarity": 0.387
     },
     {
       "rank": 2,
-      "name": "Khalil Herbert",
-      "college": "Virginia Tech",
-      "year": 2021,
+      "name": "Keaontay Ingram",
+      "college": "USC",
+      "year": 2022,
       "round": 6,
-      "pick": 217,
-      "ppg": 8.2909,
-      "rawPpg": 8.6285,
-      "madeIt": true,
-      "similarity": 0.158
+      "pick": 201,
+      "ppg": 4.4773,
+      "rawPpg": 1.589,
+      "madeIt": false,
+      "similarity": 0.382
     },
     {
       "rank": 3,
-      "name": "Khalfani Muhammad",
-      "college": "California",
-      "year": 2017,
-      "round": 7,
-      "pick": 241,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.156
+      "name": "Theo Riddick",
+      "college": "Notre Dame",
+      "year": 2013,
+      "round": 6,
+      "pick": 199,
+      "ppg": 7.5739,
+      "rawPpg": 7.3322,
+      "madeIt": true,
+      "similarity": 0.366
     },
     {
       "rank": 4,
@@ -47,43 +47,19 @@
       "ppg": 5.5126,
       "rawPpg": 4.1308,
       "madeIt": true,
-      "similarity": 0.153
+      "similarity": 0.35
     },
     {
       "rank": 5,
-      "name": "Theo Riddick",
-      "college": "Notre Dame",
-      "year": 2013,
+      "name": "Khalil Herbert",
+      "college": "Virginia Tech",
+      "year": 2021,
       "round": 6,
-      "pick": 199,
-      "ppg": 7.5739,
-      "rawPpg": 7.3322,
+      "pick": 217,
+      "ppg": 8.2909,
+      "rawPpg": 8.6285,
       "madeIt": true,
-      "similarity": 0.148
-    },
-    {
-      "rank": 6,
-      "name": "Marcus Murphy",
-      "college": "Missouri",
-      "year": 2015,
-      "round": 7,
-      "pick": 230,
-      "ppg": 4.4872,
-      "rawPpg": 0.4615,
-      "madeIt": false,
-      "similarity": 0.145
-    },
-    {
-      "rank": 7,
-      "name": "Da'Rel Scott",
-      "college": "Maryland",
-      "year": 2011,
-      "round": 7,
-      "pick": 221,
-      "ppg": 5.4795,
-      "rawPpg": 0.2714,
-      "madeIt": true,
-      "similarity": 0.128
+      "similarity": 0.345
     }
   ]
 }

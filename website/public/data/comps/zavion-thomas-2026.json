@@ -3,27 +3,27 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Braxton Miller",
-      "college": "Ohio St.",
-      "year": 2016,
+      "name": "Marquise Goodwin",
+      "college": "Texas",
+      "year": 2013,
       "round": 3,
-      "pick": 85,
-      "ppg": 4.1842,
-      "rawPpg": 2.76,
+      "pick": 78,
+      "ppg": 4.3064,
+      "rawPpg": 2.5979,
       "madeIt": false,
-      "similarity": 0.571
+      "similarity": 0.636
     },
     {
       "rank": 2,
-      "name": "Mecole Hardman",
-      "college": "Georgia",
-      "year": 2019,
-      "round": 2,
-      "pick": 56,
-      "ppg": 6.5736,
-      "rawPpg": 6.8781,
+      "name": "Jacoby Ford",
+      "college": "Clemson",
+      "year": 2010,
+      "round": 4,
+      "pick": 108,
+      "ppg": 6.7418,
+      "rawPpg": 7.0562,
       "madeIt": true,
-      "similarity": 0.518
+      "similarity": 0.559
     },
     {
       "rank": 3,
@@ -35,46 +35,22 @@
       "ppg": 6.6886,
       "rawPpg": 7.0294,
       "madeIt": true,
-      "similarity": 0.513
+      "similarity": 0.555
     },
     {
       "rank": 4,
-      "name": "Dri Archer",
-      "college": "Kent St.",
-      "year": 2014,
+      "name": "Taylor Price",
+      "college": "Ohio",
+      "year": 2010,
       "round": 3,
-      "pick": 97,
-      "ppg": 3.2885,
-      "rawPpg": 0.49,
+      "pick": 90,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.483
+      "similarity": 0.521
     },
     {
       "rank": 5,
-      "name": "Jacoby Ford",
-      "college": "Clemson",
-      "year": 2010,
-      "round": 4,
-      "pick": 108,
-      "ppg": 6.7418,
-      "rawPpg": 7.0562,
-      "madeIt": true,
-      "similarity": 0.472
-    },
-    {
-      "rank": 6,
-      "name": "Van Jefferson",
-      "college": "Florida",
-      "year": 2020,
-      "round": 2,
-      "pick": 57,
-      "ppg": 7.1054,
-      "rawPpg": 7.5568,
-      "madeIt": true,
-      "similarity": 0.466
-    },
-    {
-      "rank": 7,
       "name": "DaeSean Hamilton",
       "college": "Penn St.",
       "year": 2018,
@@ -83,7 +59,31 @@
       "ppg": 5.0649,
       "rawPpg": 4.4485,
       "madeIt": true,
-      "similarity": 0.455
+      "similarity": 0.505
+    },
+    {
+      "rank": 6,
+      "name": "Mecole Hardman",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 2,
+      "pick": 56,
+      "ppg": 6.5736,
+      "rawPpg": 6.8781,
+      "madeIt": true,
+      "similarity": 0.498
+    },
+    {
+      "rank": 7,
+      "name": "Antonio Callaway",
+      "college": "Florida",
+      "year": 2018,
+      "round": 4,
+      "pick": 105,
+      "ppg": 6.4447,
+      "rawPpg": 6.925,
+      "madeIt": true,
+      "similarity": 0.493
     }
   ]
 }

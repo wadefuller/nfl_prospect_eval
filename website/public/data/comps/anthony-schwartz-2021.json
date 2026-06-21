@@ -11,58 +11,10 @@
       "ppg": 5.3252,
       "rawPpg": 4.5892,
       "madeIt": true,
-      "similarity": 0.479
+      "similarity": 0.44
     },
     {
       "rank": 2,
-      "name": "Jacoby Ford",
-      "college": "Clemson",
-      "year": 2010,
-      "round": 4,
-      "pick": 108,
-      "ppg": 6.7418,
-      "rawPpg": 7.0562,
-      "madeIt": true,
-      "similarity": 0.399
-    },
-    {
-      "rank": 3,
-      "name": "Tre Tucker",
-      "college": "Cincinnati",
-      "year": 2023,
-      "round": 3,
-      "pick": 100,
-      "ppg": 6.6886,
-      "rawPpg": 7.0294,
-      "madeIt": true,
-      "similarity": 0.393
-    },
-    {
-      "rank": 4,
-      "name": "Keshawn Martin",
-      "college": "Michigan St.",
-      "year": 2012,
-      "round": 4,
-      "pick": 121,
-      "ppg": 3.6361,
-      "rawPpg": 2.4719,
-      "madeIt": false,
-      "similarity": 0.387
-    },
-    {
-      "rank": 5,
-      "name": "Malcolm Mitchell",
-      "college": "Georgia",
-      "year": 2016,
-      "round": 4,
-      "pick": 112,
-      "ppg": 6.269,
-      "rawPpg": 6.675,
-      "madeIt": true,
-      "similarity": 0.386
-    },
-    {
-      "rank": 6,
       "name": "Antonio Callaway",
       "college": "Florida",
       "year": 2018,
@@ -71,19 +23,67 @@
       "ppg": 6.4447,
       "rawPpg": 6.925,
       "madeIt": true,
-      "similarity": 0.371
+      "similarity": 0.399
+    },
+    {
+      "rank": 3,
+      "name": "Lynn Bowden Jr.",
+      "college": "Kentucky",
+      "year": 2020,
+      "round": 3,
+      "pick": 80,
+      "ppg": 5.4005,
+      "rawPpg": 4.3978,
+      "madeIt": true,
+      "similarity": 0.399
+    },
+    {
+      "rank": 4,
+      "name": "T.Y. Hilton",
+      "college": "Florida International",
+      "year": 2012,
+      "round": 3,
+      "pick": 92,
+      "ppg": 10.4858,
+      "rawPpg": 12.8719,
+      "madeIt": true,
+      "similarity": 0.385
+    },
+    {
+      "rank": 5,
+      "name": "Chris Givens",
+      "college": "Wake Forest",
+      "year": 2012,
+      "round": 4,
+      "pick": 96,
+      "ppg": 5.9603,
+      "rawPpg": 6.0052,
+      "madeIt": true,
+      "similarity": 0.384
+    },
+    {
+      "rank": 6,
+      "name": "Aaron Dobson",
+      "college": "Marshall",
+      "year": 2013,
+      "round": 2,
+      "pick": 59,
+      "ppg": 6.3767,
+      "rawPpg": 6.0076,
+      "madeIt": true,
+      "similarity": 0.38
     },
     {
       "rank": 7,
-      "name": "Randall Cobb",
-      "college": "Kentucky",
-      "year": 2011,
-      "round": 2,
-      "pick": 64,
-      "ppg": 10.5036,
-      "rawPpg": 14.3033,
-      "madeIt": true,
-      "similarity": 0.366
+      "name": "Marquis Walker",
+      "college": "Michigan",
+      "year": 2002,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.376
     }
   ]
 }

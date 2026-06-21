@@ -3,54 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Justin Blackmon",
-      "college": "Oklahoma St.",
-      "year": 2012,
-      "round": 1,
-      "pick": 5,
-      "ppg": 7.7572,
-      "rawPpg": 9.55,
-      "madeIt": true,
-      "similarity": 0.406
-    },
-    {
-      "rank": 2,
-      "name": "Rashod Bateman",
-      "college": "Minnesota",
-      "year": 2021,
-      "round": 1,
-      "pick": 27,
-      "ppg": 6.5274,
-      "rawPpg": 7.1875,
-      "madeIt": true,
-      "similarity": 0.391
-    },
-    {
-      "rank": 3,
-      "name": "Dez Bryant",
-      "college": "Oklahoma St.",
-      "year": 2010,
-      "round": 1,
-      "pick": 24,
-      "ppg": 11.1879,
-      "rawPpg": 13.8183,
-      "madeIt": true,
-      "similarity": 0.386
-    },
-    {
-      "rank": 4,
-      "name": "DeVonta Smith",
-      "college": "Alabama",
-      "year": 2021,
-      "round": 1,
-      "pick": 10,
-      "ppg": 10.0333,
-      "rawPpg": 11.9969,
-      "madeIt": true,
-      "similarity": 0.355
-    },
-    {
-      "rank": 5,
       "name": "Corey Davis",
       "college": "Western Michigan",
       "year": 2017,
@@ -59,22 +11,22 @@
       "ppg": 7.2368,
       "rawPpg": 7.8419,
       "madeIt": true,
-      "similarity": 0.353
+      "similarity": 0.469
     },
     {
-      "rank": 6,
-      "name": "Josh Doctson",
-      "college": "TCU",
-      "year": 2016,
+      "rank": 2,
+      "name": "Justin Blackmon",
+      "college": "Oklahoma St.",
+      "year": 2012,
       "round": 1,
-      "pick": 22,
-      "ppg": 6.1942,
-      "rawPpg": 6.3167,
+      "pick": 5,
+      "ppg": 7.7572,
+      "rawPpg": 9.55,
       "madeIt": true,
-      "similarity": 0.338
+      "similarity": 0.438
     },
     {
-      "rank": 7,
+      "rank": 3,
       "name": "Corey Coleman",
       "college": "Baylor",
       "year": 2016,
@@ -83,7 +35,55 @@
       "ppg": 6.4638,
       "rawPpg": 6.84,
       "madeIt": true,
-      "similarity": 0.333
+      "similarity": 0.427
+    },
+    {
+      "rank": 4,
+      "name": "Dez Bryant",
+      "college": "Oklahoma St.",
+      "year": 2010,
+      "round": 1,
+      "pick": 24,
+      "ppg": 11.1879,
+      "rawPpg": 13.8183,
+      "madeIt": true,
+      "similarity": 0.415
+    },
+    {
+      "rank": 5,
+      "name": "Tee Higgins",
+      "college": "Clemson",
+      "year": 2020,
+      "round": 2,
+      "pick": 33,
+      "ppg": 10.4871,
+      "rawPpg": 13.0714,
+      "madeIt": true,
+      "similarity": 0.387
+    },
+    {
+      "rank": 6,
+      "name": "Rashod Bateman",
+      "college": "Minnesota",
+      "year": 2021,
+      "round": 1,
+      "pick": 27,
+      "ppg": 6.5274,
+      "rawPpg": 7.1875,
+      "madeIt": true,
+      "similarity": 0.375
+    },
+    {
+      "rank": 7,
+      "name": "Alshon Jeffery",
+      "college": "South Carolina",
+      "year": 2012,
+      "round": 2,
+      "pick": 45,
+      "ppg": 11.534,
+      "rawPpg": 14.3187,
+      "madeIt": true,
+      "similarity": 0.364
     }
   ]
 }

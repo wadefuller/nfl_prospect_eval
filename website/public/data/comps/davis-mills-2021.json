@@ -1,0 +1,65 @@
+{
+  "prospectId": "davis-mills-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kirk Cousins",
+      "college": "Michigan St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 102,
+      "ppg": 12.5345,
+      "rawPpg": 14.7333,
+      "madeIt": true,
+      "similarity": 0.496
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Finley",
+      "college": "North Carolina St.",
+      "year": 2019,
+      "round": 4,
+      "pick": 104,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.336
+    },
+    {
+      "rank": 3,
+      "name": "C.J. Beathard",
+      "college": "Iowa",
+      "year": 2017,
+      "round": 3,
+      "pick": 104,
+      "ppg": 12.5526,
+      "rawPpg": 14.8,
+      "madeIt": true,
+      "similarity": 0.313
+    },
+    {
+      "rank": 4,
+      "name": "Will Grier",
+      "college": "West Virginia",
+      "year": 2019,
+      "round": 3,
+      "pick": 100,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.301
+    },
+    {
+      "rank": 5,
+      "name": "Garrett Grayson",
+      "college": "Colorado St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 75,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.292
+    }
+  ]
+}

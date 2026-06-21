@@ -1,0 +1,89 @@
+{
+  "prospectId": "james-mitchell-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Mychal Rivera",
+      "college": "Tennessee",
+      "year": 2013,
+      "round": 6,
+      "pick": 184,
+      "ppg": 5.3658,
+      "rawPpg": 5.8781,
+      "madeIt": true,
+      "similarity": 0.505
+    },
+    {
+      "rank": 2,
+      "name": "Nick Kasa",
+      "college": "Colorado",
+      "year": 2013,
+      "round": 6,
+      "pick": 172,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.478
+    },
+    {
+      "rank": 3,
+      "name": "Ryan Griffin",
+      "college": "Connecticut",
+      "year": 2013,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.3461,
+      "rawPpg": 4.4303,
+      "madeIt": false,
+      "similarity": 0.473
+    },
+    {
+      "rank": 4,
+      "name": "Jerell Adams",
+      "college": "South Carolina",
+      "year": 2016,
+      "round": 6,
+      "pick": 184,
+      "ppg": 3.1103,
+      "rawPpg": 2.0433,
+      "madeIt": false,
+      "similarity": 0.447
+    },
+    {
+      "rank": 5,
+      "name": "Virgil Green",
+      "college": "Nevada",
+      "year": 2011,
+      "round": 7,
+      "pick": 204,
+      "ppg": 2.2877,
+      "rawPpg": 0.6188,
+      "madeIt": false,
+      "similarity": 0.428
+    },
+    {
+      "rank": 6,
+      "name": "Jordan Leggett",
+      "college": "Clemson",
+      "year": 2017,
+      "round": 5,
+      "pick": 150,
+      "ppg": 3.2365,
+      "rawPpg": 1.8769,
+      "madeIt": false,
+      "similarity": 0.4
+    },
+    {
+      "rank": 7,
+      "name": "Zach Gentry",
+      "college": "Michigan",
+      "year": 2019,
+      "round": 5,
+      "pick": 141,
+      "ppg": 3.6792,
+      "rawPpg": 2.62,
+      "madeIt": false,
+      "similarity": 0.397
+    }
+  ]
+}

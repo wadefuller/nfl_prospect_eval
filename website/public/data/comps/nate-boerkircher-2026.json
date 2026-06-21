@@ -1,0 +1,89 @@
+{
+  "prospectId": "nate-boerkircher-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Nick Vannett",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 3,
+      "pick": 94,
+      "ppg": 3.738,
+      "rawPpg": 3.2,
+      "madeIt": false,
+      "similarity": 0.489
+    },
+    {
+      "rank": 2,
+      "name": "Jimmy Graham",
+      "college": "Miami (FL)",
+      "year": 2010,
+      "round": 3,
+      "pick": 95,
+      "ppg": 10.8225,
+      "rawPpg": 14.1306,
+      "madeIt": true,
+      "similarity": 0.469
+    },
+    {
+      "rank": 3,
+      "name": "Brenton Strange",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 61,
+      "ppg": 5.6085,
+      "rawPpg": 6.4976,
+      "madeIt": true,
+      "similarity": 0.456
+    },
+    {
+      "rank": 4,
+      "name": "Drew Sample",
+      "college": "Washington",
+      "year": 2019,
+      "round": 2,
+      "pick": 52,
+      "ppg": 3.38,
+      "rawPpg": 2.5206,
+      "madeIt": false,
+      "similarity": 0.44
+    },
+    {
+      "rank": 5,
+      "name": "Kahale Warring",
+      "college": "San Diego St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.397
+    },
+    {
+      "rank": 6,
+      "name": "Tommy Tremble",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 3,
+      "pick": 83,
+      "ppg": 3.5491,
+      "rawPpg": 3.1267,
+      "madeIt": false,
+      "similarity": 0.285
+    },
+    {
+      "rank": 7,
+      "name": "Kyle Rudolph",
+      "college": "Notre Dame",
+      "year": 2011,
+      "round": 2,
+      "pick": 43,
+      "ppg": 6.639,
+      "rawPpg": 8.1375,
+      "madeIt": true,
+      "similarity": 0.276
+    }
+  ]
+}

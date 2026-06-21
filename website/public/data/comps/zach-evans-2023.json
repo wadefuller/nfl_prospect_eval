@@ -11,7 +11,7 @@
       "ppg": 7.0419,
       "rawPpg": 6.7089,
       "madeIt": true,
-      "similarity": 0.319
+      "similarity": 0.541
     },
     {
       "rank": 2,
@@ -23,58 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.284
+      "similarity": 0.461
     },
     {
       "rank": 3,
-      "name": "Raymond Calais",
-      "college": "Louisiana",
-      "year": 2020,
-      "round": 7,
-      "pick": 245,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.214
-    },
-    {
-      "rank": 4,
-      "name": "Kerrith Whyte Jr",
-      "college": "Florida Atlantic",
-      "year": 2019,
-      "round": 7,
-      "pick": 222,
-      "ppg": 6.2603,
-      "rawPpg": 2.2667,
-      "madeIt": true,
-      "similarity": 0.206
-    },
-    {
-      "rank": 5,
-      "name": "Jonathan Dwyer",
-      "college": "Georgia Tech",
-      "year": 2010,
-      "round": 6,
-      "pick": 188,
-      "ppg": 7.3803,
-      "rawPpg": 6.9154,
-      "madeIt": true,
-      "similarity": 0.196
-    },
-    {
-      "rank": 6,
-      "name": "Kenny Hilliard",
-      "college": "LSU",
-      "year": 2015,
-      "round": 7,
-      "pick": 235,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.194
-    },
-    {
-      "rank": 7,
       "name": "Dexter Williams",
       "college": "Notre Dame",
       "year": 2019,
@@ -83,7 +35,31 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.194
+      "similarity": 0.423
+    },
+    {
+      "rank": 4,
+      "name": "Kenny Hilliard",
+      "college": "LSU",
+      "year": 2015,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.421
+    },
+    {
+      "rank": 5,
+      "name": "Kerrith Whyte Jr",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.2603,
+      "rawPpg": 2.2667,
+      "madeIt": true,
+      "similarity": 0.418
     }
   ]
 }

@@ -60,30 +60,6 @@
       "rawPpg": null,
       "madeIt": false,
       "similarity": 1
-    },
-    {
-      "rank": 6,
-      "name": "Justise Hairston",
-      "college": "Central Connecticut St.",
-      "year": 2007,
-      "round": 6,
-      "pick": 208,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 1
-    },
-    {
-      "rank": 7,
-      "name": "Nate Ilaoa",
-      "college": "Hawaii",
-      "year": 2007,
-      "round": 7,
-      "pick": 236,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.651
     }
   ]
 }

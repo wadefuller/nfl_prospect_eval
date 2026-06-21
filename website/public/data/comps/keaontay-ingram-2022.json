@@ -3,54 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Mike Weber",
-      "college": "Ohio St.",
-      "year": 2019,
-      "round": 7,
-      "pick": 218,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.304
-    },
-    {
-      "rank": 2,
-      "name": "Khalfani Muhammad",
-      "college": "California",
-      "year": 2017,
-      "round": 7,
-      "pick": 241,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.297
-    },
-    {
-      "rank": 3,
-      "name": "Jason Huntley",
-      "college": "New Mexico St.",
-      "year": 2020,
-      "round": 5,
-      "pick": 172,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.277
-    },
-    {
-      "rank": 4,
-      "name": "Kerrith Whyte Jr",
-      "college": "Florida Atlantic",
-      "year": 2019,
-      "round": 7,
-      "pick": 222,
-      "ppg": 6.2603,
-      "rawPpg": 2.2667,
-      "madeIt": true,
-      "similarity": 0.276
-    },
-    {
-      "rank": 5,
       "name": "Boston Scott",
       "college": "Louisiana Tech",
       "year": 2018,
@@ -59,22 +11,34 @@
       "ppg": 7.1738,
       "rawPpg": 7.4247,
       "madeIt": true,
-      "similarity": 0.264
+      "similarity": 0.58
     },
     {
-      "rank": 6,
-      "name": "Ty Johnson",
-      "college": "Maryland",
+      "rank": 2,
+      "name": "Mike Weber",
+      "college": "Ohio St.",
       "year": 2019,
-      "round": 6,
-      "pick": 186,
-      "ppg": 6.653,
-      "rawPpg": 5.847,
-      "madeIt": true,
-      "similarity": 0.253
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.506
     },
     {
-      "rank": 7,
+      "rank": 3,
+      "name": "Vick Ballard",
+      "college": "Mississippi St.",
+      "year": 2012,
+      "round": 5,
+      "pick": 170,
+      "ppg": 7.7259,
+      "rawPpg": 7.6937,
+      "madeIt": true,
+      "similarity": 0.489
+    },
+    {
+      "rank": 4,
       "name": "Travis Homer",
       "college": "Miami (FL)",
       "year": 2019,
@@ -83,7 +47,19 @@
       "ppg": 5.417,
       "rawPpg": 3.5286,
       "madeIt": true,
-      "similarity": 0.246
+      "similarity": 0.465
+    },
+    {
+      "rank": 5,
+      "name": "Jason Huntley",
+      "college": "New Mexico St.",
+      "year": 2020,
+      "round": 5,
+      "pick": 172,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.459
     }
   ]
 }

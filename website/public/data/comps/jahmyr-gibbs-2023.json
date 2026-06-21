@@ -11,7 +11,7 @@
       "ppg": 12.0419,
       "rawPpg": 14.4219,
       "madeIt": true,
-      "similarity": 0.272
+      "similarity": 0.465
     },
     {
       "rank": 2,
@@ -23,22 +23,10 @@
       "ppg": 11.1626,
       "rawPpg": 13.2577,
       "madeIt": true,
-      "similarity": 0.181
+      "similarity": 0.415
     },
     {
       "rank": 3,
-      "name": "Kenny Irons",
-      "college": "Auburn",
-      "year": 2007,
-      "round": 2,
-      "pick": 49,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.153
-    },
-    {
-      "rank": 4,
       "name": "Josh Jacobs",
       "college": "Alabama",
       "year": 2019,
@@ -47,43 +35,31 @@
       "ppg": 11.8302,
       "rawPpg": 14.1446,
       "madeIt": true,
-      "similarity": 0.153
+      "similarity": 0.389
+    },
+    {
+      "rank": 4,
+      "name": "Zach Charbonnet",
+      "college": "UCLA",
+      "year": 2023,
+      "round": 2,
+      "pick": 52,
+      "ppg": 9.4169,
+      "rawPpg": 10.2357,
+      "madeIt": true,
+      "similarity": 0.383
     },
     {
       "rank": 5,
-      "name": "Isaiah Pead",
-      "college": "Cincinnati",
-      "year": 2012,
+      "name": "Kenny Irons",
+      "college": "Auburn",
+      "year": 2007,
       "round": 2,
-      "pick": 50,
-      "ppg": 4.2865,
-      "rawPpg": 1.3917,
+      "pick": 49,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.147
-    },
-    {
-      "rank": 6,
-      "name": "Todd Gurley",
-      "college": "Georgia",
-      "year": 2015,
-      "round": 1,
-      "pick": 10,
-      "ppg": 15.3029,
-      "rawPpg": 19.3215,
-      "madeIt": true,
-      "similarity": 0.138
-    },
-    {
-      "rank": 7,
-      "name": "T.J. Yeldon",
-      "college": "Alabama",
-      "year": 2015,
-      "round": 2,
-      "pick": 36,
-      "ppg": 8.7146,
-      "rawPpg": 9.5025,
-      "madeIt": true,
-      "similarity": 0.137
+      "similarity": 0.378
     }
   ]
 }

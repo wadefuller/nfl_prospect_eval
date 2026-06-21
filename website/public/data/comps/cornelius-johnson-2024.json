@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Terrence Austin",
-      "college": "UCLA",
-      "year": 2010,
-      "round": 7,
-      "pick": 219,
-      "ppg": 4.3512,
-      "rawPpg": 1.77,
-      "madeIt": false,
-      "similarity": 0.562
-    },
-    {
-      "rank": 2,
-      "name": "Austin Proehl",
-      "college": "North Carolina",
-      "year": 2018,
-      "round": 7,
-      "pick": 255,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.556
-    },
-    {
-      "rank": 3,
       "name": "Kevin Dorsey",
       "college": "Maryland",
       "year": 2013,
@@ -35,46 +11,34 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.547
+      "similarity": 0.671
     },
     {
-      "rank": 4,
-      "name": "Olabisi Johnson",
-      "college": "Colorado St.",
-      "year": 2019,
+      "rank": 2,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
       "round": 7,
-      "pick": 247,
-      "ppg": 4.9166,
-      "rawPpg": 3.9923,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
       "madeIt": false,
-      "similarity": 0.486
+      "similarity": 0.591
     },
     {
-      "rank": 5,
-      "name": "Bo Melton",
-      "college": "Rutgers",
-      "year": 2022,
+      "rank": 3,
+      "name": "Austin Proehl",
+      "college": "North Carolina",
+      "year": 2018,
       "round": 7,
-      "pick": 229,
+      "pick": 255,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.468
+      "similarity": 0.567
     },
     {
-      "rank": 6,
-      "name": "James Wright",
-      "college": "LSU",
-      "year": 2014,
-      "round": 7,
-      "pick": 239,
-      "ppg": 3.2444,
-      "rawPpg": 1.3511,
-      "madeIt": false,
-      "similarity": 0.443
-    },
-    {
-      "rank": 7,
+      "rank": 4,
       "name": "Charone Peake",
       "college": "Clemson",
       "year": 2016,
@@ -83,7 +47,43 @@
       "ppg": 3.7362,
       "rawPpg": 1.4625,
       "madeIt": false,
-      "similarity": 0.386
+      "similarity": 0.522
+    },
+    {
+      "rank": 5,
+      "name": "Olabisi Johnson",
+      "college": "Colorado St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 247,
+      "ppg": 4.9166,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.514
+    },
+    {
+      "rank": 6,
+      "name": "Stacy Coley",
+      "college": "Miami (FL)",
+      "year": 2017,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.507
+    },
+    {
+      "rank": 7,
+      "name": "Grant Dubose",
+      "college": "Charlotte",
+      "year": 2023,
+      "round": 7,
+      "pick": 256,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.468
     }
   ]
 }

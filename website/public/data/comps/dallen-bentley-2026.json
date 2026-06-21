@@ -1,0 +1,89 @@
+{
+  "prospectId": "dallen-bentley-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Brayden Willis",
+      "college": "Oklahoma",
+      "year": 2023,
+      "round": 7,
+      "pick": 247,
+      "ppg": 3.1572,
+      "rawPpg": 0,
+      "madeIt": false,
+      "similarity": 0.532
+    },
+    {
+      "rank": 2,
+      "name": "Gerald Christian",
+      "college": "Louisville",
+      "year": 2015,
+      "round": 7,
+      "pick": 256,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.418
+    },
+    {
+      "rank": 3,
+      "name": "Tommy Sweeney",
+      "college": "Boston Col.",
+      "year": 2019,
+      "round": 7,
+      "pick": 228,
+      "ppg": 3.6678,
+      "rawPpg": 2.1286,
+      "madeIt": false,
+      "similarity": 0.379
+    },
+    {
+      "rank": 4,
+      "name": "David Johnson",
+      "college": "Arkansas St.",
+      "year": 2009,
+      "round": 7,
+      "pick": 241,
+      "ppg": 2.9442,
+      "rawPpg": 1.5091,
+      "madeIt": false,
+      "similarity": 0.364
+    },
+    {
+      "rank": 5,
+      "name": "David Paulson",
+      "college": "Oregon",
+      "year": 2012,
+      "round": 7,
+      "pick": 240,
+      "ppg": 3.0023,
+      "rawPpg": 0.86,
+      "madeIt": false,
+      "similarity": 0.339
+    },
+    {
+      "rank": 6,
+      "name": "Thomas Duarte",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 7,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.29
+    },
+    {
+      "rank": 7,
+      "name": "Isaac Nauta",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.247
+    }
+  ]
+}

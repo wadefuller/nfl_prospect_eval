@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Ito Smith",
-      "college": "Southern Miss",
-      "year": 2018,
-      "round": 4,
-      "pick": 126,
-      "ppg": 6.6424,
-      "rawPpg": 5.4385,
-      "madeIt": true,
-      "similarity": 0.165
-    },
-    {
-      "rank": 2,
       "name": "Montario Hardesty",
       "college": "Tennessee",
       "year": 2010,
@@ -23,34 +11,22 @@
       "ppg": 5.8751,
       "rawPpg": 4.3294,
       "madeIt": true,
-      "similarity": 0.165
+      "similarity": 0.401
+    },
+    {
+      "rank": 2,
+      "name": "Zack Moss",
+      "college": "Utah",
+      "year": 2020,
+      "round": 3,
+      "pick": 86,
+      "ppg": 7.4388,
+      "rawPpg": 7.2423,
+      "madeIt": true,
+      "similarity": 0.393
     },
     {
       "rank": 3,
-      "name": "Javorius Allen",
-      "college": "USC",
-      "year": 2015,
-      "round": 4,
-      "pick": 125,
-      "ppg": 8.1339,
-      "rawPpg": 8.3219,
-      "madeIt": true,
-      "similarity": 0.163
-    },
-    {
-      "rank": 4,
-      "name": "C.J. Prosise",
-      "college": "Notre Dame",
-      "year": 2016,
-      "round": 3,
-      "pick": 90,
-      "ppg": 8.0285,
-      "rawPpg": 8.75,
-      "madeIt": true,
-      "similarity": 0.151
-    },
-    {
-      "rank": 5,
       "name": "Charles Sims",
       "college": "West Virginia",
       "year": 2014,
@@ -59,31 +35,31 @@
       "ppg": 8.5776,
       "rawPpg": 8.821,
       "madeIt": true,
-      "similarity": 0.149
+      "similarity": 0.373
     },
     {
-      "rank": 6,
-      "name": "Tyler Ervin",
-      "college": "San Jose St.",
-      "year": 2016,
+      "rank": 4,
+      "name": "Ito Smith",
+      "college": "Southern Miss",
+      "year": 2018,
       "round": 4,
-      "pick": 119,
-      "ppg": 3.5872,
-      "rawPpg": 0.4278,
-      "madeIt": false,
-      "similarity": 0.143
+      "pick": 126,
+      "ppg": 6.6424,
+      "rawPpg": 5.4385,
+      "madeIt": true,
+      "similarity": 0.369
     },
     {
-      "rank": 7,
-      "name": "Toby Gerhart",
-      "college": "Stanford",
-      "year": 2010,
-      "round": 2,
-      "pick": 51,
-      "ppg": 6.3289,
-      "rawPpg": 5.5667,
+      "rank": 5,
+      "name": "C.J. Prosise",
+      "college": "Notre Dame",
+      "year": 2016,
+      "round": 3,
+      "pick": 90,
+      "ppg": 8.0285,
+      "rawPpg": 8.75,
       "madeIt": true,
-      "similarity": 0.114
+      "similarity": 0.364
     }
   ]
 }

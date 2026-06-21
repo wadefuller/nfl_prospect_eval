@@ -1,0 +1,89 @@
+{
+  "prospectId": "luke-lachey-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ryan Izzo",
+      "college": "Florida St.",
+      "year": 2018,
+      "round": 7,
+      "pick": 250,
+      "ppg": 3.5706,
+      "rawPpg": 2.92,
+      "madeIt": false,
+      "similarity": 0.645
+    },
+    {
+      "rank": 2,
+      "name": "Tommy Sweeney",
+      "college": "Boston Col.",
+      "year": 2019,
+      "round": 7,
+      "pick": 228,
+      "ppg": 3.6678,
+      "rawPpg": 2.1286,
+      "madeIt": false,
+      "similarity": 0.602
+    },
+    {
+      "rank": 3,
+      "name": "David Paulson",
+      "college": "Oregon",
+      "year": 2012,
+      "round": 7,
+      "pick": 240,
+      "ppg": 3.0023,
+      "rawPpg": 0.86,
+      "madeIt": false,
+      "similarity": 0.58
+    },
+    {
+      "rank": 4,
+      "name": "Isaac Nauta",
+      "college": "Georgia",
+      "year": 2019,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.553
+    },
+    {
+      "rank": 5,
+      "name": "Jameson Konz",
+      "college": "Kent St.",
+      "year": 2010,
+      "round": 7,
+      "pick": 245,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.481
+    },
+    {
+      "rank": 6,
+      "name": "Brayden Willis",
+      "college": "Oklahoma",
+      "year": 2023,
+      "round": 7,
+      "pick": 247,
+      "ppg": 3.1572,
+      "rawPpg": 0,
+      "madeIt": false,
+      "similarity": 0.465
+    },
+    {
+      "rank": 7,
+      "name": "Jim Dray",
+      "college": "Stanford",
+      "year": 2010,
+      "round": 7,
+      "pick": 233,
+      "ppg": 2.91,
+      "rawPpg": 0.62,
+      "madeIt": false,
+      "similarity": 0.463
+    }
+  ]
+}

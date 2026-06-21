@@ -1,0 +1,89 @@
+{
+  "prospectId": "kenyon-sadiq-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Noah Fant",
+      "college": "Iowa",
+      "year": 2019,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.7991,
+      "rawPpg": 8.1312,
+      "madeIt": true,
+      "similarity": 0.508
+    },
+    {
+      "rank": 2,
+      "name": "Austin Seferian-Jenkins",
+      "college": "Washington",
+      "year": 2014,
+      "round": 2,
+      "pick": 38,
+      "ppg": 5.6362,
+      "rawPpg": 7.2452,
+      "madeIt": true,
+      "similarity": 0.379
+    },
+    {
+      "rank": 3,
+      "name": "Rob Gronkowski",
+      "college": "Arizona",
+      "year": 2010,
+      "round": 2,
+      "pick": 42,
+      "ppg": 12.2293,
+      "rawPpg": 16.6844,
+      "madeIt": true,
+      "similarity": 0.341
+    },
+    {
+      "rank": 4,
+      "name": "Maxx Williams",
+      "college": "Minnesota",
+      "year": 2015,
+      "round": 2,
+      "pick": 55,
+      "ppg": 3.474,
+      "rawPpg": 2.7779,
+      "madeIt": false,
+      "similarity": 0.302
+    },
+    {
+      "rank": 5,
+      "name": "Pat Freiermuth",
+      "college": "Penn St.",
+      "year": 2021,
+      "round": 2,
+      "pick": 55,
+      "ppg": 6.5502,
+      "rawPpg": 7.6931,
+      "madeIt": true,
+      "similarity": 0.257
+    },
+    {
+      "rank": 6,
+      "name": "Jermaine Gresham",
+      "college": "Oklahoma",
+      "year": 2010,
+      "round": 1,
+      "pick": 21,
+      "ppg": 7.06,
+      "rawPpg": 8.521,
+      "madeIt": true,
+      "similarity": 0.251
+    },
+    {
+      "rank": 7,
+      "name": "Cole Kmet",
+      "college": "Notre Dame",
+      "year": 2020,
+      "round": 2,
+      "pick": 43,
+      "ppg": 5.6592,
+      "rawPpg": 6.2794,
+      "madeIt": true,
+      "similarity": 0.239
+    }
+  ]
+}

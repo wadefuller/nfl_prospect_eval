@@ -1,0 +1,65 @@
+{
+  "prospectId": "justin-fields-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tim Tebow",
+      "college": "Florida",
+      "year": 2010,
+      "round": 1,
+      "pick": 25,
+      "ppg": 13.4827,
+      "rawPpg": 14.7214,
+      "madeIt": true,
+      "similarity": 0.395
+    },
+    {
+      "rank": 2,
+      "name": "Kenny Pickett",
+      "college": "Pittsburgh",
+      "year": 2022,
+      "round": 1,
+      "pick": 20,
+      "ppg": 10.9126,
+      "rawPpg": 10.3555,
+      "madeIt": true,
+      "similarity": 0.384
+    },
+    {
+      "rank": 3,
+      "name": "Marcus Mariota",
+      "college": "Oregon",
+      "year": 2015,
+      "round": 1,
+      "pick": 2,
+      "ppg": 15.2981,
+      "rawPpg": 17.4363,
+      "madeIt": true,
+      "similarity": 0.358
+    },
+    {
+      "rank": 4,
+      "name": "Baker Mayfield",
+      "college": "Oklahoma",
+      "year": 2018,
+      "round": 1,
+      "pick": 1,
+      "ppg": 14.6865,
+      "rawPpg": 16.3287,
+      "madeIt": true,
+      "similarity": 0.349
+    },
+    {
+      "rank": 5,
+      "name": "Andy Dalton",
+      "college": "TCU",
+      "year": 2011,
+      "round": 2,
+      "pick": 35,
+      "ppg": 15.1279,
+      "rawPpg": 16.8369,
+      "madeIt": true,
+      "similarity": 0.347
+    }
+  ]
+}

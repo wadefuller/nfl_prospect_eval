@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Kalen Ballage",
-      "college": "Arizona St.",
-      "year": 2018,
-      "round": 4,
-      "pick": 131,
-      "ppg": 6.3674,
-      "rawPpg": 5.4758,
+      "name": "Jonathan Williams",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 5,
+      "pick": 156,
+      "ppg": 5.6678,
+      "rawPpg": 1.4875,
       "madeIt": true,
-      "similarity": 0.227
+      "similarity": 0.458
     },
     {
       "rank": 2,
@@ -23,34 +23,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.192
+      "similarity": 0.457
     },
     {
       "rank": 3,
-      "name": "Anthony McFarland Jr.",
-      "college": "Maryland",
-      "year": 2020,
-      "round": 4,
-      "pick": 124,
-      "ppg": 5.3269,
-      "rawPpg": 1.7909,
+      "name": "Matt Jones",
+      "college": "Florida",
+      "year": 2015,
+      "round": 3,
+      "pick": 95,
+      "ppg": 8.3424,
+      "rawPpg": 9.1275,
       "madeIt": true,
-      "similarity": 0.192
+      "similarity": 0.436
     },
     {
       "rank": 4,
-      "name": "Jonathan Williams",
-      "college": "Arkansas",
-      "year": 2016,
-      "round": 5,
-      "pick": 156,
-      "ppg": 5.6678,
-      "rawPpg": 1.4875,
-      "madeIt": true,
-      "similarity": 0.185
-    },
-    {
-      "rank": 5,
       "name": "Jamaal Williams",
       "college": "BYU",
       "year": 2017,
@@ -59,31 +47,19 @@
       "ppg": 8.4717,
       "rawPpg": 8.8719,
       "madeIt": true,
-      "similarity": 0.184
+      "similarity": 0.425
     },
     {
-      "rank": 6,
-      "name": "Jordan Scarlett",
-      "college": "Florida",
-      "year": 2019,
-      "round": 5,
-      "pick": 154,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.172
-    },
-    {
-      "rank": 7,
-      "name": "Joe Williams",
-      "college": "Utah",
-      "year": 2017,
+      "rank": 5,
+      "name": "Zamir White",
+      "college": "Georgia",
+      "year": 2022,
       "round": 4,
-      "pick": 121,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.17
+      "pick": 122,
+      "ppg": 5.8602,
+      "rawPpg": 4.1976,
+      "madeIt": true,
+      "similarity": 0.419
     }
   ]
 }

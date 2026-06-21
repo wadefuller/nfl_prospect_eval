@@ -3,6 +3,30 @@
   "comps": [
     {
       "rank": 1,
+      "name": "Juwann Winfree",
+      "college": "Colorado",
+      "year": 2019,
+      "round": 6,
+      "pick": 187,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.484
+    },
+    {
+      "rank": 2,
+      "name": "Tyreek Hill",
+      "college": "West Alabama",
+      "year": 2016,
+      "round": 5,
+      "pick": 165,
+      "ppg": 12.6305,
+      "rawPpg": 16.0015,
+      "madeIt": true,
+      "similarity": 0.473
+    },
+    {
+      "rank": 3,
       "name": "Joe Webb",
       "college": "Ala-Birmingham",
       "year": 2010,
@@ -11,79 +35,55 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.667
-    },
-    {
-      "rank": 2,
-      "name": "Jalen Camp",
-      "college": "Georgia Tech",
-      "year": 2021,
-      "round": 6,
-      "pick": 209,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.554
-    },
-    {
-      "rank": 3,
-      "name": "DeAndre Smelter",
-      "college": "Georgia Tech",
-      "year": 2015,
-      "round": 4,
-      "pick": 132,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.55
+      "similarity": 0.431
     },
     {
       "rank": 4,
-      "name": "Joel Filani",
-      "college": "Texas Tech",
-      "year": 2007,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
       "round": 6,
-      "pick": 188,
-      "ppg": 0,
-      "rawPpg": null,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
       "madeIt": false,
-      "similarity": 0.526
+      "similarity": 0.424
     },
     {
       "rank": 5,
-      "name": "DeVeren Johnson",
-      "college": "Sacred Heart",
-      "year": 2002,
-      "round": 6,
-      "pick": 208,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.518
-    },
-    {
-      "rank": 6,
-      "name": "Jon Olinger",
-      "college": "Cincinnati",
-      "year": 2003,
+      "name": "Daurice Fountain",
+      "college": "Northern Iowa",
+      "year": 2018,
       "round": 5,
       "pick": 159,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.518
+      "similarity": 0.422
     },
     {
-      "rank": 7,
-      "name": "Larry Brackins",
-      "college": "Pearl River CC",
-      "year": 2005,
-      "round": 5,
-      "pick": 155,
+      "rank": 6,
+      "name": "Matt Hazel",
+      "college": "Coastal Carolina",
+      "year": 2014,
+      "round": 6,
+      "pick": 190,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.518
+      "similarity": 0.418
+    },
+    {
+      "rank": 7,
+      "name": "Russell Gage",
+      "college": "LSU",
+      "year": 2018,
+      "round": 6,
+      "pick": 194,
+      "ppg": 6.8868,
+      "rawPpg": 7.2581,
+      "madeIt": true,
+      "similarity": 0.407
     }
   ]
 }

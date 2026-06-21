@@ -11,10 +11,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.208
+      "similarity": 0.189
     },
     {
       "rank": 2,
+      "name": "Simi Fehoko",
+      "college": "Stanford",
+      "year": 2021,
+      "round": 5,
+      "pick": 179,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.183
+    },
+    {
+      "rank": 3,
       "name": "Daurice Fountain",
       "college": "Northern Iowa",
       "year": 2018,
@@ -23,10 +35,34 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.051
+      "similarity": 0.092
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "name": "Kayshon Boutte",
+      "college": "LSU",
+      "year": 2023,
+      "round": 6,
+      "pick": 187,
+      "ppg": 6.7429,
+      "rawPpg": 7.1895,
+      "madeIt": true,
+      "similarity": 0.091
+    },
+    {
+      "rank": 5,
+      "name": "Jaelon Darden",
+      "college": "North Texas",
+      "year": 2021,
+      "round": 4,
+      "pick": 129,
+      "ppg": 2.7598,
+      "rawPpg": 0.6024,
+      "madeIt": false,
+      "similarity": 0.078
+    },
+    {
+      "rank": 6,
       "name": "Marquez Valdes-Scantling",
       "college": "South Florida",
       "year": 2018,
@@ -35,34 +71,10 @@
       "ppg": 6.7007,
       "rawPpg": 7.1893,
       "madeIt": true,
-      "similarity": 0.037
+      "similarity": 0.078
     },
     {
-      "rank": 4,
-      "name": "Jacob Harris",
-      "college": "Central Florida",
-      "year": 2021,
-      "round": 4,
-      "pick": 141,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.035
-    },
-    {
-      "rank": 5,
-      "name": "Demarcus Robinson",
-      "college": "Florida",
-      "year": 2016,
-      "round": 4,
-      "pick": 126,
-      "ppg": 4.7733,
-      "rawPpg": 3.8636,
-      "madeIt": false,
-      "similarity": 0.035
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "name": "Cornell Powell",
       "college": "Clemson",
       "year": 2021,
@@ -71,19 +83,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.034
-    },
-    {
-      "rank": 7,
-      "name": "Robert Herron",
-      "college": "Wyoming",
-      "year": 2014,
-      "round": 6,
-      "pick": 185,
-      "ppg": 5.0105,
-      "rawPpg": 2.4667,
-      "madeIt": true,
-      "similarity": 0.033
+      "similarity": 0.073
     }
   ]
 }

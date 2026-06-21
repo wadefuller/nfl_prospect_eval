@@ -11,22 +11,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.273
+      "similarity": 0.44
     },
     {
       "rank": 2,
-      "name": "Baron Batch",
-      "college": "Texas Tech",
-      "year": 2011,
-      "round": 7,
-      "pick": 232,
-      "ppg": 5.6051,
-      "rawPpg": 1.7778,
-      "madeIt": true,
-      "similarity": 0.232
-    },
-    {
-      "rank": 3,
       "name": "Storm Johnson",
       "college": "Central Florida",
       "year": 2014,
@@ -35,10 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.223
+      "similarity": 0.422
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Ahmaad Galloway",
       "college": "Alabama",
       "year": 2003,
@@ -47,7 +35,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.206
+      "similarity": 0.397
+    },
+    {
+      "rank": 4,
+      "name": "Kerrith Whyte Jr",
+      "college": "Florida Atlantic",
+      "year": 2019,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.2603,
+      "rawPpg": 2.2667,
+      "madeIt": true,
+      "similarity": 0.392
     },
     {
       "rank": 5,
@@ -59,31 +59,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.195
-    },
-    {
-      "rank": 6,
-      "name": "Khalfani Muhammad",
-      "college": "California",
-      "year": 2017,
-      "round": 7,
-      "pick": 241,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.191
-    },
-    {
-      "rank": 7,
-      "name": "Antwoine Womack",
-      "college": "Virginia",
-      "year": 2002,
-      "round": 7,
-      "pick": 237,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.187
+      "similarity": 0.39
     }
   ]
 }

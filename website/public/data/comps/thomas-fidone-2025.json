@@ -1,0 +1,89 @@
+{
+  "prospectId": "thomas-fidone-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Drake Dunsmore",
+      "college": "Northwestern",
+      "year": 2012,
+      "round": 7,
+      "pick": 233,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.484
+    },
+    {
+      "rank": 2,
+      "name": "Ben Koyack",
+      "college": "Notre Dame",
+      "year": 2015,
+      "round": 7,
+      "pick": 229,
+      "ppg": 3.4175,
+      "rawPpg": 2.2717,
+      "madeIt": false,
+      "similarity": 0.453
+    },
+    {
+      "rank": 3,
+      "name": "Rob Blanchflower",
+      "college": "Massachusetts",
+      "year": 2014,
+      "round": 7,
+      "pick": 230,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.435
+    },
+    {
+      "rank": 4,
+      "name": "Chris Gragg",
+      "college": "Arkansas",
+      "year": 2013,
+      "round": 7,
+      "pick": 222,
+      "ppg": 3.6124,
+      "rawPpg": 2.6917,
+      "madeIt": false,
+      "similarity": 0.42
+    },
+    {
+      "rank": 5,
+      "name": "Ryan Taylor",
+      "college": "North Carolina",
+      "year": 2011,
+      "round": 7,
+      "pick": 218,
+      "ppg": 2.4957,
+      "rawPpg": 0.7583,
+      "madeIt": false,
+      "similarity": 0.396
+    },
+    {
+      "rank": 6,
+      "name": "James Hanna",
+      "college": "Oklahoma",
+      "year": 2012,
+      "round": 6,
+      "pick": 186,
+      "ppg": 2.7245,
+      "rawPpg": 1.365,
+      "madeIt": false,
+      "similarity": 0.387
+    },
+    {
+      "rank": 7,
+      "name": "Dedrick Epps",
+      "college": "Miami (FL)",
+      "year": 2010,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.333
+    }
+  ]
+}

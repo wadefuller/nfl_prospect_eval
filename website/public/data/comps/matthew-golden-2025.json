@@ -3,27 +3,27 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Mecole Hardman",
-      "college": "Georgia",
-      "year": 2019,
-      "round": 2,
-      "pick": 56,
-      "ppg": 6.5736,
-      "rawPpg": 6.8781,
+      "name": "Phillip Dorsett",
+      "college": "Miami (FL)",
+      "year": 2015,
+      "round": 1,
+      "pick": 29,
+      "ppg": 5.165,
+      "rawPpg": 4.5252,
       "madeIt": true,
-      "similarity": 0.521
+      "similarity": 0.557
     },
     {
       "rank": 2,
-      "name": "Chris Olave",
-      "college": "Ohio St.",
-      "year": 2022,
+      "name": "Jaylen Waddle",
+      "college": "Alabama",
+      "year": 2021,
       "round": 1,
-      "pick": 11,
-      "ppg": 9.4773,
-      "rawPpg": 11.2754,
+      "pick": 6,
+      "ppg": 10.468,
+      "rawPpg": 12.6393,
       "madeIt": true,
-      "similarity": 0.517
+      "similarity": 0.546
     },
     {
       "rank": 3,
@@ -35,43 +35,43 @@
       "ppg": 5.6715,
       "rawPpg": 4.9875,
       "madeIt": true,
-      "similarity": 0.51
+      "similarity": 0.525
     },
     {
       "rank": 4,
-      "name": "Chase Claypool",
-      "college": "Notre Dame",
-      "year": 2020,
-      "round": 2,
-      "pick": 49,
-      "ppg": 8.8603,
-      "rawPpg": 10.3169,
+      "name": "Kadarius Toney",
+      "college": "Florida",
+      "year": 2021,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.1645,
+      "rawPpg": 6.3422,
       "madeIt": true,
-      "similarity": 0.494
+      "similarity": 0.525
     },
     {
       "rank": 5,
-      "name": "Alec Pierce",
-      "college": "Cincinnati",
-      "year": 2022,
-      "round": 2,
-      "pick": 53,
-      "ppg": 6.8777,
-      "rawPpg": 7.3344,
+      "name": "Cordarrelle Patterson",
+      "college": "Tennessee",
+      "year": 2013,
+      "round": 1,
+      "pick": 29,
+      "ppg": 6.5257,
+      "rawPpg": 6.8062,
       "madeIt": true,
-      "similarity": 0.479
+      "similarity": 0.521
     },
     {
       "rank": 6,
-      "name": "Garrett Wilson",
-      "college": "Ohio St.",
-      "year": 2022,
+      "name": "Quentin Johnston",
+      "college": "TCU",
+      "year": 2023,
       "round": 1,
-      "pick": 10,
-      "ppg": 9.4206,
-      "rawPpg": 11.0471,
+      "pick": 21,
+      "ppg": 8.8257,
+      "rawPpg": 10.5105,
       "madeIt": true,
-      "similarity": 0.476
+      "similarity": 0.512
     },
     {
       "rank": 7,
@@ -83,7 +83,7 @@
       "ppg": 8.973,
       "rawPpg": 10.5198,
       "madeIt": true,
-      "similarity": 0.467
+      "similarity": 0.501
     }
   ]
 }

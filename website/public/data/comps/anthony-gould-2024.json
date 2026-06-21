@@ -3,54 +3,42 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Trevor Davis",
-      "college": "California",
-      "year": 2016,
+      "name": "Isaiah McKenzie",
+      "college": "Georgia",
+      "year": 2017,
       "round": 5,
-      "pick": 163,
-      "ppg": 2.9777,
-      "rawPpg": 0.9788,
-      "madeIt": false,
-      "similarity": 0.491
+      "pick": 172,
+      "ppg": 5.2981,
+      "rawPpg": 4.9188,
+      "madeIt": true,
+      "similarity": 0.475
     },
     {
       "rank": 2,
-      "name": "Derius Davis",
-      "college": "TCU",
-      "year": 2023,
+      "name": "Kris Durham",
+      "college": "Georgia",
+      "year": 2011,
       "round": 4,
-      "pick": 125,
-      "ppg": 3.3173,
-      "rawPpg": 2.0082,
-      "madeIt": false,
-      "similarity": 0.462
+      "pick": 107,
+      "ppg": 5.4197,
+      "rawPpg": 4.875,
+      "madeIt": true,
+      "similarity": 0.459
     },
     {
       "rank": 3,
-      "name": "Jalen Saunders",
-      "college": "Oklahoma",
-      "year": 2014,
+      "name": "Devon Wylie",
+      "college": "Fresno St.",
+      "year": 2012,
       "round": 4,
-      "pick": 104,
-      "ppg": 4.0263,
-      "rawPpg": 0.15,
-      "madeIt": false,
-      "similarity": 0.461
-    },
-    {
-      "rank": 4,
-      "name": "Dez Fitzpatrick",
-      "college": "Louisville",
-      "year": 2021,
-      "round": 4,
-      "pick": 109,
+      "pick": 107,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.454
+      "similarity": 0.445
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "Ihmir Smith-Marsette",
       "college": "Iowa",
       "year": 2021,
@@ -59,31 +47,43 @@
       "ppg": 3.847,
       "rawPpg": 3.0132,
       "madeIt": false,
-      "similarity": 0.452
+      "similarity": 0.434
     },
     {
-      "rank": 6,
-      "name": "Malcolm Mitchell",
-      "college": "Georgia",
-      "year": 2016,
-      "round": 4,
-      "pick": 112,
-      "ppg": 6.269,
-      "rawPpg": 6.675,
-      "madeIt": true,
-      "similarity": 0.441
-    },
-    {
-      "rank": 7,
-      "name": "Chris Harper",
-      "college": "Kansas St.",
-      "year": 2013,
-      "round": 4,
-      "pick": 123,
+      "rank": 5,
+      "name": "Jon Olinger",
+      "college": "Cincinnati",
+      "year": 2003,
+      "round": 5,
+      "pick": 159,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.425
+      "similarity": 0.429
+    },
+    {
+      "rank": 6,
+      "name": "Larry Brackins",
+      "college": "Pearl River CC",
+      "year": 2005,
+      "round": 5,
+      "pick": 155,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.429
+    },
+    {
+      "rank": 7,
+      "name": "Keshawn Martin",
+      "college": "Michigan St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 121,
+      "ppg": 3.6361,
+      "rawPpg": 2.4719,
+      "madeIt": false,
+      "similarity": 0.416
     }
   ]
 }

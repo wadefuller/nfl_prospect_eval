@@ -1,0 +1,89 @@
+{
+  "prospectId": "mitchell-evans-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ryan Griffin",
+      "college": "Connecticut",
+      "year": 2013,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.3461,
+      "rawPpg": 4.4303,
+      "madeIt": false,
+      "similarity": 0.558
+    },
+    {
+      "rank": 2,
+      "name": "James Hanna",
+      "college": "Oklahoma",
+      "year": 2012,
+      "round": 6,
+      "pick": 186,
+      "ppg": 2.7245,
+      "rawPpg": 1.365,
+      "madeIt": false,
+      "similarity": 0.547
+    },
+    {
+      "rank": 3,
+      "name": "Zach Gentry",
+      "college": "Michigan",
+      "year": 2019,
+      "round": 5,
+      "pick": 141,
+      "ppg": 3.6792,
+      "rawPpg": 2.62,
+      "madeIt": false,
+      "similarity": 0.53
+    },
+    {
+      "rank": 4,
+      "name": "Jerell Adams",
+      "college": "South Carolina",
+      "year": 2016,
+      "round": 6,
+      "pick": 184,
+      "ppg": 3.1103,
+      "rawPpg": 2.0433,
+      "madeIt": false,
+      "similarity": 0.501
+    },
+    {
+      "rank": 5,
+      "name": "Durham Smythe",
+      "college": "Notre Dame",
+      "year": 2018,
+      "round": 4,
+      "pick": 123,
+      "ppg": 3.3313,
+      "rawPpg": 2.2615,
+      "madeIt": false,
+      "similarity": 0.489
+    },
+    {
+      "rank": 6,
+      "name": "Nick Kasa",
+      "college": "Colorado",
+      "year": 2013,
+      "round": 6,
+      "pick": 172,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.435
+    },
+    {
+      "rank": 7,
+      "name": "Will Mallory",
+      "college": "Miami (FL)",
+      "year": 2023,
+      "round": 5,
+      "pick": 162,
+      "ppg": 3.0606,
+      "rawPpg": 1.7,
+      "madeIt": false,
+      "similarity": 0.435
+    }
+  ]
+}

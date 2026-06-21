@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Ty Johnson",
-      "college": "Maryland",
-      "year": 2019,
-      "round": 6,
-      "pick": 186,
-      "ppg": 6.653,
-      "rawPpg": 5.847,
-      "madeIt": true,
-      "similarity": 0.301
-    },
-    {
-      "rank": 2,
-      "name": "Travis Homer",
-      "college": "Miami (FL)",
-      "year": 2019,
-      "round": 6,
-      "pick": 204,
-      "ppg": 5.417,
-      "rawPpg": 3.5286,
-      "madeIt": true,
-      "similarity": 0.227
-    },
-    {
-      "rank": 3,
       "name": "Ahmaad Galloway",
       "college": "Alabama",
       "year": 2003,
@@ -35,10 +11,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.206
+      "similarity": 0.498
     },
     {
-      "rank": 4,
+      "rank": 2,
       "name": "Luke Staley",
       "college": "BYU",
       "year": 2002,
@@ -47,22 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.202
+      "similarity": 0.493
     },
     {
-      "rank": 5,
-      "name": "Cedric Humes",
-      "college": "Virginia Tech",
-      "year": 2006,
-      "round": 7,
-      "pick": 240,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.195
-    },
-    {
-      "rank": 6,
+      "rank": 3,
       "name": "Jonathan Dwyer",
       "college": "Georgia Tech",
       "year": 2010,
@@ -71,19 +35,31 @@
       "ppg": 7.3803,
       "rawPpg": 6.9154,
       "madeIt": true,
-      "similarity": 0.187
+      "similarity": 0.485
     },
     {
-      "rank": 7,
-      "name": "Keaontay Ingram",
-      "college": "USC",
-      "year": 2022,
-      "round": 6,
-      "pick": 201,
-      "ppg": 4.4773,
-      "rawPpg": 1.589,
+      "rank": 4,
+      "name": "Cedric Humes",
+      "college": "Virginia Tech",
+      "year": 2006,
+      "round": 7,
+      "pick": 240,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.174
+      "similarity": 0.483
+    },
+    {
+      "rank": 5,
+      "name": "Travis Homer",
+      "college": "Miami (FL)",
+      "year": 2019,
+      "round": 6,
+      "pick": 204,
+      "ppg": 5.417,
+      "rawPpg": 3.5286,
+      "madeIt": true,
+      "similarity": 0.474
     }
   ]
 }

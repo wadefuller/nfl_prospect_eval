@@ -1,0 +1,65 @@
+{
+  "prospectId": "riley-leonard-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Clayton Thorson",
+      "college": "Northwestern",
+      "year": 2019,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.474
+    },
+    {
+      "rank": 2,
+      "name": "Sean Clifford",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 5,
+      "pick": 149,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.471
+    },
+    {
+      "rank": 3,
+      "name": "Jake Fromm",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.393
+    },
+    {
+      "rank": 4,
+      "name": "Keith Wenning",
+      "college": "Ball St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.372
+    },
+    {
+      "rank": 5,
+      "name": "Jake Rudock",
+      "college": "Michigan",
+      "year": 2016,
+      "round": 6,
+      "pick": 191,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.345
+    }
+  ]
+}

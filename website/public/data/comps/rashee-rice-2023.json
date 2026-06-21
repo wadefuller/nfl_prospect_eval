@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Kendall Wright",
-      "college": "Baylor",
-      "year": 2012,
-      "round": 1,
-      "pick": 20,
-      "ppg": 8.7333,
-      "rawPpg": 10.1942,
+      "name": "Sterling Shepard",
+      "college": "Oklahoma",
+      "year": 2016,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.4263,
+      "rawPpg": 9.9741,
       "madeIt": true,
-      "similarity": 0.52
+      "similarity": 0.534
     },
     {
       "rank": 2,
@@ -23,46 +23,34 @@
       "ppg": 6.8569,
       "rawPpg": 7.3031,
       "madeIt": true,
-      "similarity": 0.518
+      "similarity": 0.531
     },
     {
       "rank": 3,
-      "name": "Jordan Shipley",
-      "college": "Texas",
-      "year": 2010,
-      "round": 3,
-      "pick": 84,
-      "ppg": 6.3508,
-      "rawPpg": 6.4595,
+      "name": "Kendall Wright",
+      "college": "Baylor",
+      "year": 2012,
+      "round": 1,
+      "pick": 20,
+      "ppg": 8.7333,
+      "rawPpg": 10.1942,
       "madeIt": true,
-      "similarity": 0.506
+      "similarity": 0.518
     },
     {
       "rank": 4,
-      "name": "Sterling Shepard",
-      "college": "Oklahoma",
+      "name": "Josh Doctson",
+      "college": "TCU",
       "year": 2016,
-      "round": 2,
-      "pick": 40,
-      "ppg": 8.4263,
-      "rawPpg": 9.9741,
+      "round": 1,
+      "pick": 22,
+      "ppg": 6.1942,
+      "rawPpg": 6.3167,
       "madeIt": true,
-      "similarity": 0.487
+      "similarity": 0.496
     },
     {
       "rank": 5,
-      "name": "Skyy Moore",
-      "college": "Western Michigan",
-      "year": 2022,
-      "round": 2,
-      "pick": 54,
-      "ppg": 3.934,
-      "rawPpg": 2.8615,
-      "madeIt": false,
-      "similarity": 0.486
-    },
-    {
-      "rank": 6,
       "name": "Nelson Agholor",
       "college": "USC",
       "year": 2015,
@@ -71,19 +59,31 @@
       "ppg": 6.8475,
       "rawPpg": 7.2206,
       "madeIt": true,
-      "similarity": 0.478
+      "similarity": 0.495
+    },
+    {
+      "rank": 6,
+      "name": "Eric Decker",
+      "college": "Minnesota",
+      "year": 2010,
+      "round": 3,
+      "pick": 87,
+      "ppg": 9.534,
+      "rawPpg": 11.3187,
+      "madeIt": true,
+      "similarity": 0.492
     },
     {
       "rank": 7,
-      "name": "A.J. Jenkins",
-      "college": "Illinois",
-      "year": 2012,
-      "round": 1,
-      "pick": 30,
-      "ppg": 4.2211,
-      "rawPpg": 2.2286,
-      "madeIt": false,
-      "similarity": 0.469
+      "name": "Torrey Smith",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 2,
+      "pick": 58,
+      "ppg": 8.973,
+      "rawPpg": 10.5198,
+      "madeIt": true,
+      "similarity": 0.471
     }
   ]
 }

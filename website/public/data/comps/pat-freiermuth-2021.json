@@ -1,0 +1,89 @@
+{
+  "prospectId": "pat-freiermuth-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ed Dickson",
+      "college": "Oregon",
+      "year": 2010,
+      "round": 3,
+      "pick": 70,
+      "ppg": 4.9363,
+      "rawPpg": 4.9313,
+      "madeIt": false,
+      "similarity": 0.672
+    },
+    {
+      "rank": 2,
+      "name": "Cole Kmet",
+      "college": "Notre Dame",
+      "year": 2020,
+      "round": 2,
+      "pick": 43,
+      "ppg": 5.6592,
+      "rawPpg": 6.2794,
+      "madeIt": true,
+      "similarity": 0.63
+    },
+    {
+      "rank": 3,
+      "name": "Vance McDonald",
+      "college": "Rice",
+      "year": 2013,
+      "round": 2,
+      "pick": 55,
+      "ppg": 3.774,
+      "rawPpg": 3.1379,
+      "madeIt": false,
+      "similarity": 0.574
+    },
+    {
+      "rank": 4,
+      "name": "Dwayne Allen",
+      "college": "Clemson",
+      "year": 2012,
+      "round": 3,
+      "pick": 64,
+      "ppg": 6.1525,
+      "rawPpg": 7.3533,
+      "madeIt": true,
+      "similarity": 0.511
+    },
+    {
+      "rank": 5,
+      "name": "Kyle Rudolph",
+      "college": "Notre Dame",
+      "year": 2011,
+      "round": 2,
+      "pick": 43,
+      "ppg": 6.639,
+      "rawPpg": 8.1375,
+      "madeIt": true,
+      "similarity": 0.47
+    },
+    {
+      "rank": 6,
+      "name": "Josiah Deguara",
+      "college": "Cincinnati",
+      "year": 2020,
+      "round": 3,
+      "pick": 94,
+      "ppg": 3.4964,
+      "rawPpg": 2.7444,
+      "madeIt": false,
+      "similarity": 0.47
+    },
+    {
+      "rank": 7,
+      "name": "Mike Gesicki",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 2,
+      "pick": 42,
+      "ppg": 6.7991,
+      "rawPpg": 8.11,
+      "madeIt": true,
+      "similarity": 0.463
+    }
+  ]
+}

@@ -3,6 +3,78 @@
   "comps": [
     {
       "rank": 1,
+      "name": "Keke Coutee",
+      "college": "Texas Tech",
+      "year": 2018,
+      "round": 4,
+      "pick": 103,
+      "ppg": 7.2211,
+      "rawPpg": 8.5896,
+      "madeIt": true,
+      "similarity": 0.391
+    },
+    {
+      "rank": 2,
+      "name": "Chris Givens",
+      "college": "Wake Forest",
+      "year": 2012,
+      "round": 4,
+      "pick": 96,
+      "ppg": 5.9603,
+      "rawPpg": 6.0052,
+      "madeIt": true,
+      "similarity": 0.381
+    },
+    {
+      "rank": 3,
+      "name": "Dede Westbrook",
+      "college": "Oklahoma",
+      "year": 2017,
+      "round": 4,
+      "pick": 110,
+      "ppg": 7.822,
+      "rawPpg": 8.764,
+      "madeIt": true,
+      "similarity": 0.362
+    },
+    {
+      "rank": 4,
+      "name": "Kris Durham",
+      "college": "Georgia",
+      "year": 2011,
+      "round": 4,
+      "pick": 107,
+      "ppg": 5.4197,
+      "rawPpg": 4.875,
+      "madeIt": true,
+      "similarity": 0.342
+    },
+    {
+      "rank": 5,
+      "name": "Jalin Hyatt",
+      "college": "Tennessee",
+      "year": 2023,
+      "round": 3,
+      "pick": 73,
+      "ppg": 3.9598,
+      "rawPpg": 2.3869,
+      "madeIt": false,
+      "similarity": 0.336
+    },
+    {
+      "rank": 6,
+      "name": "Malcolm Mitchell",
+      "college": "Georgia",
+      "year": 2016,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.269,
+      "rawPpg": 6.675,
+      "madeIt": true,
+      "similarity": 0.333
+    },
+    {
+      "rank": 7,
       "name": "Marcus Easley",
       "college": "Connecticut",
       "year": 2010,
@@ -11,79 +83,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.518
-    },
-    {
-      "rank": 2,
-      "name": "Josh Huff",
-      "college": "Oregon",
-      "year": 2014,
-      "round": 3,
-      "pick": 86,
-      "ppg": 4.6569,
-      "rawPpg": 3.73,
-      "madeIt": false,
-      "similarity": 0.487
-    },
-    {
-      "rank": 3,
-      "name": "Tyler Scott",
-      "college": "Cincinnati",
-      "year": 2023,
-      "round": 4,
-      "pick": 133,
-      "ppg": 4.2356,
-      "rawPpg": 2.1077,
-      "madeIt": false,
-      "similarity": 0.448
-    },
-    {
-      "rank": 4,
-      "name": "Josh Malone",
-      "college": "Tennessee",
-      "year": 2017,
-      "round": 4,
-      "pick": 128,
-      "ppg": 4.4373,
-      "rawPpg": 1.7222,
-      "madeIt": false,
-      "similarity": 0.438
-    },
-    {
-      "rank": 5,
-      "name": "Tre'Quan Smith",
-      "college": "Central Florida",
-      "year": 2018,
-      "round": 3,
-      "pick": 91,
-      "ppg": 6.3865,
-      "rawPpg": 6.6462,
-      "madeIt": true,
-      "similarity": 0.424
-    },
-    {
-      "rank": 6,
-      "name": "Dri Archer",
-      "college": "Kent St.",
-      "year": 2014,
-      "round": 3,
-      "pick": 97,
-      "ppg": 3.2885,
-      "rawPpg": 0.49,
-      "madeIt": false,
-      "similarity": 0.405
-    },
-    {
-      "rank": 7,
-      "name": "DeAndre Smelter",
-      "college": "Georgia Tech",
-      "year": 2015,
-      "round": 4,
-      "pick": 132,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.364
+      "similarity": 0.332
     }
   ]
 }

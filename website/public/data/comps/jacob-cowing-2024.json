@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Jamison Crowder",
-      "college": "Duke",
-      "year": 2015,
-      "round": 4,
-      "pick": 105,
-      "ppg": 8.356,
-      "rawPpg": 9.5683,
-      "madeIt": true,
-      "similarity": 0.444
-    },
-    {
-      "rank": 2,
-      "name": "Tandon Doss",
-      "college": "Indiana",
-      "year": 2011,
-      "round": 4,
-      "pick": 123,
-      "ppg": 4.2956,
-      "rawPpg": 3.0067,
-      "madeIt": false,
-      "similarity": 0.421
-    },
-    {
-      "rank": 3,
       "name": "Justin Hardy",
       "college": "East Carolina",
       "year": 2015,
@@ -35,22 +11,58 @@
       "ppg": 5.1367,
       "rawPpg": 4.6127,
       "madeIt": true,
-      "similarity": 0.374
+      "similarity": 0.422
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Switzer",
+      "college": "North Carolina",
+      "year": 2017,
+      "round": 4,
+      "pick": 133,
+      "ppg": 3.3423,
+      "rawPpg": 2.0313,
+      "madeIt": false,
+      "similarity": 0.417
+    },
+    {
+      "rank": 3,
+      "name": "Jamison Crowder",
+      "college": "Duke",
+      "year": 2015,
+      "round": 4,
+      "pick": 105,
+      "ppg": 8.356,
+      "rawPpg": 9.5683,
+      "madeIt": true,
+      "similarity": 0.399
     },
     {
       "rank": 4,
-      "name": "Kerry Meier",
-      "college": "Kansas",
-      "year": 2010,
+      "name": "Hunter Renfrow",
+      "college": "Clemson",
+      "year": 2019,
       "round": 5,
-      "pick": 165,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.356
+      "pick": 149,
+      "ppg": 8.9572,
+      "rawPpg": 10.2982,
+      "madeIt": true,
+      "similarity": 0.388
     },
     {
       "rank": 5,
+      "name": "Tre Tucker",
+      "college": "Cincinnati",
+      "year": 2023,
+      "round": 3,
+      "pick": 100,
+      "ppg": 6.6886,
+      "rawPpg": 7.0294,
+      "madeIt": true,
+      "similarity": 0.371
+    },
+    {
+      "rank": 6,
       "name": "Romeo Doubs",
       "college": "Nevada",
       "year": 2022,
@@ -59,31 +71,19 @@
       "ppg": 7.5963,
       "rawPpg": 8.4579,
       "madeIt": true,
-      "similarity": 0.321
-    },
-    {
-      "rank": 6,
-      "name": "Amon-Ra St. Brown",
-      "college": "USC",
-      "year": 2021,
-      "round": 4,
-      "pick": 112,
-      "ppg": 12.1132,
-      "rawPpg": 15.1875,
-      "madeIt": true,
-      "similarity": 0.314
+      "similarity": 0.363
     },
     {
       "rank": 7,
-      "name": "Ryan Grant",
-      "college": "Tulane",
-      "year": 2014,
-      "round": 5,
-      "pick": 142,
-      "ppg": 4.3342,
-      "rawPpg": 2.6548,
+      "name": "Quinton Patton",
+      "college": "Louisiana Tech",
+      "year": 2013,
+      "round": 4,
+      "pick": 128,
+      "ppg": 4.8854,
+      "rawPpg": 3.8062,
       "madeIt": false,
-      "similarity": 0.308
+      "similarity": 0.359
     }
   ]
 }

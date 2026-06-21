@@ -11,7 +11,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.541
+      "similarity": 0.602
     },
     {
       "rank": 2,
@@ -23,34 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.473
+      "similarity": 0.507
     },
     {
       "rank": 3,
-      "name": "Michael Campanaro",
-      "college": "Wake Forest",
-      "year": 2014,
-      "round": 7,
-      "pick": 218,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.461
-    },
-    {
-      "rank": 4,
-      "name": "Javon Wims",
-      "college": "Georgia",
-      "year": 2018,
-      "round": 7,
-      "pick": 224,
-      "ppg": 3.8657,
-      "rawPpg": 2.2273,
-      "madeIt": false,
-      "similarity": 0.445
-    },
-    {
-      "rank": 5,
       "name": "Olabisi Johnson",
       "college": "Colorado St.",
       "year": 2019,
@@ -59,10 +35,46 @@
       "ppg": 4.9166,
       "rawPpg": 3.9923,
       "madeIt": false,
-      "similarity": 0.439
+      "similarity": 0.454
+    },
+    {
+      "rank": 4,
+      "name": "Ben Skowronek",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 7,
+      "pick": 249,
+      "ppg": 4.2627,
+      "rawPpg": 3.0976,
+      "madeIt": false,
+      "similarity": 0.427
+    },
+    {
+      "rank": 5,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.416
     },
     {
       "rank": 6,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.415
+    },
+    {
+      "rank": 7,
       "name": "Dillon Mitchell",
       "college": "Oregon",
       "year": 2019,
@@ -71,19 +83,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.431
-    },
-    {
-      "rank": 7,
-      "name": "Charone Peake",
-      "college": "Clemson",
-      "year": 2016,
-      "round": 7,
-      "pick": 241,
-      "ppg": 3.7362,
-      "rawPpg": 1.4625,
-      "madeIt": false,
-      "similarity": 0.397
+      "similarity": 0.409
     }
   ]
 }

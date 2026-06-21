@@ -3,54 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Darnell Mooney",
-      "college": "Tulane",
-      "year": 2020,
-      "round": 5,
-      "pick": 173,
-      "ppg": 8.0864,
-      "rawPpg": 9.0706,
-      "madeIt": true,
-      "similarity": 0.345
-    },
-    {
-      "rank": 2,
-      "name": "Rashard Higgins",
-      "college": "Colorado St.",
-      "year": 2016,
-      "round": 5,
-      "pick": 172,
-      "ppg": 5.7961,
-      "rawPpg": 5.764,
-      "madeIt": true,
-      "similarity": 0.323
-    },
-    {
-      "rank": 3,
-      "name": "Erik Ezukanma",
-      "college": "Texas Tech",
-      "year": 2022,
-      "round": 4,
-      "pick": 125,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.272
-    },
-    {
-      "rank": 4,
-      "name": "Demarcus Robinson",
-      "college": "Florida",
-      "year": 2016,
-      "round": 4,
-      "pick": 126,
-      "ppg": 4.7733,
-      "rawPpg": 3.8636,
-      "madeIt": false,
-      "similarity": 0.271
-    },
-    {
-      "rank": 5,
       "name": "Ryan Whalen",
       "college": "Stanford",
       "year": 2011,
@@ -59,10 +11,22 @@
       "ppg": 4.5318,
       "rawPpg": 1.2571,
       "madeIt": false,
-      "similarity": 0.261
+      "similarity": 0.449
     },
     {
-      "rank": 6,
+      "rank": 2,
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
+      "year": 2022,
+      "round": 4,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.449
+    },
+    {
+      "rank": 3,
       "name": "Puka Nacua",
       "college": "BYU",
       "year": 2023,
@@ -71,10 +35,22 @@
       "ppg": 13.3263,
       "rawPpg": 17.2986,
       "madeIt": true,
-      "similarity": 0.261
+      "similarity": 0.414
     },
     {
-      "rank": 7,
+      "rank": 4,
+      "name": "Greg Childs",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 134,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.413
+    },
+    {
+      "rank": 5,
       "name": "Ryan Grant",
       "college": "Tulane",
       "year": 2014,
@@ -83,7 +59,31 @@
       "ppg": 4.3342,
       "rawPpg": 2.6548,
       "madeIt": false,
-      "similarity": 0.251
+      "similarity": 0.404
+    },
+    {
+      "rank": 6,
+      "name": "Demarcus Robinson",
+      "college": "Florida",
+      "year": 2016,
+      "round": 4,
+      "pick": 126,
+      "ppg": 4.7733,
+      "rawPpg": 3.8636,
+      "madeIt": false,
+      "similarity": 0.38
+    },
+    {
+      "rank": 7,
+      "name": "Collin Johnson",
+      "college": "Texas",
+      "year": 2020,
+      "round": 5,
+      "pick": 165,
+      "ppg": 4.6181,
+      "rawPpg": 3.2818,
+      "madeIt": false,
+      "similarity": 0.377
     }
   ]
 }

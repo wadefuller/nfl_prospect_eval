@@ -11,7 +11,7 @@
       "ppg": 10.468,
       "rawPpg": 12.6393,
       "madeIt": true,
-      "similarity": 0.606
+      "similarity": 0.673
     },
     {
       "rank": 2,
@@ -23,22 +23,10 @@
       "ppg": 4.9627,
       "rawPpg": 4.0722,
       "madeIt": false,
-      "similarity": 0.586
+      "similarity": 0.648
     },
     {
       "rank": 3,
-      "name": "Jonathan Mingo",
-      "college": "Mississippi",
-      "year": 2023,
-      "round": 2,
-      "pick": 39,
-      "ppg": 4.054,
-      "rawPpg": 2.9564,
-      "madeIt": false,
-      "similarity": 0.561
-    },
-    {
-      "rank": 4,
       "name": "Aaron Dobson",
       "college": "Marshall",
       "year": 2013,
@@ -47,7 +35,19 @@
       "ppg": 6.3767,
       "rawPpg": 6.0076,
       "madeIt": true,
-      "similarity": 0.55
+      "similarity": 0.581
+    },
+    {
+      "rank": 4,
+      "name": "Jonathan Mingo",
+      "college": "Mississippi",
+      "year": 2023,
+      "round": 2,
+      "pick": 39,
+      "ppg": 4.054,
+      "rawPpg": 2.9564,
+      "madeIt": false,
+      "similarity": 0.555
     },
     {
       "rank": 5,
@@ -59,31 +59,31 @@
       "ppg": 3.4866,
       "rawPpg": 1.4648,
       "madeIt": false,
-      "similarity": 0.534
+      "similarity": 0.536
     },
     {
       "rank": 6,
-      "name": "KJ Hamler",
-      "college": "Penn St.",
-      "year": 2020,
-      "round": 2,
-      "pick": 46,
-      "ppg": 5.6715,
-      "rawPpg": 4.9875,
+      "name": "Cordarrelle Patterson",
+      "college": "Tennessee",
+      "year": 2013,
+      "round": 1,
+      "pick": 29,
+      "ppg": 6.5257,
+      "rawPpg": 6.8062,
       "madeIt": true,
-      "similarity": 0.532
+      "similarity": 0.521
     },
     {
       "rank": 7,
-      "name": "Titus Young",
-      "college": "Boise St.",
-      "year": 2011,
+      "name": "Alec Pierce",
+      "college": "Cincinnati",
+      "year": 2022,
       "round": 2,
-      "pick": 44,
-      "ppg": 7.1889,
-      "rawPpg": 7.9606,
+      "pick": 53,
+      "ppg": 6.8777,
+      "rawPpg": 7.3344,
       "madeIt": true,
-      "similarity": 0.468
+      "similarity": 0.521
     }
   ]
 }

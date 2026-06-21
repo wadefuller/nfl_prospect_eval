@@ -1,0 +1,89 @@
+{
+  "prospectId": "tanner-mclachlan-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Grant Calcaterra",
+      "college": "SMU",
+      "year": 2022,
+      "round": 6,
+      "pick": 198,
+      "ppg": 3.4556,
+      "rawPpg": 2.4767,
+      "madeIt": false,
+      "similarity": 0.581
+    },
+    {
+      "rank": 2,
+      "name": "David Morgan",
+      "college": "Texas-San Antonio",
+      "year": 2016,
+      "round": 6,
+      "pick": 188,
+      "ppg": 3.0987,
+      "rawPpg": 1.6472,
+      "madeIt": false,
+      "similarity": 0.551
+    },
+    {
+      "rank": 3,
+      "name": "Andrew Quarless",
+      "college": "Penn St.",
+      "year": 2010,
+      "round": 5,
+      "pick": 154,
+      "ppg": 3.8485,
+      "rawPpg": 3.1917,
+      "madeIt": false,
+      "similarity": 0.544
+    },
+    {
+      "rank": 4,
+      "name": "Kennard Backman",
+      "college": "Ala-Birmingham",
+      "year": 2015,
+      "round": 6,
+      "pick": 213,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.5
+    },
+    {
+      "rank": 5,
+      "name": "Tommy Sweeney",
+      "college": "Boston Col.",
+      "year": 2019,
+      "round": 7,
+      "pick": 228,
+      "ppg": 3.6678,
+      "rawPpg": 2.1286,
+      "madeIt": false,
+      "similarity": 0.497
+    },
+    {
+      "rank": 6,
+      "name": "Bucky Hodges",
+      "college": "Virginia Tech",
+      "year": 2017,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.461
+    },
+    {
+      "rank": 7,
+      "name": "Ryan Taylor",
+      "college": "North Carolina",
+      "year": 2011,
+      "round": 7,
+      "pick": 218,
+      "ppg": 2.4957,
+      "rawPpg": 0.7583,
+      "madeIt": false,
+      "similarity": 0.45
+    }
+  ]
+}

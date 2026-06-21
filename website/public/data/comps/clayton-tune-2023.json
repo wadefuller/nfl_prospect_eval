@@ -1,0 +1,65 @@
+{
+  "prospectId": "clayton-tune-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ian Book",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 4,
+      "pick": 133,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.396
+    },
+    {
+      "rank": 2,
+      "name": "Clayton Thorson",
+      "college": "Northwestern",
+      "year": 2019,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.383
+    },
+    {
+      "rank": 3,
+      "name": "Jaren Hall",
+      "college": "BYU",
+      "year": 2023,
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.373
+    },
+    {
+      "rank": 4,
+      "name": "Landry Jones",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 4,
+      "pick": 115,
+      "ppg": 9.1034,
+      "rawPpg": 3.1457,
+      "madeIt": true,
+      "similarity": 0.371
+    },
+    {
+      "rank": 5,
+      "name": "James Morgan",
+      "college": "Florida International",
+      "year": 2020,
+      "round": 4,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.366
+    }
+  ]
+}

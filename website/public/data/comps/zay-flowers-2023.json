@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Chris Olave",
-      "college": "Ohio St.",
-      "year": 2022,
-      "round": 1,
-      "pick": 11,
-      "ppg": 9.4773,
-      "rawPpg": 11.2754,
-      "madeIt": true,
-      "similarity": 0.546
-    },
-    {
-      "rank": 2,
-      "name": "Terrace Marshall Jr.",
-      "college": "LSU",
-      "year": 2021,
-      "round": 2,
-      "pick": 59,
-      "ppg": 5.0765,
-      "rawPpg": 4.1163,
-      "madeIt": true,
-      "similarity": 0.52
-    },
-    {
-      "rank": 3,
       "name": "Tavon Austin",
       "college": "West Virginia",
       "year": 2013,
@@ -35,22 +11,10 @@
       "ppg": 8.4674,
       "rawPpg": 9.7248,
       "madeIt": true,
-      "similarity": 0.516
+      "similarity": 0.535
     },
     {
-      "rank": 4,
-      "name": "JJ Arcega-Whiteside",
-      "college": "Stanford",
-      "year": 2019,
-      "round": 2,
-      "pick": 57,
-      "ppg": 3.9979,
-      "rawPpg": 1.8786,
-      "madeIt": false,
-      "similarity": 0.462
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "name": "Nelson Agholor",
       "college": "USC",
       "year": 2015,
@@ -59,31 +23,67 @@
       "ppg": 6.8475,
       "rawPpg": 7.2206,
       "madeIt": true,
-      "similarity": 0.461
+      "similarity": 0.504
+    },
+    {
+      "rank": 3,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.504
+    },
+    {
+      "rank": 4,
+      "name": "Golden Tate",
+      "college": "Notre Dame",
+      "year": 2010,
+      "round": 2,
+      "pick": 60,
+      "ppg": 6.7555,
+      "rawPpg": 7.1773,
+      "madeIt": true,
+      "similarity": 0.464
+    },
+    {
+      "rank": 5,
+      "name": "Dante Pettis",
+      "college": "Washington",
+      "year": 2018,
+      "round": 2,
+      "pick": 44,
+      "ppg": 5.7965,
+      "rawPpg": 5.3633,
+      "madeIt": true,
+      "similarity": 0.458
     },
     {
       "rank": 6,
-      "name": "Garrett Wilson",
+      "name": "Chris Olave",
       "college": "Ohio St.",
       "year": 2022,
       "round": 1,
-      "pick": 10,
-      "ppg": 9.4206,
-      "rawPpg": 11.0471,
+      "pick": 11,
+      "ppg": 9.4773,
+      "rawPpg": 11.2754,
       "madeIt": true,
       "similarity": 0.452
     },
     {
       "rank": 7,
-      "name": "Torrey Smith",
-      "college": "Maryland",
-      "year": 2011,
+      "name": "Jayden Reed",
+      "college": "Michigan St.",
+      "year": 2023,
       "round": 2,
-      "pick": 58,
-      "ppg": 8.973,
-      "rawPpg": 10.5198,
+      "pick": 50,
+      "ppg": 9.1864,
+      "rawPpg": 10.7728,
       "madeIt": true,
-      "similarity": 0.441
+      "similarity": 0.448
     }
   ]
 }

@@ -3,30 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Benny Snell Jr.",
-      "college": "Kentucky",
-      "year": 2019,
-      "round": 4,
-      "pick": 122,
-      "ppg": 5.9626,
-      "rawPpg": 4.8936,
+      "name": "Brian Hill",
+      "college": "Wyoming",
+      "year": 2017,
+      "round": 5,
+      "pick": 156,
+      "ppg": 7.1664,
+      "rawPpg": 6.22,
       "madeIt": true,
-      "similarity": 0.29
+      "similarity": 0.435
     },
     {
       "rank": 2,
-      "name": "David Cobb",
-      "college": "Minnesota",
-      "year": 2015,
-      "round": 5,
-      "pick": 138,
-      "ppg": 6.3055,
-      "rawPpg": 2.9857,
-      "madeIt": true,
-      "similarity": 0.2
-    },
-    {
-      "rank": 3,
       "name": "Ito Smith",
       "college": "Southern Miss",
       "year": 2018,
@@ -35,22 +23,22 @@
       "ppg": 6.6424,
       "rawPpg": 5.4385,
       "madeIt": true,
-      "similarity": 0.195
+      "similarity": 0.433
+    },
+    {
+      "rank": 3,
+      "name": "David Cobb",
+      "college": "Minnesota",
+      "year": 2015,
+      "round": 5,
+      "pick": 138,
+      "ppg": 6.3055,
+      "rawPpg": 2.9857,
+      "madeIt": true,
+      "similarity": 0.431
     },
     {
       "rank": 4,
-      "name": "Ka'Deem Carey",
-      "college": "Arizona",
-      "year": 2014,
-      "round": 4,
-      "pick": 117,
-      "ppg": 5.0952,
-      "rawPpg": 3.052,
-      "madeIt": true,
-      "similarity": 0.192
-    },
-    {
-      "rank": 5,
       "name": "Alfred Morris",
       "college": "Florida Atlantic",
       "year": 2012,
@@ -59,31 +47,19 @@
       "ppg": 11.4589,
       "rawPpg": 13.3094,
       "madeIt": true,
-      "similarity": 0.188
+      "similarity": 0.429
     },
     {
-      "rank": 6,
-      "name": "Paul Perkins",
-      "college": "UCLA",
-      "year": 2016,
-      "round": 5,
-      "pick": 149,
-      "ppg": 5.5534,
-      "rawPpg": 3.575,
+      "rank": 5,
+      "name": "Ka'Deem Carey",
+      "college": "Arizona",
+      "year": 2014,
+      "round": 4,
+      "pick": 117,
+      "ppg": 5.0952,
+      "rawPpg": 3.052,
       "madeIt": true,
-      "similarity": 0.188
-    },
-    {
-      "rank": 7,
-      "name": "Stepfan Taylor",
-      "college": "Stanford",
-      "year": 2013,
-      "round": 5,
-      "pick": 140,
-      "ppg": 5.1732,
-      "rawPpg": 3.45,
-      "madeIt": true,
-      "similarity": 0.186
+      "similarity": 0.421
     }
   ]
 }

@@ -11,7 +11,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.401
+      "similarity": 0.54
     },
     {
       "rank": 2,
@@ -23,34 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.401
+      "similarity": 0.54
     },
     {
       "rank": 3,
-      "name": "Joseph Randle",
-      "college": "Oklahoma St.",
-      "year": 2013,
-      "round": 5,
-      "pick": 151,
-      "ppg": 7.9906,
-      "rawPpg": 8.5083,
-      "madeIt": true,
-      "similarity": 0.297
-    },
-    {
-      "rank": 4,
-      "name": "Paul Perkins",
-      "college": "UCLA",
-      "year": 2016,
-      "round": 5,
-      "pick": 149,
-      "ppg": 5.5534,
-      "rawPpg": 3.575,
-      "madeIt": true,
-      "similarity": 0.292
-    },
-    {
-      "rank": 5,
       "name": "Vick Ballard",
       "college": "Mississippi St.",
       "year": 2012,
@@ -59,10 +35,10 @@
       "ppg": 7.7259,
       "rawPpg": 7.6937,
       "madeIt": true,
-      "similarity": 0.289
+      "similarity": 0.501
     },
     {
-      "rank": 6,
+      "rank": 4,
       "name": "Luke Staley",
       "college": "BYU",
       "year": 2002,
@@ -71,19 +47,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.285
+      "similarity": 0.491
     },
     {
-      "rank": 7,
-      "name": "Storm Johnson",
+      "rank": 5,
+      "name": "Latavius Murray",
       "college": "Central Florida",
-      "year": 2014,
-      "round": 7,
-      "pick": 222,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.271
+      "year": 2013,
+      "round": 6,
+      "pick": 181,
+      "ppg": 8.5695,
+      "rawPpg": 8.7286,
+      "madeIt": true,
+      "similarity": 0.491
     }
   ]
 }

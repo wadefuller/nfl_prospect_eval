@@ -1,0 +1,65 @@
+{
+  "prospectId": "bailey-zappe-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Sam Howell",
+      "college": "North Carolina",
+      "year": 2022,
+      "round": 5,
+      "pick": 144,
+      "ppg": 13.4666,
+      "rawPpg": 15.12,
+      "madeIt": true,
+      "similarity": 0.467
+    },
+    {
+      "rank": 2,
+      "name": "Will Grier",
+      "college": "West Virginia",
+      "year": 2019,
+      "round": 3,
+      "pick": 100,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.462
+    },
+    {
+      "rank": 3,
+      "name": "Jake Haener",
+      "college": "Fresno St.",
+      "year": 2023,
+      "round": 4,
+      "pick": 127,
+      "ppg": 8.3583,
+      "rawPpg": 1.655,
+      "madeIt": true,
+      "similarity": 0.43
+    },
+    {
+      "rank": 4,
+      "name": "Landry Jones",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 4,
+      "pick": 115,
+      "ppg": 9.1034,
+      "rawPpg": 3.1457,
+      "madeIt": true,
+      "similarity": 0.426
+    },
+    {
+      "rank": 5,
+      "name": "Jake Fromm",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.381
+    }
+  ]
+}

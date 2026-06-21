@@ -1,0 +1,89 @@
+{
+  "prospectId": "jackson-hawes-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "James Hanna",
+      "college": "Oklahoma",
+      "year": 2012,
+      "round": 6,
+      "pick": 186,
+      "ppg": 2.7245,
+      "rawPpg": 1.365,
+      "madeIt": false,
+      "similarity": 0.56
+    },
+    {
+      "rank": 2,
+      "name": "Luke Farrell",
+      "college": "Ohio St.",
+      "year": 2021,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.9576,
+      "rawPpg": 1.6688,
+      "madeIt": false,
+      "similarity": 0.548
+    },
+    {
+      "rank": 3,
+      "name": "James O'Shaughnessy",
+      "college": "Illinois St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 173,
+      "ppg": 2.87,
+      "rawPpg": 1.8469,
+      "madeIt": false,
+      "similarity": 0.537
+    },
+    {
+      "rank": 4,
+      "name": "Dalton Schultz",
+      "college": "Stanford",
+      "year": 2018,
+      "round": 4,
+      "pick": 137,
+      "ppg": 5.0515,
+      "rawPpg": 4.6938,
+      "madeIt": true,
+      "similarity": 0.477
+    },
+    {
+      "rank": 5,
+      "name": "Charlie Woerner",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 6,
+      "pick": 190,
+      "ppg": 3.215,
+      "rawPpg": 0.9625,
+      "madeIt": false,
+      "similarity": 0.47
+    },
+    {
+      "rank": 6,
+      "name": "Nick Boyle",
+      "college": "Delaware",
+      "year": 2015,
+      "round": 5,
+      "pick": 171,
+      "ppg": 3.3015,
+      "rawPpg": 2.6711,
+      "madeIt": false,
+      "similarity": 0.438
+    },
+    {
+      "rank": 7,
+      "name": "Luke Willson",
+      "college": "Rice",
+      "year": 2013,
+      "round": 5,
+      "pick": 158,
+      "ppg": 4.2347,
+      "rawPpg": 4.1692,
+      "madeIt": false,
+      "similarity": 0.405
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "prospectId": "tanner-koziol-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Cole Turner",
+      "college": "Nevada",
+      "year": 2022,
+      "round": 5,
+      "pick": 149,
+      "ppg": 2.9116,
+      "rawPpg": 1.3295,
+      "madeIt": false,
+      "similarity": 0.256
+    },
+    {
+      "rank": 2,
+      "name": "Brycen Hopkins",
+      "college": "Purdue",
+      "year": 2020,
+      "round": 4,
+      "pick": 136,
+      "ppg": 3.646,
+      "rawPpg": 2.0571,
+      "madeIt": false,
+      "similarity": 0.213
+    },
+    {
+      "rank": 3,
+      "name": "Charlie Kolar",
+      "college": "Iowa St.",
+      "year": 2022,
+      "round": 4,
+      "pick": 128,
+      "ppg": 3.1845,
+      "rawPpg": 2.2011,
+      "madeIt": false,
+      "similarity": 0.207
+    },
+    {
+      "rank": 4,
+      "name": "Nick O'Leary",
+      "college": "Florida St.",
+      "year": 2015,
+      "round": 6,
+      "pick": 194,
+      "ppg": 3.3466,
+      "rawPpg": 2.7346,
+      "madeIt": false,
+      "similarity": 0.201
+    },
+    {
+      "rank": 5,
+      "name": "Charles Clay",
+      "college": "Tulsa",
+      "year": 2011,
+      "round": 6,
+      "pick": 174,
+      "ppg": 6.0591,
+      "rawPpg": 6.7055,
+      "madeIt": true,
+      "similarity": 0.2
+    },
+    {
+      "rank": 6,
+      "name": "Jaylen Samuels",
+      "college": "North Carolina St.",
+      "year": 2018,
+      "round": 5,
+      "pick": 165,
+      "ppg": 5.97,
+      "rawPpg": 7.3615,
+      "madeIt": true,
+      "similarity": 0.185
+    },
+    {
+      "rank": 7,
+      "name": "Payne Durham",
+      "college": "Purdue",
+      "year": 2023,
+      "round": 5,
+      "pick": 171,
+      "ppg": 3.5586,
+      "rawPpg": 2.5042,
+      "madeIt": false,
+      "similarity": 0.178
+    }
+  ]
+}

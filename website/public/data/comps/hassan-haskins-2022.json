@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Ryquell Armstead",
-      "college": "Temple",
-      "year": 2019,
-      "round": 5,
-      "pick": 140,
-      "ppg": 5.6109,
-      "rawPpg": 3.1571,
-      "madeIt": true,
-      "similarity": 0.22
-    },
-    {
-      "rank": 2,
       "name": "Darrynton Evans",
       "college": "Appalachian St.",
       "year": 2020,
@@ -23,31 +11,43 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.2
+      "similarity": 0.314
+    },
+    {
+      "rank": 2,
+      "name": "Jeremy Langford",
+      "college": "Michigan St.",
+      "year": 2015,
+      "round": 4,
+      "pick": 106,
+      "ppg": 7.5448,
+      "rawPpg": 7.2075,
+      "madeIt": true,
+      "similarity": 0.309
     },
     {
       "rank": 3,
-      "name": "Jamaal Williams",
-      "college": "BYU",
+      "name": "Brian Hill",
+      "college": "Wyoming",
       "year": 2017,
-      "round": 4,
-      "pick": 134,
-      "ppg": 8.4717,
-      "rawPpg": 8.8719,
+      "round": 5,
+      "pick": 156,
+      "ppg": 7.1664,
+      "rawPpg": 6.22,
       "madeIt": true,
-      "similarity": 0.19
+      "similarity": 0.302
     },
     {
       "rank": 4,
-      "name": "Brian Robinson Jr.",
-      "college": "Alabama",
+      "name": "Jerome Ford",
+      "college": "Cincinnati",
       "year": 2022,
-      "round": 3,
-      "pick": 98,
-      "ppg": 10.0895,
-      "rawPpg": 11.3533,
+      "round": 5,
+      "pick": 156,
+      "ppg": 9.124,
+      "rawPpg": 9.6897,
       "madeIt": true,
-      "similarity": 0.176
+      "similarity": 0.291
     },
     {
       "rank": 5,
@@ -59,31 +59,7 @@
       "ppg": 6.3055,
       "rawPpg": 2.9857,
       "madeIt": true,
-      "similarity": 0.171
-    },
-    {
-      "rank": 6,
-      "name": "Mike Gillislee",
-      "college": "Florida",
-      "year": 2013,
-      "round": 5,
-      "pick": 164,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.17
-    },
-    {
-      "rank": 7,
-      "name": "Jeremy Langford",
-      "college": "Michigan St.",
-      "year": 2015,
-      "round": 4,
-      "pick": 106,
-      "ppg": 7.5448,
-      "rawPpg": 7.2075,
-      "madeIt": true,
-      "similarity": 0.163
+      "similarity": 0.285
     }
   ]
 }

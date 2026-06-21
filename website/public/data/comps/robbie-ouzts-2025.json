@@ -1,0 +1,89 @@
+{
+  "prospectId": "robbie-ouzts-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "C.J. Uzomah",
+      "college": "Auburn",
+      "year": 2015,
+      "round": 5,
+      "pick": 157,
+      "ppg": 3.6544,
+      "rawPpg": 3.4604,
+      "madeIt": false,
+      "similarity": 0.652
+    },
+    {
+      "rank": 2,
+      "name": "Fendi Onobun",
+      "college": "Arizona",
+      "year": 2010,
+      "round": 6,
+      "pick": 170,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.513
+    },
+    {
+      "rank": 3,
+      "name": "Michael Williams",
+      "college": "Alabama",
+      "year": 2013,
+      "round": 7,
+      "pick": 211,
+      "ppg": 2.9424,
+      "rawPpg": 0.4556,
+      "madeIt": false,
+      "similarity": 0.43
+    },
+    {
+      "rank": 4,
+      "name": "Teagan Quitoriano",
+      "college": "Oregon St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 170,
+      "ppg": 4.1852,
+      "rawPpg": 3.8286,
+      "madeIt": false,
+      "similarity": 0.421
+    },
+    {
+      "rank": 5,
+      "name": "Luke Willson",
+      "college": "Rice",
+      "year": 2013,
+      "round": 5,
+      "pick": 158,
+      "ppg": 4.2347,
+      "rawPpg": 4.1692,
+      "madeIt": false,
+      "similarity": 0.419
+    },
+    {
+      "rank": 6,
+      "name": "Jordan Thomas",
+      "college": "Mississippi St.",
+      "year": 2018,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.407
+    },
+    {
+      "rank": 7,
+      "name": "Nick Kasa",
+      "college": "Colorado",
+      "year": 2013,
+      "round": 6,
+      "pick": 172,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.392
+    }
+  ]
+}

@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Rick Razzano",
-      "college": "Mississippi",
-      "year": 2005,
-      "round": 7,
-      "pick": 221,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.238
-    },
-    {
-      "rank": 2,
-      "name": "Justise Hairston",
-      "college": "Central Connecticut St.",
-      "year": 2007,
-      "round": 6,
-      "pick": 208,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.238
-    },
-    {
-      "rank": 3,
-      "name": "Dennis Morris",
-      "college": "Louisiana Tech",
-      "year": 2010,
-      "round": 6,
-      "pick": 174,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.235
-    },
-    {
-      "rank": 4,
       "name": "Latavius Murray",
       "college": "Central Florida",
       "year": 2013,
@@ -47,22 +11,10 @@
       "ppg": 8.5695,
       "rawPpg": 8.7286,
       "madeIt": true,
-      "similarity": 0.233
+      "similarity": 0.469
     },
     {
-      "rank": 5,
-      "name": "Tyler Gaffney",
-      "college": "Stanford",
-      "year": 2014,
-      "round": 6,
-      "pick": 204,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.221
-    },
-    {
-      "rank": 6,
+      "rank": 2,
       "name": "Baron Batch",
       "college": "Texas Tech",
       "year": 2011,
@@ -71,19 +23,43 @@
       "ppg": 5.6051,
       "rawPpg": 1.7778,
       "madeIt": true,
-      "similarity": 0.211
+      "similarity": 0.467
     },
     {
-      "rank": 7,
-      "name": "Keenan Reynolds",
-      "college": "Navy",
-      "year": 2016,
-      "round": 6,
-      "pick": 182,
+      "rank": 3,
+      "name": "Rick Razzano",
+      "college": "Mississippi",
+      "year": 2005,
+      "round": 7,
+      "pick": 221,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.189
+      "similarity": 0.44
+    },
+    {
+      "rank": 4,
+      "name": "Justise Hairston",
+      "college": "Central Connecticut St.",
+      "year": 2007,
+      "round": 6,
+      "pick": 208,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.44
+    },
+    {
+      "rank": 5,
+      "name": "Dennis Morris",
+      "college": "Louisiana Tech",
+      "year": 2010,
+      "round": 6,
+      "pick": 174,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.436
     }
   ]
 }

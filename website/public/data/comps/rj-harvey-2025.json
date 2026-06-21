@@ -11,7 +11,7 @@
       "ppg": 12.7814,
       "rawPpg": 15.3625,
       "madeIt": true,
-      "similarity": 0.186
+      "similarity": 0.451
     },
     {
       "rank": 2,
@@ -23,46 +23,10 @@
       "ppg": 7.7895,
       "rawPpg": 7.8672,
       "madeIt": true,
-      "similarity": 0.153
+      "similarity": 0.396
     },
     {
       "rank": 3,
-      "name": "Carlos Hyde",
-      "college": "Ohio St.",
-      "year": 2014,
-      "round": 2,
-      "pick": 57,
-      "ppg": 10.5147,
-      "rawPpg": 12.2835,
-      "madeIt": true,
-      "similarity": 0.144
-    },
-    {
-      "rank": 4,
-      "name": "Zach Charbonnet",
-      "college": "UCLA",
-      "year": 2023,
-      "round": 2,
-      "pick": 52,
-      "ppg": 9.4169,
-      "rawPpg": 10.2357,
-      "madeIt": true,
-      "similarity": 0.123
-    },
-    {
-      "rank": 5,
-      "name": "Alex Green",
-      "college": "Hawaii",
-      "year": 2011,
-      "round": 3,
-      "pick": 96,
-      "ppg": 5.8038,
-      "rawPpg": 3.4649,
-      "madeIt": true,
-      "similarity": 0.122
-    },
-    {
-      "rank": 6,
       "name": "Daniel Thomas",
       "college": "Kansas St.",
       "year": 2011,
@@ -71,10 +35,10 @@
       "ppg": 6.7472,
       "rawPpg": 6.1633,
       "madeIt": true,
-      "similarity": 0.12
+      "similarity": 0.388
     },
     {
-      "rank": 7,
+      "rank": 4,
       "name": "Toby Gerhart",
       "college": "Stanford",
       "year": 2010,
@@ -83,7 +47,19 @@
       "ppg": 6.3289,
       "rawPpg": 5.5667,
       "madeIt": true,
-      "similarity": 0.115
+      "similarity": 0.381
+    },
+    {
+      "rank": 5,
+      "name": "Ke'Shawn Vaughn",
+      "college": "Illinois",
+      "year": 2020,
+      "round": 3,
+      "pick": 76,
+      "ppg": 6.4117,
+      "rawPpg": 4.6167,
+      "madeIt": true,
+      "similarity": 0.372
     }
   ]
 }

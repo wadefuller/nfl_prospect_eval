@@ -1,0 +1,65 @@
+{
+  "prospectId": "jaxson-dart-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tua Tagovailoa",
+      "college": "Alabama",
+      "year": 2020,
+      "round": 1,
+      "pick": 5,
+      "ppg": 14.2666,
+      "rawPpg": 15.84,
+      "madeIt": true,
+      "similarity": 0.307
+    },
+    {
+      "rank": 2,
+      "name": "Zach Wilson",
+      "college": "BYU",
+      "year": 2021,
+      "round": 1,
+      "pick": 2,
+      "ppg": 11.5168,
+      "rawPpg": 11.3085,
+      "madeIt": true,
+      "similarity": 0.301
+    },
+    {
+      "rank": 3,
+      "name": "Geno Smith",
+      "college": "West Virginia",
+      "year": 2013,
+      "round": 2,
+      "pick": 39,
+      "ppg": 11.5739,
+      "rawPpg": 11.4557,
+      "madeIt": true,
+      "similarity": 0.297
+    },
+    {
+      "rank": 4,
+      "name": "Jalen Hurts",
+      "college": "Oklahoma",
+      "year": 2020,
+      "round": 2,
+      "pick": 53,
+      "ppg": 19.0774,
+      "rawPpg": 23.0067,
+      "madeIt": true,
+      "similarity": 0.296
+    },
+    {
+      "rank": 5,
+      "name": "C.J. Stroud",
+      "college": "Ohio St.",
+      "year": 2023,
+      "round": 1,
+      "pick": 2,
+      "ppg": 14.9204,
+      "rawPpg": 16.6319,
+      "madeIt": true,
+      "similarity": 0.293
+    }
+  ]
+}

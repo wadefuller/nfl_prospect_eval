@@ -3,54 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Jordan Wilkins",
-      "college": "Mississippi",
-      "year": 2018,
-      "round": 5,
-      "pick": 169,
-      "ppg": 5.5126,
-      "rawPpg": 4.1308,
-      "madeIt": true,
-      "similarity": 0.231
-    },
-    {
-      "rank": 2,
-      "name": "Jason Huntley",
-      "college": "New Mexico St.",
-      "year": 2020,
-      "round": 5,
-      "pick": 172,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.224
-    },
-    {
-      "rank": 3,
-      "name": "Wendell Smallwood",
-      "college": "West Virginia",
-      "year": 2016,
-      "round": 5,
-      "pick": 153,
-      "ppg": 6.9161,
-      "rawPpg": 6.0258,
-      "madeIt": true,
-      "similarity": 0.215
-    },
-    {
-      "rank": 4,
-      "name": "Jonathan Williams",
-      "college": "Arkansas",
-      "year": 2016,
-      "round": 5,
-      "pick": 156,
-      "ppg": 5.6678,
-      "rawPpg": 1.4875,
-      "madeIt": true,
-      "similarity": 0.206
-    },
-    {
-      "rank": 5,
       "name": "Boston Scott",
       "college": "Louisiana Tech",
       "year": 2018,
@@ -59,22 +11,34 @@
       "ppg": 7.1738,
       "rawPpg": 7.4247,
       "madeIt": true,
-      "similarity": 0.205
+      "similarity": 0.566
     },
     {
-      "rank": 6,
-      "name": "Aaron Jones",
-      "college": "Texas-El Paso",
-      "year": 2017,
+      "rank": 2,
+      "name": "Wendell Smallwood",
+      "college": "West Virginia",
+      "year": 2016,
       "round": 5,
-      "pick": 182,
-      "ppg": 13.0188,
-      "rawPpg": 15.6719,
+      "pick": 153,
+      "ppg": 6.9161,
+      "rawPpg": 6.0258,
       "madeIt": true,
-      "similarity": 0.205
+      "similarity": 0.527
     },
     {
-      "rank": 7,
+      "rank": 3,
+      "name": "Jordan Wilkins",
+      "college": "Mississippi",
+      "year": 2018,
+      "round": 5,
+      "pick": 169,
+      "ppg": 5.5126,
+      "rawPpg": 4.1308,
+      "madeIt": true,
+      "similarity": 0.506
+    },
+    {
+      "rank": 4,
       "name": "Qadree Ollison",
       "college": "Pittsburgh",
       "year": 2019,
@@ -83,7 +47,19 @@
       "ppg": 6.1438,
       "rawPpg": 3.9917,
       "madeIt": true,
-      "similarity": 0.192
+      "similarity": 0.473
+    },
+    {
+      "rank": 5,
+      "name": "Jason Huntley",
+      "college": "New Mexico St.",
+      "year": 2020,
+      "round": 5,
+      "pick": 172,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.46
     }
   ]
 }

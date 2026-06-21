@@ -11,7 +11,7 @@
       "ppg": 4.9166,
       "rawPpg": 3.9923,
       "madeIt": false,
-      "similarity": 0.483
+      "similarity": 0.552
     },
     {
       "rank": 2,
@@ -23,58 +23,22 @@
       "ppg": 4.3512,
       "rawPpg": 1.77,
       "madeIt": false,
-      "similarity": 0.45
+      "similarity": 0.525
     },
     {
       "rank": 3,
-      "name": "Ronnie Bell",
-      "college": "Michigan",
-      "year": 2023,
-      "round": 7,
-      "pick": 253,
-      "ppg": 4.2494,
-      "rawPpg": 2.1385,
-      "madeIt": false,
-      "similarity": 0.446
-    },
-    {
-      "rank": 4,
-      "name": "Charone Peake",
-      "college": "Clemson",
-      "year": 2016,
-      "round": 7,
-      "pick": 241,
-      "ppg": 3.7362,
-      "rawPpg": 1.4625,
-      "madeIt": false,
-      "similarity": 0.424
-    },
-    {
-      "rank": 5,
-      "name": "Michael Campanaro",
-      "college": "Wake Forest",
-      "year": 2014,
-      "round": 7,
-      "pick": 218,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.413
-    },
-    {
-      "rank": 6,
-      "name": "Kawaan Baker",
-      "college": "South Alabama",
-      "year": 2021,
+      "name": "Austin Proehl",
+      "college": "North Carolina",
+      "year": 2018,
       "round": 7,
       "pick": 255,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.404
+      "similarity": 0.473
     },
     {
-      "rank": 7,
+      "rank": 4,
       "name": "Devin Lucien",
       "college": "Arizona St.",
       "year": 2016,
@@ -83,7 +47,43 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.385
+      "similarity": 0.456
+    },
+    {
+      "rank": 5,
+      "name": "Michael Coleman",
+      "college": "Widener",
+      "year": 2002,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.45
+    },
+    {
+      "rank": 6,
+      "name": "Rodney Wright",
+      "college": "Fresno St.",
+      "year": 2002,
+      "round": 7,
+      "pick": 249,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.45
+    },
+    {
+      "rank": 7,
+      "name": "DeAndrew Rubin",
+      "college": "South Florida",
+      "year": 2003,
+      "round": 7,
+      "pick": 253,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.45
     }
   ]
 }

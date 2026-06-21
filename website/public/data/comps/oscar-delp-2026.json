@@ -1,0 +1,89 @@
+{
+  "prospectId": "oscar-delp-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jimmy Graham",
+      "college": "Miami (FL)",
+      "year": 2010,
+      "round": 3,
+      "pick": 95,
+      "ppg": 10.8225,
+      "rawPpg": 14.1306,
+      "madeIt": true,
+      "similarity": 0.634
+    },
+    {
+      "rank": 2,
+      "name": "Brenton Strange",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 61,
+      "ppg": 5.6085,
+      "rawPpg": 6.4976,
+      "madeIt": true,
+      "similarity": 0.611
+    },
+    {
+      "rank": 3,
+      "name": "Jeremy Ruckert",
+      "college": "Ohio St.",
+      "year": 2022,
+      "round": 3,
+      "pick": 101,
+      "ppg": 2.8015,
+      "rawPpg": 1.8514,
+      "madeIt": false,
+      "similarity": 0.527
+    },
+    {
+      "rank": 4,
+      "name": "Nick Vannett",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 3,
+      "pick": 94,
+      "ppg": 3.738,
+      "rawPpg": 3.2,
+      "madeIt": false,
+      "similarity": 0.518
+    },
+    {
+      "rank": 5,
+      "name": "Kahale Warring",
+      "college": "San Diego St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.474
+    },
+    {
+      "rank": 6,
+      "name": "Dalton Keene",
+      "college": "Virginia Tech",
+      "year": 2020,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.432
+    },
+    {
+      "rank": 7,
+      "name": "Tre' McKitty",
+      "college": "Georgia",
+      "year": 2021,
+      "round": 3,
+      "pick": 97,
+      "ppg": 2.5474,
+      "rawPpg": 1.0942,
+      "madeIt": false,
+      "similarity": 0.429
+    }
+  ]
+}

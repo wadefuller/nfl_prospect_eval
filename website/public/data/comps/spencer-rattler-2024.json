@@ -1,0 +1,65 @@
+{
+  "prospectId": "spencer-rattler-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Aidan O'Connell",
+      "college": "Purdue",
+      "year": 2023,
+      "round": 4,
+      "pick": 135,
+      "ppg": 11.2961,
+      "rawPpg": 10.9124,
+      "madeIt": true,
+      "similarity": 0.422
+    },
+    {
+      "rank": 2,
+      "name": "Mike Kafka",
+      "college": "Northwestern",
+      "year": 2010,
+      "round": 4,
+      "pick": 122,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.393
+    },
+    {
+      "rank": 3,
+      "name": "Jarrett Stidham",
+      "college": "Auburn",
+      "year": 2019,
+      "round": 4,
+      "pick": 133,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.387
+    },
+    {
+      "rank": 4,
+      "name": "David Fales",
+      "college": "San Jose St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 183,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.358
+    },
+    {
+      "rank": 5,
+      "name": "Jake Haener",
+      "college": "Fresno St.",
+      "year": 2023,
+      "round": 4,
+      "pick": 127,
+      "ppg": 8.3583,
+      "rawPpg": 1.655,
+      "madeIt": true,
+      "similarity": 0.356
+    }
+  ]
+}

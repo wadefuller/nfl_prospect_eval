@@ -1,0 +1,89 @@
+{
+  "prospectId": "devin-culp-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Geoff Swaim",
+      "college": "Texas",
+      "year": 2015,
+      "round": 7,
+      "pick": 246,
+      "ppg": 3.4504,
+      "rawPpg": 1.4143,
+      "madeIt": false,
+      "similarity": 0.575
+    },
+    {
+      "rank": 2,
+      "name": "John FitzPatrick",
+      "college": "Georgia",
+      "year": 2022,
+      "round": 6,
+      "pick": 213,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.529
+    },
+    {
+      "rank": 3,
+      "name": "Beau Sandland",
+      "college": "Montana St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 252,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.409
+    },
+    {
+      "rank": 4,
+      "name": "Ted Bolser",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.379
+    },
+    {
+      "rank": 5,
+      "name": "Michael Williams",
+      "college": "Alabama",
+      "year": 2013,
+      "round": 7,
+      "pick": 211,
+      "ppg": 2.9424,
+      "rawPpg": 0.4556,
+      "madeIt": false,
+      "similarity": 0.368
+    },
+    {
+      "rank": 6,
+      "name": "Brad Smelley",
+      "college": "Alabama",
+      "year": 2012,
+      "round": 7,
+      "pick": 247,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.366
+    },
+    {
+      "rank": 7,
+      "name": "Rob Blanchflower",
+      "college": "Massachusetts",
+      "year": 2014,
+      "round": 7,
+      "pick": 230,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.356
+    }
+  ]
+}

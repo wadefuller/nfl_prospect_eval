@@ -11,7 +11,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.368
+      "similarity": 0.396
     },
     {
       "rank": 2,
@@ -23,58 +23,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.302
+      "similarity": 0.39
     },
     {
       "rank": 3,
-      "name": "Devin Lucien",
-      "college": "Arizona St.",
-      "year": 2016,
-      "round": 7,
-      "pick": 225,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "Trey Palmer",
+      "college": "Nebraska",
+      "year": 2023,
+      "round": 6,
+      "pick": 191,
+      "ppg": 4.184,
+      "rawPpg": 3.2145,
       "madeIt": false,
-      "similarity": 0.265
+      "similarity": 0.368
     },
     {
       "rank": 4,
-      "name": "Travis Fulgham",
-      "college": "Old Dominion",
-      "year": 2019,
-      "round": 6,
-      "pick": 184,
-      "ppg": 6.869,
-      "rawPpg": 8.075,
-      "madeIt": true,
-      "similarity": 0.262
-    },
-    {
-      "rank": 5,
-      "name": "Cornell Powell",
-      "college": "Clemson",
-      "year": 2021,
-      "round": 5,
-      "pick": 181,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.252
-    },
-    {
-      "rank": 6,
-      "name": "Michael Campanaro",
-      "college": "Wake Forest",
-      "year": 2014,
-      "round": 7,
-      "pick": 218,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.246
-    },
-    {
-      "rank": 7,
       "name": "Marvin McNutt",
       "college": "Iowa",
       "year": 2012,
@@ -83,7 +47,43 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.241
+      "similarity": 0.353
+    },
+    {
+      "rank": 5,
+      "name": "Devin Lucien",
+      "college": "Arizona St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 225,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.35
+    },
+    {
+      "rank": 6,
+      "name": "Charone Peake",
+      "college": "Clemson",
+      "year": 2016,
+      "round": 7,
+      "pick": 241,
+      "ppg": 3.7362,
+      "rawPpg": 1.4625,
+      "madeIt": false,
+      "similarity": 0.325
+    },
+    {
+      "rank": 7,
+      "name": "Travis Fulgham",
+      "college": "Old Dominion",
+      "year": 2019,
+      "round": 6,
+      "pick": 184,
+      "ppg": 6.869,
+      "rawPpg": 8.075,
+      "madeIt": true,
+      "similarity": 0.318
     }
   ]
 }

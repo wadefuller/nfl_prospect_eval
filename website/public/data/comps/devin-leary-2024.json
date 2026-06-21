@@ -1,0 +1,65 @@
+{
+  "prospectId": "devin-leary-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Logan Woodside",
+      "college": "Toledo",
+      "year": 2018,
+      "round": 7,
+      "pick": 249,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.44
+    },
+    {
+      "rank": 2,
+      "name": "Keith Wenning",
+      "college": "Ball St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.37
+    },
+    {
+      "rank": 3,
+      "name": "Brandon Allen",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.363
+    },
+    {
+      "rank": 4,
+      "name": "Jake Rudock",
+      "college": "Michigan",
+      "year": 2016,
+      "round": 6,
+      "pick": 191,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.324
+    },
+    {
+      "rank": 5,
+      "name": "Max Duggan",
+      "college": "TCU",
+      "year": 2023,
+      "round": 7,
+      "pick": 239,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.322
+    }
+  ]
+}

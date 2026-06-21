@@ -11,22 +11,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.52
+      "similarity": 0.534
     },
     {
       "rank": 2,
-      "name": "Grant Dubose",
-      "college": "Charlotte",
-      "year": 2023,
-      "round": 7,
-      "pick": 256,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.5
-    },
-    {
-      "rank": 3,
       "name": "Bud Sasser",
       "college": "Missouri",
       "year": 2015,
@@ -35,46 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.478
+      "similarity": 0.477
     },
     {
-      "rank": 4,
-      "name": "Jeremy Gallon",
-      "college": "Michigan",
-      "year": 2014,
-      "round": 7,
-      "pick": 244,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.475
-    },
-    {
-      "rank": 5,
-      "name": "Trey Palmer",
-      "college": "Nebraska",
-      "year": 2023,
-      "round": 6,
-      "pick": 191,
-      "ppg": 4.184,
-      "rawPpg": 3.2145,
-      "madeIt": false,
-      "similarity": 0.45
-    },
-    {
-      "rank": 6,
-      "name": "Jakeem Grant",
-      "college": "Texas Tech",
-      "year": 2016,
-      "round": 6,
-      "pick": 186,
-      "ppg": 4.8105,
-      "rawPpg": 4.4233,
-      "madeIt": false,
-      "similarity": 0.447
-    },
-    {
-      "rank": 7,
+      "rank": 3,
       "name": "Demetrius Byrd",
       "college": "LSU",
       "year": 2009,
@@ -83,7 +35,55 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.434
+      "similarity": 0.456
+    },
+    {
+      "rank": 4,
+      "name": "Jeremy Ebert",
+      "college": "Northwestern",
+      "year": 2012,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.453
+    },
+    {
+      "rank": 5,
+      "name": "Tre Nixon",
+      "college": "Central Florida",
+      "year": 2021,
+      "round": 7,
+      "pick": 242,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.448
+    },
+    {
+      "rank": 6,
+      "name": "DeMarco Sampson",
+      "college": "San Diego St.",
+      "year": 2011,
+      "round": 7,
+      "pick": 249,
+      "ppg": 4.5696,
+      "rawPpg": 0.85,
+      "madeIt": false,
+      "similarity": 0.441
+    },
+    {
+      "rank": 7,
+      "name": "Geremy Davis",
+      "college": "Connecticut",
+      "year": 2015,
+      "round": 6,
+      "pick": 186,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.438
     }
   ]
 }

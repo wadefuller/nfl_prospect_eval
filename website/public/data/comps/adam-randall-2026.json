@@ -3,66 +3,42 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Spencer Ware",
-      "college": "LSU",
-      "year": 2013,
-      "round": 6,
-      "pick": 194,
-      "ppg": 8.1571,
-      "rawPpg": 8.8667,
+      "name": "Jerome Ford",
+      "college": "Cincinnati",
+      "year": 2022,
+      "round": 5,
+      "pick": 156,
+      "ppg": 9.124,
+      "rawPpg": 9.6897,
       "madeIt": true,
-      "similarity": 0.216
+      "similarity": 0.373
     },
     {
       "rank": 2,
-      "name": "Latavius Murray",
-      "college": "Central Florida",
+      "name": "Mike Gillislee",
+      "college": "Florida",
       "year": 2013,
-      "round": 6,
-      "pick": 181,
-      "ppg": 8.5695,
-      "rawPpg": 8.7286,
-      "madeIt": true,
-      "similarity": 0.184
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.341
     },
     {
       "rank": 3,
-      "name": "Rodney Anderson",
-      "college": "Oklahoma",
-      "year": 2019,
-      "round": 6,
-      "pick": 211,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.169
+      "name": "Ty Chandler",
+      "college": "North Carolina",
+      "year": 2022,
+      "round": 5,
+      "pick": 169,
+      "ppg": 5.218,
+      "rawPpg": 3.7353,
+      "madeIt": true,
+      "similarity": 0.336
     },
     {
       "rank": 4,
-      "name": "Luke Staley",
-      "college": "BYU",
-      "year": 2002,
-      "round": 7,
-      "pick": 214,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.167
-    },
-    {
-      "rank": 5,
-      "name": "Jamaal Williams",
-      "college": "BYU",
-      "year": 2017,
-      "round": 4,
-      "pick": 134,
-      "ppg": 8.4717,
-      "rawPpg": 8.8719,
-      "madeIt": true,
-      "similarity": 0.161
-    },
-    {
-      "rank": 6,
       "name": "Mike James",
       "college": "Miami (FL)",
       "year": 2013,
@@ -71,19 +47,19 @@
       "ppg": 7.2612,
       "rawPpg": 6.1257,
       "madeIt": true,
-      "similarity": 0.161
+      "similarity": 0.331
     },
     {
-      "rank": 7,
-      "name": "Boston Scott",
-      "college": "Louisiana Tech",
-      "year": 2018,
-      "round": 6,
-      "pick": 201,
-      "ppg": 7.1738,
-      "rawPpg": 7.4247,
+      "rank": 5,
+      "name": "Qadree Ollison",
+      "college": "Pittsburgh",
+      "year": 2019,
+      "round": 5,
+      "pick": 152,
+      "ppg": 6.1438,
+      "rawPpg": 3.9917,
       "madeIt": true,
-      "similarity": 0.161
+      "similarity": 0.326
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "prospectId": "teagan-quitoriano-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Foster Moreau",
+      "college": "LSU",
+      "year": 2019,
+      "round": 4,
+      "pick": 137,
+      "ppg": 4.7062,
+      "rawPpg": 4.9752,
+      "madeIt": false,
+      "similarity": 0.626
+    },
+    {
+      "rank": 2,
+      "name": "Luke Farrell",
+      "college": "Ohio St.",
+      "year": 2021,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.9576,
+      "rawPpg": 1.6688,
+      "madeIt": false,
+      "similarity": 0.558
+    },
+    {
+      "rank": 3,
+      "name": "C.J. Uzomah",
+      "college": "Auburn",
+      "year": 2015,
+      "round": 5,
+      "pick": 157,
+      "ppg": 3.6544,
+      "rawPpg": 3.4604,
+      "madeIt": false,
+      "similarity": 0.534
+    },
+    {
+      "rank": 4,
+      "name": "Luke Willson",
+      "college": "Rice",
+      "year": 2013,
+      "round": 5,
+      "pick": 158,
+      "ppg": 4.2347,
+      "rawPpg": 4.1692,
+      "madeIt": false,
+      "similarity": 0.487
+    },
+    {
+      "rank": 5,
+      "name": "Davis Allen",
+      "college": "Clemson",
+      "year": 2023,
+      "round": 5,
+      "pick": 175,
+      "ppg": 3.7042,
+      "rawPpg": 3.1576,
+      "madeIt": false,
+      "similarity": 0.484
+    },
+    {
+      "rank": 6,
+      "name": "Michael Hoomanawanui",
+      "college": "Illinois",
+      "year": 2010,
+      "round": 5,
+      "pick": 132,
+      "ppg": 4.0653,
+      "rawPpg": 3.75,
+      "madeIt": false,
+      "similarity": 0.438
+    },
+    {
+      "rank": 7,
+      "name": "Taylor Thompson",
+      "college": "SMU",
+      "year": 2012,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.385,
+      "rawPpg": 0.8343,
+      "madeIt": false,
+      "similarity": 0.411
+    }
+  ]
+}

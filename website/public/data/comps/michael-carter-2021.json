@@ -11,7 +11,7 @@
       "ppg": 8.1461,
       "rawPpg": 8.3906,
       "madeIt": true,
-      "similarity": 0.257
+      "similarity": 0.583
     },
     {
       "rank": 2,
@@ -23,34 +23,10 @@
       "ppg": 6.1097,
       "rawPpg": 5.2167,
       "madeIt": true,
-      "similarity": 0.24
+      "similarity": 0.538
     },
     {
       "rank": 3,
-      "name": "Duke Johnson",
-      "college": "Miami (FL)",
-      "year": 2015,
-      "round": 3,
-      "pick": 77,
-      "ppg": 9.1047,
-      "rawPpg": 9.7781,
-      "madeIt": true,
-      "similarity": 0.222
-    },
-    {
-      "rank": 4,
-      "name": "Tyjae Spears",
-      "college": "Tulane",
-      "year": 2023,
-      "round": 3,
-      "pick": 81,
-      "ppg": 7.7895,
-      "rawPpg": 7.8672,
-      "madeIt": true,
-      "similarity": 0.218
-    },
-    {
-      "rank": 5,
       "name": "Johnathan Franklin",
       "college": "UCLA",
       "year": 2013,
@@ -59,10 +35,10 @@
       "ppg": 6.2534,
       "rawPpg": 2.8143,
       "madeIt": true,
-      "similarity": 0.209
+      "similarity": 0.523
     },
     {
-      "rank": 6,
+      "rank": 4,
       "name": "Bilal Powell",
       "college": "Louisville",
       "year": 2011,
@@ -71,10 +47,10 @@
       "ppg": 7.3136,
       "rawPpg": 7.0371,
       "madeIt": true,
-      "similarity": 0.208
+      "similarity": 0.467
     },
     {
-      "rank": 7,
+      "rank": 5,
       "name": "Damien Harris",
       "college": "Alabama",
       "year": 2019,
@@ -83,7 +59,7 @@
       "ppg": 10.0982,
       "rawPpg": 11.1433,
       "madeIt": true,
-      "similarity": 0.192
+      "similarity": 0.423
     }
   ]
 }

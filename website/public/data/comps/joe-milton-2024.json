@@ -1,0 +1,65 @@
+{
+  "prospectId": "joe-milton-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jake Rudock",
+      "college": "Michigan",
+      "year": 2016,
+      "round": 6,
+      "pick": 191,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.549
+    },
+    {
+      "rank": 2,
+      "name": "Clayton Thorson",
+      "college": "Northwestern",
+      "year": 2019,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.517
+    },
+    {
+      "rank": 3,
+      "name": "Tanner McKee",
+      "college": "Stanford",
+      "year": 2023,
+      "round": 6,
+      "pick": 188,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.482
+    },
+    {
+      "rank": 4,
+      "name": "Jake Fromm",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.474
+    },
+    {
+      "rank": 5,
+      "name": "A.J. McCarron",
+      "college": "Alabama",
+      "year": 2014,
+      "round": 5,
+      "pick": 164,
+      "ppg": 10.5486,
+      "rawPpg": 7.8943,
+      "madeIt": true,
+      "similarity": 0.42
+    }
+  ]
+}

@@ -11,46 +11,10 @@
       "ppg": 7.1889,
       "rawPpg": 7.9606,
       "madeIt": true,
-      "similarity": 0.422
+      "similarity": 0.527
     },
     {
       "rank": 2,
-      "name": "Dez Fitzpatrick",
-      "college": "Louisville",
-      "year": 2021,
-      "round": 4,
-      "pick": 109,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.401
-    },
-    {
-      "rank": 3,
-      "name": "Denzel Mims",
-      "college": "Baylor",
-      "year": 2020,
-      "round": 2,
-      "pick": 59,
-      "ppg": 4.9627,
-      "rawPpg": 4.0722,
-      "madeIt": false,
-      "similarity": 0.391
-    },
-    {
-      "rank": 4,
-      "name": "ArDarius Stewart",
-      "college": "Alabama",
-      "year": 2017,
-      "round": 3,
-      "pick": 79,
-      "ppg": 3.9047,
-      "rawPpg": 1.1583,
-      "madeIt": false,
-      "similarity": 0.382
-    },
-    {
-      "rank": 5,
       "name": "KJ Hamler",
       "college": "Penn St.",
       "year": 2020,
@@ -59,10 +23,22 @@
       "ppg": 5.6715,
       "rawPpg": 4.9875,
       "madeIt": true,
-      "similarity": 0.371
+      "similarity": 0.526
     },
     {
-      "rank": 6,
+      "rank": 3,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
+      "madeIt": true,
+      "similarity": 0.477
+    },
+    {
+      "rank": 4,
       "name": "Cody Latimer",
       "college": "Indiana",
       "year": 2014,
@@ -71,19 +47,43 @@
       "ppg": 3.4866,
       "rawPpg": 1.4648,
       "madeIt": false,
-      "similarity": 0.363
+      "similarity": 0.469
+    },
+    {
+      "rank": 5,
+      "name": "Tyler Lockett",
+      "college": "Kansas St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 69,
+      "ppg": 7.2539,
+      "rawPpg": 7.8877,
+      "madeIt": true,
+      "similarity": 0.446
+    },
+    {
+      "rank": 6,
+      "name": "Cory Rodgers",
+      "college": "TCU",
+      "year": 2006,
+      "round": 4,
+      "pick": 104,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.442
     },
     {
       "rank": 7,
-      "name": "Vincent Brown",
-      "college": "San Diego St.",
-      "year": 2011,
+      "name": "Damian Williams",
+      "college": "USC",
+      "year": 2010,
       "round": 3,
-      "pick": 82,
-      "ppg": 5.3222,
-      "rawPpg": 5.0231,
+      "pick": 77,
+      "ppg": 5.7848,
+      "rawPpg": 5.5464,
       "madeIt": true,
-      "similarity": 0.35
+      "similarity": 0.437
     }
   ]
 }

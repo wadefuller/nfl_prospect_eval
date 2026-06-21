@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Justin Brown",
-      "college": "Oklahoma",
-      "year": 2013,
-      "round": 6,
-      "pick": 186,
-      "ppg": 4.9469,
-      "rawPpg": 2.2333,
-      "madeIt": false,
-      "similarity": 0.621
-    },
-    {
-      "rank": 2,
       "name": "Terrence Austin",
       "college": "UCLA",
       "year": 2010,
@@ -23,22 +11,22 @@
       "ppg": 4.3512,
       "rawPpg": 1.77,
       "madeIt": false,
-      "similarity": 0.614
+      "similarity": 0.709
+    },
+    {
+      "rank": 2,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
+      "madeIt": false,
+      "similarity": 0.623
     },
     {
       "rank": 3,
-      "name": "Kayshon Boutte",
-      "college": "LSU",
-      "year": 2023,
-      "round": 6,
-      "pick": 187,
-      "ppg": 6.7429,
-      "rawPpg": 7.1895,
-      "madeIt": true,
-      "similarity": 0.613
-    },
-    {
-      "rank": 4,
       "name": "Shi Smith",
       "college": "South Carolina",
       "year": 2021,
@@ -47,10 +35,46 @@
       "ppg": 4.4252,
       "rawPpg": 2.9765,
       "madeIt": false,
-      "similarity": 0.6
+      "similarity": 0.62
+    },
+    {
+      "rank": 4,
+      "name": "Rodney Adams",
+      "college": "South Florida",
+      "year": 2017,
+      "round": 5,
+      "pick": 170,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.602
     },
     {
       "rank": 5,
+      "name": "K.J. Hill",
+      "college": "Ohio St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 220,
+      "ppg": 3.2568,
+      "rawPpg": 0.825,
+      "madeIt": false,
+      "similarity": 0.52
+    },
+    {
+      "rank": 6,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.494
+    },
+    {
+      "rank": 7,
       "name": "Ray-Ray McCloud",
       "college": "Clemson",
       "year": 2018,
@@ -59,31 +83,7 @@
       "ppg": 3.1533,
       "rawPpg": 1.1625,
       "madeIt": false,
-      "similarity": 0.547
-    },
-    {
-      "rank": 6,
-      "name": "Parker Washington",
-      "college": "Penn St.",
-      "year": 2023,
-      "round": 6,
-      "pick": 185,
-      "ppg": 7.2203,
-      "rawPpg": 7.7585,
-      "madeIt": true,
-      "similarity": 0.506
-    },
-    {
-      "rank": 7,
-      "name": "Michael Woods II",
-      "college": "Oklahoma",
-      "year": 2022,
-      "round": 6,
-      "pick": 202,
-      "ppg": 4.4318,
-      "rawPpg": 0.9286,
-      "madeIt": false,
-      "similarity": 0.47
+      "similarity": 0.493
     }
   ]
 }

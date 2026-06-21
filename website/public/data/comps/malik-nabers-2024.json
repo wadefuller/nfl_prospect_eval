@@ -11,70 +11,10 @@
       "ppg": 8.7333,
       "rawPpg": 10.1942,
       "madeIt": true,
-      "similarity": 0.565
+      "similarity": 0.573
     },
     {
       "rank": 2,
-      "name": "Marquise Brown",
-      "college": "Oklahoma",
-      "year": 2019,
-      "round": 1,
-      "pick": 25,
-      "ppg": 9.0048,
-      "rawPpg": 10.525,
-      "madeIt": true,
-      "similarity": 0.382
-    },
-    {
-      "rank": 3,
-      "name": "Josh Doctson",
-      "college": "TCU",
-      "year": 2016,
-      "round": 1,
-      "pick": 22,
-      "ppg": 6.1942,
-      "rawPpg": 6.3167,
-      "madeIt": true,
-      "similarity": 0.382
-    },
-    {
-      "rank": 4,
-      "name": "Brandin Cooks",
-      "college": "Oregon St.",
-      "year": 2014,
-      "round": 1,
-      "pick": 20,
-      "ppg": 10.9432,
-      "rawPpg": 13.5225,
-      "madeIt": true,
-      "similarity": 0.372
-    },
-    {
-      "rank": 5,
-      "name": "Titus Young",
-      "college": "Boise St.",
-      "year": 2011,
-      "round": 2,
-      "pick": 44,
-      "ppg": 7.1889,
-      "rawPpg": 7.9606,
-      "madeIt": true,
-      "similarity": 0.367
-    },
-    {
-      "rank": 6,
-      "name": "Brandon Aiyuk",
-      "college": "Arizona St.",
-      "year": 2020,
-      "round": 1,
-      "pick": 25,
-      "ppg": 9.7496,
-      "rawPpg": 11.9904,
-      "madeIt": true,
-      "similarity": 0.353
-    },
-    {
-      "rank": 7,
       "name": "Sammy Watkins",
       "college": "Clemson",
       "year": 2014,
@@ -83,7 +23,67 @@
       "ppg": 9.994,
       "rawPpg": 12.4334,
       "madeIt": true,
-      "similarity": 0.353
+      "similarity": 0.559
+    },
+    {
+      "rank": 3,
+      "name": "Brandin Cooks",
+      "college": "Oregon St.",
+      "year": 2014,
+      "round": 1,
+      "pick": 20,
+      "ppg": 10.9432,
+      "rawPpg": 13.5225,
+      "madeIt": true,
+      "similarity": 0.508
+    },
+    {
+      "rank": 4,
+      "name": "DeAndre Hopkins",
+      "college": "Clemson",
+      "year": 2013,
+      "round": 1,
+      "pick": 27,
+      "ppg": 11.7507,
+      "rawPpg": 14.6438,
+      "madeIt": true,
+      "similarity": 0.503
+    },
+    {
+      "rank": 5,
+      "name": "Justin Jefferson",
+      "college": "LSU",
+      "year": 2020,
+      "round": 1,
+      "pick": 22,
+      "ppg": 13.5298,
+      "rawPpg": 17.09,
+      "madeIt": true,
+      "similarity": 0.471
+    },
+    {
+      "rank": 6,
+      "name": "Amari Cooper",
+      "college": "Alabama",
+      "year": 2015,
+      "round": 1,
+      "pick": 4,
+      "ppg": 9.6444,
+      "rawPpg": 11.4844,
+      "madeIt": true,
+      "similarity": 0.471
+    },
+    {
+      "rank": 7,
+      "name": "Nelson Agholor",
+      "college": "USC",
+      "year": 2015,
+      "round": 1,
+      "pick": 20,
+      "ppg": 6.8475,
+      "rawPpg": 7.2206,
+      "madeIt": true,
+      "similarity": 0.456
     }
   ]
 }

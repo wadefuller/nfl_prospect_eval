@@ -1,0 +1,89 @@
+{
+  "prospectId": "brenton-strange-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jeremy Ruckert",
+      "college": "Ohio St.",
+      "year": 2022,
+      "round": 3,
+      "pick": 101,
+      "ppg": 2.8015,
+      "rawPpg": 1.8514,
+      "madeIt": false,
+      "similarity": 0.611
+    },
+    {
+      "rank": 2,
+      "name": "Nick Vannett",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 3,
+      "pick": 94,
+      "ppg": 3.738,
+      "rawPpg": 3.2,
+      "madeIt": false,
+      "similarity": 0.608
+    },
+    {
+      "rank": 3,
+      "name": "Kahale Warring",
+      "college": "San Diego St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.607
+    },
+    {
+      "rank": 4,
+      "name": "Dalton Keene",
+      "college": "Virginia Tech",
+      "year": 2020,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.534
+    },
+    {
+      "rank": 5,
+      "name": "Kyle Rudolph",
+      "college": "Notre Dame",
+      "year": 2011,
+      "round": 2,
+      "pick": 43,
+      "ppg": 6.639,
+      "rawPpg": 8.1375,
+      "madeIt": true,
+      "similarity": 0.508
+    },
+    {
+      "rank": 6,
+      "name": "Tre' McKitty",
+      "college": "Georgia",
+      "year": 2021,
+      "round": 3,
+      "pick": 97,
+      "ppg": 2.5474,
+      "rawPpg": 1.0942,
+      "madeIt": false,
+      "similarity": 0.496
+    },
+    {
+      "rank": 7,
+      "name": "Tony Moeaki",
+      "college": "Iowa",
+      "year": 2010,
+      "round": 3,
+      "pick": 93,
+      "ppg": 5.208,
+      "rawPpg": 5.6581,
+      "madeIt": true,
+      "similarity": 0.492
+    }
+  ]
+}

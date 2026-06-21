@@ -3,6 +3,18 @@
   "comps": [
     {
       "rank": 1,
+      "name": "Manuel White",
+      "college": "UCLA",
+      "year": 2005,
+      "round": 4,
+      "pick": 120,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.521
+    },
+    {
+      "rank": 2,
       "name": "Devontae Booker",
       "college": "Utah",
       "year": 2016,
@@ -11,10 +23,10 @@
       "ppg": 7.2828,
       "rawPpg": 6.9135,
       "madeIt": true,
-      "similarity": 0.297
+      "similarity": 0.515
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "DeAndre Washington",
       "college": "Texas Tech",
       "year": 2016,
@@ -23,67 +35,31 @@
       "ppg": 6.1097,
       "rawPpg": 5.2167,
       "madeIt": true,
-      "similarity": 0.225
-    },
-    {
-      "rank": 3,
-      "name": "James White",
-      "college": "Wisconsin",
-      "year": 2014,
-      "round": 4,
-      "pick": 130,
-      "ppg": 8.1461,
-      "rawPpg": 8.3906,
-      "madeIt": true,
-      "similarity": 0.209
+      "similarity": 0.482
     },
     {
       "rank": 4,
-      "name": "Ke'Shawn Vaughn",
-      "college": "Illinois",
-      "year": 2020,
-      "round": 3,
-      "pick": 76,
-      "ppg": 6.4117,
-      "rawPpg": 4.6167,
+      "name": "Rhamondre Stevenson",
+      "college": "Oklahoma",
+      "year": 2021,
+      "round": 4,
+      "pick": 120,
+      "ppg": 10.3428,
+      "rawPpg": 11.5909,
       "madeIt": true,
-      "similarity": 0.197
+      "similarity": 0.481
     },
     {
       "rank": 5,
-      "name": "Javorius Allen",
-      "college": "USC",
-      "year": 2015,
-      "round": 4,
-      "pick": 125,
-      "ppg": 8.1339,
-      "rawPpg": 8.3219,
-      "madeIt": true,
-      "similarity": 0.195
-    },
-    {
-      "rank": 6,
-      "name": "Johnathan Franklin",
-      "college": "UCLA",
-      "year": 2013,
-      "round": 4,
-      "pick": 125,
-      "ppg": 6.2534,
-      "rawPpg": 2.8143,
-      "madeIt": true,
-      "similarity": 0.165
-    },
-    {
-      "rank": 7,
-      "name": "Mike Davis",
-      "college": "South Carolina",
-      "year": 2015,
-      "round": 4,
-      "pick": 126,
-      "ppg": 6.2665,
-      "rawPpg": 4.6452,
-      "madeIt": true,
-      "similarity": 0.157
+      "name": "Maurice Clarett",
+      "college": "Ohio St.",
+      "year": 2005,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.469
     }
   ]
 }

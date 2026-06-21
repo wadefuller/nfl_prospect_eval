@@ -3,66 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Stacy Coley",
-      "college": "Miami (FL)",
-      "year": 2017,
-      "round": 7,
-      "pick": 219,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.574
-    },
-    {
-      "rank": 2,
-      "name": "Kawaan Baker",
-      "college": "South Alabama",
-      "year": 2021,
-      "round": 7,
-      "pick": 255,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.566
-    },
-    {
-      "rank": 3,
-      "name": "Braxton Berrios",
-      "college": "Miami (FL)",
-      "year": 2018,
-      "round": 6,
-      "pick": 210,
-      "ppg": 3.9319,
-      "rawPpg": 2.9156,
-      "madeIt": false,
-      "similarity": 0.458
-    },
-    {
-      "rank": 4,
-      "name": "Terrence Austin",
-      "college": "UCLA",
-      "year": 2010,
-      "round": 7,
-      "pick": 219,
-      "ppg": 4.3512,
-      "rawPpg": 1.77,
-      "madeIt": false,
-      "similarity": 0.452
-    },
-    {
-      "rank": 5,
-      "name": "Kenny Lawler",
-      "college": "California",
-      "year": 2016,
-      "round": 7,
-      "pick": 243,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.443
-    },
-    {
-      "rank": 6,
       "name": "Shi Smith",
       "college": "South Carolina",
       "year": 2021,
@@ -71,19 +11,79 @@
       "ppg": 4.4252,
       "rawPpg": 2.9765,
       "madeIt": false,
-      "similarity": 0.425
+      "similarity": 0.622
     },
     {
-      "rank": 7,
-      "name": "Mario Alford",
-      "college": "West Virginia",
-      "year": 2015,
+      "rank": 2,
+      "name": "Terrence Austin",
+      "college": "UCLA",
+      "year": 2010,
       "round": 7,
-      "pick": 238,
+      "pick": 219,
+      "ppg": 4.3512,
+      "rawPpg": 1.77,
+      "madeIt": false,
+      "similarity": 0.616
+    },
+    {
+      "rank": 3,
+      "name": "Austin Proehl",
+      "college": "North Carolina",
+      "year": 2018,
+      "round": 7,
+      "pick": 255,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.415
+      "similarity": 0.584
+    },
+    {
+      "rank": 4,
+      "name": "Olabisi Johnson",
+      "college": "Colorado St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 247,
+      "ppg": 4.9166,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.522
+    },
+    {
+      "rank": 5,
+      "name": "Kevin Dorsey",
+      "college": "Maryland",
+      "year": 2013,
+      "round": 7,
+      "pick": 224,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.502
+    },
+    {
+      "rank": 6,
+      "name": "Stacy Coley",
+      "college": "Miami (FL)",
+      "year": 2017,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.501
+    },
+    {
+      "rank": 7,
+      "name": "Braxton Berrios",
+      "college": "Miami (FL)",
+      "year": 2018,
+      "round": 6,
+      "pick": 210,
+      "ppg": 3.9319,
+      "rawPpg": 2.9156,
+      "madeIt": false,
+      "similarity": 0.485
     }
   ]
 }

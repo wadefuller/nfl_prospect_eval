@@ -1,0 +1,65 @@
+{
+  "prospectId": "kenny-pickett-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jordan Love",
+      "college": "Utah St.",
+      "year": 2020,
+      "round": 1,
+      "pick": 26,
+      "ppg": 9.4772,
+      "rawPpg": 3.5233,
+      "madeIt": true,
+      "similarity": 0.508
+    },
+    {
+      "rank": 2,
+      "name": "Jimmy Clausen",
+      "college": "Notre Dame",
+      "year": 2010,
+      "round": 2,
+      "pick": 48,
+      "ppg": 8.4613,
+      "rawPpg": 4.4631,
+      "madeIt": true,
+      "similarity": 0.484
+    },
+    {
+      "rank": 3,
+      "name": "Teddy Bridgewater",
+      "college": "Louisville",
+      "year": 2014,
+      "round": 1,
+      "pick": 32,
+      "ppg": 12.6102,
+      "rawPpg": 13.1737,
+      "madeIt": true,
+      "similarity": 0.463
+    },
+    {
+      "rank": 4,
+      "name": "Baker Mayfield",
+      "college": "Oklahoma",
+      "year": 2018,
+      "round": 1,
+      "pick": 1,
+      "ppg": 14.6865,
+      "rawPpg": 16.3287,
+      "madeIt": true,
+      "similarity": 0.45
+    },
+    {
+      "rank": 5,
+      "name": "Josh Rosen",
+      "college": "UCLA",
+      "year": 2018,
+      "round": 1,
+      "pick": 10,
+      "ppg": 10.0093,
+      "rawPpg": 8.0657,
+      "madeIt": true,
+      "similarity": 0.446
+    }
+  ]
+}

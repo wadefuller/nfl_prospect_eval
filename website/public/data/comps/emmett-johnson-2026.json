@@ -3,87 +3,63 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Jason Huntley",
-      "college": "New Mexico St.",
-      "year": 2020,
-      "round": 5,
-      "pick": 172,
+      "name": "Tyler Badie",
+      "college": "Missouri",
+      "year": 2022,
+      "round": 6,
+      "pick": 196,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.291
+      "similarity": 0.359
     },
     {
       "rank": 2,
-      "name": "Eric Gray",
-      "college": "Oklahoma",
-      "year": 2023,
-      "round": 5,
-      "pick": 172,
-      "ppg": 3.7107,
-      "rawPpg": 1.0107,
-      "madeIt": false,
-      "similarity": 0.269
+      "name": "Trayveon Williams",
+      "college": "Texas A&M",
+      "year": 2019,
+      "round": 6,
+      "pick": 182,
+      "ppg": 6.5149,
+      "rawPpg": 3.2,
+      "madeIt": true,
+      "similarity": 0.319
     },
     {
       "rank": 3,
-      "name": "Boston Scott",
-      "college": "Louisiana Tech",
-      "year": 2018,
-      "round": 6,
-      "pick": 201,
-      "ppg": 7.1738,
-      "rawPpg": 7.4247,
-      "madeIt": true,
-      "similarity": 0.253
-    },
-    {
-      "rank": 4,
-      "name": "Latavius Murray",
-      "college": "Central Florida",
-      "year": 2013,
-      "round": 6,
-      "pick": 181,
-      "ppg": 8.5695,
-      "rawPpg": 8.7286,
-      "madeIt": true,
-      "similarity": 0.229
-    },
-    {
-      "rank": 5,
-      "name": "Theo Riddick",
-      "college": "Notre Dame",
-      "year": 2013,
-      "round": 6,
-      "pick": 199,
-      "ppg": 7.5739,
-      "rawPpg": 7.3322,
-      "madeIt": true,
-      "similarity": 0.224
-    },
-    {
-      "rank": 6,
-      "name": "Jordan Wilkins",
-      "college": "Mississippi",
-      "year": 2018,
-      "round": 5,
-      "pick": 169,
-      "ppg": 5.5126,
-      "rawPpg": 4.1308,
-      "madeIt": true,
-      "similarity": 0.198
-    },
-    {
-      "rank": 7,
-      "name": "Dexter Williams",
-      "college": "Notre Dame",
-      "year": 2019,
-      "round": 6,
-      "pick": 194,
+      "name": "Donnel Pumphrey",
+      "college": "San Diego St.",
+      "year": 2017,
+      "round": 4,
+      "pick": 132,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.197
+      "similarity": 0.309
+    },
+    {
+      "rank": 4,
+      "name": "James White",
+      "college": "Wisconsin",
+      "year": 2014,
+      "round": 4,
+      "pick": 130,
+      "ppg": 8.1461,
+      "rawPpg": 8.3906,
+      "madeIt": true,
+      "similarity": 0.304
+    },
+    {
+      "rank": 5,
+      "name": "Stepfan Taylor",
+      "college": "Stanford",
+      "year": 2013,
+      "round": 5,
+      "pick": 140,
+      "ppg": 5.1732,
+      "rawPpg": 3.45,
+      "madeIt": true,
+      "similarity": 0.302
     }
   ]
 }

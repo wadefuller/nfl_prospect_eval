@@ -3,66 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Dion Lewis",
-      "college": "Pittsburgh",
-      "year": 2011,
-      "round": 5,
-      "pick": 149,
-      "ppg": 4.4808,
-      "rawPpg": 1.9891,
-      "madeIt": false,
-      "similarity": 0.149
-    },
-    {
-      "rank": 2,
-      "name": "Tyler Allgeier",
-      "college": "BYU",
-      "year": 2022,
-      "round": 5,
-      "pick": 151,
-      "ppg": 8.2475,
-      "rawPpg": 8.5136,
-      "madeIt": true,
-      "similarity": 0.145
-    },
-    {
-      "rank": 3,
-      "name": "Paul Perkins",
-      "college": "UCLA",
-      "year": 2016,
-      "round": 5,
-      "pick": 149,
-      "ppg": 5.5534,
-      "rawPpg": 3.575,
-      "madeIt": true,
-      "similarity": 0.143
-    },
-    {
-      "rank": 4,
-      "name": "Kevin Harris",
-      "college": "South Carolina",
-      "year": 2022,
-      "round": 6,
-      "pick": 183,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.138
-    },
-    {
-      "rank": 5,
-      "name": "Joseph Randle",
-      "college": "Oklahoma St.",
-      "year": 2013,
-      "round": 5,
-      "pick": 151,
-      "ppg": 7.9906,
-      "rawPpg": 8.5083,
-      "madeIt": true,
-      "similarity": 0.137
-    },
-    {
-      "rank": 6,
       "name": "Rodney Anderson",
       "college": "Oklahoma",
       "year": 2019,
@@ -71,10 +11,34 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.135
+      "similarity": 0.434
     },
     {
-      "rank": 7,
+      "rank": 2,
+      "name": "Dion Lewis",
+      "college": "Pittsburgh",
+      "year": 2011,
+      "round": 5,
+      "pick": 149,
+      "ppg": 4.4808,
+      "rawPpg": 1.9891,
+      "madeIt": false,
+      "similarity": 0.404
+    },
+    {
+      "rank": 3,
+      "name": "Kevin Harris",
+      "college": "South Carolina",
+      "year": 2022,
+      "round": 6,
+      "pick": 183,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.387
+    },
+    {
+      "rank": 4,
       "name": "Jordan Howard",
       "college": "Indiana",
       "year": 2016,
@@ -83,7 +47,19 @@
       "ppg": 11.2325,
       "rawPpg": 13.0679,
       "madeIt": true,
-      "similarity": 0.129
+      "similarity": 0.332
+    },
+    {
+      "rank": 5,
+      "name": "Rex Burkhead",
+      "college": "Nebraska",
+      "year": 2013,
+      "round": 6,
+      "pick": 190,
+      "ppg": 4.2113,
+      "rawPpg": 1.8481,
+      "madeIt": false,
+      "similarity": 0.329
     }
   ]
 }

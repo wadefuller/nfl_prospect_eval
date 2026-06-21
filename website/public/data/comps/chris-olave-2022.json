@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "DeVante Parker",
-      "college": "Louisville",
-      "year": 2015,
-      "round": 1,
-      "pick": 14,
-      "ppg": 7.3715,
-      "rawPpg": 8.2333,
-      "madeIt": true,
-      "similarity": 0.57
-    },
-    {
-      "rank": 2,
-      "name": "Zay Flowers",
-      "college": "Boston Col.",
-      "year": 2023,
-      "round": 1,
-      "pick": 22,
-      "ppg": 9.4619,
-      "rawPpg": 11.1381,
-      "madeIt": true,
-      "similarity": 0.524
-    },
-    {
-      "rank": 3,
       "name": "Dante Pettis",
       "college": "Washington",
       "year": 2018,
@@ -35,22 +11,34 @@
       "ppg": 5.7965,
       "rawPpg": 5.3633,
       "madeIt": true,
-      "similarity": 0.498
+      "similarity": 0.613
+    },
+    {
+      "rank": 2,
+      "name": "DeVante Parker",
+      "college": "Louisville",
+      "year": 2015,
+      "round": 1,
+      "pick": 14,
+      "ppg": 7.3715,
+      "rawPpg": 8.2333,
+      "madeIt": true,
+      "similarity": 0.503
+    },
+    {
+      "rank": 3,
+      "name": "Zay Flowers",
+      "college": "Boston Col.",
+      "year": 2023,
+      "round": 1,
+      "pick": 22,
+      "ppg": 9.4619,
+      "rawPpg": 11.1381,
+      "madeIt": true,
+      "similarity": 0.472
     },
     {
       "rank": 4,
-      "name": "Garrett Wilson",
-      "college": "Ohio St.",
-      "year": 2022,
-      "round": 1,
-      "pick": 10,
-      "ppg": 9.4206,
-      "rawPpg": 11.0471,
-      "madeIt": true,
-      "similarity": 0.489
-    },
-    {
-      "rank": 5,
       "name": "KJ Hamler",
       "college": "Penn St.",
       "year": 2020,
@@ -59,7 +47,19 @@
       "ppg": 5.6715,
       "rawPpg": 4.9875,
       "madeIt": true,
-      "similarity": 0.443
+      "similarity": 0.472
+    },
+    {
+      "rank": 5,
+      "name": "Titus Young",
+      "college": "Boise St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 44,
+      "ppg": 7.1889,
+      "rawPpg": 7.9606,
+      "madeIt": true,
+      "similarity": 0.457
     },
     {
       "rank": 6,
@@ -71,19 +71,19 @@
       "ppg": 9.1864,
       "rawPpg": 10.7728,
       "madeIt": true,
-      "similarity": 0.405
+      "similarity": 0.456
     },
     {
       "rank": 7,
-      "name": "Dorial Green-Beckham",
-      "college": "Oklahoma",
-      "year": 2015,
-      "round": 2,
-      "pick": 40,
-      "ppg": 5.9439,
-      "rawPpg": 5.9321,
+      "name": "Jaylen Waddle",
+      "college": "Alabama",
+      "year": 2021,
+      "round": 1,
+      "pick": 6,
+      "ppg": 10.468,
+      "rawPpg": 12.6393,
       "madeIt": true,
-      "similarity": 0.386
+      "similarity": 0.447
     }
   ]
 }

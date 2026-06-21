@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Nick Toon",
-      "college": "Wisconsin",
-      "year": 2012,
-      "round": 4,
-      "pick": 122,
-      "ppg": 5.9014,
-      "rawPpg": 5.7333,
-      "madeIt": true,
-      "similarity": 0.456
-    },
-    {
-      "rank": 2,
-      "name": "Danny Gray",
-      "college": "SMU",
-      "year": 2022,
-      "round": 3,
-      "pick": 105,
-      "ppg": 4.2536,
-      "rawPpg": 0.3429,
-      "madeIt": false,
-      "similarity": 0.422
-    },
-    {
-      "rank": 3,
-      "name": "Kevin Norwood",
-      "college": "Alabama",
-      "year": 2014,
-      "round": 4,
-      "pick": 123,
-      "ppg": 5.006,
-      "rawPpg": 2.45,
-      "madeIt": true,
-      "similarity": 0.417
-    },
-    {
-      "rank": 4,
       "name": "Jehu Chesson",
       "college": "Michigan",
       "year": 2017,
@@ -47,34 +11,46 @@
       "ppg": 3.5369,
       "rawPpg": 0.3,
       "madeIt": false,
-      "similarity": 0.365
+      "similarity": 0.405
     },
     {
-      "rank": 5,
-      "name": "Tyler Scott",
-      "college": "Cincinnati",
-      "year": 2023,
+      "rank": 2,
+      "name": "Chase Lyman",
+      "college": "California",
+      "year": 2005,
       "round": 4,
-      "pick": 133,
-      "ppg": 4.2356,
-      "rawPpg": 2.1077,
-      "madeIt": false,
-      "similarity": 0.362
-    },
-    {
-      "rank": 6,
-      "name": "Simi Fehoko",
-      "college": "Stanford",
-      "year": 2021,
-      "round": 5,
-      "pick": 179,
+      "pick": 118,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.35
+      "similarity": 0.379
     },
     {
-      "rank": 7,
+      "rank": 3,
+      "name": "Nick Toon",
+      "college": "Wisconsin",
+      "year": 2012,
+      "round": 4,
+      "pick": 122,
+      "ppg": 5.9014,
+      "rawPpg": 5.7333,
+      "madeIt": true,
+      "similarity": 0.371
+    },
+    {
+      "rank": 4,
+      "name": "Kenny Bell",
+      "college": "Nebraska",
+      "year": 2015,
+      "round": 5,
+      "pick": 162,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.371
+    },
+    {
+      "rank": 5,
       "name": "DaeSean Hamilton",
       "college": "Penn St.",
       "year": 2018,
@@ -83,7 +59,31 @@
       "ppg": 5.0649,
       "rawPpg": 4.4485,
       "madeIt": true,
-      "similarity": 0.349
+      "similarity": 0.365
+    },
+    {
+      "rank": 6,
+      "name": "DeAngelo Yancey",
+      "college": "Purdue",
+      "year": 2017,
+      "round": 5,
+      "pick": 175,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.357
+    },
+    {
+      "rank": 7,
+      "name": "Terry Charles",
+      "college": "Portland St.",
+      "year": 2002,
+      "round": 5,
+      "pick": 142,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.351
     }
   ]
 }

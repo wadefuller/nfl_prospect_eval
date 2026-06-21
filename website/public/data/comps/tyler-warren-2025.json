@@ -1,0 +1,89 @@
+{
+  "prospectId": "tyler-warren-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Zach Ertz",
+      "college": "Stanford",
+      "year": 2013,
+      "round": 2,
+      "pick": 35,
+      "ppg": 6.7544,
+      "rawPpg": 8.0267,
+      "madeIt": true,
+      "similarity": 0.642
+    },
+    {
+      "rank": 2,
+      "name": "Jace Amaro",
+      "college": "Texas Tech",
+      "year": 2014,
+      "round": 2,
+      "pick": 49,
+      "ppg": 4.4986,
+      "rawPpg": 4.6786,
+      "madeIt": false,
+      "similarity": 0.499
+    },
+    {
+      "rank": 3,
+      "name": "Tyler Eifert",
+      "college": "Notre Dame",
+      "year": 2013,
+      "round": 1,
+      "pick": 21,
+      "ppg": 7.0672,
+      "rawPpg": 8.8987,
+      "madeIt": true,
+      "similarity": 0.498
+    },
+    {
+      "rank": 4,
+      "name": "Michael Mayer",
+      "college": "Notre Dame",
+      "year": 2023,
+      "round": 2,
+      "pick": 35,
+      "ppg": 4.3728,
+      "rawPpg": 4.3923,
+      "madeIt": false,
+      "similarity": 0.474
+    },
+    {
+      "rank": 5,
+      "name": "Dalton Kincaid",
+      "college": "Utah",
+      "year": 2023,
+      "round": 1,
+      "pick": 25,
+      "ppg": 6.5877,
+      "rawPpg": 7.9979,
+      "madeIt": true,
+      "similarity": 0.442
+    },
+    {
+      "rank": 6,
+      "name": "T.J. Hockenson",
+      "college": "Iowa",
+      "year": 2019,
+      "round": 1,
+      "pick": 8,
+      "ppg": 7.4104,
+      "rawPpg": 9.2146,
+      "madeIt": true,
+      "similarity": 0.369
+    },
+    {
+      "rank": 7,
+      "name": "Gavin Escobar",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 2,
+      "pick": 47,
+      "ppg": 3.7394,
+      "rawPpg": 3.2861,
+      "madeIt": false,
+      "similarity": 0.342
+    }
+  ]
+}

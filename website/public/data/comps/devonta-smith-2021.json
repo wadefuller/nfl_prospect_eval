@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Corey Davis",
-      "college": "Western Michigan",
-      "year": 2017,
-      "round": 1,
-      "pick": 5,
-      "ppg": 7.2368,
-      "rawPpg": 7.8419,
-      "madeIt": true,
-      "similarity": 0.422
-    },
-    {
-      "rank": 2,
       "name": "Nelson Agholor",
       "college": "USC",
       "year": 2015,
@@ -23,19 +11,31 @@
       "ppg": 6.8475,
       "rawPpg": 7.2206,
       "madeIt": true,
-      "similarity": 0.4
+      "similarity": 0.606
+    },
+    {
+      "rank": 2,
+      "name": "Jahan Dotson",
+      "college": "Penn St.",
+      "year": 2022,
+      "round": 1,
+      "pick": 16,
+      "ppg": 6.8629,
+      "rawPpg": 7.6625,
+      "madeIt": true,
+      "similarity": 0.547
     },
     {
       "rank": 3,
-      "name": "Justin Jefferson",
-      "college": "LSU",
-      "year": 2020,
+      "name": "Kendall Wright",
+      "college": "Baylor",
+      "year": 2012,
       "round": 1,
-      "pick": 22,
-      "ppg": 13.5298,
-      "rawPpg": 17.09,
+      "pick": 20,
+      "ppg": 8.7333,
+      "rawPpg": 10.1942,
       "madeIt": true,
-      "similarity": 0.395
+      "similarity": 0.517
     },
     {
       "rank": 4,
@@ -47,43 +47,43 @@
       "ppg": 8.4263,
       "rawPpg": 9.9741,
       "madeIt": true,
-      "similarity": 0.393
+      "similarity": 0.499
     },
     {
       "rank": 5,
-      "name": "Brandin Cooks",
-      "college": "Oregon St.",
-      "year": 2014,
-      "round": 1,
-      "pick": 20,
-      "ppg": 10.9432,
-      "rawPpg": 13.5225,
+      "name": "Michael Pittman Jr.",
+      "college": "USC",
+      "year": 2020,
+      "round": 2,
+      "pick": 34,
+      "ppg": 9.3272,
+      "rawPpg": 10.9423,
       "madeIt": true,
-      "similarity": 0.365
+      "similarity": 0.464
     },
     {
       "rank": 6,
-      "name": "Josh Doctson",
-      "college": "TCU",
-      "year": 2016,
+      "name": "Marquise Brown",
+      "college": "Oklahoma",
+      "year": 2019,
       "round": 1,
-      "pick": 22,
-      "ppg": 6.1942,
-      "rawPpg": 6.3167,
+      "pick": 25,
+      "ppg": 9.0048,
+      "rawPpg": 10.525,
       "madeIt": true,
-      "similarity": 0.36
+      "similarity": 0.453
     },
     {
       "rank": 7,
-      "name": "Garrett Wilson",
-      "college": "Ohio St.",
-      "year": 2022,
-      "round": 1,
-      "pick": 10,
-      "ppg": 9.4206,
-      "rawPpg": 11.0471,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
       "madeIt": true,
-      "similarity": 0.348
+      "similarity": 0.452
     }
   ]
 }

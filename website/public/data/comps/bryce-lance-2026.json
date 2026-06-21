@@ -3,42 +3,66 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Tyler Johnson",
-      "college": "Minnesota",
-      "year": 2020,
+      "name": "Darius Slayton",
+      "college": "Auburn",
+      "year": 2019,
       "round": 5,
-      "pick": 161,
-      "ppg": 4.3889,
-      "rawPpg": 3.4325,
-      "madeIt": false,
-      "similarity": 0.39
+      "pick": 171,
+      "ppg": 7.7703,
+      "rawPpg": 8.8393,
+      "madeIt": true,
+      "similarity": 0.415
     },
     {
       "rank": 2,
-      "name": "Kenny Stills",
-      "college": "Oklahoma",
-      "year": 2013,
-      "round": 5,
-      "pick": 144,
-      "ppg": 7.4241,
-      "rawPpg": 8.2185,
-      "madeIt": true,
-      "similarity": 0.377
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
+      "year": 2022,
+      "round": 4,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.403
     },
     {
       "rank": 3,
-      "name": "J'Mon Moore",
-      "college": "Missouri",
-      "year": 2018,
-      "round": 4,
-      "pick": 133,
-      "ppg": 4.2579,
-      "rawPpg": 0.3571,
+      "name": "DeAngelo Yancey",
+      "college": "Purdue",
+      "year": 2017,
+      "round": 5,
+      "pick": 175,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.359
+      "similarity": 0.392
     },
     {
       "rank": 4,
+      "name": "Ryan Swope",
+      "college": "Texas A&M",
+      "year": 2013,
+      "round": 6,
+      "pick": 174,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.386
+    },
+    {
+      "rank": 5,
+      "name": "Hakeem Butler",
+      "college": "Iowa St.",
+      "year": 2019,
+      "round": 4,
+      "pick": 103,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.373
+    },
+    {
+      "rank": 6,
       "name": "Kenny Bell",
       "college": "Nebraska",
       "year": 2015,
@@ -47,43 +71,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.358
-    },
-    {
-      "rank": 5,
-      "name": "Kealoha Pilares",
-      "college": "Hawaii",
-      "year": 2011,
-      "round": 5,
-      "pick": 132,
-      "ppg": 3.2666,
-      "rawPpg": 1.079,
-      "madeIt": false,
-      "similarity": 0.352
-    },
-    {
-      "rank": 6,
-      "name": "Chase Lyman",
-      "college": "California",
-      "year": 2005,
-      "round": 4,
-      "pick": 118,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.331
+      "similarity": 0.371
     },
     {
       "rank": 7,
-      "name": "Terry Charles",
-      "college": "Portland St.",
-      "year": 2002,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
       "round": 5,
-      "pick": 142,
-      "ppg": 0,
-      "rawPpg": null,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
       "madeIt": false,
-      "similarity": 0.331
+      "similarity": 0.358
     }
   ]
 }

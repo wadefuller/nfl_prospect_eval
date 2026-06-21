@@ -1,0 +1,89 @@
+{
+  "prospectId": "darnell-washington-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Richard Rodgers",
+      "college": "California",
+      "year": 2014,
+      "round": 3,
+      "pick": 98,
+      "ppg": 5.4183,
+      "rawPpg": 5.9002,
+      "madeIt": true,
+      "similarity": 0.443
+    },
+    {
+      "rank": 2,
+      "name": "Durham Smythe",
+      "college": "Notre Dame",
+      "year": 2018,
+      "round": 4,
+      "pick": 123,
+      "ppg": 3.3313,
+      "rawPpg": 2.2615,
+      "madeIt": false,
+      "similarity": 0.4
+    },
+    {
+      "rank": 3,
+      "name": "Evan Rodriguez",
+      "college": "Temple",
+      "year": 2012,
+      "round": 4,
+      "pick": 111,
+      "ppg": 3.1982,
+      "rawPpg": 0.5857,
+      "madeIt": false,
+      "similarity": 0.296
+    },
+    {
+      "rank": 4,
+      "name": "Tucker Kraft",
+      "college": "South Dakota St.",
+      "year": 2023,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.5356,
+      "rawPpg": 10.3926,
+      "madeIt": true,
+      "similarity": 0.289
+    },
+    {
+      "rank": 5,
+      "name": "Jeff Heuerman",
+      "college": "Ohio St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 92,
+      "ppg": 3.7112,
+      "rawPpg": 3.085,
+      "madeIt": false,
+      "similarity": 0.285
+    },
+    {
+      "rank": 6,
+      "name": "Dion Sims",
+      "college": "Michigan St.",
+      "year": 2013,
+      "round": 4,
+      "pick": 106,
+      "ppg": 3.4316,
+      "rawPpg": 2.8599,
+      "madeIt": false,
+      "similarity": 0.282
+    },
+    {
+      "rank": 7,
+      "name": "Will Dissly",
+      "college": "Washington",
+      "year": 2018,
+      "round": 4,
+      "pick": 120,
+      "ppg": 4.8908,
+      "rawPpg": 6.8367,
+      "madeIt": false,
+      "similarity": 0.271
+    }
+  ]
+}

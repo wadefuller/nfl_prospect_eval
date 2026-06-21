@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Jordan Howard",
-      "college": "Indiana",
-      "year": 2016,
-      "round": 5,
-      "pick": 150,
-      "ppg": 11.2325,
-      "rawPpg": 13.0679,
-      "madeIt": true,
-      "similarity": 0.317
-    },
-    {
-      "rank": 2,
       "name": "Marlon Mack",
       "college": "South Florida",
       "year": 2017,
@@ -23,34 +11,34 @@
       "ppg": 11.1435,
       "rawPpg": 13.2917,
       "madeIt": true,
-      "similarity": 0.278
+      "similarity": 0.482
+    },
+    {
+      "rank": 2,
+      "name": "Jordan Howard",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 5,
+      "pick": 150,
+      "ppg": 11.2325,
+      "rawPpg": 13.0679,
+      "madeIt": true,
+      "similarity": 0.481
     },
     {
       "rank": 3,
-      "name": "La'Mical Perine",
-      "college": "Florida",
-      "year": 2020,
-      "round": 4,
-      "pick": 120,
-      "ppg": 6.5818,
-      "rawPpg": 4.7,
+      "name": "Damien Harris",
+      "college": "Alabama",
+      "year": 2019,
+      "round": 3,
+      "pick": 87,
+      "ppg": 10.0982,
+      "rawPpg": 11.1433,
       "madeIt": true,
-      "similarity": 0.238
+      "similarity": 0.445
     },
     {
       "rank": 4,
-      "name": "De'Von Achane",
-      "college": "Texas A&M",
-      "year": 2023,
-      "round": 3,
-      "pick": 84,
-      "ppg": 13.7355,
-      "rawPpg": 17.0952,
-      "madeIt": true,
-      "similarity": 0.23
-    },
-    {
-      "rank": 5,
       "name": "Lamar Miller",
       "college": "Miami (FL)",
       "year": 2012,
@@ -59,10 +47,10 @@
       "ppg": 9.1964,
       "rawPpg": 9.9156,
       "madeIt": true,
-      "similarity": 0.206
+      "similarity": 0.432
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "Paul Perkins",
       "college": "UCLA",
       "year": 2016,
@@ -71,19 +59,7 @@
       "ppg": 5.5534,
       "rawPpg": 3.575,
       "madeIt": true,
-      "similarity": 0.199
-    },
-    {
-      "rank": 7,
-      "name": "Wayne Gallman",
-      "college": "Clemson",
-      "year": 2017,
-      "round": 4,
-      "pick": 140,
-      "ppg": 6.7034,
-      "rawPpg": 5.753,
-      "madeIt": true,
-      "similarity": 0.193
+      "similarity": 0.425
     }
   ]
 }

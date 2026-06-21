@@ -1,0 +1,89 @@
+{
+  "prospectId": "connor-heyward-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ryan Taylor",
+      "college": "North Carolina",
+      "year": 2011,
+      "round": 7,
+      "pick": 218,
+      "ppg": 2.4957,
+      "rawPpg": 0.7583,
+      "madeIt": false,
+      "similarity": 0.556
+    },
+    {
+      "rank": 2,
+      "name": "Ted Bolser",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.54
+    },
+    {
+      "rank": 3,
+      "name": "Brad Smelley",
+      "college": "Alabama",
+      "year": 2012,
+      "round": 7,
+      "pick": 247,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.525
+    },
+    {
+      "rank": 4,
+      "name": "Rob Blanchflower",
+      "college": "Massachusetts",
+      "year": 2014,
+      "round": 7,
+      "pick": 230,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.437
+    },
+    {
+      "rank": 5,
+      "name": "Brandon Myers",
+      "college": "Iowa",
+      "year": 2009,
+      "round": 6,
+      "pick": 202,
+      "ppg": 2.4781,
+      "rawPpg": 1.3582,
+      "madeIt": false,
+      "similarity": 0.411
+    },
+    {
+      "rank": 6,
+      "name": "Drake Dunsmore",
+      "college": "Northwestern",
+      "year": 2012,
+      "round": 7,
+      "pick": 233,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.411
+    },
+    {
+      "rank": 7,
+      "name": "Jameson Konz",
+      "college": "Kent St.",
+      "year": 2010,
+      "round": 7,
+      "pick": 245,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.367
+    }
+  ]
+}

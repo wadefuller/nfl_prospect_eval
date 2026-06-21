@@ -11,7 +11,7 @@
       "ppg": 7.1738,
       "rawPpg": 7.4247,
       "madeIt": true,
-      "similarity": 0.231
+      "similarity": 0.497
     },
     {
       "rank": 2,
@@ -23,7 +23,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.225
+      "similarity": 0.464
     },
     {
       "rank": 3,
@@ -35,55 +35,31 @@
       "ppg": 6.2603,
       "rawPpg": 2.2667,
       "madeIt": true,
-      "similarity": 0.159
+      "similarity": 0.423
     },
     {
       "rank": 4,
-      "name": "Trestan Ebner",
-      "college": "Baylor",
-      "year": 2022,
-      "round": 6,
-      "pick": 203,
-      "ppg": 4.7899,
-      "rawPpg": 0.4727,
-      "madeIt": false,
-      "similarity": 0.155
+      "name": "Da'Rel Scott",
+      "college": "Maryland",
+      "year": 2011,
+      "round": 7,
+      "pick": 221,
+      "ppg": 5.4795,
+      "rawPpg": 0.2714,
+      "madeIt": true,
+      "similarity": 0.399
     },
     {
       "rank": 5,
-      "name": "Latavius Murray",
-      "college": "Central Florida",
-      "year": 2013,
-      "round": 6,
-      "pick": 181,
-      "ppg": 8.5695,
-      "rawPpg": 8.7286,
-      "madeIt": true,
-      "similarity": 0.141
-    },
-    {
-      "rank": 6,
-      "name": "Keaontay Ingram",
-      "college": "USC",
-      "year": 2022,
-      "round": 6,
-      "pick": 201,
-      "ppg": 4.4773,
-      "rawPpg": 1.589,
-      "madeIt": false,
-      "similarity": 0.13
-    },
-    {
-      "rank": 7,
-      "name": "Josh Robinson",
-      "college": "Mississippi St.",
-      "year": 2015,
-      "round": 6,
-      "pick": 205,
+      "name": "David Williams",
+      "college": "Arkansas",
+      "year": 2018,
+      "round": 7,
+      "pick": 226,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.13
+      "similarity": 0.367
     }
   ]
 }

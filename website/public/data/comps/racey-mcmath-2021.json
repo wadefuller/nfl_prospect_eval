@@ -11,7 +11,7 @@
       "ppg": 6.8868,
       "rawPpg": 7.2581,
       "madeIt": true,
-      "similarity": 0.637
+      "similarity": 0.744
     },
     {
       "rank": 2,
@@ -23,19 +23,19 @@
       "ppg": 4.3877,
       "rawPpg": 2.9429,
       "madeIt": false,
-      "similarity": 0.61
+      "similarity": 0.543
     },
     {
       "rank": 3,
-      "name": "Jalen Camp",
-      "college": "Georgia Tech",
-      "year": 2021,
+      "name": "Evan Spencer",
+      "college": "Ohio St.",
+      "year": 2015,
       "round": 6,
-      "pick": 209,
+      "pick": 187,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.557
+      "similarity": 0.534
     },
     {
       "rank": 4,
@@ -47,7 +47,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.457
+      "similarity": 0.524
     },
     {
       "rank": 5,
@@ -59,31 +59,31 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.451
+      "similarity": 0.504
     },
     {
       "rank": 6,
-      "name": "Charone Peake",
-      "college": "Clemson",
-      "year": 2016,
-      "round": 7,
-      "pick": 241,
-      "ppg": 3.7362,
-      "rawPpg": 1.4625,
-      "madeIt": false,
-      "similarity": 0.449
+      "name": "Quincy Enunwa",
+      "college": "Nebraska",
+      "year": 2014,
+      "round": 6,
+      "pick": 209,
+      "ppg": 6.4612,
+      "rawPpg": 6.3037,
+      "madeIt": true,
+      "similarity": 0.475
     },
     {
       "rank": 7,
-      "name": "Darren Waller",
-      "college": "Georgia Tech",
-      "year": 2015,
-      "round": 6,
-      "pick": 204,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "Noah Brown",
+      "college": "Ohio St.",
+      "year": 2017,
+      "round": 7,
+      "pick": 239,
+      "ppg": 3.6211,
+      "rawPpg": 0.9429,
       "madeIt": false,
-      "similarity": 0.435
+      "similarity": 0.475
     }
   ]
 }

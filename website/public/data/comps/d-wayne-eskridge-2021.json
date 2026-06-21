@@ -3,42 +3,30 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Josh Huff",
-      "college": "Oregon",
-      "year": 2014,
-      "round": 3,
-      "pick": 86,
-      "ppg": 4.6569,
-      "rawPpg": 3.73,
-      "madeIt": false,
-      "similarity": 0.358
+      "name": "Phillip Dorsett",
+      "college": "Miami (FL)",
+      "year": 2015,
+      "round": 1,
+      "pick": 29,
+      "ppg": 5.165,
+      "rawPpg": 4.5252,
+      "madeIt": true,
+      "similarity": 0.286
     },
     {
       "rank": 2,
-      "name": "Cordarrelle Patterson",
-      "college": "Tennessee",
-      "year": 2013,
-      "round": 1,
-      "pick": 29,
-      "ppg": 6.5257,
-      "rawPpg": 6.8062,
+      "name": "Golden Tate",
+      "college": "Notre Dame",
+      "year": 2010,
+      "round": 2,
+      "pick": 60,
+      "ppg": 6.7555,
+      "rawPpg": 7.1773,
       "madeIt": true,
-      "similarity": 0.321
+      "similarity": 0.27
     },
     {
       "rank": 3,
-      "name": "Will Fuller",
-      "college": "Notre Dame",
-      "year": 2016,
-      "round": 1,
-      "pick": 21,
-      "ppg": 8.6343,
-      "rawPpg": 11.41,
-      "madeIt": true,
-      "similarity": 0.318
-    },
-    {
-      "rank": 4,
       "name": "Chris Givens",
       "college": "Wake Forest",
       "year": 2012,
@@ -47,10 +35,10 @@
       "ppg": 5.9603,
       "rawPpg": 6.0052,
       "madeIt": true,
-      "similarity": 0.311
+      "similarity": 0.269
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "Brandon Aiyuk",
       "college": "Arizona St.",
       "year": 2020,
@@ -59,31 +47,43 @@
       "ppg": 9.7496,
       "rawPpg": 11.9904,
       "madeIt": true,
-      "similarity": 0.297
+      "similarity": 0.268
+    },
+    {
+      "rank": 5,
+      "name": "Andy Isabella",
+      "college": "Massachusetts",
+      "year": 2019,
+      "round": 2,
+      "pick": 62,
+      "ppg": 4.3752,
+      "rawPpg": 3.3011,
+      "madeIt": false,
+      "similarity": 0.263
     },
     {
       "rank": 6,
-      "name": "Jonathan Mingo",
-      "college": "Mississippi",
-      "year": 2023,
-      "round": 2,
-      "pick": 39,
-      "ppg": 4.054,
-      "rawPpg": 2.9564,
+      "name": "Josh Huff",
+      "college": "Oregon",
+      "year": 2014,
+      "round": 3,
+      "pick": 86,
+      "ppg": 4.6569,
+      "rawPpg": 3.73,
       "madeIt": false,
-      "similarity": 0.296
+      "similarity": 0.255
     },
     {
       "rank": 7,
-      "name": "Demaryius Thomas",
-      "college": "Georgia Tech",
-      "year": 2010,
-      "round": 1,
-      "pick": 22,
-      "ppg": 10.415,
-      "rawPpg": 12.48,
+      "name": "Terrance Williams",
+      "college": "Baylor",
+      "year": 2013,
+      "round": 3,
+      "pick": 74,
+      "ppg": 7.6094,
+      "rawPpg": 8.4867,
       "madeIt": true,
-      "similarity": 0.281
+      "similarity": 0.251
     }
   ]
 }

@@ -11,7 +11,7 @@
       "ppg": 4.3512,
       "rawPpg": 1.77,
       "madeIt": false,
-      "similarity": 0.602
+      "similarity": 0.62
     },
     {
       "rank": 2,
@@ -23,46 +23,10 @@
       "ppg": 7.2203,
       "rawPpg": 7.7585,
       "madeIt": true,
-      "similarity": 0.536
+      "similarity": 0.581
     },
     {
       "rank": 3,
-      "name": "Tyreek Hill",
-      "college": "West Alabama",
-      "year": 2016,
-      "round": 5,
-      "pick": 165,
-      "ppg": 12.6305,
-      "rawPpg": 16.0015,
-      "madeIt": true,
-      "similarity": 0.467
-    },
-    {
-      "rank": 4,
-      "name": "Ray-Ray McCloud",
-      "college": "Clemson",
-      "year": 2018,
-      "round": 6,
-      "pick": 187,
-      "ppg": 3.1533,
-      "rawPpg": 1.1625,
-      "madeIt": false,
-      "similarity": 0.466
-    },
-    {
-      "rank": 5,
-      "name": "Justin Brown",
-      "college": "Oklahoma",
-      "year": 2013,
-      "round": 6,
-      "pick": 186,
-      "ppg": 4.9469,
-      "rawPpg": 2.2333,
-      "madeIt": false,
-      "similarity": 0.451
-    },
-    {
-      "rank": 6,
       "name": "Shi Smith",
       "college": "South Carolina",
       "year": 2021,
@@ -71,19 +35,55 @@
       "ppg": 4.4252,
       "rawPpg": 2.9765,
       "madeIt": false,
-      "similarity": 0.432
+      "similarity": 0.533
+    },
+    {
+      "rank": 4,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
+      "madeIt": false,
+      "similarity": 0.499
+    },
+    {
+      "rank": 5,
+      "name": "Ronald Johnson",
+      "college": "USC",
+      "year": 2011,
+      "round": 6,
+      "pick": 182,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.426
+    },
+    {
+      "rank": 6,
+      "name": "Tyreek Hill",
+      "college": "West Alabama",
+      "year": 2016,
+      "round": 5,
+      "pick": 165,
+      "ppg": 12.6305,
+      "rawPpg": 16.0015,
+      "madeIt": true,
+      "similarity": 0.414
     },
     {
       "rank": 7,
-      "name": "Deon Cain",
-      "college": "Clemson",
-      "year": 2018,
-      "round": 6,
-      "pick": 185,
-      "ppg": 4.1604,
-      "rawPpg": 1.5364,
+      "name": "Rodney Adams",
+      "college": "South Florida",
+      "year": 2017,
+      "round": 5,
+      "pick": 170,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.432
+      "similarity": 0.407
     }
   ]
 }

@@ -3,6 +3,42 @@
   "comps": [
     {
       "rank": 1,
+      "name": "Devin Funchess",
+      "college": "Michigan",
+      "year": 2015,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.2861,
+      "rawPpg": 7.9469,
+      "madeIt": true,
+      "similarity": 0.594
+    },
+    {
+      "rank": 2,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
+      "madeIt": true,
+      "similarity": 0.591
+    },
+    {
+      "rank": 3,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.582
+    },
+    {
+      "rank": 4,
       "name": "Tre Tucker",
       "college": "Cincinnati",
       "year": 2023,
@@ -11,79 +47,43 @@
       "ppg": 6.6886,
       "rawPpg": 7.0294,
       "madeIt": true,
-      "similarity": 0.628
-    },
-    {
-      "rank": 2,
-      "name": "Bruce Ellington",
-      "college": "South Carolina",
-      "year": 2014,
-      "round": 4,
-      "pick": 106,
-      "ppg": 3.5222,
-      "rawPpg": 2.0192,
-      "madeIt": false,
-      "similarity": 0.545
-    },
-    {
-      "rank": 3,
-      "name": "Taylor Price",
-      "college": "Ohio",
-      "year": 2010,
-      "round": 3,
-      "pick": 90,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.533
-    },
-    {
-      "rank": 4,
-      "name": "Jacoby Ford",
-      "college": "Clemson",
-      "year": 2010,
-      "round": 4,
-      "pick": 108,
-      "ppg": 6.7418,
-      "rawPpg": 7.0562,
-      "madeIt": true,
-      "similarity": 0.527
+      "similarity": 0.579
     },
     {
       "rank": 5,
-      "name": "Van Jefferson",
-      "college": "Florida",
+      "name": "KJ Hamler",
+      "college": "Penn St.",
       "year": 2020,
       "round": 2,
-      "pick": 57,
-      "ppg": 7.1054,
-      "rawPpg": 7.5568,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
       "madeIt": true,
-      "similarity": 0.512
+      "similarity": 0.574
     },
     {
       "rank": 6,
-      "name": "Mecole Hardman",
-      "college": "Georgia",
-      "year": 2019,
-      "round": 2,
-      "pick": 56,
-      "ppg": 6.5736,
-      "rawPpg": 6.8781,
-      "madeIt": true,
-      "similarity": 0.498
+      "name": "Anthony Schwartz",
+      "college": "Auburn",
+      "year": 2021,
+      "round": 3,
+      "pick": 91,
+      "ppg": 3.9064,
+      "rawPpg": 2.2923,
+      "madeIt": false,
+      "similarity": 0.569
     },
     {
       "rank": 7,
-      "name": "Damian Williams",
-      "college": "USC",
-      "year": 2010,
-      "round": 3,
-      "pick": 77,
-      "ppg": 5.7848,
-      "rawPpg": 5.5464,
+      "name": "Antonio Callaway",
+      "college": "Florida",
+      "year": 2018,
+      "round": 4,
+      "pick": 105,
+      "ppg": 6.4447,
+      "rawPpg": 6.925,
       "madeIt": true,
-      "similarity": 0.488
+      "similarity": 0.562
     }
   ]
 }

@@ -11,7 +11,7 @@
       "ppg": 4.8074,
       "rawPpg": 4.2209,
       "madeIt": false,
-      "similarity": 0.55
+      "similarity": 0.623
     },
     {
       "rank": 2,
@@ -23,22 +23,10 @@
       "ppg": 6.6886,
       "rawPpg": 7.0294,
       "madeIt": true,
-      "similarity": 0.479
+      "similarity": 0.584
     },
     {
       "rank": 3,
-      "name": "Trevor Davis",
-      "college": "California",
-      "year": 2016,
-      "round": 5,
-      "pick": 163,
-      "ppg": 2.9777,
-      "rawPpg": 0.9788,
-      "madeIt": false,
-      "similarity": 0.462
-    },
-    {
-      "rank": 4,
       "name": "Keshawn Martin",
       "college": "Michigan St.",
       "year": 2012,
@@ -47,10 +35,10 @@
       "ppg": 3.6361,
       "rawPpg": 2.4719,
       "madeIt": false,
-      "similarity": 0.437
+      "similarity": 0.531
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "Jalen Saunders",
       "college": "Oklahoma",
       "year": 2014,
@@ -59,22 +47,22 @@
       "ppg": 4.0263,
       "rawPpg": 0.15,
       "madeIt": false,
-      "similarity": 0.428
+      "similarity": 0.47
+    },
+    {
+      "rank": 5,
+      "name": "Trevor Davis",
+      "college": "California",
+      "year": 2016,
+      "round": 5,
+      "pick": 163,
+      "ppg": 2.9777,
+      "rawPpg": 0.9788,
+      "madeIt": false,
+      "similarity": 0.454
     },
     {
       "rank": 6,
-      "name": "Antonio Callaway",
-      "college": "Florida",
-      "year": 2018,
-      "round": 4,
-      "pick": 105,
-      "ppg": 6.4447,
-      "rawPpg": 6.925,
-      "madeIt": true,
-      "similarity": 0.426
-    },
-    {
-      "rank": 7,
       "name": "Ihmir Smith-Marsette",
       "college": "Iowa",
       "year": 2021,
@@ -83,7 +71,19 @@
       "ppg": 3.847,
       "rawPpg": 3.0132,
       "madeIt": false,
-      "similarity": 0.388
+      "similarity": 0.451
+    },
+    {
+      "rank": 7,
+      "name": "T.Y. Hilton",
+      "college": "Florida International",
+      "year": 2012,
+      "round": 3,
+      "pick": 92,
+      "ppg": 10.4858,
+      "rawPpg": 12.8719,
+      "madeIt": true,
+      "similarity": 0.447
     }
   ]
 }

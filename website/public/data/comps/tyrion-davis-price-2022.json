@@ -11,7 +11,7 @@
       "ppg": 8.3424,
       "rawPpg": 9.1275,
       "madeIt": true,
-      "similarity": 0.204
+      "similarity": 0.316
     },
     {
       "rank": 2,
@@ -23,22 +23,10 @@
       "ppg": 9.1964,
       "rawPpg": 9.9156,
       "madeIt": true,
-      "similarity": 0.194
+      "similarity": 0.262
     },
     {
       "rank": 3,
-      "name": "De'Von Achane",
-      "college": "Texas A&M",
-      "year": 2023,
-      "round": 3,
-      "pick": 84,
-      "ppg": 13.7355,
-      "rawPpg": 17.0952,
-      "madeIt": true,
-      "similarity": 0.14
-    },
-    {
-      "rank": 4,
       "name": "Joshua Kelley",
       "college": "UCLA",
       "year": 2020,
@@ -47,43 +35,31 @@
       "ppg": 6.1373,
       "rawPpg": 5.0891,
       "madeIt": true,
-      "similarity": 0.136
+      "similarity": 0.249
+    },
+    {
+      "rank": 4,
+      "name": "D'Onta Foreman",
+      "college": "Texas",
+      "year": 2017,
+      "round": 3,
+      "pick": 89,
+      "ppg": 7.1251,
+      "rawPpg": 6,
+      "madeIt": true,
+      "similarity": 0.221
     },
     {
       "rank": 5,
-      "name": "Ben Tate",
-      "college": "Auburn",
-      "year": 2010,
+      "name": "AJ Dillon",
+      "college": "Boston Col.",
+      "year": 2020,
       "round": 2,
-      "pick": 58,
-      "ppg": 7.1649,
-      "rawPpg": 6.4788,
+      "pick": 62,
+      "ppg": 8.9266,
+      "rawPpg": 9.4765,
       "madeIt": true,
-      "similarity": 0.134
-    },
-    {
-      "rank": 6,
-      "name": "Isaiah Spiller",
-      "college": "Texas A&M",
-      "year": 2022,
-      "round": 4,
-      "pick": 123,
-      "ppg": 5.6051,
-      "rawPpg": 1.7778,
-      "madeIt": true,
-      "similarity": 0.132
-    },
-    {
-      "rank": 7,
-      "name": "Miles Sanders",
-      "college": "Penn St.",
-      "year": 2019,
-      "round": 2,
-      "pick": 53,
-      "ppg": 10.7779,
-      "rawPpg": 12.5698,
-      "madeIt": true,
-      "similarity": 0.126
+      "similarity": 0.213
     }
   ]
 }

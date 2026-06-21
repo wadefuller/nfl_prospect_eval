@@ -3,27 +3,27 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Marlon Mack",
-      "college": "South Florida",
-      "year": 2017,
-      "round": 4,
-      "pick": 143,
-      "ppg": 11.1435,
-      "rawPpg": 13.2917,
-      "madeIt": true,
-      "similarity": 0.306
+      "name": "Cyrus Gray",
+      "college": "Texas A&M",
+      "year": 2012,
+      "round": 6,
+      "pick": 182,
+      "ppg": 4.1065,
+      "rawPpg": 1.0875,
+      "madeIt": false,
+      "similarity": 0.421
     },
     {
       "rank": 2,
-      "name": "Jordan Howard",
-      "college": "Indiana",
-      "year": 2016,
-      "round": 5,
-      "pick": 150,
-      "ppg": 11.2325,
-      "rawPpg": 13.0679,
+      "name": "Elijah McGuire",
+      "college": "Louisiana",
+      "year": 2017,
+      "round": 6,
+      "pick": 188,
+      "ppg": 6.9289,
+      "rawPpg": 7.0983,
       "madeIt": true,
-      "similarity": 0.289
+      "similarity": 0.411
     },
     {
       "rank": 3,
@@ -35,22 +35,10 @@
       "ppg": 7.7259,
       "rawPpg": 7.6937,
       "madeIt": true,
-      "similarity": 0.272
+      "similarity": 0.403
     },
     {
       "rank": 4,
-      "name": "Ty Johnson",
-      "college": "Maryland",
-      "year": 2019,
-      "round": 6,
-      "pick": 186,
-      "ppg": 6.653,
-      "rawPpg": 5.847,
-      "madeIt": true,
-      "similarity": 0.24
-    },
-    {
-      "rank": 5,
       "name": "Zac Stacy",
       "college": "Vanderbilt",
       "year": 2013,
@@ -59,31 +47,19 @@
       "ppg": 9.2113,
       "rawPpg": 9.6372,
       "madeIt": true,
-      "similarity": 0.237
+      "similarity": 0.398
     },
     {
-      "rank": 6,
-      "name": "Paul Perkins",
-      "college": "UCLA",
-      "year": 2016,
-      "round": 5,
-      "pick": 149,
-      "ppg": 5.5534,
-      "rawPpg": 3.575,
-      "madeIt": true,
-      "similarity": 0.232
-    },
-    {
-      "rank": 7,
-      "name": "Jamaal Williams",
-      "college": "BYU",
+      "rank": 5,
+      "name": "Marlon Mack",
+      "college": "South Florida",
       "year": 2017,
       "round": 4,
-      "pick": 134,
-      "ppg": 8.4717,
-      "rawPpg": 8.8719,
+      "pick": 143,
+      "ppg": 11.1435,
+      "rawPpg": 13.2917,
       "madeIt": true,
-      "similarity": 0.224
+      "similarity": 0.387
     }
   ]
 }

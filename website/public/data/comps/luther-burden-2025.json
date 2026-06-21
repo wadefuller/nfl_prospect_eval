@@ -11,70 +11,10 @@
       "ppg": 5.1985,
       "rawPpg": 5.0709,
       "madeIt": true,
-      "similarity": 0.67
+      "similarity": 0.719
     },
     {
       "rank": 2,
-      "name": "Courtland Sutton",
-      "college": "SMU",
-      "year": 2018,
-      "round": 2,
-      "pick": 40,
-      "ppg": 8.274,
-      "rawPpg": 9.4288,
-      "madeIt": true,
-      "similarity": 0.533
-    },
-    {
-      "rank": 3,
-      "name": "Keenan Allen",
-      "college": "California",
-      "year": 2013,
-      "round": 3,
-      "pick": 76,
-      "ppg": 10.5521,
-      "rawPpg": 14.3283,
-      "madeIt": true,
-      "similarity": 0.516
-    },
-    {
-      "rank": 4,
-      "name": "Alshon Jeffery",
-      "college": "South Carolina",
-      "year": 2012,
-      "round": 2,
-      "pick": 45,
-      "ppg": 11.534,
-      "rawPpg": 14.3187,
-      "madeIt": true,
-      "similarity": 0.502
-    },
-    {
-      "rank": 5,
-      "name": "JuJu Smith-Schuster",
-      "college": "USC",
-      "year": 2017,
-      "round": 2,
-      "pick": 62,
-      "ppg": 10.9898,
-      "rawPpg": 13.5687,
-      "madeIt": true,
-      "similarity": 0.464
-    },
-    {
-      "rank": 6,
-      "name": "Rashod Bateman",
-      "college": "Minnesota",
-      "year": 2021,
-      "round": 1,
-      "pick": 27,
-      "ppg": 6.5274,
-      "rawPpg": 7.1875,
-      "madeIt": true,
-      "similarity": 0.46
-    },
-    {
-      "rank": 7,
       "name": "Jaelen Strong",
       "college": "Arizona St.",
       "year": 2015,
@@ -83,7 +23,67 @@
       "ppg": 4.8947,
       "rawPpg": 3.73,
       "madeIt": false,
-      "similarity": 0.432
+      "similarity": 0.533
+    },
+    {
+      "rank": 3,
+      "name": "JuJu Smith-Schuster",
+      "college": "USC",
+      "year": 2017,
+      "round": 2,
+      "pick": 62,
+      "ppg": 10.9898,
+      "rawPpg": 13.5687,
+      "madeIt": true,
+      "similarity": 0.529
+    },
+    {
+      "rank": 4,
+      "name": "Arrelious Benn",
+      "college": "Illinois",
+      "year": 2010,
+      "round": 2,
+      "pick": 39,
+      "ppg": 5.4394,
+      "rawPpg": 5.1393,
+      "madeIt": true,
+      "similarity": 0.527
+    },
+    {
+      "rank": 5,
+      "name": "Robert Woods",
+      "college": "USC",
+      "year": 2013,
+      "round": 2,
+      "pick": 41,
+      "ppg": 7.1333,
+      "rawPpg": 7.7196,
+      "madeIt": true,
+      "similarity": 0.526
+    },
+    {
+      "rank": 6,
+      "name": "N'Keal Harry",
+      "college": "Arizona St.",
+      "year": 2019,
+      "round": 1,
+      "pick": 32,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.518
+    },
+    {
+      "rank": 7,
+      "name": "Alshon Jeffery",
+      "college": "South Carolina",
+      "year": 2012,
+      "round": 2,
+      "pick": 45,
+      "ppg": 11.534,
+      "rawPpg": 14.3187,
+      "madeIt": true,
+      "similarity": 0.515
     }
   ]
 }

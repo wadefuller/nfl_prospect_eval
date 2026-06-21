@@ -1,0 +1,65 @@
+{
+  "prospectId": "tyler-shough-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jordan Love",
+      "college": "Utah St.",
+      "year": 2020,
+      "round": 1,
+      "pick": 26,
+      "ppg": 9.4772,
+      "rawPpg": 3.5233,
+      "madeIt": true,
+      "similarity": 0.514
+    },
+    {
+      "rank": 2,
+      "name": "Josh Rosen",
+      "college": "UCLA",
+      "year": 2018,
+      "round": 1,
+      "pick": 10,
+      "ppg": 10.0093,
+      "rawPpg": 8.0657,
+      "madeIt": true,
+      "similarity": 0.432
+    },
+    {
+      "rank": 3,
+      "name": "Garrett Grayson",
+      "college": "Colorado St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 75,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.43
+    },
+    {
+      "rank": 4,
+      "name": "Mike Glennon",
+      "college": "North Carolina St.",
+      "year": 2013,
+      "round": 3,
+      "pick": 73,
+      "ppg": 12.4274,
+      "rawPpg": 13.5427,
+      "madeIt": true,
+      "similarity": 0.408
+    },
+    {
+      "rank": 5,
+      "name": "Kellen Mond",
+      "college": "Texas A&M",
+      "year": 2021,
+      "round": 3,
+      "pick": 66,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.403
+    }
+  ]
+}

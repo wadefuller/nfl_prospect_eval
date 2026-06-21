@@ -3,42 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Xavier Hutchinson",
-      "college": "Iowa St.",
-      "year": 2023,
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
       "round": 6,
-      "pick": 205,
-      "ppg": 4.4053,
-      "rawPpg": 3.2615,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
       "madeIt": false,
-      "similarity": 0.332
+      "similarity": 0.315
     },
     {
       "rank": 2,
-      "name": "KeeSean Johnson",
-      "college": "Fresno St.",
-      "year": 2019,
-      "round": 6,
-      "pick": 174,
-      "ppg": 4.5803,
-      "rawPpg": 3.325,
-      "madeIt": false,
-      "similarity": 0.22
-    },
-    {
-      "rank": 3,
-      "name": "Kerry Meier",
-      "college": "Kansas",
-      "year": 2010,
-      "round": 5,
-      "pick": 165,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.215
-    },
-    {
-      "rank": 4,
       "name": "David Reed",
       "college": "Utah",
       "year": 2010,
@@ -47,34 +23,46 @@
       "ppg": 2.9866,
       "rawPpg": 0.4639,
       "madeIt": false,
-      "similarity": 0.214
+      "similarity": 0.313
+    },
+    {
+      "rank": 3,
+      "name": "Michael Campanaro",
+      "college": "Wake Forest",
+      "year": 2014,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.306
+    },
+    {
+      "rank": 4,
+      "name": "Scott Miller",
+      "college": "Bowling Green",
+      "year": 2019,
+      "round": 6,
+      "pick": 208,
+      "ppg": 5.5265,
+      "rawPpg": 4.9659,
+      "madeIt": true,
+      "similarity": 0.281
     },
     {
       "rank": 5,
-      "name": "Dwayne Harris",
-      "college": "East Carolina",
-      "year": 2011,
+      "name": "DeMario Douglas",
+      "college": "Liberty",
+      "year": 2023,
       "round": 6,
-      "pick": 176,
-      "ppg": 3.8916,
-      "rawPpg": 2.6862,
-      "madeIt": false,
-      "similarity": 0.214
+      "pick": 210,
+      "ppg": 6.3659,
+      "rawPpg": 6.5379,
+      "madeIt": true,
+      "similarity": 0.278
     },
     {
       "rank": 6,
-      "name": "Aaron Burbridge",
-      "college": "Michigan St.",
-      "year": 2016,
-      "round": 6,
-      "pick": 213,
-      "ppg": 3.4752,
-      "rawPpg": 0.82,
-      "madeIt": false,
-      "similarity": 0.199
-    },
-    {
-      "rank": 7,
       "name": "Trent Taylor",
       "college": "Louisiana Tech",
       "year": 2017,
@@ -83,7 +71,19 @@
       "ppg": 4.8735,
       "rawPpg": 4.1846,
       "madeIt": false,
-      "similarity": 0.199
+      "similarity": 0.277
+    },
+    {
+      "rank": 7,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
+      "round": 5,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
+      "madeIt": false,
+      "similarity": 0.267
     }
   ]
 }

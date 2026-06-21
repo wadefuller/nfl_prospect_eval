@@ -1,0 +1,65 @@
+{
+  "prospectId": "cam-miller-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Brandon Allen",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.325
+    },
+    {
+      "rank": 2,
+      "name": "Jake Rudock",
+      "college": "Michigan",
+      "year": 2016,
+      "round": 6,
+      "pick": 191,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.302
+    },
+    {
+      "rank": 3,
+      "name": "Logan Woodside",
+      "college": "Toledo",
+      "year": 2018,
+      "round": 7,
+      "pick": 249,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.302
+    },
+    {
+      "rank": 4,
+      "name": "Max Duggan",
+      "college": "TCU",
+      "year": 2023,
+      "round": 7,
+      "pick": 239,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.3
+    },
+    {
+      "rank": 5,
+      "name": "Zac Dysert",
+      "college": "Miami (OH)",
+      "year": 2013,
+      "round": 7,
+      "pick": 234,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.275
+    }
+  ]
+}

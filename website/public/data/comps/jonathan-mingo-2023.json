@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Quentin Johnston",
-      "college": "TCU",
-      "year": 2023,
-      "round": 1,
-      "pick": 21,
-      "ppg": 8.8257,
-      "rawPpg": 10.5105,
-      "madeIt": true,
-      "similarity": 0.598
-    },
-    {
-      "rank": 2,
       "name": "Cordarrelle Patterson",
       "college": "Tennessee",
       "year": 2013,
@@ -23,34 +11,10 @@
       "ppg": 6.5257,
       "rawPpg": 6.8062,
       "madeIt": true,
-      "similarity": 0.577
+      "similarity": 0.683
     },
     {
-      "rank": 3,
-      "name": "Aaron Dobson",
-      "college": "Marshall",
-      "year": 2013,
-      "round": 2,
-      "pick": 59,
-      "ppg": 6.3767,
-      "rawPpg": 6.0076,
-      "madeIt": true,
-      "similarity": 0.553
-    },
-    {
-      "rank": 4,
-      "name": "KJ Hamler",
-      "college": "Penn St.",
-      "year": 2020,
-      "round": 2,
-      "pick": 46,
-      "ppg": 5.6715,
-      "rawPpg": 4.9875,
-      "madeIt": true,
-      "similarity": 0.55
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "name": "Jaylen Waddle",
       "college": "Alabama",
       "year": 2021,
@@ -59,10 +23,58 @@
       "ppg": 10.468,
       "rawPpg": 12.6393,
       "madeIt": true,
-      "similarity": 0.544
+      "similarity": 0.608
+    },
+    {
+      "rank": 3,
+      "name": "Quentin Johnston",
+      "college": "TCU",
+      "year": 2023,
+      "round": 1,
+      "pick": 21,
+      "ppg": 8.8257,
+      "rawPpg": 10.5105,
+      "madeIt": true,
+      "similarity": 0.531
+    },
+    {
+      "rank": 4,
+      "name": "Aaron Dobson",
+      "college": "Marshall",
+      "year": 2013,
+      "round": 2,
+      "pick": 59,
+      "ppg": 6.3767,
+      "rawPpg": 6.0076,
+      "madeIt": true,
+      "similarity": 0.526
+    },
+    {
+      "rank": 5,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.515
     },
     {
       "rank": 6,
+      "name": "Breshad Perriman",
+      "college": "Central Florida",
+      "year": 2015,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5889,
+      "rawPpg": 3.3973,
+      "madeIt": false,
+      "similarity": 0.502
+    },
+    {
+      "rank": 7,
       "name": "Alec Pierce",
       "college": "Cincinnati",
       "year": 2022,
@@ -71,19 +83,7 @@
       "ppg": 6.8777,
       "rawPpg": 7.3344,
       "madeIt": true,
-      "similarity": 0.538
-    },
-    {
-      "rank": 7,
-      "name": "Denzel Mims",
-      "college": "Baylor",
-      "year": 2020,
-      "round": 2,
-      "pick": 59,
-      "ppg": 4.9627,
-      "rawPpg": 4.0722,
-      "madeIt": false,
-      "similarity": 0.494
+      "similarity": 0.492
     }
   ]
 }

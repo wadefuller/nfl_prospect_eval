@@ -1,0 +1,65 @@
+{
+  "prospectId": "cole-payton-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kevin Hogan",
+      "college": "Stanford",
+      "year": 2016,
+      "round": 5,
+      "pick": 162,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.257
+    },
+    {
+      "rank": 2,
+      "name": "Greg McElroy",
+      "college": "Alabama",
+      "year": 2011,
+      "round": 7,
+      "pick": 208,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.257
+    },
+    {
+      "rank": 3,
+      "name": "Cardale Jones",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 4,
+      "pick": 139,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.248
+    },
+    {
+      "rank": 4,
+      "name": "Nathan Peterman",
+      "college": "Pittsburgh",
+      "year": 2017,
+      "round": 5,
+      "pick": 171,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.218
+    },
+    {
+      "rank": 5,
+      "name": "Brandon Allen",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.212
+    }
+  ]
+}

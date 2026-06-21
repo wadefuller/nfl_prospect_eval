@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Freddie Swain",
-      "college": "Florida",
-      "year": 2020,
+      "name": "Jalen Camp",
+      "college": "Georgia Tech",
+      "year": 2021,
       "round": 6,
-      "pick": 214,
-      "ppg": 4.4311,
-      "rawPpg": 3.4995,
+      "pick": 209,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.596
+      "similarity": 0.543
     },
     {
       "rank": 2,
@@ -23,34 +23,10 @@
       "ppg": 4.3877,
       "rawPpg": 2.9429,
       "madeIt": false,
-      "similarity": 0.585
+      "similarity": 0.519
     },
     {
       "rank": 3,
-      "name": "Noah Brown",
-      "college": "Ohio St.",
-      "year": 2017,
-      "round": 7,
-      "pick": 239,
-      "ppg": 3.6211,
-      "rawPpg": 0.9429,
-      "madeIt": false,
-      "similarity": 0.498
-    },
-    {
-      "rank": 4,
-      "name": "Jalen Camp",
-      "college": "Georgia Tech",
-      "year": 2021,
-      "round": 6,
-      "pick": 209,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.464
-    },
-    {
-      "rank": 5,
       "name": "Javon Wims",
       "college": "Georgia",
       "year": 2018,
@@ -59,10 +35,10 @@
       "ppg": 3.8657,
       "rawPpg": 2.2273,
       "madeIt": false,
-      "similarity": 0.423
+      "similarity": 0.49
     },
     {
-      "rank": 6,
+      "rank": 4,
       "name": "Toney Clemons",
       "college": "Colorado",
       "year": 2012,
@@ -71,10 +47,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.414
+      "similarity": 0.475
     },
     {
-      "rank": 7,
+      "rank": 5,
       "name": "Charone Peake",
       "college": "Clemson",
       "year": 2016,
@@ -83,7 +59,31 @@
       "ppg": 3.7362,
       "rawPpg": 1.4625,
       "madeIt": false,
-      "similarity": 0.407
+      "similarity": 0.429
+    },
+    {
+      "rank": 6,
+      "name": "Freddie Swain",
+      "college": "Florida",
+      "year": 2020,
+      "round": 6,
+      "pick": 214,
+      "ppg": 4.4311,
+      "rawPpg": 3.4995,
+      "madeIt": false,
+      "similarity": 0.425
+    },
+    {
+      "rank": 7,
+      "name": "Quincy Enunwa",
+      "college": "Nebraska",
+      "year": 2014,
+      "round": 6,
+      "pick": 209,
+      "ppg": 6.4612,
+      "rawPpg": 6.3037,
+      "madeIt": true,
+      "similarity": 0.424
     }
   ]
 }

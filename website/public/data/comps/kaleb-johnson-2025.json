@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Mikel Leshoure",
-      "college": "Illinois",
-      "year": 2011,
-      "round": 2,
-      "pick": 57,
-      "ppg": 9.6776,
-      "rawPpg": 11.8714,
-      "madeIt": true,
-      "similarity": 0.28
-    },
-    {
-      "rank": 2,
       "name": "Kendre Miller",
       "college": "TCU",
       "year": 2023,
@@ -23,46 +11,22 @@
       "ppg": 6.5182,
       "rawPpg": 4.9524,
       "madeIt": true,
-      "similarity": 0.253
+      "similarity": 0.537
+    },
+    {
+      "rank": 2,
+      "name": "Mikel Leshoure",
+      "college": "Illinois",
+      "year": 2011,
+      "round": 2,
+      "pick": 57,
+      "ppg": 9.6776,
+      "rawPpg": 11.8714,
+      "madeIt": true,
+      "similarity": 0.523
     },
     {
       "rank": 3,
-      "name": "Stevan Ridley",
-      "college": "LSU",
-      "year": 2011,
-      "round": 3,
-      "pick": 73,
-      "ppg": 9.7615,
-      "rawPpg": 10.7,
-      "madeIt": true,
-      "similarity": 0.241
-    },
-    {
-      "rank": 4,
-      "name": "James Conner",
-      "college": "Pittsburgh",
-      "year": 2017,
-      "round": 3,
-      "pick": 105,
-      "ppg": 12.952,
-      "rawPpg": 16.1365,
-      "madeIt": true,
-      "similarity": 0.235
-    },
-    {
-      "rank": 5,
-      "name": "Jeremy Hill",
-      "college": "LSU",
-      "year": 2014,
-      "round": 2,
-      "pick": 55,
-      "ppg": 10.3687,
-      "rawPpg": 11.6954,
-      "madeIt": true,
-      "similarity": 0.216
-    },
-    {
-      "rank": 6,
       "name": "Tyjae Spears",
       "college": "Tulane",
       "year": 2023,
@@ -71,10 +35,10 @@
       "ppg": 7.7895,
       "rawPpg": 7.8672,
       "madeIt": true,
-      "similarity": 0.214
+      "similarity": 0.512
     },
     {
-      "rank": 7,
+      "rank": 4,
       "name": "Robert Turbin",
       "college": "Utah St.",
       "year": 2012,
@@ -83,7 +47,19 @@
       "ppg": 5.4197,
       "rawPpg": 4.2125,
       "madeIt": true,
-      "similarity": 0.209
+      "similarity": 0.488
+    },
+    {
+      "rank": 5,
+      "name": "J.K. Dobbins",
+      "college": "Ohio St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 55,
+      "ppg": 9.2648,
+      "rawPpg": 10.1729,
+      "madeIt": true,
+      "similarity": 0.481
     }
   ]
 }

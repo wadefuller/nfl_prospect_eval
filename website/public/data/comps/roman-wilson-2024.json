@@ -3,66 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Nick Toon",
-      "college": "Wisconsin",
-      "year": 2012,
-      "round": 4,
-      "pick": 122,
-      "ppg": 5.9014,
-      "rawPpg": 5.7333,
-      "madeIt": true,
-      "similarity": 0.437
-    },
-    {
-      "rank": 2,
-      "name": "Kevin Norwood",
-      "college": "Alabama",
-      "year": 2014,
-      "round": 4,
-      "pick": 123,
-      "ppg": 5.006,
-      "rawPpg": 2.45,
-      "madeIt": true,
-      "similarity": 0.432
-    },
-    {
-      "rank": 3,
-      "name": "Dante Pettis",
-      "college": "Washington",
-      "year": 2018,
-      "round": 2,
-      "pick": 44,
-      "ppg": 5.7965,
-      "rawPpg": 5.3633,
-      "madeIt": true,
-      "similarity": 0.42
-    },
-    {
-      "rank": 4,
-      "name": "Terry McLaurin",
-      "college": "Ohio St.",
-      "year": 2019,
-      "round": 3,
-      "pick": 76,
-      "ppg": 9.7474,
-      "rawPpg": 11.8279,
-      "madeIt": true,
-      "similarity": 0.394
-    },
-    {
-      "rank": 5,
-      "name": "Jarius Wright",
-      "college": "Arkansas",
-      "year": 2012,
-      "round": 4,
-      "pick": 118,
-      "ppg": 6.564,
-      "rawPpg": 7.2324,
-      "madeIt": true,
-      "similarity": 0.391
-    },
-    {
-      "rank": 6,
       "name": "Danny Gray",
       "college": "SMU",
       "year": 2022,
@@ -71,19 +11,79 @@
       "ppg": 4.2536,
       "rawPpg": 0.3429,
       "madeIt": false,
-      "similarity": 0.389
+      "similarity": 0.534
+    },
+    {
+      "rank": 2,
+      "name": "Jarius Wright",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 118,
+      "ppg": 6.564,
+      "rawPpg": 7.2324,
+      "madeIt": true,
+      "similarity": 0.533
+    },
+    {
+      "rank": 3,
+      "name": "DaeSean Hamilton",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 4,
+      "pick": 113,
+      "ppg": 5.0649,
+      "rawPpg": 4.4485,
+      "madeIt": true,
+      "similarity": 0.508
+    },
+    {
+      "rank": 4,
+      "name": "Nick Toon",
+      "college": "Wisconsin",
+      "year": 2012,
+      "round": 4,
+      "pick": 122,
+      "ppg": 5.9014,
+      "rawPpg": 5.7333,
+      "madeIt": true,
+      "similarity": 0.499
+    },
+    {
+      "rank": 5,
+      "name": "Dante Pettis",
+      "college": "Washington",
+      "year": 2018,
+      "round": 2,
+      "pick": 44,
+      "ppg": 5.7965,
+      "rawPpg": 5.3633,
+      "madeIt": true,
+      "similarity": 0.48
+    },
+    {
+      "rank": 6,
+      "name": "Kevin Norwood",
+      "college": "Alabama",
+      "year": 2014,
+      "round": 4,
+      "pick": 123,
+      "ppg": 5.006,
+      "rawPpg": 2.45,
+      "madeIt": true,
+      "similarity": 0.455
     },
     {
       "rank": 7,
-      "name": "Austin Pettis",
-      "college": "Boise St.",
-      "year": 2011,
-      "round": 3,
-      "pick": 78,
-      "ppg": 5.6612,
-      "rawPpg": 5.4646,
+      "name": "Jayden Reed",
+      "college": "Michigan St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 50,
+      "ppg": 9.1864,
+      "rawPpg": 10.7728,
       "madeIt": true,
-      "similarity": 0.373
+      "similarity": 0.452
     }
   ]
 }

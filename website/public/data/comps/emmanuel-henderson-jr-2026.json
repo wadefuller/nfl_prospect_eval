@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Marcell Ateman",
-      "college": "Oklahoma St.",
-      "year": 2018,
-      "round": 7,
-      "pick": 228,
-      "ppg": 5.4057,
-      "rawPpg": 4.1286,
-      "madeIt": true,
-      "similarity": 0.56
-    },
-    {
-      "rank": 2,
       "name": "Devin Lucien",
       "college": "Arizona St.",
       "year": 2016,
@@ -23,46 +11,46 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.532
+      "similarity": 0.543
     },
     {
-      "rank": 3,
-      "name": "Jauan Jennings",
-      "college": "Tennessee",
-      "year": 2020,
-      "round": 7,
-      "pick": 217,
-      "ppg": 5.1274,
-      "rawPpg": 4.7344,
-      "madeIt": true,
-      "similarity": 0.517
-    },
-    {
-      "rank": 4,
-      "name": "Travis Fulgham",
-      "college": "Old Dominion",
+      "rank": 2,
+      "name": "Dillon Mitchell",
+      "college": "Oregon",
       "year": 2019,
-      "round": 6,
-      "pick": 184,
-      "ppg": 6.869,
-      "rawPpg": 8.075,
-      "madeIt": true,
-      "similarity": 0.483
-    },
-    {
-      "rank": 5,
-      "name": "Cornell Powell",
-      "college": "Clemson",
-      "year": 2021,
-      "round": 5,
-      "pick": 181,
+      "round": 7,
+      "pick": 239,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.483
+      "similarity": 0.464
     },
     {
-      "rank": 6,
+      "rank": 3,
+      "name": "T.J. Jones",
+      "college": "Notre Dame",
+      "year": 2014,
+      "round": 6,
+      "pick": 189,
+      "ppg": 4.5897,
+      "rawPpg": 2.39,
+      "madeIt": false,
+      "similarity": 0.46
+    },
+    {
+      "rank": 4,
+      "name": "Jordan Lasley",
+      "college": "UCLA",
+      "year": 2018,
+      "round": 5,
+      "pick": 162,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.453
+    },
+    {
+      "rank": 5,
       "name": "John Hightower",
       "college": "Boise St.",
       "year": 2020,
@@ -71,19 +59,31 @@
       "ppg": 4.5858,
       "rawPpg": 2.38,
       "madeIt": false,
-      "similarity": 0.458
+      "similarity": 0.45
+    },
+    {
+      "rank": 6,
+      "name": "Damion Ratley",
+      "college": "Texas A&M",
+      "year": 2018,
+      "round": 6,
+      "pick": 175,
+      "ppg": 5.0973,
+      "rawPpg": 3.5556,
+      "madeIt": true,
+      "similarity": 0.435
     },
     {
       "rank": 7,
-      "name": "Joe Webb",
-      "college": "Ala-Birmingham",
-      "year": 2010,
-      "round": 6,
-      "pick": 199,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
       "madeIt": false,
-      "similarity": 0.449
+      "similarity": 0.419
     }
   ]
 }

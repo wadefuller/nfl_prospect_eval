@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Tyler Boyd",
-      "college": "Pittsburgh",
-      "year": 2016,
-      "round": 2,
-      "pick": 55,
-      "ppg": 8.1659,
-      "rawPpg": 9.5737,
-      "madeIt": true,
-      "similarity": 0.378
-    },
-    {
-      "rank": 2,
-      "name": "Courtland Sutton",
-      "college": "SMU",
-      "year": 2018,
-      "round": 2,
-      "pick": 40,
-      "ppg": 8.274,
-      "rawPpg": 9.4288,
-      "madeIt": true,
-      "similarity": 0.306
-    },
-    {
-      "rank": 3,
       "name": "Alshon Jeffery",
       "college": "South Carolina",
       "year": 2012,
@@ -35,10 +11,10 @@
       "ppg": 11.534,
       "rawPpg": 14.3187,
       "madeIt": true,
-      "similarity": 0.296
+      "similarity": 0.502
     },
     {
-      "rank": 4,
+      "rank": 2,
       "name": "Jonathan Baldwin",
       "college": "Pittsburgh",
       "year": 2011,
@@ -47,7 +23,31 @@
       "ppg": 4.5325,
       "rawPpg": 3.6367,
       "madeIt": false,
-      "similarity": 0.287
+      "similarity": 0.475
+    },
+    {
+      "rank": 3,
+      "name": "Jerry Jeudy",
+      "college": "Alabama",
+      "year": 2020,
+      "round": 1,
+      "pick": 15,
+      "ppg": 8.4624,
+      "rawPpg": 9.8025,
+      "madeIt": true,
+      "similarity": 0.458
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Boyd",
+      "college": "Pittsburgh",
+      "year": 2016,
+      "round": 2,
+      "pick": 55,
+      "ppg": 8.1659,
+      "rawPpg": 9.5737,
+      "madeIt": true,
+      "similarity": 0.454
     },
     {
       "rank": 5,
@@ -59,31 +59,31 @@
       "ppg": 11.9766,
       "rawPpg": 14.8059,
       "madeIt": true,
-      "similarity": 0.26
+      "similarity": 0.436
     },
     {
       "rank": 6,
-      "name": "Justin Blackmon",
-      "college": "Oklahoma St.",
-      "year": 2012,
-      "round": 1,
-      "pick": 5,
-      "ppg": 7.7572,
-      "rawPpg": 9.55,
+      "name": "JuJu Smith-Schuster",
+      "college": "USC",
+      "year": 2017,
+      "round": 2,
+      "pick": 62,
+      "ppg": 10.9898,
+      "rawPpg": 13.5687,
       "madeIt": true,
-      "similarity": 0.259
+      "similarity": 0.43
     },
     {
       "rank": 7,
-      "name": "Diontae Johnson",
-      "college": "Toledo",
-      "year": 2019,
-      "round": 3,
-      "pick": 66,
-      "ppg": 10.556,
-      "rawPpg": 12.8965,
+      "name": "Marvin Mims",
+      "college": "Oklahoma",
+      "year": 2023,
+      "round": 2,
+      "pick": 63,
+      "ppg": 5.8736,
+      "rawPpg": 5.7853,
       "madeIt": true,
-      "similarity": 0.254
+      "similarity": 0.414
     }
   ]
 }

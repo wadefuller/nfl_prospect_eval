@@ -11,19 +11,19 @@
       "ppg": 11.1435,
       "rawPpg": 13.2917,
       "madeIt": true,
-      "similarity": 0.341
+      "similarity": 0.491
     },
     {
       "rank": 2,
-      "name": "Qadree Ollison",
-      "college": "Pittsburgh",
-      "year": 2019,
+      "name": "Wendell Smallwood",
+      "college": "West Virginia",
+      "year": 2016,
       "round": 5,
-      "pick": 152,
-      "ppg": 6.1438,
-      "rawPpg": 3.9917,
+      "pick": 153,
+      "ppg": 6.9161,
+      "rawPpg": 6.0258,
       "madeIt": true,
-      "similarity": 0.34
+      "similarity": 0.45
     },
     {
       "rank": 3,
@@ -35,55 +35,31 @@
       "ppg": 7.3136,
       "rawPpg": 7.0371,
       "madeIt": true,
-      "similarity": 0.339
+      "similarity": 0.441
     },
     {
       "rank": 4,
-      "name": "Chris Thompson",
-      "college": "Florida St.",
-      "year": 2013,
-      "round": 5,
-      "pick": 154,
-      "ppg": 6.8699,
-      "rawPpg": 5.7769,
+      "name": "C.J. Prosise",
+      "college": "Notre Dame",
+      "year": 2016,
+      "round": 3,
+      "pick": 90,
+      "ppg": 8.0285,
+      "rawPpg": 8.75,
       "madeIt": true,
-      "similarity": 0.336
+      "similarity": 0.436
     },
     {
       "rank": 5,
-      "name": "Zac Stacy",
-      "college": "Vanderbilt",
-      "year": 2013,
-      "round": 5,
-      "pick": 160,
-      "ppg": 9.2113,
-      "rawPpg": 9.6372,
-      "madeIt": true,
-      "similarity": 0.319
-    },
-    {
-      "rank": 6,
-      "name": "Nyheim Hines",
-      "college": "North Carolina St.",
-      "year": 2018,
+      "name": "Robert Turbin",
+      "college": "Utah St.",
+      "year": 2012,
       "round": 4,
-      "pick": 104,
-      "ppg": 8.6506,
-      "rawPpg": 9.0969,
+      "pick": 106,
+      "ppg": 5.4197,
+      "rawPpg": 4.2125,
       "madeIt": true,
-      "similarity": 0.307
-    },
-    {
-      "rank": 7,
-      "name": "La'Mical Perine",
-      "college": "Florida",
-      "year": 2020,
-      "round": 4,
-      "pick": 120,
-      "ppg": 6.5818,
-      "rawPpg": 4.7,
-      "madeIt": true,
-      "similarity": 0.304
+      "similarity": 0.422
     }
   ]
 }

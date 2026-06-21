@@ -1,0 +1,65 @@
+{
+  "prospectId": "behren-morton-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Logan Woodside",
+      "college": "Toledo",
+      "year": 2018,
+      "round": 7,
+      "pick": 249,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.417
+    },
+    {
+      "rank": 2,
+      "name": "Keith Wenning",
+      "college": "Ball St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 194,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.396
+    },
+    {
+      "rank": 3,
+      "name": "Brandon Allen",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.382
+    },
+    {
+      "rank": 4,
+      "name": "Brock Purdy",
+      "college": "Iowa St.",
+      "year": 2022,
+      "round": 7,
+      "pick": 262,
+      "ppg": 15.9536,
+      "rawPpg": 18.1328,
+      "madeIt": true,
+      "similarity": 0.38
+    },
+    {
+      "rank": 5,
+      "name": "Tanner Lee",
+      "college": "Nebraska",
+      "year": 2018,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.373
+    }
+  ]
+}

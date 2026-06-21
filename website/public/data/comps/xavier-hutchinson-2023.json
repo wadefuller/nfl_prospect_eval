@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Kerry Meier",
-      "college": "Kansas",
-      "year": 2010,
-      "round": 5,
-      "pick": 165,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.416
-    },
-    {
-      "rank": 2,
       "name": "Antonio Brown",
       "college": "Central Michigan",
       "year": 2010,
@@ -23,22 +11,10 @@
       "ppg": 8.954,
       "rawPpg": 10.6197,
       "madeIt": true,
-      "similarity": 0.406
+      "similarity": 0.45
     },
     {
-      "rank": 3,
-      "name": "Dwayne Harris",
-      "college": "East Carolina",
-      "year": 2011,
-      "round": 6,
-      "pick": 176,
-      "ppg": 3.8916,
-      "rawPpg": 2.6862,
-      "madeIt": false,
-      "similarity": 0.393
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "name": "Daniel Braverman",
       "college": "Western Michigan",
       "year": 2016,
@@ -47,10 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.379
+      "similarity": 0.427
     },
     {
-      "rank": 5,
+      "rank": 3,
       "name": "Jakeem Grant",
       "college": "Texas Tech",
       "year": 2016,
@@ -59,31 +35,55 @@
       "ppg": 4.8105,
       "rawPpg": 4.4233,
       "madeIt": false,
-      "similarity": 0.342
+      "similarity": 0.401
+    },
+    {
+      "rank": 4,
+      "name": "Scotty McKnight",
+      "college": "Colorado",
+      "year": 2011,
+      "round": 7,
+      "pick": 227,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.388
+    },
+    {
+      "rank": 5,
+      "name": "Dwayne Harris",
+      "college": "East Carolina",
+      "year": 2011,
+      "round": 6,
+      "pick": 176,
+      "ppg": 3.8916,
+      "rawPpg": 2.6862,
+      "madeIt": false,
+      "similarity": 0.361
     },
     {
       "rank": 6,
-      "name": "Shi Smith",
-      "college": "South Carolina",
-      "year": 2021,
+      "name": "James Proche",
+      "college": "SMU",
+      "year": 2020,
       "round": 6,
-      "pick": 204,
-      "ppg": 4.4252,
-      "rawPpg": 2.9765,
+      "pick": 201,
+      "ppg": 3.8774,
+      "rawPpg": 2.387,
       "madeIt": false,
-      "similarity": 0.326
+      "similarity": 0.351
     },
     {
       "rank": 7,
-      "name": "KeeSean Johnson",
-      "college": "Fresno St.",
-      "year": 2019,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
       "round": 6,
-      "pick": 174,
-      "ppg": 4.5803,
-      "rawPpg": 3.325,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
       "madeIt": false,
-      "similarity": 0.319
+      "similarity": 0.33
     }
   ]
 }

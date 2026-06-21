@@ -1,0 +1,89 @@
+{
+  "prospectId": "riley-nowakowski-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Luke Willson",
+      "college": "Rice",
+      "year": 2013,
+      "round": 5,
+      "pick": 158,
+      "ppg": 4.2347,
+      "rawPpg": 4.1692,
+      "madeIt": false,
+      "similarity": 0.744
+    },
+    {
+      "rank": 2,
+      "name": "Michael Hoomanawanui",
+      "college": "Illinois",
+      "year": 2010,
+      "round": 5,
+      "pick": 132,
+      "ppg": 4.0653,
+      "rawPpg": 3.75,
+      "madeIt": false,
+      "similarity": 0.579
+    },
+    {
+      "rank": 3,
+      "name": "Ryan Griffin",
+      "college": "Connecticut",
+      "year": 2013,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.3461,
+      "rawPpg": 4.4303,
+      "madeIt": false,
+      "similarity": 0.516
+    },
+    {
+      "rank": 4,
+      "name": "C.J. Uzomah",
+      "college": "Auburn",
+      "year": 2015,
+      "round": 5,
+      "pick": 157,
+      "ppg": 3.6544,
+      "rawPpg": 3.4604,
+      "madeIt": false,
+      "similarity": 0.509
+    },
+    {
+      "rank": 5,
+      "name": "Jake Ferguson",
+      "college": "Wisconsin",
+      "year": 2022,
+      "round": 4,
+      "pick": 129,
+      "ppg": 6.0842,
+      "rawPpg": 6.8397,
+      "madeIt": true,
+      "similarity": 0.482
+    },
+    {
+      "rank": 6,
+      "name": "Teagan Quitoriano",
+      "college": "Oregon St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 170,
+      "ppg": 4.1852,
+      "rawPpg": 3.8286,
+      "madeIt": false,
+      "similarity": 0.461
+    },
+    {
+      "rank": 7,
+      "name": "Taylor Thompson",
+      "college": "SMU",
+      "year": 2012,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.385,
+      "rawPpg": 0.8343,
+      "madeIt": false,
+      "similarity": 0.459
+    }
+  ]
+}

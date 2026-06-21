@@ -11,7 +11,7 @@
       "ppg": 15.2708,
       "rawPpg": 19.2035,
       "madeIt": true,
-      "similarity": 0.147
+      "similarity": 0.411
     },
     {
       "rank": 2,
@@ -23,10 +23,22 @@
       "ppg": 8.961,
       "rawPpg": 9.5625,
       "madeIt": true,
-      "similarity": 0.144
+      "similarity": 0.383
     },
     {
       "rank": 3,
+      "name": "Zach Charbonnet",
+      "college": "UCLA",
+      "year": 2023,
+      "round": 2,
+      "pick": 52,
+      "ppg": 9.4169,
+      "rawPpg": 10.2357,
+      "madeIt": true,
+      "similarity": 0.361
+    },
+    {
+      "rank": 4,
       "name": "De'Von Achane",
       "college": "Texas A&M",
       "year": 2023,
@@ -35,34 +47,10 @@
       "ppg": 13.7355,
       "rawPpg": 17.0952,
       "madeIt": true,
-      "similarity": 0.129
-    },
-    {
-      "rank": 4,
-      "name": "Eddie Lacy",
-      "college": "Alabama",
-      "year": 2013,
-      "round": 2,
-      "pick": 61,
-      "ppg": 12.7814,
-      "rawPpg": 15.3625,
-      "madeIt": true,
-      "similarity": 0.122
+      "similarity": 0.315
     },
     {
       "rank": 5,
-      "name": "Kenny Irons",
-      "college": "Auburn",
-      "year": 2007,
-      "round": 2,
-      "pick": 49,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.11
-    },
-    {
-      "rank": 6,
       "name": "Devonta Freeman",
       "college": "Florida St.",
       "year": 2014,
@@ -71,19 +59,7 @@
       "ppg": 14.0665,
       "rawPpg": 17.3644,
       "madeIt": true,
-      "similarity": 0.109
-    },
-    {
-      "rank": 7,
-      "name": "C.J. Prosise",
-      "college": "Notre Dame",
-      "year": 2016,
-      "round": 3,
-      "pick": 90,
-      "ppg": 8.0285,
-      "rawPpg": 8.75,
-      "madeIt": true,
-      "similarity": 0.101
+      "similarity": 0.314
     }
   ]
 }

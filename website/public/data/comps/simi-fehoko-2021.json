@@ -11,46 +11,22 @@
       "ppg": 13.3263,
       "rawPpg": 17.2986,
       "madeIt": true,
-      "similarity": 0.336
+      "similarity": 0.525
     },
     {
       "rank": 2,
-      "name": "Denarius Moore",
-      "college": "Tennessee",
-      "year": 2011,
-      "round": 5,
-      "pick": 148,
-      "ppg": 8.1598,
-      "rawPpg": 9.4149,
-      "madeIt": true,
-      "similarity": 0.302
-    },
-    {
-      "rank": 3,
-      "name": "Darnell Mooney",
-      "college": "Tulane",
-      "year": 2020,
-      "round": 5,
-      "pick": 173,
-      "ppg": 8.0864,
-      "rawPpg": 9.0706,
-      "madeIt": true,
-      "similarity": 0.297
-    },
-    {
-      "rank": 4,
-      "name": "Shelton Gibson",
-      "college": "West Virginia",
+      "name": "DeAngelo Yancey",
+      "college": "Purdue",
       "year": 2017,
       "round": 5,
-      "pick": 166,
+      "pick": 175,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.297
+      "similarity": 0.51
     },
     {
-      "rank": 5,
+      "rank": 3,
       "name": "Antoine Green",
       "college": "North Carolina",
       "year": 2023,
@@ -59,22 +35,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.291
+      "similarity": 0.503
     },
     {
-      "rank": 6,
-      "name": "Carlton Mitchell",
-      "college": "South Florida",
-      "year": 2010,
+      "rank": 4,
+      "name": "Damion Ratley",
+      "college": "Texas A&M",
+      "year": 2018,
       "round": 6,
-      "pick": 177,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.282
+      "pick": 175,
+      "ppg": 5.0973,
+      "rawPpg": 3.5556,
+      "madeIt": true,
+      "similarity": 0.485
     },
     {
-      "rank": 7,
+      "rank": 5,
       "name": "Riley Cooper",
       "college": "Florida",
       "year": 2010,
@@ -83,7 +59,31 @@
       "ppg": 4.8808,
       "rawPpg": 4.2182,
       "madeIt": false,
-      "similarity": 0.273
+      "similarity": 0.476
+    },
+    {
+      "rank": 6,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.464
+    },
+    {
+      "rank": 7,
+      "name": "Shelton Gibson",
+      "college": "West Virginia",
+      "year": 2017,
+      "round": 5,
+      "pick": 166,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.436
     }
   ]
 }

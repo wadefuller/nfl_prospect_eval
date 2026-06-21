@@ -11,70 +11,34 @@
       "ppg": 7.2828,
       "rawPpg": 6.9135,
       "madeIt": true,
-      "similarity": 0.156
+      "similarity": 0.37
     },
     {
       "rank": 2,
-      "name": "Paul Perkins",
-      "college": "UCLA",
+      "name": "DeAndre Washington",
+      "college": "Texas Tech",
       "year": 2016,
       "round": 5,
-      "pick": 149,
-      "ppg": 5.5534,
-      "rawPpg": 3.575,
+      "pick": 143,
+      "ppg": 6.1097,
+      "rawPpg": 5.2167,
       "madeIt": true,
-      "similarity": 0.139
+      "similarity": 0.361
     },
     {
       "rank": 3,
-      "name": "Marlon Mack",
-      "college": "South Florida",
-      "year": 2017,
-      "round": 4,
-      "pick": 143,
-      "ppg": 11.1435,
-      "rawPpg": 13.2917,
+      "name": "Marion Grice",
+      "college": "Arizona St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 201,
+      "ppg": 6.3922,
+      "rawPpg": 2.75,
       "madeIt": true,
-      "similarity": 0.126
+      "similarity": 0.352
     },
     {
       "rank": 4,
-      "name": "Deuce Vaughn",
-      "college": "Kansas St.",
-      "year": 2023,
-      "round": 6,
-      "pick": 212,
-      "ppg": 6.1649,
-      "rawPpg": 1.9167,
-      "madeIt": true,
-      "similarity": 0.118
-    },
-    {
-      "rank": 5,
-      "name": "Cyrus Gray",
-      "college": "Texas A&M",
-      "year": 2012,
-      "round": 6,
-      "pick": 182,
-      "ppg": 4.1065,
-      "rawPpg": 1.0875,
-      "madeIt": false,
-      "similarity": 0.117
-    },
-    {
-      "rank": 6,
-      "name": "Vick Ballard",
-      "college": "Mississippi St.",
-      "year": 2012,
-      "round": 5,
-      "pick": 170,
-      "ppg": 7.7259,
-      "rawPpg": 7.6937,
-      "madeIt": true,
-      "similarity": 0.109
-    },
-    {
-      "rank": 7,
       "name": "Travis Homer",
       "college": "Miami (FL)",
       "year": 2019,
@@ -83,7 +47,19 @@
       "ppg": 5.417,
       "rawPpg": 3.5286,
       "madeIt": true,
-      "similarity": 0.109
+      "similarity": 0.35
+    },
+    {
+      "rank": 5,
+      "name": "Deuce Vaughn",
+      "college": "Kansas St.",
+      "year": 2023,
+      "round": 6,
+      "pick": 212,
+      "ppg": 6.1649,
+      "rawPpg": 1.9167,
+      "madeIt": true,
+      "similarity": 0.342
     }
   ]
 }

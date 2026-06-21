@@ -1,0 +1,65 @@
+{
+  "prospectId": "trevor-lawrence-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Daniel Jones",
+      "college": "Duke",
+      "year": 2019,
+      "round": 1,
+      "pick": 6,
+      "ppg": 14.234,
+      "rawPpg": 15.8603,
+      "madeIt": true,
+      "similarity": 0.466
+    },
+    {
+      "rank": 2,
+      "name": "Sam Darnold",
+      "college": "USC",
+      "year": 2018,
+      "round": 1,
+      "pick": 3,
+      "ppg": 12.9671,
+      "rawPpg": 13.7408,
+      "madeIt": true,
+      "similarity": 0.414
+    },
+    {
+      "rank": 3,
+      "name": "Josh Rosen",
+      "college": "UCLA",
+      "year": 2018,
+      "round": 1,
+      "pick": 10,
+      "ppg": 10.0093,
+      "rawPpg": 8.0657,
+      "madeIt": true,
+      "similarity": 0.405
+    },
+    {
+      "rank": 4,
+      "name": "Ryan Tannehill",
+      "college": "Texas A&M",
+      "year": 2012,
+      "round": 1,
+      "pick": 8,
+      "ppg": 14.6808,
+      "rawPpg": 16.1662,
+      "madeIt": true,
+      "similarity": 0.402
+    },
+    {
+      "rank": 5,
+      "name": "Jordan Love",
+      "college": "Utah St.",
+      "year": 2020,
+      "round": 1,
+      "pick": 26,
+      "ppg": 9.4772,
+      "rawPpg": 3.5233,
+      "madeIt": true,
+      "similarity": 0.39
+    }
+  ]
+}

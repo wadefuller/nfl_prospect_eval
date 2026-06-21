@@ -1,0 +1,89 @@
+{
+  "prospectId": "luke-farrell-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "John Bates",
+      "college": "Boise St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 124,
+      "ppg": 3.6259,
+      "rawPpg": 3.0264,
+      "madeIt": false,
+      "similarity": 0.636
+    },
+    {
+      "rank": 2,
+      "name": "Teagan Quitoriano",
+      "college": "Oregon St.",
+      "year": 2022,
+      "round": 5,
+      "pick": 170,
+      "ppg": 4.1852,
+      "rawPpg": 3.8286,
+      "madeIt": false,
+      "similarity": 0.558
+    },
+    {
+      "rank": 3,
+      "name": "James O'Shaughnessy",
+      "college": "Illinois St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 173,
+      "ppg": 2.87,
+      "rawPpg": 1.8469,
+      "madeIt": false,
+      "similarity": 0.526
+    },
+    {
+      "rank": 4,
+      "name": "Dalton Schultz",
+      "college": "Stanford",
+      "year": 2018,
+      "round": 4,
+      "pick": 137,
+      "ppg": 5.0515,
+      "rawPpg": 4.6938,
+      "madeIt": true,
+      "similarity": 0.494
+    },
+    {
+      "rank": 5,
+      "name": "Anthony Hill",
+      "college": "North Carolina St.",
+      "year": 2009,
+      "round": 4,
+      "pick": 122,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.486
+    },
+    {
+      "rank": 6,
+      "name": "Foster Moreau",
+      "college": "LSU",
+      "year": 2019,
+      "round": 4,
+      "pick": 137,
+      "ppg": 4.7062,
+      "rawPpg": 4.9752,
+      "madeIt": false,
+      "similarity": 0.477
+    },
+    {
+      "rank": 7,
+      "name": "Will Dissly",
+      "college": "Washington",
+      "year": 2018,
+      "round": 4,
+      "pick": 120,
+      "ppg": 4.8908,
+      "rawPpg": 6.8367,
+      "madeIt": false,
+      "similarity": 0.463
+    }
+  ]
+}

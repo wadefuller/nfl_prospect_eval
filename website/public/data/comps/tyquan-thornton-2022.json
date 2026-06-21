@@ -11,7 +11,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.493
+      "similarity": 0.466
     },
     {
       "rank": 2,
@@ -23,22 +23,10 @@
       "ppg": 5.6715,
       "rawPpg": 4.9875,
       "madeIt": true,
-      "similarity": 0.488
+      "similarity": 0.435
     },
     {
       "rank": 3,
-      "name": "Alec Pierce",
-      "college": "Cincinnati",
-      "year": 2022,
-      "round": 2,
-      "pick": 53,
-      "ppg": 6.8777,
-      "rawPpg": 7.3344,
-      "madeIt": true,
-      "similarity": 0.458
-    },
-    {
-      "rank": 4,
       "name": "Denzel Mims",
       "college": "Baylor",
       "year": 2020,
@@ -47,10 +35,46 @@
       "ppg": 4.9627,
       "rawPpg": 4.0722,
       "madeIt": false,
-      "similarity": 0.431
+      "similarity": 0.43
+    },
+    {
+      "rank": 4,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
+      "madeIt": true,
+      "similarity": 0.418
     },
     {
       "rank": 5,
+      "name": "Jalin Hyatt",
+      "college": "Tennessee",
+      "year": 2023,
+      "round": 3,
+      "pick": 73,
+      "ppg": 3.9598,
+      "rawPpg": 2.3869,
+      "madeIt": false,
+      "similarity": 0.414
+    },
+    {
+      "rank": 6,
+      "name": "Paul Richardson",
+      "college": "Colorado",
+      "year": 2014,
+      "round": 2,
+      "pick": 45,
+      "ppg": 4.6057,
+      "rawPpg": 3.7449,
+      "madeIt": false,
+      "similarity": 0.414
+    },
+    {
+      "rank": 7,
       "name": "Quentin Johnston",
       "college": "TCU",
       "year": 2023,
@@ -59,31 +83,7 @@
       "ppg": 8.8257,
       "rawPpg": 10.5105,
       "madeIt": true,
-      "similarity": 0.425
-    },
-    {
-      "rank": 6,
-      "name": "Justin Hunter",
-      "college": "Tennessee",
-      "year": 2013,
-      "round": 2,
-      "pick": 34,
-      "ppg": 5.991,
-      "rawPpg": 6.0391,
-      "madeIt": true,
-      "similarity": 0.424
-    },
-    {
-      "rank": 7,
-      "name": "Jonathan Mingo",
-      "college": "Mississippi",
-      "year": 2023,
-      "round": 2,
-      "pick": 39,
-      "ppg": 4.054,
-      "rawPpg": 2.9564,
-      "madeIt": false,
-      "similarity": 0.412
+      "similarity": 0.409
     }
   ]
 }

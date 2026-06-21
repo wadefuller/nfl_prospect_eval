@@ -3,18 +3,54 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Michael Woods II",
-      "college": "Oklahoma",
-      "year": 2022,
-      "round": 6,
-      "pick": 202,
-      "ppg": 4.4318,
-      "rawPpg": 0.9286,
+      "name": "DeAngelo Yancey",
+      "college": "Purdue",
+      "year": 2017,
+      "round": 5,
+      "pick": 175,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.58
+      "similarity": 0.668
     },
     {
       "rank": 2,
+      "name": "T.J. Jones",
+      "college": "Notre Dame",
+      "year": 2014,
+      "round": 6,
+      "pick": 189,
+      "ppg": 4.5897,
+      "rawPpg": 2.39,
+      "madeIt": false,
+      "similarity": 0.619
+    },
+    {
+      "rank": 3,
+      "name": "Antoine Green",
+      "college": "North Carolina",
+      "year": 2023,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.572
+    },
+    {
+      "rank": 4,
+      "name": "Puka Nacua",
+      "college": "BYU",
+      "year": 2023,
+      "round": 5,
+      "pick": 177,
+      "ppg": 13.3263,
+      "rawPpg": 17.2986,
+      "madeIt": true,
+      "similarity": 0.562
+    },
+    {
+      "rank": 5,
       "name": "Cody Core",
       "college": "Mississippi",
       "year": 2016,
@@ -23,67 +59,31 @@
       "ppg": 4.6798,
       "rawPpg": 3.5607,
       "madeIt": false,
-      "similarity": 0.523
-    },
-    {
-      "rank": 3,
-      "name": "Justin Brown",
-      "college": "Oklahoma",
-      "year": 2013,
-      "round": 6,
-      "pick": 186,
-      "ppg": 4.9469,
-      "rawPpg": 2.2333,
-      "madeIt": false,
-      "similarity": 0.512
-    },
-    {
-      "rank": 4,
-      "name": "Kayshon Boutte",
-      "college": "LSU",
-      "year": 2023,
-      "round": 6,
-      "pick": 187,
-      "ppg": 6.7429,
-      "rawPpg": 7.1895,
-      "madeIt": true,
-      "similarity": 0.505
-    },
-    {
-      "rank": 5,
-      "name": "Juwann Winfree",
-      "college": "Colorado",
-      "year": 2019,
-      "round": 6,
-      "pick": 187,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.488
+      "similarity": 0.537
     },
     {
       "rank": 6,
-      "name": "Kevin Dorsey",
-      "college": "Maryland",
-      "year": 2013,
-      "round": 7,
-      "pick": 224,
+      "name": "Joe Webb",
+      "college": "Ala-Birmingham",
+      "year": 2010,
+      "round": 6,
+      "pick": 199,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.448
+      "similarity": 0.536
     },
     {
       "rank": 7,
-      "name": "Deon Cain",
-      "college": "Clemson",
-      "year": 2018,
-      "round": 6,
-      "pick": 185,
-      "ppg": 4.1604,
-      "rawPpg": 1.5364,
+      "name": "Devin Lucien",
+      "college": "Arizona St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 225,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.447
+      "similarity": 0.527
     }
   ]
 }

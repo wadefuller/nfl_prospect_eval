@@ -3,78 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Mike Davis",
-      "college": "South Carolina",
-      "year": 2015,
-      "round": 4,
-      "pick": 126,
-      "ppg": 6.2665,
-      "rawPpg": 4.6452,
-      "madeIt": true,
-      "similarity": 0.31
-    },
-    {
-      "rank": 2,
-      "name": "Tank Bigsby",
-      "college": "Auburn",
-      "year": 2023,
-      "round": 3,
-      "pick": 88,
-      "ppg": 6.424,
-      "rawPpg": 5.6652,
-      "madeIt": true,
-      "similarity": 0.3
-    },
-    {
-      "rank": 3,
-      "name": "Jamaal Williams",
-      "college": "BYU",
-      "year": 2017,
-      "round": 4,
-      "pick": 134,
-      "ppg": 8.4717,
-      "rawPpg": 8.8719,
-      "madeIt": true,
-      "similarity": 0.29
-    },
-    {
-      "rank": 4,
-      "name": "Ka'Deem Carey",
-      "college": "Arizona",
-      "year": 2014,
-      "round": 4,
-      "pick": 117,
-      "ppg": 5.0952,
-      "rawPpg": 3.052,
-      "madeIt": true,
-      "similarity": 0.255
-    },
-    {
-      "rank": 5,
-      "name": "Joseph Randle",
-      "college": "Oklahoma St.",
-      "year": 2013,
-      "round": 5,
-      "pick": 151,
-      "ppg": 7.9906,
-      "rawPpg": 8.5083,
-      "madeIt": true,
-      "similarity": 0.238
-    },
-    {
-      "rank": 6,
-      "name": "Paul Perkins",
-      "college": "UCLA",
-      "year": 2016,
-      "round": 5,
-      "pick": 149,
-      "ppg": 5.5534,
-      "rawPpg": 3.575,
-      "madeIt": true,
-      "similarity": 0.237
-    },
-    {
-      "rank": 7,
       "name": "Mark Walton",
       "college": "Miami (FL)",
       "year": 2018,
@@ -83,7 +11,55 @@
       "ppg": 5.1099,
       "rawPpg": 2.9643,
       "madeIt": true,
-      "similarity": 0.231
+      "similarity": 0.598
+    },
+    {
+      "rank": 2,
+      "name": "Jamaal Williams",
+      "college": "BYU",
+      "year": 2017,
+      "round": 4,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
+      "madeIt": true,
+      "similarity": 0.513
+    },
+    {
+      "rank": 3,
+      "name": "Robert Turbin",
+      "college": "Utah St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 106,
+      "ppg": 5.4197,
+      "rawPpg": 4.2125,
+      "madeIt": true,
+      "similarity": 0.483
+    },
+    {
+      "rank": 4,
+      "name": "Wayne Gallman",
+      "college": "Clemson",
+      "year": 2017,
+      "round": 4,
+      "pick": 140,
+      "ppg": 6.7034,
+      "rawPpg": 5.753,
+      "madeIt": true,
+      "similarity": 0.476
+    },
+    {
+      "rank": 5,
+      "name": "Mike Davis",
+      "college": "South Carolina",
+      "year": 2015,
+      "round": 4,
+      "pick": 126,
+      "ppg": 6.2665,
+      "rawPpg": 4.6452,
+      "madeIt": true,
+      "similarity": 0.473
     }
   ]
 }

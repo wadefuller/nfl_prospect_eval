@@ -1,0 +1,89 @@
+{
+  "prospectId": "theo-johnson-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Nick Vannett",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 3,
+      "pick": 94,
+      "ppg": 3.738,
+      "rawPpg": 3.2,
+      "madeIt": false,
+      "similarity": 0.413
+    },
+    {
+      "rank": 2,
+      "name": "Jimmy Graham",
+      "college": "Miami (FL)",
+      "year": 2010,
+      "round": 3,
+      "pick": 95,
+      "ppg": 10.8225,
+      "rawPpg": 14.1306,
+      "madeIt": true,
+      "similarity": 0.383
+    },
+    {
+      "rank": 3,
+      "name": "Josiah Deguara",
+      "college": "Cincinnati",
+      "year": 2020,
+      "round": 3,
+      "pick": 94,
+      "ppg": 3.4964,
+      "rawPpg": 2.7444,
+      "madeIt": false,
+      "similarity": 0.372
+    },
+    {
+      "rank": 4,
+      "name": "Blake Bell",
+      "college": "Oklahoma",
+      "year": 2015,
+      "round": 4,
+      "pick": 117,
+      "ppg": 3.2139,
+      "rawPpg": 2.1063,
+      "madeIt": false,
+      "similarity": 0.346
+    },
+    {
+      "rank": 5,
+      "name": "Taylor Thompson",
+      "college": "SMU",
+      "year": 2012,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.385,
+      "rawPpg": 0.8343,
+      "madeIt": false,
+      "similarity": 0.345
+    },
+    {
+      "rank": 6,
+      "name": "Albert Okwuegbunam",
+      "college": "Missouri",
+      "year": 2020,
+      "round": 4,
+      "pick": 118,
+      "ppg": 4.1516,
+      "rawPpg": 3.8333,
+      "madeIt": false,
+      "similarity": 0.344
+    },
+    {
+      "rank": 7,
+      "name": "Ian Thomas",
+      "college": "Indiana",
+      "year": 2018,
+      "round": 4,
+      "pick": 101,
+      "ppg": 4.4544,
+      "rawPpg": 4.545,
+      "madeIt": false,
+      "similarity": 0.332
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "prospectId": "jayden-daniels-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Marcus Mariota",
+      "college": "Oregon",
+      "year": 2015,
+      "round": 1,
+      "pick": 2,
+      "ppg": 15.2981,
+      "rawPpg": 17.4363,
+      "madeIt": true,
+      "similarity": 0.306
+    },
+    {
+      "rank": 2,
+      "name": "Baker Mayfield",
+      "college": "Oklahoma",
+      "year": 2018,
+      "round": 1,
+      "pick": 1,
+      "ppg": 14.6865,
+      "rawPpg": 16.3287,
+      "madeIt": true,
+      "similarity": 0.275
+    },
+    {
+      "rank": 3,
+      "name": "Trevor Lawrence",
+      "college": "Clemson",
+      "year": 2021,
+      "round": 1,
+      "pick": 1,
+      "ppg": 15.2147,
+      "rawPpg": 16.8991,
+      "madeIt": true,
+      "similarity": 0.272
+    },
+    {
+      "rank": 4,
+      "name": "Zach Wilson",
+      "college": "BYU",
+      "year": 2021,
+      "round": 1,
+      "pick": 2,
+      "ppg": 11.5168,
+      "rawPpg": 11.3085,
+      "madeIt": true,
+      "similarity": 0.26
+    },
+    {
+      "rank": 5,
+      "name": "C.J. Stroud",
+      "college": "Ohio St.",
+      "year": 2023,
+      "round": 1,
+      "pick": 2,
+      "ppg": 14.9204,
+      "rawPpg": 16.6319,
+      "madeIt": true,
+      "similarity": 0.254
+    }
+  ]
+}

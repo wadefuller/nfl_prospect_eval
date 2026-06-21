@@ -1,0 +1,65 @@
+{
+  "prospectId": "jaren-hall-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ian Book",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 4,
+      "pick": 133,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.529
+    },
+    {
+      "rank": 2,
+      "name": "Jake Fromm",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.465
+    },
+    {
+      "rank": 3,
+      "name": "Brandon Allen",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.442
+    },
+    {
+      "rank": 4,
+      "name": "Sam Howell",
+      "college": "North Carolina",
+      "year": 2022,
+      "round": 5,
+      "pick": 144,
+      "ppg": 13.4666,
+      "rawPpg": 15.12,
+      "madeIt": true,
+      "similarity": 0.421
+    },
+    {
+      "rank": 5,
+      "name": "A.J. McCarron",
+      "college": "Alabama",
+      "year": 2014,
+      "round": 5,
+      "pick": 164,
+      "ppg": 10.5486,
+      "rawPpg": 7.8943,
+      "madeIt": true,
+      "similarity": 0.418
+    }
+  ]
+}

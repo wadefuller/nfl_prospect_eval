@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Drake London",
-      "college": "USC",
+      "name": "John Metchie",
+      "college": "Alabama",
       "year": 2022,
-      "round": 1,
-      "pick": 8,
-      "ppg": 9.5125,
-      "rawPpg": 11.1595,
-      "madeIt": true,
-      "similarity": 0.572
+      "round": 2,
+      "pick": 44,
+      "ppg": 4.0758,
+      "rawPpg": 3.0343,
+      "madeIt": false,
+      "similarity": 0.467
     },
     {
       "rank": 2,
@@ -23,46 +23,58 @@
       "ppg": 5.6715,
       "rawPpg": 4.9875,
       "madeIt": true,
-      "similarity": 0.441
+      "similarity": 0.451
     },
     {
       "rank": 3,
-      "name": "Curtis Samuel",
-      "college": "Ohio St.",
-      "year": 2017,
-      "round": 2,
-      "pick": 40,
-      "ppg": 7.9874,
-      "rawPpg": 9.1103,
+      "name": "Drake London",
+      "college": "USC",
+      "year": 2022,
+      "round": 1,
+      "pick": 8,
+      "ppg": 9.5125,
+      "rawPpg": 11.1595,
       "madeIt": true,
-      "similarity": 0.432
+      "similarity": 0.421
     },
     {
       "rank": 4,
-      "name": "Phillip Dorsett",
-      "college": "Miami (FL)",
-      "year": 2015,
+      "name": "Jaylen Waddle",
+      "college": "Alabama",
+      "year": 2021,
       "round": 1,
-      "pick": 29,
-      "ppg": 5.165,
-      "rawPpg": 4.5252,
+      "pick": 6,
+      "ppg": 10.468,
+      "rawPpg": 12.6393,
       "madeIt": true,
-      "similarity": 0.428
+      "similarity": 0.411
     },
     {
       "rank": 5,
-      "name": "Jahan Dotson",
-      "college": "Penn St.",
-      "year": 2022,
+      "name": "Marquise Brown",
+      "college": "Oklahoma",
+      "year": 2019,
       "round": 1,
-      "pick": 16,
-      "ppg": 6.8629,
-      "rawPpg": 7.6625,
+      "pick": 25,
+      "ppg": 9.0048,
+      "rawPpg": 10.525,
       "madeIt": true,
-      "similarity": 0.425
+      "similarity": 0.411
     },
     {
       "rank": 6,
+      "name": "Elijah Moore",
+      "college": "Mississippi",
+      "year": 2021,
+      "round": 2,
+      "pick": 34,
+      "ppg": 7.3193,
+      "rawPpg": 8.5108,
+      "madeIt": true,
+      "similarity": 0.377
+    },
+    {
+      "rank": 7,
       "name": "A.J. Jenkins",
       "college": "Illinois",
       "year": 2012,
@@ -71,19 +83,7 @@
       "ppg": 4.2211,
       "rawPpg": 2.2286,
       "madeIt": false,
-      "similarity": 0.414
-    },
-    {
-      "rank": 7,
-      "name": "Cody Latimer",
-      "college": "Indiana",
-      "year": 2014,
-      "round": 2,
-      "pick": 56,
-      "ppg": 3.4866,
-      "rawPpg": 1.4648,
-      "madeIt": false,
-      "similarity": 0.401
+      "similarity": 0.373
     }
   ]
 }

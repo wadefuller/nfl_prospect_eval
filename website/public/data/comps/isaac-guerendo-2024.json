@@ -11,7 +11,7 @@
       "ppg": 5.218,
       "rawPpg": 3.7353,
       "madeIt": true,
-      "similarity": 0.246
+      "similarity": 0.555
     },
     {
       "rank": 2,
@@ -23,7 +23,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.228
+      "similarity": 0.515
     },
     {
       "rank": 3,
@@ -35,7 +35,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.225
+      "similarity": 0.408
     },
     {
       "rank": 4,
@@ -47,43 +47,19 @@
       "ppg": 5.5126,
       "rawPpg": 4.1308,
       "madeIt": true,
-      "similarity": 0.188
+      "similarity": 0.406
     },
     {
       "rank": 5,
-      "name": "Kene Nwangwu",
-      "college": "Iowa St.",
-      "year": 2021,
-      "round": 4,
-      "pick": 119,
-      "ppg": 3.9905,
-      "rawPpg": 1.5417,
-      "madeIt": false,
-      "similarity": 0.171
-    },
-    {
-      "rank": 6,
-      "name": "John Conner",
-      "college": "Kentucky",
-      "year": 2010,
-      "round": 5,
-      "pick": 139,
+      "name": "Darrynton Evans",
+      "college": "Appalachian St.",
+      "year": 2020,
+      "round": 3,
+      "pick": 93,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.167
-    },
-    {
-      "rank": 7,
-      "name": "Chris Thompson",
-      "college": "Florida St.",
-      "year": 2013,
-      "round": 5,
-      "pick": 154,
-      "ppg": 6.8699,
-      "rawPpg": 5.7769,
-      "madeIt": true,
-      "similarity": 0.138
+      "similarity": 0.386
     }
   ]
 }

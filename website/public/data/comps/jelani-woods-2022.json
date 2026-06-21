@@ -1,0 +1,89 @@
+{
+  "prospectId": "jelani-woods-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Rob Gronkowski",
+      "college": "Arizona",
+      "year": 2010,
+      "round": 2,
+      "pick": 42,
+      "ppg": 12.2293,
+      "rawPpg": 16.6844,
+      "madeIt": true,
+      "similarity": 0.627
+    },
+    {
+      "rank": 2,
+      "name": "Tyler Higbee",
+      "college": "Western Kentucky",
+      "year": 2016,
+      "round": 4,
+      "pick": 110,
+      "ppg": 3.8786,
+      "rawPpg": 3.6143,
+      "madeIt": false,
+      "similarity": 0.552
+    },
+    {
+      "rank": 3,
+      "name": "Austin Seferian-Jenkins",
+      "college": "Washington",
+      "year": 2014,
+      "round": 2,
+      "pick": 38,
+      "ppg": 5.6362,
+      "rawPpg": 7.2452,
+      "madeIt": true,
+      "similarity": 0.536
+    },
+    {
+      "rank": 4,
+      "name": "Pat Freiermuth",
+      "college": "Penn St.",
+      "year": 2021,
+      "round": 2,
+      "pick": 55,
+      "ppg": 6.5502,
+      "rawPpg": 7.6931,
+      "madeIt": true,
+      "similarity": 0.458
+    },
+    {
+      "rank": 5,
+      "name": "Cole Kmet",
+      "college": "Notre Dame",
+      "year": 2020,
+      "round": 2,
+      "pick": 43,
+      "ppg": 5.6592,
+      "rawPpg": 6.2794,
+      "madeIt": true,
+      "similarity": 0.43
+    },
+    {
+      "rank": 6,
+      "name": "Lance Kendricks",
+      "college": "Wisconsin",
+      "year": 2011,
+      "round": 2,
+      "pick": 47,
+      "ppg": 5.0904,
+      "rawPpg": 5.4406,
+      "madeIt": true,
+      "similarity": 0.413
+    },
+    {
+      "rank": 7,
+      "name": "Ed Dickson",
+      "college": "Oregon",
+      "year": 2010,
+      "round": 3,
+      "pick": 70,
+      "ppg": 4.9363,
+      "rawPpg": 4.9313,
+      "madeIt": false,
+      "similarity": 0.407
+    }
+  ]
+}

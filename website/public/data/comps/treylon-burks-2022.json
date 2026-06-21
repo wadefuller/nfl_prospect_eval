@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Jayden Reed",
-      "college": "Michigan St.",
-      "year": 2023,
-      "round": 2,
-      "pick": 50,
-      "ppg": 9.1864,
-      "rawPpg": 10.7728,
-      "madeIt": true,
-      "similarity": 0.507
-    },
-    {
-      "rank": 2,
-      "name": "Breshad Perriman",
-      "college": "Central Florida",
-      "year": 2015,
-      "round": 1,
-      "pick": 26,
-      "ppg": 4.5889,
-      "rawPpg": 3.3973,
-      "madeIt": false,
-      "similarity": 0.482
-    },
-    {
-      "rank": 3,
-      "name": "Cody Latimer",
-      "college": "Indiana",
-      "year": 2014,
-      "round": 2,
-      "pick": 56,
-      "ppg": 3.4866,
-      "rawPpg": 1.4648,
-      "madeIt": false,
-      "similarity": 0.466
-    },
-    {
-      "rank": 4,
       "name": "Jonathan Baldwin",
       "college": "Pittsburgh",
       "year": 2011,
@@ -47,10 +11,70 @@
       "ppg": 4.5325,
       "rawPpg": 3.6367,
       "madeIt": false,
-      "similarity": 0.448
+      "similarity": 0.589
+    },
+    {
+      "rank": 2,
+      "name": "Courtland Sutton",
+      "college": "SMU",
+      "year": 2018,
+      "round": 2,
+      "pick": 40,
+      "ppg": 8.274,
+      "rawPpg": 9.4288,
+      "madeIt": true,
+      "similarity": 0.491
+    },
+    {
+      "rank": 3,
+      "name": "JJ Arcega-Whiteside",
+      "college": "Stanford",
+      "year": 2019,
+      "round": 2,
+      "pick": 57,
+      "ppg": 3.9979,
+      "rawPpg": 1.8786,
+      "madeIt": false,
+      "similarity": 0.481
+    },
+    {
+      "rank": 4,
+      "name": "Breshad Perriman",
+      "college": "Central Florida",
+      "year": 2015,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5889,
+      "rawPpg": 3.3973,
+      "madeIt": false,
+      "similarity": 0.478
     },
     {
       "rank": 5,
+      "name": "Cody Latimer",
+      "college": "Indiana",
+      "year": 2014,
+      "round": 2,
+      "pick": 56,
+      "ppg": 3.4866,
+      "rawPpg": 1.4648,
+      "madeIt": false,
+      "similarity": 0.465
+    },
+    {
+      "rank": 6,
+      "name": "Tee Higgins",
+      "college": "Clemson",
+      "year": 2020,
+      "round": 2,
+      "pick": 33,
+      "ppg": 10.4871,
+      "rawPpg": 13.0714,
+      "madeIt": true,
+      "similarity": 0.461
+    },
+    {
+      "rank": 7,
       "name": "Jaylen Waddle",
       "college": "Alabama",
       "year": 2021,
@@ -59,31 +83,7 @@
       "ppg": 10.468,
       "rawPpg": 12.6393,
       "madeIt": true,
-      "similarity": 0.444
-    },
-    {
-      "rank": 6,
-      "name": "Jerry Jeudy",
-      "college": "Alabama",
-      "year": 2020,
-      "round": 1,
-      "pick": 15,
-      "ppg": 8.4624,
-      "rawPpg": 9.8025,
-      "madeIt": true,
-      "similarity": 0.443
-    },
-    {
-      "rank": 7,
-      "name": "KJ Hamler",
-      "college": "Penn St.",
-      "year": 2020,
-      "round": 2,
-      "pick": 46,
-      "ppg": 5.6715,
-      "rawPpg": 4.9875,
-      "madeIt": true,
-      "similarity": 0.437
+      "similarity": 0.456
     }
   ]
 }

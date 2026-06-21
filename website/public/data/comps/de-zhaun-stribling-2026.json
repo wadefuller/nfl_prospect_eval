@@ -3,30 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Alshon Jeffery",
-      "college": "South Carolina",
-      "year": 2012,
+      "name": "Jayden Reed",
+      "college": "Michigan St.",
+      "year": 2023,
       "round": 2,
-      "pick": 45,
-      "ppg": 11.534,
-      "rawPpg": 14.3187,
+      "pick": 50,
+      "ppg": 9.1864,
+      "rawPpg": 10.7728,
       "madeIt": true,
-      "similarity": 0.499
+      "similarity": 0.585
     },
     {
       "rank": 2,
-      "name": "Rashod Bateman",
-      "college": "Minnesota",
-      "year": 2021,
-      "round": 1,
-      "pick": 27,
-      "ppg": 6.5274,
-      "rawPpg": 7.1875,
-      "madeIt": true,
-      "similarity": 0.419
-    },
-    {
-      "rank": 3,
       "name": "Courtland Sutton",
       "college": "SMU",
       "year": 2018,
@@ -35,46 +23,46 @@
       "ppg": 8.274,
       "rawPpg": 9.4288,
       "madeIt": true,
-      "similarity": 0.393
+      "similarity": 0.554
+    },
+    {
+      "rank": 3,
+      "name": "Titus Young",
+      "college": "Boise St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 44,
+      "ppg": 7.1889,
+      "rawPpg": 7.9606,
+      "madeIt": true,
+      "similarity": 0.538
     },
     {
       "rank": 4,
-      "name": "Tyler Boyd",
-      "college": "Pittsburgh",
-      "year": 2016,
+      "name": "Denzel Mims",
+      "college": "Baylor",
+      "year": 2020,
       "round": 2,
-      "pick": 55,
-      "ppg": 8.1659,
-      "rawPpg": 9.5737,
-      "madeIt": true,
-      "similarity": 0.386
+      "pick": 59,
+      "ppg": 4.9627,
+      "rawPpg": 4.0722,
+      "madeIt": false,
+      "similarity": 0.528
     },
     {
       "rank": 5,
-      "name": "Jaxon Smith-Njigba",
-      "college": "Ohio St.",
-      "year": 2023,
+      "name": "Marquise Brown",
+      "college": "Oklahoma",
+      "year": 2019,
       "round": 1,
-      "pick": 20,
-      "ppg": 11.9766,
-      "rawPpg": 14.8059,
+      "pick": 25,
+      "ppg": 9.0048,
+      "rawPpg": 10.525,
       "madeIt": true,
-      "similarity": 0.385
+      "similarity": 0.525
     },
     {
       "rank": 6,
-      "name": "Jalen Reagor",
-      "college": "TCU",
-      "year": 2020,
-      "round": 1,
-      "pick": 21,
-      "ppg": 5.1985,
-      "rawPpg": 5.0709,
-      "madeIt": true,
-      "similarity": 0.376
-    },
-    {
-      "rank": 7,
       "name": "Jonathan Baldwin",
       "college": "Pittsburgh",
       "year": 2011,
@@ -83,7 +71,19 @@
       "ppg": 4.5325,
       "rawPpg": 3.6367,
       "madeIt": false,
-      "similarity": 0.37
+      "similarity": 0.498
+    },
+    {
+      "rank": 7,
+      "name": "Aaron Dobson",
+      "college": "Marshall",
+      "year": 2013,
+      "round": 2,
+      "pick": 59,
+      "ppg": 6.3767,
+      "rawPpg": 6.0076,
+      "madeIt": true,
+      "similarity": 0.498
     }
   ]
 }

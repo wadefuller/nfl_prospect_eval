@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Aaron Dobson",
-      "college": "Marshall",
-      "year": 2013,
-      "round": 2,
-      "pick": 59,
-      "ppg": 6.3767,
-      "rawPpg": 6.0076,
-      "madeIt": true,
-      "similarity": 0.529
-    },
-    {
-      "rank": 2,
       "name": "Nico Collins",
       "college": "Michigan",
       "year": 2021,
@@ -23,43 +11,55 @@
       "ppg": 9.6203,
       "rawPpg": 11.2767,
       "madeIt": true,
-      "similarity": 0.47
+      "similarity": 0.537
+    },
+    {
+      "rank": 2,
+      "name": "Alec Pierce",
+      "college": "Cincinnati",
+      "year": 2022,
+      "round": 2,
+      "pick": 53,
+      "ppg": 6.8777,
+      "rawPpg": 7.3344,
+      "madeIt": true,
+      "similarity": 0.505
     },
     {
       "rank": 3,
-      "name": "Michael Wilson",
-      "college": "Stanford",
-      "year": 2023,
-      "round": 3,
-      "pick": 94,
-      "ppg": 8.0985,
-      "rawPpg": 9.0143,
+      "name": "Aaron Dobson",
+      "college": "Marshall",
+      "year": 2013,
+      "round": 2,
+      "pick": 59,
+      "ppg": 6.3767,
+      "rawPpg": 6.0076,
       "madeIt": true,
-      "similarity": 0.468
+      "similarity": 0.494
     },
     {
       "rank": 4,
-      "name": "Braxton Miller",
-      "college": "Ohio St.",
-      "year": 2016,
-      "round": 3,
-      "pick": 85,
-      "ppg": 4.1842,
-      "rawPpg": 2.76,
-      "madeIt": false,
-      "similarity": 0.451
+      "name": "Kris Durham",
+      "college": "Georgia",
+      "year": 2011,
+      "round": 4,
+      "pick": 107,
+      "ppg": 5.4197,
+      "rawPpg": 4.875,
+      "madeIt": true,
+      "similarity": 0.466
     },
     {
       "rank": 5,
-      "name": "Josh Palmer",
-      "college": "Tennessee",
-      "year": 2021,
+      "name": "Amara Darboh",
+      "college": "Michigan",
+      "year": 2017,
       "round": 3,
-      "pick": 77,
-      "ppg": 7.5341,
-      "rawPpg": 8.5506,
-      "madeIt": true,
-      "similarity": 0.436
+      "pick": 106,
+      "ppg": 4.4388,
+      "rawPpg": 1.3875,
+      "madeIt": false,
+      "similarity": 0.464
     },
     {
       "rank": 6,
@@ -71,7 +71,7 @@
       "ppg": 4.054,
       "rawPpg": 2.9564,
       "madeIt": false,
-      "similarity": 0.436
+      "similarity": 0.456
     },
     {
       "rank": 7,
@@ -83,7 +83,7 @@
       "ppg": 4.1621,
       "rawPpg": 3.1844,
       "madeIt": false,
-      "similarity": 0.43
+      "similarity": 0.439
     }
   ]
 }

@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Marquez Stevenson",
-      "college": "Houston",
-      "year": 2021,
-      "round": 6,
-      "pick": 203,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.282
-    },
-    {
-      "rank": 2,
       "name": "Collin Johnson",
       "college": "Texas",
       "year": 2020,
@@ -23,34 +11,34 @@
       "ppg": 4.6181,
       "rawPpg": 3.2818,
       "madeIt": false,
-      "similarity": 0.246
+      "similarity": 0.423
+    },
+    {
+      "rank": 2,
+      "name": "Devin Street",
+      "college": "Pittsburgh",
+      "year": 2014,
+      "round": 5,
+      "pick": 146,
+      "ppg": 4.2345,
+      "rawPpg": 1.7182,
+      "madeIt": false,
+      "similarity": 0.402
     },
     {
       "rank": 3,
-      "name": "Geremy Davis",
-      "college": "Connecticut",
-      "year": 2015,
-      "round": 6,
-      "pick": 186,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "Jehu Chesson",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 4,
+      "pick": 139,
+      "ppg": 3.5369,
+      "rawPpg": 0.3,
       "madeIt": false,
-      "similarity": 0.238
+      "similarity": 0.382
     },
     {
       "rank": 4,
-      "name": "JJ Nelson",
-      "college": "Ala-Birmingham",
-      "year": 2015,
-      "round": 5,
-      "pick": 159,
-      "ppg": 6.4463,
-      "rawPpg": 6.8295,
-      "madeIt": true,
-      "similarity": 0.231
-    },
-    {
-      "rank": 5,
       "name": "Ryan Whalen",
       "college": "Stanford",
       "year": 2011,
@@ -59,31 +47,43 @@
       "ppg": 4.5318,
       "rawPpg": 1.2571,
       "madeIt": false,
-      "similarity": 0.226
+      "similarity": 0.379
+    },
+    {
+      "rank": 5,
+      "name": "Ihmir Smith-Marsette",
+      "college": "Iowa",
+      "year": 2021,
+      "round": 5,
+      "pick": 157,
+      "ppg": 3.847,
+      "rawPpg": 3.0132,
+      "madeIt": false,
+      "similarity": 0.375
     },
     {
       "rank": 6,
-      "name": "Ryan Grant",
-      "college": "Tulane",
-      "year": 2014,
-      "round": 5,
-      "pick": 142,
-      "ppg": 4.3342,
-      "rawPpg": 2.6548,
+      "name": "Geremy Davis",
+      "college": "Connecticut",
+      "year": 2015,
+      "round": 6,
+      "pick": 186,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.203
+      "similarity": 0.361
     },
     {
       "rank": 7,
-      "name": "Rashard Higgins",
-      "college": "Colorado St.",
+      "name": "Tajae Sharpe",
+      "college": "Massachusetts",
       "year": 2016,
       "round": 5,
-      "pick": 172,
-      "ppg": 5.7961,
-      "rawPpg": 5.764,
+      "pick": 140,
+      "ppg": 5.073,
+      "rawPpg": 4.59,
       "madeIt": true,
-      "similarity": 0.2
+      "similarity": 0.353
     }
   ]
 }

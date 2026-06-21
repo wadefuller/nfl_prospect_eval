@@ -3,42 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Michael Woods II",
-      "college": "Oklahoma",
-      "year": 2022,
+      "name": "Ronald Johnson",
+      "college": "USC",
+      "year": 2011,
       "round": 6,
-      "pick": 202,
-      "ppg": 4.4318,
-      "rawPpg": 0.9286,
+      "pick": 182,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.556
+      "similarity": 0.629
     },
     {
       "rank": 2,
-      "name": "Tyreek Hill",
-      "college": "West Alabama",
-      "year": 2016,
-      "round": 5,
-      "pick": 165,
-      "ppg": 12.6305,
-      "rawPpg": 16.0015,
-      "madeIt": true,
-      "similarity": 0.531
-    },
-    {
-      "rank": 3,
-      "name": "Ray-Ray McCloud",
-      "college": "Clemson",
-      "year": 2018,
-      "round": 6,
-      "pick": 187,
-      "ppg": 3.1533,
-      "rawPpg": 1.1625,
-      "madeIt": false,
-      "similarity": 0.381
-    },
-    {
-      "rank": 4,
       "name": "Justin Brown",
       "college": "Oklahoma",
       "year": 2013,
@@ -47,43 +23,67 @@
       "ppg": 4.9469,
       "rawPpg": 2.2333,
       "madeIt": false,
-      "similarity": 0.365
+      "similarity": 0.569
+    },
+    {
+      "rank": 3,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.511
+    },
+    {
+      "rank": 4,
+      "name": "Joe Webb",
+      "college": "Ala-Birmingham",
+      "year": 2010,
+      "round": 6,
+      "pick": 199,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.472
     },
     {
       "rank": 5,
-      "name": "Kaelin Clay",
-      "college": "Utah",
+      "name": "Kenny Bell",
+      "college": "Nebraska",
       "year": 2015,
-      "round": 6,
-      "pick": 184,
-      "ppg": 3.3787,
-      "rawPpg": 1.2055,
+      "round": 5,
+      "pick": 162,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.362
+      "similarity": 0.423
     },
     {
       "rank": 6,
-      "name": "Denard Robinson",
-      "college": "Michigan",
-      "year": 2013,
-      "round": 5,
-      "pick": 135,
-      "ppg": 6.2203,
-      "rawPpg": 6.3228,
-      "madeIt": true,
-      "similarity": 0.362
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
+      "madeIt": false,
+      "similarity": 0.419
     },
     {
       "rank": 7,
-      "name": "Isaiah McKenzie",
-      "college": "Georgia",
-      "year": 2017,
-      "round": 5,
-      "pick": 172,
-      "ppg": 5.2981,
-      "rawPpg": 4.9188,
+      "name": "Parker Washington",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 6,
+      "pick": 185,
+      "ppg": 7.2203,
+      "rawPpg": 7.7585,
       "madeIt": true,
-      "similarity": 0.361
+      "similarity": 0.401
     }
   ]
 }

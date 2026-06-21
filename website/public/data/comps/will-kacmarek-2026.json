@@ -1,0 +1,89 @@
+{
+  "prospectId": "will-kacmarek-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tucker Kraft",
+      "college": "South Dakota St.",
+      "year": 2023,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.5356,
+      "rawPpg": 10.3926,
+      "madeIt": true,
+      "similarity": 0.694
+    },
+    {
+      "rank": 2,
+      "name": "Durham Smythe",
+      "college": "Notre Dame",
+      "year": 2018,
+      "round": 4,
+      "pick": 123,
+      "ppg": 3.3313,
+      "rawPpg": 2.2615,
+      "madeIt": false,
+      "similarity": 0.593
+    },
+    {
+      "rank": 3,
+      "name": "John Bates",
+      "college": "Boise St.",
+      "year": 2021,
+      "round": 4,
+      "pick": 124,
+      "ppg": 3.6259,
+      "rawPpg": 3.0264,
+      "madeIt": false,
+      "similarity": 0.514
+    },
+    {
+      "rank": 4,
+      "name": "Dawson Knox",
+      "college": "Mississippi",
+      "year": 2019,
+      "round": 3,
+      "pick": 96,
+      "ppg": 6.2824,
+      "rawPpg": 7.1442,
+      "madeIt": true,
+      "similarity": 0.502
+    },
+    {
+      "rank": 5,
+      "name": "Will Dissly",
+      "college": "Washington",
+      "year": 2018,
+      "round": 4,
+      "pick": 120,
+      "ppg": 4.8908,
+      "rawPpg": 6.8367,
+      "madeIt": false,
+      "similarity": 0.471
+    },
+    {
+      "rank": 6,
+      "name": "Trevon Wesco",
+      "college": "West Virginia",
+      "year": 2019,
+      "round": 4,
+      "pick": 121,
+      "ppg": 2.6786,
+      "rawPpg": 0.8042,
+      "madeIt": false,
+      "similarity": 0.457
+    },
+    {
+      "rank": 7,
+      "name": "Tommy Tremble",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 3,
+      "pick": 83,
+      "ppg": 3.5491,
+      "rawPpg": 3.1267,
+      "madeIt": false,
+      "similarity": 0.4
+    }
+  ]
+}

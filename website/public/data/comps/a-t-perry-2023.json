@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "DeAngelo Yancey",
-      "college": "Purdue",
-      "year": 2017,
-      "round": 5,
-      "pick": 175,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.386
+      "similarity": 0.484
     },
     {
       "rank": 2,
@@ -23,46 +23,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.379
+      "similarity": 0.476
     },
     {
       "rank": 3,
-      "name": "JJ Nelson",
-      "college": "Ala-Birmingham",
-      "year": 2015,
+      "name": "DeAngelo Yancey",
+      "college": "Purdue",
+      "year": 2017,
       "round": 5,
-      "pick": 159,
-      "ppg": 6.4463,
-      "rawPpg": 6.8295,
-      "madeIt": true,
-      "similarity": 0.368
+      "pick": 175,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.462
     },
     {
       "rank": 4,
-      "name": "Rodney Adams",
-      "college": "South Florida",
-      "year": 2017,
-      "round": 5,
-      "pick": 170,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.359
-    },
-    {
-      "rank": 5,
-      "name": "Antoine Green",
-      "college": "North Carolina",
-      "year": 2023,
-      "round": 7,
-      "pick": 219,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.354
-    },
-    {
-      "rank": 6,
       "name": "Puka Nacua",
       "college": "BYU",
       "year": 2023,
@@ -71,19 +47,43 @@
       "ppg": 13.3263,
       "rawPpg": 17.2986,
       "madeIt": true,
-      "similarity": 0.351
+      "similarity": 0.413
     },
     {
-      "rank": 7,
-      "name": "Marcus Green",
-      "college": "La-Monroe",
-      "year": 2019,
-      "round": 6,
-      "pick": 203,
+      "rank": 5,
+      "name": "Toney Clemons",
+      "college": "Colorado",
+      "year": 2012,
+      "round": 7,
+      "pick": 231,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.343
+      "similarity": 0.384
+    },
+    {
+      "rank": 6,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
+      "round": 5,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
+      "madeIt": false,
+      "similarity": 0.38
+    },
+    {
+      "rank": 7,
+      "name": "Jakeem Grant",
+      "college": "Texas Tech",
+      "year": 2016,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.8105,
+      "rawPpg": 4.4233,
+      "madeIt": false,
+      "similarity": 0.377
     }
   ]
 }

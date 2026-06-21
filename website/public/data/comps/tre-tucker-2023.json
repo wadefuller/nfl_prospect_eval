@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Keshawn Martin",
-      "college": "Michigan St.",
-      "year": 2012,
-      "round": 4,
-      "pick": 121,
-      "ppg": 3.6361,
-      "rawPpg": 2.4719,
-      "madeIt": false,
-      "similarity": 0.602
-    },
-    {
-      "rank": 2,
       "name": "Derius Davis",
       "college": "TCU",
       "year": 2023,
@@ -23,22 +11,22 @@
       "ppg": 3.3173,
       "rawPpg": 2.0082,
       "madeIt": false,
-      "similarity": 0.515
+      "similarity": 0.574
+    },
+    {
+      "rank": 2,
+      "name": "Keshawn Martin",
+      "college": "Michigan St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 121,
+      "ppg": 3.6361,
+      "rawPpg": 2.4719,
+      "madeIt": false,
+      "similarity": 0.564
     },
     {
       "rank": 3,
-      "name": "Taylor Price",
-      "college": "Ohio",
-      "year": 2010,
-      "round": 3,
-      "pick": 90,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.512
-    },
-    {
-      "rank": 4,
       "name": "T.Y. Hilton",
       "college": "Florida International",
       "year": 2012,
@@ -47,43 +35,55 @@
       "ppg": 10.4858,
       "rawPpg": 12.8719,
       "madeIt": true,
-      "similarity": 0.501
+      "similarity": 0.554
+    },
+    {
+      "rank": 4,
+      "name": "Taylor Price",
+      "college": "Ohio",
+      "year": 2010,
+      "round": 3,
+      "pick": 90,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.527
     },
     {
       "rank": 5,
-      "name": "Antonio Callaway",
-      "college": "Florida",
-      "year": 2018,
+      "name": "Jarius Wright",
+      "college": "Arkansas",
+      "year": 2012,
       "round": 4,
-      "pick": 105,
-      "ppg": 6.4447,
-      "rawPpg": 6.925,
+      "pick": 118,
+      "ppg": 6.564,
+      "rawPpg": 7.2324,
       "madeIt": true,
-      "similarity": 0.499
+      "similarity": 0.462
     },
     {
       "rank": 6,
-      "name": "Bruce Ellington",
-      "college": "South Carolina",
-      "year": 2014,
-      "round": 4,
-      "pick": 106,
-      "ppg": 3.5222,
-      "rawPpg": 2.0192,
-      "madeIt": false,
-      "similarity": 0.492
+      "name": "Markus Wheaton",
+      "college": "Oregon St.",
+      "year": 2013,
+      "round": 3,
+      "pick": 79,
+      "ppg": 6.8569,
+      "rawPpg": 7.3031,
+      "madeIt": true,
+      "similarity": 0.456
     },
     {
       "rank": 7,
-      "name": "Jacoby Ford",
-      "college": "Clemson",
-      "year": 2010,
+      "name": "Travis Benjamin",
+      "college": "Miami (FL)",
+      "year": 2012,
       "round": 4,
-      "pick": 108,
-      "ppg": 6.7418,
-      "rawPpg": 7.0562,
-      "madeIt": true,
-      "similarity": 0.491
+      "pick": 100,
+      "ppg": 4.8074,
+      "rawPpg": 4.2209,
+      "madeIt": false,
+      "similarity": 0.456
     }
   ]
 }

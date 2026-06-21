@@ -1,0 +1,65 @@
+{
+  "prospectId": "stetson-bennett-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jake Haener",
+      "college": "Fresno St.",
+      "year": 2023,
+      "round": 4,
+      "pick": 127,
+      "ppg": 8.3583,
+      "rawPpg": 1.655,
+      "madeIt": true,
+      "similarity": 0.406
+    },
+    {
+      "rank": 2,
+      "name": "Jarrett Stidham",
+      "college": "Auburn",
+      "year": 2019,
+      "round": 4,
+      "pick": 133,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.335
+    },
+    {
+      "rank": 3,
+      "name": "Tyler Wilson",
+      "college": "Arkansas",
+      "year": 2013,
+      "round": 4,
+      "pick": 112,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.326
+    },
+    {
+      "rank": 4,
+      "name": "Jake Fromm",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.295
+    },
+    {
+      "rank": 5,
+      "name": "Jaren Hall",
+      "college": "BYU",
+      "year": 2023,
+      "round": 5,
+      "pick": 164,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.292
+    }
+  ]
+}

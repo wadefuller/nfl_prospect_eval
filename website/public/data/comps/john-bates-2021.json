@@ -1,0 +1,89 @@
+{
+  "prospectId": "john-bates-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Luke Farrell",
+      "college": "Ohio St.",
+      "year": 2021,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.9576,
+      "rawPpg": 1.6688,
+      "madeIt": false,
+      "similarity": 0.636
+    },
+    {
+      "rank": 2,
+      "name": "Tre' McKitty",
+      "college": "Georgia",
+      "year": 2021,
+      "round": 3,
+      "pick": 97,
+      "ppg": 2.5474,
+      "rawPpg": 1.0942,
+      "madeIt": false,
+      "similarity": 0.592
+    },
+    {
+      "rank": 3,
+      "name": "Dawson Knox",
+      "college": "Mississippi",
+      "year": 2019,
+      "round": 3,
+      "pick": 96,
+      "ppg": 6.2824,
+      "rawPpg": 7.1442,
+      "madeIt": true,
+      "similarity": 0.591
+    },
+    {
+      "rank": 4,
+      "name": "Will Dissly",
+      "college": "Washington",
+      "year": 2018,
+      "round": 4,
+      "pick": 120,
+      "ppg": 4.8908,
+      "rawPpg": 6.8367,
+      "madeIt": false,
+      "similarity": 0.574
+    },
+    {
+      "rank": 5,
+      "name": "Dalton Keene",
+      "college": "Virginia Tech",
+      "year": 2020,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.563
+    },
+    {
+      "rank": 6,
+      "name": "Jeremy Ruckert",
+      "college": "Ohio St.",
+      "year": 2022,
+      "round": 3,
+      "pick": 101,
+      "ppg": 2.8015,
+      "rawPpg": 1.8514,
+      "madeIt": false,
+      "similarity": 0.554
+    },
+    {
+      "rank": 7,
+      "name": "Durham Smythe",
+      "college": "Notre Dame",
+      "year": 2018,
+      "round": 4,
+      "pick": 123,
+      "ppg": 3.3313,
+      "rawPpg": 2.2615,
+      "madeIt": false,
+      "similarity": 0.537
+    }
+  ]
+}

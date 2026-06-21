@@ -11,46 +11,10 @@
       "ppg": 3.3787,
       "rawPpg": 1.2055,
       "madeIt": false,
-      "similarity": 0.676
+      "similarity": 0.751
     },
     {
       "rank": 2,
-      "name": "Jalen Camp",
-      "college": "Georgia Tech",
-      "year": 2021,
-      "round": 6,
-      "pick": 209,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.569
-    },
-    {
-      "rank": 3,
-      "name": "Justin Brown",
-      "college": "Oklahoma",
-      "year": 2013,
-      "round": 6,
-      "pick": 186,
-      "ppg": 4.9469,
-      "rawPpg": 2.2333,
-      "madeIt": false,
-      "similarity": 0.569
-    },
-    {
-      "rank": 4,
-      "name": "Marquez Valdes-Scantling",
-      "college": "South Florida",
-      "year": 2018,
-      "round": 5,
-      "pick": 174,
-      "ppg": 6.7007,
-      "rawPpg": 7.1893,
-      "madeIt": true,
-      "similarity": 0.564
-    },
-    {
-      "rank": 5,
       "name": "Joe Webb",
       "college": "Ala-Birmingham",
       "year": 2010,
@@ -59,31 +23,67 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.554
+      "similarity": 0.635
     },
     {
-      "rank": 6,
-      "name": "Cornell Powell",
-      "college": "Clemson",
+      "rank": 3,
+      "name": "Jalen Camp",
+      "college": "Georgia Tech",
       "year": 2021,
-      "round": 5,
-      "pick": 181,
+      "round": 6,
+      "pick": 209,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.54
+      "similarity": 0.606
+    },
+    {
+      "rank": 4,
+      "name": "Michael Campanaro",
+      "college": "Wake Forest",
+      "year": 2014,
+      "round": 7,
+      "pick": 218,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.589
+    },
+    {
+      "rank": 5,
+      "name": "Keith Mumphery",
+      "college": "Michigan St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 175,
+      "ppg": 3.3482,
+      "rawPpg": 1.4545,
+      "madeIt": false,
+      "similarity": 0.583
+    },
+    {
+      "rank": 6,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.566
     },
     {
       "rank": 7,
-      "name": "Michael Woods II",
-      "college": "Oklahoma",
-      "year": 2022,
-      "round": 6,
-      "pick": 202,
-      "ppg": 4.4318,
-      "rawPpg": 0.9286,
-      "madeIt": false,
-      "similarity": 0.532
+      "name": "Isaiah McKenzie",
+      "college": "Georgia",
+      "year": 2017,
+      "round": 5,
+      "pick": 172,
+      "ppg": 5.2981,
+      "rawPpg": 4.9188,
+      "madeIt": true,
+      "similarity": 0.566
     }
   ]
 }

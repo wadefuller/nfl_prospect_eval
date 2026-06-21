@@ -3,42 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Tyler Johnson",
-      "college": "Minnesota",
-      "year": 2020,
+      "name": "Rodney Adams",
+      "college": "South Florida",
+      "year": 2017,
       "round": 5,
-      "pick": 161,
-      "ppg": 4.3889,
-      "rawPpg": 3.4325,
+      "pick": 170,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.666
+      "similarity": 0.59
     },
     {
       "rank": 2,
-      "name": "Pharoh Cooper",
-      "college": "South Carolina",
-      "year": 2016,
-      "round": 4,
-      "pick": 117,
-      "ppg": 3.2081,
-      "rawPpg": 1.5073,
-      "madeIt": false,
-      "similarity": 0.605
-    },
-    {
-      "rank": 3,
-      "name": "Mardy Gilyard",
-      "college": "Cincinnati",
-      "year": 2010,
-      "round": 4,
-      "pick": 99,
-      "ppg": 3.5744,
-      "rawPpg": 0.8429,
-      "madeIt": false,
-      "similarity": 0.601
-    },
-    {
-      "rank": 4,
       "name": "J'Mon Moore",
       "college": "Missouri",
       "year": 2018,
@@ -47,43 +23,67 @@
       "ppg": 4.2579,
       "rawPpg": 0.3571,
       "madeIt": false,
-      "similarity": 0.552
+      "similarity": 0.579
+    },
+    {
+      "rank": 3,
+      "name": "Josh Reynolds",
+      "college": "Texas A&M",
+      "year": 2017,
+      "round": 4,
+      "pick": 117,
+      "ppg": 5.2803,
+      "rawPpg": 5.1688,
+      "madeIt": true,
+      "similarity": 0.564
+    },
+    {
+      "rank": 4,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
+      "round": 5,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
+      "madeIt": false,
+      "similarity": 0.556
     },
     {
       "rank": 5,
-      "name": "Khalil Shakir",
-      "college": "Boise St.",
-      "year": 2022,
-      "round": 5,
-      "pick": 148,
-      "ppg": 7.0964,
-      "rawPpg": 7.7417,
-      "madeIt": true,
-      "similarity": 0.552
+      "name": "Mardy Gilyard",
+      "college": "Cincinnati",
+      "year": 2010,
+      "round": 4,
+      "pick": 99,
+      "ppg": 3.5744,
+      "rawPpg": 0.8429,
+      "madeIt": false,
+      "similarity": 0.551
     },
     {
       "rank": 6,
-      "name": "Kenny Golladay",
-      "college": "Northern Illinois",
-      "year": 2017,
-      "round": 3,
-      "pick": 96,
-      "ppg": 10.2773,
-      "rawPpg": 12.471,
-      "madeIt": true,
-      "similarity": 0.534
+      "name": "Devin Street",
+      "college": "Pittsburgh",
+      "year": 2014,
+      "round": 5,
+      "pick": 146,
+      "ppg": 4.2345,
+      "rawPpg": 1.7182,
+      "madeIt": false,
+      "similarity": 0.547
     },
     {
       "rank": 7,
-      "name": "Calvin Austin III",
-      "college": "Memphis",
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
       "year": 2022,
       "round": 4,
-      "pick": 138,
-      "ppg": 4.9476,
-      "rawPpg": 4.4048,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.531
+      "similarity": 0.539
     }
   ]
 }

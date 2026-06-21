@@ -1,0 +1,65 @@
+{
+  "prospectId": "aidan-o-connell-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ryan Finley",
+      "college": "North Carolina St.",
+      "year": 2019,
+      "round": 4,
+      "pick": 104,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.535
+    },
+    {
+      "rank": 2,
+      "name": "James Morgan",
+      "college": "Florida International",
+      "year": 2020,
+      "round": 4,
+      "pick": 125,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.412
+    },
+    {
+      "rank": 3,
+      "name": "Will Grier",
+      "college": "West Virginia",
+      "year": 2019,
+      "round": 3,
+      "pick": 100,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.39
+    },
+    {
+      "rank": 4,
+      "name": "Jacob Eason",
+      "college": "Washington",
+      "year": 2020,
+      "round": 4,
+      "pick": 122,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.386
+    },
+    {
+      "rank": 5,
+      "name": "T.J. Yates",
+      "college": "North Carolina",
+      "year": 2011,
+      "round": 5,
+      "pick": 152,
+      "ppg": 10.5008,
+      "rawPpg": 7.2767,
+      "madeIt": true,
+      "similarity": 0.346
+    }
+  ]
+}

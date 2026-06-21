@@ -1,0 +1,89 @@
+{
+  "prospectId": "grant-calcaterra-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Luke Willson",
+      "college": "Rice",
+      "year": 2013,
+      "round": 5,
+      "pick": 158,
+      "ppg": 4.2347,
+      "rawPpg": 4.1692,
+      "madeIt": false,
+      "similarity": 0.681
+    },
+    {
+      "rank": 2,
+      "name": "Tommy Sweeney",
+      "college": "Boston Col.",
+      "year": 2019,
+      "round": 7,
+      "pick": 228,
+      "ppg": 3.6678,
+      "rawPpg": 2.1286,
+      "madeIt": false,
+      "similarity": 0.599
+    },
+    {
+      "rank": 3,
+      "name": "Jerell Adams",
+      "college": "South Carolina",
+      "year": 2016,
+      "round": 6,
+      "pick": 184,
+      "ppg": 3.1103,
+      "rawPpg": 2.0433,
+      "madeIt": false,
+      "similarity": 0.557
+    },
+    {
+      "rank": 4,
+      "name": "Ryan Griffin",
+      "college": "Connecticut",
+      "year": 2013,
+      "round": 6,
+      "pick": 201,
+      "ppg": 4.3461,
+      "rawPpg": 4.4303,
+      "madeIt": false,
+      "similarity": 0.557
+    },
+    {
+      "rank": 5,
+      "name": "Bucky Hodges",
+      "college": "Virginia Tech",
+      "year": 2017,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.517
+    },
+    {
+      "rank": 6,
+      "name": "Ryan Taylor",
+      "college": "North Carolina",
+      "year": 2011,
+      "round": 7,
+      "pick": 218,
+      "ppg": 2.4957,
+      "rawPpg": 0.7583,
+      "madeIt": false,
+      "similarity": 0.511
+    },
+    {
+      "rank": 7,
+      "name": "Dedrick Epps",
+      "college": "Miami (FL)",
+      "year": 2010,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.489
+    }
+  ]
+}

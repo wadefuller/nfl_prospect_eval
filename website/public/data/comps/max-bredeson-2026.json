@@ -1,0 +1,89 @@
+{
+  "prospectId": "max-bredeson-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Adrien Robinson",
+      "college": "Cincinnati",
+      "year": 2012,
+      "round": 4,
+      "pick": 127,
+      "ppg": 3.3184,
+      "rawPpg": 1.5,
+      "madeIt": false,
+      "similarity": 0.47
+    },
+    {
+      "rank": 2,
+      "name": "Fendi Onobun",
+      "college": "Arizona",
+      "year": 2010,
+      "round": 6,
+      "pick": 170,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.441
+    },
+    {
+      "rank": 3,
+      "name": "Temarrick Hemingway",
+      "college": "South Carolina St.",
+      "year": 2016,
+      "round": 6,
+      "pick": 177,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.404
+    },
+    {
+      "rank": 4,
+      "name": "George Kittle",
+      "college": "Iowa",
+      "year": 2017,
+      "round": 5,
+      "pick": 146,
+      "ppg": 10.0904,
+      "rawPpg": 13.1379,
+      "madeIt": true,
+      "similarity": 0.346
+    },
+    {
+      "rank": 5,
+      "name": "Jeremy Sprinkle",
+      "college": "Arkansas",
+      "year": 2017,
+      "round": 5,
+      "pick": 154,
+      "ppg": 3.129,
+      "rawPpg": 2.1344,
+      "madeIt": false,
+      "similarity": 0.262
+    },
+    {
+      "rank": 6,
+      "name": "Durham Smythe",
+      "college": "Notre Dame",
+      "year": 2018,
+      "round": 4,
+      "pick": 123,
+      "ppg": 3.3313,
+      "rawPpg": 2.2615,
+      "madeIt": false,
+      "similarity": 0.227
+    },
+    {
+      "rank": 7,
+      "name": "Charlie Woerner",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 6,
+      "pick": 190,
+      "ppg": 3.215,
+      "rawPpg": 0.9625,
+      "madeIt": false,
+      "similarity": 0.211
+    }
+  ]
+}

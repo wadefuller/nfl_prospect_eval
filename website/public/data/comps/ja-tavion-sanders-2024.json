@@ -1,0 +1,89 @@
+{
+  "prospectId": "ja-tavion-sanders-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Devin Asiasi",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.399
+    },
+    {
+      "rank": 2,
+      "name": "Greg Dulcich",
+      "college": "UCLA",
+      "year": 2022,
+      "round": 3,
+      "pick": 80,
+      "ppg": 5.3484,
+      "rawPpg": 6.96,
+      "madeIt": true,
+      "similarity": 0.33
+    },
+    {
+      "rank": 3,
+      "name": "Richard Rodgers",
+      "college": "California",
+      "year": 2014,
+      "round": 3,
+      "pick": 98,
+      "ppg": 5.4183,
+      "rawPpg": 5.9002,
+      "madeIt": true,
+      "similarity": 0.326
+    },
+    {
+      "rank": 4,
+      "name": "D.J. Williams",
+      "college": "Arkansas",
+      "year": 2011,
+      "round": 5,
+      "pick": 141,
+      "ppg": 2.53,
+      "rawPpg": 0.6517,
+      "madeIt": false,
+      "similarity": 0.315
+    },
+    {
+      "rank": 5,
+      "name": "Tyler Kroft",
+      "college": "Rutgers",
+      "year": 2015,
+      "round": 3,
+      "pick": 85,
+      "ppg": 4.4832,
+      "rawPpg": 4.2479,
+      "madeIt": false,
+      "similarity": 0.307
+    },
+    {
+      "rank": 6,
+      "name": "Zach Gentry",
+      "college": "Michigan",
+      "year": 2019,
+      "round": 5,
+      "pick": 141,
+      "ppg": 3.6792,
+      "rawPpg": 2.62,
+      "madeIt": false,
+      "similarity": 0.288
+    },
+    {
+      "rank": 7,
+      "name": "Jeff Heuerman",
+      "college": "Ohio St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 92,
+      "ppg": 3.7112,
+      "rawPpg": 3.085,
+      "madeIt": false,
+      "similarity": 0.275
+    }
+  ]
+}

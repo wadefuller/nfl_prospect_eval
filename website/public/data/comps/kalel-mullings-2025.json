@@ -11,31 +11,31 @@
       "ppg": 5.6678,
       "rawPpg": 1.4875,
       "madeIt": true,
-      "similarity": 0.3
+      "similarity": 0.506
     },
     {
       "rank": 2,
-      "name": "Mike Gillislee",
-      "college": "Florida",
-      "year": 2013,
+      "name": "Kenneth Gainwell",
+      "college": "Memphis",
+      "year": 2021,
       "round": 5,
-      "pick": 164,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.22
+      "pick": 150,
+      "ppg": 6.5293,
+      "rawPpg": 5.915,
+      "madeIt": true,
+      "similarity": 0.379
     },
     {
       "rank": 3,
-      "name": "Jordan Scarlett",
-      "college": "Florida",
-      "year": 2019,
-      "round": 5,
-      "pick": 154,
+      "name": "David Williams",
+      "college": "Arkansas",
+      "year": 2018,
+      "round": 7,
+      "pick": 226,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.219
+      "similarity": 0.338
     },
     {
       "rank": 4,
@@ -47,43 +47,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.217
+      "similarity": 0.326
     },
     {
       "rank": 5,
-      "name": "Qadree Ollison",
-      "college": "Pittsburgh",
-      "year": 2019,
-      "round": 5,
-      "pick": 152,
-      "ppg": 6.1438,
-      "rawPpg": 3.9917,
+      "name": "Chris Evans",
+      "college": "Michigan",
+      "year": 2021,
+      "round": 6,
+      "pick": 202,
+      "ppg": 5.0779,
+      "rawPpg": 2.915,
       "madeIt": true,
-      "similarity": 0.208
-    },
-    {
-      "rank": 6,
-      "name": "Snoop Conner",
-      "college": "Mississippi",
-      "year": 2022,
-      "round": 5,
-      "pick": 154,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.188
-    },
-    {
-      "rank": 7,
-      "name": "Kerrith Whyte Jr",
-      "college": "Florida Atlantic",
-      "year": 2019,
-      "round": 7,
-      "pick": 222,
-      "ppg": 6.2603,
-      "rawPpg": 2.2667,
-      "madeIt": true,
-      "similarity": 0.178
+      "similarity": 0.325
     }
   ]
 }

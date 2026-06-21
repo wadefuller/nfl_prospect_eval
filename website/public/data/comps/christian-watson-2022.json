@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Cody Latimer",
-      "college": "Indiana",
-      "year": 2014,
-      "round": 2,
-      "pick": 56,
-      "ppg": 3.4866,
-      "rawPpg": 1.4648,
-      "madeIt": false,
-      "similarity": 0.59
-    },
-    {
-      "rank": 2,
-      "name": "Jaylen Waddle",
-      "college": "Alabama",
-      "year": 2021,
-      "round": 1,
-      "pick": 6,
-      "ppg": 10.468,
-      "rawPpg": 12.6393,
-      "madeIt": true,
-      "similarity": 0.507
-    },
-    {
-      "rank": 3,
-      "name": "Cedric Tillman",
-      "college": "Tennessee",
-      "year": 2023,
-      "round": 3,
-      "pick": 74,
-      "ppg": 5.6982,
-      "rawPpg": 5.7236,
-      "madeIt": true,
-      "similarity": 0.49
-    },
-    {
-      "rank": 4,
       "name": "Aaron Dobson",
       "college": "Marshall",
       "year": 2013,
@@ -47,34 +11,58 @@
       "ppg": 6.3767,
       "rawPpg": 6.0076,
       "madeIt": true,
-      "similarity": 0.487
+      "similarity": 0.533
+    },
+    {
+      "rank": 2,
+      "name": "Michael Thomas",
+      "college": "Ohio St.",
+      "year": 2016,
+      "round": 2,
+      "pick": 47,
+      "ppg": 11.8751,
+      "rawPpg": 14.8963,
+      "madeIt": true,
+      "similarity": 0.513
+    },
+    {
+      "rank": 3,
+      "name": "DeVante Parker",
+      "college": "Louisville",
+      "year": 2015,
+      "round": 1,
+      "pick": 14,
+      "ppg": 7.3715,
+      "rawPpg": 8.2333,
+      "madeIt": true,
+      "similarity": 0.482
+    },
+    {
+      "rank": 4,
+      "name": "Van Jefferson",
+      "college": "Florida",
+      "year": 2020,
+      "round": 2,
+      "pick": 57,
+      "ppg": 7.1054,
+      "rawPpg": 7.5568,
+      "madeIt": true,
+      "similarity": 0.48
     },
     {
       "rank": 5,
-      "name": "Quentin Johnston",
-      "college": "TCU",
+      "name": "Cedric Tillman",
+      "college": "Tennessee",
       "year": 2023,
-      "round": 1,
-      "pick": 21,
-      "ppg": 8.8257,
-      "rawPpg": 10.5105,
+      "round": 3,
+      "pick": 74,
+      "ppg": 5.6982,
+      "rawPpg": 5.7236,
       "madeIt": true,
-      "similarity": 0.479
+      "similarity": 0.475
     },
     {
       "rank": 6,
-      "name": "KJ Hamler",
-      "college": "Penn St.",
-      "year": 2020,
-      "round": 2,
-      "pick": 46,
-      "ppg": 5.6715,
-      "rawPpg": 4.9875,
-      "madeIt": true,
-      "similarity": 0.478
-    },
-    {
-      "rank": 7,
       "name": "Denzel Mims",
       "college": "Baylor",
       "year": 2020,
@@ -83,7 +71,19 @@
       "ppg": 4.9627,
       "rawPpg": 4.0722,
       "madeIt": false,
-      "similarity": 0.462
+      "similarity": 0.465
+    },
+    {
+      "rank": 7,
+      "name": "Jaylen Waddle",
+      "college": "Alabama",
+      "year": 2021,
+      "round": 1,
+      "pick": 6,
+      "ppg": 10.468,
+      "rawPpg": 12.6393,
+      "madeIt": true,
+      "similarity": 0.454
     }
   ]
 }

@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Sammie Coates",
-      "college": "Auburn",
-      "year": 2015,
-      "round": 3,
-      "pick": 87,
-      "ppg": 4.6711,
-      "rawPpg": 3.1214,
-      "madeIt": false,
-      "similarity": 0.443
-    },
-    {
-      "rank": 2,
-      "name": "Breshad Perriman",
-      "college": "Central Florida",
-      "year": 2015,
-      "round": 1,
-      "pick": 26,
-      "ppg": 4.5889,
-      "rawPpg": 3.3973,
-      "madeIt": false,
-      "similarity": 0.417
-    },
-    {
-      "rank": 3,
       "name": "Josh Palmer",
       "college": "Tennessee",
       "year": 2021,
@@ -35,10 +11,10 @@
       "ppg": 7.5341,
       "rawPpg": 8.5506,
       "madeIt": true,
-      "similarity": 0.416
+      "similarity": 0.533
     },
     {
-      "rank": 4,
+      "rank": 2,
       "name": "Travis Benjamin",
       "college": "Miami (FL)",
       "year": 2012,
@@ -47,10 +23,46 @@
       "ppg": 4.8074,
       "rawPpg": 4.2209,
       "madeIt": false,
-      "similarity": 0.392
+      "similarity": 0.446
+    },
+    {
+      "rank": 3,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.438
+    },
+    {
+      "rank": 4,
+      "name": "Phillip Dorsett",
+      "college": "Miami (FL)",
+      "year": 2015,
+      "round": 1,
+      "pick": 29,
+      "ppg": 5.165,
+      "rawPpg": 4.5252,
+      "madeIt": true,
+      "similarity": 0.418
     },
     {
       "rank": 5,
+      "name": "Breshad Perriman",
+      "college": "Central Florida",
+      "year": 2015,
+      "round": 1,
+      "pick": 26,
+      "ppg": 4.5889,
+      "rawPpg": 3.3973,
+      "madeIt": false,
+      "similarity": 0.414
+    },
+    {
+      "rank": 6,
       "name": "Nico Collins",
       "college": "Michigan",
       "year": 2021,
@@ -59,31 +71,19 @@
       "ppg": 9.6203,
       "rawPpg": 11.2767,
       "madeIt": true,
-      "similarity": 0.385
-    },
-    {
-      "rank": 6,
-      "name": "Aaron Dobson",
-      "college": "Marshall",
-      "year": 2013,
-      "round": 2,
-      "pick": 59,
-      "ppg": 6.3767,
-      "rawPpg": 6.0076,
-      "madeIt": true,
-      "similarity": 0.353
+      "similarity": 0.411
     },
     {
       "rank": 7,
-      "name": "DJ Chark",
-      "college": "LSU",
-      "year": 2018,
-      "round": 2,
-      "pick": 61,
-      "ppg": 9.3598,
-      "rawPpg": 11.1985,
+      "name": "Bryan Edwards",
+      "college": "South Carolina",
+      "year": 2020,
+      "round": 3,
+      "pick": 81,
+      "ppg": 5.3252,
+      "rawPpg": 4.5892,
       "madeIt": true,
-      "similarity": 0.34
+      "similarity": 0.41
     }
   ]
 }

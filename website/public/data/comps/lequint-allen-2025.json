@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Storm Johnson",
-      "college": "Central Florida",
-      "year": 2014,
-      "round": 7,
-      "pick": 222,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.122
-    },
-    {
-      "rank": 2,
-      "name": "Marion Grice",
-      "college": "Arizona St.",
-      "year": 2014,
-      "round": 6,
-      "pick": 201,
-      "ppg": 6.3922,
-      "rawPpg": 2.75,
-      "madeIt": true,
-      "similarity": 0.109
-    },
-    {
-      "rank": 3,
-      "name": "Theo Riddick",
-      "college": "Notre Dame",
-      "year": 2013,
-      "round": 6,
-      "pick": 199,
-      "ppg": 7.5739,
-      "rawPpg": 7.3322,
-      "madeIt": true,
-      "similarity": 0.097
-    },
-    {
-      "rank": 4,
       "name": "Jawan Jamison",
       "college": "Rutgers",
       "year": 2013,
@@ -47,43 +11,55 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.087
+      "similarity": 0.317
+    },
+    {
+      "rank": 2,
+      "name": "Eno Benjamin",
+      "college": "Arizona St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 222,
+      "ppg": 6.1143,
+      "rawPpg": 4.5279,
+      "madeIt": true,
+      "similarity": 0.279
+    },
+    {
+      "rank": 3,
+      "name": "Marion Grice",
+      "college": "Arizona St.",
+      "year": 2014,
+      "round": 6,
+      "pick": 201,
+      "ppg": 6.3922,
+      "rawPpg": 2.75,
+      "madeIt": true,
+      "similarity": 0.279
+    },
+    {
+      "rank": 4,
+      "name": "Kenny McIntosh",
+      "college": "Georgia",
+      "year": 2023,
+      "round": 7,
+      "pick": 237,
+      "ppg": 5.3714,
+      "rawPpg": 1.9,
+      "madeIt": true,
+      "similarity": 0.274
     },
     {
       "rank": 5,
-      "name": "Matthew Dayes",
-      "college": "North Carolina St.",
-      "year": 2017,
+      "name": "Justin Jackson",
+      "college": "Northwestern",
+      "year": 2018,
       "round": 7,
-      "pick": 252,
-      "ppg": 4.4941,
-      "rawPpg": 0.4769,
-      "madeIt": false,
-      "similarity": 0.083
-    },
-    {
-      "rank": 6,
-      "name": "Dwayne Washington",
-      "college": "Washington",
-      "year": 2016,
-      "round": 7,
-      "pick": 236,
-      "ppg": 5.389,
-      "rawPpg": 3.0864,
+      "pick": 251,
+      "ppg": 7.0766,
+      "rawPpg": 6.4653,
       "madeIt": true,
-      "similarity": 0.069
-    },
-    {
-      "rank": 7,
-      "name": "Marcus Murphy",
-      "college": "Missouri",
-      "year": 2015,
-      "round": 7,
-      "pick": 230,
-      "ppg": 4.4872,
-      "rawPpg": 0.4615,
-      "madeIt": false,
-      "similarity": 0.068
+      "similarity": 0.272
     }
   ]
 }

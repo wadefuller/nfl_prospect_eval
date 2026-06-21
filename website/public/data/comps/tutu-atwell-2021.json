@@ -3,66 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Rashod Bateman",
-      "college": "Minnesota",
-      "year": 2021,
-      "round": 1,
-      "pick": 27,
-      "ppg": 6.5274,
-      "rawPpg": 7.1875,
-      "madeIt": true,
-      "similarity": 0.41
-    },
-    {
-      "rank": 2,
-      "name": "Diontae Johnson",
-      "college": "Toledo",
-      "year": 2019,
-      "round": 3,
-      "pick": 66,
-      "ppg": 10.556,
-      "rawPpg": 12.8965,
-      "madeIt": true,
-      "similarity": 0.359
-    },
-    {
-      "rank": 3,
-      "name": "Jayden Reed",
-      "college": "Michigan St.",
-      "year": 2023,
-      "round": 2,
-      "pick": 50,
-      "ppg": 9.1864,
-      "rawPpg": 10.7728,
-      "madeIt": true,
-      "similarity": 0.351
-    },
-    {
-      "rank": 4,
-      "name": "Brandon LaFell",
-      "college": "LSU",
-      "year": 2010,
-      "round": 3,
-      "pick": 78,
-      "ppg": 7.0439,
-      "rawPpg": 7.751,
-      "madeIt": true,
-      "similarity": 0.327
-    },
-    {
-      "rank": 5,
-      "name": "JuJu Smith-Schuster",
-      "college": "USC",
-      "year": 2017,
-      "round": 2,
-      "pick": 62,
-      "ppg": 10.9898,
-      "rawPpg": 13.5687,
-      "madeIt": true,
-      "similarity": 0.322
-    },
-    {
-      "rank": 6,
       "name": "Marquise Brown",
       "college": "Oklahoma",
       "year": 2019,
@@ -71,10 +11,10 @@
       "ppg": 9.0048,
       "rawPpg": 10.525,
       "madeIt": true,
-      "similarity": 0.316
+      "similarity": 0.473
     },
     {
-      "rank": 7,
+      "rank": 2,
       "name": "Jonathan Baldwin",
       "college": "Pittsburgh",
       "year": 2011,
@@ -83,7 +23,67 @@
       "ppg": 4.5325,
       "rawPpg": 3.6367,
       "madeIt": false,
-      "similarity": 0.313
+      "similarity": 0.45
+    },
+    {
+      "rank": 3,
+      "name": "KJ Hamler",
+      "college": "Penn St.",
+      "year": 2020,
+      "round": 2,
+      "pick": 46,
+      "ppg": 5.6715,
+      "rawPpg": 4.9875,
+      "madeIt": true,
+      "similarity": 0.436
+    },
+    {
+      "rank": 4,
+      "name": "Rashod Bateman",
+      "college": "Minnesota",
+      "year": 2021,
+      "round": 1,
+      "pick": 27,
+      "ppg": 6.5274,
+      "rawPpg": 7.1875,
+      "madeIt": true,
+      "similarity": 0.39
+    },
+    {
+      "rank": 5,
+      "name": "Titus Young",
+      "college": "Boise St.",
+      "year": 2011,
+      "round": 2,
+      "pick": 44,
+      "ppg": 7.1889,
+      "rawPpg": 7.9606,
+      "madeIt": true,
+      "similarity": 0.376
+    },
+    {
+      "rank": 6,
+      "name": "Tyler Lockett",
+      "college": "Kansas St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 69,
+      "ppg": 7.2539,
+      "rawPpg": 7.8877,
+      "madeIt": true,
+      "similarity": 0.365
+    },
+    {
+      "rank": 7,
+      "name": "Diontae Johnson",
+      "college": "Toledo",
+      "year": 2019,
+      "round": 3,
+      "pick": 66,
+      "ppg": 10.556,
+      "rawPpg": 12.8965,
+      "madeIt": true,
+      "similarity": 0.36
     }
   ]
 }

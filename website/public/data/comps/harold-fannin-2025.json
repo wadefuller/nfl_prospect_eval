@@ -1,0 +1,89 @@
+{
+  "prospectId": "harold-fannin-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jace Amaro",
+      "college": "Texas Tech",
+      "year": 2014,
+      "round": 2,
+      "pick": 49,
+      "ppg": 4.4986,
+      "rawPpg": 4.6786,
+      "madeIt": false,
+      "similarity": 0.431
+    },
+    {
+      "rank": 2,
+      "name": "Mark Andrews",
+      "college": "Oklahoma",
+      "year": 2018,
+      "round": 3,
+      "pick": 86,
+      "ppg": 8.5724,
+      "rawPpg": 10.8793,
+      "madeIt": true,
+      "similarity": 0.343
+    },
+    {
+      "rank": 3,
+      "name": "Zach Ertz",
+      "college": "Stanford",
+      "year": 2013,
+      "round": 2,
+      "pick": 35,
+      "ppg": 6.7544,
+      "rawPpg": 8.0267,
+      "madeIt": true,
+      "similarity": 0.332
+    },
+    {
+      "rank": 4,
+      "name": "Michael Mayer",
+      "college": "Notre Dame",
+      "year": 2023,
+      "round": 2,
+      "pick": 35,
+      "ppg": 4.3728,
+      "rawPpg": 4.3923,
+      "madeIt": false,
+      "similarity": 0.301
+    },
+    {
+      "rank": 5,
+      "name": "Gavin Escobar",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 2,
+      "pick": 47,
+      "ppg": 3.7394,
+      "rawPpg": 3.2861,
+      "madeIt": false,
+      "similarity": 0.241
+    },
+    {
+      "rank": 6,
+      "name": "Clive Walford",
+      "college": "Miami (FL)",
+      "year": 2015,
+      "round": 3,
+      "pick": 68,
+      "ppg": 4.4513,
+      "rawPpg": 4.51,
+      "madeIt": false,
+      "similarity": 0.218
+    },
+    {
+      "rank": 7,
+      "name": "Jace Sternberger",
+      "college": "Texas A&M",
+      "year": 2019,
+      "round": 3,
+      "pick": 75,
+      "ppg": 3.8691,
+      "rawPpg": 2.925,
+      "madeIt": false,
+      "similarity": 0.159
+    }
+  ]
+}

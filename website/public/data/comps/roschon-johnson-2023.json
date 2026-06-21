@@ -11,34 +11,10 @@
       "ppg": 5.2888,
       "rawPpg": 4.1477,
       "madeIt": true,
-      "similarity": 0.213
+      "similarity": 0.447
     },
     {
       "rank": 2,
-      "name": "Jamaal Williams",
-      "college": "BYU",
-      "year": 2017,
-      "round": 4,
-      "pick": 134,
-      "ppg": 8.4717,
-      "rawPpg": 8.8719,
-      "madeIt": true,
-      "similarity": 0.181
-    },
-    {
-      "rank": 3,
-      "name": "Anthony McFarland Jr.",
-      "college": "Maryland",
-      "year": 2020,
-      "round": 4,
-      "pick": 124,
-      "ppg": 5.3269,
-      "rawPpg": 1.7909,
-      "madeIt": true,
-      "similarity": 0.174
-    },
-    {
-      "rank": 4,
       "name": "John Conner",
       "college": "Kentucky",
       "year": 2010,
@@ -47,10 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.155
+      "similarity": 0.409
     },
     {
-      "rank": 5,
+      "rank": 3,
       "name": "Snoop Conner",
       "college": "Mississippi",
       "year": 2022,
@@ -59,10 +35,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.147
+      "similarity": 0.401
     },
     {
-      "rank": 6,
+      "rank": 4,
       "name": "Kene Nwangwu",
       "college": "Iowa St.",
       "year": 2021,
@@ -71,19 +47,19 @@
       "ppg": 3.9905,
       "rawPpg": 1.5417,
       "madeIt": false,
-      "similarity": 0.142
+      "similarity": 0.365
     },
     {
-      "rank": 7,
-      "name": "La'Mical Perine",
-      "college": "Florida",
-      "year": 2020,
+      "rank": 5,
+      "name": "Jamaal Williams",
+      "college": "BYU",
+      "year": 2017,
       "round": 4,
-      "pick": 120,
-      "ppg": 6.5818,
-      "rawPpg": 4.7,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
       "madeIt": true,
-      "similarity": 0.14
+      "similarity": 0.353
     }
   ]
 }

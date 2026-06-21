@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Tyjae Spears",
-      "college": "Tulane",
-      "year": 2023,
-      "round": 3,
-      "pick": 81,
-      "ppg": 7.7895,
-      "rawPpg": 7.8672,
-      "madeIt": true,
-      "similarity": 0.235
-    },
-    {
-      "rank": 2,
-      "name": "Jeremy Hill",
-      "college": "LSU",
-      "year": 2014,
-      "round": 2,
-      "pick": 55,
-      "ppg": 10.3687,
-      "rawPpg": 11.6954,
-      "madeIt": true,
-      "similarity": 0.222
-    },
-    {
-      "rank": 3,
-      "name": "Zach Charbonnet",
-      "college": "UCLA",
-      "year": 2023,
-      "round": 2,
-      "pick": 52,
-      "ppg": 9.4169,
-      "rawPpg": 10.2357,
-      "madeIt": true,
-      "similarity": 0.202
-    },
-    {
-      "rank": 4,
       "name": "T.J. Yeldon",
       "college": "Alabama",
       "year": 2015,
@@ -47,34 +11,10 @@
       "ppg": 8.7146,
       "rawPpg": 9.5025,
       "madeIt": true,
-      "similarity": 0.201
+      "similarity": 0.469
     },
     {
-      "rank": 5,
-      "name": "Kenny Irons",
-      "college": "Auburn",
-      "year": 2007,
-      "round": 2,
-      "pick": 49,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.2
-    },
-    {
-      "rank": 6,
-      "name": "Carlos Hyde",
-      "college": "Ohio St.",
-      "year": 2014,
-      "round": 2,
-      "pick": 57,
-      "ppg": 10.5147,
-      "rawPpg": 12.2835,
-      "madeIt": true,
-      "similarity": 0.192
-    },
-    {
-      "rank": 7,
+      "rank": 2,
       "name": "Knile Davis",
       "college": "Arkansas",
       "year": 2013,
@@ -83,7 +23,43 @@
       "ppg": 6.2985,
       "rawPpg": 5.5688,
       "madeIt": true,
-      "similarity": 0.186
+      "similarity": 0.46
+    },
+    {
+      "rank": 3,
+      "name": "Jeremy Hill",
+      "college": "LSU",
+      "year": 2014,
+      "round": 2,
+      "pick": 55,
+      "ppg": 10.3687,
+      "rawPpg": 11.6954,
+      "madeIt": true,
+      "similarity": 0.446
+    },
+    {
+      "rank": 4,
+      "name": "Ke'Shawn Vaughn",
+      "college": "Illinois",
+      "year": 2020,
+      "round": 3,
+      "pick": 76,
+      "ppg": 6.4117,
+      "rawPpg": 4.6167,
+      "madeIt": true,
+      "similarity": 0.44
+    },
+    {
+      "rank": 5,
+      "name": "Carlos Hyde",
+      "college": "Ohio St.",
+      "year": 2014,
+      "round": 2,
+      "pick": 57,
+      "ppg": 10.5147,
+      "rawPpg": 12.2835,
+      "madeIt": true,
+      "similarity": 0.434
     }
   ]
 }

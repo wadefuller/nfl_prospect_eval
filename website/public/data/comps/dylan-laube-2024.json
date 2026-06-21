@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Demetric Felton",
-      "college": "UCLA",
-      "year": 2021,
-      "round": 6,
-      "pick": 211,
-      "ppg": 4.5143,
-      "rawPpg": 1.5,
-      "madeIt": false,
-      "similarity": 0.06
-    },
-    {
-      "rank": 2,
-      "name": "Gerrid Doaks",
-      "college": "Cincinnati",
-      "year": 2021,
-      "round": 7,
-      "pick": 244,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.047
-    },
-    {
-      "rank": 3,
       "name": "Marion Grice",
       "college": "Arizona St.",
       "year": 2014,
@@ -35,22 +11,10 @@
       "ppg": 6.3922,
       "rawPpg": 2.75,
       "madeIt": true,
-      "similarity": 0.042
+      "similarity": 0.346
     },
     {
-      "rank": 4,
-      "name": "Storm Johnson",
-      "college": "Central Florida",
-      "year": 2014,
-      "round": 7,
-      "pick": 222,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.031
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "name": "Evan Hull",
       "college": "Northwestern",
       "year": 2023,
@@ -59,10 +23,22 @@
       "ppg": 5.9103,
       "rawPpg": 0.9833,
       "madeIt": true,
-      "similarity": 0.031
+      "similarity": 0.324
     },
     {
-      "rank": 6,
+      "rank": 3,
+      "name": "Kenny McIntosh",
+      "college": "Georgia",
+      "year": 2023,
+      "round": 7,
+      "pick": 237,
+      "ppg": 5.3714,
+      "rawPpg": 1.9,
+      "madeIt": true,
+      "similarity": 0.254
+    },
+    {
+      "rank": 4,
       "name": "Eno Benjamin",
       "college": "Arizona St.",
       "year": 2020,
@@ -71,10 +47,10 @@
       "ppg": 6.1143,
       "rawPpg": 4.5279,
       "madeIt": true,
-      "similarity": 0.029
+      "similarity": 0.215
     },
     {
-      "rank": 7,
+      "rank": 5,
       "name": "Mike James",
       "college": "Miami (FL)",
       "year": 2013,
@@ -83,7 +59,7 @@
       "ppg": 7.2612,
       "rawPpg": 6.1257,
       "madeIt": true,
-      "similarity": 0.028
+      "similarity": 0.212
     }
   ]
 }

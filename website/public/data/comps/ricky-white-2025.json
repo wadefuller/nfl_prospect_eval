@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Marquess Wilson",
-      "college": "Washington St.",
-      "year": 2013,
+      "name": "Isaiah Ford",
+      "college": "Virginia Tech",
+      "year": 2017,
       "round": 7,
-      "pick": 236,
-      "ppg": 5.598,
-      "rawPpg": 5.0539,
+      "pick": 237,
+      "ppg": 5.518,
+      "rawPpg": 4.625,
       "madeIt": true,
-      "similarity": 0.283
+      "similarity": 0.363
     },
     {
       "rank": 2,
@@ -23,22 +23,46 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.257
+      "similarity": 0.343
     },
     {
       "rank": 3,
-      "name": "Jeremy Gallon",
-      "college": "Michigan",
-      "year": 2014,
-      "round": 7,
-      "pick": 244,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.248
+      "similarity": 0.332
     },
     {
       "rank": 4,
+      "name": "Grant Dubose",
+      "college": "Charlotte",
+      "year": 2023,
+      "round": 7,
+      "pick": 256,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.324
+    },
+    {
+      "rank": 5,
+      "name": "Scott Miller",
+      "college": "Bowling Green",
+      "year": 2019,
+      "round": 6,
+      "pick": 208,
+      "ppg": 5.5265,
+      "rawPpg": 4.9659,
+      "madeIt": true,
+      "similarity": 0.32
+    },
+    {
+      "rank": 6,
       "name": "Dazz Newsome",
       "college": "North Carolina",
       "year": 2021,
@@ -47,43 +71,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.243
-    },
-    {
-      "rank": 5,
-      "name": "Kelvin Harmon",
-      "college": "North Carolina St.",
-      "year": 2019,
-      "round": 6,
-      "pick": 206,
-      "ppg": 4.7539,
-      "rawPpg": 3.4627,
-      "madeIt": false,
-      "similarity": 0.232
-    },
-    {
-      "rank": 6,
-      "name": "Isaiah Ford",
-      "college": "Virginia Tech",
-      "year": 2017,
-      "round": 7,
-      "pick": 237,
-      "ppg": 5.518,
-      "rawPpg": 4.625,
-      "madeIt": true,
-      "similarity": 0.232
+      "similarity": 0.315
     },
     {
       "rank": 7,
-      "name": "Da'Ron Brown",
-      "college": "Northern Illinois",
-      "year": 2015,
+      "name": "Tre Nixon",
+      "college": "Central Florida",
+      "year": 2021,
       "round": 7,
-      "pick": 233,
+      "pick": 242,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.22
+      "similarity": 0.305
     }
   ]
 }

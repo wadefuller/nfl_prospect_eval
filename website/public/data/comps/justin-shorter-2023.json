@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Niles Paul",
-      "college": "Nebraska",
-      "year": 2011,
+      "name": "Puka Nacua",
+      "college": "BYU",
+      "year": 2023,
       "round": 5,
-      "pick": 155,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.429
+      "pick": 177,
+      "ppg": 13.3263,
+      "rawPpg": 17.2986,
+      "madeIt": true,
+      "similarity": 0.43
     },
     {
       "rank": 2,
@@ -23,22 +23,34 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.417
+      "similarity": 0.419
     },
     {
       "rank": 3,
-      "name": "Trevor Davis",
-      "college": "California",
-      "year": 2016,
+      "name": "Niles Paul",
+      "college": "Nebraska",
+      "year": 2011,
       "round": 5,
-      "pick": 163,
-      "ppg": 2.9777,
-      "rawPpg": 0.9788,
+      "pick": 155,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.402
+      "similarity": 0.401
     },
     {
       "rank": 4,
+      "name": "DeAndre Smelter",
+      "college": "Georgia Tech",
+      "year": 2015,
+      "round": 4,
+      "pick": 132,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.393
+    },
+    {
+      "rank": 5,
       "name": "Chris Harper",
       "college": "Kansas St.",
       "year": 2013,
@@ -47,43 +59,31 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.399
-    },
-    {
-      "rank": 5,
-      "name": "Martavis Bryant",
-      "college": "Clemson",
-      "year": 2014,
-      "round": 4,
-      "pick": 118,
-      "ppg": 9.6684,
-      "rawPpg": 12.455,
-      "madeIt": true,
-      "similarity": 0.395
+      "similarity": 0.389
     },
     {
       "rank": 6,
-      "name": "Shelton Gibson",
-      "college": "West Virginia",
-      "year": 2017,
-      "round": 5,
-      "pick": 166,
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
+      "year": 2022,
+      "round": 4,
+      "pick": 125,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.342
+      "similarity": 0.387
     },
     {
       "rank": 7,
-      "name": "Darius Slayton",
-      "college": "Auburn",
+      "name": "Juwann Winfree",
+      "college": "Colorado",
       "year": 2019,
-      "round": 5,
-      "pick": 171,
-      "ppg": 7.7703,
-      "rawPpg": 8.8393,
-      "madeIt": true,
-      "similarity": 0.335
+      "round": 6,
+      "pick": 187,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.382
     }
   ]
 }

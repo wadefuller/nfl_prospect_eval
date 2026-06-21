@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Jamaal Williams",
-      "college": "BYU",
-      "year": 2017,
-      "round": 4,
-      "pick": 134,
-      "ppg": 8.4717,
-      "rawPpg": 8.8719,
+      "name": "Jonathan Williams",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 5,
+      "pick": 156,
+      "ppg": 5.6678,
+      "rawPpg": 1.4875,
       "madeIt": true,
-      "similarity": 0.2
+      "similarity": 0.366
     },
     {
       "rank": 2,
@@ -23,34 +23,10 @@
       "ppg": 5.2888,
       "rawPpg": 4.1477,
       "madeIt": true,
-      "similarity": 0.193
+      "similarity": 0.34
     },
     {
       "rank": 3,
-      "name": "Anthony McFarland Jr.",
-      "college": "Maryland",
-      "year": 2020,
-      "round": 4,
-      "pick": 124,
-      "ppg": 5.3269,
-      "rawPpg": 1.7909,
-      "madeIt": true,
-      "similarity": 0.188
-    },
-    {
-      "rank": 4,
-      "name": "Keenan Reynolds",
-      "college": "Navy",
-      "year": 2016,
-      "round": 6,
-      "pick": 182,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.174
-    },
-    {
-      "rank": 5,
       "name": "Kene Nwangwu",
       "college": "Iowa St.",
       "year": 2021,
@@ -59,31 +35,31 @@
       "ppg": 3.9905,
       "rawPpg": 1.5417,
       "madeIt": false,
-      "similarity": 0.172
+      "similarity": 0.329
     },
     {
-      "rank": 6,
-      "name": "Roschon Johnson",
-      "college": "Texas",
-      "year": 2023,
+      "rank": 4,
+      "name": "Zamir White",
+      "college": "Georgia",
+      "year": 2022,
       "round": 4,
-      "pick": 115,
-      "ppg": 6.3324,
-      "rawPpg": 5.5059,
+      "pick": 122,
+      "ppg": 5.8602,
+      "rawPpg": 4.1976,
       "madeIt": true,
-      "similarity": 0.161
+      "similarity": 0.313
     },
     {
-      "rank": 7,
-      "name": "Latavius Murray",
-      "college": "Central Florida",
+      "rank": 5,
+      "name": "Spencer Ware",
+      "college": "LSU",
       "year": 2013,
       "round": 6,
-      "pick": 181,
-      "ppg": 8.5695,
-      "rawPpg": 8.7286,
+      "pick": 194,
+      "ppg": 8.1571,
+      "rawPpg": 8.8667,
       "madeIt": true,
-      "similarity": 0.155
+      "similarity": 0.305
     }
   ]
 }

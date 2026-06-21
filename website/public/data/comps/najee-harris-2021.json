@@ -11,19 +11,19 @@
       "ppg": 6.3289,
       "rawPpg": 5.5667,
       "madeIt": true,
-      "similarity": 0.204
+      "similarity": 0.426
     },
     {
       "rank": 2,
-      "name": "Kerryon Johnson",
-      "college": "Auburn",
-      "year": 2018,
+      "name": "Daniel Thomas",
+      "college": "Kansas St.",
+      "year": 2011,
       "round": 2,
-      "pick": 43,
-      "ppg": 9.6332,
-      "rawPpg": 11.17,
+      "pick": 62,
+      "ppg": 6.7472,
+      "rawPpg": 6.1633,
       "madeIt": true,
-      "similarity": 0.146
+      "similarity": 0.411
     },
     {
       "rank": 3,
@@ -35,55 +35,31 @@
       "ppg": 10.2282,
       "rawPpg": 11.6212,
       "madeIt": true,
-      "similarity": 0.135
+      "similarity": 0.375
     },
     {
       "rank": 4,
-      "name": "Daniel Thomas",
-      "college": "Kansas St.",
-      "year": 2011,
+      "name": "Kerryon Johnson",
+      "college": "Auburn",
+      "year": 2018,
       "round": 2,
-      "pick": 62,
-      "ppg": 6.7472,
-      "rawPpg": 6.1633,
+      "pick": 43,
+      "ppg": 9.6332,
+      "rawPpg": 11.17,
       "madeIt": true,
-      "similarity": 0.135
+      "similarity": 0.339
     },
     {
       "rank": 5,
-      "name": "Ronald Jones II",
-      "college": "USC",
-      "year": 2018,
+      "name": "Cam Akers",
+      "college": "Florida St.",
+      "year": 2020,
       "round": 2,
-      "pick": 38,
-      "ppg": 9.7223,
-      "rawPpg": 10.8661,
+      "pick": 52,
+      "ppg": 8.4578,
+      "rawPpg": 8.8706,
       "madeIt": true,
-      "similarity": 0.122
-    },
-    {
-      "rank": 6,
-      "name": "Javonte Williams",
-      "college": "North Carolina",
-      "year": 2021,
-      "round": 2,
-      "pick": 35,
-      "ppg": 9.4536,
-      "rawPpg": 10.2597,
-      "madeIt": true,
-      "similarity": 0.121
-    },
-    {
-      "rank": 7,
-      "name": "Eddie Lacy",
-      "college": "Alabama",
-      "year": 2013,
-      "round": 2,
-      "pick": 61,
-      "ppg": 12.7814,
-      "rawPpg": 15.3625,
-      "madeIt": true,
-      "similarity": 0.118
+      "similarity": 0.335
     }
   ]
 }

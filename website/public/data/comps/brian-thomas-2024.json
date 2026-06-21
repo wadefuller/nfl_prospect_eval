@@ -3,27 +3,27 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Will Fuller",
-      "college": "Notre Dame",
-      "year": 2016,
+      "name": "Justin Jefferson",
+      "college": "LSU",
+      "year": 2020,
       "round": 1,
-      "pick": 21,
-      "ppg": 8.6343,
-      "rawPpg": 11.41,
+      "pick": 22,
+      "ppg": 13.5298,
+      "rawPpg": 17.09,
       "madeIt": true,
-      "similarity": 0.411
+      "similarity": 0.438
     },
     {
       "rank": 2,
-      "name": "Chase Claypool",
-      "college": "Notre Dame",
-      "year": 2020,
+      "name": "JJ Arcega-Whiteside",
+      "college": "Stanford",
+      "year": 2019,
       "round": 2,
-      "pick": 49,
-      "ppg": 8.8603,
-      "rawPpg": 10.3169,
-      "madeIt": true,
-      "similarity": 0.406
+      "pick": 57,
+      "ppg": 3.9979,
+      "rawPpg": 1.8786,
+      "madeIt": false,
+      "similarity": 0.4
     },
     {
       "rank": 3,
@@ -35,55 +35,55 @@
       "ppg": 6.7792,
       "rawPpg": 7.924,
       "madeIt": true,
-      "similarity": 0.377
+      "similarity": 0.398
     },
     {
       "rank": 4,
-      "name": "Torrey Smith",
-      "college": "Maryland",
-      "year": 2011,
+      "name": "Chase Claypool",
+      "college": "Notre Dame",
+      "year": 2020,
       "round": 2,
-      "pick": 58,
-      "ppg": 8.973,
-      "rawPpg": 10.5198,
+      "pick": 49,
+      "ppg": 8.8603,
+      "rawPpg": 10.3169,
       "madeIt": true,
-      "similarity": 0.348
+      "similarity": 0.39
     },
     {
       "rank": 5,
-      "name": "JJ Arcega-Whiteside",
-      "college": "Stanford",
-      "year": 2019,
-      "round": 2,
-      "pick": 57,
-      "ppg": 3.9979,
-      "rawPpg": 1.8786,
+      "name": "Laquon Treadwell",
+      "college": "Mississippi",
+      "year": 2016,
+      "round": 1,
+      "pick": 23,
+      "ppg": 4.0712,
+      "rawPpg": 2.9438,
       "madeIt": false,
-      "similarity": 0.341
+      "similarity": 0.389
     },
     {
       "rank": 6,
-      "name": "Corey Coleman",
-      "college": "Baylor",
-      "year": 2016,
-      "round": 1,
-      "pick": 15,
-      "ppg": 6.4638,
-      "rawPpg": 6.84,
+      "name": "Tee Higgins",
+      "college": "Clemson",
+      "year": 2020,
+      "round": 2,
+      "pick": 33,
+      "ppg": 10.4871,
+      "rawPpg": 13.0714,
       "madeIt": true,
-      "similarity": 0.339
+      "similarity": 0.373
     },
     {
       "rank": 7,
-      "name": "Tyquan Thornton",
-      "college": "Baylor",
-      "year": 2022,
+      "name": "Terrace Marshall Jr.",
+      "college": "LSU",
+      "year": 2021,
       "round": 2,
-      "pick": 50,
-      "ppg": 4.6333,
-      "rawPpg": 3.4542,
-      "madeIt": false,
-      "similarity": 0.335
+      "pick": 59,
+      "ppg": 5.0765,
+      "rawPpg": 4.1163,
+      "madeIt": true,
+      "similarity": 0.36
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "prospectId": "ben-sinnott-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Lance Kendricks",
+      "college": "Wisconsin",
+      "year": 2011,
+      "round": 2,
+      "pick": 47,
+      "ppg": 5.0904,
+      "rawPpg": 5.4406,
+      "madeIt": true,
+      "similarity": 0.567
+    },
+    {
+      "rank": 2,
+      "name": "Gavin Escobar",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 2,
+      "pick": 47,
+      "ppg": 3.7394,
+      "rawPpg": 3.2861,
+      "madeIt": false,
+      "similarity": 0.467
+    },
+    {
+      "rank": 3,
+      "name": "Rob Housler",
+      "college": "Florida Atlantic",
+      "year": 2011,
+      "round": 3,
+      "pick": 69,
+      "ppg": 4.6491,
+      "rawPpg": 4.8669,
+      "madeIt": false,
+      "similarity": 0.435
+    },
+    {
+      "rank": 4,
+      "name": "Greg Dulcich",
+      "college": "UCLA",
+      "year": 2022,
+      "round": 3,
+      "pick": 80,
+      "ppg": 5.3484,
+      "rawPpg": 6.96,
+      "madeIt": true,
+      "similarity": 0.424
+    },
+    {
+      "rank": 5,
+      "name": "Devin Asiasi",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.415
+    },
+    {
+      "rank": 6,
+      "name": "Pat Freiermuth",
+      "college": "Penn St.",
+      "year": 2021,
+      "round": 2,
+      "pick": 55,
+      "ppg": 6.5502,
+      "rawPpg": 7.6931,
+      "madeIt": true,
+      "similarity": 0.407
+    },
+    {
+      "rank": 7,
+      "name": "David Njoku",
+      "college": "Miami (FL)",
+      "year": 2017,
+      "round": 1,
+      "pick": 29,
+      "ppg": 5.6183,
+      "rawPpg": 6.3227,
+      "madeIt": true,
+      "similarity": 0.394
+    }
+  ]
+}

@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Benny Snell Jr.",
-      "college": "Kentucky",
-      "year": 2019,
-      "round": 4,
-      "pick": 122,
-      "ppg": 5.9626,
-      "rawPpg": 4.8936,
-      "madeIt": true,
-      "similarity": 0.119
-    },
-    {
-      "rank": 2,
-      "name": "Samaje Perine",
-      "college": "Oklahoma",
-      "year": 2017,
-      "round": 4,
-      "pick": 114,
-      "ppg": 7.6423,
-      "rawPpg": 7.5,
-      "madeIt": true,
-      "similarity": 0.118
-    },
-    {
-      "rank": 3,
       "name": "James Conner",
       "college": "Pittsburgh",
       "year": 2017,
@@ -35,22 +11,10 @@
       "ppg": 12.952,
       "rawPpg": 16.1365,
       "madeIt": true,
-      "similarity": 0.114
+      "similarity": 0.381
     },
     {
-      "rank": 4,
-      "name": "Robert Turbin",
-      "college": "Utah St.",
-      "year": 2012,
-      "round": 4,
-      "pick": 106,
-      "ppg": 5.4197,
-      "rawPpg": 4.2125,
-      "madeIt": true,
-      "similarity": 0.112
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "name": "Alex Collins",
       "college": "Arkansas",
       "year": 2016,
@@ -59,31 +23,43 @@
       "ppg": 9.3836,
       "rawPpg": 10.3717,
       "madeIt": true,
-      "similarity": 0.111
+      "similarity": 0.376
     },
     {
-      "rank": 6,
-      "name": "Hassan Haskins",
-      "college": "Michigan",
+      "rank": 3,
+      "name": "Jerome Ford",
+      "college": "Cincinnati",
       "year": 2022,
-      "round": 4,
-      "pick": 131,
-      "ppg": 4.1888,
-      "rawPpg": 2.0363,
-      "madeIt": false,
-      "similarity": 0.109
+      "round": 5,
+      "pick": 156,
+      "ppg": 9.124,
+      "rawPpg": 9.6897,
+      "madeIt": true,
+      "similarity": 0.33
     },
     {
-      "rank": 7,
-      "name": "Ryquell Armstead",
-      "college": "Temple",
-      "year": 2019,
+      "rank": 4,
+      "name": "Brian Hill",
+      "college": "Wyoming",
+      "year": 2017,
       "round": 5,
-      "pick": 140,
-      "ppg": 5.6109,
-      "rawPpg": 3.1571,
+      "pick": 156,
+      "ppg": 7.1664,
+      "rawPpg": 6.22,
       "madeIt": true,
-      "similarity": 0.109
+      "similarity": 0.329
+    },
+    {
+      "rank": 5,
+      "name": "Robert Turbin",
+      "college": "Utah St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 106,
+      "ppg": 5.4197,
+      "rawPpg": 4.2125,
+      "madeIt": true,
+      "similarity": 0.326
     }
   ]
 }

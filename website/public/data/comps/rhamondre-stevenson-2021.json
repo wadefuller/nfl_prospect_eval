@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Maurice Clarett",
-      "college": "Ohio St.",
-      "year": 2005,
+      "name": "C.J. Prosise",
+      "college": "Notre Dame",
+      "year": 2016,
       "round": 3,
-      "pick": 101,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.167
+      "pick": 90,
+      "ppg": 8.0285,
+      "rawPpg": 8.75,
+      "madeIt": true,
+      "similarity": 0.403
     },
     {
       "rank": 2,
@@ -23,22 +23,10 @@
       "ppg": 6.8699,
       "rawPpg": 5.7769,
       "madeIt": true,
-      "similarity": 0.165
+      "similarity": 0.4
     },
     {
       "rank": 3,
-      "name": "C.J. Prosise",
-      "college": "Notre Dame",
-      "year": 2016,
-      "round": 3,
-      "pick": 90,
-      "ppg": 8.0285,
-      "rawPpg": 8.75,
-      "madeIt": true,
-      "similarity": 0.153
-    },
-    {
-      "rank": 4,
       "name": "Devonta Freeman",
       "college": "Florida St.",
       "year": 2014,
@@ -47,43 +35,31 @@
       "ppg": 14.0665,
       "rawPpg": 17.3644,
       "madeIt": true,
-      "similarity": 0.148
+      "similarity": 0.367
+    },
+    {
+      "rank": 4,
+      "name": "Michael Carter",
+      "college": "North Carolina",
+      "year": 2021,
+      "round": 4,
+      "pick": 107,
+      "ppg": 7.9571,
+      "rawPpg": 8.1683,
+      "madeIt": true,
+      "similarity": 0.36
     },
     {
       "rank": 5,
-      "name": "Dameon Pierce",
-      "college": "Florida",
-      "year": 2022,
-      "round": 4,
-      "pick": 107,
-      "ppg": 8.1797,
-      "rawPpg": 8.5445,
-      "madeIt": true,
-      "similarity": 0.146
-    },
-    {
-      "rank": 6,
-      "name": "Manuel White",
-      "college": "UCLA",
+      "name": "Maurice Clarett",
+      "college": "Ohio St.",
       "year": 2005,
-      "round": 4,
-      "pick": 120,
+      "round": 3,
+      "pick": 101,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.144
-    },
-    {
-      "rank": 7,
-      "name": "Kareem Hunt",
-      "college": "Toledo",
-      "year": 2017,
-      "round": 3,
-      "pick": 86,
-      "ppg": 14.1867,
-      "rawPpg": 18.2696,
-      "madeIt": true,
-      "similarity": 0.138
+      "similarity": 0.358
     }
   ]
 }

@@ -3,30 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Jalin Hyatt",
-      "college": "Tennessee",
-      "year": 2023,
-      "round": 3,
-      "pick": 73,
-      "ppg": 3.9598,
-      "rawPpg": 2.3869,
-      "madeIt": false,
-      "similarity": 0.266
-    },
-    {
-      "rank": 2,
-      "name": "Golden Tate",
-      "college": "Notre Dame",
-      "year": 2010,
-      "round": 2,
-      "pick": 60,
-      "ppg": 6.7555,
-      "rawPpg": 7.1773,
-      "madeIt": true,
-      "similarity": 0.246
-    },
-    {
-      "rank": 3,
       "name": "Dede Westbrook",
       "college": "Oklahoma",
       "year": 2017,
@@ -35,55 +11,79 @@
       "ppg": 7.822,
       "rawPpg": 8.764,
       "madeIt": true,
-      "similarity": 0.209
+      "similarity": 0.254
+    },
+    {
+      "rank": 2,
+      "name": "Leonard Hankerson",
+      "college": "Miami (FL)",
+      "year": 2011,
+      "round": 3,
+      "pick": 79,
+      "ppg": 6.2861,
+      "rawPpg": 6.585,
+      "madeIt": true,
+      "similarity": 0.248
+    },
+    {
+      "rank": 3,
+      "name": "Chris Givens",
+      "college": "Wake Forest",
+      "year": 2012,
+      "round": 4,
+      "pick": 96,
+      "ppg": 5.9603,
+      "rawPpg": 6.0052,
+      "madeIt": true,
+      "similarity": 0.242
     },
     {
       "rank": 4,
-      "name": "Tank Dell",
-      "college": "Houston",
-      "year": 2023,
-      "round": 3,
-      "pick": 69,
-      "ppg": 8.7858,
-      "rawPpg": 11.1643,
+      "name": "Mike Williams",
+      "college": "Syracuse",
+      "year": 2010,
+      "round": 4,
+      "pick": 101,
+      "ppg": 9.8448,
+      "rawPpg": 11.785,
       "madeIt": true,
-      "similarity": 0.199
+      "similarity": 0.242
     },
     {
       "rank": 5,
-      "name": "Rashee Rice",
-      "college": "SMU",
-      "year": 2023,
+      "name": "Andy Isabella",
+      "college": "Massachusetts",
+      "year": 2019,
       "round": 2,
-      "pick": 55,
-      "ppg": 9.8008,
-      "rawPpg": 13.1312,
-      "madeIt": true,
-      "similarity": 0.199
+      "pick": 62,
+      "ppg": 4.3752,
+      "rawPpg": 3.3011,
+      "madeIt": false,
+      "similarity": 0.238
     },
     {
       "rank": 6,
-      "name": "Davante Adams",
-      "college": "Fresno St.",
-      "year": 2014,
+      "name": "Anthony Miller",
+      "college": "Memphis",
+      "year": 2018,
       "round": 2,
-      "pick": 53,
-      "ppg": 8.5763,
-      "rawPpg": 9.6644,
+      "pick": 51,
+      "ppg": 6.3968,
+      "rawPpg": 6.6292,
       "madeIt": true,
-      "similarity": 0.198
+      "similarity": 0.23
     },
     {
       "rank": 7,
-      "name": "Paul Richardson",
-      "college": "Colorado",
-      "year": 2014,
+      "name": "Deebo Samuel",
+      "college": "South Carolina",
+      "year": 2019,
       "round": 2,
-      "pick": 45,
-      "ppg": 4.6057,
-      "rawPpg": 3.7449,
-      "madeIt": false,
-      "similarity": 0.19
+      "pick": 36,
+      "ppg": 11.8403,
+      "rawPpg": 14.7427,
+      "madeIt": true,
+      "similarity": 0.216
     }
   ]
 }

@@ -3,78 +3,42 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Todd Gurley",
-      "college": "Georgia",
-      "year": 2015,
-      "round": 1,
-      "pick": 10,
-      "ppg": 15.3029,
-      "rawPpg": 19.3215,
+      "name": "Zach Charbonnet",
+      "college": "UCLA",
+      "year": 2023,
+      "round": 2,
+      "pick": 52,
+      "ppg": 9.4169,
+      "rawPpg": 10.2357,
       "madeIt": true,
-      "similarity": 0.278
+      "similarity": 0.477
     },
     {
       "rank": 2,
-      "name": "Christine Michael",
-      "college": "Texas A&M",
-      "year": 2013,
-      "round": 2,
-      "pick": 62,
-      "ppg": 5.0214,
-      "rawPpg": 2.6725,
+      "name": "Alvin Kamara",
+      "college": "Tennessee",
+      "year": 2017,
+      "round": 3,
+      "pick": 67,
+      "ppg": 15.2708,
+      "rawPpg": 19.2035,
       "madeIt": true,
-      "similarity": 0.216
+      "similarity": 0.433
     },
     {
       "rank": 3,
-      "name": "T.J. Yeldon",
+      "name": "Kenyan Drake",
       "college": "Alabama",
-      "year": 2015,
-      "round": 2,
-      "pick": 36,
-      "ppg": 8.7146,
-      "rawPpg": 9.5025,
+      "year": 2016,
+      "round": 3,
+      "pick": 73,
+      "ppg": 8.961,
+      "rawPpg": 9.5625,
       "madeIt": true,
-      "similarity": 0.191
+      "similarity": 0.428
     },
     {
       "rank": 4,
-      "name": "Eddie Lacy",
-      "college": "Alabama",
-      "year": 2013,
-      "round": 2,
-      "pick": 61,
-      "ppg": 12.7814,
-      "rawPpg": 15.3625,
-      "madeIt": true,
-      "similarity": 0.184
-    },
-    {
-      "rank": 5,
-      "name": "Kenny Irons",
-      "college": "Auburn",
-      "year": 2007,
-      "round": 2,
-      "pick": 49,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.179
-    },
-    {
-      "rank": 6,
-      "name": "Nick Chubb",
-      "college": "Georgia",
-      "year": 2018,
-      "round": 2,
-      "pick": 35,
-      "ppg": 12.7506,
-      "rawPpg": 15.7333,
-      "madeIt": true,
-      "similarity": 0.175
-    },
-    {
-      "rank": 7,
       "name": "James Cook",
       "college": "Georgia",
       "year": 2022,
@@ -83,7 +47,19 @@
       "ppg": 11.9495,
       "rawPpg": 14.0314,
       "madeIt": true,
-      "similarity": 0.174
+      "similarity": 0.427
+    },
+    {
+      "rank": 5,
+      "name": "Ke'Shawn Vaughn",
+      "college": "Illinois",
+      "year": 2020,
+      "round": 3,
+      "pick": 76,
+      "ppg": 6.4117,
+      "rawPpg": 4.6167,
+      "madeIt": true,
+      "similarity": 0.348
     }
   ]
 }

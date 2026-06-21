@@ -11,34 +11,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.377
+      "similarity": 0.482
     },
     {
       "rank": 2,
-      "name": "Marcell Ateman",
-      "college": "Oklahoma St.",
-      "year": 2018,
-      "round": 7,
-      "pick": 228,
-      "ppg": 5.4057,
-      "rawPpg": 4.1286,
-      "madeIt": true,
-      "similarity": 0.367
-    },
-    {
-      "rank": 3,
-      "name": "Demarcus Ayers",
-      "college": "Houston",
-      "year": 2016,
-      "round": 7,
-      "pick": 229,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.359
-    },
-    {
-      "rank": 4,
       "name": "Dillon Mitchell",
       "college": "Oregon",
       "year": 2019,
@@ -47,34 +23,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.349
+      "similarity": 0.43
     },
     {
-      "rank": 5,
-      "name": "Ronnie Bell",
-      "college": "Michigan",
-      "year": 2023,
+      "rank": 3,
+      "name": "Rishard Matthews",
+      "college": "Nevada",
+      "year": 2012,
       "round": 7,
-      "pick": 253,
-      "ppg": 4.2494,
-      "rawPpg": 2.1385,
-      "madeIt": false,
-      "similarity": 0.34
+      "pick": 227,
+      "ppg": 5.2252,
+      "rawPpg": 4.2321,
+      "madeIt": true,
+      "similarity": 0.425
     },
     {
-      "rank": 6,
-      "name": "Samori Toure",
-      "college": "Nebraska",
-      "year": 2022,
-      "round": 7,
-      "pick": 258,
-      "ppg": 4.5513,
-      "rawPpg": 1.725,
-      "madeIt": false,
-      "similarity": 0.322
-    },
-    {
-      "rank": 7,
+      "rank": 4,
       "name": "Colton Dowell",
       "college": "UT Martin",
       "year": 2023,
@@ -83,7 +47,43 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.319
+      "similarity": 0.417
+    },
+    {
+      "rank": 5,
+      "name": "Marcell Ateman",
+      "college": "Oklahoma St.",
+      "year": 2018,
+      "round": 7,
+      "pick": 228,
+      "ppg": 5.4057,
+      "rawPpg": 4.1286,
+      "madeIt": true,
+      "similarity": 0.415
+    },
+    {
+      "rank": 6,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.392
+    },
+    {
+      "rank": 7,
+      "name": "Da'Ron Brown",
+      "college": "Northern Illinois",
+      "year": 2015,
+      "round": 7,
+      "pick": 233,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.381
     }
   ]
 }

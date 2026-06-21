@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Amara Darboh",
-      "college": "Michigan",
-      "year": 2017,
-      "round": 3,
-      "pick": 106,
-      "ppg": 4.4388,
-      "rawPpg": 1.3875,
-      "madeIt": false,
-      "similarity": 0.514
-    },
-    {
-      "rank": 2,
-      "name": "Demarcus Robinson",
-      "college": "Florida",
-      "year": 2016,
-      "round": 4,
-      "pick": 126,
-      "ppg": 4.7733,
-      "rawPpg": 3.8636,
-      "madeIt": false,
-      "similarity": 0.505
-    },
-    {
-      "rank": 3,
-      "name": "Joe Adams",
-      "college": "Arkansas",
-      "year": 2012,
-      "round": 4,
-      "pick": 104,
-      "ppg": 3.9173,
-      "rawPpg": 0.2778,
-      "madeIt": false,
-      "similarity": 0.504
-    },
-    {
-      "rank": 4,
       "name": "Nico Collins",
       "college": "Michigan",
       "year": 2021,
@@ -47,43 +11,79 @@
       "ppg": 9.6203,
       "rawPpg": 11.2767,
       "madeIt": true,
-      "similarity": 0.502
+      "similarity": 0.566
     },
     {
-      "rank": 5,
-      "name": "Ihmir Smith-Marsette",
-      "college": "Iowa",
-      "year": 2021,
-      "round": 5,
-      "pick": 157,
-      "ppg": 3.847,
-      "rawPpg": 3.0132,
-      "madeIt": false,
-      "similarity": 0.498
-    },
-    {
-      "rank": 6,
-      "name": "Taylor Price",
-      "college": "Ohio",
-      "year": 2010,
+      "rank": 2,
+      "name": "Amara Darboh",
+      "college": "Michigan",
+      "year": 2017,
       "round": 3,
-      "pick": 90,
+      "pick": 106,
+      "ppg": 4.4388,
+      "rawPpg": 1.3875,
+      "madeIt": false,
+      "similarity": 0.557
+    },
+    {
+      "rank": 3,
+      "name": "Demarcus Robinson",
+      "college": "Florida",
+      "year": 2016,
+      "round": 4,
+      "pick": 126,
+      "ppg": 4.7733,
+      "rawPpg": 3.8636,
+      "madeIt": false,
+      "similarity": 0.556
+    },
+    {
+      "rank": 4,
+      "name": "Greg Childs",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 134,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.48
+      "similarity": 0.547
+    },
+    {
+      "rank": 5,
+      "name": "Sammie Coates",
+      "college": "Auburn",
+      "year": 2015,
+      "round": 3,
+      "pick": 87,
+      "ppg": 4.6711,
+      "rawPpg": 3.1214,
+      "madeIt": false,
+      "similarity": 0.535
+    },
+    {
+      "rank": 6,
+      "name": "Romeo Doubs",
+      "college": "Nevada",
+      "year": 2022,
+      "round": 4,
+      "pick": 132,
+      "ppg": 7.5963,
+      "rawPpg": 8.4579,
+      "madeIt": true,
+      "similarity": 0.516
     },
     {
       "rank": 7,
-      "name": "Donte Moncrief",
-      "college": "Mississippi",
-      "year": 2014,
-      "round": 3,
-      "pick": 90,
-      "ppg": 7.9105,
-      "rawPpg": 9.2823,
-      "madeIt": true,
-      "similarity": 0.473
+      "name": "Collin Johnson",
+      "college": "Texas",
+      "year": 2020,
+      "round": 5,
+      "pick": 165,
+      "ppg": 4.6181,
+      "rawPpg": 3.2818,
+      "madeIt": false,
+      "similarity": 0.509
     }
   ]
 }

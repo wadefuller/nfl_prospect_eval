@@ -1,0 +1,89 @@
+{
+  "prospectId": "greg-dulcich-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Rob Housler",
+      "college": "Florida Atlantic",
+      "year": 2011,
+      "round": 3,
+      "pick": 69,
+      "ppg": 4.6491,
+      "rawPpg": 4.8669,
+      "madeIt": false,
+      "similarity": 0.564
+    },
+    {
+      "rank": 2,
+      "name": "Jeff Heuerman",
+      "college": "Ohio St.",
+      "year": 2015,
+      "round": 3,
+      "pick": 92,
+      "ppg": 3.7112,
+      "rawPpg": 3.085,
+      "madeIt": false,
+      "similarity": 0.523
+    },
+    {
+      "rank": 3,
+      "name": "Lance Kendricks",
+      "college": "Wisconsin",
+      "year": 2011,
+      "round": 2,
+      "pick": 47,
+      "ppg": 5.0904,
+      "rawPpg": 5.4406,
+      "madeIt": true,
+      "similarity": 0.489
+    },
+    {
+      "rank": 4,
+      "name": "Jordan Akins",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 98,
+      "ppg": 4.588,
+      "rawPpg": 4.7514,
+      "madeIt": false,
+      "similarity": 0.407
+    },
+    {
+      "rank": 5,
+      "name": "Devin Asiasi",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.405
+    },
+    {
+      "rank": 6,
+      "name": "Gavin Escobar",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 2,
+      "pick": 47,
+      "ppg": 3.7394,
+      "rawPpg": 3.2861,
+      "madeIt": false,
+      "similarity": 0.315
+    },
+    {
+      "rank": 7,
+      "name": "Mike Gesicki",
+      "college": "Penn St.",
+      "year": 2018,
+      "round": 2,
+      "pick": 42,
+      "ppg": 6.7991,
+      "rawPpg": 8.11,
+      "madeIt": true,
+      "similarity": 0.314
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "prospectId": "taylen-green-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jeff Driskel",
+      "college": "Louisiana Tech",
+      "year": 2016,
+      "round": 6,
+      "pick": 207,
+      "ppg": 11.3533,
+      "rawPpg": 10.64,
+      "madeIt": true,
+      "similarity": 0.361
+    },
+    {
+      "rank": 2,
+      "name": "Clayton Thorson",
+      "college": "Northwestern",
+      "year": 2019,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.33
+    },
+    {
+      "rank": 3,
+      "name": "Nate Sudfeld",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 6,
+      "pick": 187,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.3
+    },
+    {
+      "rank": 4,
+      "name": "Jake Rudock",
+      "college": "Michigan",
+      "year": 2016,
+      "round": 6,
+      "pick": 191,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.285
+    },
+    {
+      "rank": 5,
+      "name": "Sean Clifford",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 5,
+      "pick": 149,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.273
+    }
+  ]
+}

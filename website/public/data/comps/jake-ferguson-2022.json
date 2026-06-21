@@ -1,0 +1,89 @@
+{
+  "prospectId": "jake-ferguson-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Luke Willson",
+      "college": "Rice",
+      "year": 2013,
+      "round": 5,
+      "pick": 158,
+      "ppg": 4.2347,
+      "rawPpg": 4.1692,
+      "madeIt": false,
+      "similarity": 0.657
+    },
+    {
+      "rank": 2,
+      "name": "Tony Moeaki",
+      "college": "Iowa",
+      "year": 2010,
+      "round": 3,
+      "pick": 93,
+      "ppg": 5.208,
+      "rawPpg": 5.6581,
+      "madeIt": true,
+      "similarity": 0.602
+    },
+    {
+      "rank": 3,
+      "name": "Taylor Thompson",
+      "college": "SMU",
+      "year": 2012,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.385,
+      "rawPpg": 0.8343,
+      "madeIt": false,
+      "similarity": 0.576
+    },
+    {
+      "rank": 4,
+      "name": "Jeremy Ruckert",
+      "college": "Ohio St.",
+      "year": 2022,
+      "round": 3,
+      "pick": 101,
+      "ppg": 2.8015,
+      "rawPpg": 1.8514,
+      "madeIt": false,
+      "similarity": 0.566
+    },
+    {
+      "rank": 5,
+      "name": "Jordan Akins",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 98,
+      "ppg": 4.588,
+      "rawPpg": 4.7514,
+      "madeIt": false,
+      "similarity": 0.538
+    },
+    {
+      "rank": 6,
+      "name": "Lee Smith",
+      "college": "Marshall",
+      "year": 2011,
+      "round": 5,
+      "pick": 159,
+      "ppg": 2.7959,
+      "rawPpg": 1.4222,
+      "madeIt": false,
+      "similarity": 0.524
+    },
+    {
+      "rank": 7,
+      "name": "Crockett Gillmore",
+      "college": "Colorado St.",
+      "year": 2014,
+      "round": 3,
+      "pick": 99,
+      "ppg": 4.9788,
+      "rawPpg": 5.3683,
+      "madeIt": false,
+      "similarity": 0.492
+    }
+  ]
+}

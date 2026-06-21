@@ -1,0 +1,65 @@
+{
+  "prospectId": "fernando-mendoza-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Andrew Luck",
+      "college": "Stanford",
+      "year": 2012,
+      "round": 1,
+      "pick": 1,
+      "ppg": 17.3266,
+      "rawPpg": 20.135,
+      "madeIt": true,
+      "similarity": 0.5
+    },
+    {
+      "rank": 2,
+      "name": "Andy Dalton",
+      "college": "TCU",
+      "year": 2011,
+      "round": 2,
+      "pick": 35,
+      "ppg": 15.1279,
+      "rawPpg": 16.8369,
+      "madeIt": true,
+      "similarity": 0.382
+    },
+    {
+      "rank": 3,
+      "name": "Dwayne Haskins",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 1,
+      "pick": 15,
+      "ppg": 10.3818,
+      "rawPpg": 9.1297,
+      "madeIt": true,
+      "similarity": 0.313
+    },
+    {
+      "rank": 4,
+      "name": "Jameis Winston",
+      "college": "Florida St.",
+      "year": 2015,
+      "round": 1,
+      "pick": 1,
+      "ppg": 14.9675,
+      "rawPpg": 16.5962,
+      "madeIt": true,
+      "similarity": 0.307
+    },
+    {
+      "rank": 5,
+      "name": "Justin Fields",
+      "college": "Ohio St.",
+      "year": 2021,
+      "round": 1,
+      "pick": 11,
+      "ppg": 16.2163,
+      "rawPpg": 18.7191,
+      "madeIt": true,
+      "similarity": 0.303
+    }
+  ]
+}

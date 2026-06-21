@@ -3,42 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Andre Ellington",
-      "college": "Clemson",
-      "year": 2013,
-      "round": 6,
-      "pick": 187,
-      "ppg": 9.8704,
-      "rawPpg": 11.2975,
-      "madeIt": true,
-      "similarity": 0.365
-    },
-    {
-      "rank": 2,
-      "name": "Dennis Morris",
-      "college": "Louisiana Tech",
-      "year": 2010,
-      "round": 6,
-      "pick": 174,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.349
-    },
-    {
-      "rank": 3,
-      "name": "Charles Scott",
-      "college": "LSU",
-      "year": 2010,
-      "round": 6,
-      "pick": 200,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.349
-    },
-    {
-      "rank": 4,
       "name": "Latavius Murray",
       "college": "Central Florida",
       "year": 2013,
@@ -47,10 +11,22 @@
       "ppg": 8.5695,
       "rawPpg": 8.7286,
       "madeIt": true,
-      "similarity": 0.303
+      "similarity": 0.523
     },
     {
-      "rank": 5,
+      "rank": 2,
+      "name": "Chris Evans",
+      "college": "Michigan",
+      "year": 2021,
+      "round": 6,
+      "pick": 202,
+      "ppg": 5.0779,
+      "rawPpg": 2.915,
+      "madeIt": true,
+      "similarity": 0.468
+    },
+    {
+      "rank": 3,
       "name": "Boston Scott",
       "college": "Louisiana Tech",
       "year": 2018,
@@ -59,31 +35,31 @@
       "ppg": 7.1738,
       "rawPpg": 7.4247,
       "madeIt": true,
-      "similarity": 0.284
+      "similarity": 0.446
     },
     {
-      "rank": 6,
-      "name": "James Starks",
-      "college": "Buffalo",
-      "year": 2010,
-      "round": 6,
-      "pick": 193,
-      "ppg": 7.3894,
-      "rawPpg": 6.8154,
-      "madeIt": true,
-      "similarity": 0.254
-    },
-    {
-      "rank": 7,
-      "name": "Jordan Scarlett",
-      "college": "Florida",
-      "year": 2019,
+      "rank": 4,
+      "name": "Jonathan Williams",
+      "college": "Arkansas",
+      "year": 2016,
       "round": 5,
-      "pick": 154,
+      "pick": 156,
+      "ppg": 5.6678,
+      "rawPpg": 1.4875,
+      "madeIt": true,
+      "similarity": 0.435
+    },
+    {
+      "rank": 5,
+      "name": "Dexter Williams",
+      "college": "Notre Dame",
+      "year": 2019,
+      "round": 6,
+      "pick": 194,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.251
+      "similarity": 0.433
     }
   ]
 }

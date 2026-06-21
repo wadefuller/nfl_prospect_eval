@@ -3,42 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Terrence Austin",
-      "college": "UCLA",
-      "year": 2010,
-      "round": 7,
-      "pick": 219,
-      "ppg": 4.3512,
-      "rawPpg": 1.77,
-      "madeIt": false,
-      "similarity": 0.624
-    },
-    {
-      "rank": 2,
-      "name": "Shi Smith",
-      "college": "South Carolina",
-      "year": 2021,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
       "round": 6,
-      "pick": 204,
-      "ppg": 4.4252,
-      "rawPpg": 2.9765,
-      "madeIt": false,
-      "similarity": 0.579
-    },
-    {
-      "rank": 3,
-      "name": "Grant Dubose",
-      "college": "Charlotte",
-      "year": 2023,
-      "round": 7,
-      "pick": 256,
+      "pick": 203,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.526
+      "similarity": 0.625
     },
     {
-      "rank": 4,
+      "rank": 2,
       "name": "Kevin Dorsey",
       "college": "Maryland",
       "year": 2013,
@@ -47,10 +23,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.521
+      "similarity": 0.575
     },
     {
-      "rank": 5,
+      "rank": 3,
       "name": "Austin Proehl",
       "college": "North Carolina",
       "year": 2018,
@@ -59,31 +35,55 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.515
+      "similarity": 0.552
+    },
+    {
+      "rank": 4,
+      "name": "Brice Butler",
+      "college": "San Diego St.",
+      "year": 2013,
+      "round": 7,
+      "pick": 209,
+      "ppg": 4.3877,
+      "rawPpg": 2.9429,
+      "madeIt": false,
+      "similarity": 0.549
+    },
+    {
+      "rank": 5,
+      "name": "Shi Smith",
+      "college": "South Carolina",
+      "year": 2021,
+      "round": 6,
+      "pick": 204,
+      "ppg": 4.4252,
+      "rawPpg": 2.9765,
+      "madeIt": false,
+      "similarity": 0.545
     },
     {
       "rank": 6,
-      "name": "Olabisi Johnson",
-      "college": "Colorado St.",
-      "year": 2019,
-      "round": 7,
-      "pick": 247,
-      "ppg": 4.9166,
-      "rawPpg": 3.9923,
-      "madeIt": false,
-      "similarity": 0.464
-    },
-    {
-      "rank": 7,
-      "name": "Stacy Coley",
-      "college": "Miami (FL)",
-      "year": 2017,
-      "round": 7,
-      "pick": 219,
+      "name": "DeVeren Johnson",
+      "college": "Sacred Heart",
+      "year": 2002,
+      "round": 6,
+      "pick": 208,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.453
+      "similarity": 0.507
+    },
+    {
+      "rank": 7,
+      "name": "Michael Coleman",
+      "college": "Widener",
+      "year": 2002,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.507
     }
   ]
 }

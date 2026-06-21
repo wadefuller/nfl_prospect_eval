@@ -3,15 +3,15 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Danny Coale",
-      "college": "Virginia Tech",
-      "year": 2012,
-      "round": 5,
-      "pick": 152,
+      "name": "Carlton Mitchell",
+      "college": "South Florida",
+      "year": 2010,
+      "round": 6,
+      "pick": 177,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.493
+      "similarity": 0.43
     },
     {
       "rank": 2,
@@ -23,10 +23,46 @@
       "ppg": 2.9777,
       "rawPpg": 0.9788,
       "madeIt": false,
-      "similarity": 0.475
+      "similarity": 0.402
     },
     {
       "rank": 3,
+      "name": "Justin Shorter",
+      "college": "Florida",
+      "year": 2023,
+      "round": 5,
+      "pick": 150,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.391
+    },
+    {
+      "rank": 4,
+      "name": "Tyreek Hill",
+      "college": "West Alabama",
+      "year": 2016,
+      "round": 5,
+      "pick": 165,
+      "ppg": 12.6305,
+      "rawPpg": 16.0015,
+      "madeIt": true,
+      "similarity": 0.39
+    },
+    {
+      "rank": 5,
+      "name": "Amara Darboh",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 3,
+      "pick": 106,
+      "ppg": 4.4388,
+      "rawPpg": 1.3875,
+      "madeIt": false,
+      "similarity": 0.383
+    },
+    {
+      "rank": 6,
       "name": "Ricardo Louis",
       "college": "Auburn",
       "year": 2016,
@@ -35,55 +71,19 @@
       "ppg": 3.9575,
       "rawPpg": 2.8107,
       "madeIt": false,
-      "similarity": 0.474
-    },
-    {
-      "rank": 4,
-      "name": "Chris Harper",
-      "college": "Kansas St.",
-      "year": 2013,
-      "round": 4,
-      "pick": 123,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.434
-    },
-    {
-      "rank": 5,
-      "name": "Malcolm Mitchell",
-      "college": "Georgia",
-      "year": 2016,
-      "round": 4,
-      "pick": 112,
-      "ppg": 6.269,
-      "rawPpg": 6.675,
-      "madeIt": true,
-      "similarity": 0.426
-    },
-    {
-      "rank": 6,
-      "name": "Carlton Mitchell",
-      "college": "South Florida",
-      "year": 2010,
-      "round": 6,
-      "pick": 177,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.416
+      "similarity": 0.38
     },
     {
       "rank": 7,
-      "name": "Marquez Valdes-Scantling",
-      "college": "South Florida",
-      "year": 2018,
-      "round": 5,
-      "pick": 174,
-      "ppg": 6.7007,
-      "rawPpg": 7.1893,
-      "madeIt": true,
-      "similarity": 0.406
+      "name": "Keshawn Martin",
+      "college": "Michigan St.",
+      "year": 2012,
+      "round": 4,
+      "pick": 121,
+      "ppg": 3.6361,
+      "rawPpg": 2.4719,
+      "madeIt": false,
+      "similarity": 0.369
     }
   ]
 }

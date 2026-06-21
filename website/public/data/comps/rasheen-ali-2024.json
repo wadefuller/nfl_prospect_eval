@@ -11,7 +11,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.36
+      "similarity": 0.547
     },
     {
       "rank": 2,
@@ -23,7 +23,7 @@
       "ppg": 7.3894,
       "rawPpg": 6.8154,
       "madeIt": true,
-      "similarity": 0.256
+      "similarity": 0.486
     },
     {
       "rank": 3,
@@ -35,7 +35,7 @@
       "ppg": 5.6109,
       "rawPpg": 3.1571,
       "madeIt": true,
-      "similarity": 0.249
+      "similarity": 0.48
     },
     {
       "rank": 4,
@@ -47,43 +47,19 @@
       "ppg": 8.4717,
       "rawPpg": 8.8719,
       "madeIt": true,
-      "similarity": 0.247
+      "similarity": 0.458
     },
     {
       "rank": 5,
-      "name": "Mike Gillislee",
-      "college": "Florida",
-      "year": 2013,
-      "round": 5,
-      "pick": 164,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "Hassan Haskins",
+      "college": "Michigan",
+      "year": 2022,
+      "round": 4,
+      "pick": 131,
+      "ppg": 4.1888,
+      "rawPpg": 2.0363,
       "madeIt": false,
-      "similarity": 0.184
-    },
-    {
-      "rank": 6,
-      "name": "Terrance Ganaway",
-      "college": "Baylor",
-      "year": 2012,
-      "round": 6,
-      "pick": 202,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.181
-    },
-    {
-      "rank": 7,
-      "name": "Jordan Scarlett",
-      "college": "Florida",
-      "year": 2019,
-      "round": 5,
-      "pick": 154,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.18
+      "similarity": 0.455
     }
   ]
 }

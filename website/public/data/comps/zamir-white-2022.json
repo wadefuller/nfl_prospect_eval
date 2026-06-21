@@ -11,7 +11,7 @@
       "ppg": 5.6678,
       "rawPpg": 1.4875,
       "madeIt": true,
-      "similarity": 0.267
+      "similarity": 0.497
     },
     {
       "rank": 2,
@@ -23,58 +23,10 @@
       "ppg": 8.4717,
       "rawPpg": 8.8719,
       "madeIt": true,
-      "similarity": 0.237
+      "similarity": 0.457
     },
     {
       "rank": 3,
-      "name": "Joshua Kelley",
-      "college": "UCLA",
-      "year": 2020,
-      "round": 4,
-      "pick": 112,
-      "ppg": 6.1373,
-      "rawPpg": 5.0891,
-      "madeIt": true,
-      "similarity": 0.185
-    },
-    {
-      "rank": 4,
-      "name": "Anthony McFarland Jr.",
-      "college": "Maryland",
-      "year": 2020,
-      "round": 4,
-      "pick": 124,
-      "ppg": 5.3269,
-      "rawPpg": 1.7909,
-      "madeIt": true,
-      "similarity": 0.171
-    },
-    {
-      "rank": 5,
-      "name": "Roschon Johnson",
-      "college": "Texas",
-      "year": 2023,
-      "round": 4,
-      "pick": 115,
-      "ppg": 6.3324,
-      "rawPpg": 5.5059,
-      "madeIt": true,
-      "similarity": 0.161
-    },
-    {
-      "rank": 6,
-      "name": "DeeJay Dallas",
-      "college": "Miami (FL)",
-      "year": 2020,
-      "round": 4,
-      "pick": 144,
-      "ppg": 5.2888,
-      "rawPpg": 4.1477,
-      "madeIt": true,
-      "similarity": 0.158
-    },
-    {
-      "rank": 7,
       "name": "Zac Stacy",
       "college": "Vanderbilt",
       "year": 2013,
@@ -83,7 +35,31 @@
       "ppg": 9.2113,
       "rawPpg": 9.6372,
       "madeIt": true,
-      "similarity": 0.156
+      "similarity": 0.404
+    },
+    {
+      "rank": 4,
+      "name": "Jordan Howard",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 5,
+      "pick": 150,
+      "ppg": 11.2325,
+      "rawPpg": 13.0679,
+      "madeIt": true,
+      "similarity": 0.392
+    },
+    {
+      "rank": 5,
+      "name": "Joshua Kelley",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 4,
+      "pick": 112,
+      "ppg": 6.1373,
+      "rawPpg": 5.0891,
+      "madeIt": true,
+      "similarity": 0.38
     }
   ]
 }

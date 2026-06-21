@@ -1,0 +1,65 @@
+{
+  "prospectId": "tommy-mellott-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Chandler Harnish",
+      "college": "Northern Illinois",
+      "year": 2012,
+      "round": 7,
+      "pick": 253,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.313
+    },
+    {
+      "rank": 2,
+      "name": "Tyrod Taylor",
+      "college": "Virginia Tech",
+      "year": 2011,
+      "round": 6,
+      "pick": 180,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.302
+    },
+    {
+      "rank": 3,
+      "name": "Jake Luton",
+      "college": "Oregon St.",
+      "year": 2020,
+      "round": 6,
+      "pick": 189,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.192
+    },
+    {
+      "rank": 4,
+      "name": "Danny Etling",
+      "college": "LSU",
+      "year": 2018,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.188
+    },
+    {
+      "rank": 5,
+      "name": "Trace McSorley",
+      "college": "Penn St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 197,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.141
+    }
+  ]
+}

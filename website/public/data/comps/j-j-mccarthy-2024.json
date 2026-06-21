@@ -1,0 +1,65 @@
+{
+  "prospectId": "j-j-mccarthy-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Christian Ponder",
+      "college": "Florida St.",
+      "year": 2011,
+      "round": 1,
+      "pick": 12,
+      "ppg": 11.9043,
+      "rawPpg": 11.9987,
+      "madeIt": true,
+      "similarity": 0.41
+    },
+    {
+      "rank": 2,
+      "name": "Zach Wilson",
+      "college": "BYU",
+      "year": 2021,
+      "round": 1,
+      "pick": 2,
+      "ppg": 11.5168,
+      "rawPpg": 11.3085,
+      "madeIt": true,
+      "similarity": 0.391
+    },
+    {
+      "rank": 3,
+      "name": "Josh Rosen",
+      "college": "UCLA",
+      "year": 2018,
+      "round": 1,
+      "pick": 10,
+      "ppg": 10.0093,
+      "rawPpg": 8.0657,
+      "madeIt": true,
+      "similarity": 0.374
+    },
+    {
+      "rank": 4,
+      "name": "Sam Darnold",
+      "college": "USC",
+      "year": 2018,
+      "round": 1,
+      "pick": 3,
+      "ppg": 12.9671,
+      "rawPpg": 13.7408,
+      "madeIt": true,
+      "similarity": 0.36
+    },
+    {
+      "rank": 5,
+      "name": "Justin Herbert",
+      "college": "Oregon",
+      "year": 2020,
+      "round": 1,
+      "pick": 6,
+      "ppg": 18.77,
+      "rawPpg": 22.2935,
+      "madeIt": true,
+      "similarity": 0.359
+    }
+  ]
+}

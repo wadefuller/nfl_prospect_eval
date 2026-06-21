@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Isaiah Spiller",
-      "college": "Texas A&M",
-      "year": 2022,
-      "round": 4,
-      "pick": 123,
-      "ppg": 5.6051,
-      "rawPpg": 1.7778,
-      "madeIt": true,
-      "similarity": 0.224
-    },
-    {
-      "rank": 2,
       "name": "Lamar Miller",
       "college": "Miami (FL)",
       "year": 2012,
@@ -23,19 +11,31 @@
       "ppg": 9.1964,
       "rawPpg": 9.9156,
       "madeIt": true,
-      "similarity": 0.205
+      "similarity": 0.476
+    },
+    {
+      "rank": 2,
+      "name": "Ben Tate",
+      "college": "Auburn",
+      "year": 2010,
+      "round": 2,
+      "pick": 58,
+      "ppg": 7.1649,
+      "rawPpg": 6.4788,
+      "madeIt": true,
+      "similarity": 0.43
     },
     {
       "rank": 3,
-      "name": "Duke Johnson",
-      "college": "Miami (FL)",
-      "year": 2015,
+      "name": "Tyrion Davis-Price",
+      "college": "LSU",
+      "year": 2022,
       "round": 3,
-      "pick": 77,
-      "ppg": 9.1047,
-      "rawPpg": 9.7781,
-      "madeIt": true,
-      "similarity": 0.187
+      "pick": 93,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.427
     },
     {
       "rank": 4,
@@ -47,43 +47,19 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.176
+      "similarity": 0.423
     },
     {
       "rank": 5,
-      "name": "Ben Tate",
+      "name": "Tank Bigsby",
       "college": "Auburn",
-      "year": 2010,
-      "round": 2,
-      "pick": 58,
-      "ppg": 7.1649,
-      "rawPpg": 6.4788,
-      "madeIt": true,
-      "similarity": 0.162
-    },
-    {
-      "rank": 6,
-      "name": "David Montgomery",
-      "college": "Iowa St.",
-      "year": 2019,
+      "year": 2023,
       "round": 3,
-      "pick": 73,
-      "ppg": 12.1802,
-      "rawPpg": 14.619,
+      "pick": 88,
+      "ppg": 6.424,
+      "rawPpg": 5.6652,
       "madeIt": true,
-      "similarity": 0.145
-    },
-    {
-      "rank": 7,
-      "name": "Kenny Irons",
-      "college": "Auburn",
-      "year": 2007,
-      "round": 2,
-      "pick": 49,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.143
+      "similarity": 0.422
     }
   ]
 }

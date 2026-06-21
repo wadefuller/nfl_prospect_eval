@@ -11,43 +11,43 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.6
+      "similarity": 0.591
     },
     {
       "rank": 2,
-      "name": "Jared Abbrederis",
-      "college": "Wisconsin",
-      "year": 2014,
-      "round": 5,
-      "pick": 176,
-      "ppg": 4.6263,
-      "rawPpg": 1.95,
+      "name": "Justin Brown",
+      "college": "Oklahoma",
+      "year": 2013,
+      "round": 6,
+      "pick": 186,
+      "ppg": 4.9469,
+      "rawPpg": 2.2333,
       "madeIt": false,
-      "similarity": 0.583
+      "similarity": 0.555
     },
     {
       "rank": 3,
-      "name": "Pharoh Cooper",
-      "college": "South Carolina",
-      "year": 2016,
+      "name": "Quinton Patton",
+      "college": "Louisiana Tech",
+      "year": 2013,
       "round": 4,
-      "pick": 117,
-      "ppg": 3.2081,
-      "rawPpg": 1.5073,
+      "pick": 128,
+      "ppg": 4.8854,
+      "rawPpg": 3.8062,
       "madeIt": false,
-      "similarity": 0.561
+      "similarity": 0.545
     },
     {
       "rank": 4,
-      "name": "Jakeem Grant",
-      "college": "Texas Tech",
-      "year": 2016,
-      "round": 6,
-      "pick": 186,
-      "ppg": 4.8105,
-      "rawPpg": 4.4233,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
+      "round": 5,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
       "madeIt": false,
-      "similarity": 0.554
+      "similarity": 0.543
     },
     {
       "rank": 5,
@@ -59,31 +59,31 @@
       "ppg": 7.5963,
       "rawPpg": 8.4579,
       "madeIt": true,
-      "similarity": 0.538
+      "similarity": 0.518
     },
     {
       "rank": 6,
-      "name": "Ryan Swope",
-      "college": "Texas A&M",
-      "year": 2013,
-      "round": 6,
-      "pick": 174,
+      "name": "Erik Ezukanma",
+      "college": "Texas Tech",
+      "year": 2022,
+      "round": 4,
+      "pick": 125,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.538
+      "similarity": 0.513
     },
     {
       "rank": 7,
-      "name": "Jon Olinger",
-      "college": "Cincinnati",
-      "year": 2003,
-      "round": 5,
-      "pick": 159,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.516
+      "name": "Parker Washington",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 6,
+      "pick": 185,
+      "ppg": 7.2203,
+      "rawPpg": 7.7585,
+      "madeIt": true,
+      "similarity": 0.512
     }
   ]
 }

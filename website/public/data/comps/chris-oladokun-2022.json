@@ -1,0 +1,65 @@
+{
+  "prospectId": "chris-oladokun-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ben DiNucci",
+      "college": "James Madison",
+      "year": 2020,
+      "round": 7,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.36
+    },
+    {
+      "rank": 2,
+      "name": "Tommy Stevens",
+      "college": "Mississippi St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 240,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.262
+    },
+    {
+      "rank": 3,
+      "name": "Sean Canfield",
+      "college": "Oregon St.",
+      "year": 2010,
+      "round": 7,
+      "pick": 239,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.178
+    },
+    {
+      "rank": 4,
+      "name": "Tony Pike",
+      "college": "Cincinnati",
+      "year": 2010,
+      "round": 6,
+      "pick": 204,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.164
+    },
+    {
+      "rank": 5,
+      "name": "Garrett Gilbert",
+      "college": "SMU",
+      "year": 2014,
+      "round": 6,
+      "pick": 214,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.156
+    }
+  ]
+}

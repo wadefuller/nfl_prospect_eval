@@ -1,0 +1,89 @@
+{
+  "prospectId": "jeremy-ruckert-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Dalton Keene",
+      "college": "Virginia Tech",
+      "year": 2020,
+      "round": 3,
+      "pick": 101,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.745
+    },
+    {
+      "rank": 2,
+      "name": "Kahale Warring",
+      "college": "San Diego St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.712
+    },
+    {
+      "rank": 3,
+      "name": "Daniel Bellinger",
+      "college": "San Diego St.",
+      "year": 2022,
+      "round": 4,
+      "pick": 112,
+      "ppg": 4.0844,
+      "rawPpg": 4.0844,
+      "madeIt": false,
+      "similarity": 0.644
+    },
+    {
+      "rank": 4,
+      "name": "Tre' McKitty",
+      "college": "Georgia",
+      "year": 2021,
+      "round": 3,
+      "pick": 97,
+      "ppg": 2.5474,
+      "rawPpg": 1.0942,
+      "madeIt": false,
+      "similarity": 0.624
+    },
+    {
+      "rank": 5,
+      "name": "Tony Moeaki",
+      "college": "Iowa",
+      "year": 2010,
+      "round": 3,
+      "pick": 93,
+      "ppg": 5.208,
+      "rawPpg": 5.6581,
+      "madeIt": true,
+      "similarity": 0.619
+    },
+    {
+      "rank": 6,
+      "name": "Brenton Strange",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 2,
+      "pick": 61,
+      "ppg": 5.6085,
+      "rawPpg": 6.4976,
+      "madeIt": true,
+      "similarity": 0.611
+    },
+    {
+      "rank": 7,
+      "name": "Cade Otton",
+      "college": "Washington",
+      "year": 2022,
+      "round": 4,
+      "pick": 106,
+      "ppg": 5.863,
+      "rawPpg": 6.762,
+      "madeIt": true,
+      "similarity": 0.6
+    }
+  ]
+}

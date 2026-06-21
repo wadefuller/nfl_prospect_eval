@@ -3,66 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Joshua Kelley",
-      "college": "UCLA",
-      "year": 2020,
-      "round": 4,
-      "pick": 112,
-      "ppg": 6.1373,
-      "rawPpg": 5.0891,
-      "madeIt": true,
-      "similarity": 0.335
-    },
-    {
-      "rank": 2,
-      "name": "Bilal Powell",
-      "college": "Louisville",
-      "year": 2011,
-      "round": 4,
-      "pick": 126,
-      "ppg": 7.3136,
-      "rawPpg": 7.0371,
-      "madeIt": true,
-      "similarity": 0.317
-    },
-    {
-      "rank": 3,
-      "name": "Kendall Hunter",
-      "college": "Oklahoma St.",
-      "year": 2011,
-      "round": 4,
-      "pick": 115,
-      "ppg": 6.2913,
-      "rawPpg": 5.4216,
-      "madeIt": true,
-      "similarity": 0.301
-    },
-    {
-      "rank": 4,
-      "name": "Qadree Ollison",
-      "college": "Pittsburgh",
-      "year": 2019,
-      "round": 5,
-      "pick": 152,
-      "ppg": 6.1438,
-      "rawPpg": 3.9917,
-      "madeIt": true,
-      "similarity": 0.281
-    },
-    {
-      "rank": 5,
-      "name": "Justice Hill",
-      "college": "Oklahoma St.",
-      "year": 2019,
-      "round": 4,
-      "pick": 113,
-      "ppg": 4.189,
-      "rawPpg": 1.8991,
-      "madeIt": false,
-      "similarity": 0.276
-    },
-    {
-      "rank": 6,
       "name": "Chuba Hubbard",
       "college": "Oklahoma St.",
       "year": 2021,
@@ -71,19 +11,55 @@
       "ppg": 8.4128,
       "rawPpg": 8.7035,
       "madeIt": true,
-      "similarity": 0.272
+      "similarity": 0.517
     },
     {
-      "rank": 7,
-      "name": "Wayne Gallman",
-      "college": "Clemson",
+      "rank": 2,
+      "name": "Qadree Ollison",
+      "college": "Pittsburgh",
+      "year": 2019,
+      "round": 5,
+      "pick": 152,
+      "ppg": 6.1438,
+      "rawPpg": 3.9917,
+      "madeIt": true,
+      "similarity": 0.493
+    },
+    {
+      "rank": 3,
+      "name": "Bilal Powell",
+      "college": "Louisville",
+      "year": 2011,
+      "round": 4,
+      "pick": 126,
+      "ppg": 7.3136,
+      "rawPpg": 7.0371,
+      "madeIt": true,
+      "similarity": 0.477
+    },
+    {
+      "rank": 4,
+      "name": "Justice Hill",
+      "college": "Oklahoma St.",
+      "year": 2019,
+      "round": 4,
+      "pick": 113,
+      "ppg": 4.189,
+      "rawPpg": 1.8991,
+      "madeIt": false,
+      "similarity": 0.444
+    },
+    {
+      "rank": 5,
+      "name": "Jamaal Williams",
+      "college": "BYU",
       "year": 2017,
       "round": 4,
-      "pick": 140,
-      "ppg": 6.7034,
-      "rawPpg": 5.753,
+      "pick": 134,
+      "ppg": 8.4717,
+      "rawPpg": 8.8719,
       "madeIt": true,
-      "similarity": 0.236
+      "similarity": 0.444
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "prospectId": "cameron-latu-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Levine Toilolo",
+      "college": "Stanford",
+      "year": 2013,
+      "round": 4,
+      "pick": 133,
+      "ppg": 3.4575,
+      "rawPpg": 2.7933,
+      "madeIt": false,
+      "similarity": 0.291
+    },
+    {
+      "rank": 2,
+      "name": "Ian Thomas",
+      "college": "Indiana",
+      "year": 2018,
+      "round": 4,
+      "pick": 101,
+      "ppg": 4.4544,
+      "rawPpg": 4.545,
+      "madeIt": false,
+      "similarity": 0.277
+    },
+    {
+      "rank": 3,
+      "name": "Josiah Deguara",
+      "college": "Cincinnati",
+      "year": 2020,
+      "round": 3,
+      "pick": 94,
+      "ppg": 3.4964,
+      "rawPpg": 2.7444,
+      "madeIt": false,
+      "similarity": 0.235
+    },
+    {
+      "rank": 4,
+      "name": "Blake Bell",
+      "college": "Oklahoma",
+      "year": 2015,
+      "round": 4,
+      "pick": 117,
+      "ppg": 3.2139,
+      "rawPpg": 2.1063,
+      "madeIt": false,
+      "similarity": 0.222
+    },
+    {
+      "rank": 5,
+      "name": "Tyler Higbee",
+      "college": "Western Kentucky",
+      "year": 2016,
+      "round": 4,
+      "pick": 110,
+      "ppg": 3.8786,
+      "rawPpg": 3.6143,
+      "madeIt": false,
+      "similarity": 0.221
+    },
+    {
+      "rank": 6,
+      "name": "Jelani Woods",
+      "college": "Virginia",
+      "year": 2022,
+      "round": 3,
+      "pick": 73,
+      "ppg": 4.6842,
+      "rawPpg": 5.1417,
+      "madeIt": false,
+      "similarity": 0.213
+    },
+    {
+      "rank": 7,
+      "name": "Travis Kelce",
+      "college": "Cincinnati",
+      "year": 2013,
+      "round": 3,
+      "pick": 63,
+      "ppg": 7.6387,
+      "rawPpg": 9.2875,
+      "madeIt": true,
+      "similarity": 0.183
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "prospectId": "michael-penix-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jared Goff",
+      "college": "California",
+      "year": 2016,
+      "round": 1,
+      "pick": 1,
+      "ppg": 16.02,
+      "rawPpg": 18.2062,
+      "madeIt": true,
+      "similarity": 0.407
+    },
+    {
+      "rank": 2,
+      "name": "Sam Darnold",
+      "college": "USC",
+      "year": 2018,
+      "round": 1,
+      "pick": 3,
+      "ppg": 12.9671,
+      "rawPpg": 13.7408,
+      "madeIt": true,
+      "similarity": 0.395
+    },
+    {
+      "rank": 3,
+      "name": "Josh Rosen",
+      "college": "UCLA",
+      "year": 2018,
+      "round": 1,
+      "pick": 10,
+      "ppg": 10.0093,
+      "rawPpg": 8.0657,
+      "madeIt": true,
+      "similarity": 0.321
+    },
+    {
+      "rank": 4,
+      "name": "Drew Lock",
+      "college": "Missouri",
+      "year": 2019,
+      "round": 2,
+      "pick": 42,
+      "ppg": 12.0017,
+      "rawPpg": 11.2555,
+      "madeIt": true,
+      "similarity": 0.319
+    },
+    {
+      "rank": 5,
+      "name": "Jordan Love",
+      "college": "Utah St.",
+      "year": 2020,
+      "round": 1,
+      "pick": 26,
+      "ppg": 9.4772,
+      "rawPpg": 3.5233,
+      "madeIt": true,
+      "similarity": 0.308
+    }
+  ]
+}

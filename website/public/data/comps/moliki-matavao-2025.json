@@ -1,0 +1,89 @@
+{
+  "prospectId": "moliki-matavao-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ben Koyack",
+      "college": "Notre Dame",
+      "year": 2015,
+      "round": 7,
+      "pick": 229,
+      "ppg": 3.4175,
+      "rawPpg": 2.2717,
+      "madeIt": false,
+      "similarity": 0.621
+    },
+    {
+      "rank": 2,
+      "name": "Ryan Taylor",
+      "college": "North Carolina",
+      "year": 2011,
+      "round": 7,
+      "pick": 218,
+      "ppg": 2.4957,
+      "rawPpg": 0.7583,
+      "madeIt": false,
+      "similarity": 0.586
+    },
+    {
+      "rank": 3,
+      "name": "Nick Muse",
+      "college": "South Carolina",
+      "year": 2022,
+      "round": 7,
+      "pick": 227,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.567
+    },
+    {
+      "rank": 4,
+      "name": "Jameson Konz",
+      "college": "Kent St.",
+      "year": 2010,
+      "round": 7,
+      "pick": 245,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.558
+    },
+    {
+      "rank": 5,
+      "name": "Drake Dunsmore",
+      "college": "Northwestern",
+      "year": 2012,
+      "round": 7,
+      "pick": 233,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.551
+    },
+    {
+      "rank": 6,
+      "name": "Dedrick Epps",
+      "college": "Miami (FL)",
+      "year": 2010,
+      "round": 7,
+      "pick": 235,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.528
+    },
+    {
+      "rank": 7,
+      "name": "Rob Blanchflower",
+      "college": "Massachusetts",
+      "year": 2014,
+      "round": 7,
+      "pick": 230,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.506
+    }
+  ]
+}

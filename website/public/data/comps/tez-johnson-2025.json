@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Grant Dubose",
-      "college": "Charlotte",
-      "year": 2023,
-      "round": 7,
-      "pick": 256,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.579
-    },
-    {
-      "rank": 2,
       "name": "Jeremy Ebert",
       "college": "Northwestern",
       "year": 2012,
@@ -23,10 +11,34 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.516
+      "similarity": 0.571
+    },
+    {
+      "rank": 2,
+      "name": "Marcus Green",
+      "college": "La-Monroe",
+      "year": 2019,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.529
     },
     {
       "rank": 3,
+      "name": "Scotty McKnight",
+      "college": "Colorado",
+      "year": 2011,
+      "round": 7,
+      "pick": 227,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.52
+    },
+    {
+      "rank": 4,
       "name": "DeVeren Johnson",
       "college": "Sacred Heart",
       "year": 2002,
@@ -35,10 +47,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.494
+      "similarity": 0.464
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Michael Coleman",
       "college": "Widener",
       "year": 2002,
@@ -47,10 +59,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.494
+      "similarity": 0.464
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Rodney Wright",
       "college": "Fresno St.",
       "year": 2002,
@@ -59,10 +71,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.494
+      "similarity": 0.464
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "DeAndrew Rubin",
       "college": "South Florida",
       "year": 2003,
@@ -71,19 +83,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.494
-    },
-    {
-      "rank": 7,
-      "name": "Travis Anglin",
-      "college": "Memphis",
-      "year": 2003,
-      "round": 7,
-      "pick": 260,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.494
+      "similarity": 0.464
     }
   ]
 }

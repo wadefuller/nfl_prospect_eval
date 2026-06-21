@@ -1,0 +1,89 @@
+{
+  "prospectId": "noah-gray-2021",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jesse James",
+      "college": "Penn St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 160,
+      "ppg": 4.7274,
+      "rawPpg": 4.9674,
+      "madeIt": false,
+      "similarity": 0.301
+    },
+    {
+      "rank": 2,
+      "name": "Brandon Myers",
+      "college": "Iowa",
+      "year": 2009,
+      "round": 6,
+      "pick": 202,
+      "ppg": 2.4781,
+      "rawPpg": 1.3582,
+      "madeIt": false,
+      "similarity": 0.288
+    },
+    {
+      "rank": 3,
+      "name": "Jake Butt",
+      "college": "Michigan",
+      "year": 2017,
+      "round": 5,
+      "pick": 145,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.285
+    },
+    {
+      "rank": 4,
+      "name": "Troy Fumagalli",
+      "college": "Wisconsin",
+      "year": 2018,
+      "round": 5,
+      "pick": 156,
+      "ppg": 3.4572,
+      "rawPpg": 2.3524,
+      "madeIt": false,
+      "similarity": 0.267
+    },
+    {
+      "rank": 5,
+      "name": "Kaden Smith",
+      "college": "Stanford",
+      "year": 2019,
+      "round": 6,
+      "pick": 176,
+      "ppg": 3.9463,
+      "rawPpg": 4.9805,
+      "madeIt": false,
+      "similarity": 0.265
+    },
+    {
+      "rank": 6,
+      "name": "David Morgan",
+      "college": "Texas-San Antonio",
+      "year": 2016,
+      "round": 6,
+      "pick": 188,
+      "ppg": 3.0987,
+      "rawPpg": 1.6472,
+      "madeIt": false,
+      "similarity": 0.259
+    },
+    {
+      "rank": 7,
+      "name": "Andrew Quarless",
+      "college": "Penn St.",
+      "year": 2010,
+      "round": 5,
+      "pick": 154,
+      "ppg": 3.8485,
+      "rawPpg": 3.1917,
+      "madeIt": false,
+      "similarity": 0.256
+    }
+  ]
+}

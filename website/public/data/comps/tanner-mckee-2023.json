@@ -1,0 +1,65 @@
+{
+  "prospectId": "tanner-mckee-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Sean Clifford",
+      "college": "Penn St.",
+      "year": 2023,
+      "round": 5,
+      "pick": 149,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.464
+    },
+    {
+      "rank": 2,
+      "name": "Clayton Thorson",
+      "college": "Northwestern",
+      "year": 2019,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.455
+    },
+    {
+      "rank": 3,
+      "name": "Jake Fromm",
+      "college": "Georgia",
+      "year": 2020,
+      "round": 5,
+      "pick": 167,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.364
+    },
+    {
+      "rank": 4,
+      "name": "Jake Rudock",
+      "college": "Michigan",
+      "year": 2016,
+      "round": 6,
+      "pick": 191,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.354
+    },
+    {
+      "rank": 5,
+      "name": "Tanner Lee",
+      "college": "Nebraska",
+      "year": 2018,
+      "round": 6,
+      "pick": 203,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.349
+    }
+  ]
+}

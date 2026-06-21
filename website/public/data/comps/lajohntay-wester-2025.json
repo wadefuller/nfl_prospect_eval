@@ -11,10 +11,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.481
+      "similarity": 0.526
     },
     {
       "rank": 2,
+      "name": "Daniel Braverman",
+      "college": "Western Michigan",
+      "year": 2016,
+      "round": 7,
+      "pick": 230,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.459
+    },
+    {
+      "rank": 3,
       "name": "Jakeem Grant",
       "college": "Texas Tech",
       "year": 2016,
@@ -23,19 +35,7 @@
       "ppg": 4.8105,
       "rawPpg": 4.4233,
       "madeIt": false,
-      "similarity": 0.407
-    },
-    {
-      "rank": 3,
-      "name": "KeeSean Johnson",
-      "college": "Fresno St.",
-      "year": 2019,
-      "round": 6,
-      "pick": 174,
-      "ppg": 4.5803,
-      "rawPpg": 3.325,
-      "madeIt": false,
-      "similarity": 0.353
+      "similarity": 0.423
     },
     {
       "rank": 4,
@@ -47,43 +47,43 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.341
+      "similarity": 0.413
     },
     {
       "rank": 5,
-      "name": "James Proche",
-      "college": "SMU",
-      "year": 2020,
-      "round": 6,
-      "pick": 201,
-      "ppg": 3.8774,
-      "rawPpg": 2.387,
+      "name": "Jared Abbrederis",
+      "college": "Wisconsin",
+      "year": 2014,
+      "round": 5,
+      "pick": 176,
+      "ppg": 4.6263,
+      "rawPpg": 1.95,
       "madeIt": false,
-      "similarity": 0.34
+      "similarity": 0.366
     },
     {
       "rank": 6,
-      "name": "Daniel Braverman",
-      "college": "Western Michigan",
-      "year": 2016,
-      "round": 7,
-      "pick": 230,
-      "ppg": 0,
-      "rawPpg": null,
+      "name": "KeeSean Johnson",
+      "college": "Fresno St.",
+      "year": 2019,
+      "round": 6,
+      "pick": 174,
+      "ppg": 4.5803,
+      "rawPpg": 3.325,
       "madeIt": false,
-      "similarity": 0.329
+      "similarity": 0.359
     },
     {
       "rank": 7,
-      "name": "Antonio Brown",
-      "college": "Central Michigan",
-      "year": 2010,
+      "name": "Scott Miller",
+      "college": "Bowling Green",
+      "year": 2019,
       "round": 6,
-      "pick": 195,
-      "ppg": 8.954,
-      "rawPpg": 10.6197,
+      "pick": 208,
+      "ppg": 5.5265,
+      "rawPpg": 4.9659,
       "madeIt": true,
-      "similarity": 0.323
+      "similarity": 0.343
     }
   ]
 }

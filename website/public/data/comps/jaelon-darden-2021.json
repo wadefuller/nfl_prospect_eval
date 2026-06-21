@@ -11,7 +11,7 @@
       "ppg": 5.336,
       "rawPpg": 4.649,
       "madeIt": true,
-      "similarity": 0.484
+      "similarity": 0.485
     },
     {
       "rank": 2,
@@ -23,10 +23,22 @@
       "ppg": 3.2666,
       "rawPpg": 1.079,
       "madeIt": false,
-      "similarity": 0.442
+      "similarity": 0.341
     },
     {
       "rank": 3,
+      "name": "Tyler Johnson",
+      "college": "Minnesota",
+      "year": 2020,
+      "round": 5,
+      "pick": 161,
+      "ppg": 4.3889,
+      "rawPpg": 3.4325,
+      "madeIt": false,
+      "similarity": 0.324
+    },
+    {
+      "rank": 4,
       "name": "Dede Westbrook",
       "college": "Oklahoma",
       "year": 2017,
@@ -35,55 +47,43 @@
       "ppg": 7.822,
       "rawPpg": 8.764,
       "madeIt": true,
-      "similarity": 0.28
-    },
-    {
-      "rank": 4,
-      "name": "Charlie Jones",
-      "college": "Purdue",
-      "year": 2023,
-      "round": 4,
-      "pick": 131,
-      "ppg": 3.5186,
-      "rawPpg": 1.2818,
-      "madeIt": false,
-      "similarity": 0.274
+      "similarity": 0.305
     },
     {
       "rank": 5,
-      "name": "Gabriel Davis",
-      "college": "Central Florida",
-      "year": 2020,
+      "name": "Quinton Patton",
+      "college": "Louisiana Tech",
+      "year": 2013,
       "round": 4,
       "pick": 128,
-      "ppg": 7.7113,
-      "rawPpg": 8.6513,
-      "madeIt": true,
-      "similarity": 0.269
+      "ppg": 4.8854,
+      "rawPpg": 3.8062,
+      "madeIt": false,
+      "similarity": 0.304
     },
     {
       "rank": 6,
-      "name": "Kyle Philips",
-      "college": "UCLA",
-      "year": 2022,
-      "round": 5,
-      "pick": 163,
-      "ppg": 5.043,
-      "rawPpg": 3.2,
-      "madeIt": true,
-      "similarity": 0.263
+      "name": "Tyler Scott",
+      "college": "Cincinnati",
+      "year": 2023,
+      "round": 4,
+      "pick": 133,
+      "ppg": 4.2356,
+      "rawPpg": 2.1077,
+      "madeIt": false,
+      "similarity": 0.297
     },
     {
       "rank": 7,
-      "name": "Tony Lippett",
-      "college": "Michigan St.",
-      "year": 2015,
-      "round": 5,
-      "pick": 156,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.262
+      "name": "Jarius Wright",
+      "college": "Arkansas",
+      "year": 2012,
+      "round": 4,
+      "pick": 118,
+      "ppg": 6.564,
+      "rawPpg": 7.2324,
+      "madeIt": true,
+      "similarity": 0.28
     }
   ]
 }

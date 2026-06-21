@@ -1,0 +1,65 @@
+{
+  "prospectId": "bo-nix-2024",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Kenny Pickett",
+      "college": "Pittsburgh",
+      "year": 2022,
+      "round": 1,
+      "pick": 20,
+      "ppg": 10.9126,
+      "rawPpg": 10.3555,
+      "madeIt": true,
+      "similarity": 0.481
+    },
+    {
+      "rank": 2,
+      "name": "Joe Burrow",
+      "college": "LSU",
+      "year": 2020,
+      "round": 1,
+      "pick": 1,
+      "ppg": 17.7562,
+      "rawPpg": 20.7794,
+      "madeIt": true,
+      "similarity": 0.473
+    },
+    {
+      "rank": 3,
+      "name": "Dwayne Haskins",
+      "college": "Ohio St.",
+      "year": 2019,
+      "round": 1,
+      "pick": 15,
+      "ppg": 10.3818,
+      "rawPpg": 9.1297,
+      "madeIt": true,
+      "similarity": 0.463
+    },
+    {
+      "rank": 4,
+      "name": "Teddy Bridgewater",
+      "college": "Louisville",
+      "year": 2014,
+      "round": 1,
+      "pick": 32,
+      "ppg": 12.6102,
+      "rawPpg": 13.1737,
+      "madeIt": true,
+      "similarity": 0.449
+    },
+    {
+      "rank": 5,
+      "name": "Patrick Mahomes",
+      "college": "Texas Tech",
+      "year": 2017,
+      "round": 1,
+      "pick": 10,
+      "ppg": 19.38,
+      "rawPpg": 23.2852,
+      "madeIt": true,
+      "similarity": 0.411
+    }
+  ]
+}

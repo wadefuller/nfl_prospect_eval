@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Wendell Smallwood",
-      "college": "West Virginia",
-      "year": 2016,
-      "round": 5,
-      "pick": 153,
-      "ppg": 6.9161,
-      "rawPpg": 6.0258,
-      "madeIt": true,
-      "similarity": 0.211
-    },
-    {
-      "rank": 2,
       "name": "Marlon Mack",
       "college": "South Florida",
       "year": 2017,
@@ -23,10 +11,46 @@
       "ppg": 11.1435,
       "rawPpg": 13.2917,
       "madeIt": true,
-      "similarity": 0.191
+      "similarity": 0.57
+    },
+    {
+      "rank": 2,
+      "name": "Wendell Smallwood",
+      "college": "West Virginia",
+      "year": 2016,
+      "round": 5,
+      "pick": 153,
+      "ppg": 6.9161,
+      "rawPpg": 6.0258,
+      "madeIt": true,
+      "similarity": 0.467
     },
     {
       "rank": 3,
+      "name": "Paul Perkins",
+      "college": "UCLA",
+      "year": 2016,
+      "round": 5,
+      "pick": 149,
+      "ppg": 5.5534,
+      "rawPpg": 3.575,
+      "madeIt": true,
+      "similarity": 0.417
+    },
+    {
+      "rank": 4,
+      "name": "James White",
+      "college": "Wisconsin",
+      "year": 2014,
+      "round": 4,
+      "pick": 130,
+      "ppg": 8.1461,
+      "rawPpg": 8.3906,
+      "madeIt": true,
+      "similarity": 0.417
+    },
+    {
+      "rank": 5,
       "name": "Jordan Howard",
       "college": "Indiana",
       "year": 2016,
@@ -35,55 +59,7 @@
       "ppg": 11.2325,
       "rawPpg": 13.0679,
       "madeIt": true,
-      "similarity": 0.159
-    },
-    {
-      "rank": 4,
-      "name": "Bilal Powell",
-      "college": "Louisville",
-      "year": 2011,
-      "round": 4,
-      "pick": 126,
-      "ppg": 7.3136,
-      "rawPpg": 7.0371,
-      "madeIt": true,
-      "similarity": 0.154
-    },
-    {
-      "rank": 5,
-      "name": "Johnathan Franklin",
-      "college": "UCLA",
-      "year": 2013,
-      "round": 4,
-      "pick": 125,
-      "ppg": 6.2534,
-      "rawPpg": 2.8143,
-      "madeIt": true,
-      "similarity": 0.134
-    },
-    {
-      "rank": 6,
-      "name": "Isaiah Spiller",
-      "college": "Texas A&M",
-      "year": 2022,
-      "round": 4,
-      "pick": 123,
-      "ppg": 5.6051,
-      "rawPpg": 1.7778,
-      "madeIt": true,
-      "similarity": 0.125
-    },
-    {
-      "rank": 7,
-      "name": "Brian Hill",
-      "college": "Wyoming",
-      "year": 2017,
-      "round": 5,
-      "pick": 156,
-      "ppg": 7.1664,
-      "rawPpg": 6.22,
-      "madeIt": true,
-      "similarity": 0.124
+      "similarity": 0.407
     }
   ]
 }

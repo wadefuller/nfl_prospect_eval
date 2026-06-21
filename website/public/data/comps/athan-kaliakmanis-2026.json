@@ -1,0 +1,65 @@
+{
+  "prospectId": "athan-kaliakmanis-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Nate Sudfeld",
+      "college": "Indiana",
+      "year": 2016,
+      "round": 6,
+      "pick": 187,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.442
+    },
+    {
+      "rank": 2,
+      "name": "Ben DiNucci",
+      "college": "James Madison",
+      "year": 2020,
+      "round": 7,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.388
+    },
+    {
+      "rank": 3,
+      "name": "Tommy Stevens",
+      "college": "Mississippi St.",
+      "year": 2020,
+      "round": 7,
+      "pick": 240,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.359
+    },
+    {
+      "rank": 4,
+      "name": "Brandon Allen",
+      "college": "Arkansas",
+      "year": 2016,
+      "round": 6,
+      "pick": 201,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.357
+    },
+    {
+      "rank": 5,
+      "name": "Brock Purdy",
+      "college": "Iowa St.",
+      "year": 2022,
+      "round": 7,
+      "pick": 262,
+      "ppg": 15.9536,
+      "rawPpg": 18.1328,
+      "madeIt": true,
+      "similarity": 0.337
+    }
+  ]
+}

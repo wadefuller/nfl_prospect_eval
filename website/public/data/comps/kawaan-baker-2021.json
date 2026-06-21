@@ -3,18 +3,6 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Stacy Coley",
-      "college": "Miami (FL)",
-      "year": 2017,
-      "round": 7,
-      "pick": 219,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.499
-    },
-    {
-      "rank": 2,
       "name": "Jeremy Ebert",
       "college": "Northwestern",
       "year": 2012,
@@ -23,46 +11,34 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.443
+      "similarity": 0.655
+    },
+    {
+      "rank": 2,
+      "name": "Ben Skowronek",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 7,
+      "pick": 249,
+      "ppg": 4.2627,
+      "rawPpg": 3.0976,
+      "madeIt": false,
+      "similarity": 0.502
     },
     {
       "rank": 3,
-      "name": "Charone Peake",
-      "college": "Clemson",
-      "year": 2016,
+      "name": "Toney Clemons",
+      "college": "Colorado",
+      "year": 2012,
       "round": 7,
-      "pick": 241,
-      "ppg": 3.7362,
-      "rawPpg": 1.4625,
+      "pick": 231,
+      "ppg": 0,
+      "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.436
+      "similarity": 0.457
     },
     {
       "rank": 4,
-      "name": "Seth Williams",
-      "college": "Auburn",
-      "year": 2021,
-      "round": 6,
-      "pick": 219,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.429
-    },
-    {
-      "rank": 5,
-      "name": "Mario Alford",
-      "college": "West Virginia",
-      "year": 2015,
-      "round": 7,
-      "pick": 238,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.405
-    },
-    {
-      "rank": 6,
       "name": "Demetrius Byrd",
       "college": "LSU",
       "year": 2009,
@@ -71,19 +47,43 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.386
+      "similarity": 0.451
     },
     {
-      "rank": 7,
-      "name": "Grant Dubose",
-      "college": "Charlotte",
-      "year": 2023,
+      "rank": 5,
+      "name": "Dorin Dickerson",
+      "college": "Pittsburgh",
+      "year": 2010,
       "round": 7,
-      "pick": 256,
+      "pick": 227,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.377
+      "similarity": 0.45
+    },
+    {
+      "rank": 6,
+      "name": "Michael Coleman",
+      "college": "Widener",
+      "year": 2002,
+      "round": 7,
+      "pick": 217,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.445
+    },
+    {
+      "rank": 7,
+      "name": "Rodney Wright",
+      "college": "Fresno St.",
+      "year": 2002,
+      "round": 7,
+      "pick": 249,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.445
     }
   ]
 }

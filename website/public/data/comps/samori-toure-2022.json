@@ -11,46 +11,10 @@
       "ppg": 5.4057,
       "rawPpg": 4.1286,
       "madeIt": true,
-      "similarity": 0.403
+      "similarity": 0.448
     },
     {
       "rank": 2,
-      "name": "Devin Lucien",
-      "college": "Arizona St.",
-      "year": 2016,
-      "round": 7,
-      "pick": 225,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.346
-    },
-    {
-      "rank": 3,
-      "name": "Dax Milne",
-      "college": "BYU",
-      "year": 2021,
-      "round": 7,
-      "pick": 258,
-      "ppg": 2.9758,
-      "rawPpg": 1.0289,
-      "madeIt": false,
-      "similarity": 0.304
-    },
-    {
-      "rank": 4,
-      "name": "Tyrie Cleveland",
-      "college": "Florida",
-      "year": 2020,
-      "round": 7,
-      "pick": 252,
-      "ppg": 4.5536,
-      "rawPpg": 1.3286,
-      "madeIt": false,
-      "similarity": 0.294
-    },
-    {
-      "rank": 5,
       "name": "Colton Dowell",
       "college": "UT Martin",
       "year": 2023,
@@ -59,22 +23,22 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.289
+      "similarity": 0.419
     },
     {
-      "rank": 6,
-      "name": "Dillon Mitchell",
-      "college": "Oregon",
-      "year": 2019,
+      "rank": 3,
+      "name": "Devin Lucien",
+      "college": "Arizona St.",
+      "year": 2016,
       "round": 7,
-      "pick": 239,
+      "pick": 225,
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.276
+      "similarity": 0.4
     },
     {
-      "rank": 7,
+      "rank": 4,
       "name": "Ronnie Bell",
       "college": "Michigan",
       "year": 2023,
@@ -83,7 +47,43 @@
       "ppg": 4.2494,
       "rawPpg": 2.1385,
       "madeIt": false,
-      "similarity": 0.273
+      "similarity": 0.397
+    },
+    {
+      "rank": 5,
+      "name": "Dax Milne",
+      "college": "BYU",
+      "year": 2021,
+      "round": 7,
+      "pick": 258,
+      "ppg": 2.9758,
+      "rawPpg": 1.0289,
+      "madeIt": false,
+      "similarity": 0.34
+    },
+    {
+      "rank": 6,
+      "name": "Javon Wims",
+      "college": "Georgia",
+      "year": 2018,
+      "round": 7,
+      "pick": 224,
+      "ppg": 3.8657,
+      "rawPpg": 2.2273,
+      "madeIt": false,
+      "similarity": 0.339
+    },
+    {
+      "rank": 7,
+      "name": "DeMarco Sampson",
+      "college": "San Diego St.",
+      "year": 2011,
+      "round": 7,
+      "pick": 249,
+      "ppg": 4.5696,
+      "rawPpg": 0.85,
+      "madeIt": false,
+      "similarity": 0.32
     }
   ]
 }

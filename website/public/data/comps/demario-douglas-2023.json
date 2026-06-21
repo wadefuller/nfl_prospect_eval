@@ -11,7 +11,7 @@
       "ppg": 5.5265,
       "rawPpg": 4.9659,
       "madeIt": true,
-      "similarity": 0.658
+      "similarity": 0.748
     },
     {
       "rank": 2,
@@ -23,10 +23,22 @@
       "ppg": 4.9469,
       "rawPpg": 2.2333,
       "madeIt": false,
-      "similarity": 0.602
+      "similarity": 0.65
     },
     {
       "rank": 3,
+      "name": "Olabisi Johnson",
+      "college": "Colorado St.",
+      "year": 2019,
+      "round": 7,
+      "pick": 247,
+      "ppg": 4.9166,
+      "rawPpg": 3.9923,
+      "madeIt": false,
+      "similarity": 0.587
+    },
+    {
+      "rank": 4,
       "name": "Jakeem Grant",
       "college": "Texas Tech",
       "year": 2016,
@@ -35,10 +47,10 @@
       "ppg": 4.8105,
       "rawPpg": 4.4233,
       "madeIt": false,
-      "similarity": 0.595
+      "similarity": 0.584
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "DeVeren Johnson",
       "college": "Sacred Heart",
       "year": 2002,
@@ -47,10 +59,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.58
+      "similarity": 0.573
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Michael Coleman",
       "college": "Widener",
       "year": 2002,
@@ -59,10 +71,10 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.58
+      "similarity": 0.573
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Rodney Wright",
       "college": "Fresno St.",
       "year": 2002,
@@ -71,19 +83,7 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.58
-    },
-    {
-      "rank": 7,
-      "name": "Bennie Brazell",
-      "college": "LSU",
-      "year": 2006,
-      "round": 7,
-      "pick": 231,
-      "ppg": 0,
-      "rawPpg": null,
-      "madeIt": false,
-      "similarity": 0.58
+      "similarity": 0.573
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "prospectId": "charlie-kolar-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Brycen Hopkins",
+      "college": "Purdue",
+      "year": 2020,
+      "round": 4,
+      "pick": 136,
+      "ppg": 3.646,
+      "rawPpg": 2.0571,
+      "madeIt": false,
+      "similarity": 0.53
+    },
+    {
+      "rank": 2,
+      "name": "Garrett Graham",
+      "college": "Wisconsin",
+      "year": 2010,
+      "round": 4,
+      "pick": 118,
+      "ppg": 4.2586,
+      "rawPpg": 4.1643,
+      "madeIt": false,
+      "similarity": 0.471
+    },
+    {
+      "rank": 3,
+      "name": "Aaron Hernandez",
+      "college": "Florida",
+      "year": 2010,
+      "round": 4,
+      "pick": 113,
+      "ppg": 8.719,
+      "rawPpg": 11.465,
+      "madeIt": true,
+      "similarity": 0.42
+    },
+    {
+      "rank": 4,
+      "name": "D.J. Williams",
+      "college": "Arkansas",
+      "year": 2011,
+      "round": 5,
+      "pick": 141,
+      "ppg": 2.53,
+      "rawPpg": 0.6517,
+      "madeIt": false,
+      "similarity": 0.396
+    },
+    {
+      "rank": 5,
+      "name": "Jesse James",
+      "college": "Penn St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 160,
+      "ppg": 4.7274,
+      "rawPpg": 4.9674,
+      "madeIt": false,
+      "similarity": 0.355
+    },
+    {
+      "rank": 6,
+      "name": "Andrew Quarless",
+      "college": "Penn St.",
+      "year": 2010,
+      "round": 5,
+      "pick": 154,
+      "ppg": 3.8485,
+      "rawPpg": 3.1917,
+      "madeIt": false,
+      "similarity": 0.347
+    },
+    {
+      "rank": 7,
+      "name": "Devin Asiasi",
+      "college": "UCLA",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.346
+    }
+  ]
+}

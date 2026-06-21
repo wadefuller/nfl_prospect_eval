@@ -3,30 +3,18 @@
   "comps": [
     {
       "rank": 1,
-      "name": "Clyde Edwards-Helaire",
-      "college": "LSU",
-      "year": 2020,
+      "name": "Bijan Robinson",
+      "college": "Texas",
+      "year": 2023,
       "round": 1,
-      "pick": 32,
-      "ppg": 10.0058,
-      "rawPpg": 11.4819,
+      "pick": 8,
+      "ppg": 15.3326,
+      "rawPpg": 18.8971,
       "madeIt": true,
-      "similarity": 0.222
+      "similarity": 0.435
     },
     {
       "rank": 2,
-      "name": "Josh Jacobs",
-      "college": "Alabama",
-      "year": 2019,
-      "round": 1,
-      "pick": 24,
-      "ppg": 11.8302,
-      "rawPpg": 14.1446,
-      "madeIt": true,
-      "similarity": 0.189
-    },
-    {
-      "rank": 3,
       "name": "Tre Mason",
       "college": "Auburn",
       "year": 2014,
@@ -35,55 +23,43 @@
       "ppg": 7.169,
       "rawPpg": 6.9388,
       "madeIt": true,
-      "similarity": 0.176
+      "similarity": 0.427
+    },
+    {
+      "rank": 3,
+      "name": "Trent Richardson",
+      "college": "Alabama",
+      "year": 2012,
+      "round": 1,
+      "pick": 3,
+      "ppg": 10.2282,
+      "rawPpg": 11.6212,
+      "madeIt": true,
+      "similarity": 0.425
     },
     {
       "rank": 4,
-      "name": "Ronald Jones II",
-      "college": "USC",
-      "year": 2018,
-      "round": 2,
-      "pick": 38,
-      "ppg": 9.7223,
-      "rawPpg": 10.8661,
+      "name": "Josh Jacobs",
+      "college": "Alabama",
+      "year": 2019,
+      "round": 1,
+      "pick": 24,
+      "ppg": 11.8302,
+      "rawPpg": 14.1446,
       "madeIt": true,
-      "similarity": 0.167
+      "similarity": 0.419
     },
     {
       "rank": 5,
-      "name": "Kendre Miller",
-      "college": "TCU",
-      "year": 2023,
-      "round": 3,
-      "pick": 71,
-      "ppg": 6.5182,
-      "rawPpg": 4.9524,
-      "madeIt": true,
-      "similarity": 0.16
-    },
-    {
-      "rank": 6,
-      "name": "Kerryon Johnson",
-      "college": "Auburn",
-      "year": 2018,
-      "round": 2,
-      "pick": 43,
-      "ppg": 9.6332,
-      "rawPpg": 11.17,
-      "madeIt": true,
-      "similarity": 0.154
-    },
-    {
-      "rank": 7,
-      "name": "J.K. Dobbins",
-      "college": "Ohio St.",
+      "name": "Clyde Edwards-Helaire",
+      "college": "LSU",
       "year": 2020,
-      "round": 2,
-      "pick": 55,
-      "ppg": 9.2648,
-      "rawPpg": 10.1729,
+      "round": 1,
+      "pick": 32,
+      "ppg": 10.0058,
+      "rawPpg": 11.4819,
       "madeIt": true,
-      "similarity": 0.153
+      "similarity": 0.412
     }
   ]
 }

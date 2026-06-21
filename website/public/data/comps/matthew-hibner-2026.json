@@ -1,0 +1,89 @@
+{
+  "prospectId": "matthew-hibner-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Ian Thomas",
+      "college": "Indiana",
+      "year": 2018,
+      "round": 4,
+      "pick": 101,
+      "ppg": 4.4544,
+      "rawPpg": 4.545,
+      "madeIt": false,
+      "similarity": 0.63
+    },
+    {
+      "rank": 2,
+      "name": "Arthur Lynch",
+      "college": "Georgia",
+      "year": 2014,
+      "round": 5,
+      "pick": 155,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.57
+    },
+    {
+      "rank": 3,
+      "name": "Taylor Thompson",
+      "college": "SMU",
+      "year": 2012,
+      "round": 5,
+      "pick": 145,
+      "ppg": 2.385,
+      "rawPpg": 0.8343,
+      "madeIt": false,
+      "similarity": 0.566
+    },
+    {
+      "rank": 4,
+      "name": "Blake Bell",
+      "college": "Oklahoma",
+      "year": 2015,
+      "round": 4,
+      "pick": 117,
+      "ppg": 3.2139,
+      "rawPpg": 2.1063,
+      "madeIt": false,
+      "similarity": 0.548
+    },
+    {
+      "rank": 5,
+      "name": "Nick Kasa",
+      "college": "Colorado",
+      "year": 2013,
+      "round": 6,
+      "pick": 172,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.486
+    },
+    {
+      "rank": 6,
+      "name": "Jordan Akins",
+      "college": "Central Florida",
+      "year": 2018,
+      "round": 3,
+      "pick": 98,
+      "ppg": 4.588,
+      "rawPpg": 4.7514,
+      "madeIt": false,
+      "similarity": 0.484
+    },
+    {
+      "rank": 7,
+      "name": "Levine Toilolo",
+      "college": "Stanford",
+      "year": 2013,
+      "round": 4,
+      "pick": 133,
+      "ppg": 3.4575,
+      "rawPpg": 2.7933,
+      "madeIt": false,
+      "similarity": 0.476
+    }
+  ]
+}

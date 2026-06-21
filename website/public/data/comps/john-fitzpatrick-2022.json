@@ -1,0 +1,89 @@
+{
+  "prospectId": "john-fitzpatrick-2022",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Beau Sandland",
+      "college": "Montana St.",
+      "year": 2016,
+      "round": 7,
+      "pick": 252,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.748
+    },
+    {
+      "rank": 2,
+      "name": "Geoff Swaim",
+      "college": "Texas",
+      "year": 2015,
+      "round": 7,
+      "pick": 246,
+      "ppg": 3.4504,
+      "rawPpg": 1.4143,
+      "madeIt": false,
+      "similarity": 0.591
+    },
+    {
+      "rank": 3,
+      "name": "Michael Williams",
+      "college": "Alabama",
+      "year": 2013,
+      "round": 7,
+      "pick": 211,
+      "ppg": 2.9424,
+      "rawPpg": 0.4556,
+      "madeIt": false,
+      "similarity": 0.586
+    },
+    {
+      "rank": 4,
+      "name": "James O'Shaughnessy",
+      "college": "Illinois St.",
+      "year": 2015,
+      "round": 5,
+      "pick": 173,
+      "ppg": 2.87,
+      "rawPpg": 1.8469,
+      "madeIt": false,
+      "similarity": 0.475
+    },
+    {
+      "rank": 5,
+      "name": "D.C. Jefferson",
+      "college": "Rutgers",
+      "year": 2013,
+      "round": 7,
+      "pick": 219,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.468
+    },
+    {
+      "rank": 6,
+      "name": "Richard Gordon",
+      "college": "Miami (FL)",
+      "year": 2011,
+      "round": 6,
+      "pick": 181,
+      "ppg": 2.3654,
+      "rawPpg": 0.4826,
+      "madeIt": false,
+      "similarity": 0.396
+    },
+    {
+      "rank": 7,
+      "name": "Jordan Thomas",
+      "college": "Mississippi St.",
+      "year": 2018,
+      "round": 6,
+      "pick": 211,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.369
+    }
+  ]
+}

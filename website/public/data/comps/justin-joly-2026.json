@@ -1,0 +1,89 @@
+{
+  "prospectId": "justin-joly-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Jordan Leggett",
+      "college": "Clemson",
+      "year": 2017,
+      "round": 5,
+      "pick": 150,
+      "ppg": 3.2365,
+      "rawPpg": 1.8769,
+      "madeIt": false,
+      "similarity": 0.599
+    },
+    {
+      "rank": 2,
+      "name": "Kylen Granson",
+      "college": "SMU",
+      "year": 2021,
+      "round": 4,
+      "pick": 127,
+      "ppg": 3.9354,
+      "rawPpg": 3.691,
+      "madeIt": false,
+      "similarity": 0.523
+    },
+    {
+      "rank": 3,
+      "name": "Mychal Rivera",
+      "college": "Tennessee",
+      "year": 2013,
+      "round": 6,
+      "pick": 184,
+      "ppg": 5.3658,
+      "rawPpg": 5.8781,
+      "madeIt": true,
+      "similarity": 0.486
+    },
+    {
+      "rank": 4,
+      "name": "Brevin Jordan",
+      "college": "Miami (FL)",
+      "year": 2021,
+      "round": 5,
+      "pick": 147,
+      "ppg": 4.637,
+      "rawPpg": 4.9825,
+      "madeIt": false,
+      "similarity": 0.477
+    },
+    {
+      "rank": 5,
+      "name": "James Mitchell",
+      "college": "Virginia Tech",
+      "year": 2022,
+      "round": 5,
+      "pick": 177,
+      "ppg": 3.8441,
+      "rawPpg": 2.85,
+      "madeIt": false,
+      "similarity": 0.386
+    },
+    {
+      "rank": 6,
+      "name": "Jerell Adams",
+      "college": "South Carolina",
+      "year": 2016,
+      "round": 6,
+      "pick": 184,
+      "ppg": 3.1103,
+      "rawPpg": 2.0433,
+      "madeIt": false,
+      "similarity": 0.347
+    },
+    {
+      "rank": 7,
+      "name": "Jake Ferguson",
+      "college": "Wisconsin",
+      "year": 2022,
+      "round": 4,
+      "pick": 129,
+      "ppg": 6.0842,
+      "rawPpg": 6.8397,
+      "madeIt": true,
+      "similarity": 0.308
+    }
+  ]
+}

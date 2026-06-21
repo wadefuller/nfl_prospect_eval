@@ -1,0 +1,89 @@
+{
+  "prospectId": "marlin-klein-2026",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Tre' McKitty",
+      "college": "Georgia",
+      "year": 2021,
+      "round": 3,
+      "pick": 97,
+      "ppg": 2.5474,
+      "rawPpg": 1.0942,
+      "madeIt": false,
+      "similarity": 0.653
+    },
+    {
+      "rank": 2,
+      "name": "Tommy Tremble",
+      "college": "Notre Dame",
+      "year": 2021,
+      "round": 3,
+      "pick": 83,
+      "ppg": 3.5491,
+      "rawPpg": 3.1267,
+      "madeIt": false,
+      "similarity": 0.526
+    },
+    {
+      "rank": 3,
+      "name": "Kahale Warring",
+      "college": "San Diego St.",
+      "year": 2019,
+      "round": 3,
+      "pick": 86,
+      "ppg": 0,
+      "rawPpg": null,
+      "madeIt": false,
+      "similarity": 0.522
+    },
+    {
+      "rank": 4,
+      "name": "Tucker Kraft",
+      "college": "South Dakota St.",
+      "year": 2023,
+      "round": 3,
+      "pick": 78,
+      "ppg": 7.5356,
+      "rawPpg": 10.3926,
+      "madeIt": true,
+      "similarity": 0.479
+    },
+    {
+      "rank": 5,
+      "name": "Dawson Knox",
+      "college": "Mississippi",
+      "year": 2019,
+      "round": 3,
+      "pick": 96,
+      "ppg": 6.2824,
+      "rawPpg": 7.1442,
+      "madeIt": true,
+      "similarity": 0.454
+    },
+    {
+      "rank": 6,
+      "name": "Luke Schoonmaker",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 2,
+      "pick": 58,
+      "ppg": 3.389,
+      "rawPpg": 2.7542,
+      "madeIt": false,
+      "similarity": 0.451
+    },
+    {
+      "rank": 7,
+      "name": "Drew Sample",
+      "college": "Washington",
+      "year": 2019,
+      "round": 2,
+      "pick": 52,
+      "ppg": 3.38,
+      "rawPpg": 2.5206,
+      "madeIt": false,
+      "similarity": 0.407
+    }
+  ]
+}

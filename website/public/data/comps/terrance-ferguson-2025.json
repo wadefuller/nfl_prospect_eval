@@ -1,0 +1,89 @@
+{
+  "prospectId": "terrance-ferguson-2025",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Vernon Davis",
+      "college": "Maryland",
+      "year": 2006,
+      "round": 1,
+      "pick": 6,
+      "ppg": 5.8252,
+      "rawPpg": 6.8446,
+      "madeIt": true,
+      "similarity": 0.527
+    },
+    {
+      "rank": 2,
+      "name": "Ed Dickson",
+      "college": "Oregon",
+      "year": 2010,
+      "round": 3,
+      "pick": 70,
+      "ppg": 4.9363,
+      "rawPpg": 4.9313,
+      "madeIt": false,
+      "similarity": 0.509
+    },
+    {
+      "rank": 3,
+      "name": "Pat Freiermuth",
+      "college": "Penn St.",
+      "year": 2021,
+      "round": 2,
+      "pick": 55,
+      "ppg": 6.5502,
+      "rawPpg": 7.6931,
+      "madeIt": true,
+      "similarity": 0.446
+    },
+    {
+      "rank": 4,
+      "name": "Luke Schoonmaker",
+      "college": "Michigan",
+      "year": 2023,
+      "round": 2,
+      "pick": 58,
+      "ppg": 3.389,
+      "rawPpg": 2.7542,
+      "madeIt": false,
+      "similarity": 0.445
+    },
+    {
+      "rank": 5,
+      "name": "Gerald Everett",
+      "college": "South Alabama",
+      "year": 2017,
+      "round": 2,
+      "pick": 44,
+      "ppg": 4.9037,
+      "rawPpg": 5.3075,
+      "madeIt": false,
+      "similarity": 0.432
+    },
+    {
+      "rank": 6,
+      "name": "Rob Housler",
+      "college": "Florida Atlantic",
+      "year": 2011,
+      "round": 3,
+      "pick": 69,
+      "ppg": 4.6491,
+      "rawPpg": 4.8669,
+      "madeIt": false,
+      "similarity": 0.431
+    },
+    {
+      "rank": 7,
+      "name": "O.J. Howard",
+      "college": "Alabama",
+      "year": 2017,
+      "round": 1,
+      "pick": 19,
+      "ppg": 6.6964,
+      "rawPpg": 8.5673,
+      "madeIt": true,
+      "similarity": 0.431
+    }
+  ]
+}

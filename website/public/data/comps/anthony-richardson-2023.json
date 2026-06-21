@@ -1,0 +1,65 @@
+{
+  "prospectId": "anthony-richardson-2023",
+  "comps": [
+    {
+      "rank": 1,
+      "name": "Josh Allen",
+      "college": "Wyoming",
+      "year": 2018,
+      "round": 1,
+      "pick": 7,
+      "ppg": 18.1558,
+      "rawPpg": 21.3788,
+      "madeIt": true,
+      "similarity": 0.419
+    },
+    {
+      "rank": 2,
+      "name": "Jake Locker",
+      "college": "Washington",
+      "year": 2011,
+      "round": 1,
+      "pick": 8,
+      "ppg": 12.3305,
+      "rawPpg": 13.1306,
+      "madeIt": true,
+      "similarity": 0.299
+    },
+    {
+      "rank": 3,
+      "name": "Tim Tebow",
+      "college": "Florida",
+      "year": 2010,
+      "round": 1,
+      "pick": 25,
+      "ppg": 13.4827,
+      "rawPpg": 14.7214,
+      "madeIt": true,
+      "similarity": 0.292
+    },
+    {
+      "rank": 4,
+      "name": "Lamar Jackson",
+      "college": "Louisville",
+      "year": 2018,
+      "round": 1,
+      "pick": 32,
+      "ppg": 20.3439,
+      "rawPpg": 24.9487,
+      "madeIt": true,
+      "similarity": 0.254
+    },
+    {
+      "rank": 5,
+      "name": "Drew Lock",
+      "college": "Missouri",
+      "year": 2019,
+      "round": 2,
+      "pick": 42,
+      "ppg": 12.0017,
+      "rawPpg": 11.2555,
+      "madeIt": true,
+      "similarity": 0.254
+    }
+  ]
+}
