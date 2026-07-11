@@ -341,31 +341,30 @@ merged <- scores |>
 # ── Compute percentile columns (by position, using training CDF) ─────────────
 # Adds one `<col>_pct` integer (0-100) per stat in wr_stat_cols / rb_stat_cols.
 # Percentile is NA when the raw stat is NA (e.g. pre-2010 CFB sparsity).
-for (c in wr_stat_cols) {
-  new_col <- paste0(c, "_pct")
-  vals <- ifelse(merged$position == "WR", merged[[c]], NA_real_)
-  merged[[new_col]] <- wr_pct_fns[[c]](vals)
-}
-for (c in rb_stat_cols) {
-  new_col <- paste0(c, "_pct")
-  vals <- ifelse(merged$position == "RB", merged[[c]], NA_real_)
-  merged[[new_col]] <- rb_pct_fns[[c]](vals)
-}
-if (!is.null(qb_pct_fns)) {
-  for (c in qb_stat_cols) {
-    if (!c %in% names(merged)) next
+#
+# NOTE: WR and TE stat columns share several names (rec_yards_final,
+# rec_final, rec_td_final, rec_yards_per_game). Writing `merged[[new_col]] <- ...`
+# would overwrite the WR loop's output when the TE loop runs. To keep both
+# populations' percentiles intact, each loop only assigns into its own
+# position's rows.
+write_pcts_for_position <- function(m, pos, cols, pct_fns) {
+  pos_ix <- m$position == pos
+  for (c in cols) {
+    if (!c %in% names(m)) next
     new_col <- paste0(c, "_pct")
-    vals <- ifelse(merged$position == "QB", merged[[c]], NA_real_)
-    merged[[new_col]] <- qb_pct_fns[[c]](vals)
+    if (!new_col %in% names(m)) m[[new_col]] <- NA_real_
+    m[[new_col]][pos_ix] <- pct_fns[[c]](m[[c]][pos_ix])
   }
+  m
+}
+
+merged <- write_pcts_for_position(merged, "WR", wr_stat_cols, wr_pct_fns)
+merged <- write_pcts_for_position(merged, "RB", rb_stat_cols, rb_pct_fns)
+if (!is.null(qb_pct_fns)) {
+  merged <- write_pcts_for_position(merged, "QB", qb_stat_cols, qb_pct_fns)
 }
 if (!is.null(te_pct_fns)) {
-  for (c in te_stat_cols) {
-    if (!c %in% names(merged)) next
-    new_col <- paste0(c, "_pct")
-    vals <- ifelse(merged$position == "TE", merged[[c]], NA_real_)
-    merged[[new_col]] <- te_pct_fns[[c]](vals)
-  }
+  merged <- write_pcts_for_position(merged, "TE", te_stat_cols, te_pct_fns)
 }
 
 # ── Per-year prospect JSON ───────────────────────────────────────────────────
