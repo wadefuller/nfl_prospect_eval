@@ -190,6 +190,10 @@ export interface ProspectComp {
   rawPpg: number | null;
   madeIt: boolean;
   similarity: number;
+  // Top ~3 feature labels where the prospect is closest to this comp,
+  // in MAD-standardized units. Emitted by 08_player_comps.R::find_comps.
+  // Present on newly-generated comps; may be null on old cached ones.
+  reasons?: string[] | null;
 }
 
 export interface YearData {

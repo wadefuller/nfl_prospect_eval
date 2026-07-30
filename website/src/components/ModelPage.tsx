@@ -1,16 +1,18 @@
 import { useEffect, useState, useMemo } from "react";
 import type { ModelPerformanceData, ScatterPoint } from "../types";
 import { dataUrl } from "../dataUrl";
+import { ink, scale } from "../theme";
 
 // ── Design tokens ─────────────────────────────────────────────────────────────
+// Local aliases onto the shared tokens in theme.ts.
 const C = {
-  teal: "#2DD4A0",
-  blue: "#3E8EF7",
-  gold: "#F5A623",
-  coral: "#F75757",
-  muted: "#4A5578",
-  text: "#F0F4FF",
-  sub: "#8A9AC0",
+  teal: scale.best,
+  blue: scale.good,
+  gold: scale.poor,
+  coral: scale.worst,
+  muted: ink.muted,
+  text: ink.primary,
+  sub: ink.secondary,
   card: "rgba(255,255,255,0.03)",
   border: "rgba(255,255,255,0.07)",
 };
@@ -466,16 +468,16 @@ export function ModelPage() {
         <SectionLabel>Overall Accuracy · {o.n} players, 2016–2023</SectionLabel>
         {/* Row 1: overall */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))", gap: 12, marginBottom: 12 }}>
-          <StatTile label="Avg miss" value={o.mae} sub="how far off the prediction is per player, in fantasy PPG (lower is better)" color={C.teal} fmt={v => v.toFixed(2)} />
-          <StatTile label="Ranking quality" value={o.cor} sub="how well the model orders players from best to worst (0 = noise, 1 = perfect)" color={C.blue} fmt={v => v.toFixed(3)} />
-          <StatTile label="Hit/miss accuracy" value={o.bust_accuracy} sub="how often it correctly calls a player a hit or a bust" color={C.gold} fmt={v => `${(v * 100).toFixed(1)}%`} />
+          <StatTile label="Avg miss" value={o.mae} sub="how far off the prediction is per player, in fantasy PPG (lower is better)" color={C.text} fmt={v => v.toFixed(2)} />
+          <StatTile label="Ranking quality" value={o.cor} sub="how well the model orders players from best to worst (0 = noise, 1 = perfect)" color={C.text} fmt={v => v.toFixed(3)} />
+          <StatTile label="Hit/miss accuracy" value={o.bust_accuracy} sub="how often it correctly calls a player a hit or a bust" color={C.text} fmt={v => `${(v * 100).toFixed(1)}%`} />
           <StatTile label="Systematic skew" value={o.bias} sub={bias_blurb(o.bias)} color={Math.abs(o.bias) < 0.15 ? C.teal : C.gold} fmt={v => `${v > 0 ? "+" : ""}${v.toFixed(2)}`} />
         </div>
         {/* Row 2: by position */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))", gap: 12 }}>
-          <StatTile label="WR avg miss" value={o.wr_mae} sub={`ranking quality ${o.wr_cor.toFixed(3)} · ${wrN} receivers`} color={C.blue} fmt={v => v.toFixed(2)} />
-          <StatTile label="RB avg miss" value={o.rb_mae} sub={`ranking quality ${o.rb_cor.toFixed(3)} · ${rbN} backs`} color={C.gold} fmt={v => v.toFixed(2)} />
-          <StatTile label="WR skew" value={o.wr_bias} sub={bias_blurb(o.wr_bias)} color={Math.abs(o.wr_bias) < 0.15 ? C.teal : C.blue} fmt={v => `${v > 0 ? "+" : ""}${v.toFixed(2)}`} />
+          <StatTile label="WR avg miss" value={o.wr_mae} sub={`ranking quality ${o.wr_cor.toFixed(3)} · ${wrN} receivers`} color={C.text} fmt={v => v.toFixed(2)} />
+          <StatTile label="RB avg miss" value={o.rb_mae} sub={`ranking quality ${o.rb_cor.toFixed(3)} · ${rbN} backs`} color={C.text} fmt={v => v.toFixed(2)} />
+          <StatTile label="WR skew" value={o.wr_bias} sub={bias_blurb(o.wr_bias)} color={Math.abs(o.wr_bias) < 0.15 ? C.teal : C.gold} fmt={v => `${v > 0 ? "+" : ""}${v.toFixed(2)}`} />
           <StatTile label="RB skew" value={o.rb_bias} sub={bias_blurb(o.rb_bias)} color={Math.abs(o.rb_bias) < 0.15 ? C.teal : C.gold} fmt={v => `${v > 0 ? "+" : ""}${v.toFixed(2)}`} />
         </div>
       </section>

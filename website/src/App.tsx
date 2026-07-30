@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import type { Meta, Prospect, YearData, SortField, SortDir, ProspectComp } from "./types";
 import { Header } from "./components/Header";
+import { ink, font, MAXW } from "./theme";
 import { ProspectTable } from "./components/ProspectTable";
 import { ModelPage } from "./components/ModelPage";
 import { InspectorPage } from "./components/InspectorPage";
@@ -162,7 +163,7 @@ export default function App() {
   if (!meta) {
     return (
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh" }}>
-        <div style={{ color: "#4A5578", fontFamily: "var(--font-mono)", fontSize: 14 }}>Loading…</div>
+        <div style={{ color: ink.muted, fontFamily: font.mono, fontSize: 14 }}>Loading…</div>
       </div>
     );
   }
@@ -170,7 +171,7 @@ export default function App() {
   const isLoading = allClasses ? allLoading : loading;
 
   return (
-    <div style={{ maxWidth: 1400, margin: "0 auto", paddingBottom: 48 }}>
+    <div style={{ maxWidth: MAXW, margin: "0 auto", paddingBottom: 56 }}>
       <Header
         years={meta.availableYears}
         year={year}
@@ -197,7 +198,7 @@ export default function App() {
         <InspectorPage />
       ) : isLoading ? (
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "80px 0" }}>
-          <div style={{ color: "#4A5578", fontFamily: "var(--font-mono)", fontSize: 13 }}>
+          <div style={{ color: ink.muted, fontFamily: font.mono, fontSize: 13 }}>
             {allClasses ? "Loading all draft classes…" : "Loading prospects…"}
           </div>
         </div>

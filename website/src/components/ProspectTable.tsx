@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from "react";
 import type { Prospect, ProspectComp, SortField, SortDir } from "../types";
 import { ProspectRow } from "./ProspectRow";
 import { ProspectDetail } from "./ProspectDetail";
+import { ClassSummary } from "./ClassSummary";
+import { ink, line, surface, font } from "../theme";
+import { Chip } from "./ui";
 
 interface Props {
   prospects: Prospect[];
@@ -22,6 +25,7 @@ function SortTh({
   currentDir,
   onSort,
   className = "",
+  width,
 }: {
   label: string;
   field: SortField;
@@ -29,6 +33,7 @@ function SortTh({
   currentDir: SortDir;
   onSort: (f: SortField) => void;
   className?: string;
+  width?: string;
 }) {
   const active = currentField === field;
   return (
@@ -36,28 +41,30 @@ function SortTh({
       onClick={() => onSort(field)}
       className={className}
       style={{
-        padding: "10px 12px",
+        width,
+        padding: "11px 12px",
         textAlign: "left",
-        fontSize: 11,
-        fontWeight: 500,
-        letterSpacing: "0.08em",
+        fontSize: 10,
+        fontWeight: 600,
+        letterSpacing: "0.09em",
         textTransform: "uppercase",
-        color: active ? "#8A9AC0" : "#4A5578",
-        borderBottom: "1px solid rgba(255,255,255,0.07)",
+        color: active ? "#8FBEFB" : ink.muted,
+        borderBottom: `1px solid ${line.border}`,
+        background: surface.raised,
         cursor: "pointer",
         userSelect: "none",
         whiteSpace: "nowrap",
-        fontFamily: "var(--font-body)",
+        fontFamily: font.body,
       }}
     >
       {label}
       {active && (
-        <span style={{ marginLeft: 4, color: "#3E8EF7" }}>
+        <span style={{ marginLeft: 4, color: "#4C93F0" }}>
           {currentDir === "asc" ? "↑" : "↓"}
         </span>
       )}
       {!active && (
-        <span style={{ marginLeft: 4, color: "#2E3650" }}>↕</span>
+        <span style={{ marginLeft: 4, color: ink.faint, opacity: .6 }}>↕</span>
       )}
     </th>
   );
@@ -68,16 +75,17 @@ function StaticTh({ label, className = "" }: { label: string; className?: string
     <th
       className={className}
       style={{
-        padding: "10px 12px",
+        padding: "11px 12px",
         textAlign: "left",
-        fontSize: 11,
-        fontWeight: 500,
-        letterSpacing: "0.08em",
+        fontSize: 10,
+        fontWeight: 600,
+        letterSpacing: "0.09em",
         textTransform: "uppercase",
-        color: "#4A5578",
-        borderBottom: "1px solid rgba(255,255,255,0.07)",
+        color: ink.muted,
+        borderBottom: `1px solid ${line.border}`,
+        background: surface.raised,
         whiteSpace: "nowrap",
-        fontFamily: "var(--font-body)",
+        fontFamily: font.body,
       }}
     >
       {label}
@@ -93,6 +101,7 @@ export function ProspectTable({
   expandedId,
   onExpand,
   comps,
+  draftYear,
   allClasses,
 }: Props) {
   const hasActuals = !allClasses && prospects.some((p) => p.actual_ppg != null);
@@ -140,7 +149,9 @@ export function ProspectTable({
   ).filter((c) => c.show);
 
   return (
-    <div>
+    <div style={{ padding: "0 14px" }}>
+      <ClassSummary prospects={prospects} allClasses={allClasses} year={draftYear ?? 0} />
+
       {/* Mobile-only sort chip strip — `sm:!hidden` (!important) is needed
           because the inline `display: flex` below would otherwise beat
           Tailwind's `sm:hidden` (which is `display: none` without !important). */}
@@ -160,7 +171,7 @@ export function ProspectTable({
           position: "sticky",
           top: "var(--header-h, 88px)",
           zIndex: 11,
-          background: "rgba(11,14,19,0.92)",
+          background: surface.raised,
           backdropFilter: "blur(8px)",
           WebkitMaskImage:
             "linear-gradient(to right, #000 calc(100% - 18px), transparent 100%)",
@@ -171,51 +182,41 @@ export function ProspectTable({
         <span
           style={{
             fontSize: 10,
-            color: "#4A5578",
+            color: ink.muted,
             textTransform: "uppercase",
-            letterSpacing: "0.08em",
-            fontWeight: 500,
+            letterSpacing: "0.09em",
+            fontWeight: 600,
             flexShrink: 0,
             marginRight: 2,
           }}
         >
           Sort
         </span>
-        {mobileSortChips.map((c) => {
-          const active = sortField === c.field;
-          return (
-            <button
-              key={c.field}
-              onClick={() => onSort(c.field)}
-              style={{
-                appearance: "none",
-                border: active ? "1px solid #3E8EF7" : "1px solid rgba(255,255,255,0.08)",
-                background: active ? "rgba(62,142,247,0.15)" : "rgba(255,255,255,0.04)",
-                color: active ? "#3E8EF7" : "#8A9AC0",
-                fontFamily: "var(--font-body)",
-                fontSize: 12,
-                fontWeight: active ? 600 : 500,
-                padding: "5px 10px",
-                borderRadius: 999,
-                whiteSpace: "nowrap",
-                cursor: "pointer",
-                flexShrink: 0,
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 4,
-              }}
-            >
-              {c.label}
-              {active && (
-                <span style={{ fontFamily: "var(--font-mono)", fontSize: 11 }}>
-                  {sortDir === "asc" ? "↑" : "↓"}
-                </span>
-              )}
-            </button>
-          );
-        })}
+        {mobileSortChips.map((c) => (
+          <Chip key={c.field} active={sortField === c.field} onClick={() => onSort(c.field)}>
+            {c.label}
+            {sortField === c.field && (
+              <span style={{ fontFamily: font.mono, fontSize: 11 }}>
+                {sortDir === "asc" ? "↑" : "↓"}
+              </span>
+            )}
+          </Chip>
+        ))}
       </div>
 
+      <div
+        style={{
+          background: surface.card,
+          border: `1px solid ${line.hairline}`,
+          borderRadius: 12,
+          // `clip`, not `hidden`: overflow:hidden makes this a scroll
+          // container, which would re-anchor the sticky <thead> to this card
+          // instead of the viewport (the header then floated two rows down the
+          // table). overflow:clip clips the corners identically without
+          // becoming a containing block for sticky descendants.
+          overflow: "clip",
+        }}
+      >
       <table style={{ width: "100%", borderCollapse: "collapse" }}>
         <thead
           className="hidden sm:table-header-group"
@@ -224,7 +225,7 @@ export function ProspectTable({
             top: "var(--header-h, 88px)",
             zIndex: 10,
             backdropFilter: "blur(8px)",
-            background: "rgba(11,14,19,0.92)",
+            background: surface.raised,
           }}
         >
           <tr>
@@ -235,6 +236,7 @@ export function ProspectTable({
               currentDir={sortDir}
               onSort={onSort}
               className="pl-[14px]"
+              width="30%"
             />
             <SortTh
               label="Pick"
@@ -320,7 +322,7 @@ export function ProspectTable({
                     style={{
                       padding: 0,
                       borderBottom: "1px solid rgba(255,255,255,0.07)",
-                      borderLeft: "2px solid #3E8EF7",
+                      borderLeft: `2px solid ${"#4C93F0"}`,
                     }}
                   >
                     <ProspectDetail prospect={p} comps={comps[p.id] ?? null} />
@@ -336,8 +338,8 @@ export function ProspectTable({
                 style={{
                   padding: "48px 24px",
                   textAlign: "center",
-                  color: "#4A5578",
-                  fontFamily: "var(--font-body)",
+                  color: ink.muted,
+                  fontFamily: font.body,
                 }}
               >
                 No prospects found for this filter.
@@ -346,6 +348,7 @@ export function ProspectTable({
           )}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }

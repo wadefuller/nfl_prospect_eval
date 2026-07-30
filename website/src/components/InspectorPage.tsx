@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { PlayerAvatar } from "./PlayerAvatar";
 import type { ProspectComp } from "../types";
 import { dataUrl } from "../dataUrl";
+import { qualityColor, ink, line, surface, scale } from "../theme";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 interface IndexPlayer {
@@ -48,12 +49,14 @@ interface PlayerJson {
   groups: Group[]; production: ProductionRow[]; combine: CombineRow[]; raw: RawRow[];
 }
 
-// ── Design tokens (matches ModelPage.tsx) ────────────────────────────────────
+// Local aliases onto the shared tokens in theme.ts. This file used to carry
+// its own palette (and its own 2-tier pctColor, which disagreed with
+// ProspectDetail's 5-tier one on the same metric).
 const C = {
-  teal: "#2DD4A0", blue: "#3E8EF7", gold: "#F5A623", coral: "#F75757",
-  muted: "#4A5578", text: "#F0F4FF", sub: "#8A9AC0",
-  card: "rgba(255,255,255,0.03)", border: "rgba(255,255,255,0.07)",
-  cardSolid: "#181E2B",
+  teal: scale.best, blue: scale.good, gold: scale.poor, coral: scale.worst,
+  muted: ink.muted, text: ink.primary, sub: ink.secondary,
+  card: surface.card, border: line.hairline,
+  cardSolid: surface.raised,
 };
 const MONO: React.CSSProperties = { fontFamily: "var(--font-mono)" };
 const BODY: React.CSSProperties = { fontFamily: "var(--font-body)" };
@@ -62,13 +65,8 @@ const CARD: React.CSSProperties = {
   padding: "20px 24px",
 };
 
-const pctColor = (p: number | null): string => {
-  if (p == null) return C.muted;
-  if (p >= 80) return C.teal;
-  if (p >= 60) return C.blue;
-  if (p >= 40) return C.gold;
-  return C.coral;
-};
+// Shared ramp — the same percentile now reads the same on every page.
+const pctColor = (p: number | null): string => qualityColor(p);
 
 // ── Sub-components ───────────────────────────────────────────────────────────
 
@@ -474,11 +472,11 @@ function HeaderCard({ p }: { p: PlayerJson }) {
 
 function BucketRow({ bucket }: { bucket: BucketSummary }) {
   const BUCKETS = [
-    { key: "bust"          as const, label: "Bust",   color: "#4A5578" },
-    { key: "bench"         as const, label: "Bench",  color: "#7A8AAB" },
-    { key: "flex"          as const, label: "Flex",   color: "#3E8EF7" },
-    { key: "elite"         as const, label: "Elite",  color: "#F0B441" },
-    { key: "league_winner" as const, label: "LW",     color: "#2DD4A0" },
+    { key: "bust"          as const, label: "Bust",   color: scale.worst },
+    { key: "bench"         as const, label: "Bench",  color: scale.poor },
+    { key: "flex"          as const, label: "Flex",   color: scale.mid },
+    { key: "elite"         as const, label: "Elite",  color: scale.good },
+    { key: "league_winner" as const, label: "LW",     color: scale.best },
   ];
   const top = BUCKETS.reduce((a, b) => {
     const av = bucket.means[a.key] ?? 0;
@@ -837,7 +835,7 @@ export function InspectorPage() {
           color: C.text, marginBottom: 6,
         }}>Prospect Inspector</h2>
         <p style={{ fontSize: 13, color: C.muted, ...BODY, maxWidth: 720, lineHeight: 1.6 }}>
-          Per-player feature drill-down for every WR and RB drafted{" "}
+          Per-player feature drill-down for every {index.positions.join(", ")} drafted{" "}
           {index.minDraftYear}–{index.maxDraftYear}. Percentiles are computed against
           the same-position training cohort (drafted players with cfbfastR data).
         </p>

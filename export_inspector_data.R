@@ -296,7 +296,34 @@ METRIC_DESC <- list(
   teammate_rec_yards = "Highest single-season rec yards by another skill teammate at same school",
   teammate_rush_yards = "Highest single-season rush yards by another skill teammate at same school",
   n_drafted_skill = "Count of other WR/RB/TE drafted from same school in same class",
-  elite_teammate = "1 if a same-position teammate from same class went in Rd 1-2"
+  elite_teammate = "1 if a same-position teammate from same class went in Rd 1-2",
+  # ── QB ────────────────────────────────────────────────────────────────────
+  pass_yds_final = "Passing yards in best college season",
+  pass_td_final = "Passing touchdowns in best college season",
+  pass_int_final = "Interceptions thrown in best season (lower is better)",
+  pass_pct_final = "Completion percentage in best season",
+  pass_ypa_final = "Yards per pass attempt — efficiency, not volume",
+  pass_yds_per_game = "Passing yards / team games played",
+  pass_td_per_game = "Passing touchdowns / team games played",
+  epa_per_dropback = "Expected points added per dropback, including sacks and scrambles",
+  epa_per_attempt = "Expected points added per pass attempt",
+  completion_pct_pbp = "Completion rate computed from play-by-play (excludes spikes/throwaways where charted)",
+  sack_rate = "Share of dropbacks ending in a sack — part pressure, part pocket feel (lower is better)",
+  int_rate = "Interceptions per pass attempt (lower is better)",
+  explosive_pass_rate = "Share of attempts gaining 20+ yards",
+  qb_share_team = "Player share of team pass attempts — confirms he was the every-down starter",
+  rush_yds_final = "Rushing yards in best season — QB rushing upside",
+  rush_yds_per_carry = "Rushing yards per carry as a QB",
+  # ── TE ────────────────────────────────────────────────────────────────────
+  ypr_te = "Yards per reception in best season",
+  rec_td_rate_te = "TDs per reception (TD efficiency)",
+  dominator_rate_te = "Player share of team scrimmage yards — offensive centrality for a TE",
+  catch_rate_te = "Receptions per target",
+  yards_per_target_te = "Yards per target — efficiency independent of volume",
+  target_share_te = "Share of team targets in best season",
+  targets_per_game_te = "Targets / team games played",
+  epa_per_target_te = "Expected points added per target",
+  explosive_rec_rate_te = "Share of receptions gaining 20+ yards"
 )
 
 # ── Cohort percentile fns (training only, has_cfb_data filter mirrors app) ───

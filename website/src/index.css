@@ -107,6 +107,16 @@ body {
 
 /* Mobile prospect detail tweaks (< 640px = Tailwind sm) */
 @media (max-width: 639px) {
+  /* Two-up so the summary strip doesn't consume the whole first screen
+     before the first prospect row. */
+  .class-summary {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px !important;
+  }
+  .class-summary > * {
+    padding: 10px 11px !important;
+  }
+
   .prospect-detail-body {
     padding: 10px !important;
     gap: 10px !important;

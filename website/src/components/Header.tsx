@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { ink, line, surface, font, accent, posColor, MAXW } from "../theme";
 
 interface HeaderProps {
   years: number[];
@@ -46,7 +47,7 @@ export function Header({
     padding: "6px 11px",
     fontSize: 12,
     fontWeight: 600,
-    fontFamily: "var(--font-mono)",
+    fontFamily: font.mono,
     border: "none",
     cursor: "pointer",
     transition: "all 0.15s",
@@ -56,13 +57,13 @@ export function Header({
     <a
       href={href}
       style={{
-        fontSize: 13,
-        fontWeight: 500,
-        fontFamily: "var(--font-body)",
-        color: active ? "#F0F4FF" : "#4A5578",
+        fontSize: 13.5,
+        fontWeight: 600,
+        fontFamily: font.body,
+        color: active ? ink.primary : ink.secondary,
         textDecoration: "none",
-        padding: "2px 0",
-        borderBottom: active ? "2px solid #3E8EF7" : "2px solid transparent",
+        padding: "2px 0 10px",
+        borderBottom: `2px solid ${active ? accent : "transparent"}`,
         transition: "color 0.15s, border-color 0.15s",
         whiteSpace: "nowrap",
       }}
@@ -76,12 +77,12 @@ export function Header({
       ref={ref}
       style={{
         padding: "16px 24px 0",
-        borderBottom: "1px solid rgba(255,255,255,0.07)",
+        borderBottom: `1px solid ${line.border}`,
         position: "sticky",
         top: 0,
         zIndex: 20,
         backdropFilter: "blur(12px)",
-        background: "rgba(11,14,19,0.92)",
+        background: "rgba(11,14,19,0.88)",
       }}
     >
       <div
@@ -89,7 +90,7 @@ export function Header({
           display: "flex",
           alignItems: "flex-start",
           justifyContent: "space-between",
-          maxWidth: 1400,
+          maxWidth: MAXW,
           margin: "0 auto",
           width: "100%",
           flexWrap: "wrap",
@@ -100,17 +101,17 @@ export function Header({
         <div>
           <h1
             style={{
-              fontFamily: "var(--font-display)",
+              fontFamily: font.display,
               fontSize: 22,
               fontWeight: 700,
               letterSpacing: "-0.025em",
-              color: "#F0F4FF",
+              color: ink.primary,
               lineHeight: 1.2,
             }}
           >
             DraftScout
           </h1>
-          <p style={{ fontSize: 12, color: "#4A5578", marginTop: 2, fontFamily: "var(--font-body)" }}>
+          <p style={{ fontSize: 12, color: ink.muted, marginTop: 3, fontFamily: font.body }}>
             {onModelPage
               ? `Model performance · Updated ${lastUpdated}`
               : onInspectorPage
@@ -118,7 +119,7 @@ export function Header({
                 : `${totalProspects} prospects · Updated ${lastUpdated}`}
           </p>
           {/* Nav tabs sit on the bottom border */}
-          <div style={{ display: "flex", gap: 20, marginTop: 12 }}>
+          <div style={{ display: "flex", gap: 22, marginTop: 12 }}>
             {navLink("#/", "Prospects", onProspectsPage)}
             {navLink("#/model", "Model", onModelPage)}
             {navLink("#/inspector", "Inspector", onInspectorPage)}
@@ -132,10 +133,10 @@ export function Header({
             <div
               style={{
                 display: "flex",
-                background: "rgba(255,255,255,0.04)",
-                borderRadius: 6,
+                background: surface.raised,
+                borderRadius: 8,
                 overflow: "hidden",
-                border: "1px solid rgba(255,255,255,0.07)",
+                border: `1px solid ${line.border}`,
               }}
             >
               {["ALL", "QB", "RB", "WR", "TE"].map((pos) => (
@@ -144,8 +145,14 @@ export function Header({
                   onClick={() => onPosFilterChange(pos)}
                   style={{
                     ...btnBase,
-                    background: posFilter === pos ? "#3E8EF7" : "transparent",
-                    color: posFilter === pos ? "#fff" : "#4A5578",
+                    background:
+                      posFilter === pos
+                        ? pos === "ALL" ? accent : `${posColor[pos]}26`
+                        : "transparent",
+                    color:
+                      posFilter === pos
+                        ? pos === "ALL" ? "#08111F" : posColor[pos]
+                        : ink.secondary,
                   }}
                 >
                   {pos}
@@ -159,20 +166,20 @@ export function Header({
               onChange={(e) => onYearChange(Number(e.target.value))}
               disabled={allClasses}
               style={{
-                background: "rgba(255,255,255,0.04)",
-                border: "1px solid rgba(255,255,255,0.07)",
-                borderRadius: 6,
+                background: surface.raised,
+                border: `1px solid ${line.border}`,
+                borderRadius: 8,
                 padding: "6px 12px",
                 fontSize: 13,
-                fontFamily: "var(--font-body)",
-                color: allClasses ? "#4A5578" : "#8A9AC0",
+                fontFamily: font.body,
+                color: allClasses ? ink.faint : ink.secondary,
                 cursor: allClasses ? "not-allowed" : "pointer",
                 opacity: allClasses ? 0.5 : 1,
                 outline: "none",
               }}
             >
               {[...years].reverse().map((y) => (
-                <option key={y} value={y} style={{ background: "#181E2B" }}>
+                <option key={y} value={y} style={{ background: surface.raised }}>
                   {y} Draft
                 </option>
               ))}
@@ -184,14 +191,14 @@ export function Header({
               style={{
                 ...btnBase,
                 padding: "6px 14px",
-                borderRadius: 6,
+                borderRadius: 8,
                 border: "1px solid",
-                borderColor: allClasses ? "#3E8EF7" : "rgba(255,255,255,0.07)",
-                background: allClasses ? "rgba(62,142,247,0.15)" : "rgba(255,255,255,0.04)",
-                color: allClasses ? "#3E8EF7" : "#4A5578",
+                borderColor: allClasses ? "rgba(76,147,240,0.55)" : line.border,
+                background: allClasses ? "rgba(76,147,240,0.16)" : surface.raised,
+                color: allClasses ? "#8FBEFB" : ink.secondary,
                 fontSize: 12,
-                fontFamily: "var(--font-body)",
-                fontWeight: 500,
+                fontFamily: font.body,
+                fontWeight: 600,
                 whiteSpace: "nowrap",
               }}
             >

@@ -1,4 +1,5 @@
 import type { Prospect } from "../types";
+import { ink, scale, surface, font, NUM } from "../theme";
 
 // Stacked horizontal bar showing the ensemble's posterior-mean distribution
 // over outcome buckets, with 80% credible intervals from the Bayesian
@@ -6,13 +7,20 @@ import type { Prospect } from "../types";
 //
 // Buckets ordered worst → best so the bar reads left-to-right as a journey:
 //   bust → bench → flex → elite → league_winner
+//
+// Colour: these tiers carry polarity (a bust is a loss, a league winner is a
+// big win, flex is neutral), so the ramp is diverging — two warm steps, a
+// neutral midpoint, two cool. The previous order was gray/gray/blue/amber/green,
+// a non-monotone rainbow whose bench↔flex pair measured ΔE 12.3 against normal
+// vision, i.e. hard to separate even for full-colour readers. The scale in
+// theme.ts is validated; see the note there.
 
 const BUCKET_ORDER = [
-  { key: "p_bust",          label: "Bust",   longLabel: "Bust",          color: "#4A5578" },
-  { key: "p_bench",         label: "Bench",  longLabel: "Bench",         color: "#7A8AAB" },
-  { key: "p_flex",          label: "Flex",   longLabel: "Flex",          color: "#3E8EF7" },
-  { key: "p_elite",         label: "Elite",  longLabel: "Elite",         color: "#F0B441" },
-  { key: "p_league_winner", label: "LW",     longLabel: "League Winner", color: "#2DD4A0" },
+  { key: "p_bust",          label: "Bust",   longLabel: "Bust",          color: scale.worst },
+  { key: "p_bench",         label: "Bench",  longLabel: "Bench",         color: scale.poor },
+  { key: "p_flex",          label: "Flex",   longLabel: "Flex",          color: scale.mid },
+  { key: "p_elite",         label: "Elite",  longLabel: "Elite",         color: scale.good },
+  { key: "p_league_winner", label: "LW",     longLabel: "League Winner", color: scale.best },
 ] as const;
 
 interface Props { prospect: Prospect }
@@ -39,8 +47,8 @@ export function BucketDistribution({ prospect: p }: Props) {
           fontWeight: 500,
           textTransform: "uppercase",
           letterSpacing: "0.08em",
-          color: "#4A5578",
-          marginBottom: 8,
+          color: ink.muted,
+          marginBottom: 9,
           display: "flex",
           alignItems: "baseline",
           justifyContent: "space-between",
@@ -48,31 +56,35 @@ export function BucketDistribution({ prospect: p }: Props) {
         }}
       >
         <span>Outcome Distribution</span>
-        <span style={{ fontFamily: "var(--font-mono)", color: top.color, textTransform: "none", letterSpacing: "normal" }}>
+        <span style={{ ...NUM, color: top.color, textTransform: "none", letterSpacing: "normal" }}>
           {top.longLabel} {(top.mean * 100).toFixed(0)}%
           {hasCI && (
-            <span style={{ color: "#4A5578", marginLeft: 4, fontSize: 9 }}>
+            <span style={{ color: ink.faint, marginLeft: 4, fontSize: 9 }}>
               [{(top.lo! * 100).toFixed(0)}–{(top.hi! * 100).toFixed(0)}%]
             </span>
           )}
         </span>
       </div>
 
-      {/* Stacked bar */}
+      {/* Stacked bar. Segments are separated by a 2px surface-coloured rule
+          (drawn as a right border so percentage widths still sum to 100%),
+          which is the mark spec's spacer and also the secondary encoding that
+          keeps adjacent segments readable without relying on hue alone. */}
       <div
         style={{
           display: "flex",
           width: "100%",
-          height: 8,
-          borderRadius: 4,
+          height: 10,
+          borderRadius: 5,
           overflow: "hidden",
-          background: "rgba(255,255,255,0.04)",
+          background: "rgba(255,255,255,0.05)",
         }}
       >
-        {probs.map((b) => {
+        {probs.map((b, i) => {
           const tooltip = b.lo != null && b.hi != null
             ? `${b.longLabel}: ${(b.mean * 100).toFixed(1)}% (80% CI ${(b.lo * 100).toFixed(0)}–${(b.hi * 100).toFixed(0)}%)`
             : `${b.longLabel}: ${(b.mean * 100).toFixed(1)}%`;
+          const isLast = i === probs.length - 1;
           return (
             <div
               key={b.key}
@@ -80,6 +92,8 @@ export function BucketDistribution({ prospect: p }: Props) {
               style={{
                 width: `${b.mean * 100}%`,
                 background: b.color,
+                borderRight: !isLast && b.mean > 0 ? `2px solid ${surface.card}` : undefined,
+                boxSizing: "border-box",
                 transition: "width 0.2s",
               }}
             />
@@ -94,13 +108,14 @@ export function BucketDistribution({ prospect: p }: Props) {
           gridTemplateColumns: "repeat(5, 1fr)",
           gap: 4,
           marginTop: 8,
-          fontFamily: "var(--font-mono)",
+          fontFamily: font.mono,
+          fontVariantNumeric: "tabular-nums",
           fontSize: 10,
         }}
       >
         {probs.map((b) => (
           <div key={b.key} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 4, color: "#4A5578" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 4, color: ink.muted }}>
               <span
                 style={{
                   width: 6,
@@ -112,11 +127,11 @@ export function BucketDistribution({ prospect: p }: Props) {
               />
               <span style={{ fontSize: 9, textTransform: "uppercase", letterSpacing: "0.05em" }}>{b.label}</span>
             </div>
-            <span style={{ color: "#8A9AC0", fontWeight: 600 }}>
+            <span style={{ color: ink.secondary, fontWeight: 700 }}>
               {(b.mean * 100).toFixed(0)}%
             </span>
             {b.lo != null && b.hi != null && (
-              <span style={{ color: "#4A5578", fontSize: 9 }}>
+              <span style={{ color: ink.faint, fontSize: 9 }}>
                 {(b.lo * 100).toFixed(0)}–{(b.hi * 100).toFixed(0)}
               </span>
             )}

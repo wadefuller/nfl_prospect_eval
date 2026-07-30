@@ -1,6 +1,7 @@
 import type { Prospect } from "../types";
 import { PlayerAvatar } from "./PlayerAvatar";
-import { scoreColor } from "./prospectStyle";
+import { qualityColor, ink, line, surface, posColor, tierColor, font } from "../theme";
+import { ScoreBadge, PosBadge as UIPosBadge } from "./ui";
 
 interface Props {
   prospect: Prospect;
@@ -15,7 +16,7 @@ interface Props {
 function MobileStatPill({
   label,
   value,
-  color = "#F0F4FF",
+  color = ink.primary,
   bg = "rgba(255,255,255,0.05)",
 }: {
   label: string;
@@ -39,7 +40,7 @@ function MobileStatPill({
       <span
         style={{
           fontSize: 8,
-          color: "#4A5578",
+          color: ink.faint,
           textTransform: "uppercase",
           letterSpacing: "0.06em",
           fontWeight: 500,
@@ -49,7 +50,7 @@ function MobileStatPill({
       </span>
       <span
         style={{
-          fontFamily: "var(--font-mono)",
+          fontFamily: font.mono,
           fontSize: 13,
           fontWeight: 700,
           color,
@@ -61,31 +62,8 @@ function MobileStatPill({
   );
 }
 
-const POS_STYLE: Record<string, { bg: string; color: string }> = {
-  WR: { bg: "rgba(245,166,35,0.15)", color: "#FFBF4D" },
-  RB: { bg: "rgba(45,212,160,0.15)", color: "#5EEBC0" },
-  QB: { bg: "rgba(62,142,247,0.15)", color: "#7AB0F9" },
-  TE: { bg: "rgba(167,139,250,0.15)", color: "#B398FC" },
-};
-
 export function PosBadge({ pos }: { pos: string }) {
-  const s = POS_STYLE[pos] ?? { bg: "rgba(138,154,192,0.15)", color: "#8A9AC0" };
-  return (
-    <span
-      style={{
-        background: s.bg,
-        color: s.color,
-        borderRadius: 4,
-        padding: "2px 7px",
-        fontSize: 11,
-        fontWeight: 600,
-        fontFamily: "var(--font-mono)",
-        whiteSpace: "nowrap",
-      }}
-    >
-      {pos}
-    </span>
-  );
+  return <UIPosBadge pos={pos} color={posColor[pos] ?? ink.secondary} />;
 }
 
 function ResultCell({ prospect: p }: { prospect: Prospect }) {
@@ -97,38 +75,38 @@ function ResultCell({ prospect: p }: { prospect: Prospect }) {
     return (
       <span
         style={{
-          fontFamily: "var(--font-mono)",
+          fontFamily: font.mono,
           fontSize: 13,
           fontWeight: 600,
-          color: displayPpg >= p.exp_ppg ? "#2DD4A0" : "#F75757",
+          color: displayPpg >= p.exp_ppg ? "#2DC98F" : "#E5484D",
         }}
       >
         {displayPpg.toFixed(1)}
       </span>
     );
   }
-  return <span style={{ color: "#4A5578" }}>—</span>;
+  return <span style={{ color: ink.faint }}>—</span>;
 }
 
 export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allClasses }: Props) {
-  const sc = p.prospect_score != null ? scoreColor(p.prospect_score) : "#4A5578";
-  const expandedBg = "rgba(62,142,247,0.05)";
+  const sc = p.prospect_score != null ? qualityColor(p.prospect_score) : ink.faint;
+  const expandedBg = surface.selected;
   const normalBg = "transparent";
 
   const tdBase: React.CSSProperties = {
     padding: "0 12px",
     height: 44,
-    borderBottom: expanded ? "none" : "1px solid rgba(255,255,255,0.05)",
+    borderBottom: expanded ? "none" : `1px solid ${line.hairline}`,
     transition: "background 0.15s",
   };
 
   // Map prospect_score → color for the mobile score pill.
-  const mobileScoreColor = p.prospect_score != null ? sc : "#4A5578";
+  const mobileScoreColor = p.prospect_score != null ? sc : ink.faint;
 
   function onEnter(e: React.MouseEvent<HTMLTableRowElement>) {
     if (!expanded) {
       Array.from(e.currentTarget.cells).forEach(
-        (c) => ((c as HTMLTableCellElement).style.background = "rgba(255,255,255,0.025)")
+        (c) => ((c as HTMLTableCellElement).style.background = surface.hover)
       );
     }
   }
@@ -154,7 +132,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
           ...tdBase,
           height: "auto",
           padding: "8px 10px 8px 12px",
-          borderLeft: expanded ? "2px solid #3E8EF7" : "2px solid transparent",
+          borderLeft: expanded ? "2px solid #4C93F0" : "2px solid transparent",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
@@ -165,10 +143,10 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
             <div style={{ display: "flex", alignItems: "center", gap: 7, flexWrap: "wrap" }}>
               <span
                 style={{
-                  fontFamily: "var(--font-display)",
+                  fontFamily: font.display,
                   fontSize: 14,
                   fontWeight: 600,
-                  color: "#F0F4FF",
+                  color: ink.primary,
                   whiteSpace: "nowrap",
                 }}
               >
@@ -180,7 +158,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
                   className="hidden sm:inline"
                   style={{
                     background: "rgba(255,255,255,0.06)",
-                    color: "#8A9AC0",
+                    color: ink.secondary,
                     borderRadius: 3,
                     padding: "1px 6px",
                     fontSize: 10,
@@ -192,7 +170,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
                 </span>
               )}
             </div>
-            <div style={{ fontSize: 11, color: "#4A5578", marginTop: 1 }}>
+            <div style={{ fontSize: 11, color: ink.faint, marginTop: 1 }}>
               <span style={{ whiteSpace: "nowrap" }}>{p.college}</span>
               {p.tier && (
                 <span
@@ -200,17 +178,17 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
                     marginLeft: 6,
                     color:
                       p.tier === "P4"
-                        ? "#3E8EF7"
+                        ? tierColor.P4
                         : p.tier === "G5"
-                        ? "#A78BFA"
-                        : "#4A5578",
+                        ? tierColor.G5
+                        : ink.faint,
                   }}
                 >
                   {p.tier}
                 </span>
               )}
               {/* Mobile: show position + pick + year inline since those columns are hidden */}
-              <span className="sm:hidden" style={{ marginLeft: 6, color: "#4A5578" }}>
+              <span className="sm:hidden" style={{ marginLeft: 6, color: ink.faint }}>
                 · {p.position} · Rd {p.round} #{p.pick}
                 {allClasses && ` · ${p.draft_year}`}
               </span>
@@ -249,8 +227,8 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
                 <MobileStatPill
                   label="VALUE"
                   value={String(p.value_score)}
-                  color={scoreColor(p.value_score)}
-                  bg={`${scoreColor(p.value_score)}22`}
+                  color={qualityColor(p.value_score)}
+                  bg={`${qualityColor(p.value_score)}22`}
                 />
               )}
               {p.prospect_score != null && (
@@ -264,7 +242,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
               <MobileStatPill
                 label="PPG"
                 value={p.exp_ppg.toFixed(1)}
-                color="#2DD4A0"
+                color="#2DC98F"
               />
               {p.actual_ppg != null &&
                 (() => {
@@ -274,7 +252,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
                     <MobileStatPill
                       label="REAL"
                       value={display.toFixed(1)}
-                      color={beat ? "#2DD4A0" : "#F75757"}
+                      color={beat ? "#2DC98F" : "#E5484D"}
                     />
                   );
                 })()}
@@ -282,35 +260,35 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
                 <MobileStatPill
                   label="HIT"
                   value={`${Math.round(p.p_made_it * 100)}%`}
-                  color="#8A9AC0"
+                  color={ink.secondary}
                 />
               )}
               {p.comp_weighted_ppg != null && (
                 <MobileStatPill
                   label="COMP"
                   value={p.comp_weighted_ppg.toFixed(1)}
-                  color="#A78BFA"
+                  color={tierColor.G5}
                 />
               )}
               {p.comp_bust_rate != null && (
                 <MobileStatPill
                   label="BUST"
                   value={`${Math.round(p.comp_bust_rate * 100)}%`}
-                  color={p.comp_bust_rate === 0 ? "#2DD4A0" : "#F5A623"}
+                  color={p.comp_bust_rate === 0 ? "#2DC98F" : "#EFA030"}
                 />
               )}
               {p.round != null && p.pick != null && (
                 <MobileStatPill
                   label="PICK"
                   value={`${p.round}.${p.pick}`}
-                  color="#8A9AC0"
+                  color={ink.secondary}
                 />
               )}
             </div>
             {/* Chevron — communicates that the row is interactive */}
             <span
               style={{
-                color: expanded ? "#3E8EF7" : "#4A5578",
+                color: expanded ? "#4C93F0" : ink.faint,
                 fontSize: 14,
                 marginLeft: 2,
                 transition: "transform 0.2s",
@@ -329,7 +307,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
 
       {/* Pick */}
       <td className="hidden sm:table-cell" style={tdBase}>
-        <span style={{ fontFamily: "var(--font-mono)", fontSize: 12, color: "#8A9AC0" }}>
+        <span style={{ fontFamily: font.mono, fontSize: 12, color: ink.secondary }}>
           Rd {p.round} #{p.pick}
         </span>
       </td>
@@ -337,7 +315,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
       {/* Year — all-classes only */}
       {allClasses && (
         <td className="hidden sm:table-cell" style={tdBase}>
-          <span style={{ fontFamily: "var(--font-mono)", fontSize: 12, color: "#8A9AC0" }}>
+          <span style={{ fontFamily: font.mono, fontSize: 12, color: ink.secondary }}>
             {p.draft_year}
           </span>
         </td>
@@ -348,56 +326,24 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
         <PosBadge pos={p.position} />
       </td>
 
-      {/* Score */}
+      {/* Pos Score */}
       <td className="hidden sm:table-cell" style={tdBase}>
-        {p.prospect_score != null ? (
-          <span
-            style={{
-              background: `${sc}22`,
-              color: sc,
-              borderRadius: 4,
-              padding: "2px 10px",
-              fontSize: 13,
-              fontWeight: 700,
-              fontFamily: "var(--font-mono)",
-            }}
-          >
-            {p.prospect_score}
-          </span>
-        ) : (
-          <span style={{ color: "#4A5578" }}>—</span>
-        )}
+        <ScoreBadge value={p.prospect_score} />
       </td>
 
       {/* Value (cross-position) */}
       <td className="hidden sm:table-cell" style={tdBase}>
-        {p.value_score != null ? (
-          <span
-            style={{
-              background: `${scoreColor(p.value_score)}22`,
-              color: scoreColor(p.value_score),
-              borderRadius: 4,
-              padding: "2px 10px",
-              fontSize: 13,
-              fontWeight: 700,
-              fontFamily: "var(--font-mono)",
-            }}
-          >
-            {p.value_score}
-          </span>
-        ) : (
-          <span style={{ color: "#4A5578" }}>—</span>
-        )}
+        <ScoreBadge value={p.value_score} />
       </td>
 
       {/* Adj PPG */}
       <td className="hidden sm:table-cell" style={tdBase}>
         <span
           style={{
-            fontFamily: "var(--font-mono)",
+            fontFamily: font.mono,
             fontSize: 14,
             fontWeight: 600,
-            color: "#2DD4A0",
+            color: "#2DC98F",
           }}
         >
           {p.exp_ppg.toFixed(1)}
@@ -406,7 +352,7 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
 
       {/* Comp PPG */}
       <td className="hidden sm:table-cell" style={tdBase}>
-        <span style={{ fontFamily: "var(--font-mono)", fontSize: 13, color: "#8A9AC0" }}>
+        <span style={{ fontFamily: font.mono, fontSize: 13, color: ink.secondary }}>
           {p.comp_weighted_ppg != null ? p.comp_weighted_ppg.toFixed(1) : "—"}
         </span>
       </td>
@@ -422,10 +368,10 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
               return (
                 <span
                   style={{
-                    fontFamily: "var(--font-mono)",
+                    fontFamily: font.mono,
                     fontSize: 13,
                     fontWeight: 600,
-                    color: display >= p.exp_ppg ? "#2DD4A0" : "#F75757",
+                    color: display >= p.exp_ppg ? "#2DC98F" : "#E5484D",
                   }}
                 >
                   {display.toFixed(1)}
@@ -433,14 +379,14 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
               );
             })()
           ) : (
-            <span style={{ color: "#4A5578" }}>—</span>
+            <span style={{ color: ink.faint }}>—</span>
           )
         ) : (
           <span
             style={{
-              fontFamily: "var(--font-mono)",
+              fontFamily: font.mono,
               fontSize: 13,
-              color: p.comp_bust_rate === 0 ? "#2DD4A0" : "#8A9AC0",
+              color: p.comp_bust_rate === 0 ? "#2DC98F" : ink.secondary,
             }}
           >
             {p.comp_bust_rate != null ? `${(p.comp_bust_rate * 100).toFixed(0)}%` : "—"}
