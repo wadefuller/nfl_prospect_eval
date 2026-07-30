@@ -96,7 +96,7 @@ export function ProspectTable({
   allClasses,
 }: Props) {
   const hasActuals = !allClasses && prospects.some((p) => p.actual_ppg != null);
-  const colCount = allClasses ? 8 : 7;
+  const colCount = allClasses ? 9 : 8;
 
   // When a row is expanded on mobile, scroll the detail panel into view so the
   // model's predictions appear in the viewport instead of below the fold.
@@ -127,7 +127,8 @@ export function ProspectTable({
   // resets to a sensible default via App's handleSort).
   const mobileSortChips: { label: string; field: SortField; show: boolean }[] = (
     [
-      { label: "Score", field: "prospect_score", show: true },
+      { label: "Value", field: "value_score", show: true },
+      { label: "Pos Score", field: "prospect_score", show: true },
       { label: "PPG", field: "exp_ppg", show: true },
       { label: "Hit %", field: "p_made_it", show: true },
       { label: "Comp", field: "comp_weighted_ppg", show: true },
@@ -255,8 +256,16 @@ export function ProspectTable({
             )}
             <StaticTh label="Pos" className="hidden sm:table-cell" />
             <SortTh
-              label="Score"
+              label="Pos Score"
               field="prospect_score"
+              currentField={sortField}
+              currentDir={sortDir}
+              onSort={onSort}
+              className="hidden sm:table-cell"
+            />
+            <SortTh
+              label="Value"
+              field="value_score"
               currentField={sortField}
               currentDir={sortDir}
               onSort={onSort}

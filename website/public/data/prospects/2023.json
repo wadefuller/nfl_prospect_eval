@@ -31,6 +31,7 @@
       "exp_ppg_bucket_hi": 13.2217,
       "bucket_top1": "flex",
       "prospect_score": 89,
+      "value_score": 98,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -192,6 +193,7 @@
       "exp_ppg_bucket_hi": 13.3538,
       "bucket_top1": "flex",
       "prospect_score": 87,
+      "value_score": 98,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -353,6 +355,7 @@
       "exp_ppg_bucket_hi": 13.5468,
       "bucket_top1": "flex",
       "prospect_score": 92,
+      "value_score": 99,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -514,6 +517,7 @@
       "exp_ppg_bucket_hi": 12.6958,
       "bucket_top1": "league_winner",
       "prospect_score": 97,
+      "value_score": 95,
       "archetype": "All-Purpose Back",
       "blurb": "Bullish: Top-15 pick (Rd 1, #8); Strong 1394-yard rushing season; 314 receiving yards show versatility Bearish: Only 85% model hit probability",
       "bullish": [
@@ -681,6 +685,7 @@
       "exp_ppg_bucket_hi": 12.5851,
       "bucket_top1": "league_winner",
       "prospect_score": 93,
+      "value_score": 92,
       "archetype": "Speed Back",
       "blurb": "Bullish: Top-15 pick (Rd 1, #12); Proven pass-catching ability; Elite speed (4.36s forty) Bearish: Only 84% model hit probability",
       "bullish": [
@@ -848,6 +853,7 @@
       "exp_ppg_bucket_hi": 9.6136,
       "bucket_top1": "league_winner",
       "prospect_score": 96,
+      "value_score": 93,
       "archetype": "High-Volume WR",
       "blurb": "Bullish: First-round capital (Rd 1, #20); Elite 1259-yard college season; 5-star recruit pedigree Bearish: Only 84% model hit probability",
       "bullish": [
@@ -1015,6 +1021,7 @@
       "exp_ppg_bucket_hi": 7.5617,
       "bucket_top1": "elite",
       "prospect_score": 82,
+      "value_score": 81,
       "archetype": "Big-Play WR",
       "blurb": "Bullish: First-round capital (Rd 1, #21); Strong 903-yard college season; Explosive 17.8 yards per reception Bearish: 43% of comps busted",
       "bullish": [
@@ -1182,6 +1189,7 @@
       "exp_ppg_bucket_hi": 7.1892,
       "bucket_top1": "flex",
       "prospect_score": 88,
+      "value_score": 87,
       "archetype": "Slot WR",
       "blurb": "Bullish: First-round capital (Rd 1, #22); Strong 953-yard college season; Elite touchdown rate in college",
       "bullish": [
@@ -1347,6 +1355,7 @@
       "exp_ppg_bucket_hi": 9.2488,
       "bucket_top1": "elite",
       "prospect_score": 96,
+      "value_score": 92,
       "archetype": "Slot WR",
       "blurb": "Bullish: First-round capital (Rd 1, #23); Elite 1435-yard college season; 4-star recruit pedigree",
       "bullish": [
@@ -1512,6 +1521,7 @@
       "exp_ppg_bucket_hi": 6.5747,
       "bucket_top1": "elite",
       "prospect_score": 91,
+      "value_score": 71,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -1673,6 +1683,7 @@
       "exp_ppg_bucket_hi": 12.0326,
       "bucket_top1": "flex",
       "prospect_score": 78,
+      "value_score": 97,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -1834,6 +1845,7 @@
       "exp_ppg_bucket_hi": 6.928,
       "bucket_top1": "league_winner",
       "prospect_score": 92,
+      "value_score": 73,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -1995,6 +2007,7 @@
       "exp_ppg_bucket_hi": 5.7534,
       "bucket_top1": "elite",
       "prospect_score": 92,
+      "value_score": 75,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -2156,6 +2169,7 @@
       "exp_ppg_bucket_hi": 5.726,
       "bucket_top1": "flex",
       "prospect_score": 73,
+      "value_score": 73,
       "archetype": "Contested Catch",
       "blurb": "Bullish: 4-star recruit pedigree Bearish: Only 83% model hit probability",
       "bullish": [
@@ -2321,6 +2335,7 @@
       "exp_ppg_bucket_hi": 4.9292,
       "bucket_top1": "flex",
       "prospect_score": 81,
+      "value_score": 66,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -2482,6 +2497,7 @@
       "exp_ppg_bucket_hi": 6.5495,
       "bucket_top1": "flex",
       "prospect_score": 74,
+      "value_score": 76,
       "archetype": "Big-Play WR",
       "blurb": "Bullish: Strong 914-yard college season; Explosive 17.4 yards per reception; Elite touchdown rate in college Bearish: 43% of comps busted; Comps averaged only 4.5 PPG",
       "bullish": [
@@ -2650,6 +2666,7 @@
       "exp_ppg_bucket_hi": 10.0002,
       "bucket_top1": "flex",
       "prospect_score": 92,
+      "value_score": 93,
       "archetype": "All-Purpose Back",
       "blurb": "Bullish: Strong 1368-yard rushing season; Explosive 7.0 YPC; 321 receiving yards show versatility Bearish: Only 84% model hit probability",
       "bullish": [
@@ -2817,6 +2834,7 @@
       "exp_ppg_bucket_hi": 6.5591,
       "bucket_top1": "flex",
       "prospect_score": 82,
+      "value_score": 86,
       "archetype": "Route Runner",
       "blurb": "Bullish: Elite 1242-yard college season Bearish: Comps averaged only 6.5 PPG",
       "bullish": [
@@ -2982,6 +3000,7 @@
       "exp_ppg_bucket_hi": 4.5005,
       "bucket_top1": "flex",
       "prospect_score": 68,
+      "value_score": 50,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -3143,6 +3162,7 @@
       "exp_ppg_bucket_hi": 5.5015,
       "bucket_top1": "elite",
       "prospect_score": 63,
+      "value_score": 40,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -3304,6 +3324,7 @@
       "exp_ppg_bucket_hi": 6.5569,
       "bucket_top1": "flex",
       "prospect_score": 74,
+      "value_score": 76,
       "archetype": "Deep Threat",
       "blurb": "Bullish: Explosive 20.1 yards per reception; Elite speed (4.38s forty); 4-star recruit pedigree Bearish: Late draft capital limits upside ceiling; 43% of comps busted",
       "bullish": [
@@ -3472,6 +3493,7 @@
       "exp_ppg_bucket_hi": 8.6382,
       "bucket_top1": "bust",
       "prospect_score": 70,
+      "value_score": 93,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -3633,6 +3655,7 @@
       "exp_ppg_bucket_hi": 7.5365,
       "bucket_top1": "elite",
       "prospect_score": 85,
+      "value_score": 81,
       "archetype": "Route Runner",
       "blurb": "Bullish: Elite 1345-yard college season; Elite touchdown rate in college Bearish: Late draft capital limits upside ceiling; 43% of comps busted",
       "bullish": [
@@ -3800,6 +3823,7 @@
       "exp_ppg_bucket_hi": 7.3106,
       "bucket_top1": "flex",
       "prospect_score": 75,
+      "value_score": 56,
       "archetype": "Workhorse",
       "blurb": "Bullish: Strong 1347-yard rushing season; Zero busts among comps Bearish: Only 82% model hit probability",
       "bullish": [
@@ -3966,6 +3990,7 @@
       "exp_ppg_bucket_hi": 6.4328,
       "bucket_top1": "flex",
       "prospect_score": 66,
+      "value_score": 70,
       "archetype": "Deep Threat",
       "blurb": "Bullish: Elite 1267-yard college season; Explosive 18.9 yards per reception; Elite touchdown rate in college Bearish: Late draft capital limits upside ceiling; 57% of comps busted; Comps averaged only 4.4 PPG",
       "bullish": [
@@ -4135,6 +4160,7 @@
       "exp_ppg_bucket_hi": 5.9797,
       "bucket_top1": "flex",
       "prospect_score": 70,
+      "value_score": 79,
       "archetype": "Big-Play WR",
       "blurb": "Bullish: Strong 931-yard college season; Elite touchdown rate in college; Imposing 75\" frame Bearish: Late draft capital limits upside ceiling",
       "bullish": [
@@ -4302,6 +4328,7 @@
       "exp_ppg_bucket_hi": 5.5415,
       "bucket_top1": "flex",
       "prospect_score": 66,
+      "value_score": 46,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -4463,6 +4490,7 @@
       "exp_ppg_bucket_hi": 7.3196,
       "bucket_top1": "elite",
       "prospect_score": 85,
+      "value_score": 87,
       "archetype": "Slot WR",
       "blurb": "Bullish: Elite 1273-yard college season; Zero busts among comps Bearish: Late draft capital limits upside ceiling",
       "bullish": [
@@ -4629,6 +4657,7 @@
       "exp_ppg_bucket_hi": 7.8995,
       "bucket_top1": "flex",
       "prospect_score": 74,
+      "value_score": 77,
       "archetype": "All-Purpose Back",
       "blurb": "Bullish: Strong 1292-yard rushing season; Explosive 6.9 YPC Bearish: Late draft capital limits opportunity; G5 competition level",
       "bullish": [
@@ -4796,6 +4825,7 @@
       "exp_ppg_bucket_hi": 9.39,
       "bucket_top1": "league_winner",
       "prospect_score": 78,
+      "value_score": 54,
       "archetype": "Speed Back",
       "blurb": "Bullish: Strong 1102-yard rushing season; Elite speed (4.32s forty); 4-star recruit pedigree Bearish: Late draft capital limits opportunity",
       "bullish": [
@@ -4963,6 +4993,7 @@
       "exp_ppg_bucket_hi": 7.8385,
       "bucket_top1": "flex",
       "prospect_score": 75,
+      "value_score": 85,
       "archetype": "Workhorse",
       "blurb": "Bullish: Strong 1046-yard rushing season; 4-star recruit pedigree; Zero busts among comps Bearish: Late draft capital limits opportunity; Below-average 4.9 YPC",
       "bullish": [
@@ -5131,6 +5162,7 @@
       "exp_ppg_bucket_hi": 4.2061,
       "bucket_top1": "flex",
       "prospect_score": 60,
+      "value_score": 51,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -5292,6 +5324,7 @@
       "exp_ppg_bucket_hi": 6.1123,
       "bucket_top1": "flex",
       "prospect_score": 70,
+      "value_score": 57,
       "archetype": "Contested Catch",
       "blurb": "Bullish: Elite touchdown rate in college; 4-star recruit pedigree Bearish: Late draft capital limits upside ceiling; Modest college production (418 rec yards); Concerning 4.58s forty",
       "bullish": [
@@ -5460,6 +5493,7 @@
       "exp_ppg_bucket_hi": 5.1982,
       "bucket_top1": "flex",
       "prospect_score": 47,
+      "value_score": 56,
       "archetype": "Speed WR",
       "blurb": "Bullish: 83% model hit probability Bearish: Late draft capital limits upside ceiling; Modest college production (569 rec yards); 57% of comps busted",
       "bullish": [
@@ -5627,6 +5661,7 @@
       "exp_ppg_bucket_hi": 3.9574,
       "bucket_top1": "bench",
       "prospect_score": 60,
+      "value_score": 46,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -5788,6 +5823,7 @@
       "exp_ppg_bucket_hi": 7.2344,
       "bucket_top1": "flex",
       "prospect_score": 57,
+      "value_score": 33,
       "archetype": "All-Purpose Back",
       "blurb": "Bullish: 4-star recruit pedigree Bearish: Late draft capital limits opportunity; Limited college rushing production (475 yards); Slow 4.58s forty",
       "bullish": [
@@ -5955,6 +5991,7 @@
       "exp_ppg_bucket_hi": 4.2232,
       "bucket_top1": "bench",
       "prospect_score": 43,
+      "value_score": 49,
       "archetype": "Speed WR",
       "blurb": "Bullish: Elite speed (4.36s forty) Bearish: Late draft capital limits upside ceiling; Modest college production (485 rec yards); Only 80% model hit probability",
       "bullish": [
@@ -6122,6 +6159,7 @@
       "exp_ppg_bucket_hi": 7.3027,
       "bucket_top1": "bust",
       "prospect_score": 50,
+      "value_score": 62,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -6283,6 +6321,7 @@
       "exp_ppg_bucket_hi": 4.6983,
       "bucket_top1": "bust",
       "prospect_score": 38,
+      "value_score": 31,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -6444,6 +6483,7 @@
       "exp_ppg_bucket_hi": 4.2533,
       "bucket_top1": "bench",
       "prospect_score": 36,
+      "value_score": 36,
       "archetype": "Slot WR",
       "blurb": "Bullish: Strong 1152-yard college season Bearish: Late draft capital limits upside ceiling; 71% of comps busted; Comps averaged only 4.4 PPG",
       "bullish": [
@@ -6611,6 +6651,7 @@
       "exp_ppg_bucket_hi": 5.1002,
       "bucket_top1": "flex",
       "prospect_score": 50,
+      "value_score": 40,
       "archetype": "Big-Play WR",
       "blurb": "Bullish: Elite touchdown rate in college Bearish: Late draft capital limits upside ceiling; 43% of comps busted; Comps averaged only 3.9 PPG",
       "bullish": [
@@ -6778,6 +6819,7 @@
       "exp_ppg_bucket_hi": 7.4624,
       "bucket_top1": "bust",
       "prospect_score": 38,
+      "value_score": 47,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -6939,6 +6981,7 @@
       "exp_ppg_bucket_hi": 8.9892,
       "bucket_top1": "bust",
       "prospect_score": 55,
+      "value_score": 53,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -7100,6 +7143,7 @@
       "exp_ppg_bucket_hi": 6.8037,
       "bucket_top1": "bust",
       "prospect_score": 46,
+      "value_score": 45,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -7261,6 +7305,7 @@
       "exp_ppg_bucket_hi": 6.8971,
       "bucket_top1": "flex",
       "prospect_score": 54,
+      "value_score": 79,
       "archetype": "Workhorse",
       "blurb": "Bullish: Dominant 1407-yard rushing season Bearish: Late draft capital limits opportunity",
       "bullish": [
@@ -7426,6 +7471,7 @@
       "exp_ppg_bucket_hi": 4.0785,
       "bucket_top1": "flex",
       "prospect_score": 39,
+      "value_score": 32,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -7587,6 +7633,7 @@
       "exp_ppg_bucket_hi": 1.8011,
       "bucket_top1": "bust",
       "prospect_score": 5,
+      "value_score": 5,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -7748,6 +7795,7 @@
       "exp_ppg_bucket_hi": 1.399,
       "bucket_top1": "bust",
       "prospect_score": 21,
+      "value_score": 4,
       "archetype": "Contested Catch",
       "blurb": "Bullish: Explosive 19.9 yards per reception; Imposing 76\" frame; 5-star recruit pedigree Bearish: Late draft capital limits upside ceiling; Modest college production (577 rec yards); Only 72% model hit probability",
       "bullish": [
@@ -7917,6 +7965,7 @@
       "exp_ppg_bucket_hi": 5.2864,
       "bucket_top1": "flex",
       "prospect_score": 49,
+      "value_score": 52,
       "archetype": "High-Volume WR",
       "blurb": "Bullish: Strong 1162-yard college season; Explosive 21.1 yards per reception; Elite touchdown rate in college Bearish: Late draft capital limits upside ceiling; Concerning 4.62s forty; 57% of comps busted",
       "bullish": [
@@ -8086,6 +8135,7 @@
       "exp_ppg_bucket_hi": 3.6666,
       "bucket_top1": "bench",
       "prospect_score": 43,
+      "value_score": 32,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -8247,6 +8297,7 @@
       "exp_ppg_bucket_hi": 7.2052,
       "bucket_top1": "flex",
       "prospect_score": 62,
+      "value_score": 56,
       "archetype": "All-Purpose Back",
       "blurb": "Bullish: Dominant 1534-yard rushing season Bearish: Late draft capital limits opportunity",
       "bullish": [
@@ -8412,6 +8463,7 @@
       "exp_ppg_bucket_hi": 2.0969,
       "bucket_top1": "bust",
       "prospect_score": 29,
+      "value_score": 37,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -8573,6 +8625,7 @@
       "exp_ppg_bucket_hi": 4.0417,
       "bucket_top1": "flex",
       "prospect_score": 33,
+      "value_score": 29,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -8734,6 +8787,7 @@
       "exp_ppg_bucket_hi": 5.5148,
       "bucket_top1": "bench",
       "prospect_score": 57,
+      "value_score": 44,
       "archetype": "All-Purpose Back",
       "blurb": "Bullish: Strong 1251-yard rushing season; 4-star recruit pedigree Bearish: Late draft capital limits opportunity; Only 79% model hit probability",
       "bullish": [
@@ -8901,6 +8955,7 @@
       "exp_ppg_bucket_hi": 3.8866,
       "bucket_top1": "flex",
       "prospect_score": 30,
+      "value_score": 33,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -9062,6 +9117,7 @@
       "exp_ppg_bucket_hi": 7.3885,
       "bucket_top1": "flex",
       "prospect_score": 58,
+      "value_score": 58,
       "archetype": "Three-Down Back",
       "blurb": "Bullish: Strong 1041-yard rushing season; Proven pass-catching ability Bearish: Late draft capital limits opportunity",
       "bullish": [
@@ -9228,6 +9284,7 @@
       "exp_ppg_bucket_hi": 4.8608,
       "bucket_top1": "flex",
       "prospect_score": 48,
+      "value_score": 25,
       "archetype": "Big-Play WR",
       "blurb": "Bullish: Explosive 18.7 yards per reception; 4-star recruit pedigree Bearish: Late draft capital limits upside ceiling; Only 78% model hit probability; 71% of comps busted",
       "bullish": [
@@ -9396,6 +9453,7 @@
       "exp_ppg_bucket_hi": 5.1234,
       "bucket_top1": "flex",
       "prospect_score": 43,
+      "value_score": 44,
       "archetype": "Developmental WR",
       "blurb": "Bullish: 4-star recruit pedigree Bearish: Late draft capital limits upside ceiling; Only 76% model hit probability; 86% of comps busted",
       "bullish": [
@@ -9563,6 +9621,7 @@
       "exp_ppg_bucket_hi": 4.9544,
       "bucket_top1": "flex",
       "prospect_score": 44,
+      "value_score": 50,
       "archetype": "Developmental WR",
       "blurb": "Bullish: 5-star recruit pedigree Bearish: Late draft capital limits upside ceiling; Modest college production (538 rec yards); Only 75% model hit probability",
       "bullish": [
@@ -9730,6 +9789,7 @@
       "exp_ppg_bucket_hi": 1.3684,
       "bucket_top1": "bust",
       "prospect_score": 2,
+      "value_score": 5,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -9891,6 +9951,7 @@
       "exp_ppg_bucket_hi": 4.44,
       "bucket_top1": "flex",
       "prospect_score": 37,
+      "value_score": 17,
       "archetype": "Speed WR",
       "blurb": "Bullish: Strong 1063-yard college season; Elite speed (4.33s forty); 4-star recruit pedigree Bearish: Late draft capital limits upside ceiling; Only 73% model hit probability; 71% of comps busted",
       "bullish": [
@@ -10060,6 +10121,7 @@
       "exp_ppg_bucket_hi": 3.7061,
       "bucket_top1": "bust",
       "prospect_score": 26,
+      "value_score": 3,
       "archetype": "Workhorse",
       "blurb": "Bullish: Strong 1257-yard rushing season Bearish: Late draft capital limits opportunity; Only 75% model hit probability; 43% of comps busted",
       "bullish": [
@@ -10227,6 +10289,7 @@
       "exp_ppg_bucket_hi": 4.3265,
       "bucket_top1": "flex",
       "prospect_score": 32,
+      "value_score": 27,
       "archetype": "Big-Play WR",
       "blurb": "Bullish: Strong 1085-yard college season; Explosive 18.2 yards per reception; Elite touchdown rate in college Bearish: Late draft capital limits upside ceiling; Only 75% model hit probability; 71% of comps busted",
       "bullish": [
@@ -10396,6 +10459,7 @@
       "exp_ppg_bucket_hi": 2.1005,
       "bucket_top1": "bust",
       "prospect_score": 26,
+      "value_score": 16,
       "archetype": "Contested Catch",
       "blurb": "Bullish: Imposing 75\" frame; 4-star recruit pedigree Bearish: Late draft capital limits upside ceiling; Low 11.9 YPR suggests limited big-play ability; Only 73% model hit probability",
       "bullish": [
@@ -10564,6 +10628,7 @@
       "exp_ppg_bucket_hi": 4.222,
       "bucket_top1": "bench",
       "prospect_score": 41,
+      "value_score": 34,
       "archetype": "Route Runner",
       "blurb": "Bullish: Strong 1100-yard college season Bearish: Late draft capital limits upside ceiling; Low 10.9 YPR suggests limited big-play ability; Only 73% model hit probability",
       "bullish": [
@@ -10731,6 +10796,7 @@
       "exp_ppg_bucket_hi": 4.6038,
       "bucket_top1": "flex",
       "prospect_score": 26,
+      "value_score": 22,
       "archetype": "Contested Catch",
       "blurb": "Bullish: Strong 856-yard college season; Rare size-speed combo (75\", 4.43s) Bearish: Late draft capital limits upside ceiling; Only 72% model hit probability; 86% of comps busted",
       "bullish": [
@@ -10899,6 +10965,7 @@
       "exp_ppg_bucket_hi": 5.3487,
       "bucket_top1": "flex",
       "prospect_score": 36,
+      "value_score": 41,
       "archetype": "Slot WR",
       "blurb": "Bullish: Strong 990-yard college season Bearish: Late draft capital limits upside ceiling; Only 76% model hit probability; 86% of comps busted",
       "bullish": [
@@ -11066,6 +11133,7 @@
       "exp_ppg_bucket_hi": 6.47,
       "bucket_top1": "flex",
       "prospect_score": 38,
+      "value_score": 21,
       "archetype": "All-Purpose Back",
       "blurb": "Bullish: Dominant 1449-yard rushing season; 378 receiving yards show versatility Bearish: Late draft capital limits opportunity; Only 72% model hit probability; 43% of comps busted",
       "bullish": [
@@ -11234,6 +11302,7 @@
       "exp_ppg_bucket_hi": 2.8045,
       "bucket_top1": "bust",
       "prospect_score": 18,
+      "value_score": 7,
       "archetype": "Workhorse",
       "blurb": "Bullish: Explosive 6.5 YPC; 5-star recruit pedigree Bearish: Late draft capital limits opportunity; Only 70% model hit probability; 57% of comps busted",
       "bullish": [
@@ -11402,6 +11471,7 @@
       "exp_ppg_bucket_hi": 2.4048,
       "bucket_top1": "bust",
       "prospect_score": 16,
+      "value_score": 10,
       "archetype": "Big-Play WR",
       "blurb": "Bullish: Explosive 18.6 yards per reception; Elite touchdown rate in college; 4-star recruit pedigree Bearish: Late draft capital limits upside ceiling; Only 68% model hit probability; 100% of comps busted",
       "bullish": [
@@ -11571,6 +11641,7 @@
       "exp_ppg_bucket_hi": 1.6739,
       "bucket_top1": "bust",
       "prospect_score": 16,
+      "value_score": 11,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -11732,6 +11803,7 @@
       "exp_ppg_bucket_hi": 1.782,
       "bucket_top1": "bust",
       "prospect_score": 11,
+      "value_score": 5,
       "archetype": "Big-Play Back",
       "blurb": "Bullish: Dominant 1479-yard rushing season; Explosive 7.3 YPC Bearish: Late draft capital limits opportunity; Only 70% model hit probability; 71% of comps busted",
       "bullish": [
@@ -11900,6 +11972,7 @@
       "exp_ppg_bucket_hi": 1.8084,
       "bucket_top1": "bust",
       "prospect_score": 11,
+      "value_score": 10,
       "archetype": "Big-Play WR",
       "blurb": "Bullish: Strong 911-yard college season Bearish: Late draft capital limits upside ceiling; Only 69% model hit probability; 86% of comps busted",
       "bullish": [
@@ -12067,6 +12140,7 @@
       "exp_ppg_bucket_hi": 2.7306,
       "bucket_top1": "bust",
       "prospect_score": 15,
+      "value_score": 5,
       "archetype": "Workhorse",
       "blurb": "Bullish: Dominant 1670-yard rushing season Bearish: Late draft capital limits opportunity; G5 competition level; Only 70% model hit probability",
       "bullish": [
@@ -12234,6 +12308,7 @@
       "exp_ppg_bucket_hi": 6.3816,
       "bucket_top1": "bench",
       "prospect_score": 47,
+      "value_score": 20,
       "archetype": "Receiving Back",
       "blurb": "Bullish: Proven pass-catching ability; 4-star recruit pedigree Bearish: Late draft capital limits opportunity; Slow 4.62s forty; Only 72% model hit probability",
       "bullish": [
@@ -12402,6 +12477,7 @@
       "exp_ppg_bucket_hi": 2.741,
       "bucket_top1": "bust",
       "prospect_score": 28,
+      "value_score": 37,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -12563,6 +12639,7 @@
       "exp_ppg_bucket_hi": 3.7883,
       "bucket_top1": "flex",
       "prospect_score": 15,
+      "value_score": 17,
       "archetype": "Developmental WR",
       "blurb": "Bullish: Rd 7 pick Bearish: Late draft capital limits upside ceiling; Modest college production (504 rec yards); Concerning 4.69s forty",
       "bullish": [
@@ -12730,6 +12807,7 @@
       "exp_ppg_bucket_hi": 2.7767,
       "bucket_top1": "bench",
       "prospect_score": 18,
+      "value_score": 19,
       "archetype": null,
       "blurb": null,
       "bullish": null,
@@ -12891,6 +12969,7 @@
       "exp_ppg_bucket_hi": 3.0014,
       "bucket_top1": "bench",
       "prospect_score": 12,
+      "value_score": 8,
       "archetype": "Developmental WR",
       "blurb": "Bullish: Rd 7 pick Bearish: Late draft capital limits upside ceiling; Only 69% model hit probability; 100% of comps busted",
       "bullish": [
@@ -13058,6 +13137,7 @@
       "exp_ppg_bucket_hi": 2.7845,
       "bucket_top1": "bust",
       "prospect_score": 18,
+      "value_score": 2,
       "archetype": "Contested Catch",
       "blurb": "Bullish: Strong 860-yard college season Bearish: Late draft capital limits upside ceiling; G5 competition level; Only 64% model hit probability",
       "bullish": [

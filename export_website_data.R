@@ -376,6 +376,61 @@ if (any(qb_te_ix)) {
     select(-prospect_score_new)
 }
 
+# ── Cross-position value_score (VORP-anchored) ───────────────────────────────
+# prospect_score is a WITHIN-POSITION percentile, so it is not comparable
+# across positions: measured against resolved outcomes, a score of 90 meant
+# ~12.9 actual PPG for a QB but only ~6.0 for a TE (2.2x gap). The website's
+# "All positions" board sorts on a single column, so that gap is misleading.
+#
+# value_score puts every position on one scale in two steps:
+#   1. Calibrate exp_ppg -> expected ACTUAL ppg with a per-position linear map,
+#      fit only on fully-resolved classes (recent classes have censored
+#      careers and would drag the map down).
+#   2. Subtract a positional replacement level, then percentile-rank the
+#      resulting value-over-replacement across ALL positions and classes.
+#
+# Step 2 is what keeps an elite TE meaningful — without it, TEs (mean ~3.7
+# projected PPG vs ~6.4 for QB) could never rank well on raw production.
+#
+# Validated on resolved players: cross-position spread in the top score bucket
+# falls from sd 3.05 -> 1.85 PPG, class-to-class variation stays within
+# sampling noise, and within-position ordering vs actuals improves for
+# QB/TE/WR (RB slips ~0.06 Spearman).
+VALUE_REPLACEMENT_Q <- 0.35   # positional replacement level, calibrated-PPG scale
+RESOLVE_LAG_YEARS   <- 3      # a class needs this many years before it counts as resolved
+
+resolved_cutoff <- max(merged$draft_year, na.rm = TRUE) - RESOLVE_LAG_YEARS
+cal_fit <- merged |>
+  filter(!is.na(actual_ppg), !is.na(exp_ppg), draft_year <= resolved_cutoff) |>
+  group_by(position) |>
+  filter(n() >= 20) |>            # need enough resolved players to fit a map
+  summarise(
+    cal_a = coef(lm(actual_ppg ~ exp_ppg))[1],
+    cal_b = coef(lm(actual_ppg ~ exp_ppg))[2],
+    cal_n = n(),
+    .groups = "drop"
+  )
+
+message(sprintf("  value_score: calibrating on classes <= %d", resolved_cutoff))
+for (i in seq_len(nrow(cal_fit))) {
+  message(sprintf("    %s: actual = %.3f + %.3f * exp_ppg  (n=%d)",
+                  cal_fit$position[i], cal_fit$cal_a[i], cal_fit$cal_b[i], cal_fit$cal_n[i]))
+}
+
+merged <- merged |>
+  left_join(cal_fit, by = "position") |>
+  # Positions without a fitted map fall back to raw exp_ppg (identity).
+  mutate(cal_ppg = coalesce(cal_a, 0) + coalesce(cal_b, 1) * exp_ppg) |>
+  group_by(position) |>
+  mutate(repl_ppg = quantile(cal_ppg, VALUE_REPLACEMENT_Q, na.rm = TRUE)) |>
+  ungroup() |>
+  mutate(
+    vorp        = cal_ppg - repl_ppg,
+    value_score = if (all(is.na(vorp))) NA_integer_
+                  else as.integer(round(100 * ecdf(vorp)(vorp)))
+  ) |>
+  select(-cal_a, -cal_b, -cal_n, -cal_ppg, -repl_ppg, -vorp)
+
 # ── Compute percentile columns (by position, using training CDF) ─────────────
 # Adds one `<col>_pct` integer (0-100) per stat in wr_stat_cols / rb_stat_cols.
 # Percentile is NA when the raw stat is NA (e.g. pre-2010 CFB sparsity).
@@ -424,7 +479,7 @@ for (yr in unique(merged$draft_year)) {
                "p_bust_hi", "p_bench_hi", "p_flex_hi", "p_elite_hi", "p_league_winner_hi",
                "exp_ppg_bucket", "exp_ppg_bucket_lo", "exp_ppg_bucket_hi",
                "bucket_top1")),
-      prospect_score, archetype, blurb, bullish, bearish,
+      prospect_score, any_of("value_score"), archetype, blurb, bullish, bearish,
       headshot_url,
       height_in, weight, forty,
       # Full WR stat set + percentiles

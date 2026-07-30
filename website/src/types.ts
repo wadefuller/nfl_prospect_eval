@@ -38,6 +38,9 @@ export interface Prospect {
   exp_ppg_bucket_hi: number | null;
   bucket_top1: string | null;
   prospect_score: number | null;
+  /** Cross-position VORP-anchored score (0-100). Comparable across positions,
+   *  unlike prospect_score which is a within-position percentile. */
+  value_score: number | null;
   archetype: string | null;
   blurb: string | null;
   bullish: string[] | null;
@@ -201,7 +204,7 @@ export interface Meta {
   totalProspects: number;
 }
 
-export type SortField = "pick" | "exp_ppg" | "ppg_if_hit" | "p_made_it" | "comp_weighted_ppg" | "actual_ppg" | "name" | "prospect_score" | "draft_year";
+export type SortField = "pick" | "exp_ppg" | "ppg_if_hit" | "p_made_it" | "comp_weighted_ppg" | "actual_ppg" | "name" | "prospect_score" | "value_score" | "draft_year";
 export type SortDir = "asc" | "desc";
 
 // Model performance types

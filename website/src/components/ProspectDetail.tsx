@@ -590,8 +590,20 @@ export function ProspectDetail({ prospect: p, comps }: Props) {
             >
               {p.prospect_score != null && (
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
-                  <div style={{ ...LABEL, marginBottom: 4 }}>Score</div>
+                  <div style={{ ...LABEL, marginBottom: 4 }}>{p.position} Score</div>
                   <CircleGauge score={p.prospect_score} />
+                  <div style={{ fontSize: 9, color: "#4A5578", textAlign: "center", maxWidth: 104, lineHeight: 1.3 }}>
+                    vs other {p.position}s
+                  </div>
+                </div>
+              )}
+              {p.value_score != null && (
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
+                  <div style={{ ...LABEL, marginBottom: 4 }}>Value</div>
+                  <CircleGauge score={p.value_score} />
+                  <div style={{ fontSize: 9, color: "#4A5578", textAlign: "center", maxWidth: 104, lineHeight: 1.3 }}>
+                    vs all positions
+                  </div>
                 </div>
               )}
               <div style={{ display: "flex", flexDirection: "column", gap: 10, flex: "1 1 140px", minWidth: 0 }}>

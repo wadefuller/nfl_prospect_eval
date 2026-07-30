@@ -245,9 +245,17 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
                 paddingRight: 4,
               }}
             >
+              {p.value_score != null && (
+                <MobileStatPill
+                  label="VALUE"
+                  value={String(p.value_score)}
+                  color={scoreColor(p.value_score)}
+                  bg={`${scoreColor(p.value_score)}22`}
+                />
+              )}
               {p.prospect_score != null && (
                 <MobileStatPill
-                  label="SCORE"
+                  label="POS"
                   value={String(p.prospect_score)}
                   color={mobileScoreColor}
                   bg={`${mobileScoreColor}22`}
@@ -355,6 +363,27 @@ export function ProspectRow({ prospect: p, expanded, onClick, hasActuals, allCla
             }}
           >
             {p.prospect_score}
+          </span>
+        ) : (
+          <span style={{ color: "#4A5578" }}>—</span>
+        )}
+      </td>
+
+      {/* Value (cross-position) */}
+      <td className="hidden sm:table-cell" style={tdBase}>
+        {p.value_score != null ? (
+          <span
+            style={{
+              background: `${scoreColor(p.value_score)}22`,
+              color: scoreColor(p.value_score),
+              borderRadius: 4,
+              padding: "2px 10px",
+              fontSize: 13,
+              fontWeight: 700,
+              fontFamily: "var(--font-mono)",
+            }}
+          >
+            {p.value_score}
           </span>
         ) : (
           <span style={{ color: "#4A5578" }}>—</span>
