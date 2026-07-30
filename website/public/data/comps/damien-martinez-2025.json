@@ -11,7 +11,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.498
+      "similarity": 0.498,
+      "reasons": ["Height", "Receiving share", "Speed score"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.493
+      "similarity": 0.493,
+      "reasons": ["Receiving share", "Speed score", "Dominator rate"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 7.3803,
       "rawPpg": 6.9154,
       "madeIt": true,
-      "similarity": 0.485
+      "similarity": 0.485,
+      "reasons": ["Age", "Yards / touch", "Scrimmage yards"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.483
+      "similarity": 0.483,
+      "reasons": ["Receiving share", "Speed score", "Broad jump"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 5.417,
       "rawPpg": 3.5286,
       "madeIt": true,
-      "similarity": 0.474
+      "similarity": 0.474,
+      "reasons": ["Age", "Scrimmage yards", "Dominator rate"]
     }
   ]
 }

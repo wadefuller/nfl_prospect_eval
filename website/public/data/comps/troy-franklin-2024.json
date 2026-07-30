@@ -11,7 +11,8 @@
       "ppg": 5.2803,
       "rawPpg": 5.1688,
       "madeIt": true,
-      "similarity": 0.438
+      "similarity": 0.438,
+      "reasons": ["Yards / reception", "TD rate", "Height"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.429
+      "similarity": 0.429,
+      "reasons": ["Dominator rate", "Yards / reception", "TD rate"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.422
+      "similarity": 0.422,
+      "reasons": ["Speed score", "Vertical", "Dominator rate"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 7.822,
       "rawPpg": 8.764,
       "madeIt": true,
-      "similarity": 0.394
+      "similarity": 0.394,
+      "reasons": ["Weight", "Rec TDs", "Dominator rate"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 7.5963,
       "rawPpg": 8.4579,
       "madeIt": true,
-      "similarity": 0.381
+      "similarity": 0.381,
+      "reasons": ["Height", "Receptions / game", "TD rate"]
     },
     {
       "rank": 6,
@@ -71,7 +76,8 @@
       "ppg": 5.7848,
       "rawPpg": 5.5464,
       "madeIt": true,
-      "similarity": 0.372
+      "similarity": 0.372,
+      "reasons": ["Recruiting", "Height", "Vertical"]
     },
     {
       "rank": 7,
@@ -83,7 +89,8 @@
       "ppg": 5.3252,
       "rawPpg": 4.5892,
       "madeIt": true,
-      "similarity": 0.372
+      "similarity": 0.372,
+      "reasons": ["Age", "Height", "Yards / reception"]
     }
   ]
 }

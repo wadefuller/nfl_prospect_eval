@@ -11,7 +11,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.464
+      "similarity": 0.464,
+      "reasons": ["INTs", "Completion %", "Pass yards / game"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.455
+      "similarity": 0.455,
+      "reasons": ["Completion %", "TD / INT ratio", "INTs"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.364
+      "similarity": 0.364,
+      "reasons": ["Completion %", "Team pass share", "INTs"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.354
+      "similarity": 0.354,
+      "reasons": ["Team pass share", "TD / INT ratio", "Pass yards / game"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.349
+      "similarity": 0.349,
+      "reasons": ["Pass yards / game", "TD / INT ratio", "Completion %"]
     }
   ]
 }

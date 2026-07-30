@@ -11,7 +11,8 @@
       "ppg": 11.3907,
       "rawPpg": 10.88,
       "madeIt": true,
-      "similarity": 0.442
+      "similarity": 0.442,
+      "reasons": ["Height", "Pass yards", "Weight"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.416
+      "similarity": 0.416,
+      "reasons": ["TD / INT ratio", "Completion %", "Rush yards"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.409
+      "similarity": 0.409,
+      "reasons": ["Rush yards", "40 time", "Completion %"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.394
+      "similarity": 0.394,
+      "reasons": ["Rush yards", "Yards / attempt", "Completion %"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 9.4772,
       "rawPpg": 3.5233,
       "madeIt": true,
-      "similarity": 0.388
+      "similarity": 0.388,
+      "reasons": ["TD / INT ratio", "Completion %", "Yards / attempt"]
     }
   ]
 }

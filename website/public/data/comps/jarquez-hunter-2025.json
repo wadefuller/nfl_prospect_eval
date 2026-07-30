@@ -11,7 +11,8 @@
       "ppg": 6.9161,
       "rawPpg": 6.0258,
       "madeIt": true,
-      "similarity": 0.576
+      "similarity": 0.576,
+      "reasons": ["Age", "Speed score", "Yards / carry"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 11.1435,
       "rawPpg": 13.2917,
       "madeIt": true,
-      "similarity": 0.518
+      "similarity": 0.518,
+      "reasons": ["40 time", "Rush TDs", "Rush yards"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 7.3136,
       "rawPpg": 7.0371,
       "madeIt": true,
-      "similarity": 0.514
+      "similarity": 0.514,
+      "reasons": ["Age", "Dominator rate", "40 time"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 6.8699,
       "rawPpg": 5.7769,
       "madeIt": true,
-      "similarity": 0.513
+      "similarity": 0.513,
+      "reasons": ["Age", "Rush TDs", "Speed score"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 7.9571,
       "rawPpg": 8.1683,
       "madeIt": true,
-      "similarity": 0.503
+      "similarity": 0.503,
+      "reasons": ["Age", "40 time", "Weight"]
     }
   ]
 }

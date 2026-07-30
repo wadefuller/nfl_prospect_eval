@@ -122,6 +122,41 @@ ERA_NORM_FEATURES <- c(
   "dominator_rate", "speed_score"
 )
 
+# ── Feature labels (UI-facing "why this comp popped" strings) ──────────────
+# Used by find_comps() to render the top 3 closest features between a
+# prospect and each returned comp. Human-readable; keep short so the UI
+# can show them as a comma-separated tail.
+
+FEATURE_LABELS <- c(
+  # Measurables (shared)
+  height_in = "Height", weight = "Weight", forty = "40 time",
+  vertical = "Vertical", broad_jump = "Broad jump",
+  # Context / profile (shared)
+  age = "Age", speed_score = "Speed score", recruit_rating = "Recruiting",
+  dominator_rate = "Dominator rate",
+  # WR production
+  rec_yards_final = "Rec yards", rec_final = "Receptions",
+  rec_td_final = "Rec TDs", ypr = "Yards / reception",
+  rec_td_rate = "TD rate", rec_yards_penult = "Prior-year yards",
+  rec_yds_yoy = "YoY growth", rec_yards_per_game = "Yards / game",
+  rec_per_game = "Receptions / game",
+  # RB production
+  rush_yards_final = "Rush yards", carries_final = "Carries",
+  rush_td_final = "Rush TDs", ypc = "Yards / carry",
+  rb_rec_yards = "Rec yards", recv_share = "Receiving share",
+  scrimmage_yards = "Scrimmage yards", yards_per_touch = "Yards / touch",
+  rush_yds_yoy = "YoY growth", rush_yards_per_game = "Yards / game",
+  carries_per_game = "Carries / game",
+  # QB production
+  pass_yds_final = "Pass yards", pass_td_final = "Pass TDs",
+  pass_int_final = "INTs", pass_ypa_final = "Yards / attempt",
+  pass_pct_final = "Completion %", pass_yds_per_game = "Pass yards / game",
+  pass_td_per_game = "Pass TDs / game", pass_td_int_ratio = "TD / INT ratio",
+  rush_yds_final = "Rush yards", qb_share_team = "Team pass share",
+  # TE production (shares WR names; distinct only for ypr_final)
+  ypr_final = "Yards / reception"
+)
+
 # ── 3. Era-normalize ────────────────────────────────────────────────────────
 # Z-score within draft_year so cross-era comparisons are meaningful.
 
@@ -301,7 +336,8 @@ scale_preserving_na <- function(df, scaling_params) {
 # comps contribute minimally.
 
 find_comps <- function(prospect_df, pool, dist_mat, n_comps = 5,
-                       pick_window = 40, bandwidth = 1.0) {
+                       pick_window = 40, bandwidth = 1.0,
+                       prospect_mat = NULL, pool_mat = NULL) {
   results <- vector("list", nrow(prospect_df))
 
   for (i in seq_len(nrow(prospect_df))) {
@@ -319,16 +355,37 @@ find_comps <- function(prospect_df, pool, dist_mat, n_comps = 5,
     top_local <- order(dists)[1:min(n_comps, length(dists))]
     top_idx <- in_window[top_local]
 
+    # "Why this comp popped" — smallest MAD-standardized feature differences
+    # between the prospect and each comp, mapped to UI labels via
+    # FEATURE_LABELS. Falls back to empty strings when matrices weren't
+    # supplied (backwards-compat).
+    top_reasons <- character(length(top_idx))
+    if (!is.null(prospect_mat) && !is.null(pool_mat)) {
+      p_row <- prospect_mat[i, ]
+      for (j in seq_along(top_idx)) {
+        c_row  <- pool_mat[top_idx[j], ]
+        diffs  <- abs(p_row - c_row)
+        ok     <- is.finite(diffs)
+        if (!any(ok)) next
+        ranked <- sort(diffs[ok])
+        top_features <- names(ranked)[seq_len(min(3, length(ranked)))]
+        labels <- FEATURE_LABELS[top_features]
+        labels <- labels[!is.na(labels) & nzchar(labels)]
+        top_reasons[j] <- paste(labels, collapse = ", ")
+      }
+    }
+
     comps <- pool[top_idx, ] |>
       mutate(
-        similarity = round(exp(-dists[top_local] / bandwidth), 3),
-        distance   = round(dists[top_local], 3),
-        comp_rank  = seq_along(top_idx)
+        similarity  = round(exp(-dists[top_local] / bandwidth), 3),
+        distance    = round(dists[top_local], 3),
+        comp_rank   = seq_along(top_idx),
+        top_reasons = top_reasons
       ) |>
       select(comp_rank, comp_name = pfr_player_name, comp_college = college,
              comp_year = draft_year, comp_round = round, comp_pick = pick,
              comp_ppg = ppg, comp_raw_ppg = avg_top2_ppg,
-             comp_made_it = made_it, similarity, distance)
+             comp_made_it = made_it, similarity, distance, top_reasons)
 
     prospect_info <- prospect_df[i, ]
     if ("pfr_player_name" %in% names(prospect_info) && !"name" %in% names(prospect_info)) {
@@ -562,7 +619,8 @@ run_comps <- function(model_data, feature_list, position_label, scores_df,
     }
 
     comps_in <- find_comps(prospect_split$in_train, pool, in_train_dist,
-                            n_comps, pick_window, bandwidth)
+                            n_comps, pick_window, bandwidth,
+                            prospect_mat = in_train_mat, pool_mat = pool_mat)
   } else {
     comps_in <- tibble()
   }
@@ -603,7 +661,8 @@ run_comps <- function(model_data, feature_list, position_label, scores_df,
                                             feature_list, cov_invs,
                                             cat_weights)
     comps_not <- find_comps(not_in, pool, not_in_dist, n_comps,
-                             pick_window, bandwidth)
+                             pick_window, bandwidth,
+                             prospect_mat = not_in_mat, pool_mat = pool_mat)
   } else {
     comps_not <- tibble()
   }

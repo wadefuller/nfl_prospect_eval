@@ -11,7 +11,8 @@
       "ppg": 4.1065,
       "rawPpg": 1.0875,
       "madeIt": false,
-      "similarity": 0.421
+      "similarity": 0.421,
+      "reasons": ["Age", "Yards / game", "Carries"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 6.9289,
       "rawPpg": 7.0983,
       "madeIt": true,
-      "similarity": 0.411
+      "similarity": 0.411,
+      "reasons": ["Dominator rate", "Rec yards", "Weight"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 7.7259,
       "rawPpg": 7.6937,
       "madeIt": true,
-      "similarity": 0.403
+      "similarity": 0.403,
+      "reasons": ["Weight", "Age", "Yards / game"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 9.2113,
       "rawPpg": 9.6372,
       "madeIt": true,
-      "similarity": 0.398
+      "similarity": 0.398,
+      "reasons": ["Age", "Yards / touch", "Yards / game"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 11.1435,
       "rawPpg": 13.2917,
       "madeIt": true,
-      "similarity": 0.387
+      "similarity": 0.387,
+      "reasons": ["Dominator rate", "Carries / game", "Yards / game"]
     }
   ]
 }

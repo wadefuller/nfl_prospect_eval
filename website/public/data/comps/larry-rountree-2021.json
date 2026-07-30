@@ -11,7 +11,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 1,
+      "reasons": ["40 time", "Rush yards", "Carries"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 1,
+      "reasons": ["Rush yards", "Carries", "Rush TDs"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 1,
+      "reasons": ["40 time", "Rush yards", "Carries"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 1,
+      "reasons": ["Rush yards", "Carries", "Rush TDs"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 1
+      "similarity": 1,
+      "reasons": ["Rush yards", "Carries", "Rush TDs"]
     }
   ]
 }

@@ -11,7 +11,8 @@
       "ppg": 6.3922,
       "rawPpg": 2.75,
       "madeIt": true,
-      "similarity": 0.346
+      "similarity": 0.346,
+      "reasons": ["Yards / carry", "Yards / game", "Weight"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 5.9103,
       "rawPpg": 0.9833,
       "madeIt": true,
-      "similarity": 0.324
+      "similarity": 0.324,
+      "reasons": ["Height", "Carries", "Vertical"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 5.3714,
       "rawPpg": 1.9,
       "madeIt": true,
-      "similarity": 0.254
+      "similarity": 0.254,
+      "reasons": ["Weight", "Yards / carry", "40 time"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 6.1143,
       "rawPpg": 4.5279,
       "madeIt": true,
-      "similarity": 0.215
+      "similarity": 0.215,
+      "reasons": ["Weight", "Yards / carry", "40 time"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 7.2612,
       "rawPpg": 6.1257,
       "madeIt": true,
-      "similarity": 0.212
+      "similarity": 0.212,
+      "reasons": ["Height", "Vertical", "Broad jump"]
     }
   ]
 }

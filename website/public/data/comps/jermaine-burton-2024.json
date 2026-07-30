@@ -11,7 +11,8 @@
       "ppg": 4.1621,
       "rawPpg": 3.1844,
       "madeIt": false,
-      "similarity": 0.58
+      "similarity": 0.58,
+      "reasons": ["Age", "Receptions", "Rec yards"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 6.3865,
       "rawPpg": 6.6462,
       "madeIt": true,
-      "similarity": 0.444
+      "similarity": 0.444,
+      "reasons": ["Dominator rate", "Broad jump", "Speed score"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 4.6711,
       "rawPpg": 3.1214,
       "madeIt": false,
-      "similarity": 0.443
+      "similarity": 0.443,
+      "reasons": ["Broad jump", "Yards / game", "Height"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 3.9047,
       "rawPpg": 1.1583,
       "madeIt": false,
-      "similarity": 0.439
+      "similarity": 0.439,
+      "reasons": ["Age", "Rec yards", "Recruiting"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 4.2238,
       "rawPpg": 2.7883,
       "madeIt": false,
-      "similarity": 0.433
+      "similarity": 0.433,
+      "reasons": ["Height", "40 time", "Rec TDs"]
     },
     {
       "rank": 6,
@@ -71,7 +76,8 @@
       "ppg": 5.0649,
       "rawPpg": 4.4485,
       "madeIt": true,
-      "similarity": 0.423
+      "similarity": 0.423,
+      "reasons": ["Age", "Rec TDs", "Prior-year yards"]
     },
     {
       "rank": 7,
@@ -83,7 +89,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.414
+      "similarity": 0.414,
+      "reasons": ["Age", "Prior-year yards", "Rec yards"]
     }
   ]
 }

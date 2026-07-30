@@ -523,6 +523,16 @@ for (i in seq_len(nrow(merged))) {
   prospect_comps <- comps |>
     filter(name == row$name, position == row$position, draft_year == row$draft_year) |>
     arrange(comp_rank) |>
+    mutate(
+      # Split "Foo, Bar, Baz" → c("Foo","Bar","Baz"). NULL when the column
+      # is missing (pre-add-reasons runs of 08).
+      reasons = if ("top_reasons" %in% names(comps)) {
+        purrr::map(top_reasons, function(s) {
+          if (is.null(s) || is.na(s) || !nzchar(s)) return(character(0))
+          str_split(s, ",\\s*")[[1]]
+        })
+      } else purrr::map(seq_len(n()), ~ character(0))
+    ) |>
     select(
       rank = comp_rank,
       name = comp_name,
@@ -533,7 +543,8 @@ for (i in seq_len(nrow(merged))) {
       ppg = comp_ppg,
       rawPpg = comp_raw_ppg,
       madeIt = comp_made_it,
-      similarity
+      similarity,
+      reasons
     ) |>
     mutate(
       across(where(is.numeric), ~ ifelse(is.nan(.x), NA, .x)),

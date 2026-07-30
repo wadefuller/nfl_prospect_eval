@@ -11,7 +11,8 @@
       "ppg": 11.4589,
       "rawPpg": 13.3094,
       "madeIt": true,
-      "similarity": 0.488
+      "similarity": 0.488,
+      "reasons": ["Age", "Receiving share", "Yards / carry"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 5.4795,
       "rawPpg": 0.2714,
       "madeIt": true,
-      "similarity": 0.385
+      "similarity": 0.385,
+      "reasons": ["Age", "Receiving share", "Rush TDs"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 12.2495,
       "rawPpg": 14.4221,
       "madeIt": true,
-      "similarity": 0.381
+      "similarity": 0.381,
+      "reasons": ["Age", "Rush TDs", "Dominator rate"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.372
+      "similarity": 0.372,
+      "reasons": ["Recruiting", "YoY growth", "40 time"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.353
+      "similarity": 0.353,
+      "reasons": ["Age", "Receiving share", "Yards / carry"]
     }
   ]
 }

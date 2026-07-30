@@ -11,7 +11,8 @@
       "ppg": 6.7544,
       "rawPpg": 8.0267,
       "madeIt": true,
-      "similarity": 0.365
+      "similarity": 0.365,
+      "reasons": ["Receptions / game", "Rec TDs", "Receptions"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 4.4986,
       "rawPpg": 4.6786,
       "madeIt": false,
-      "similarity": 0.358
+      "similarity": 0.358,
+      "reasons": ["Rec yards", "Rec TDs", "Yards / game"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 6.5877,
       "rawPpg": 7.9979,
       "madeIt": true,
-      "similarity": 0.317
+      "similarity": 0.317,
+      "reasons": ["Rec yards", "Rec TDs", "Yards / game"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 7.4104,
       "rawPpg": 9.2146,
       "madeIt": true,
-      "similarity": 0.301
+      "similarity": 0.301,
+      "reasons": ["Rec TDs", "Yards / reception", "Receptions / game"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 7.6528,
       "rawPpg": 10.1825,
       "madeIt": true,
-      "similarity": 0.285
+      "similarity": 0.285,
+      "reasons": ["Height", "Yards / game", "Rec yards"]
     },
     {
       "rank": 6,
@@ -71,7 +76,8 @@
       "ppg": 3.7394,
       "rawPpg": 3.2861,
       "madeIt": false,
-      "similarity": 0.271
+      "similarity": 0.271,
+      "reasons": ["Rec TDs", "Yards / reception", "Yards / game"]
     },
     {
       "rank": 7,
@@ -83,7 +89,8 @@
       "ppg": 7.0672,
       "rawPpg": 8.8987,
       "madeIt": true,
-      "similarity": 0.269
+      "similarity": 0.269,
+      "reasons": ["Receptions / game", "Receptions", "Yards / game"]
     }
   ]
 }

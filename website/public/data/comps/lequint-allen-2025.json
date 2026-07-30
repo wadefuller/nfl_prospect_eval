@@ -11,7 +11,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.317
+      "similarity": 0.317,
+      "reasons": ["Age", "Recruiting", "Weight"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 6.1143,
       "rawPpg": 4.5279,
       "madeIt": true,
-      "similarity": 0.279
+      "similarity": 0.279,
+      "reasons": ["Age", "Weight", "Yards / touch"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 6.3922,
       "rawPpg": 2.75,
       "madeIt": true,
-      "similarity": 0.279
+      "similarity": 0.279,
+      "reasons": ["Height", "Rush yards", "Yards / touch"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 5.3714,
       "rawPpg": 1.9,
       "madeIt": true,
-      "similarity": 0.274
+      "similarity": 0.274,
+      "reasons": ["Height", "Weight", "Receiving share"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 7.0766,
       "rawPpg": 6.4653,
       "madeIt": true,
-      "similarity": 0.272
+      "similarity": 0.272,
+      "reasons": ["Height", "YoY growth", "Weight"]
     }
   ]
 }

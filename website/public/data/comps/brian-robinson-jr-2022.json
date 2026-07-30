@@ -11,7 +11,8 @@
       "ppg": 5.8751,
       "rawPpg": 4.3294,
       "madeIt": true,
-      "similarity": 0.338
+      "similarity": 0.338,
+      "reasons": ["Weight", "Age", "Scrimmage yards"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 7.4388,
       "rawPpg": 7.2423,
       "madeIt": true,
-      "similarity": 0.303
+      "similarity": 0.303,
+      "reasons": ["Scrimmage yards", "Rush TDs", "Rush yards"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 8.3424,
       "rawPpg": 9.1275,
       "madeIt": true,
-      "similarity": 0.296
+      "similarity": 0.296,
+      "reasons": ["Height", "Speed score", "Vertical"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 6.3055,
       "rawPpg": 2.9857,
       "madeIt": true,
-      "similarity": 0.294
+      "similarity": 0.294,
+      "reasons": ["Scrimmage yards", "Carries", "Rush yards"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 6.7472,
       "rawPpg": 6.1633,
       "madeIt": true,
-      "similarity": 0.278
+      "similarity": 0.278,
+      "reasons": ["Age", "Yards / touch", "Dominator rate"]
     }
   ]
 }

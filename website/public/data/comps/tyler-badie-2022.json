@@ -11,7 +11,8 @@
       "ppg": 6.5149,
       "rawPpg": 3.2,
       "madeIt": true,
-      "similarity": 0.502
+      "similarity": 0.502,
+      "reasons": ["Height", "Rec yards", "40 time"]
     },
     {
       "rank": 2,
@@ -23,7 +24,8 @@
       "ppg": 12.2495,
       "rawPpg": 14.4221,
       "madeIt": true,
-      "similarity": 0.38
+      "similarity": 0.38,
+      "reasons": ["Dominator rate", "40 time", "Recruiting"]
     },
     {
       "rank": 3,
@@ -35,7 +37,8 @@
       "ppg": 7.5739,
       "rawPpg": 7.3322,
       "madeIt": true,
-      "similarity": 0.367
+      "similarity": 0.367,
+      "reasons": ["Age", "Broad jump", "Yards / touch"]
     },
     {
       "rank": 4,
@@ -47,7 +50,8 @@
       "ppg": 0,
       "rawPpg": null,
       "madeIt": false,
-      "similarity": 0.343
+      "similarity": 0.343,
+      "reasons": ["Height", "Rec yards", "Yards / touch"]
     },
     {
       "rank": 5,
@@ -59,7 +63,8 @@
       "ppg": 7.1738,
       "rawPpg": 7.4247,
       "madeIt": true,
-      "similarity": 0.343
+      "similarity": 0.343,
+      "reasons": ["Yards / touch", "Yards / carry", "Age"]
     }
   ]
 }
