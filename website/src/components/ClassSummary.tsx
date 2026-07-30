@@ -1,5 +1,5 @@
 import type { Prospect } from "../types";
-import { ink, line, surface, posColor, NUM, font, qualityColor } from "../theme";
+import { ink, line, surface, posColor, NUM, qualityColor } from "../theme";
 import { StatTile } from "./ui";
 
 /**
@@ -13,11 +13,6 @@ export function ClassSummary({
   prospects, allClasses, year,
 }: { prospects: Prospect[]; allClasses: boolean; year: number }) {
   if (prospects.length === 0) return null;
-
-  const withValue = prospects.filter((p) => p.value_score != null);
-  const top = withValue.length
-    ? withValue.reduce((a, b) => (b.value_score! > a.value_score! ? b : a))
-    : null;
 
   const ppgs = prospects.map((p) => p.exp_ppg).filter(Number.isFinite).sort((a, b) => a - b);
   const medPpg = ppgs.length ? ppgs[Math.floor(ppgs.length / 2)] : null;
@@ -36,7 +31,10 @@ export function ClassSummary({
       className="class-summary"
       style={{
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(178px, 1fr))",
+        // Fixed 4-up: three stat tiles + the position mix. auto-fit is wrong
+        // here because the position-mix span kept empty tracks alive, which
+        // stopped the tiles stretching to fill the row.
+        gridTemplateColumns: "repeat(4, minmax(0, 1fr))",
         gap: 10,
         marginBottom: 16,
       }}
@@ -46,26 +44,6 @@ export function ClassSummary({
         value={prospects.length}
         sub={allClasses ? "across every draft class" : "graded prospects"}
         tone={ink.faint}
-      />
-
-      <StatTile
-        label="Top of the board"
-        value={
-          <span style={{ fontFamily: font.display, fontSize: 17, letterSpacing: "-0.01em" }}>
-            {top ? top.name : "—"}
-          </span>
-        }
-        sub={
-          top ? (
-            <span>
-              {top.position} · {top.college} · value{" "}
-              <span style={{ ...NUM, color: qualityColor(top.value_score) , fontWeight: 700 }}>
-                {top.value_score}
-              </span>
-            </span>
-          ) : null
-        }
-        tone={top ? qualityColor(top.value_score) : undefined}
       />
 
       <StatTile
@@ -92,7 +70,6 @@ export function ClassSummary({
           display: "flex",
           flexDirection: "column",
           gap: 8,
-          gridColumn: "1 / -1",
           minWidth: 0,
         }}
       >
