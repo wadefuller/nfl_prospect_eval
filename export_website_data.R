@@ -338,6 +338,44 @@ merged <- scores |>
   ) |>
   select(-nm_clean, -last_clean, -nfl_hs, -cfb_hs, -cfb_hs_last, -manual_hs)
 
+# ── Compute prospect_score for QB/TE ─────────────────────────────────────────
+# WR and RB prospect_score comes from 09_prospect_profiles.R, which only
+# processes wr/rb_model_data. QB and TE are scored downstream by 07b, and
+# the bucket ensemble outputs (p_elite, p_league_winner, p_bust) are
+# present in qb_te_class_scores.csv → merged. Compute prospect_score
+# in-place here for those rows using the same formula 09 uses for WR/RB,
+# so the website has a comparable 0-100 score for every position.
+qb_te_ix <- merged$position %in% c("QB", "TE") & is.na(merged$prospect_score)
+if (any(qb_te_ix)) {
+  qt_scored <- merged |>
+    filter(position %in% c("QB", "TE")) |>
+    group_by(position) |>
+    mutate(
+      upside_pctile = percent_rank((coalesce(p_elite, 0) + coalesce(p_league_winner, 0)) * 100) * 100,
+      ppg_pctile    = percent_rank(exp_ppg) * 100,
+      bust_safety   = (1 - coalesce(p_bust, 0.3)) * 100,
+      comp_pctile   = percent_rank(coalesce(comp_weighted_ppg, 0)) * 100,
+      comp_safety   = (1 - coalesce(comp_bust_rate, 0.5)) * 100,
+      hit_score_fb  = pmin(100, pmax(0, (p_made_it - 0.5) / 0.5 * 100)),
+      prospect_score_new = round(
+        if_else(
+          !is.na(p_elite) & !is.na(p_league_winner) & !is.na(p_bust),
+          0.35 * upside_pctile + 0.30 * ppg_pctile + 0.15 * bust_safety +
+            0.10 * comp_pctile + 0.10 * comp_safety,
+          0.40 * hit_score_fb + 0.35 * ppg_pctile +
+            0.15 * comp_pctile + 0.10 * comp_safety
+        )
+      )
+    ) |>
+    ungroup() |>
+    select(name, position, draft_year, prospect_score_new)
+
+  merged <- merged |>
+    left_join(qt_scored, by = c("name", "position", "draft_year")) |>
+    mutate(prospect_score = coalesce(prospect_score, prospect_score_new)) |>
+    select(-prospect_score_new)
+}
+
 # ── Compute percentile columns (by position, using training CDF) ─────────────
 # Adds one `<col>_pct` integer (0-100) per stat in wr_stat_cols / rb_stat_cols.
 # Percentile is NA when the raw stat is NA (e.g. pre-2010 CFB sparsity).
