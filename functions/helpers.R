@@ -1337,6 +1337,20 @@ attach_pbp_features <- function(df, pos, cfb_extra) {
 # cfb_extra: additional data from fetch_cfb_stats() (penult, team vols, usage, ppa)
 # combine_lkp / recruit_lkp: preloaded lookups (built once, passed to all calls)
 
+# ── WR hurdle-probability combiner (tuned by 13_bust_tune.R) ──────────────────
+# power_shrink(alpha=0.85, gamma=0.5):  p_eff = clip(0.85 * p^0.5 + 0.15 * base_rate)
+# The base-rate term is part of the tuned form. Until 2026-10-12 production
+# shipped clip(0.85 * sqrt(p)) WITHOUT it — a transcription bug: on the same 247
+# OOS WRs that form scored MAE 2.423 (worse than identity 2.391) and
+# under-predicted mean PPG by ~11% (4.50 vs actual 5.07); the tuned form scores
+# 2.356 with mean 5.09. LOFO picked this form in 8/8 folds. One copy, used by
+# score_class() and 11_temporal_cv.R::predict_cv_fold().
+combine_wr <- function(p, base_rate) {
+  if (is.null(base_rate) || length(base_rate) == 0 || all(is.na(base_rate)))
+    stop("combine_wr(): base_rate is required (training-set mean of made_it)")
+  pmax(0, pmin(1, 0.85 * sqrt(p) + 0.15 * base_rate))
+}
+
 score_class <- function(draft_df, position, bust_model, prod_model,
                         recv_stats, rush_stats, rb_recv_stats = NULL,
                         dy_mean, dy_sd,
@@ -1393,7 +1407,7 @@ score_class <- function(draft_df, position, bust_model, prod_model,
   # iso_shrink / iso_linear) per position, with leave-one-fold-out validation
   # over 2016–2023 OOS predictions. Winners are stable across all 8 folds:
   #
-  #   WR: power_shrink(alpha=0.85, gamma=0.5)   p_eff = clip(0.85 * sqrt(p))
+  #   WR: power_shrink(alpha=0.85, gamma=0.5)   p_eff = combine_wr(p, base_rate)
   #       LOFO MAE 2.39 (vs identity 2.39 — neutral)
   #   RB: iso_linear(alpha=1.0, beta=-0.05)     p_eff = clip(iso(p) - 0.05)
   #       LOFO MAE 2.89 (vs shrink α=0.25 baseline 3.10 — Δ=-0.21)
@@ -1410,7 +1424,7 @@ score_class <- function(draft_df, position, bust_model, prod_model,
   p_eff <- if (pos == "RB") {
     clip01(iso_apply(bust_prob, bust_model) - 0.05)
   } else {
-    clip01(0.85 * sqrt(bust_prob))
+    combine_wr(bust_prob, hurdle_base_rate)
   }
 
   df_pred <- df |>

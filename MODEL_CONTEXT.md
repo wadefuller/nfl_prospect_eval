@@ -52,7 +52,7 @@ Stage 2, `05_model_production.R`:
 - RB quantile model stores its prepped recipe and raw xgboost fit.
 
 Hurdle probability transform, in `functions/helpers.R::score_class()` and mirrored in `11_temporal_cv.R`:
-- WR: `p_eff = clip(0.85 * sqrt(p_made_it))`.
+- WR: `p_eff = combine_wr(p, base_rate) = clip(0.85 * sqrt(p_made_it) + 0.15 * base_rate)` (base-rate term was missing in production until 2026-10-12).
 - RB: `p_eff = clip(isotonic(p_made_it) - 0.05)`.
 - Tuned in `13_bust_tune.R`; best combiners are saved in `output/bust_tune/best_combiners.csv`.
 

@@ -247,7 +247,7 @@ predict_cv_fold <- function(bust_fit, prod_fit, test_data, pos,
   }
 
   # ── Hurdle-probability combiner (tuned via 13_bust_tune.R, LOFO 2026-04-28) ──
-  #   WR: p_eff = clip(0.85 * sqrt(p))
+  #   WR: p_eff = combine_wr(p, base_rate)  (helpers.R; 0.85*sqrt(p) + 0.15*base_rate)
   #   RB: p_eff = clip(iso(p) - 0.05)   (iso fit on this fold's training data)
   # Mirrors helpers.R::score_class().
   clip01 <- function(x) pmax(0, pmin(1, x))
@@ -260,7 +260,7 @@ predict_cv_fold <- function(bust_fit, prod_fit, test_data, pos,
   p_eff <- if (pos == "RB") {
     clip01(iso_apply(p_made_it, iso) - 0.05)
   } else {
-    clip01(0.85 * sqrt(p_made_it))
+    combine_wr(p_made_it, base_rate)
   }
 
   test_data |>
@@ -329,7 +329,7 @@ for (K in TEST_YEARS) {
     }
 
     # Predict — pass per-fold isotonic recalibration of bust predictions
-    # (used by the RB combiner). WR ignores it.
+    # (used by both combiners: RB isotonic, WR power_shrink).
     base_rate_train <- mean(train_cfb$made_it)
     train_bust_pred <- predict(bust_fit, train_cfb |> mutate(
       made_it = factor(made_it, levels = c(0L, 1L), labels = c("bust", "made_it"))
