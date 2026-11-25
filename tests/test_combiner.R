@@ -21,7 +21,7 @@ ok(w$transform == "power_shrink" && abs(w$alpha - 0.85) < 1e-9 && abs(w$gamma - 
    "best_combiners.csv still selects power_shrink(0.85, 0.5) — update combine_wr if retuned")
 
 # no stray copies of the old untuned WR formula in production paths
-src <- c("functions/helpers.R", "11_temporal_cv.R")
+src <- c("functions/helpers.R", "pipeline/5_evaluate/11_temporal_cv.R")
 stray <- unlist(lapply(src, function(f) grep("clip01\\(0\\.85 \\* sqrt\\((p_made_it|bust_prob)\\)\\)", readLines(f), value = TRUE)))
 ok(length(stray) == 0, paste("old WR formula still present:", paste(stray, collapse = " | ")))
 

@@ -1,26 +1,26 @@
 #!/usr/bin/env bash
-# run_pipeline.sh — full rebuild from raw data to scored prospects + website.
+# run_pipeline.sh — the one entry point: raw data → models → scores → website.
 #
-# Idempotent: each cache step short-circuits if its output is already current
-# (HTML caches under data/mock_html_cache, RDS caches under data/).
-# Re-run any single step with `Rscript <step>.R`; the dependency chain is:
+# Every script runs from the repo root and reads/writes data/, models/ and
+# output/ (all git-ignored). Run any single step the same way, e.g.
+#   Rscript pipeline/5_evaluate/11_temporal_cv.R
 #
-#   01 → targets.rds                      (NFL career outcomes; rarely changes)
-#   02  + 02b/02c/02d/02e/02f → caches    (CFB stats, PBP, landing, mocks, value)
-#   03 → wr/rb_model_data.rds             (merge + attach all features)
-#   04 → wr/rb_bust_model.rds
-#   05 → wr/rb_production_model.rds
-#   07 → output/all_class_scores.rds      (scores 2021-2026)
-#   11 → output/temporal_cv/*             (rolling OOS evaluation)
-#   13 → output/bust_tune/*               (combiner re-tune; optional)
+# Stages (folders under pipeline/ run in order):
+#   1_data      NFL outcomes + college / play-by-play / combine / mock caches
+#   2_features  one training table per position, plus historical comp features
+#   3_train     hit classifier, production regressor, outcome-tier models
+#   4_score     score every class 2021–2026, comps, prospect write-ups
+#   5_evaluate  walk-forward evaluation (the accuracy numbers in the README)
+#   6_export    JSON for the website
 #
 # Usage:
-#   ./run_pipeline.sh                — full rebuild
-#   ./run_pipeline.sh score-only     — skip retrain, just rescore + export
-#   ./run_pipeline.sh data-only      — rebuild caches, no retrain
+#   ./run_pipeline.sh                — everything
+#   ./run_pipeline.sh data-only      — stages 1–2 (refresh caches + training tables)
+#   ./run_pipeline.sh score-only     — stages 4 + 6 with the existing models
 #
-# Stops on the first script error so you don't silently regenerate downstream
-# data from a broken upstream build.
+# Steps are idempotent where they cache (HTML and RDS caches under data/).
+# Stops on the first error so a broken upstream step can't silently
+# regenerate everything downstream of it.
 
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -34,48 +34,64 @@ run() {
 }
 
 mode="${1:-full}"
+case "$mode" in full|data-only|score-only) ;; *)
+  echo "usage: $0 [full|data-only|score-only]" >&2; exit 2 ;;
+esac
 
-if [[ "$mode" == "data-only" || "$mode" == "full" ]]; then
-  # Raw data + caches
-  run 01_build_targets.R                # NFL career outcomes
-  run 02_build_features.R               # CFB stats (cfbfastR raw + repaired conferences)
-  run 02b_build_rb_pbp_features.R       # PBP-derived RB metrics
-  run 02c_build_wr_pbp_features.R       # PBP-derived WR metrics
-  run 02d_build_landing_spot_features.R # NFL roster opportunity per (team, year)
-  run 02e_build_mock_draft.R            # Mock draft consensus (JackLich10 + Walt)
-  run 02f_build_draft_value_chart.R     # Draft pick → career-value curve
+if [[ "$mode" != "score-only" ]]; then
+  # ── 1. Data ───────────────────────────────────────────────────────────────
+  run pipeline/1_data/01_build_targets.R                # NFL outcomes (target)
+  run pipeline/1_data/02_build_features.R               # college season stats
+  run pipeline/1_data/02b_build_rb_pbp_features.R       # RB play-by-play
+  run pipeline/1_data/02c_build_wr_pbp_features.R       # WR/TE play-by-play
+  run pipeline/1_data/02j_build_qb_pbp_features.R       # QB play-by-play
+  run pipeline/1_data/02d_build_landing_spot_features.R # NFL depth chart at landing spot
+  run pipeline/1_data/02e_build_mock_draft.R            # mock-draft consensus
+  run pipeline/1_data/02f_build_draft_value_chart.R     # pick → value curve
+  run pipeline/1_data/02g_build_breakout_features.R     # breakout age / age-adjusted dominator
+  run pipeline/1_data/02h_build_qb_features.R           # QB feature table
+  run pipeline/1_data/02i_build_te_features.R           # TE feature table
 
-  # Per-prospect feature merge
-  run 03_merge_and_clean.R
+  # ── 2. Features ───────────────────────────────────────────────────────────
+  run pipeline/2_features/03_merge_and_clean.R          # WR/RB training tables
+  run pipeline/2_features/03b_merge_qb_te.R             # QB/TE training tables
 fi
 
 if [[ "$mode" == "full" ]]; then
-  # Comp-stack features (kNN over historical NFL outcomes; strictly past pool)
-  run 08b_build_comp_features.R
+  run pipeline/2_features/08b_build_comp_features.R     # strictly-past comp features
 
-  # Models (~5-15 min total, dominated by xgboost grid search in 04 + 05)
-  run 04_model_bust.R
-  run 05_model_production.R
+  # ── 3. Train ──────────────────────────────────────────────────────────────
+  run pipeline/3_train/04_model_bust.R                  # P(hit), WR/RB
+  run pipeline/3_train/04b_model_bust_qb_te.R           # P(hit), QB/TE
+  run pipeline/3_train/05_model_production.R            # PPG if hit, WR/RB
+  run pipeline/3_train/05b_model_production_qb_te.R     # PPG if hit, QB/TE
+  run pipeline/3_train/19_train_ordinal_models.R        # outcome tiers, WR/RB
+  run pipeline/3_train/19b_train_ordinal_qb_te.R        # outcome tiers, QB/TE
 
-  # Ordinal-bucket models (XGB multiclass + clm ensemble) — coexists with
-  # the continuous hurdle model and adds a P(bust|flex|elite|league_winner)
-  # distribution to scored output.
-  run 19_train_ordinal_models.R
-
-  # OOS evaluation (training-tuned combiner is hardcoded in helpers.R from 13)
-  run 11_temporal_cv.R
+  # ── 5. Evaluate (walk-forward; slow) ──────────────────────────────────────
+  run pipeline/5_evaluate/11_temporal_cv.R              # WR/RB
+  run pipeline/5_evaluate/11b_temporal_cv_qb_te.R       # QB/TE, comps refit per fold
+  run pipeline/5_evaluate/20_bucket_cv.R                # outcome tiers
+  run pipeline/5_evaluate/23_draft_slot_baseline.R      # draft-slot-only baseline
 fi
 
 if [[ "$mode" != "data-only" ]]; then
-  # Two-pass score: deploy prospects need their feature data attached (via 07)
-  # before 08c can compute comps for them. After 08c extends comp_features.rds,
-  # 07 reruns to pick up the deploy comps in the prediction.
-  run 07_score_all_classes.R
-  run 08c_deploy_comps.R
-  run 07_score_all_classes.R
-  run export_website_data.R
-  run export_inspector_data.R
+  # ── 4. Score ──────────────────────────────────────────────────────────────
+  # Two passes: new prospects need their features attached before 08c can
+  # build comps for them; the second pass picks those comps up.
+  run pipeline/4_score/07_score_all_classes.R
+  run pipeline/4_score/07b_score_qb_te.R
+  run pipeline/4_score/08c_deploy_comps.R
+  run pipeline/4_score/07_score_all_classes.R
+  run pipeline/4_score/07b_score_qb_te.R
+  run pipeline/4_score/08_player_comps.R                # comps shown on the site
+  run pipeline/4_score/09_prospect_profiles.R           # archetypes + bullish/bearish notes
+
+  # ── 6. Export ─────────────────────────────────────────────────────────────
+  run pipeline/6_export/export_website_data.R
+  run pipeline/6_export/export_inspector_data.R
+  run pipeline/6_export/export_model_performance.R
 fi
 
 echo
-echo "✓ Pipeline complete."
+echo "✓ Pipeline complete ($mode)."
