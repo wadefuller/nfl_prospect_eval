@@ -5,10 +5,9 @@ export_model_performance.R and 23_draft_slot_baseline.R:
 
     python3 docs/make_readme_figures.py
 
-Deployed predictions: WR/RB from website/public/data/model_performance.json
-(hurdle + outcome-bucket ensemble, walk-forward OOS); QB/TE from
-output/temporal_cv_qb_te/oos_predictions.csv blended with per-fold comps
-(QB 0.50/0.50, TE 0.30/0.70 model/comp) exactly as the site does.
+Deployed predictions come from website/public/data/model_performance.json
+(written by export_model_performance.R): WR/RB = hurdle + outcome-bucket
+ensemble; QB/TE = hurdle blended with comps rebuilt inside each fold.
 """
 import json, sys, numpy as np, pandas as pd, matplotlib
 matplotlib.use("Agg")
@@ -17,12 +16,10 @@ S="output/draft_slot_baseline"; OUT="docs/img"; ROOT="."
 b=pd.read_csv(f"{S}/baseline_oos.csv")
 d=json.load(open('website/public/data/model_performance.json'))
 sc=pd.DataFrame(d['scatter']).rename(columns={'pos':'position','year':'draft_year','pred':'model_pred'})
-q=pd.read_csv('output/temporal_cv_qb_te/oos_predictions.csv')
-w={'QB':0.5,'TE':0.3}
-q['model_pred']=[ (w[p]*e+(1-w[p])*c) if not np.isnan(c) else e for p,e,c in zip(q.position,q.exp_ppg,q.comp_weighted_ppg_honest)]
-q=q.rename(columns={'pfr_player_name':'name','ppg':'actual','exp_ppg':'model_only'})
-q['hit']=q.made_it==1
-allm=pd.concat([sc[['name','position','draft_year','pick','round','model_pred','actual']], q[['name','position','draft_year','pick','round','model_pred','actual','model_only']]])
+# export_model_performance.R already applies the deployed blend for every
+# position (QB/TE include per-fold comps), so the scatter is the single source.
+assert set(sc.position)=={'QB','RB','WR','TE'}, 'rerun export_model_performance.R'
+allm=sc[['name','position','draft_year','pick','round','model_pred','actual']]
 m=allm.merge(b[['name','position','draft_year','base_pred','actual']].rename(columns={'actual':'actual_b'}),on=['name','position','draft_year'],how='left')
 assert m.base_pred.notna().all(), 'players missing from baseline'
 assert (abs(m.actual-m.actual_b)<0.01).all(), 'actuals differ between model and baseline'

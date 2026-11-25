@@ -1,150 +1,168 @@
 {
   "overall": {
-    "mae": 2.468,
-    "cor": 0.595,
-    "bias": -0.233,
-    "n": 394,
-    "wr_mae": 2.361,
+    "mae": 2.594,
+    "cor": 0.639,
+    "bias": -0.034,
+    "bust_accuracy": 0.792,
+    "n": 586,
+    "qb_mae": 4.52,
+    "qb_cor": 0.676,
+    "qb_bias": 0.403,
+    "qb_bust_accuracy": 0.744,
+    "qb_n": 90,
     "rb_mae": 2.638,
-    "wr_cor": 0.529,
     "rb_cor": 0.629,
-    "wr_bias": -0.485,
     "rb_bias": 0.17,
-    "bust_accuracy": 0.789,
-    "wr_bust_accuracy": 0.789,
     "rb_bust_accuracy": 0.789,
-    "qb_mae": 4.976,
-    "qb_cor": 0.636,
-    "qb_bias": 0.512,
-    "qb_bust_accuracy": 0.793,
-    "qb_n": 92,
-    "te_mae": 1.626,
-    "te_cor": 0.369,
-    "te_bias": -0.466,
+    "rb_n": 152,
+    "wr_mae": 2.344,
+    "wr_cor": 0.528,
+    "wr_bias": -0.303,
+    "wr_bust_accuracy": 0.789,
+    "wr_n": 242,
+    "te_mae": 1.421,
+    "te_cor": 0.528,
+    "te_bias": -0.085,
     "te_bust_accuracy": 0.843,
     "te_n": 102
   },
   "byYear": [
     {
       "year": 2016,
-      "n": 44,
-      "mae": 2.402,
-      "cor": 0.537,
-      "wr_mae": 2.455,
-      "rb_mae": 2.319
+      "n": 68,
+      "mae": 3.126,
+      "cor": 0.473,
+      "qb_mae": 6.257,
+      "rb_mae": 2.319,
+      "wr_mae": 2.456,
+      "te_mae": 1.441
     },
     {
       "year": 2017,
-      "n": 54,
-      "mae": 2.887,
-      "cor": 0.632,
-      "wr_mae": 2.108,
-      "rb_mae": 3.937
+      "n": 75,
+      "mae": 2.984,
+      "cor": 0.671,
+      "qb_mae": 5.395,
+      "rb_mae": 3.937,
+      "wr_mae": 2.125,
+      "te_mae": 1.569
     },
     {
       "year": 2018,
-      "n": 48,
-      "mae": 2.453,
-      "cor": 0.525,
-      "wr_mae": 2.144,
-      "rb_mae": 3.015
+      "n": 75,
+      "mae": 2.387,
+      "cor": 0.709,
+      "qb_mae": 3.591,
+      "rb_mae": 3.015,
+      "wr_mae": 2.045,
+      "te_mae": 1.262
     },
     {
       "year": 2019,
-      "n": 51,
-      "mae": 2.698,
-      "cor": 0.528,
-      "wr_mae": 3.289,
-      "rb_mae": 2.033
+      "n": 75,
+      "mae": 2.672,
+      "cor": 0.658,
+      "qb_mae": 3.723,
+      "rb_mae": 2.033,
+      "wr_mae": 3.293,
+      "te_mae": 1.821
     },
     {
       "year": 2020,
-      "n": 49,
-      "mae": 2.351,
-      "cor": 0.578,
-      "wr_mae": 2.322,
-      "rb_mae": 2.417
+      "n": 72,
+      "mae": 2.344,
+      "cor": 0.766,
+      "qb_mae": 3.327,
+      "rb_mae": 2.417,
+      "wr_mae": 2.26,
+      "te_mae": 1.43
     },
     {
       "year": 2021,
-      "n": 52,
-      "mae": 2.299,
-      "cor": 0.74,
-      "wr_mae": 2.443,
-      "rb_mae": 2.029
+      "n": 71,
+      "mae": 2.394,
+      "cor": 0.742,
+      "qb_mae": 4.178,
+      "rb_mae": 2.029,
+      "wr_mae": 2.523,
+      "te_mae": 1.007
     },
     {
       "year": 2022,
-      "n": 46,
-      "mae": 2.219,
-      "cor": 0.613,
-      "wr_mae": 1.788,
-      "rb_mae": 2.731
+      "n": 71,
+      "mae": 2.36,
+      "cor": 0.516,
+      "qb_mae": 5.309,
+      "rb_mae": 2.731,
+      "wr_mae": 1.772,
+      "te_mae": 1.379
     },
     {
       "year": 2023,
-      "n": 50,
-      "mae": 2.37,
-      "cor": 0.715,
-      "wr_mae": 2.356,
-      "rb_mae": 2.398
+      "n": 79,
+      "mae": 2.505,
+      "cor": 0.607,
+      "qb_mae": 4.324,
+      "rb_mae": 2.398,
+      "wr_mae": 2.299,
+      "te_mae": 1.383
     }
   ],
   "byRound": [
     {
       "round_grp": "Round 1",
-      "n": 42,
-      "mae": 2.741,
-      "cor": 0.416,
-      "hit_rate": 0.976,
-      "avg_exp": 8.32,
-      "avg_actual": 9.6
+      "n": 75,
+      "mae": 2.898,
+      "cor": 0.59,
+      "hit_rate": 0.973,
+      "avg_exp": 9.4,
+      "avg_actual": 10.83
     },
     {
       "round_grp": "Round 2",
-      "n": 57,
-      "mae": 2.195,
-      "cor": 0.346,
-      "hit_rate": 0.982,
-      "avg_exp": 7.31,
-      "avg_actual": 8.05
+      "n": 76,
+      "mae": 2.233,
+      "cor": 0.512,
+      "hit_rate": 0.961,
+      "avg_exp": 7.33,
+      "avg_actual": 7.73
     },
     {
       "round_grp": "Round 3+",
-      "n": 295,
-      "mae": 2.481,
-      "cor": 0.474,
-      "hit_rate": 0.732,
-      "avg_exp": 4.67,
-      "avg_actual": 4.65
+      "n": 435,
+      "mae": 2.604,
+      "cor": 0.405,
+      "hit_rate": 0.683,
+      "avg_exp": 4.46,
+      "avg_actual": 4.18
     }
   ],
   "byRoundWR": [
     {
       "round_grp": "Round 1",
       "n": 31,
-      "mae": 2.419,
-      "cor": -0.077,
+      "mae": 2.352,
+      "cor": -0.075,
       "hit_rate": 0.968,
-      "avg_exp": 7.43,
+      "avg_exp": 7.68,
       "avg_actual": 8.33
     },
     {
       "round_grp": "Round 2",
       "n": 41,
-      "mae": 2.166,
-      "cor": -0.114,
+      "mae": 2.148,
+      "cor": -0.12,
       "hit_rate": 1,
-      "avg_exp": 6.35,
+      "avg_exp": 6.58,
       "avg_actual": 7.26
     },
     {
       "round_grp": "Round 3+",
       "n": 170,
-      "mae": 2.397,
+      "mae": 2.39,
       "cor": 0.317,
       "hit_rate": 0.718,
-      "avg_exp": 3.66,
+      "avg_exp": 3.82,
       "avg_actual": 3.97
     }
   ],
@@ -177,18 +195,94 @@
       "avg_actual": 5.59
     }
   ],
+  "byRoundQB": [
+    {
+      "round_grp": "Round 1",
+      "n": 25,
+      "mae": 3.911,
+      "cor": -0.12,
+      "hit_rate": 0.96,
+      "avg_exp": 12.05,
+      "avg_actual": 14.27
+    },
+    {
+      "round_grp": "Round 2",
+      "n": 6,
+      "mae": 4.126,
+      "cor": 0.875,
+      "hit_rate": 0.667,
+      "avg_exp": 10.32,
+      "avg_actual": 8.98
+    },
+    {
+      "round_grp": "Round 3+",
+      "n": 59,
+      "mae": 4.819,
+      "cor": 0.163,
+      "hit_rate": 0.271,
+      "avg_exp": 4.51,
+      "avg_actual": 3.09
+    }
+  ],
+  "byRoundTE": [
+    {
+      "round_grp": "Round 1",
+      "n": 8,
+      "mae": 0.819,
+      "cor": 0.41,
+      "hit_rate": 1,
+      "avg_exp": 5.82,
+      "avg_actual": 6.56
+    },
+    {
+      "round_grp": "Round 2",
+      "n": 13,
+      "mae": 1.58,
+      "cor": 0.131,
+      "hit_rate": 1,
+      "avg_exp": 5.32,
+      "avg_actual": 5.76
+    },
+    {
+      "round_grp": "Round 3+",
+      "n": 81,
+      "mae": 1.455,
+      "cor": 0.296,
+      "hit_rate": 0.802,
+      "avg_exp": 3.31,
+      "avg_actual": 3.28
+    }
+  ],
   "calibration": [
     {
+      "bucket": "0-10%",
+      "n": 2,
+      "pred_prob": 0.074,
+      "obs_rate": 0
+    },
+    {
+      "bucket": "10-20%",
+      "n": 9,
+      "pred_prob": 0.143,
+      "obs_rate": 0.556
+    },
+    {
+      "bucket": "20-30%",
+      "n": 10,
+      "pred_prob": 0.239,
+      "obs_rate": 0.1
+    },
+    {
       "bucket": "30-40%",
-      "n": 3,
-      "pred_prob": 0.337,
-      "obs_rate": 0.333
+      "n": 13,
+      "pred_prob": 0.332,
+      "obs_rate": 0.154
     },
     {
       "bucket": "40-50%",
-      "n": 13,
-      "pred_prob": 0.451,
-      "obs_rate": 0.615
+      "n": 19,
+      "pred_prob": 0.453,
+      "obs_rate": 0.421
     },
     {
       "bucket": "50-60%",
@@ -198,30 +292,96 @@
     },
     {
       "bucket": "60-70%",
-      "n": 15,
-      "pred_prob": 0.649,
-      "obs_rate": 0.6
+      "n": 42,
+      "pred_prob": 0.632,
+      "obs_rate": 0.548
     },
     {
       "bucket": "70-80%",
-      "n": 28,
+      "n": 40,
       "pred_prob": 0.755,
-      "obs_rate": 0.607
+      "obs_rate": 0.675
     },
     {
       "bucket": "80-90%",
-      "n": 103,
-      "pred_prob": 0.873,
-      "obs_rate": 0.68
+      "n": 156,
+      "pred_prob": 0.875,
+      "obs_rate": 0.731
     },
     {
       "bucket": "90-100%",
-      "n": 222,
-      "pred_prob": 0.947,
-      "obs_rate": 0.905
+      "n": 285,
+      "pred_prob": 0.942,
+      "obs_rate": 0.898
     }
   ],
   "scatter": [
+    {
+      "name": "Jared Goff",
+      "pos": "QB",
+      "year": 2016,
+      "round": 1,
+      "pick": 1,
+      "pred": 11.01,
+      "actual": 16.02,
+      "p_hit": 0.604,
+      "hit": true
+    },
+    {
+      "name": "Baker Mayfield",
+      "pos": "QB",
+      "year": 2018,
+      "round": 1,
+      "pick": 1,
+      "pred": 14.04,
+      "actual": 14.69,
+      "p_hit": 0.76,
+      "hit": true
+    },
+    {
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "year": 2019,
+      "round": 1,
+      "pick": 1,
+      "pred": 11.77,
+      "actual": 18.84,
+      "p_hit": 0.814,
+      "hit": true
+    },
+    {
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "year": 2020,
+      "round": 1,
+      "pick": 1,
+      "pred": 12.95,
+      "actual": 17.76,
+      "p_hit": 0.833,
+      "hit": true
+    },
+    {
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "year": 2021,
+      "round": 1,
+      "pick": 1,
+      "pred": 12.03,
+      "actual": 15.21,
+      "p_hit": 0.891,
+      "hit": true
+    },
+    {
+      "name": "Bryce Young",
+      "pos": "QB",
+      "year": 2023,
+      "round": 1,
+      "pick": 1,
+      "pred": 12.06,
+      "actual": 13.05,
+      "p_hit": 0.866,
+      "hit": true
+    },
     {
       "name": "Saquon Barkley",
       "pos": "RB",
@@ -231,6 +391,50 @@
       "pred": 12.17,
       "actual": 15.17,
       "p_hit": 0.931,
+      "hit": true
+    },
+    {
+      "name": "Carson Wentz",
+      "pos": "QB",
+      "year": 2016,
+      "round": 1,
+      "pick": 2,
+      "pred": 10.72,
+      "actual": 16.56,
+      "p_hit": 0.604,
+      "hit": true
+    },
+    {
+      "name": "Zach Wilson",
+      "pos": "QB",
+      "year": 2021,
+      "round": 1,
+      "pick": 2,
+      "pred": 13.32,
+      "actual": 11.52,
+      "p_hit": 0.905,
+      "hit": true
+    },
+    {
+      "name": "C.J. Stroud",
+      "pos": "QB",
+      "year": 2023,
+      "round": 1,
+      "pick": 2,
+      "pred": 10.75,
+      "actual": 14.92,
+      "p_hit": 0.823,
+      "hit": true
+    },
+    {
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "year": 2018,
+      "round": 1,
+      "pick": 3,
+      "pred": 12.77,
+      "actual": 12.97,
+      "p_hit": 0.677,
       "hit": true
     },
     {
@@ -256,12 +460,34 @@
       "hit": true
     },
     {
+      "name": "Anthony Richardson",
+      "pos": "QB",
+      "year": 2023,
+      "round": 1,
+      "pick": 4,
+      "pred": 12.67,
+      "actual": 12.97,
+      "p_hit": 0.869,
+      "hit": true
+    },
+    {
+      "name": "Kyle Pitts",
+      "pos": "TE",
+      "year": 2021,
+      "round": 1,
+      "pick": 4,
+      "pred": 6.71,
+      "actual": 6.46,
+      "p_hit": 0.932,
+      "hit": true
+    },
+    {
       "name": "Corey Davis",
       "pos": "WR",
       "year": 2017,
       "round": 1,
       "pick": 5,
-      "pred": 7.52,
+      "pred": 7.79,
       "actual": 7.24,
       "p_hit": 0.956,
       "hit": true
@@ -272,9 +498,20 @@
       "year": 2021,
       "round": 1,
       "pick": 5,
-      "pred": 8.45,
+      "pred": 8.72,
       "actual": 12.41,
       "p_hit": 0.981,
+      "hit": true
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "pos": "QB",
+      "year": 2020,
+      "round": 1,
+      "pick": 5,
+      "pred": 13.15,
+      "actual": 14.27,
+      "p_hit": 0.88,
       "hit": true
     },
     {
@@ -283,9 +520,31 @@
       "year": 2021,
       "round": 1,
       "pick": 6,
-      "pred": 7.02,
+      "pred": 7.25,
       "actual": 10.47,
       "p_hit": 0.984,
+      "hit": true
+    },
+    {
+      "name": "Daniel Jones",
+      "pos": "QB",
+      "year": 2019,
+      "round": 1,
+      "pick": 6,
+      "pred": 12.52,
+      "actual": 14.23,
+      "p_hit": 0.787,
+      "hit": true
+    },
+    {
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "year": 2020,
+      "round": 1,
+      "pick": 6,
+      "pred": 10.62,
+      "actual": 18.77,
+      "p_hit": 0.744,
       "hit": true
     },
     {
@@ -294,9 +553,20 @@
       "year": 2017,
       "round": 1,
       "pick": 7,
-      "pred": 6.77,
+      "pred": 7.01,
       "actual": 8.32,
       "p_hit": 0.978,
+      "hit": true
+    },
+    {
+      "name": "Josh Allen",
+      "pos": "QB",
+      "year": 2018,
+      "round": 1,
+      "pick": 7,
+      "pred": 12.15,
+      "actual": 18.16,
+      "p_hit": 0.728,
       "hit": true
     },
     {
@@ -316,7 +586,7 @@
       "year": 2022,
       "round": 1,
       "pick": 8,
-      "pred": 8.22,
+      "pred": 8.5,
       "actual": 9.51,
       "p_hit": 0.977,
       "hit": true
@@ -333,12 +603,23 @@
       "hit": true
     },
     {
+      "name": "T.J. Hockenson",
+      "pos": "TE",
+      "year": 2019,
+      "round": 1,
+      "pick": 8,
+      "pred": 6.23,
+      "actual": 7.41,
+      "p_hit": 0.911,
+      "hit": true
+    },
+    {
       "name": "John Ross",
       "pos": "WR",
       "year": 2017,
       "round": 1,
       "pick": 9,
-      "pred": 7.8,
+      "pred": 8.07,
       "actual": 6.78,
       "p_hit": 0.985,
       "hit": true
@@ -349,7 +630,7 @@
       "year": 2021,
       "round": 1,
       "pick": 10,
-      "pred": 7.41,
+      "pred": 7.63,
       "actual": 10.03,
       "p_hit": 0.979,
       "hit": true
@@ -360,9 +641,31 @@
       "year": 2022,
       "round": 1,
       "pick": 10,
-      "pred": 8.05,
+      "pred": 8.34,
       "actual": 9.42,
       "p_hit": 0.981,
+      "hit": true
+    },
+    {
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "year": 2017,
+      "round": 1,
+      "pick": 10,
+      "pred": 10.82,
+      "actual": 19.38,
+      "p_hit": 0.627,
+      "hit": true
+    },
+    {
+      "name": "Josh Rosen",
+      "pos": "QB",
+      "year": 2018,
+      "round": 1,
+      "pick": 10,
+      "pred": 11.59,
+      "actual": 10.01,
+      "p_hit": 0.674,
       "hit": true
     },
     {
@@ -371,9 +674,20 @@
       "year": 2022,
       "round": 1,
       "pick": 11,
-      "pred": 6.19,
+      "pred": 6.42,
       "actual": 9.48,
       "p_hit": 0.977,
+      "hit": true
+    },
+    {
+      "name": "Justin Fields",
+      "pos": "QB",
+      "year": 2021,
+      "round": 1,
+      "pick": 11,
+      "pred": 12.52,
+      "actual": 16.22,
+      "p_hit": 0.918,
       "hit": true
     },
     {
@@ -382,7 +696,7 @@
       "year": 2020,
       "round": 1,
       "pick": 12,
-      "pred": 7.56,
+      "pred": 7.83,
       "actual": 6.64,
       "p_hit": 0.971,
       "hit": true
@@ -393,7 +707,7 @@
       "year": 2022,
       "round": 1,
       "pick": 12,
-      "pred": 8.81,
+      "pred": 9.11,
       "actual": 8.07,
       "p_hit": 0.977,
       "hit": true
@@ -410,12 +724,23 @@
       "hit": true
     },
     {
+      "name": "Deshaun Watson",
+      "pos": "QB",
+      "year": 2017,
+      "round": 1,
+      "pick": 12,
+      "pred": 11.57,
+      "actual": 17.81,
+      "p_hit": 0.627,
+      "hit": true
+    },
+    {
       "name": "Corey Coleman",
       "pos": "WR",
       "year": 2016,
       "round": 1,
       "pick": 15,
-      "pred": 6.41,
+      "pred": 6.62,
       "actual": 6.46,
       "p_hit": 0.957,
       "hit": true
@@ -426,9 +751,31 @@
       "year": 2020,
       "round": 1,
       "pick": 15,
-      "pred": 7.92,
+      "pred": 8.14,
       "actual": 8.46,
       "p_hit": 0.974,
+      "hit": true
+    },
+    {
+      "name": "Dwayne Haskins",
+      "pos": "QB",
+      "year": 2019,
+      "round": 1,
+      "pick": 15,
+      "pred": 12.41,
+      "actual": 10.38,
+      "p_hit": 0.739,
+      "hit": true
+    },
+    {
+      "name": "Mac Jones",
+      "pos": "QB",
+      "year": 2021,
+      "round": 1,
+      "pick": 15,
+      "pred": 11.54,
+      "actual": 12.39,
+      "p_hit": 0.788,
       "hit": true
     },
     {
@@ -437,7 +784,7 @@
       "year": 2022,
       "round": 1,
       "pick": 16,
-      "pred": 6.45,
+      "pred": 6.67,
       "actual": 6.86,
       "p_hit": 0.989,
       "hit": true
@@ -448,7 +795,7 @@
       "year": 2020,
       "round": 1,
       "pick": 17,
-      "pred": 7.32,
+      "pred": 7.58,
       "actual": 10.96,
       "p_hit": 0.983,
       "hit": true
@@ -459,9 +806,20 @@
       "year": 2022,
       "round": 1,
       "pick": 18,
-      "pred": 8.75,
+      "pred": 9.07,
       "actual": 5.53,
       "p_hit": 0.957,
+      "hit": true
+    },
+    {
+      "name": "O.J. Howard",
+      "pos": "TE",
+      "year": 2017,
+      "round": 1,
+      "pick": 19,
+      "pred": 5.99,
+      "actual": 6.7,
+      "p_hit": 0.877,
       "hit": true
     },
     {
@@ -470,7 +828,7 @@
       "year": 2021,
       "round": 1,
       "pick": 20,
-      "pred": 6.65,
+      "pred": 6.88,
       "actual": 6.16,
       "p_hit": 0.981,
       "hit": true
@@ -481,9 +839,31 @@
       "year": 2023,
       "round": 1,
       "pick": 20,
-      "pred": 9.23,
+      "pred": 9.54,
       "actual": 11.98,
       "p_hit": 0.948,
+      "hit": true
+    },
+    {
+      "name": "Kenny Pickett",
+      "pos": "QB",
+      "year": 2022,
+      "round": 1,
+      "pick": 20,
+      "pred": 13.97,
+      "actual": 10.91,
+      "p_hit": 0.898,
+      "hit": true
+    },
+    {
+      "name": "Noah Fant",
+      "pos": "TE",
+      "year": 2019,
+      "round": 1,
+      "pick": 20,
+      "pred": 5.66,
+      "actual": 6.8,
+      "p_hit": 0.911,
       "hit": true
     },
     {
@@ -492,7 +872,7 @@
       "year": 2020,
       "round": 1,
       "pick": 21,
-      "pred": 8.78,
+      "pred": 9.07,
       "actual": 5.2,
       "p_hit": 0.958,
       "hit": true
@@ -503,7 +883,7 @@
       "year": 2023,
       "round": 1,
       "pick": 21,
-      "pred": 7.27,
+      "pred": 7.54,
       "actual": 8.83,
       "p_hit": 0.942,
       "hit": true
@@ -514,7 +894,7 @@
       "year": 2016,
       "round": 1,
       "pick": 22,
-      "pred": 5.52,
+      "pred": 5.71,
       "actual": 6.19,
       "p_hit": 0.923,
       "hit": true
@@ -525,7 +905,7 @@
       "year": 2020,
       "round": 1,
       "pick": 22,
-      "pred": 7.28,
+      "pred": 7.51,
       "actual": 13.53,
       "p_hit": 0.982,
       "hit": true
@@ -536,7 +916,7 @@
       "year": 2023,
       "round": 1,
       "pick": 22,
-      "pred": 6.21,
+      "pred": 6.44,
       "actual": 9.46,
       "p_hit": 0.987,
       "hit": true
@@ -547,7 +927,7 @@
       "year": 2016,
       "round": 1,
       "pick": 23,
-      "pred": 8.11,
+      "pred": 8.35,
       "actual": 4.07,
       "p_hit": 0.977,
       "hit": true
@@ -558,9 +938,20 @@
       "year": 2023,
       "round": 1,
       "pick": 23,
-      "pred": 7.38,
+      "pred": 7.64,
       "actual": 9.64,
       "p_hit": 0.989,
+      "hit": true
+    },
+    {
+      "name": "Evan Engram",
+      "pos": "TE",
+      "year": 2017,
+      "round": 1,
+      "pick": 23,
+      "pred": 5.49,
+      "actual": 7.65,
+      "p_hit": 0.877,
       "hit": true
     },
     {
@@ -569,7 +960,7 @@
       "year": 2018,
       "round": 1,
       "pick": 24,
-      "pred": 8.05,
+      "pred": 8.29,
       "actual": 10.02,
       "p_hit": 0.92,
       "hit": true
@@ -602,7 +993,7 @@
       "year": 2019,
       "round": 1,
       "pick": 25,
-      "pred": 5.93,
+      "pred": 6.11,
       "actual": 9,
       "p_hit": 0.975,
       "hit": true
@@ -613,7 +1004,7 @@
       "year": 2020,
       "round": 1,
       "pick": 25,
-      "pred": 6.67,
+      "pred": 6.91,
       "actual": 9.75,
       "p_hit": 0.912,
       "hit": true
@@ -630,14 +1021,58 @@
       "hit": true
     },
     {
+      "name": "Hayden Hurst",
+      "pos": "TE",
+      "year": 2018,
+      "round": 1,
+      "pick": 25,
+      "pred": 5.33,
+      "actual": 5.26,
+      "p_hit": 0.897,
+      "hit": true
+    },
+    {
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "year": 2023,
+      "round": 1,
+      "pick": 25,
+      "pred": 6.16,
+      "actual": 6.59,
+      "p_hit": 0.945,
+      "hit": true
+    },
+    {
       "name": "Calvin Ridley",
       "pos": "WR",
       "year": 2018,
       "round": 1,
       "pick": 26,
-      "pred": 6.85,
+      "pred": 7.08,
       "actual": 11.31,
       "p_hit": 0.948,
+      "hit": true
+    },
+    {
+      "name": "Paxton Lynch",
+      "pos": "QB",
+      "year": 2016,
+      "round": 1,
+      "pick": 26,
+      "pred": 11.71,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
+    },
+    {
+      "name": "Jordan Love",
+      "pos": "QB",
+      "year": 2020,
+      "round": 1,
+      "pick": 26,
+      "pred": 10.41,
+      "actual": 9.48,
+      "p_hit": 0.74,
       "hit": true
     },
     {
@@ -657,9 +1092,20 @@
       "year": 2021,
       "round": 1,
       "pick": 27,
-      "pred": 7.38,
+      "pred": 7.61,
       "actual": 6.53,
       "p_hit": 0.978,
+      "hit": true
+    },
+    {
+      "name": "David Njoku",
+      "pos": "TE",
+      "year": 2017,
+      "round": 1,
+      "pick": 29,
+      "pred": 5.01,
+      "actual": 5.62,
+      "p_hit": 0.877,
       "hit": true
     },
     {
@@ -668,7 +1114,7 @@
       "year": 2019,
       "round": 1,
       "pick": 32,
-      "pred": 8.35,
+      "pred": 8.61,
       "actual": 0,
       "p_hit": 0.959,
       "hit": false
@@ -685,14 +1131,36 @@
       "hit": true
     },
     {
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "year": 2018,
+      "round": 1,
+      "pick": 32,
+      "pred": 12.25,
+      "actual": 20.34,
+      "p_hit": 0.728,
+      "hit": true
+    },
+    {
       "name": "Tee Higgins",
       "pos": "WR",
       "year": 2020,
       "round": 2,
       "pick": 33,
-      "pred": 7.34,
+      "pred": 7.59,
       "actual": 10.49,
       "p_hit": 0.957,
+      "hit": true
+    },
+    {
+      "name": "Will Levis",
+      "pos": "QB",
+      "year": 2023,
+      "round": 2,
+      "pick": 33,
+      "pred": 13.09,
+      "actual": 11.06,
+      "p_hit": 0.897,
       "hit": true
     },
     {
@@ -701,7 +1169,7 @@
       "year": 2020,
       "round": 2,
       "pick": 34,
-      "pred": 6.38,
+      "pred": 6.61,
       "actual": 9.33,
       "p_hit": 0.862,
       "hit": true
@@ -712,9 +1180,20 @@
       "year": 2021,
       "round": 2,
       "pick": 34,
-      "pred": 7.06,
+      "pred": 7.32,
       "actual": 7.32,
       "p_hit": 0.967,
+      "hit": true
+    },
+    {
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "year": 2023,
+      "round": 2,
+      "pick": 34,
+      "pred": 5.99,
+      "actual": 8.4,
+      "p_hit": 0.945,
       "hit": true
     },
     {
@@ -740,12 +1219,34 @@
       "hit": true
     },
     {
+      "name": "Hunter Henry",
+      "pos": "TE",
+      "year": 2016,
+      "round": 2,
+      "pick": 35,
+      "pred": 5.25,
+      "actual": 6.97,
+      "p_hit": 0.866,
+      "hit": true
+    },
+    {
+      "name": "Michael Mayer",
+      "pos": "TE",
+      "year": 2023,
+      "round": 2,
+      "pick": 35,
+      "pred": 7.02,
+      "actual": 4.37,
+      "p_hit": 0.945,
+      "hit": true
+    },
+    {
       "name": "Deebo Samuel",
       "pos": "WR",
       "year": 2019,
       "round": 2,
       "pick": 36,
-      "pred": 5.59,
+      "pred": 5.79,
       "actual": 11.84,
       "p_hit": 0.942,
       "hit": true
@@ -767,7 +1268,7 @@
       "year": 2017,
       "round": 2,
       "pick": 37,
-      "pred": 7.07,
+      "pred": 7.3,
       "actual": 6.3,
       "p_hit": 0.961,
       "hit": true
@@ -778,7 +1279,7 @@
       "year": 2023,
       "round": 2,
       "pick": 39,
-      "pred": 5.91,
+      "pred": 6.11,
       "actual": 4.05,
       "p_hit": 0.973,
       "hit": true
@@ -789,7 +1290,7 @@
       "year": 2016,
       "round": 2,
       "pick": 40,
-      "pred": 5.26,
+      "pred": 5.4,
       "actual": 8.43,
       "p_hit": 0.954,
       "hit": true
@@ -800,7 +1301,7 @@
       "year": 2017,
       "round": 2,
       "pick": 40,
-      "pred": 6.86,
+      "pred": 7.15,
       "actual": 7.99,
       "p_hit": 0.933,
       "hit": true
@@ -811,7 +1312,7 @@
       "year": 2018,
       "round": 2,
       "pick": 40,
-      "pred": 6.65,
+      "pred": 6.9,
       "actual": 8.27,
       "p_hit": 0.963,
       "hit": true
@@ -855,9 +1356,42 @@
       "year": 2020,
       "round": 2,
       "pick": 42,
-      "pred": 8.51,
+      "pred": 8.83,
       "actual": 6.94,
       "p_hit": 0.92,
+      "hit": true
+    },
+    {
+      "name": "Drew Lock",
+      "pos": "QB",
+      "year": 2019,
+      "round": 2,
+      "pick": 42,
+      "pred": 12.41,
+      "actual": 12,
+      "p_hit": 0.811,
+      "hit": true
+    },
+    {
+      "name": "Mike Gesicki",
+      "pos": "TE",
+      "year": 2018,
+      "round": 2,
+      "pick": 42,
+      "pred": 6.34,
+      "actual": 6.8,
+      "p_hit": 0.897,
+      "hit": true
+    },
+    {
+      "name": "Luke Musgrave",
+      "pos": "TE",
+      "year": 2023,
+      "round": 2,
+      "pick": 42,
+      "pred": 6.03,
+      "actual": 4.12,
+      "p_hit": 0.945,
       "hit": true
     },
     {
@@ -877,9 +1411,20 @@
       "year": 2022,
       "round": 2,
       "pick": 43,
-      "pred": 7.34,
+      "pred": 7.53,
       "actual": 6.98,
       "p_hit": 0.978,
+      "hit": true
+    },
+    {
+      "name": "Cole Kmet",
+      "pos": "TE",
+      "year": 2020,
+      "round": 2,
+      "pick": 43,
+      "pred": 5.8,
+      "actual": 5.66,
+      "p_hit": 0.926,
       "hit": true
     },
     {
@@ -888,7 +1433,7 @@
       "year": 2018,
       "round": 2,
       "pick": 44,
-      "pred": 5.71,
+      "pred": 5.9,
       "actual": 5.8,
       "p_hit": 0.967,
       "hit": true
@@ -899,9 +1444,20 @@
       "year": 2022,
       "round": 2,
       "pick": 44,
-      "pred": 6.71,
+      "pred": 6.94,
       "actual": 4.08,
       "p_hit": 0.969,
+      "hit": true
+    },
+    {
+      "name": "Gerald Everett",
+      "pos": "TE",
+      "year": 2017,
+      "round": 2,
+      "pick": 44,
+      "pred": 5.07,
+      "actual": 4.9,
+      "p_hit": 0.877,
       "hit": true
     },
     {
@@ -921,7 +1477,7 @@
       "year": 2020,
       "round": 2,
       "pick": 46,
-      "pred": 7.47,
+      "pred": 7.77,
       "actual": 5.67,
       "p_hit": 0.91,
       "hit": true
@@ -932,7 +1488,7 @@
       "year": 2016,
       "round": 2,
       "pick": 47,
-      "pred": 4.78,
+      "pred": 4.93,
       "actual": 11.88,
       "p_hit": 0.954,
       "hit": true
@@ -943,7 +1499,7 @@
       "year": 2018,
       "round": 2,
       "pick": 47,
-      "pred": 7.63,
+      "pred": 7.88,
       "actual": 8.19,
       "p_hit": 0.972,
       "hit": true
@@ -965,7 +1521,7 @@
       "year": 2020,
       "round": 2,
       "pick": 49,
-      "pred": 6.36,
+      "pred": 6.6,
       "actual": 8.86,
       "p_hit": 0.863,
       "hit": true
@@ -976,9 +1532,20 @@
       "year": 2021,
       "round": 2,
       "pick": 49,
-      "pred": 7.99,
+      "pred": 8.29,
       "actual": 6.5,
       "p_hit": 0.985,
+      "hit": true
+    },
+    {
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "year": 2018,
+      "round": 2,
+      "pick": 49,
+      "pred": 4.9,
+      "actual": 6.63,
+      "p_hit": 0.897,
       "hit": true
     },
     {
@@ -987,7 +1554,7 @@
       "year": 2022,
       "round": 2,
       "pick": 50,
-      "pred": 6.06,
+      "pred": 6.28,
       "actual": 4.63,
       "p_hit": 0.986,
       "hit": true
@@ -998,7 +1565,7 @@
       "year": 2023,
       "round": 2,
       "pick": 50,
-      "pred": 5.44,
+      "pred": 5.61,
       "actual": 9.19,
       "p_hit": 0.974,
       "hit": true
@@ -1009,7 +1576,7 @@
       "year": 2018,
       "round": 2,
       "pick": 51,
-      "pred": 5.62,
+      "pred": 5.81,
       "actual": 6.4,
       "p_hit": 0.952,
       "hit": true
@@ -1020,10 +1587,21 @@
       "year": 2019,
       "round": 2,
       "pick": 51,
-      "pred": 6.2,
+      "pred": 6.41,
       "actual": 10.85,
       "p_hit": 0.943,
       "hit": true
+    },
+    {
+      "name": "Christian Hackenberg",
+      "pos": "QB",
+      "year": 2016,
+      "round": 2,
+      "pick": 51,
+      "pred": 7.38,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
     },
     {
       "name": "Cam Akers",
@@ -1042,7 +1620,7 @@
       "year": 2022,
       "round": 2,
       "pick": 52,
-      "pred": 6.56,
+      "pred": 6.8,
       "actual": 8.67,
       "p_hit": 0.985,
       "hit": true
@@ -1056,6 +1634,28 @@
       "pred": 10.44,
       "actual": 9.42,
       "p_hit": 0.953,
+      "hit": true
+    },
+    {
+      "name": "DeShone Kizer",
+      "pos": "QB",
+      "year": 2017,
+      "round": 2,
+      "pick": 52,
+      "pred": 9.12,
+      "actual": 11.71,
+      "p_hit": 0.625,
+      "hit": true
+    },
+    {
+      "name": "Drew Sample",
+      "pos": "TE",
+      "year": 2019,
+      "round": 2,
+      "pick": 52,
+      "pred": 4.71,
+      "actual": 3.38,
+      "p_hit": 0.911,
       "hit": true
     },
     {
@@ -1075,9 +1675,20 @@
       "year": 2022,
       "round": 2,
       "pick": 53,
-      "pred": 5.58,
+      "pred": 5.77,
       "actual": 6.88,
       "p_hit": 0.985,
+      "hit": true
+    },
+    {
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "year": 2020,
+      "round": 2,
+      "pick": 53,
+      "pred": 13.31,
+      "actual": 19.08,
+      "p_hit": 0.855,
       "hit": true
     },
     {
@@ -1086,7 +1697,7 @@
       "year": 2022,
       "round": 2,
       "pick": 54,
-      "pred": 6.8,
+      "pred": 7.03,
       "actual": 3.93,
       "p_hit": 0.988,
       "hit": true
@@ -1097,7 +1708,7 @@
       "year": 2016,
       "round": 2,
       "pick": 55,
-      "pred": 7.41,
+      "pred": 7.61,
       "actual": 8.17,
       "p_hit": 0.94,
       "hit": true
@@ -1119,9 +1730,31 @@
       "year": 2023,
       "round": 2,
       "pick": 55,
-      "pred": 5.56,
+      "pred": 5.76,
       "actual": 9.8,
       "p_hit": 0.978,
+      "hit": true
+    },
+    {
+      "name": "Pat Freiermuth",
+      "pos": "TE",
+      "year": 2021,
+      "round": 2,
+      "pick": 55,
+      "pred": 4.55,
+      "actual": 6.55,
+      "p_hit": 0.932,
+      "hit": true
+    },
+    {
+      "name": "Trey McBride",
+      "pos": "TE",
+      "year": 2022,
+      "round": 2,
+      "pick": 55,
+      "pred": 5.54,
+      "actual": 8.14,
+      "p_hit": 0.936,
       "hit": true
     },
     {
@@ -1130,7 +1763,7 @@
       "year": 2019,
       "round": 2,
       "pick": 56,
-      "pred": 5.88,
+      "pred": 6.07,
       "actual": 6.57,
       "p_hit": 0.979,
       "hit": true
@@ -1141,7 +1774,7 @@
       "year": 2021,
       "round": 2,
       "pick": 56,
-      "pred": 4.88,
+      "pred": 5.1,
       "actual": 3.91,
       "p_hit": 0.932,
       "hit": true
@@ -1152,7 +1785,7 @@
       "year": 2019,
       "round": 2,
       "pick": 57,
-      "pred": 5.8,
+      "pred": 5.99,
       "actual": 4,
       "p_hit": 0.967,
       "hit": true
@@ -1163,7 +1796,7 @@
       "year": 2020,
       "round": 2,
       "pick": 57,
-      "pred": 4.9,
+      "pred": 5.08,
       "actual": 7.11,
       "p_hit": 0.967,
       "hit": true
@@ -1174,9 +1807,20 @@
       "year": 2021,
       "round": 2,
       "pick": 57,
-      "pred": 7.34,
+      "pred": 7.58,
       "actual": 5.77,
       "p_hit": 0.983,
+      "hit": true
+    },
+    {
+      "name": "Luke Schoonmaker",
+      "pos": "TE",
+      "year": 2023,
+      "round": 2,
+      "pick": 58,
+      "pred": 4.57,
+      "actual": 3.39,
+      "p_hit": 0.945,
       "hit": true
     },
     {
@@ -1196,7 +1840,7 @@
       "year": 2019,
       "round": 2,
       "pick": 59,
-      "pred": 6.4,
+      "pred": 6.66,
       "actual": 5.23,
       "p_hit": 0.979,
       "hit": true
@@ -1207,7 +1851,7 @@
       "year": 2020,
       "round": 2,
       "pick": 59,
-      "pred": 6.3,
+      "pred": 6.53,
       "actual": 4.96,
       "p_hit": 0.934,
       "hit": true
@@ -1218,7 +1862,7 @@
       "year": 2021,
       "round": 2,
       "pick": 59,
-      "pred": 6.74,
+      "pred": 7,
       "actual": 5.08,
       "p_hit": 0.967,
       "hit": true
@@ -1229,7 +1873,7 @@
       "year": 2018,
       "round": 2,
       "pick": 60,
-      "pred": 5.58,
+      "pred": 5.77,
       "actual": 6.19,
       "p_hit": 0.967,
       "hit": true
@@ -1240,9 +1884,20 @@
       "year": 2018,
       "round": 2,
       "pick": 61,
-      "pred": 5.13,
+      "pred": 5.29,
       "actual": 9.36,
       "p_hit": 0.886,
+      "hit": true
+    },
+    {
+      "name": "Brenton Strange",
+      "pos": "TE",
+      "year": 2023,
+      "round": 2,
+      "pick": 61,
+      "pred": 3.35,
+      "actual": 5.61,
+      "p_hit": 0.941,
       "hit": true
     },
     {
@@ -1251,7 +1906,7 @@
       "year": 2017,
       "round": 2,
       "pick": 62,
-      "pred": 7.46,
+      "pred": 7.7,
       "actual": 10.99,
       "p_hit": 0.962,
       "hit": true
@@ -1262,7 +1917,7 @@
       "year": 2019,
       "round": 2,
       "pick": 62,
-      "pred": 6.71,
+      "pred": 6.95,
       "actual": 4.38,
       "p_hit": 0.974,
       "hit": true
@@ -1295,7 +1950,7 @@
       "year": 2023,
       "round": 2,
       "pick": 63,
-      "pred": 6.07,
+      "pred": 6.28,
       "actual": 5.87,
       "p_hit": 0.986,
       "hit": true
@@ -1306,10 +1961,21 @@
       "year": 2019,
       "round": 2,
       "pick": 64,
-      "pred": 5.47,
+      "pred": 5.65,
       "actual": 10.86,
       "p_hit": 0.962,
       "hit": true
+    },
+    {
+      "name": "Kyle Trask",
+      "pos": "QB",
+      "year": 2021,
+      "round": 2,
+      "pick": 64,
+      "pred": 6.58,
+      "actual": 0,
+      "p_hit": 0.768,
+      "hit": false
     },
     {
       "name": "Diontae Johnson",
@@ -1317,10 +1983,21 @@
       "year": 2019,
       "round": 3,
       "pick": 66,
-      "pred": 5.69,
+      "pred": 5.88,
       "actual": 10.56,
       "p_hit": 0.944,
       "hit": true
+    },
+    {
+      "name": "Kellen Mond",
+      "pos": "QB",
+      "year": 2021,
+      "round": 3,
+      "pick": 66,
+      "pred": 9.92,
+      "actual": 0,
+      "p_hit": 0.782,
+      "hit": false
     },
     {
       "name": "Alvin Kamara",
@@ -1339,9 +2016,31 @@
       "year": 2019,
       "round": 3,
       "pick": 67,
-      "pred": 5.02,
+      "pred": 5.23,
       "actual": 0,
       "p_hit": 0.844,
+      "hit": false
+    },
+    {
+      "name": "Davis Mills",
+      "pos": "QB",
+      "year": 2021,
+      "round": 3,
+      "pick": 67,
+      "pred": 8.12,
+      "actual": 11.95,
+      "p_hit": 0.749,
+      "hit": true
+    },
+    {
+      "name": "Hendon Hooker",
+      "pos": "QB",
+      "year": 2023,
+      "round": 3,
+      "pick": 68,
+      "pred": 10.73,
+      "actual": 0,
+      "p_hit": 0.928,
       "hit": false
     },
     {
@@ -1350,7 +2049,7 @@
       "year": 2017,
       "round": 3,
       "pick": 69,
-      "pred": 4.83,
+      "pred": 5,
       "actual": 10.85,
       "p_hit": 0.863,
       "hit": true
@@ -1361,9 +2060,20 @@
       "year": 2023,
       "round": 3,
       "pick": 69,
-      "pred": 6.16,
+      "pred": 6.39,
       "actual": 8.79,
       "p_hit": 0.962,
+      "hit": true
+    },
+    {
+      "name": "Josh Oliver",
+      "pos": "TE",
+      "year": 2019,
+      "round": 3,
+      "pick": 69,
+      "pred": 5.33,
+      "actual": 2.98,
+      "p_hit": 0.911,
       "hit": true
     },
     {
@@ -1394,7 +2104,7 @@
       "year": 2022,
       "round": 3,
       "pick": 71,
-      "pred": 4.01,
+      "pred": 4.18,
       "actual": 3.48,
       "p_hit": 0.972,
       "hit": true
@@ -1416,7 +2126,7 @@
       "year": 2017,
       "round": 3,
       "pick": 72,
-      "pred": 5.63,
+      "pred": 5.81,
       "actual": 4.58,
       "p_hit": 0.966,
       "hit": true
@@ -1449,9 +2159,20 @@
       "year": 2023,
       "round": 3,
       "pick": 73,
-      "pred": 6.23,
+      "pred": 6.42,
       "actual": 3.96,
       "p_hit": 0.992,
+      "hit": true
+    },
+    {
+      "name": "Jelani Woods",
+      "pos": "TE",
+      "year": 2022,
+      "round": 3,
+      "pick": 73,
+      "pred": 6.06,
+      "actual": 4.68,
+      "p_hit": 0.936,
       "hit": true
     },
     {
@@ -1471,9 +2192,31 @@
       "year": 2023,
       "round": 3,
       "pick": 74,
-      "pred": 5.66,
+      "pred": 5.85,
       "actual": 5.7,
       "p_hit": 0.967,
+      "hit": true
+    },
+    {
+      "name": "Desmond Ridder",
+      "pos": "QB",
+      "year": 2022,
+      "round": 3,
+      "pick": 74,
+      "pred": 8.02,
+      "actual": 11.74,
+      "p_hit": 0.735,
+      "hit": true
+    },
+    {
+      "name": "Jace Sternberger",
+      "pos": "TE",
+      "year": 2019,
+      "round": 3,
+      "pick": 75,
+      "pred": 5.43,
+      "actual": 3.87,
+      "p_hit": 0.911,
       "hit": true
     },
     {
@@ -1482,7 +2225,7 @@
       "year": 2019,
       "round": 3,
       "pick": 76,
-      "pred": 4.7,
+      "pred": 4.86,
       "actual": 9.75,
       "p_hit": 0.95,
       "hit": true
@@ -1499,14 +2242,36 @@
       "hit": true
     },
     {
+      "name": "Mason Rudolph",
+      "pos": "QB",
+      "year": 2018,
+      "round": 3,
+      "pick": 76,
+      "pred": 4.87,
+      "actual": 11.39,
+      "p_hit": 0.697,
+      "hit": true
+    },
+    {
       "name": "Josh Palmer",
       "pos": "WR",
       "year": 2021,
       "round": 3,
       "pick": 77,
-      "pred": 5.51,
+      "pred": 5.7,
       "actual": 7.53,
       "p_hit": 0.927,
+      "hit": true
+    },
+    {
+      "name": "Tucker Kraft",
+      "pos": "TE",
+      "year": 2023,
+      "round": 3,
+      "pick": 78,
+      "pred": 3.42,
+      "actual": 7.54,
+      "p_hit": 0.945,
       "hit": true
     },
     {
@@ -1515,7 +2280,7 @@
       "year": 2017,
       "round": 3,
       "pick": 79,
-      "pred": 5.11,
+      "pred": 5.3,
       "actual": 3.9,
       "p_hit": 0.897,
       "hit": true
@@ -1526,7 +2291,7 @@
       "year": 2023,
       "round": 3,
       "pick": 79,
-      "pred": 5.54,
+      "pred": 5.71,
       "actual": 7.79,
       "p_hit": 0.965,
       "hit": true
@@ -1537,9 +2302,20 @@
       "year": 2020,
       "round": 3,
       "pick": 80,
-      "pred": 6.6,
+      "pred": 6.87,
       "actual": 5.4,
       "p_hit": 0.764,
+      "hit": true
+    },
+    {
+      "name": "Greg Dulcich",
+      "pos": "TE",
+      "year": 2022,
+      "round": 3,
+      "pick": 80,
+      "pred": 4.05,
+      "actual": 5.35,
+      "p_hit": 0.936,
       "hit": true
     },
     {
@@ -1548,7 +2324,7 @@
       "year": 2018,
       "round": 3,
       "pick": 81,
-      "pred": 5.5,
+      "pred": 5.68,
       "actual": 9.11,
       "p_hit": 0.969,
       "hit": true
@@ -1559,7 +2335,7 @@
       "year": 2020,
       "round": 3,
       "pick": 81,
-      "pred": 5.84,
+      "pred": 6.05,
       "actual": 5.33,
       "p_hit": 0.953,
       "hit": true
@@ -1576,12 +2352,34 @@
       "hit": true
     },
     {
+      "name": "Austin Hooper",
+      "pos": "TE",
+      "year": 2016,
+      "round": 3,
+      "pick": 81,
+      "pred": 4.06,
+      "actual": 6.08,
+      "p_hit": 0.866,
+      "hit": true
+    },
+    {
+      "name": "Hunter Long",
+      "pos": "TE",
+      "year": 2021,
+      "round": 3,
+      "pick": 81,
+      "pred": 4.23,
+      "actual": 0,
+      "p_hit": 0.932,
+      "hit": false
+    },
+    {
       "name": "Carlos Henderson",
       "pos": "WR",
       "year": 2017,
       "round": 3,
       "pick": 82,
-      "pred": 4.91,
+      "pred": 5.07,
       "actual": 0,
       "p_hit": 0.972,
       "hit": false
@@ -1592,9 +2390,20 @@
       "year": 2021,
       "round": 3,
       "pick": 82,
-      "pred": 6.31,
+      "pred": 6.54,
       "actual": 4.22,
       "p_hit": 0.98,
+      "hit": true
+    },
+    {
+      "name": "Tommy Tremble",
+      "pos": "TE",
+      "year": 2021,
+      "round": 3,
+      "pick": 83,
+      "pred": 4.24,
+      "actual": 3.55,
+      "p_hit": 0.931,
       "hit": true
     },
     {
@@ -1603,7 +2412,7 @@
       "year": 2017,
       "round": 3,
       "pick": 84,
-      "pred": 5.37,
+      "pred": 5.54,
       "actual": 10.53,
       "p_hit": 0.839,
       "hit": true
@@ -1625,7 +2434,7 @@
       "year": 2016,
       "round": 3,
       "pick": 85,
-      "pred": 3.46,
+      "pred": 3.59,
       "actual": 4.18,
       "p_hit": 0.949,
       "hit": true
@@ -1636,7 +2445,7 @@
       "year": 2021,
       "round": 3,
       "pick": 85,
-      "pred": 6.55,
+      "pred": 6.78,
       "actual": 2.94,
       "p_hit": 0.982,
       "hit": true
@@ -1647,7 +2456,7 @@
       "year": 2016,
       "round": 3,
       "pick": 86,
-      "pred": 5.46,
+      "pred": 5.62,
       "actual": 0,
       "p_hit": 0.936,
       "hit": false
@@ -1675,6 +2484,39 @@
       "hit": true
     },
     {
+      "name": "Malik Willis",
+      "pos": "QB",
+      "year": 2022,
+      "round": 3,
+      "pick": 86,
+      "pred": 8.57,
+      "actual": 8.91,
+      "p_hit": 0.642,
+      "hit": true
+    },
+    {
+      "name": "Mark Andrews",
+      "pos": "TE",
+      "year": 2018,
+      "round": 3,
+      "pick": 86,
+      "pred": 4.83,
+      "actual": 8.57,
+      "p_hit": 0.897,
+      "hit": true
+    },
+    {
+      "name": "Kahale Warring",
+      "pos": "TE",
+      "year": 2019,
+      "round": 3,
+      "pick": 86,
+      "pred": 4.88,
+      "actual": 0,
+      "p_hit": 0.911,
+      "hit": false
+    },
+    {
       "name": "Damien Harris",
       "pos": "RB",
       "year": 2019,
@@ -1684,6 +2526,17 @@
       "actual": 10.1,
       "p_hit": 0.937,
       "hit": true
+    },
+    {
+      "name": "Davis Webb",
+      "pos": "QB",
+      "year": 2017,
+      "round": 3,
+      "pick": 87,
+      "pred": 8.44,
+      "actual": 0,
+      "p_hit": 0.619,
+      "hit": false
     },
     {
       "name": "Trey Sermon",
@@ -1702,7 +2555,7 @@
       "year": 2022,
       "round": 3,
       "pick": 88,
-      "pred": 5.14,
+      "pred": 5.33,
       "actual": 5.8,
       "p_hit": 0.913,
       "hit": true
@@ -1735,7 +2588,7 @@
       "year": 2021,
       "round": 3,
       "pick": 89,
-      "pred": 5.91,
+      "pred": 6.13,
       "actual": 9.62,
       "p_hit": 0.984,
       "hit": true
@@ -1757,7 +2610,7 @@
       "year": 2018,
       "round": 3,
       "pick": 91,
-      "pred": 4.98,
+      "pred": 5.13,
       "actual": 6.39,
       "p_hit": 0.963,
       "hit": true
@@ -1768,7 +2621,7 @@
       "year": 2021,
       "round": 3,
       "pick": 91,
-      "pred": 5.52,
+      "pred": 5.68,
       "actual": 3.91,
       "p_hit": 0.978,
       "hit": true
@@ -1785,12 +2638,34 @@
       "hit": true
     },
     {
+      "name": "Jacoby Brissett",
+      "pos": "QB",
+      "year": 2016,
+      "round": 3,
+      "pick": 91,
+      "pred": 7.89,
+      "actual": 12.29,
+      "p_hit": 0.604,
+      "hit": true
+    },
+    {
+      "name": "Devin Asiasi",
+      "pos": "TE",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "pred": 4.56,
+      "actual": 0,
+      "p_hit": 0.926,
+      "hit": false
+    },
+    {
       "name": "Devin Duvernay",
       "pos": "WR",
       "year": 2020,
       "round": 3,
       "pick": 92,
-      "pred": 4.68,
+      "pred": 4.9,
       "actual": 5.52,
       "p_hit": 0.785,
       "hit": true
@@ -1801,7 +2676,7 @@
       "year": 2019,
       "round": 3,
       "pick": 93,
-      "pred": 4.95,
+      "pred": 5.11,
       "actual": 4.76,
       "p_hit": 0.98,
       "hit": true
@@ -1829,14 +2704,69 @@
       "hit": false
     },
     {
+      "name": "Cody Kessler",
+      "pos": "QB",
+      "year": 2016,
+      "round": 3,
+      "pick": 93,
+      "pred": 5.09,
+      "actual": 10.57,
+      "p_hit": 0.604,
+      "hit": true
+    },
+    {
+      "name": "Darnell Washington",
+      "pos": "TE",
+      "year": 2023,
+      "round": 3,
+      "pick": 93,
+      "pred": 3.79,
+      "actual": 3.88,
+      "p_hit": 0.945,
+      "hit": true
+    },
+    {
       "name": "Michael Wilson",
       "pos": "WR",
       "year": 2023,
       "round": 3,
       "pick": 94,
-      "pred": 4.24,
+      "pred": 4.41,
       "actual": 8.1,
       "p_hit": 0.982,
+      "hit": true
+    },
+    {
+      "name": "Matt Corral",
+      "pos": "QB",
+      "year": 2022,
+      "round": 3,
+      "pick": 94,
+      "pred": 4.74,
+      "actual": 0,
+      "p_hit": 0.679,
+      "hit": false
+    },
+    {
+      "name": "Nick Vannett",
+      "pos": "TE",
+      "year": 2016,
+      "round": 3,
+      "pick": 94,
+      "pred": 3.92,
+      "actual": 3.74,
+      "p_hit": 0.866,
+      "hit": true
+    },
+    {
+      "name": "Josiah Deguara",
+      "pos": "TE",
+      "year": 2020,
+      "round": 3,
+      "pick": 94,
+      "pred": 4.62,
+      "actual": 3.5,
+      "p_hit": 0.926,
       "hit": true
     },
     {
@@ -1845,9 +2775,31 @@
       "year": 2017,
       "round": 3,
       "pick": 96,
-      "pred": 3.42,
+      "pred": 3.61,
       "actual": 10.28,
       "p_hit": 0.809,
+      "hit": true
+    },
+    {
+      "name": "Dawson Knox",
+      "pos": "TE",
+      "year": 2019,
+      "round": 3,
+      "pick": 96,
+      "pred": 4,
+      "actual": 6.28,
+      "p_hit": 0.911,
+      "hit": true
+    },
+    {
+      "name": "Tre' McKitty",
+      "pos": "TE",
+      "year": 2021,
+      "round": 3,
+      "pick": 97,
+      "pred": 4.02,
+      "actual": 2.55,
+      "p_hit": 0.931,
       "hit": true
     },
     {
@@ -1856,7 +2808,7 @@
       "year": 2017,
       "round": 3,
       "pick": 98,
-      "pred": 4.27,
+      "pred": 4.48,
       "actual": 4.24,
       "p_hit": 0.905,
       "hit": true
@@ -1873,12 +2825,23 @@
       "hit": true
     },
     {
+      "name": "Jordan Akins",
+      "pos": "TE",
+      "year": 2018,
+      "round": 3,
+      "pick": 98,
+      "pred": 3.54,
+      "actual": 4.59,
+      "p_hit": 0.897,
+      "hit": true
+    },
+    {
       "name": "David Bell",
       "pos": "WR",
       "year": 2022,
       "round": 3,
       "pick": 99,
-      "pred": 5.72,
+      "pred": 5.91,
       "actual": 4.26,
       "p_hit": 0.976,
       "hit": true
@@ -1889,9 +2852,86 @@
       "year": 2023,
       "round": 3,
       "pick": 100,
-      "pred": 4.17,
+      "pred": 4.29,
       "actual": 6.69,
       "p_hit": 0.984,
+      "hit": true
+    },
+    {
+      "name": "Connor Cook",
+      "pos": "QB",
+      "year": 2016,
+      "round": 4,
+      "pick": 100,
+      "pred": 6.34,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
+    },
+    {
+      "name": "Will Grier",
+      "pos": "QB",
+      "year": 2019,
+      "round": 3,
+      "pick": 100,
+      "pred": 3.88,
+      "actual": 0,
+      "p_hit": 0.662,
+      "hit": false
+    },
+    {
+      "name": "Jonnu Smith",
+      "pos": "TE",
+      "year": 2017,
+      "round": 3,
+      "pick": 100,
+      "pred": 4.69,
+      "actual": 4.89,
+      "p_hit": 0.877,
+      "hit": true
+    },
+    {
+      "name": "Ian Thomas",
+      "pos": "TE",
+      "year": 2018,
+      "round": 4,
+      "pick": 101,
+      "pred": 4.41,
+      "actual": 4.45,
+      "p_hit": 0.897,
+      "hit": true
+    },
+    {
+      "name": "Dalton Keene",
+      "pos": "TE",
+      "year": 2020,
+      "round": 3,
+      "pick": 101,
+      "pred": 4.48,
+      "actual": 0,
+      "p_hit": 0.926,
+      "hit": false
+    },
+    {
+      "name": "Jeremy Ruckert",
+      "pos": "TE",
+      "year": 2022,
+      "round": 3,
+      "pick": 101,
+      "pred": 3.71,
+      "actual": 2.8,
+      "p_hit": 0.936,
+      "hit": true
+    },
+    {
+      "name": "Cameron Latu",
+      "pos": "TE",
+      "year": 2023,
+      "round": 3,
+      "pick": 101,
+      "pred": 3.7,
+      "actual": 2.67,
+      "p_hit": 0.945,
       "hit": true
     },
     {
@@ -1911,7 +2951,7 @@
       "year": 2018,
       "round": 4,
       "pick": 103,
-      "pred": 5.59,
+      "pred": 5.8,
       "actual": 7.22,
       "p_hit": 0.974,
       "hit": true
@@ -1922,7 +2962,7 @@
       "year": 2019,
       "round": 4,
       "pick": 103,
-      "pred": 3.71,
+      "pred": 3.86,
       "actual": 0,
       "p_hit": 0.909,
       "hit": false
@@ -1937,6 +2977,28 @@
       "actual": 8.65,
       "p_hit": 0.918,
       "hit": true
+    },
+    {
+      "name": "C.J. Beathard",
+      "pos": "QB",
+      "year": 2017,
+      "round": 3,
+      "pick": 104,
+      "pred": 6.18,
+      "actual": 12.55,
+      "p_hit": 0.603,
+      "hit": true
+    },
+    {
+      "name": "Ryan Finley",
+      "pos": "QB",
+      "year": 2019,
+      "round": 4,
+      "pick": 104,
+      "pred": 6.47,
+      "actual": 0,
+      "p_hit": 0.608,
+      "hit": false
     },
     {
       "name": "James Conner",
@@ -1955,7 +3017,7 @@
       "year": 2018,
       "round": 4,
       "pick": 105,
-      "pred": 4.86,
+      "pred": 5.02,
       "actual": 6.44,
       "p_hit": 0.955,
       "hit": true
@@ -1966,7 +3028,7 @@
       "year": 2022,
       "round": 3,
       "pick": 105,
-      "pred": 4.42,
+      "pred": 4.61,
       "actual": 4.25,
       "p_hit": 0.935,
       "hit": true
@@ -1977,9 +3039,20 @@
       "year": 2017,
       "round": 3,
       "pick": 106,
-      "pred": 3.43,
+      "pred": 3.6,
       "actual": 4.44,
       "p_hit": 0.905,
+      "hit": true
+    },
+    {
+      "name": "Cade Otton",
+      "pos": "TE",
+      "year": 2022,
+      "round": 4,
+      "pick": 106,
+      "pred": 3.45,
+      "actual": 5.86,
+      "p_hit": 0.931,
       "hit": true
     },
     {
@@ -1988,7 +3061,7 @@
       "year": 2016,
       "round": 4,
       "pick": 107,
-      "pred": 3.46,
+      "pred": 3.59,
       "actual": 4.16,
       "p_hit": 0.886,
       "hit": true
@@ -2016,12 +3089,23 @@
       "hit": true
     },
     {
+      "name": "Kyle Lauletta",
+      "pos": "QB",
+      "year": 2018,
+      "round": 4,
+      "pick": 108,
+      "pred": 4.39,
+      "actual": 0,
+      "p_hit": 0.443,
+      "hit": false
+    },
+    {
       "name": "Dez Fitzpatrick",
       "pos": "WR",
       "year": 2021,
       "round": 4,
       "pick": 109,
-      "pred": 4.6,
+      "pred": 4.78,
       "actual": 0,
       "p_hit": 0.87,
       "hit": false
@@ -2032,9 +3116,20 @@
       "year": 2017,
       "round": 4,
       "pick": 110,
-      "pred": 3.78,
+      "pred": 3.95,
       "actual": 7.82,
       "p_hit": 0.897,
+      "hit": true
+    },
+    {
+      "name": "Tyler Higbee",
+      "pos": "TE",
+      "year": 2016,
+      "round": 4,
+      "pick": 110,
+      "pred": 3.74,
+      "actual": 3.88,
+      "p_hit": 0.866,
       "hit": true
     },
     {
@@ -2043,7 +3138,7 @@
       "year": 2016,
       "round": 4,
       "pick": 112,
-      "pred": 3.41,
+      "pred": 3.57,
       "actual": 6.27,
       "p_hit": 0.793,
       "hit": true
@@ -2087,9 +3182,20 @@
       "year": 2021,
       "round": 4,
       "pick": 112,
-      "pred": 5.77,
+      "pred": 5.94,
       "actual": 12.11,
       "p_hit": 0.983,
+      "hit": true
+    },
+    {
+      "name": "Daniel Bellinger",
+      "pos": "TE",
+      "year": 2022,
+      "round": 4,
+      "pick": 112,
+      "pred": 3.61,
+      "actual": 4.08,
+      "p_hit": 0.931,
       "hit": true
     },
     {
@@ -2098,7 +3204,7 @@
       "year": 2018,
       "round": 4,
       "pick": 113,
-      "pred": 3.51,
+      "pred": 3.64,
       "actual": 5.06,
       "p_hit": 0.93,
       "hit": true
@@ -2120,7 +3226,7 @@
       "year": 2016,
       "round": 4,
       "pick": 114,
-      "pred": 3.62,
+      "pred": 3.77,
       "actual": 3.96,
       "p_hit": 0.802,
       "hit": true
@@ -2148,12 +3254,23 @@
       "hit": true
     },
     {
+      "name": "Harrison Bryant",
+      "pos": "TE",
+      "year": 2020,
+      "round": 4,
+      "pick": 115,
+      "pred": 3.4,
+      "actual": 3.98,
+      "p_hit": 0.926,
+      "hit": true
+    },
+    {
       "name": "Pharoh Cooper",
       "pos": "WR",
       "year": 2016,
       "round": 4,
       "pick": 117,
-      "pred": 5.44,
+      "pred": 5.59,
       "actual": 3.21,
       "p_hit": 0.95,
       "hit": true
@@ -2164,7 +3281,7 @@
       "year": 2017,
       "round": 4,
       "pick": 117,
-      "pred": 5.28,
+      "pred": 5.44,
       "actual": 5.28,
       "p_hit": 0.964,
       "hit": true
@@ -2175,9 +3292,20 @@
       "year": 2017,
       "round": 4,
       "pick": 118,
-      "pred": 4.1,
+      "pred": 4.28,
       "actual": 3.74,
       "p_hit": 0.87,
+      "hit": true
+    },
+    {
+      "name": "Albert Okwuegbunam",
+      "pos": "TE",
+      "year": 2020,
+      "round": 4,
+      "pick": 118,
+      "pred": 3.71,
+      "actual": 4.15,
+      "p_hit": 0.926,
       "hit": true
     },
     {
@@ -2236,6 +3364,17 @@
       "hit": true
     },
     {
+      "name": "Will Dissly",
+      "pos": "TE",
+      "year": 2018,
+      "round": 4,
+      "pick": 120,
+      "pred": 3.38,
+      "actual": 4.89,
+      "p_hit": 0.889,
+      "hit": true
+    },
+    {
       "name": "Joe Williams",
       "pos": "RB",
       "year": 2017,
@@ -2245,6 +3384,17 @@
       "actual": 0,
       "p_hit": 0.905,
       "hit": false
+    },
+    {
+      "name": "Trevon Wesco",
+      "pos": "TE",
+      "year": 2019,
+      "round": 4,
+      "pick": 121,
+      "pred": 3.65,
+      "actual": 2.68,
+      "p_hit": 0.908,
+      "hit": true
     },
     {
       "name": "Benny Snell Jr.",
@@ -2269,6 +3419,17 @@
       "hit": true
     },
     {
+      "name": "Jacob Eason",
+      "pos": "QB",
+      "year": 2020,
+      "round": 4,
+      "pick": 122,
+      "pred": 1.66,
+      "actual": 0,
+      "p_hit": 0.154,
+      "hit": false
+    },
+    {
       "name": "Isaiah Spiller",
       "pos": "RB",
       "year": 2022,
@@ -2280,12 +3441,34 @@
       "hit": true
     },
     {
+      "name": "Durham Smythe",
+      "pos": "TE",
+      "year": 2018,
+      "round": 4,
+      "pick": 123,
+      "pred": 3.62,
+      "actual": 3.33,
+      "p_hit": 0.889,
+      "hit": true
+    },
+    {
+      "name": "John Bates",
+      "pos": "TE",
+      "year": 2021,
+      "round": 4,
+      "pick": 124,
+      "pred": 3.5,
+      "actual": 3.63,
+      "p_hit": 0.929,
+      "hit": true
+    },
+    {
       "name": "Erik Ezukanma",
       "pos": "WR",
       "year": 2022,
       "round": 4,
       "pick": 125,
-      "pred": 3.69,
+      "pred": 3.85,
       "actual": 0,
       "p_hit": 0.919,
       "hit": false
@@ -2296,10 +3479,21 @@
       "year": 2023,
       "round": 4,
       "pick": 125,
-      "pred": 4,
+      "pred": 4.17,
       "actual": 3.32,
       "p_hit": 0.972,
       "hit": true
+    },
+    {
+      "name": "James Morgan",
+      "pos": "QB",
+      "year": 2020,
+      "round": 4,
+      "pick": 125,
+      "pred": 4.09,
+      "actual": 0,
+      "p_hit": 0.212,
+      "hit": false
     },
     {
       "name": "Demarcus Robinson",
@@ -2307,7 +3501,7 @@
       "year": 2016,
       "round": 4,
       "pick": 126,
-      "pred": 5.19,
+      "pred": 5.35,
       "actual": 4.77,
       "p_hit": 0.912,
       "hit": true
@@ -2329,7 +3523,7 @@
       "year": 2019,
       "round": 4,
       "pick": 126,
-      "pred": 3.86,
+      "pred": 4.01,
       "actual": 0,
       "p_hit": 0.946,
       "hit": false
@@ -2357,12 +3551,45 @@
       "hit": true
     },
     {
+      "name": "Jake Haener",
+      "pos": "QB",
+      "year": 2023,
+      "round": 4,
+      "pick": 127,
+      "pred": 3.48,
+      "actual": 8.36,
+      "p_hit": 0.138,
+      "hit": true
+    },
+    {
+      "name": "Michael Roberts",
+      "pos": "TE",
+      "year": 2017,
+      "round": 4,
+      "pick": 127,
+      "pred": 3.6,
+      "actual": 3.62,
+      "p_hit": 0.877,
+      "hit": true
+    },
+    {
+      "name": "Kylen Granson",
+      "pos": "TE",
+      "year": 2021,
+      "round": 4,
+      "pick": 127,
+      "pred": 3.3,
+      "actual": 3.94,
+      "p_hit": 0.93,
+      "hit": true
+    },
+    {
       "name": "Josh Malone",
       "pos": "WR",
       "year": 2017,
       "round": 4,
       "pick": 128,
-      "pred": 5.05,
+      "pred": 5.25,
       "actual": 4.44,
       "p_hit": 0.949,
       "hit": true
@@ -2379,14 +3606,47 @@
       "hit": true
     },
     {
+      "name": "Stetson Bennett",
+      "pos": "QB",
+      "year": 2023,
+      "round": 4,
+      "pick": 128,
+      "pred": 7.29,
+      "actual": 0,
+      "p_hit": 0.402,
+      "hit": false
+    },
+    {
+      "name": "Charlie Kolar",
+      "pos": "TE",
+      "year": 2022,
+      "round": 4,
+      "pick": 128,
+      "pred": 3.38,
+      "actual": 3.18,
+      "p_hit": 0.931,
+      "hit": true
+    },
+    {
       "name": "Jaelon Darden",
       "pos": "WR",
       "year": 2021,
       "round": 4,
       "pick": 129,
-      "pred": 5.38,
+      "pred": 5.57,
       "actual": 2.76,
       "p_hit": 0.969,
+      "hit": true
+    },
+    {
+      "name": "Jake Ferguson",
+      "pos": "TE",
+      "year": 2022,
+      "round": 4,
+      "pick": 129,
+      "pred": 3.29,
+      "actual": 6.08,
+      "p_hit": 0.934,
       "hit": true
     },
     {
@@ -2406,7 +3666,7 @@
       "year": 2021,
       "round": 4,
       "pick": 131,
-      "pred": 4.68,
+      "pred": 4.83,
       "actual": 3.32,
       "p_hit": 0.949,
       "hit": true
@@ -2428,7 +3688,7 @@
       "year": 2023,
       "round": 4,
       "pick": 131,
-      "pred": 3.57,
+      "pred": 3.72,
       "actual": 3.52,
       "p_hit": 0.945,
       "hit": true
@@ -2450,7 +3710,7 @@
       "year": 2018,
       "round": 4,
       "pick": 132,
-      "pred": 3.08,
+      "pred": 3.22,
       "actual": 0,
       "p_hit": 0.924,
       "hit": false
@@ -2461,7 +3721,7 @@
       "year": 2022,
       "round": 4,
       "pick": 132,
-      "pred": 4.67,
+      "pred": 4.85,
       "actual": 7.6,
       "p_hit": 0.948,
       "hit": true
@@ -2472,7 +3732,7 @@
       "year": 2017,
       "round": 4,
       "pick": 133,
-      "pred": 3.95,
+      "pred": 4.15,
       "actual": 3.34,
       "p_hit": 0.943,
       "hit": true
@@ -2483,7 +3743,7 @@
       "year": 2018,
       "round": 4,
       "pick": 133,
-      "pred": 3.42,
+      "pred": 3.54,
       "actual": 4.26,
       "p_hit": 0.843,
       "hit": true
@@ -2494,9 +3754,42 @@
       "year": 2023,
       "round": 4,
       "pick": 133,
-      "pred": 4.93,
+      "pred": 5.08,
       "actual": 4.24,
       "p_hit": 0.965,
+      "hit": true
+    },
+    {
+      "name": "Jarrett Stidham",
+      "pos": "QB",
+      "year": 2019,
+      "round": 4,
+      "pick": 133,
+      "pred": 6.02,
+      "actual": 0,
+      "p_hit": 0.25,
+      "hit": false
+    },
+    {
+      "name": "Ian Book",
+      "pos": "QB",
+      "year": 2021,
+      "round": 4,
+      "pick": 133,
+      "pred": 5.38,
+      "actual": 0,
+      "p_hit": 0.245,
+      "hit": false
+    },
+    {
+      "name": "Colby Parkinson",
+      "pos": "TE",
+      "year": 2020,
+      "round": 4,
+      "pick": 133,
+      "pred": 2.91,
+      "actual": 4.21,
+      "p_hit": 0.919,
       "hit": true
     },
     {
@@ -2533,6 +3826,39 @@
       "hit": true
     },
     {
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "year": 2016,
+      "round": 4,
+      "pick": 135,
+      "pred": 7.13,
+      "actual": 15.84,
+      "p_hit": 0.604,
+      "hit": true
+    },
+    {
+      "name": "Joshua Dobbs",
+      "pos": "QB",
+      "year": 2017,
+      "round": 4,
+      "pick": 135,
+      "pred": 5.65,
+      "actual": 0,
+      "p_hit": 0.478,
+      "hit": false
+    },
+    {
+      "name": "Aidan O'Connell",
+      "pos": "QB",
+      "year": 2023,
+      "round": 4,
+      "pick": 135,
+      "pred": 1.6,
+      "actual": 11.3,
+      "p_hit": 0.136,
+      "hit": true
+    },
+    {
       "name": "Devontae Booker",
       "pos": "RB",
       "year": 2016,
@@ -2544,12 +3870,56 @@
       "hit": true
     },
     {
+      "name": "Brycen Hopkins",
+      "pos": "TE",
+      "year": 2020,
+      "round": 4,
+      "pick": 136,
+      "pred": 3.96,
+      "actual": 3.65,
+      "p_hit": 0.92,
+      "hit": true
+    },
+    {
+      "name": "Bailey Zappe",
+      "pos": "QB",
+      "year": 2022,
+      "round": 4,
+      "pick": 137,
+      "pred": 4.77,
+      "actual": 9.87,
+      "p_hit": 0.127,
+      "hit": true
+    },
+    {
+      "name": "Dalton Schultz",
+      "pos": "TE",
+      "year": 2018,
+      "round": 4,
+      "pick": 137,
+      "pred": 3.09,
+      "actual": 5.05,
+      "p_hit": 0.887,
+      "hit": true
+    },
+    {
+      "name": "Foster Moreau",
+      "pos": "TE",
+      "year": 2019,
+      "round": 4,
+      "pick": 137,
+      "pred": 3.91,
+      "actual": 4.71,
+      "p_hit": 0.908,
+      "hit": true
+    },
+    {
       "name": "Calvin Austin III",
       "pos": "WR",
       "year": 2022,
       "round": 4,
       "pick": 138,
-      "pred": 4.47,
+      "pred": 4.62,
       "actual": 4.95,
       "p_hit": 0.92,
       "hit": true
@@ -2560,9 +3930,42 @@
       "year": 2017,
       "round": 4,
       "pick": 139,
-      "pred": 2.82,
+      "pred": 2.96,
       "actual": 3.54,
       "p_hit": 0.829,
+      "hit": true
+    },
+    {
+      "name": "Cardale Jones",
+      "pos": "QB",
+      "year": 2016,
+      "round": 4,
+      "pick": 139,
+      "pred": 5.36,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
+    },
+    {
+      "name": "Clayton Tune",
+      "pos": "QB",
+      "year": 2023,
+      "round": 5,
+      "pick": 139,
+      "pred": 2.9,
+      "actual": 8.86,
+      "p_hit": 0.236,
+      "hit": true
+    },
+    {
+      "name": "Isaiah Likely",
+      "pos": "TE",
+      "year": 2022,
+      "round": 4,
+      "pick": 139,
+      "pred": 3.9,
+      "actual": 5.74,
+      "p_hit": 0.93,
       "hit": true
     },
     {
@@ -2571,7 +3974,7 @@
       "year": 2016,
       "round": 5,
       "pick": 140,
-      "pred": 5.36,
+      "pred": 5.55,
       "actual": 5.07,
       "p_hit": 0.863,
       "hit": true
@@ -2599,12 +4002,23 @@
       "hit": true
     },
     {
+      "name": "Dorian Thompson-Robinson",
+      "pos": "QB",
+      "year": 2023,
+      "round": 5,
+      "pick": 140,
+      "pred": 4.57,
+      "actual": 7.77,
+      "p_hit": 0.303,
+      "hit": true
+    },
+    {
       "name": "Chad Hansen",
       "pos": "WR",
       "year": 2017,
       "round": 4,
       "pick": 141,
-      "pred": 4.12,
+      "pred": 4.26,
       "actual": 4.56,
       "p_hit": 0.967,
       "hit": true
@@ -2615,10 +4029,21 @@
       "year": 2021,
       "round": 4,
       "pick": 141,
-      "pred": 4.12,
+      "pred": 4.31,
       "actual": 0,
       "p_hit": 0.91,
       "hit": false
+    },
+    {
+      "name": "Zach Gentry",
+      "pos": "TE",
+      "year": 2019,
+      "round": 5,
+      "pick": 141,
+      "pred": 3.33,
+      "actual": 3.68,
+      "p_hit": 0.905,
+      "hit": true
     },
     {
       "name": "Antonio Gandy-Golden",
@@ -2626,7 +4051,7 @@
       "year": 2020,
       "round": 4,
       "pick": 142,
-      "pred": 4.72,
+      "pred": 4.9,
       "actual": 0,
       "p_hit": 0.806,
       "hit": false
@@ -2676,12 +4101,78 @@
       "hit": true
     },
     {
+      "name": "Sam Howell",
+      "pos": "QB",
+      "year": 2022,
+      "round": 5,
+      "pick": 144,
+      "pred": 3.12,
+      "actual": 13.47,
+      "p_hit": 0.124,
+      "hit": true
+    },
+    {
+      "name": "Jake Butt",
+      "pos": "TE",
+      "year": 2017,
+      "round": 5,
+      "pick": 145,
+      "pred": 3.43,
+      "actual": 0,
+      "p_hit": 0.877,
+      "hit": false
+    },
+    {
+      "name": "Luke Farrell",
+      "pos": "TE",
+      "year": 2021,
+      "round": 5,
+      "pick": 145,
+      "pred": 2.98,
+      "actual": 2.96,
+      "p_hit": 0.915,
+      "hit": true
+    },
+    {
+      "name": "George Kittle",
+      "pos": "TE",
+      "year": 2017,
+      "round": 5,
+      "pick": 146,
+      "pred": 2.82,
+      "actual": 10.09,
+      "p_hit": 0.877,
+      "hit": true
+    },
+    {
+      "name": "Brevin Jordan",
+      "pos": "TE",
+      "year": 2021,
+      "round": 5,
+      "pick": 147,
+      "pred": 4.35,
+      "actual": 4.64,
+      "p_hit": 0.919,
+      "hit": true
+    },
+    {
+      "name": "Josh Whyle",
+      "pos": "TE",
+      "year": 2023,
+      "round": 5,
+      "pick": 147,
+      "pred": 3.45,
+      "actual": 3.4,
+      "p_hit": 0.938,
+      "hit": true
+    },
+    {
       "name": "Khalil Shakir",
       "pos": "WR",
       "year": 2022,
       "round": 5,
       "pick": 148,
-      "pred": 4.53,
+      "pred": 4.68,
       "actual": 7.1,
       "p_hit": 0.936,
       "hit": true
@@ -2703,9 +4194,31 @@
       "year": 2019,
       "round": 5,
       "pick": 149,
-      "pred": 2.83,
+      "pred": 2.97,
       "actual": 8.96,
       "p_hit": 0.848,
+      "hit": true
+    },
+    {
+      "name": "Sean Clifford",
+      "pos": "QB",
+      "year": 2023,
+      "round": 5,
+      "pick": 149,
+      "pred": 1.21,
+      "actual": 0,
+      "p_hit": 0.071,
+      "hit": false
+    },
+    {
+      "name": "Cole Turner",
+      "pos": "TE",
+      "year": 2022,
+      "round": 5,
+      "pick": 149,
+      "pred": 3.46,
+      "actual": 2.91,
+      "p_hit": 0.924,
       "hit": true
     },
     {
@@ -2736,10 +4249,21 @@
       "year": 2023,
       "round": 5,
       "pick": 150,
-      "pred": 2.5,
+      "pred": 2.68,
       "actual": 0,
       "p_hit": 0.685,
       "hit": false
+    },
+    {
+      "name": "Jordan Leggett",
+      "pos": "TE",
+      "year": 2017,
+      "round": 5,
+      "pick": 150,
+      "pred": 3.27,
+      "actual": 3.24,
+      "p_hit": 0.877,
+      "hit": true
     },
     {
       "name": "Joe Reed",
@@ -2747,7 +4271,7 @@
       "year": 2020,
       "round": 5,
       "pick": 151,
-      "pred": 3.1,
+      "pred": 3.32,
       "actual": 4.01,
       "p_hit": 0.68,
       "hit": true
@@ -2791,7 +4315,7 @@
       "year": 2016,
       "round": 5,
       "pick": 154,
-      "pred": 2.48,
+      "pred": 2.6,
       "actual": 0,
       "p_hit": 0.67,
       "hit": false
@@ -2817,6 +4341,17 @@
       "actual": 0,
       "p_hit": 0.937,
       "hit": false
+    },
+    {
+      "name": "Jeremy Sprinkle",
+      "pos": "TE",
+      "year": 2017,
+      "round": 5,
+      "pick": 154,
+      "pred": 3.26,
+      "actual": 3.13,
+      "p_hit": 0.877,
+      "hit": true
     },
     {
       "name": "Jonathan Williams",
@@ -2852,14 +4387,36 @@
       "hit": true
     },
     {
+      "name": "Troy Fumagalli",
+      "pos": "TE",
+      "year": 2018,
+      "round": 5,
+      "pick": 156,
+      "pred": 2.62,
+      "actual": 3.46,
+      "p_hit": 0.885,
+      "hit": true
+    },
+    {
       "name": "Ihmir Smith-Marsette",
       "pos": "WR",
       "year": 2021,
       "round": 5,
       "pick": 157,
-      "pred": 4.39,
+      "pred": 4.56,
       "actual": 3.85,
       "p_hit": 0.917,
+      "hit": true
+    },
+    {
+      "name": "Tyler Conklin",
+      "pos": "TE",
+      "year": 2018,
+      "round": 5,
+      "pick": 157,
+      "pred": 3.49,
+      "actual": 3.36,
+      "p_hit": 0.885,
       "hit": true
     },
     {
@@ -2868,7 +4425,7 @@
       "year": 2018,
       "round": 5,
       "pick": 159,
-      "pred": 2.68,
+      "pred": 2.82,
       "actual": 0,
       "p_hit": 0.835,
       "hit": false
@@ -2879,7 +4436,7 @@
       "year": 2023,
       "round": 5,
       "pick": 159,
-      "pred": 4.18,
+      "pred": 4.37,
       "actual": 5.97,
       "p_hit": 0.916,
       "hit": true
@@ -2890,7 +4447,7 @@
       "year": 2020,
       "round": 5,
       "pick": 161,
-      "pred": 4.25,
+      "pred": 4.46,
       "actual": 4.39,
       "p_hit": 0.498,
       "hit": true
@@ -2912,7 +4469,7 @@
       "year": 2018,
       "round": 5,
       "pick": 162,
-      "pred": 3.18,
+      "pred": 3.31,
       "actual": 0,
       "p_hit": 0.874,
       "hit": false
@@ -2923,9 +4480,42 @@
       "year": 2022,
       "round": 5,
       "pick": 162,
-      "pred": 1.78,
+      "pred": 1.94,
       "actual": 3.25,
       "p_hit": 0.431,
+      "hit": true
+    },
+    {
+      "name": "Kevin Hogan",
+      "pos": "QB",
+      "year": 2016,
+      "round": 5,
+      "pick": 162,
+      "pred": 6.47,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
+    },
+    {
+      "name": "Noah Gray",
+      "pos": "TE",
+      "year": 2021,
+      "round": 5,
+      "pick": 162,
+      "pred": 3.37,
+      "actual": 3.72,
+      "p_hit": 0.912,
+      "hit": true
+    },
+    {
+      "name": "Will Mallory",
+      "pos": "TE",
+      "year": 2023,
+      "round": 5,
+      "pick": 162,
+      "pred": 3.32,
+      "actual": 3.06,
+      "p_hit": 0.92,
       "hit": true
     },
     {
@@ -2934,7 +4524,7 @@
       "year": 2016,
       "round": 5,
       "pick": 163,
-      "pred": 1.56,
+      "pred": 1.66,
       "actual": 2.98,
       "p_hit": 0.416,
       "hit": true
@@ -2945,7 +4535,7 @@
       "year": 2022,
       "round": 5,
       "pick": 163,
-      "pred": 3.87,
+      "pred": 4.05,
       "actual": 5.04,
       "p_hit": 0.919,
       "hit": true
@@ -2973,12 +4563,23 @@
       "hit": true
     },
     {
+      "name": "Jaren Hall",
+      "pos": "QB",
+      "year": 2023,
+      "round": 5,
+      "pick": 164,
+      "pred": 2.44,
+      "actual": 0,
+      "p_hit": 0.306,
+      "hit": false
+    },
+    {
       "name": "Tyreek Hill",
       "pos": "WR",
       "year": 2016,
       "round": 5,
       "pick": 165,
-      "pred": 1.78,
+      "pred": 1.89,
       "actual": 12.63,
       "p_hit": 0.815,
       "hit": true
@@ -2989,9 +4590,20 @@
       "year": 2020,
       "round": 5,
       "pick": 165,
-      "pred": 2.79,
+      "pred": 2.98,
       "actual": 4.62,
       "p_hit": 0.757,
+      "hit": true
+    },
+    {
+      "name": "Jaylen Samuels",
+      "pos": "TE",
+      "year": 2018,
+      "round": 5,
+      "pick": 165,
+      "pred": 3.49,
+      "actual": 5.97,
+      "p_hit": 0.885,
       "hit": true
     },
     {
@@ -3000,7 +4612,7 @@
       "year": 2017,
       "round": 5,
       "pick": 166,
-      "pred": 3.93,
+      "pred": 4.07,
       "actual": 0,
       "p_hit": 0.806,
       "hit": false
@@ -3011,10 +4623,43 @@
       "year": 2020,
       "round": 5,
       "pick": 166,
-      "pred": 3.62,
+      "pred": 3.79,
       "actual": 5.44,
       "p_hit": 0.764,
       "hit": true
+    },
+    {
+      "name": "Easton Stick",
+      "pos": "QB",
+      "year": 2019,
+      "round": 5,
+      "pick": 166,
+      "pred": 4.45,
+      "actual": 0,
+      "p_hit": 0.306,
+      "hit": false
+    },
+    {
+      "name": "Clayton Thorson",
+      "pos": "QB",
+      "year": 2019,
+      "round": 5,
+      "pick": 167,
+      "pred": 2,
+      "actual": 0,
+      "p_hit": 0.204,
+      "hit": false
+    },
+    {
+      "name": "Jake Fromm",
+      "pos": "QB",
+      "year": 2020,
+      "round": 5,
+      "pick": 167,
+      "pred": 1.84,
+      "actual": 0,
+      "p_hit": 0.167,
+      "hit": false
     },
     {
       "name": "John Hightower",
@@ -3022,7 +4667,7 @@
       "year": 2020,
       "round": 5,
       "pick": 168,
-      "pred": 3.16,
+      "pred": 3.35,
       "actual": 4.59,
       "p_hit": 0.727,
       "hit": true
@@ -3055,10 +4700,21 @@
       "year": 2017,
       "round": 5,
       "pick": 170,
-      "pred": 3.35,
+      "pred": 3.48,
       "actual": 0,
       "p_hit": 0.897,
       "hit": false
+    },
+    {
+      "name": "Teagan Quitoriano",
+      "pos": "TE",
+      "year": 2022,
+      "round": 5,
+      "pick": 170,
+      "pred": 3.11,
+      "actual": 4.19,
+      "p_hit": 0.92,
+      "hit": true
     },
     {
       "name": "Alex Collins",
@@ -3077,7 +4733,7 @@
       "year": 2019,
       "round": 5,
       "pick": 171,
-      "pred": 3.57,
+      "pred": 3.7,
       "actual": 7.77,
       "p_hit": 0.829,
       "hit": true
@@ -3088,10 +4744,43 @@
       "year": 2020,
       "round": 5,
       "pick": 171,
-      "pred": 4.54,
+      "pred": 4.74,
       "actual": 0,
       "p_hit": 0.765,
       "hit": false
+    },
+    {
+      "name": "Nathan Peterman",
+      "pos": "QB",
+      "year": 2017,
+      "round": 5,
+      "pick": 171,
+      "pred": 4.86,
+      "actual": 0,
+      "p_hit": 0.477,
+      "hit": false
+    },
+    {
+      "name": "Mike White",
+      "pos": "QB",
+      "year": 2018,
+      "round": 5,
+      "pick": 171,
+      "pred": 4.16,
+      "actual": 0,
+      "p_hit": 0.338,
+      "hit": false
+    },
+    {
+      "name": "Payne Durham",
+      "pos": "TE",
+      "year": 2023,
+      "round": 5,
+      "pick": 171,
+      "pred": 3.09,
+      "actual": 3.56,
+      "p_hit": 0.924,
+      "hit": true
     },
     {
       "name": "Rashard Higgins",
@@ -3099,7 +4788,7 @@
       "year": 2016,
       "round": 5,
       "pick": 172,
-      "pred": 5.37,
+      "pred": 5.53,
       "actual": 5.8,
       "p_hit": 0.842,
       "hit": true
@@ -3110,7 +4799,7 @@
       "year": 2017,
       "round": 5,
       "pick": 172,
-      "pred": 3.14,
+      "pred": 3.28,
       "actual": 5.3,
       "p_hit": 0.943,
       "hit": true
@@ -3143,7 +4832,7 @@
       "year": 2020,
       "round": 5,
       "pick": 173,
-      "pred": 3.39,
+      "pred": 3.58,
       "actual": 8.09,
       "p_hit": 0.474,
       "hit": true
@@ -3154,7 +4843,7 @@
       "year": 2018,
       "round": 5,
       "pick": 174,
-      "pred": 2.12,
+      "pred": 2.24,
       "actual": 6.7,
       "p_hit": 0.634,
       "hit": true
@@ -3165,7 +4854,7 @@
       "year": 2019,
       "round": 6,
       "pick": 174,
-      "pred": 4.47,
+      "pred": 4.62,
       "actual": 4.58,
       "p_hit": 0.902,
       "hit": true
@@ -3176,7 +4865,7 @@
       "year": 2017,
       "round": 5,
       "pick": 175,
-      "pred": 3.2,
+      "pred": 3.34,
       "actual": 0,
       "p_hit": 0.898,
       "hit": false
@@ -3187,9 +4876,20 @@
       "year": 2018,
       "round": 6,
       "pick": 175,
-      "pred": 2.49,
+      "pred": 2.64,
       "actual": 5.1,
       "p_hit": 0.721,
+      "hit": true
+    },
+    {
+      "name": "Davis Allen",
+      "pos": "TE",
+      "year": 2023,
+      "round": 5,
+      "pick": 175,
+      "pred": 2.66,
+      "actual": 3.7,
+      "p_hit": 0.917,
       "hit": true
     },
     {
@@ -3209,7 +4909,7 @@
       "year": 2020,
       "round": 5,
       "pick": 176,
-      "pred": 3.02,
+      "pred": 3.17,
       "actual": 7.09,
       "p_hit": 0.793,
       "hit": true
@@ -3226,12 +4926,23 @@
       "hit": true
     },
     {
+      "name": "Kaden Smith",
+      "pos": "TE",
+      "year": 2019,
+      "round": 6,
+      "pick": 176,
+      "pred": 2.06,
+      "actual": 3.95,
+      "p_hit": 0.9,
+      "hit": true
+    },
+    {
       "name": "Trent Taylor",
       "pos": "WR",
       "year": 2017,
       "round": 5,
       "pick": 177,
-      "pred": 2.89,
+      "pred": 3.05,
       "actual": 4.87,
       "p_hit": 0.622,
       "hit": true
@@ -3242,9 +4953,31 @@
       "year": 2023,
       "round": 5,
       "pick": 177,
-      "pred": 4.22,
+      "pred": 4.38,
       "actual": 13.33,
       "p_hit": 0.913,
+      "hit": true
+    },
+    {
+      "name": "Temarrick Hemingway",
+      "pos": "TE",
+      "year": 2016,
+      "round": 6,
+      "pick": 177,
+      "pred": 3.32,
+      "actual": 0,
+      "p_hit": 0.866,
+      "hit": false
+    },
+    {
+      "name": "James Mitchell",
+      "pos": "TE",
+      "year": 2022,
+      "round": 5,
+      "pick": 177,
+      "pred": 3.03,
+      "actual": 3.84,
+      "p_hit": 0.914,
       "hit": true
     },
     {
@@ -3253,7 +4986,7 @@
       "year": 2021,
       "round": 5,
       "pick": 179,
-      "pred": 2.01,
+      "pred": 2.17,
       "actual": 0,
       "p_hit": 0.325,
       "hit": false
@@ -3264,7 +4997,7 @@
       "year": 2021,
       "round": 5,
       "pick": 181,
-      "pred": 3.1,
+      "pred": 3.24,
       "actual": 0,
       "p_hit": 0.934,
       "hit": false
@@ -3308,9 +5041,20 @@
       "year": 2019,
       "round": 6,
       "pick": 184,
-      "pred": 2.11,
+      "pred": 2.23,
       "actual": 6.87,
       "p_hit": 0.695,
+      "hit": true
+    },
+    {
+      "name": "Jerell Adams",
+      "pos": "TE",
+      "year": 2016,
+      "round": 6,
+      "pick": 184,
+      "pred": 3.12,
+      "actual": 3.11,
+      "p_hit": 0.866,
       "hit": true
     },
     {
@@ -3319,7 +5063,7 @@
       "year": 2018,
       "round": 6,
       "pick": 185,
-      "pred": 2.74,
+      "pred": 2.86,
       "actual": 4.16,
       "p_hit": 0.903,
       "hit": true
@@ -3330,7 +5074,7 @@
       "year": 2023,
       "round": 6,
       "pick": 185,
-      "pred": 4.41,
+      "pred": 4.56,
       "actual": 7.22,
       "p_hit": 0.892,
       "hit": true
@@ -3341,7 +5085,7 @@
       "year": 2016,
       "round": 6,
       "pick": 186,
-      "pred": 2.03,
+      "pred": 2.14,
       "actual": 4.81,
       "p_hit": 0.63,
       "hit": true
@@ -3363,7 +5107,7 @@
       "year": 2018,
       "round": 6,
       "pick": 187,
-      "pred": 3.81,
+      "pred": 3.97,
       "actual": 3.15,
       "p_hit": 0.753,
       "hit": true
@@ -3374,7 +5118,7 @@
       "year": 2019,
       "round": 6,
       "pick": 187,
-      "pred": 2.38,
+      "pred": 2.54,
       "actual": 0,
       "p_hit": 0.368,
       "hit": false
@@ -3385,7 +5129,7 @@
       "year": 2020,
       "round": 6,
       "pick": 187,
-      "pred": 3.11,
+      "pred": 3.28,
       "actual": 7.06,
       "p_hit": 0.728,
       "hit": true
@@ -3396,7 +5140,7 @@
       "year": 2021,
       "round": 6,
       "pick": 187,
-      "pred": 3.28,
+      "pred": 3.42,
       "actual": 0,
       "p_hit": 0.732,
       "hit": false
@@ -3407,10 +5151,21 @@
       "year": 2023,
       "round": 6,
       "pick": 187,
-      "pred": 4.23,
+      "pred": 4.39,
       "actual": 6.74,
       "p_hit": 0.945,
       "hit": true
+    },
+    {
+      "name": "Nate Sudfeld",
+      "pos": "QB",
+      "year": 2016,
+      "round": 6,
+      "pick": 187,
+      "pred": 5.06,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
     },
     {
       "name": "Elijah McGuire",
@@ -3424,12 +5179,56 @@
       "hit": true
     },
     {
+      "name": "Tanner McKee",
+      "pos": "QB",
+      "year": 2023,
+      "round": 6,
+      "pick": 188,
+      "pred": 1.69,
+      "actual": 0,
+      "p_hit": 0.13,
+      "hit": false
+    },
+    {
+      "name": "David Morgan",
+      "pos": "TE",
+      "year": 2016,
+      "round": 6,
+      "pick": 188,
+      "pred": 2.09,
+      "actual": 3.1,
+      "p_hit": 0.866,
+      "hit": true
+    },
+    {
+      "name": "Jake Luton",
+      "pos": "QB",
+      "year": 2020,
+      "round": 6,
+      "pick": 189,
+      "pred": 1.65,
+      "actual": 0,
+      "p_hit": 0.143,
+      "hit": false
+    },
+    {
+      "name": "Charlie Woerner",
+      "pos": "TE",
+      "year": 2020,
+      "round": 6,
+      "pick": 190,
+      "pred": 2.37,
+      "actual": 3.21,
+      "p_hit": 0.898,
+      "hit": true
+    },
+    {
       "name": "Dylan Cantrell",
       "pos": "WR",
       "year": 2018,
       "round": 6,
       "pick": 191,
-      "pred": 1.44,
+      "pred": 1.59,
       "actual": 0,
       "p_hit": 0.412,
       "hit": false
@@ -3440,7 +5239,7 @@
       "year": 2022,
       "round": 6,
       "pick": 191,
-      "pred": 2.38,
+      "pred": 2.52,
       "actual": 5.51,
       "p_hit": 0.743,
       "hit": true
@@ -3451,10 +5250,21 @@
       "year": 2023,
       "round": 6,
       "pick": 191,
-      "pred": 3.63,
+      "pred": 3.78,
       "actual": 4.18,
       "p_hit": 0.798,
       "hit": true
+    },
+    {
+      "name": "Jake Rudock",
+      "pos": "QB",
+      "year": 2016,
+      "round": 6,
+      "pick": 191,
+      "pred": 7.57,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
     },
     {
       "name": "Kolby Listenbee",
@@ -3462,7 +5272,7 @@
       "year": 2016,
       "round": 6,
       "pick": 192,
-      "pred": 2.26,
+      "pred": 2.37,
       "actual": 0,
       "p_hit": 0.527,
       "hit": false
@@ -3473,7 +5283,7 @@
       "year": 2018,
       "round": 6,
       "pick": 194,
-      "pred": 2.46,
+      "pred": 2.58,
       "actual": 6.89,
       "p_hit": 0.882,
       "hit": true
@@ -3506,7 +5316,7 @@
       "year": 2023,
       "round": 6,
       "pick": 195,
-      "pred": 2.37,
+      "pred": 2.51,
       "actual": 6.25,
       "p_hit": 0.55,
       "hit": true
@@ -3539,10 +5349,32 @@
       "year": 2023,
       "round": 6,
       "pick": 197,
-      "pred": 3.07,
+      "pred": 3.21,
       "actual": 0,
       "p_hit": 0.851,
       "hit": false
+    },
+    {
+      "name": "Trace McSorley",
+      "pos": "QB",
+      "year": 2019,
+      "round": 6,
+      "pick": 197,
+      "pred": 3.19,
+      "actual": 0,
+      "p_hit": 0.329,
+      "hit": false
+    },
+    {
+      "name": "Grant Calcaterra",
+      "pos": "TE",
+      "year": 2022,
+      "round": 6,
+      "pick": 198,
+      "pred": 2.37,
+      "actual": 3.46,
+      "p_hit": 0.914,
+      "hit": true
     },
     {
       "name": "Cody Core",
@@ -3550,10 +5382,21 @@
       "year": 2016,
       "round": 6,
       "pick": 199,
-      "pred": 2.4,
+      "pred": 2.53,
       "actual": 4.68,
       "p_hit": 0.718,
       "hit": true
+    },
+    {
+      "name": "Luke Falk",
+      "pos": "QB",
+      "year": 2018,
+      "round": 6,
+      "pick": 199,
+      "pred": 2.71,
+      "actual": 0,
+      "p_hit": 0.338,
+      "hit": false
     },
     {
       "name": "Quez Watkins",
@@ -3561,7 +5404,7 @@
       "year": 2020,
       "round": 6,
       "pick": 200,
-      "pred": 2.53,
+      "pred": 2.71,
       "actual": 5.16,
       "p_hit": 0.414,
       "hit": true
@@ -3583,7 +5426,7 @@
       "year": 2020,
       "round": 6,
       "pick": 201,
-      "pred": 3.27,
+      "pred": 3.44,
       "actual": 3.88,
       "p_hit": 0.594,
       "hit": true
@@ -3598,6 +5441,28 @@
       "actual": 4.48,
       "p_hit": 0.892,
       "hit": true
+    },
+    {
+      "name": "Brandon Allen",
+      "pos": "QB",
+      "year": 2016,
+      "round": 6,
+      "pick": 201,
+      "pred": 3.4,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
+    },
+    {
+      "name": "Bucky Hodges",
+      "pos": "TE",
+      "year": 2017,
+      "round": 6,
+      "pick": 201,
+      "pred": 2.17,
+      "actual": 0,
+      "p_hit": 0.877,
+      "hit": false
     },
     {
       "name": "Chris Evans",
@@ -3616,7 +5481,7 @@
       "year": 2019,
       "round": 6,
       "pick": 203,
-      "pred": 2.04,
+      "pred": 2.18,
       "actual": 0,
       "p_hit": 0.559,
       "hit": false
@@ -3627,7 +5492,7 @@
       "year": 2021,
       "round": 6,
       "pick": 203,
-      "pred": 4.19,
+      "pred": 4.35,
       "actual": 0,
       "p_hit": 0.866,
       "hit": false
@@ -3642,6 +5507,17 @@
       "actual": 4.79,
       "p_hit": 0.882,
       "hit": true
+    },
+    {
+      "name": "Tanner Lee",
+      "pos": "QB",
+      "year": 2018,
+      "round": 6,
+      "pick": 203,
+      "pred": 4.34,
+      "actual": 0,
+      "p_hit": 0.298,
+      "hit": false
     },
     {
       "name": "Travis Homer",
@@ -3660,7 +5536,7 @@
       "year": 2021,
       "round": 6,
       "pick": 204,
-      "pred": 4.55,
+      "pred": 4.71,
       "actual": 4.43,
       "p_hit": 0.886,
       "hit": true
@@ -3671,7 +5547,7 @@
       "year": 2021,
       "round": 6,
       "pick": 205,
-      "pred": 3.72,
+      "pred": 3.9,
       "actual": 4.33,
       "p_hit": 0.864,
       "hit": true
@@ -3682,7 +5558,7 @@
       "year": 2023,
       "round": 6,
       "pick": 205,
-      "pred": 3.96,
+      "pred": 4.17,
       "actual": 4.41,
       "p_hit": 0.786,
       "hit": true
@@ -3693,7 +5569,7 @@
       "year": 2019,
       "round": 6,
       "pick": 206,
-      "pred": 3.01,
+      "pred": 3.14,
       "actual": 4.75,
       "p_hit": 0.817,
       "hit": true
@@ -3704,9 +5580,20 @@
       "year": 2023,
       "round": 6,
       "pick": 206,
-      "pred": 3.21,
+      "pred": 3.39,
       "actual": 5.64,
       "p_hit": 0.564,
+      "hit": true
+    },
+    {
+      "name": "Tyler Davis",
+      "pos": "TE",
+      "year": 2020,
+      "round": 6,
+      "pick": 206,
+      "pred": 1.88,
+      "actual": 2.27,
+      "p_hit": 0.898,
       "hit": true
     },
     {
@@ -3715,7 +5602,7 @@
       "year": 2018,
       "round": 6,
       "pick": 207,
-      "pred": 2.7,
+      "pred": 2.84,
       "actual": 4.6,
       "p_hit": 0.601,
       "hit": true
@@ -3726,9 +5613,20 @@
       "year": 2020,
       "round": 6,
       "pick": 207,
-      "pred": 4.82,
+      "pred": 5,
       "actual": 7.09,
       "p_hit": 0.857,
+      "hit": true
+    },
+    {
+      "name": "Jeff Driskel",
+      "pos": "QB",
+      "year": 2016,
+      "round": 6,
+      "pick": 207,
+      "pred": 3.61,
+      "actual": 11.35,
+      "p_hit": 0.604,
       "hit": true
     },
     {
@@ -3737,9 +5635,20 @@
       "year": 2019,
       "round": 6,
       "pick": 208,
-      "pred": 3.79,
+      "pred": 3.95,
       "actual": 5.53,
       "p_hit": 0.637,
+      "hit": true
+    },
+    {
+      "name": "Connor Heyward",
+      "pos": "TE",
+      "year": 2022,
+      "round": 6,
+      "pick": 208,
+      "pred": 1.42,
+      "actual": 2.83,
+      "p_hit": 0.914,
       "hit": true
     },
     {
@@ -3748,7 +5657,7 @@
       "year": 2017,
       "round": 6,
       "pick": 209,
-      "pred": 2.1,
+      "pred": 2.25,
       "actual": 0,
       "p_hit": 0.47,
       "hit": false
@@ -3759,7 +5668,7 @@
       "year": 2021,
       "round": 6,
       "pick": 209,
-      "pred": 2.98,
+      "pred": 3.12,
       "actual": 0,
       "p_hit": 0.726,
       "hit": false
@@ -3770,7 +5679,7 @@
       "year": 2018,
       "round": 6,
       "pick": 210,
-      "pred": 2.88,
+      "pred": 3,
       "actual": 3.93,
       "p_hit": 0.867,
       "hit": true
@@ -3781,7 +5690,7 @@
       "year": 2023,
       "round": 6,
       "pick": 210,
-      "pred": 4.79,
+      "pred": 4.97,
       "actual": 6.37,
       "p_hit": 0.863,
       "hit": true
@@ -3820,12 +5729,23 @@
       "hit": true
     },
     {
+      "name": "Jordan Thomas",
+      "pos": "TE",
+      "year": 2018,
+      "round": 6,
+      "pick": 211,
+      "pred": 1.7,
+      "actual": 0,
+      "p_hit": 0.885,
+      "hit": false
+    },
+    {
       "name": "Dezmon Patmon",
       "pos": "WR",
       "year": 2020,
       "round": 6,
       "pick": 212,
-      "pred": 2.12,
+      "pred": 2.3,
       "actual": 0,
       "p_hit": 0.416,
       "hit": false
@@ -3847,10 +5767,21 @@
       "year": 2016,
       "round": 6,
       "pick": 213,
-      "pred": 4.06,
+      "pred": 4.24,
       "actual": 3.48,
       "p_hit": 0.754,
       "hit": true
+    },
+    {
+      "name": "John FitzPatrick",
+      "pos": "TE",
+      "year": 2022,
+      "round": 6,
+      "pick": 213,
+      "pred": 2.01,
+      "actual": 0,
+      "p_hit": 0.914,
+      "hit": false
     },
     {
       "name": "Darwin Thompson",
@@ -3869,7 +5800,7 @@
       "year": 2020,
       "round": 6,
       "pick": 214,
-      "pred": 2.89,
+      "pred": 3.05,
       "actual": 4.43,
       "p_hit": 0.845,
       "hit": true
@@ -3883,6 +5814,17 @@
       "pred": 2.35,
       "actual": 0,
       "p_hit": 0.859,
+      "hit": false
+    },
+    {
+      "name": "Brad Kaaya",
+      "pos": "QB",
+      "year": 2017,
+      "round": 6,
+      "pick": 215,
+      "pred": 2.9,
+      "actual": 0,
+      "p_hit": 0.471,
       "hit": false
     },
     {
@@ -3902,7 +5844,7 @@
       "year": 2020,
       "round": 7,
       "pick": 217,
-      "pred": 3.07,
+      "pred": 3.23,
       "actual": 5.13,
       "p_hit": 0.534,
       "hit": true
@@ -3930,12 +5872,34 @@
       "hit": false
     },
     {
+      "name": "Sam Ehlinger",
+      "pos": "QB",
+      "year": 2021,
+      "round": 6,
+      "pick": 218,
+      "pred": 2.35,
+      "actual": 0,
+      "p_hit": 0.228,
+      "hit": false
+    },
+    {
+      "name": "Ko Kieft",
+      "pos": "TE",
+      "year": 2022,
+      "round": 6,
+      "pick": 218,
+      "pred": 2.68,
+      "actual": 2.4,
+      "p_hit": 0.914,
+      "hit": true
+    },
+    {
       "name": "Stacy Coley",
       "pos": "WR",
       "year": 2017,
       "round": 7,
       "pick": 219,
-      "pred": 1.87,
+      "pred": 2.01,
       "actual": 0,
       "p_hit": 0.659,
       "hit": false
@@ -3946,7 +5910,7 @@
       "year": 2021,
       "round": 6,
       "pick": 219,
-      "pred": 4.09,
+      "pred": 4.25,
       "actual": 0,
       "p_hit": 0.755,
       "hit": false
@@ -3957,9 +5921,20 @@
       "year": 2023,
       "round": 7,
       "pick": 219,
-      "pred": 2.33,
+      "pred": 2.47,
       "actual": 0,
       "p_hit": 0.718,
+      "hit": false
+    },
+    {
+      "name": "Danny Etling",
+      "pos": "QB",
+      "year": 2018,
+      "round": 7,
+      "pick": 219,
+      "pred": 2.17,
+      "actual": 0,
+      "p_hit": 0.301,
       "hit": false
     },
     {
@@ -3979,10 +5954,32 @@
       "year": 2020,
       "round": 7,
       "pick": 220,
-      "pred": 2.61,
+      "pred": 2.77,
       "actual": 3.26,
       "p_hit": 0.687,
       "hit": true
+    },
+    {
+      "name": "Alex McGough",
+      "pos": "QB",
+      "year": 2018,
+      "round": 7,
+      "pick": 220,
+      "pred": 3.55,
+      "actual": 0,
+      "p_hit": 0.391,
+      "hit": false
+    },
+    {
+      "name": "Zack Kuntz",
+      "pos": "TE",
+      "year": 2023,
+      "round": 7,
+      "pick": 220,
+      "pred": 1.63,
+      "actual": 0,
+      "p_hit": 0.917,
+      "hit": false
     },
     {
       "name": "Dazz Newsome",
@@ -3990,7 +5987,7 @@
       "year": 2021,
       "round": 6,
       "pick": 221,
-      "pred": 4.56,
+      "pred": 4.69,
       "actual": 0,
       "p_hit": 0.956,
       "hit": false
@@ -4029,15 +6026,48 @@
       "hit": false
     },
     {
+      "name": "Brandon Doughty",
+      "pos": "QB",
+      "year": 2016,
+      "round": 7,
+      "pick": 223,
+      "pred": 3.39,
+      "actual": 0,
+      "p_hit": 0.604,
+      "hit": false
+    },
+    {
       "name": "Javon Wims",
       "pos": "WR",
       "year": 2018,
       "round": 7,
       "pick": 224,
-      "pred": 1.85,
+      "pred": 1.98,
       "actual": 3.87,
       "p_hit": 0.489,
       "hit": true
+    },
+    {
+      "name": "Cole McDonald",
+      "pos": "QB",
+      "year": 2020,
+      "round": 7,
+      "pick": 224,
+      "pred": 2.55,
+      "actual": 0,
+      "p_hit": 0.243,
+      "hit": false
+    },
+    {
+      "name": "Isaac Nauta",
+      "pos": "TE",
+      "year": 2019,
+      "round": 7,
+      "pick": 224,
+      "pred": 3.14,
+      "actual": 0,
+      "p_hit": 0.9,
+      "hit": false
     },
     {
       "name": "Devin Lucien",
@@ -4045,7 +6075,7 @@
       "year": 2016,
       "round": 7,
       "pick": 225,
-      "pred": 1.92,
+      "pred": 2.04,
       "actual": 0,
       "p_hit": 0.601,
       "hit": false
@@ -4062,12 +6092,23 @@
       "hit": false
     },
     {
+      "name": "Nick Muse",
+      "pos": "TE",
+      "year": 2022,
+      "round": 7,
+      "pick": 227,
+      "pred": 2.33,
+      "actual": 0,
+      "p_hit": 0.914,
+      "hit": false
+    },
+    {
       "name": "Marcell Ateman",
       "pos": "WR",
       "year": 2018,
       "round": 7,
       "pick": 228,
-      "pred": 1.47,
+      "pred": 1.61,
       "actual": 5.41,
       "p_hit": 0.549,
       "hit": true
@@ -4078,10 +6119,21 @@
       "year": 2023,
       "round": 7,
       "pick": 228,
-      "pred": 1.83,
+      "pred": 1.99,
       "actual": 0,
       "p_hit": 0.654,
       "hit": false
+    },
+    {
+      "name": "Tommy Sweeney",
+      "pos": "TE",
+      "year": 2019,
+      "round": 7,
+      "pick": 228,
+      "pred": 2.17,
+      "actual": 3.67,
+      "p_hit": 0.9,
+      "hit": true
     },
     {
       "name": "Demarcus Ayers",
@@ -4089,7 +6141,7 @@
       "year": 2016,
       "round": 7,
       "pick": 229,
-      "pred": 3.12,
+      "pred": 3.27,
       "actual": 0,
       "p_hit": 0.775,
       "hit": false
@@ -4100,7 +6152,7 @@
       "year": 2022,
       "round": 7,
       "pick": 229,
-      "pred": 2.37,
+      "pred": 2.53,
       "actual": 0,
       "p_hit": 0.461,
       "hit": false
@@ -4111,9 +6163,31 @@
       "year": 2016,
       "round": 7,
       "pick": 230,
-      "pred": 3.55,
+      "pred": 3.71,
       "actual": 0,
       "p_hit": 0.846,
+      "hit": false
+    },
+    {
+      "name": "Ben DiNucci",
+      "pos": "QB",
+      "year": 2020,
+      "round": 7,
+      "pick": 231,
+      "pred": 3.55,
+      "actual": 0,
+      "p_hit": 0.232,
+      "hit": false
+    },
+    {
+      "name": "Thomas Duarte",
+      "pos": "TE",
+      "year": 2016,
+      "round": 7,
+      "pick": 231,
+      "pred": 2.51,
+      "actual": 0,
+      "p_hit": 0.866,
       "hit": false
     },
     {
@@ -4166,7 +6240,7 @@
       "year": 2019,
       "round": 7,
       "pick": 236,
-      "pred": 1.13,
+      "pred": 1.26,
       "actual": 0,
       "p_hit": 0.402,
       "hit": false
@@ -4188,7 +6262,7 @@
       "year": 2017,
       "round": 7,
       "pick": 237,
-      "pred": 3.87,
+      "pred": 4.04,
       "actual": 5.52,
       "p_hit": 0.497,
       "hit": true
@@ -4210,7 +6284,7 @@
       "year": 2019,
       "round": 7,
       "pick": 237,
-      "pred": 2.63,
+      "pred": 2.74,
       "actual": 0,
       "p_hit": 0.775,
       "hit": false
@@ -4243,7 +6317,7 @@
       "year": 2017,
       "round": 7,
       "pick": 239,
-      "pred": 3.05,
+      "pred": 3.25,
       "actual": 3.62,
       "p_hit": 0.868,
       "hit": true
@@ -4254,9 +6328,20 @@
       "year": 2019,
       "round": 7,
       "pick": 239,
-      "pred": 2.56,
+      "pred": 2.73,
       "actual": 0,
       "p_hit": 0.742,
+      "hit": false
+    },
+    {
+      "name": "Max Duggan",
+      "pos": "QB",
+      "year": 2023,
+      "round": 7,
+      "pick": 239,
+      "pred": 5.95,
+      "actual": 0,
+      "p_hit": 0.358,
       "hit": false
     },
     {
@@ -4265,10 +6350,21 @@
       "year": 2018,
       "round": 7,
       "pick": 240,
-      "pred": 2.12,
+      "pred": 2.26,
       "actual": 4.79,
       "p_hit": 0.569,
       "hit": true
+    },
+    {
+      "name": "Tommy Stevens",
+      "pos": "QB",
+      "year": 2020,
+      "round": 7,
+      "pick": 240,
+      "pred": 3.81,
+      "actual": 0,
+      "p_hit": 0.242,
+      "hit": false
     },
     {
       "name": "Charone Peake",
@@ -4276,7 +6372,7 @@
       "year": 2016,
       "round": 7,
       "pick": 241,
-      "pred": 1.05,
+      "pred": 1.15,
       "actual": 3.74,
       "p_hit": 0.482,
       "hit": true
@@ -4293,12 +6389,23 @@
       "hit": false
     },
     {
+      "name": "Chris Oladokun",
+      "pos": "QB",
+      "year": 2022,
+      "round": 7,
+      "pick": 241,
+      "pred": 1.19,
+      "actual": 0,
+      "p_hit": 0.077,
+      "hit": false
+    },
+    {
       "name": "Tre Nixon",
       "pos": "WR",
       "year": 2021,
       "round": 7,
       "pick": 242,
-      "pred": 2.77,
+      "pred": 2.91,
       "actual": 0,
       "p_hit": 0.769,
       "hit": false
@@ -4309,7 +6416,7 @@
       "year": 2016,
       "round": 7,
       "pick": 243,
-      "pred": 3.15,
+      "pred": 3.29,
       "actual": 0,
       "p_hit": 0.851,
       "hit": false
@@ -4331,7 +6438,7 @@
       "year": 2023,
       "round": 7,
       "pick": 244,
-      "pred": 2.09,
+      "pred": 2.22,
       "actual": 4.47,
       "p_hit": 0.746,
       "hit": true
@@ -4364,7 +6471,7 @@
       "year": 2017,
       "round": 7,
       "pick": 247,
-      "pred": 3.25,
+      "pred": 3.39,
       "actual": 0,
       "p_hit": 0.626,
       "hit": false
@@ -4375,9 +6482,20 @@
       "year": 2019,
       "round": 7,
       "pick": 247,
-      "pred": 1.93,
+      "pred": 2.09,
       "actual": 4.92,
       "p_hit": 0.651,
+      "hit": true
+    },
+    {
+      "name": "Brayden Willis",
+      "pos": "TE",
+      "year": 2023,
+      "round": 7,
+      "pick": 247,
+      "pred": 1.92,
+      "actual": 3.16,
+      "p_hit": 0.917,
       "hit": true
     },
     {
@@ -4397,10 +6515,21 @@
       "year": 2021,
       "round": 7,
       "pick": 249,
-      "pred": 2.32,
+      "pred": 2.47,
       "actual": 4.26,
       "p_hit": 0.886,
       "hit": true
+    },
+    {
+      "name": "Logan Woodside",
+      "pos": "QB",
+      "year": 2018,
+      "round": 7,
+      "pick": 249,
+      "pred": 2.3,
+      "actual": 0,
+      "p_hit": 0.338,
+      "hit": false
     },
     {
       "name": "Brittain Brown",
@@ -4414,6 +6543,17 @@
       "hit": false
     },
     {
+      "name": "Ryan Izzo",
+      "pos": "TE",
+      "year": 2018,
+      "round": 7,
+      "pick": 250,
+      "pred": 1.93,
+      "actual": 3.57,
+      "p_hit": 0.885,
+      "hit": true
+    },
+    {
       "name": "Justin Jackson",
       "pos": "RB",
       "year": 2018,
@@ -4422,6 +6562,28 @@
       "pred": 5.14,
       "actual": 7.08,
       "p_hit": 0.907,
+      "hit": true
+    },
+    {
+      "name": "Mason Schreck",
+      "pos": "TE",
+      "year": 2017,
+      "round": 7,
+      "pick": 251,
+      "pred": 1.93,
+      "actual": 0,
+      "p_hit": 0.877,
+      "hit": false
+    },
+    {
+      "name": "Stephen Sullivan",
+      "pos": "TE",
+      "year": 2020,
+      "round": 7,
+      "pick": 251,
+      "pred": 1.57,
+      "actual": 3.13,
+      "p_hit": 0.898,
       "hit": true
     },
     {
@@ -4441,10 +6603,21 @@
       "year": 2020,
       "round": 7,
       "pick": 252,
-      "pred": 1.64,
+      "pred": 1.79,
       "actual": 4.55,
       "p_hit": 0.317,
       "hit": true
+    },
+    {
+      "name": "Beau Sandland",
+      "pos": "TE",
+      "year": 2016,
+      "round": 7,
+      "pick": 252,
+      "pred": 2.06,
+      "actual": 0,
+      "p_hit": 0.866,
+      "hit": false
     },
     {
       "name": "Auden Tate",
@@ -4452,7 +6625,7 @@
       "year": 2018,
       "round": 7,
       "pick": 253,
-      "pred": 3.27,
+      "pred": 3.4,
       "actual": 5.53,
       "p_hit": 0.812,
       "hit": true
@@ -4463,10 +6636,32 @@
       "year": 2023,
       "round": 7,
       "pick": 253,
-      "pred": 1.98,
+      "pred": 2.09,
       "actual": 4.25,
       "p_hit": 0.864,
       "hit": true
+    },
+    {
+      "name": "Chad Kelly",
+      "pos": "QB",
+      "year": 2017,
+      "round": 7,
+      "pick": 253,
+      "pred": 2.94,
+      "actual": 0,
+      "p_hit": 0.479,
+      "hit": false
+    },
+    {
+      "name": "Caleb Wilson",
+      "pos": "TE",
+      "year": 2019,
+      "round": 7,
+      "pick": 254,
+      "pred": 2.12,
+      "actual": 0,
+      "p_hit": 0.9,
+      "hit": false
     },
     {
       "name": "Austin Proehl",
@@ -4474,7 +6669,7 @@
       "year": 2018,
       "round": 7,
       "pick": 255,
-      "pred": 1.87,
+      "pred": 2,
       "actual": 0,
       "p_hit": 0.582,
       "hit": false
@@ -4485,7 +6680,7 @@
       "year": 2021,
       "round": 7,
       "pick": 255,
-      "pred": 3.3,
+      "pred": 3.49,
       "actual": 0,
       "p_hit": 0.755,
       "hit": false
@@ -4496,7 +6691,7 @@
       "year": 2018,
       "round": 7,
       "pick": 256,
-      "pred": 3.03,
+      "pred": 3.18,
       "actual": 4.79,
       "p_hit": 0.801,
       "hit": true
@@ -4518,7 +6713,7 @@
       "year": 2023,
       "round": 7,
       "pick": 256,
-      "pred": 3.42,
+      "pred": 3.6,
       "actual": 0,
       "p_hit": 0.747,
       "hit": false
@@ -4540,7 +6735,7 @@
       "year": 2021,
       "round": 7,
       "pick": 258,
-      "pred": 3.12,
+      "pred": 3.27,
       "actual": 2.98,
       "p_hit": 0.744,
       "hit": true
@@ -4551,22 +6746,63 @@
       "year": 2022,
       "round": 7,
       "pick": 258,
-      "pred": 1.49,
+      "pred": 1.65,
       "actual": 4.55,
       "p_hit": 0.6,
+      "hit": true
+    },
+    {
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "year": 2022,
+      "round": 7,
+      "pick": 262,
+      "pred": 1.98,
+      "actual": 15.95,
+      "p_hit": 0.165,
       "hit": true
     }
   ],
   "notable": [
+    {
+      "name": "George Kittle",
+      "pos": "TE",
+      "year": 2017,
+      "round": 5,
+      "pick": 146,
+      "pred": 2.82,
+      "actual": 10.09,
+      "diff": 7.27
+    },
     {
       "name": "Tyreek Hill",
       "pos": "WR",
       "year": 2016,
       "round": 5,
       "pick": 165,
-      "pred": 1.78,
+      "pred": 1.89,
       "actual": 12.63,
-      "diff": 10.85
+      "diff": 10.74
+    },
+    {
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "year": 2023,
+      "round": 5,
+      "pick": 177,
+      "pred": 4.38,
+      "actual": 13.33,
+      "diff": 8.95
+    },
+    {
+      "name": "N'Keal Harry",
+      "pos": "WR",
+      "year": 2019,
+      "round": 1,
+      "pick": 32,
+      "pred": 8.61,
+      "actual": 0,
+      "diff": -8.61
     },
     {
       "name": "Derrius Guice",
@@ -4579,6 +6815,16 @@
       "diff": -10.36
     },
     {
+      "name": "Kahale Warring",
+      "pos": "TE",
+      "year": 2019,
+      "round": 3,
+      "pick": 86,
+      "pred": 4.88,
+      "actual": 0,
+      "diff": -4.88
+    },
+    {
       "name": "Chris Carson",
       "pos": "RB",
       "year": 2017,
@@ -4589,14 +6835,24 @@
       "diff": 9.31
     },
     {
-      "name": "Puka Nacua",
+      "name": "Michael Thomas",
       "pos": "WR",
-      "year": 2023,
-      "round": 5,
-      "pick": 177,
-      "pred": 4.22,
-      "actual": 13.33,
-      "diff": 9.11
+      "year": 2016,
+      "round": 2,
+      "pick": 47,
+      "pred": 4.93,
+      "actual": 11.88,
+      "diff": 6.94
+    },
+    {
+      "name": "Devin Asiasi",
+      "pos": "TE",
+      "year": 2020,
+      "round": 3,
+      "pick": 91,
+      "pred": 4.56,
+      "actual": 0,
+      "diff": -4.56
     },
     {
       "name": "Christian McCaffrey",
@@ -4609,14 +6865,44 @@
       "diff": 8.88
     },
     {
-      "name": "N'Keal Harry",
-      "pos": "WR",
-      "year": 2019,
-      "round": 1,
-      "pick": 32,
-      "pred": 8.35,
+      "name": "Dalton Keene",
+      "pos": "TE",
+      "year": 2020,
+      "round": 3,
+      "pick": 101,
+      "pred": 4.48,
       "actual": 0,
-      "diff": -8.35
+      "diff": -4.48
+    },
+    {
+      "name": "Kenny Golladay",
+      "pos": "WR",
+      "year": 2017,
+      "round": 3,
+      "pick": 96,
+      "pred": 3.61,
+      "actual": 10.28,
+      "diff": 6.67
+    },
+    {
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "year": 2022,
+      "round": 7,
+      "pick": 262,
+      "pred": 1.98,
+      "actual": 15.95,
+      "diff": 13.97
+    },
+    {
+      "name": "Hunter Long",
+      "pos": "TE",
+      "year": 2021,
+      "round": 3,
+      "pick": 81,
+      "pred": 4.23,
+      "actual": 0,
+      "diff": -4.23
     },
     {
       "name": "Kyren Williams",
@@ -4629,6 +6915,26 @@
       "diff": 8.28
     },
     {
+      "name": "Tucker Kraft",
+      "pos": "TE",
+      "year": 2023,
+      "round": 3,
+      "pick": 78,
+      "pred": 3.42,
+      "actual": 7.54,
+      "diff": 4.12
+    },
+    {
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "year": 2021,
+      "round": 4,
+      "pick": 112,
+      "pred": 5.94,
+      "actual": 12.11,
+      "diff": 6.17
+    },
+    {
       "name": "De'Von Achane",
       "pos": "RB",
       "year": 2023,
@@ -4639,124 +6945,24 @@
       "diff": 8.02
     },
     {
-      "name": "Bryce Love",
-      "pos": "RB",
+      "name": "Deebo Samuel",
+      "pos": "WR",
       "year": 2019,
-      "round": 4,
-      "pick": 112,
-      "pred": 7.63,
-      "actual": 0,
-      "diff": -7.63
-    },
-    {
-      "name": "Joe Williams",
-      "pos": "RB",
-      "year": 2017,
-      "round": 4,
-      "pick": 121,
-      "pred": 7.31,
-      "actual": 0,
-      "diff": -7.31
-    },
-    {
-      "name": "Jeremy McNichols",
-      "pos": "RB",
-      "year": 2017,
-      "round": 5,
-      "pick": 162,
-      "pred": 7.21,
-      "actual": 0,
-      "diff": -7.21
-    },
-    {
-      "name": "Michael Thomas",
-      "pos": "WR",
-      "year": 2016,
       "round": 2,
-      "pick": 47,
-      "pred": 4.78,
-      "actual": 11.88,
-      "diff": 7.09
+      "pick": 36,
+      "pred": 5.79,
+      "actual": 11.84,
+      "diff": 6.05
     },
     {
-      "name": "Darrynton Evans",
-      "pos": "RB",
+      "name": "Justin Jefferson",
+      "pos": "WR",
       "year": 2020,
-      "round": 3,
-      "pick": 93,
-      "pred": 7.09,
-      "actual": 0,
-      "diff": -7.09
-    },
-    {
-      "name": "Donnel Pumphrey",
-      "pos": "RB",
-      "year": 2017,
-      "round": 4,
-      "pick": 132,
-      "pred": 7.08,
-      "actual": 0,
-      "diff": -7.08
-    },
-    {
-      "name": "Chase Brown",
-      "pos": "RB",
-      "year": 2023,
-      "round": 5,
-      "pick": 163,
-      "pred": 5.3,
-      "actual": 12.25,
-      "diff": 6.95
-    },
-    {
-      "name": "Kenny Golladay",
-      "pos": "WR",
-      "year": 2017,
-      "round": 3,
-      "pick": 96,
-      "pred": 3.42,
-      "actual": 10.28,
-      "diff": 6.85
-    },
-    {
-      "name": "Ezekiel Elliott",
-      "pos": "RB",
-      "year": 2016,
       "round": 1,
-      "pick": 4,
-      "pred": 8.89,
-      "actual": 15.74,
-      "diff": 6.85
-    },
-    {
-      "name": "Alvin Kamara",
-      "pos": "RB",
-      "year": 2017,
-      "round": 3,
-      "pick": 67,
-      "pred": 8.5,
-      "actual": 15.27,
-      "diff": 6.77
-    },
-    {
-      "name": "Tyrion Davis-Price",
-      "pos": "RB",
-      "year": 2022,
-      "round": 3,
-      "pick": 93,
-      "pred": 6.61,
-      "actual": 0,
-      "diff": -6.61
-    },
-    {
-      "name": "Amon-Ra St. Brown",
-      "pos": "WR",
-      "year": 2021,
-      "round": 4,
-      "pick": 112,
-      "pred": 5.77,
-      "actual": 12.11,
-      "diff": 6.34
+      "pick": 22,
+      "pred": 7.51,
+      "actual": 13.53,
+      "diff": 6.02
     }
   ]
 }

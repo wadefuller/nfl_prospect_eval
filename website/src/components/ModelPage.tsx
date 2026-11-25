@@ -17,6 +17,9 @@ const C = {
   border: "rgba(255,255,255,0.07)",
 };
 
+const POS_COL: Record<string, string> = { QB: C.teal, RB: C.gold, WR: C.blue, TE: C.coral };
+const POSITIONS = ["QB", "RB", "WR", "TE"] as const;
+
 const CARD: React.CSSProperties = {
   background: C.card,
   border: `1px solid ${C.border}`,
@@ -31,8 +34,9 @@ const BODY: React.CSSProperties = { fontFamily: "var(--font-body)" };
 // stat-tile sub-label slot.
 function bias_blurb(bias: number): string {
   if (Math.abs(bias) < 0.15) return "predictions are roughly centered";
-  return bias > 0 ? "model runs too cold (predicts low on average)"
-                  : "model runs too hot (predicts high on average)";
+  // bias = mean(predicted − actual): positive = predicts high.
+  return bias > 0 ? "model runs too hot (predicts high on average)"
+                  : "model runs too cold (predicts low on average)";
 }
 
 // ── Stat tile ─────────────────────────────────────────────────────────────────
@@ -80,11 +84,16 @@ function MethodCard({ title, body, chips }: { title: string; body: string; chips
 function InsightCards({ data }: { data: ModelPerformanceData }) {
   const yearBest = [...data.byYear].sort((a, b) => a.mae - b.mae)[0];
   const yearWorst = [...data.byYear].sort((a, b) => b.mae - a.mae)[0];
+  const o = data.overall;
+  const posMae: Record<string, number> = { QB: o.qb_mae, RB: o.rb_mae, WR: o.wr_mae, TE: o.te_mae };
   const roundRows = [
-    ...data.byRoundWR.map(r => ({ ...r, pos: "WR" })),
+    ...data.byRoundQB.map(r => ({ ...r, pos: "QB" })),
     ...data.byRoundRB.map(r => ({ ...r, pos: "RB" })),
+    ...data.byRoundWR.map(r => ({ ...r, pos: "WR" })),
+    ...data.byRoundTE.map(r => ({ ...r, pos: "TE" })),
   ];
-  const weakestRound = [...roundRows].sort((a, b) => b.mae - a.mae)[0];
+  // QB points run on a bigger scale, so compare each group to its own position's miss.
+  const weakestRound = [...roundRows].sort((a, b) => b.mae / posMae[b.pos] - a.mae / posMae[a.pos])[0];
   const weakestRank = [...roundRows].sort((a, b) => a.cor - b.cor)[0];
   const bias = data.overall.bias;
   const biasLabel = bias > 0 ? "underpredicting" : bias < 0 ? "overpredicting" : "neutral";
@@ -105,7 +114,7 @@ function InsightCards({ data }: { data: ModelPerformanceData }) {
     {
       label: "Hardest group",
       value: `${weakestRound.pos} ${weakestRound.round_grp.replace("Round ", "Rd ")}`,
-      detail: `Off by ${weakestRound.mae.toFixed(2)} PPG across ${weakestRound.n} players`,
+      detail: `Off by ${weakestRound.mae.toFixed(2)} PPG across ${weakestRound.n} players — ${(weakestRound.mae / posMae[weakestRound.pos]).toFixed(2)}× the ${weakestRound.pos} average`,
       color: C.coral,
     },
     {
@@ -117,8 +126,8 @@ function InsightCards({ data }: { data: ModelPerformanceData }) {
     {
       label: "Overall skew",
       value: `${bias > 0 ? "+" : ""}${bias.toFixed(2)}`,
-      detail: bias > 0 ? `actual outcomes are this much higher than predicted on average`
-                       : bias < 0 ? `actual outcomes are this much lower than predicted on average`
+      detail: bias > 0 ? `predictions run this much higher than actual outcomes on average`
+                       : bias < 0 ? `predictions run this much lower than actual outcomes on average`
                                   : "predictions are centered",
       color: Math.abs(bias) < 0.15 ? C.teal : C.gold,
     },
@@ -153,18 +162,19 @@ function InsightCards({ data }: { data: ModelPerformanceData }) {
 
 // ── Per-year MAE bar chart ────────────────────────────────────────────────────
 function YearlyMAEChart({ data }: { data: ModelPerformanceData["byYear"] }) {
-  const maxMae = Math.max(...data.flatMap(d => [d.wr_mae, d.rb_mae]));
-  const W = 560, H = 200, PAD = { t: 16, r: 16, b: 32, l: 44 };
+  const key = { QB: "qb_mae", RB: "rb_mae", WR: "wr_mae", TE: "te_mae" } as const;
+  const vals = data.flatMap(d => POSITIONS.map(p => d[key[p]]).filter(v => Number.isFinite(v)));
+  const maxMae = Math.max(...vals);
+  const W = 560, H = 200, PAD = { t: 22, r: 16, b: 32, l: 36 };
   const innerW = W - PAD.l - PAD.r;
   const innerH = H - PAD.t - PAD.b;
-  const barGroupW = innerW / data.length;
-  const barW = barGroupW * 0.3;
+  const groupW = innerW / data.length;
+  const barW = (groupW * 0.78) / POSITIONS.length;
   const yScale = (v: number) => innerH - (v / (maxMae * 1.1)) * innerH;
-  const yTicks = [1, 2, 3, 4].filter(v => v <= maxMae * 1.15);
+  const yTicks = [1, 2, 3, 4, 5, 6, 7, 8].filter(v => v <= maxMae * 1.1);
 
   return (
     <svg viewBox={`0 0 ${W} ${H}`} style={{ width: "100%", overflow: "visible" }}>
-      {/* Grid lines */}
       {yTicks.map(v => {
         const y = PAD.t + yScale(v);
         return (
@@ -174,24 +184,30 @@ function YearlyMAEChart({ data }: { data: ModelPerformanceData["byYear"] }) {
           </g>
         );
       })}
-      {/* Bars */}
       {data.map((d, i) => {
-        const cx = PAD.l + i * barGroupW + barGroupW / 2;
-        const wrH = (d.wr_mae / (maxMae * 1.1)) * innerH;
-        const rbH = (d.rb_mae / (maxMae * 1.1)) * innerH;
+        const x0 = PAD.l + i * groupW + (groupW - barW * POSITIONS.length) / 2;
         return (
           <g key={d.year}>
-            <rect x={cx - barW - 1} y={PAD.t + yScale(d.wr_mae)} width={barW} height={wrH} fill={C.blue} opacity={0.8} rx={2} />
-            <rect x={cx + 1} y={PAD.t + yScale(d.rb_mae)} width={barW} height={rbH} fill={C.gold} opacity={0.8} rx={2} />
-            <text x={cx} y={H - PAD.b + 14} textAnchor="middle" fill={C.muted} fontSize={10} fontFamily="var(--font-mono)">{d.year}</text>
+            {POSITIONS.map((p, j) => {
+              const v = d[key[p]];
+              if (!Number.isFinite(v)) return null;
+              return (
+                <rect key={p} x={x0 + j * barW + 0.5} y={PAD.t + yScale(v)} width={barW - 1}
+                  height={innerH - yScale(v)} fill={POS_COL[p]} opacity={0.85} rx={1.5}>
+                  <title>{`${d.year} ${p}: off by ${v.toFixed(2)} PPG`}</title>
+                </rect>
+              );
+            })}
+            <text x={PAD.l + i * groupW + groupW / 2} y={H - PAD.b + 14} textAnchor="middle" fill={C.muted} fontSize={10} fontFamily="var(--font-mono)">{d.year}</text>
           </g>
         );
       })}
-      {/* Legend */}
-      <rect x={PAD.l} y={4} width={10} height={10} fill={C.blue} rx={2} />
-      <text x={PAD.l + 14} y={13} fill={C.sub} fontSize={10} fontFamily="var(--font-body)">WR</text>
-      <rect x={PAD.l + 42} y={4} width={10} height={10} fill={C.gold} rx={2} />
-      <text x={PAD.l + 56} y={13} fill={C.sub} fontSize={10} fontFamily="var(--font-body)">RB</text>
+      {POSITIONS.map((p, j) => (
+        <g key={p}>
+          <rect x={PAD.l + j * 42} y={2} width={10} height={10} fill={POS_COL[p]} rx={2} />
+          <text x={PAD.l + j * 42 + 14} y={11} fill={C.sub} fontSize={10} fontFamily="var(--font-body)">{p}</text>
+        </g>
+      ))}
     </svg>
   );
 }
@@ -250,10 +266,12 @@ function ScatterChart({ data }: { data: ScatterPoint[] }) {
   const W = 760, H = 430, PAD = { t: 24, r: 24, b: 48, l: 56 };
   const innerW = W - PAD.l - PAD.r;
   const innerH = H - PAD.t - PAD.b;
-  const maxV = 18;
+  // Axis fits the points shown (QBs run past 20 PPG), rounded up to a tick.
+  const maxV = Math.max(8, Math.ceil(Math.max(...data.flatMap(d => [d.pred, d.actual])) / 4) * 4);
   const xS = (v: number) => PAD.l + (v / maxV) * innerW;
   const yS = (v: number) => PAD.t + innerH - (v / maxV) * innerH;
-  const ticks = [0, 4, 8, 12, 16];
+  const ticks = Array.from({ length: maxV / 4 + 1 }, (_, i) => i * 4);
+  const shownPos = POSITIONS.filter(p => data.some(d => d.pos === p));
 
   return (
     <div style={{ position: "relative" }}>
@@ -271,12 +289,7 @@ function ScatterChart({ data }: { data: ScatterPoint[] }) {
         <line x1={xS(0)} x2={xS(maxV)} y1={yS(0)} y2={yS(maxV)} stroke={C.muted} strokeDasharray="5 3" opacity={0.5} />
         {/* Points */}
         {data.map((d, i) => {
-          const col =
-            d.pos === "WR" ? C.blue
-            : d.pos === "RB" ? C.gold
-            : d.pos === "QB" ? C.teal
-            : d.pos === "TE" ? C.coral
-            : C.muted;
+          const col = POS_COL[d.pos] ?? C.muted;
           return (
             <circle
               key={i}
@@ -295,10 +308,12 @@ function ScatterChart({ data }: { data: ScatterPoint[] }) {
         <text x={PAD.l + innerW / 2} y={H - 4} textAnchor="middle" fill={C.muted} fontSize={11} fontFamily="var(--font-body)">Predicted PPG</text>
         <text x={12} y={PAD.t + innerH / 2} textAnchor="middle" fill={C.muted} fontSize={11} fontFamily="var(--font-body)" transform={`rotate(-90, 12, ${PAD.t + innerH / 2})`}>Actual PPG</text>
         {/* Legend */}
-        <circle cx={PAD.l + 4} cy={PAD.t + 10} r={4} fill={C.blue} />
-        <text x={PAD.l + 12} y={PAD.t + 14} fill={C.sub} fontSize={10} fontFamily="var(--font-body)">WR</text>
-        <circle cx={PAD.l + 40} cy={PAD.t + 10} r={4} fill={C.gold} />
-        <text x={PAD.l + 48} y={PAD.t + 14} fill={C.sub} fontSize={10} fontFamily="var(--font-body)">RB</text>
+        {shownPos.map((p, j) => (
+          <g key={p}>
+            <circle cx={PAD.l + 4 + j * 38} cy={PAD.t + 10} r={4} fill={POS_COL[p]} />
+            <text x={PAD.l + 12 + j * 38} y={PAD.t + 14} fill={C.sub} fontSize={10} fontFamily="var(--font-body)">{p}</text>
+          </g>
+        ))}
       </svg>
       {/* Tooltip */}
       {hovered && (
@@ -333,10 +348,9 @@ function ScatterChart({ data }: { data: ScatterPoint[] }) {
 
 // ── Round breakdown table ─────────────────────────────────────────────────────
 function RoundTable({
-  data, accentColor,
+  data,
 }: {
   data: ModelPerformanceData["byRound"];
-  accentColor: string;
 }) {
   return (
     <table style={{ width: "100%", borderCollapse: "collapse" }}>
@@ -361,10 +375,10 @@ function RoundTable({
       <tbody>
         {data.map((r) => (
           <tr key={r.round_grp} style={{ borderBottom: `1px solid ${C.border}` }}>
-            <td style={{ padding: "10px 12px", color: C.text, fontSize: 13, ...BODY }}>{r.round_grp}</td>
+            <td style={{ padding: "10px 12px", color: C.text, fontSize: 13, whiteSpace: "nowrap", ...BODY }}>{r.round_grp}</td>
             <td style={{ padding: "10px 12px", textAlign: "right", color: C.muted, fontSize: 12, ...MONO }}>{r.n}</td>
             <td style={{ padding: "10px 12px", textAlign: "right", fontSize: 14, fontWeight: 700, color: C.text, ...MONO }}>{r.mae.toFixed(2)}</td>
-            <td style={{ padding: "10px 12px", textAlign: "right", fontSize: 13, color: r.cor < 0 ? C.coral : accentColor, ...MONO }}>{r.cor.toFixed(3)}</td>
+            <td style={{ padding: "10px 12px", textAlign: "right", fontSize: 13, color: r.cor < 0 ? C.coral : C.sub, ...MONO }}>{r.cor.toFixed(3)}</td>
             <td style={{ padding: "10px 12px", textAlign: "right", fontSize: 13, color: r.hit_rate >= 0.7 ? C.teal : C.sub, ...MONO }}>
               {(r.hit_rate * 100).toFixed(0)}%
             </td>
@@ -442,8 +456,6 @@ export function ModelPage() {
   }
 
   const o = data.overall;
-  const wrN = data.byRoundWR.reduce((sum, r) => sum + r.n, 0);
-  const rbN = data.byRoundRB.reduce((sum, r) => sum + r.n, 0);
 
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: "40px 24px 64px" }}>
@@ -475,10 +487,16 @@ export function ModelPage() {
         </div>
         {/* Row 2: by position */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))", gap: 12 }}>
-          <StatTile label="WR avg miss" value={o.wr_mae} sub={`ranking quality ${o.wr_cor.toFixed(3)} · ${wrN} receivers`} color={C.text} fmt={v => v.toFixed(2)} />
-          <StatTile label="RB avg miss" value={o.rb_mae} sub={`ranking quality ${o.rb_cor.toFixed(3)} · ${rbN} backs`} color={C.text} fmt={v => v.toFixed(2)} />
-          <StatTile label="WR skew" value={o.wr_bias} sub={bias_blurb(o.wr_bias)} color={Math.abs(o.wr_bias) < 0.15 ? C.teal : C.gold} fmt={v => `${v > 0 ? "+" : ""}${v.toFixed(2)}`} />
-          <StatTile label="RB skew" value={o.rb_bias} sub={bias_blurb(o.rb_bias)} color={Math.abs(o.rb_bias) < 0.15 ? C.teal : C.gold} fmt={v => `${v > 0 ? "+" : ""}${v.toFixed(2)}`} />
+          {([
+            ["QB", o.qb_mae, o.qb_cor, o.qb_bias, o.qb_n, "quarterbacks"],
+            ["RB", o.rb_mae, o.rb_cor, o.rb_bias, o.rb_n, "backs"],
+            ["WR", o.wr_mae, o.wr_cor, o.wr_bias, o.wr_n, "receivers"],
+            ["TE", o.te_mae, o.te_cor, o.te_bias, o.te_n, "tight ends"],
+          ] as const).map(([pos, mae, cor, bias, n, noun]) => (
+            <StatTile key={pos} label={`${pos} avg miss`} value={mae}
+              sub={`ranking quality ${cor.toFixed(3)} · skew ${bias > 0 ? "+" : ""}${bias.toFixed(2)} · ${n} ${noun}`}
+              color={C.text} fmt={v => v.toFixed(2)} />
+          ))}
         </div>
       </section>
 
@@ -529,7 +547,7 @@ export function ModelPage() {
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 16 }}>
               <div>
                 <div style={{ fontSize: 13, fontWeight: 600, color: C.text, ...BODY }}>Accuracy year by year</div>
-                <div style={{ fontSize: 11, color: C.muted, marginTop: 2, ...BODY }}>Avg fantasy PPG miss per draft class — shorter bars are better</div>
+                <div style={{ fontSize: 11, color: C.muted, marginTop: 2, ...BODY }}>Avg fantasy PPG miss per draft class — shorter bars are better. QB scoring runs on a bigger scale.</div>
               </div>
             </div>
             <YearlyMAEChart data={data.byYear} />
@@ -574,36 +592,30 @@ export function ModelPage() {
       <section style={{ marginBottom: 40 }}>
         <SectionLabel>Accuracy by Draft Round</SectionLabel>
         <p style={{ fontSize: 12, color: C.muted, marginBottom: 12, maxWidth: 640, ...BODY }}>
-          The model is most accurate where teams agree (rounds 1&ndash;2) and noisiest in the middle rounds where careers vary widely.
-          <em> Hit rate</em> is the share of players the model correctly classified as making it / not making it.
+          Within rounds 1&ndash;2 the model barely re-orders players (draft slot has already sorted them, so &ldquo;order&rdquo; there is near zero or negative).
+          It adds the most in rounds 3+, where draft capital says the least.
+          <em> Hit %</em> is the share of players in the group who went on to have a qualifying NFL season.
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 16 }}>
-          {/* WR */}
-          <div style={{ ...CARD, padding: 0, overflow: "hidden" }}>
-            <div style={{
-              padding: "10px 12px 8px",
-              borderBottom: `1px solid ${C.border}`,
-              display: "flex", alignItems: "center", gap: 8,
-            }}>
-              <span style={{ width: 8, height: 8, borderRadius: "50%", background: C.blue, flexShrink: 0, display: "inline-block" }} />
-              <span style={{ fontSize: 12, fontWeight: 600, color: C.text, ...BODY }}>Wide Receivers</span>
-              <span style={{ fontSize: 11, color: C.muted, ...MONO, marginLeft: "auto" }}>{wrN} players</span>
+          {([
+            ["QB", "Quarterbacks", data.byRoundQB, o.qb_n],
+            ["RB", "Running Backs", data.byRoundRB, o.rb_n],
+            ["WR", "Wide Receivers", data.byRoundWR, o.wr_n],
+            ["TE", "Tight Ends", data.byRoundTE, o.te_n],
+          ] as const).map(([pos, label, rows, n]) => (
+            <div key={pos} style={{ ...CARD, padding: 0, overflow: "hidden" }}>
+              <div style={{
+                padding: "10px 12px 8px",
+                borderBottom: `1px solid ${C.border}`,
+                display: "flex", alignItems: "center", gap: 8,
+              }}>
+                <span style={{ width: 8, height: 8, borderRadius: "50%", background: POS_COL[pos], flexShrink: 0, display: "inline-block" }} />
+                <span style={{ fontSize: 12, fontWeight: 600, color: C.text, ...BODY }}>{label}</span>
+                <span style={{ fontSize: 11, color: C.muted, ...MONO, marginLeft: "auto" }}>{n} players</span>
+              </div>
+              <RoundTable data={rows} />
             </div>
-            <RoundTable data={data.byRoundWR} accentColor={C.blue} />
-          </div>
-          {/* RB */}
-          <div style={{ ...CARD, padding: 0, overflow: "hidden" }}>
-            <div style={{
-              padding: "10px 12px 8px",
-              borderBottom: `1px solid ${C.border}`,
-              display: "flex", alignItems: "center", gap: 8,
-            }}>
-              <span style={{ width: 8, height: 8, borderRadius: "50%", background: C.gold, flexShrink: 0, display: "inline-block" }} />
-              <span style={{ fontSize: 12, fontWeight: 600, color: C.text, ...BODY }}>Running Backs</span>
-              <span style={{ fontSize: 11, color: C.muted, ...MONO, marginLeft: "auto" }}>{rbN} players</span>
-            </div>
-            <RoundTable data={data.byRoundRB} accentColor={C.gold} />
-          </div>
+          ))}
         </div>
       </section>
 

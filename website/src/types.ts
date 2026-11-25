@@ -213,15 +213,21 @@ export type SortDir = "asc" | "desc";
 
 // Model performance types
 export interface ModelOverall {
+  // All positions pooled. bias = mean(predicted − actual): negative = predicts too low.
   mae: number; cor: number; n: number;
   bias: number;
-  wr_mae: number; rb_mae: number;
-  wr_cor: number; rb_cor: number;
-  wr_bias: number; rb_bias: number;
-  bust_accuracy: number; wr_bust_accuracy: number; rb_bust_accuracy: number;
+  bust_accuracy: number;
+  // Per position (same metrics, prefixed).
+  qb_mae: number; rb_mae: number; wr_mae: number; te_mae: number;
+  qb_cor: number; rb_cor: number; wr_cor: number; te_cor: number;
+  qb_bias: number; rb_bias: number; wr_bias: number; te_bias: number;
+  qb_bust_accuracy: number; rb_bust_accuracy: number;
+  wr_bust_accuracy: number; te_bust_accuracy: number;
+  qb_n: number; rb_n: number; wr_n: number; te_n: number;
 }
 export interface ModelByYear {
-  year: number; n: number; mae: number; cor: number; wr_mae: number; rb_mae: number;
+  year: number; n: number; mae: number; cor: number;
+  qb_mae: number; rb_mae: number; wr_mae: number; te_mae: number;
 }
 export interface ModelByRound {
   round_grp: string; n: number; mae: number; cor: number;
@@ -244,6 +250,8 @@ export interface ModelPerformanceData {
   byRound: ModelByRound[];
   byRoundWR: ModelByRound[];
   byRoundRB: ModelByRound[];
+  byRoundQB: ModelByRound[];
+  byRoundTE: ModelByRound[];
   calibration: CalibrationBucket[];
   scatter: ScatterPoint[];
   notable: NotablePlayer[];

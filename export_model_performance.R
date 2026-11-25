@@ -10,6 +10,8 @@
 #   output/temporal_cv/metrics_by_year.csv  — per-year metrics (hurdle-only,
 #                                              kept for trend chart)
 #   output/bucket_cv/oos_predictions.csv    — bucket OOS predictions
+#   output/temporal_cv_qb_te/oos_predictions.csv — QB/TE hurdle OOS + per-fold
+#                                              ("honest") comps, blended as deployed
 # ─────────────────────────────────────────────────────────────────────────────
 
 library(tidyverse)
@@ -44,55 +46,51 @@ oos <- hurdle |>
     residual = ppg - exp_ppg
   )
 
+# ── QB / TE deployed OOS (11b_temporal_cv_qb_te.R) ───────────────────────────
+# Hurdle OOS blended with comps rebuilt inside each fold (pool < test year),
+# using the same comp shares export_website_data.R applies to exp_ppg.
+QBTE_COMP_SHARE <- c(QB = 0.50, TE = 0.70)
+qbte <- read_csv("output/temporal_cv_qb_te/oos_predictions.csv",
+                 show_col_types = FALSE) |>
+  mutate(
+    comp_share = unname(QBTE_COMP_SHARE[position]),
+    exp_ppg = if_else(is.na(comp_weighted_ppg_honest), exp_ppg,
+                      (1 - comp_share) * exp_ppg +
+                        comp_share * comp_weighted_ppg_honest),
+    hit       = made_it == 1,
+    residual  = ppg - exp_ppg,
+    round_grp = case_when(round == 1 ~ "Round 1", round == 2 ~ "Round 2",
+                          TRUE ~ "Round 3+")
+  )
+stopifnot(all(c("QB", "TE") %in% qbte$position), !anyNA(qbte$exp_ppg),
+          nrow(qbte) > 150)
+
+keep_cols <- c("pfr_player_name", "position", "draft_year", "round", "pick",
+               "made_it", "ppg", "p_made_it", "exp_ppg", "hit", "residual",
+               "round_grp")
+oos <- bind_rows(oos |> select(all_of(keep_cols)),
+                 qbte |> select(all_of(keep_cols)))
+POSITIONS <- c("QB", "RB", "WR", "TE")
+
 mae <- function(a, p) mean(abs(a - p))
 cor_f <- function(a, p) cor(a, p, use = "complete.obs")
 bias  <- function(a, p) mean(p - a)
 
-# ── Overall metrics (ensemble) ───────────────────────────────────────────────
-overall <- list(
-  mae              = round(mae(oos$ppg, oos$exp_ppg), 3),
-  cor              = round(cor_f(oos$exp_ppg, oos$ppg), 3),
-  bias             = round(bias(oos$ppg, oos$exp_ppg), 3),
-  n                = as.integer(nrow(oos)),
-  wr_mae           = round(mae(oos$ppg[oos$position=="WR"],
-                                oos$exp_ppg[oos$position=="WR"]), 3),
-  rb_mae           = round(mae(oos$ppg[oos$position=="RB"],
-                                oos$exp_ppg[oos$position=="RB"]), 3),
-  wr_cor           = round(cor_f(oos$exp_ppg[oos$position=="WR"],
-                                  oos$ppg[oos$position=="WR"]), 3),
-  rb_cor           = round(cor_f(oos$exp_ppg[oos$position=="RB"],
-                                  oos$ppg[oos$position=="RB"]), 3),
-  wr_bias          = round(bias(oos$ppg[oos$position=="WR"],
-                                  oos$exp_ppg[oos$position=="WR"]), 3),
-  rb_bias          = round(bias(oos$ppg[oos$position=="RB"],
-                                  oos$exp_ppg[oos$position=="RB"]), 3),
-  bust_accuracy    = round(mean((oos$p_made_it >= 0.5) == (oos$made_it == 1)), 3),
-  wr_bust_accuracy = round(mean((oos$p_made_it[oos$position=="WR"] >= 0.5) ==
-                                  (oos$made_it[oos$position=="WR"] == 1)), 3),
-  rb_bust_accuracy = round(mean((oos$p_made_it[oos$position=="RB"] >= 0.5) ==
-                                  (oos$made_it[oos$position=="RB"] == 1)), 3)
+# ── Overall metrics (all positions, deployed model) ─────────────────────────
+# bias = mean(predicted - actual): negative means the model predicts too low.
+pos_metrics <- function(d) list(
+  mae           = round(mae(d$ppg, d$exp_ppg), 3),
+  cor           = round(cor_f(d$exp_ppg, d$ppg), 3),
+  bias          = round(bias(d$ppg, d$exp_ppg), 3),
+  bust_accuracy = round(mean((d$p_made_it >= 0.5) == (d$made_it == 1)), 3),
+  n             = as.integer(nrow(d))
 )
-
-# ── QB / TE metrics (separate hurdle pipeline; CV via 11b_temporal_cv_qb_te.R) ─
-qb_te_metrics <- tryCatch({
-  m <- read_csv("output/temporal_cv_qb_te/metrics_summary.csv",
-                show_col_types = FALSE)
-  qb_row <- m |> dplyr::filter(position == "QB")
-  te_row <- m |> dplyr::filter(position == "TE")
-  list(
-    qb_mae = if (nrow(qb_row)) round(qb_row$mae, 3) else NA_real_,
-    qb_cor = if (nrow(qb_row)) round(qb_row$cor, 3) else NA_real_,
-    qb_bias = if (nrow(qb_row)) round(qb_row$bias, 3) else NA_real_,
-    qb_bust_accuracy = if (nrow(qb_row)) round(qb_row$bust_accuracy, 3) else NA_real_,
-    qb_n = if (nrow(qb_row)) as.integer(qb_row$n) else 0L,
-    te_mae = if (nrow(te_row)) round(te_row$mae, 3) else NA_real_,
-    te_cor = if (nrow(te_row)) round(te_row$cor, 3) else NA_real_,
-    te_bias = if (nrow(te_row)) round(te_row$bias, 3) else NA_real_,
-    te_bust_accuracy = if (nrow(te_row)) round(te_row$bust_accuracy, 3) else NA_real_,
-    te_n = if (nrow(te_row)) as.integer(te_row$n) else 0L
-  )
-}, error = function(e) list())
-overall <- c(overall, qb_te_metrics)
+overall <- pos_metrics(oos)
+for (p in POSITIONS) {
+  m <- pos_metrics(filter(oos, position == p))
+  names(m) <- paste0(tolower(p), "_", names(m))
+  overall <- c(overall, m)
+}
 
 # ── By year ─────────────────────────────────────────────────────────────────
 # Recomputed from ensembled OOS so the trend chart reflects the deployed
@@ -104,12 +102,14 @@ by_year_json <- oos |>
     n      = n(),
     mae    = round(mae(ppg, exp_ppg), 3),
     cor    = round(cor_f(exp_ppg, ppg), 3),
-    wr_mae = round(mae(ppg[position == "WR"], exp_ppg[position == "WR"]), 3),
+    qb_mae = round(mae(ppg[position == "QB"], exp_ppg[position == "QB"]), 3),
     rb_mae = round(mae(ppg[position == "RB"], exp_ppg[position == "RB"]), 3),
+    wr_mae = round(mae(ppg[position == "WR"], exp_ppg[position == "WR"]), 3),
+    te_mae = round(mae(ppg[position == "TE"], exp_ppg[position == "TE"]), 3),
     .groups = "drop"
   ) |>
   transmute(year = as.integer(test_year), n = as.integer(n),
-            mae, cor, wr_mae, rb_mae)
+            mae, cor, qb_mae, rb_mae, wr_mae, te_mae)
 
 # ── By round ────────────────────────────────────────────────────────────────
 build_round_group <- function(df) {
@@ -130,6 +130,8 @@ build_round_group <- function(df) {
 by_round    <- build_round_group(oos)
 by_round_wr <- build_round_group(filter(oos, position == "WR"))
 by_round_rb <- build_round_group(filter(oos, position == "RB"))
+by_round_qb <- build_round_group(filter(oos, position == "QB"))
+by_round_te <- build_round_group(filter(oos, position == "TE"))
 
 # ── Scatter ─────────────────────────────────────────────────────────────────
 scatter <- oos |>
@@ -171,9 +173,11 @@ calibration <- oos |>
     obs_rate
   )
 
-# ── Notable residuals (top 20 by absolute residual) ─────────────────────────
+# ── Notable residuals (top 20 by residual / position SD of actual PPG) ─────────────────────────
 notable <- oos |>
-  mutate(abs_res = abs(residual)) |>
+  group_by(position) |>
+  mutate(abs_res = abs(residual) / sd(ppg)) |>
+  ungroup() |>
   slice_max(abs_res, n = 20) |>
   transmute(
     name   = pfr_player_name,
@@ -192,6 +196,8 @@ out <- list(
   byRound    = by_round,
   byRoundWR  = by_round_wr,
   byRoundRB  = by_round_rb,
+  byRoundQB  = by_round_qb,
+  byRoundTE  = by_round_te,
   calibration = calibration,
   scatter    = scatter,
   notable    = notable
@@ -200,9 +206,10 @@ out <- list(
 write_json(out, "website/public/data/model_performance.json",
            pretty = TRUE, auto_unbox = TRUE, digits = NA)
 message("Wrote: website/public/data/model_performance.json")
-message(sprintf("Overall: MAE=%.3f  Cor=%.3f  N=%d", overall$mae, overall$cor, overall$n))
-message(sprintf("  WR: MAE=%.3f  Cor=%.3f", overall$wr_mae, overall$wr_cor))
-message(sprintf("  RB: MAE=%.3f  Cor=%.3f", overall$rb_mae, overall$rb_cor))
-message(sprintf("Bust accuracy: %.1f%% (WR %.1f%%  RB %.1f%%)",
-                100*overall$bust_accuracy, 100*overall$wr_bust_accuracy,
-                100*overall$rb_bust_accuracy))
+message(sprintf("Overall: MAE=%.3f  Cor=%.3f  N=%d  bust acc=%.1f%%",
+                overall$mae, overall$cor, overall$n, 100 * overall$bust_accuracy))
+for (p in tolower(POSITIONS))
+  message(sprintf("  %s: n=%d MAE=%.3f Cor=%.3f Bias=%+.3f",
+                  toupper(p), overall[[paste0(p, "_n")]],
+                  overall[[paste0(p, "_mae")]], overall[[paste0(p, "_cor")]],
+                  overall[[paste0(p, "_bias")]]))

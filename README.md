@@ -140,7 +140,7 @@ excluded.
 |---|---:|---:|---:|---:|
 | QB | 90 | 4.52 | 0.68 | 0.64 |
 | RB | 152 | 2.64 | 0.63 | 0.65 |
-| WR | 242 | 2.36 | 0.53 | 0.54 |
+| WR | 242 | 2.34 | 0.53 | 0.54 |
 | TE | 102 | 1.42 | 0.53 | 0.55 |
 
 QB misses look large because QB scoring runs on a larger scale. A 4.5-PPG miss
@@ -171,7 +171,7 @@ same players with the same actual outcomes:
 |---|---:|---:|---|
 | QB | 4.52 | **3.91** | draft slot is better |
 | RB | **2.64** | 2.80 | model better overall; **clearly better on Day 3 picks** |
-| WR | 2.36 | **2.30** | statistically tied |
+| WR | 2.34 | **2.30** | statistically tied |
 | TE | 1.42 | **1.37** | statistically tied |
 
 The honest summary:
